@@ -7,7 +7,7 @@ const express = require('express');
 const fs = require('fs');
 const path = require('path');
 const { ParallelApplyPool } = require('./agent/parallel_worker');
-const { launchAuthSession, closeAuthSession, isAuthSessionActive, checkAuthStatus } = require('./agent/auth_session');
+const { launchAuthSession, closeAuthSession, isAuthSessionActive, checkAuthStatus, syncFromActiveChrome } = require('./agent/auth_session');
 const { runJobScraper, getScrapedJobs, mergeScrapedJobsIntoIndexHtml } = require('./agent/scrapers/job_scraper');
 const { scrapeDicCommunity, getDicCompanies, getDicJobs } = require('./agent/scrapers/dic_scraper');
 const { loadHistory, saveHistory, isJobApplied, filterUnappliedJobs } = require('./agent/applied_tracker');
@@ -328,6 +328,18 @@ let isScraperRunning = false;
 app.get('/api/auth-status', (req, res) => {
   const status = checkAuthStatus();
   res.json(status);
+});
+
+// 1b. Sync Session Directly From Active Chrome Profile
+app.post('/api/auth-session/sync', (req, res) => {
+  const result = syncFromActiveChrome();
+  if (result.success) {
+    addLog('🔄 [Session Synced] Active Google Chrome profile session (LinkedIn & Naukri cookies) imported into bot storage!');
+    broadcast('AUTH_UPDATE', { browserActive: false, status: 'synced', sessionReady: true });
+  } else {
+    addLog(`⚠️ Session sync note: ${result.message}`);
+  }
+  res.json(result);
 });
 
 // 2. Launch Visible Real Browser for Safe One-Time Login

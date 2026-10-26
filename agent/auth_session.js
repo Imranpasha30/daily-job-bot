@@ -100,10 +100,43 @@ function isAuthSessionActive() {
   return isBrowserOpen;
 }
 
+function syncFromActiveChrome() {
+  const chromeDefault = path.join(process.env.LOCALAPPDATA || '', 'Google', 'Chrome', 'User Data', 'Default');
+  const targetDefault = path.join(PROFILE_DIR, 'Default');
+
+  if (!fs.existsSync(chromeDefault)) {
+    return { success: false, message: 'Google Chrome default profile not found' };
+  }
+
+  const targetNetwork = path.join(targetDefault, 'Network');
+  if (!fs.existsSync(targetNetwork)) {
+    fs.mkdirSync(targetNetwork, { recursive: true });
+  }
+
+  try {
+    const srcCookies = path.join(chromeDefault, 'Network', 'Cookies');
+    if (fs.existsSync(srcCookies)) {
+      fs.copyFileSync(srcCookies, path.join(targetNetwork, 'Cookies'));
+    }
+
+    const srcPrefs = path.join(chromeDefault, 'Preferences');
+    if (fs.existsSync(srcPrefs)) {
+      fs.copyFileSync(srcPrefs, path.join(targetDefault, 'Preferences'));
+    }
+
+    console.log('🔄 Synced session cookies from user active Google Chrome profile!');
+    return { success: true, message: 'Active Google Chrome session synchronized successfully!' };
+  } catch (err) {
+    console.error('Session sync error:', err.message);
+    return { success: false, message: err.message };
+  }
+}
+
 function checkAuthStatus() {
   const profileExists = fs.existsSync(PROFILE_DIR);
   let hasStorage = false;
 
+  // Auto-sync if profile doesn't have storage yet
   if (profileExists) {
     const defaultDir = path.join(PROFILE_DIR, 'Default');
     if (fs.existsSync(defaultDir)) {
@@ -117,11 +150,17 @@ function checkAuthStatus() {
     }
   }
 
+  if (!hasStorage) {
+    const syncRes = syncFromActiveChrome();
+    if (syncRes.success) hasStorage = true;
+  }
+
   return {
     profileDir: PROFILE_DIR,
     profileExists,
     sessionReady: hasStorage,
-    browserActive: isBrowserOpen
+    browserActive: isBrowserOpen,
+    syncedFromActiveProfile: true
   };
 }
 
@@ -134,5 +173,6 @@ module.exports = {
   closeAuthSession,
   isAuthSessionActive,
   checkAuthStatus,
+  syncFromActiveChrome,
   PROFILE_DIR
 };

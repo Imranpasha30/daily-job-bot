@@ -791,16 +791,19 @@
               <span class="badge-status" id="authStatusPill" style="font-size: 11px;">Checking...</span>
             </div>
             <p style="font-size: 12px; color: var(--muted); line-height: 1.5; margin-bottom: 12px;">
-              Log in to your <strong>LinkedIn</strong> &amp; <strong>Naukri</strong> accounts once in a genuine browser profile. All cookies are saved locally in <code>.user_browser_profile/</code>. The scraper uses this session with human pacing to guarantee <strong>ZERO ban risk</strong>.
+              Your active Google Chrome session (LinkedIn, Naukri &amp; Google) is automatically synchronized into the bot's secure local profile (<code>.user_browser_profile/</code>) with <strong>ZERO ban risk</strong>.
             </p>
           </div>
 
-          <div style="display: flex; gap: 10px; margin-top: 6px;">
-            <button class="btn" id="btnOpenAuth" onclick="openAuthSession()" style="background: rgba(6, 182, 212, 0.18); border: 1px solid rgba(6, 182, 212, 0.4); color: #38bdf8; flex: 1; padding: 9px 12px; font-size: 13px;">
-              🔐 Authenticate Now
+          <div style="display: flex; gap: 8px; margin-top: 6px; flex-wrap: wrap;">
+            <button class="btn" id="btnSyncAuth" onclick="syncActiveChromeProfile()" style="background: rgba(16, 185, 129, 0.2); border: 1px solid rgba(16, 185, 129, 0.4); color: #34d399; flex: 1; min-width: 170px; padding: 9px 12px; font-size: 12px; font-weight: 700;">
+              🔄 Use Current Logged-in Chrome (1-Click)
             </button>
-            <button class="btn" id="btnCloseAuth" onclick="closeAuthSession()" style="background: #172033; border: 1px solid #23314f; color: var(--text); padding: 9px 12px; font-size: 13px;">
-              🔒 Done / Close
+            <button class="btn" id="btnOpenAuth" onclick="openAuthSession()" style="background: rgba(6, 182, 212, 0.18); border: 1px solid rgba(6, 182, 212, 0.4); color: #38bdf8; padding: 9px 12px; font-size: 12px;">
+              🔐 Open Browser
+            </button>
+            <button class="btn" id="btnCloseAuth" onclick="closeAuthSession()" style="background: #172033; border: 1px solid #23314f; color: var(--text); padding: 9px 12px; font-size: 12px;">
+              🔒 Close
             </button>
           </div>
         </div>
@@ -1531,19 +1534,40 @@
           pill.className = 'badge-status';
           pill.style.background = 'rgba(6, 182, 212, 0.2)';
           pill.style.color = '#38bdf8';
-          pill.textContent = '🌐 Browser Open (Log in now)';
+          pill.textContent = '🌐 Authenticator Active';
         } else if (data.sessionReady) {
           pill.className = 'badge-status';
           pill.style.background = 'rgba(16, 185, 129, 0.2)';
           pill.style.color = '#34d399';
-          pill.textContent = '🟢 Authenticated / Ready';
+          pill.textContent = '🟢 Authenticated / Ready (Active Session Synced)';
         } else {
           pill.className = 'badge-status';
           pill.style.background = 'rgba(245, 158, 11, 0.2)';
           pill.style.color = '#fbbf24';
-          pill.textContent = '🟡 Not Linked (Guest Mode)';
+          pill.textContent = '🟡 Guest Mode';
         }
       } catch (e) {}
+    }
+
+    async function syncActiveChromeProfile() {
+      const btn = document.getElementById('btnSyncAuth');
+      btn.disabled = true;
+      btn.textContent = '⏳ Syncing...';
+      try {
+        const res = await fetch('/api/auth-session/sync', { method: 'POST' });
+        const data = await res.json();
+        if (data.success) {
+          appendPanelLog('✅ Active Google Chrome session (LinkedIn, Naukri & Google) synced into bot storage!');
+          fetchAuthStatus();
+        } else {
+          appendPanelLog('⚠️ Sync note: ' + data.message);
+        }
+      } catch (e) {
+        appendPanelLog('❌ Sync failed: ' + e.message);
+      } finally {
+        btn.disabled = false;
+        btn.textContent = '🔄 Use Current Logged-in Chrome (1-Click)';
+      }
     }
 
     async function openAuthSession() {
