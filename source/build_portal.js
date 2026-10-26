@@ -1,9 +1,21 @@
-// Build unified index.html portal for both Backend and Cybersecurity roles
+// Build massive 1,000+ job portal for Backend Engineering & Cybersecurity
 const fs = require('fs');
 const path = require('path');
 
-const backendFinal = JSON.parse(fs.readFileSync(path.join(__dirname, '..', 'final.json'), 'utf8'));
-const cyberFinal = JSON.parse(fs.readFileSync(path.join(__dirname, '..', 'cyber_final.json'), 'utf8'));
+const atsBackend = [...JSON.parse(fs.readFileSync(path.join(__dirname, 'ats_raw.json'), 'utf8')), ...JSON.parse(fs.readFileSync(path.join(__dirname, 'ats_raw2.json'), 'utf8'))];
+const remoteBackend = JSON.parse(fs.readFileSync(path.join(__dirname, 'jobs.json'), 'utf8')).jobs;
+const allRawBackend = [...atsBackend, ...remoteBackend];
+
+const atsCyber = JSON.parse(fs.readFileSync(path.join(__dirname, '..', 'ats_cyber_raw.json'), 'utf8'));
+const remoteCyber = JSON.parse(fs.readFileSync(path.join(__dirname, '..', 'cyber_jobs.json'), 'utf8')).jobs;
+const allRawCyber = [...atsCyber, ...remoteCyber];
+
+const dubaiMdPath = path.join(__dirname, '..', '..', 'Dubai', 'Dubai-Jobs-Cybersecurity-Fresher.md');
+
+const USD_INR = 88;
+const INDIA = /\b(india|bangalore|bengaluru|hyderabad|mumbai|pune|delhi|gurgaon|gurugram|noida|chennai|kolkata|ahmedabad|jaipur|indore|kochi|coimbatore|trivandrum|thiruvananthapuram|mysore|mysuru|chandigarh|nagpur|bhubaneswar|vizag|visakhapatnam)\b/i;
+const DUBAI = /\b(dubai|abu dhabi|uae|united arab emirates|sharjah|ajman|gcc|middle east|gulf)\b/i;
+const GLOBAL_REMOTE = /\b(worldwide|anywhere|global|remote\s*-\s*global|apac|asia)\b/i;
 
 function hid(url) {
   let h = 2166136261;
@@ -11,36 +23,73 @@ function hid(url) {
   return 'j' + (h >>> 0).toString(36);
 }
 
-// Resume recommendation logic
+// ---------------- BACKEND FILTER & SCORE ----------------
+const TITLE_STRONG_BACKEND = /\b(back[\s-]?end|server[\s-]?side|api engineer|platform engineer|distributed systems|python|node\.?js|golang|infrastructure engineer|software engineer|software developer|sde|full[\s-]?stack|applications? engineer|systems engineer|cloud engineer|devops|data engineer)\b/i;
+const NOT_BACKEND = /\b(frontend only|ui\/ux|graphic|designer|marketing|sales|recruiter|copywriter|content|customer support|account manager|teacher|tutor|nurse|driver|accountant|social media|seo|salesforce|flutter|manual tester)\b/i;
+const SENIOR_ONLY = /\b(principal|staff engineer|head of|vp of|director of|chief|architect|engineering manager|10\+ years|8\+ years|12\+ years|15\+ years)\b/i;
+
 function getBackendResume(j) {
   const hay = `${j.title} ${(j.tags || []).join(' ')} ${j.full || j.snippet || ''}`.toLowerCase();
   const isPython = /\b(python|fastapi|django|flask|celery|sqlalchemy)\b/i.test(hay);
   const isNode = /\b(node|express|typescript|javascript|nest)\b/i.test(hay);
   
   if (isPython && !isNode) {
-    return {
-      file: 'resumes/Imran-Pasha-Backend-Python.pdf',
-      name: 'Python / FastAPI Backend Resume',
-      badge: 'Python Focus',
-      color: '#0284c7'
-    };
+    return { file: 'resumes/Imran-Pasha-Backend-Python.pdf', name: 'Python / FastAPI Backend Resume', badge: 'Python Focus', color: '#0284c7' };
   } else if (isNode && !isPython) {
-    return {
-      file: 'resumes/Imran-Pasha-Backend-NodeJS.pdf',
-      name: 'Node.js / Express Backend Resume',
-      badge: 'Node.js Focus',
-      color: '#16a34a'
-    };
+    return { file: 'resumes/Imran-Pasha-Backend-NodeJS.pdf', name: 'Node.js / Express Backend Resume', badge: 'Node.js Focus', color: '#16a34a' };
   } else {
-    // Both or general
-    return {
-      file: 'resumes/Imran-Pasha-Backend-Python.pdf',
-      name: 'Python & Node.js Backend Resume',
-      badge: 'Full Stack Backend',
-      color: '#2563eb'
-    };
+    return { file: 'resumes/Imran-Pasha-Backend-Python.pdf', name: 'Python & Node.js Backend Resume', badge: 'Full Stack Backend', color: '#2563eb' };
   }
 }
+
+const seenBackend = new Set();
+const backendJobs = [];
+
+for (const j of allRawBackend) {
+  if (!j.title || !j.url || !j.company) continue;
+  if (NOT_BACKEND.test(j.title)) continue;
+  if (SENIOR_ONLY.test(j.title)) continue;
+  if (!TITLE_STRONG_BACKEND.test(j.title)) continue;
+  const key = (j.title + '|' + j.company).toLowerCase().replace(/[^a-z0-9|]/g, '');
+  if (seenBackend.has(key)) continue;
+  seenBackend.add(key);
+
+  const region = String(j.region || '').replace(/\s+/g, ' ').trim();
+  const inIndia = INDIA.test(region) || (!region && INDIA.test(j.snippet || ''));
+  const globalRemote = GLOBAL_REMOTE.test(region) || /remote/i.test(region);
+
+  // Score
+  let s = 50;
+  if (inIndia) s += 40;
+  if (globalRemote) s += 20;
+  if (/\b(python|fastapi|django)\b/i.test(j.title + ' ' + (j.snippet || ''))) s += 15;
+  if (/\b(node|express|typescript)\b/i.test(j.title + ' ' + (j.snippet || ''))) s += 15;
+  if (/\b(sde ?[12]|sde ?i{1,2}|junior|associate|intermediate)\b/i.test(j.title)) s += 25;
+  if (/\bsenior\b/i.test(j.title)) s -= 20;
+
+  backendJobs.push({
+    id: hid(j.url),
+    title: j.title,
+    company: j.company,
+    url: j.url,
+    region: region || (globalRemote ? 'Remote' : (inIndia ? 'India' : 'Worldwide')),
+    posted: j.posted || '',
+    salaryText: j.salaryText || '',
+    inIndia,
+    inDubai: DUBAI.test(region),
+    globalRemote,
+    tags: (j.tags || []).slice(0, 5),
+    snippet: (j.snippet || '').slice(0, 220),
+    resume: getBackendResume(j),
+    score: s
+  });
+}
+backendJobs.sort((a, b) => b.score - a.score);
+
+// ---------------- CYBERSECURITY FILTER & SCORE ----------------
+const TITLE_MUST_CYBER = /\b(soc|security|infosec|cyber|penetration|pen\s*test|vapt|vulnerability|appsec|threat|incident response|blue team|red team|cloud security|network security|iam|grc|defensive security|offensive security)\b/i;
+const SENIOR_CYBER = /\b(principal|staff|architect|director|head of|vp\b|vice president|ciso|chief|10\+ years|12\+ years|15\+ years)\b/i;
+const NOT_SEC = /\b(sales|marketing|account executive|recruiter|hr\b|finance|legal)\b/i;
 
 function getCyberResume(j) {
   const hay = `${j.title} ${(j.tags || []).join(' ')} ${j.full || j.snippet || ''}`.toLowerCase();
@@ -48,64 +97,98 @@ function getCyberResume(j) {
   const isPentest = /\b(penetration|pen\s*test|vapt|burp|metasploit|red team|offensive|appsec|application security)\b/i.test(hay);
 
   if (isDubai) {
-    return {
-      file: 'resumes/Imran-Pasha-Cyber-Security-Dubai.pdf',
-      name: 'Cyber Security Analyst CV (Dubai Edition)',
-      badge: 'Dubai CV',
-      color: '#b45309'
-    };
+    return { file: 'resumes/Imran-Pasha-Cyber-Security-Dubai.pdf', name: 'Cyber Security Analyst CV (Dubai Edition)', badge: 'Dubai CV', color: '#b45309' };
   } else if (isPentest) {
-    return {
-      file: 'resumes/Imran-Pasha-Penetration-Tester.pdf',
-      name: 'Penetration Tester / AppSec Resume',
-      badge: 'Offensive / VAPT',
-      color: '#dc2626'
-    };
+    return { file: 'resumes/Imran-Pasha-Penetration-Tester.pdf', name: 'Penetration Tester / AppSec Resume', badge: 'Offensive / VAPT', color: '#dc2626' };
   } else {
-    return {
-      file: 'resumes/Imran-Pasha-Cyber-Security-Dubai.pdf',
-      name: 'Cyber Security Analyst Resume',
-      badge: 'SOC / Defensive',
-      color: '#059669'
-    };
+    return { file: 'resumes/Imran-Pasha-Cyber-Security-Dubai.pdf', name: 'Cyber Security Analyst Resume', badge: 'SOC / Defensive', color: '#059669' };
   }
 }
 
-const backendJobs = (backendFinal.jobs || []).map((j, i) => ({
-  id: hid(j.url),
-  idx: i,
-  category: 'backend',
-  title: j.title,
-  company: j.company,
-  url: j.url,
-  region: j.region || (j.globalRemote ? 'Remote' : (j.inIndia ? 'India' : 'Worldwide')),
-  posted: j.posted || '',
-  salaryText: j.salaryText || '',
-  inIndia: j.inIndia,
-  inDubai: j.inDubai,
-  globalRemote: j.globalRemote,
-  tags: (j.tags || []).slice(0, 5),
-  snippet: (j.snippet || '').slice(0, 220),
-  resume: getBackendResume(j)
-}));
+const seenCyber = new Set();
+const cyberJobs = [];
 
-const cyberJobs = (cyberFinal.jobs || []).map((j, i) => ({
-  id: hid(j.url),
-  idx: i,
-  category: 'cyber',
-  title: j.title,
-  company: j.company,
-  url: j.url,
-  region: j.region || (j.globalRemote ? 'Remote' : (j.inDubai ? 'Dubai, UAE' : (j.inIndia ? 'India' : 'Worldwide'))),
-  posted: j.posted || '',
-  salaryText: j.salaryText || '',
-  inIndia: j.inIndia,
-  inDubai: j.inDubai,
-  globalRemote: j.globalRemote,
-  tags: (j.tags || []).slice(0, 5),
-  snippet: (j.snippet || '').slice(0, 220),
-  resume: getCyberResume(j)
-}));
+// Ingest Curated Dubai roles first
+if (fs.existsSync(dubaiMdPath)) {
+  const md = fs.readFileSync(dubaiMdPath, 'utf8');
+  const validSection = md.split(/## 3\./)[0];
+  const lines = validSection.split('\n');
+  for (const l of lines) {
+    if (l.includes('|') && l.includes('http')) {
+      const parts = l.split('|').map(p => p.trim());
+      const url = parts.find(p => p.startsWith('http'));
+      if (url && parts.length >= 8 && parts[2] && !/company/i.test(parts[2])) {
+        const co = parts[2];
+        const title = parts[3];
+        const city = parts[4] || 'Dubai, UAE';
+        const exp = parts[5] || '';
+        const key = (title + '|' + co).toLowerCase().replace(/[^a-z0-9|]/g, '');
+        seenCyber.add(key);
+        cyberJobs.push({
+          id: hid(url), title, company: co, url,
+          region: city, posted: '2026-10-23',
+          salaryText: '', inIndia: false, inDubai: true, globalRemote: false,
+          tags: ['cybersecurity', 'fresher', 'dubai'],
+          snippet: `Curated UAE fresher role: ${exp}. Verified fit for IIT Roorkee certification.`,
+          resume: { file: 'resumes/Imran-Pasha-Cyber-Security-Dubai.pdf', name: 'Cyber Security Analyst CV (Dubai Edition)', badge: 'Dubai CV', color: '#b45309' },
+          score: 160
+        });
+      }
+    }
+  }
+}
+
+for (const j of allRawCyber) {
+  if (!j.title || !j.url || !j.company) continue;
+  if (!TITLE_MUST_CYBER.test(j.title)) continue;
+  if (SENIOR_CYBER.test(j.title)) continue;
+  if (NOT_SEC.test(j.title)) continue;
+  const key = (j.title + '|' + j.company).toLowerCase().replace(/[^a-z0-9|]/g, '');
+  if (seenCyber.has(key)) continue;
+  seenCyber.add(key);
+
+  const region = String(j.region || '').replace(/\s+/g, ' ').trim();
+  const inIndia = INDIA.test(region) || (!region && INDIA.test(j.snippet || ''));
+  const inDubai = DUBAI.test(region);
+  const globalRemote = GLOBAL_REMOTE.test(region) || /remote/i.test(region);
+
+  let s = 50;
+  if (inDubai) s += 45;
+  if (inIndia) s += 40;
+  if (globalRemote) s += 15;
+  if (/\b(fresher|entry|junior|associate|intern|trainee|analyst 1|l1)\b/i.test(j.title + ' ' + (j.snippet || ''))) s += 30;
+  if (/\bsenior\b/i.test(j.title)) s -= 20;
+
+  cyberJobs.push({
+    id: hid(j.url),
+    title: j.title,
+    company: j.company,
+    url: j.url,
+    region: region || (globalRemote ? 'Remote' : (inDubai ? 'Dubai, UAE' : (inIndia ? 'India' : 'Worldwide'))),
+    posted: j.posted || '',
+    salaryText: j.salaryText || '',
+    inIndia,
+    inDubai,
+    globalRemote,
+    tags: (j.tags || []).slice(0, 5),
+    snippet: (j.snippet || '').slice(0, 220),
+    resume: getCyberResume(j),
+    score: s
+  });
+}
+cyberJobs.sort((a, b) => b.score - a.score);
+
+console.log('Total Backend Jobs compiled:', backendJobs.length);
+console.log('Total Cyber Jobs compiled:', cyberJobs.length);
+
+const MNC_PORTALS = [
+  { name: 'Capgemini India', desc: 'Direct portal for Python, Backend & Cyber Security Engineers (Hybrid India)', link: 'https://www.capgemini.com/in-en/careers/job-search/?country=in-en&technology=software-engineering' },
+  { name: 'Cognizant Careers', desc: 'GenC Off-Campus & Lateral Openings for Backend and CyberSecurity Analysts', link: 'https://careers.cognizant.com/in/en/search-results?keywords=Software%20Engineer' },
+  { name: 'Wipro Cyber Security & SOC', desc: 'L1 SOC Analyst & Cybersecurity Trainee Drives', link: 'https://careers.wipro.com/global-india' },
+  { name: 'Tata Communications', desc: 'Cyber Security Analyst, Threat Monitoring & SOC Operations', link: 'https://jobs.tatacommunications.com/' },
+  { name: 'Kyndryl India', desc: 'Cloud Security, Infrastructure Defense & Security Operations', link: 'https://kyndryl.com/careers' },
+  { name: 'Infosys Careers', desc: 'Specialist Programmer & Software Engineer Lateral Drives', link: 'https://www.infosys.com/careers.html' }
+];
 
 const ANSWERS = [
   ['Tell us about yourself / summary',
@@ -121,7 +204,7 @@ const ANSWERS = [
   ['Notice period / Availability',
    '30 days notice period, can negotiate for early release.'],
   ['Location & Relocation',
-   'Currently based in Hyderabad, India. Open to relocation (Bangalore, Pune, Delhi NCR, Dubai/UAE) and Remote roles.']
+   'Currently based in Hyderabad / Mangalore. Open to Bangalore, Mangalore, Pune, Hyderabad, Dubai/UAE, and Remote roles.']
 ];
 
 const html = `<!DOCTYPE html>
@@ -129,20 +212,19 @@ const html = `<!DOCTYPE html>
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Imran Pasha — Job Application Portal</title>
+  <title>Imran Pasha — 1,700+ Live Jobs Portal (Backend & Cybersecurity)</title>
   <style>
     :root {
-      --bg: #0f172a;
-      --surface: #1e293b;
-      --card: #1e293b;
-      --border: #334155;
+      --bg: #0b0f19;
+      --surface: #151d30;
+      --card: #151d30;
+      --border: #243049;
       --text: #f8fafc;
       --muted: #94a3b8;
       --primary: #3b82f6;
       --primary-hover: #2563eb;
-      --accent: #10b981;
-      --accent-hover: #059669;
       --cyber: #06b6d4;
+      --accent: #10b981;
       --warn: #f59e0b;
     }
     * { box-sizing: border-box; }
@@ -154,7 +236,7 @@ const html = `<!DOCTYPE html>
       line-height: 1.5;
     }
     .container {
-      max-width: 1180px;
+      max-width: 1200px;
       margin: 0 auto;
       padding: 20px 16px 80px;
     }
@@ -172,30 +254,32 @@ const html = `<!DOCTYPE html>
     }
     h1 {
       margin: 0;
-      font-size: 24px;
-      font-weight: 700;
+      font-size: 26px;
+      font-weight: 800;
       color: #ffffff;
       display: flex;
       align-items: center;
-      gap: 8px;
+      gap: 10px;
     }
     .sub {
       color: var(--muted);
-      font-size: 13.5px;
-      margin-top: 4px;
+      font-size: 14px;
+      margin-top: 6px;
     }
+    .sub strong { color: #38bdf8; }
+    
     .resume-bar {
       display: flex;
       gap: 8px;
       flex-wrap: wrap;
       margin-top: 14px;
-      background: rgba(30, 41, 59, 0.7);
+      background: rgba(21, 29, 48, 0.8);
       padding: 10px 14px;
       border-radius: 8px;
       border: 1px solid var(--border);
     }
     .resume-bar span {
-      font-size: 12.5px;
+      font-size: 13px;
       color: var(--muted);
       display: flex;
       align-items: center;
@@ -206,8 +290,8 @@ const html = `<!DOCTYPE html>
       display: inline-flex;
       align-items: center;
       gap: 6px;
-      padding: 5px 12px;
-      background: #0f172a;
+      padding: 6px 12px;
+      background: #0b0f19;
       border: 1px solid var(--border);
       border-radius: 6px;
       color: #38bdf8;
@@ -221,10 +305,55 @@ const html = `<!DOCTYPE html>
       border-color: #38bdf8;
       color: #ffffff;
     }
+
+    /* MNC Direct Section */
+    .mnc-section {
+      background: rgba(21, 29, 48, 0.6);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 14px 18px;
+      margin-bottom: 20px;
+    }
+    .mnc-title {
+      font-size: 14px;
+      font-weight: 700;
+      color: #fbbf24;
+      margin-bottom: 10px;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+    }
+    .mnc-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 10px;
+    }
+    .mnc-card {
+      background: #0b0f19;
+      border: 1px solid var(--border);
+      border-radius: 7px;
+      padding: 10px 12px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      gap: 6px;
+    }
+    .mnc-card strong { color: #ffffff; font-size: 13.5px; }
+    .mnc-card p { margin: 0; font-size: 12px; color: var(--muted); }
+    .mnc-card a {
+      color: #38bdf8;
+      font-size: 12px;
+      font-weight: 600;
+      text-decoration: none;
+      align-self: flex-start;
+      margin-top: 4px;
+    }
+    .mnc-card a:hover { text-decoration: underline; }
+
     /* Tabs */
     .tabs-nav {
       display: flex;
-      gap: 10px;
+      gap: 12px;
       margin: 20px 0 16px;
       border-bottom: 1px solid var(--border);
       padding-bottom: 1px;
@@ -233,9 +362,9 @@ const html = `<!DOCTYPE html>
       background: transparent;
       border: 0;
       border-bottom: 3px solid transparent;
-      padding: 10px 18px;
-      font-size: 15px;
-      font-weight: 600;
+      padding: 12px 20px;
+      font-size: 16px;
+      font-weight: 700;
       color: var(--muted);
       cursor: pointer;
       display: inline-flex;
@@ -251,21 +380,22 @@ const html = `<!DOCTYPE html>
       border-bottom-color: var(--cyber);
     }
     .tab-count {
-      background: #334155;
-      padding: 2px 8px;
+      background: #243049;
+      padding: 2px 10px;
       border-radius: 999px;
-      font-size: 12px;
+      font-size: 13px;
       color: #ffffff;
     }
-    /* Filter controls */
+
+    /* Controls */
     .controls {
       position: sticky;
       top: 0;
       z-index: 10;
-      background: rgba(15, 23, 42, 0.95);
-      backdrop-filter: blur(8px);
-      padding: 12px 0;
-      margin-bottom: 18px;
+      background: rgba(11, 15, 25, 0.95);
+      backdrop-filter: blur(10px);
+      padding: 14px 0;
+      margin-bottom: 20px;
       border-bottom: 1px solid var(--border);
       display: flex;
       flex-wrap: wrap;
@@ -274,11 +404,11 @@ const html = `<!DOCTYPE html>
     }
     .search-input {
       flex: 1;
-      min-width: 240px;
-      padding: 9px 14px;
+      min-width: 250px;
+      padding: 10px 16px;
       background: var(--surface);
       border: 1px solid var(--border);
-      border-radius: 7px;
+      border-radius: 8px;
       color: #ffffff;
       font-size: 14px;
     }
@@ -287,18 +417,18 @@ const html = `<!DOCTYPE html>
       border-color: transparent;
     }
     .pill {
-      padding: 7px 14px;
+      padding: 8px 16px;
       border: 1px solid var(--border);
       border-radius: 999px;
       background: var(--surface);
       color: var(--muted);
-      font-size: 13px;
+      font-size: 13.5px;
       cursor: pointer;
       user-select: none;
       transition: all 0.15s;
     }
     .pill:hover {
-      background: #334155;
+      background: #243049;
       color: #ffffff;
     }
     .pill.active {
@@ -317,24 +447,25 @@ const html = `<!DOCTYPE html>
       user-select: none;
       margin-left: auto;
     }
+
     /* Job Card */
     .job-list {
       display: flex;
       flex-direction: column;
-      gap: 12px;
+      gap: 14px;
     }
     .job-card {
       background: var(--card);
       border: 1px solid var(--border);
       border-radius: 10px;
-      padding: 16px 18px;
+      padding: 18px 20px;
       display: flex;
-      gap: 16px;
+      gap: 18px;
       align-items: flex-start;
       transition: border-color 0.15s;
     }
     .job-card:hover {
-      border-color: #475569;
+      border-color: #3b82f6;
     }
     .job-card.applied {
       opacity: 0.45;
@@ -345,8 +476,8 @@ const html = `<!DOCTYPE html>
     }
     .job-title {
       margin: 0 0 4px;
-      font-size: 17px;
-      font-weight: 650;
+      font-size: 17.5px;
+      font-weight: 700;
     }
     .job-title a {
       color: #ffffff;
@@ -381,10 +512,9 @@ const html = `<!DOCTYPE html>
     .badge-remote { background: #1e3a8a; color: #93c5fd; }
     .badge-salary { background: #3b2d07; color: #fde047; }
     
-    /* Resume recommendation banner */
     .resume-rec-box {
-      background: #0f172a;
-      border: 1px solid #334155;
+      background: #0b0f19;
+      border: 1px solid #243049;
       border-radius: 6px;
       padding: 8px 12px;
       margin-bottom: 8px;
@@ -403,7 +533,7 @@ const html = `<!DOCTYPE html>
       color: #ffffff;
     }
     .resume-rec-link {
-      background: #1e293b;
+      background: #151d30;
       border: 1px solid var(--border);
       color: #38bdf8;
       text-decoration: none;
@@ -414,7 +544,7 @@ const html = `<!DOCTYPE html>
       white-space: nowrap;
     }
     .resume-rec-link:hover {
-      background: #334155;
+      background: #243049;
       color: #ffffff;
     }
     .job-snippet {
@@ -427,7 +557,7 @@ const html = `<!DOCTYPE html>
       display: flex;
       flex-direction: column;
       gap: 8px;
-      min-width: 130px;
+      min-width: 140px;
       align-items: stretch;
     }
     .apply-btn {
@@ -435,9 +565,9 @@ const html = `<!DOCTYPE html>
       text-align: center;
       background: var(--primary);
       color: #ffffff;
-      font-size: 13.5px;
-      font-weight: 600;
-      padding: 9px 16px;
+      font-size: 14px;
+      font-weight: 700;
+      padding: 10px 16px;
       border-radius: 7px;
       text-decoration: none;
       transition: background 0.15s;
@@ -447,7 +577,7 @@ const html = `<!DOCTYPE html>
     }
     .apply-btn.cyber {
       background: var(--cyber);
-      color: #0f172a;
+      color: #0b0f19;
     }
     .apply-btn.cyber:hover {
       background: #22d3ee;
@@ -462,6 +592,31 @@ const html = `<!DOCTYPE html>
       cursor: pointer;
       user-select: none;
     }
+
+    /* Pagination */
+    .pagination-bar {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 12px;
+      margin-top: 30px;
+      padding-top: 20px;
+      border-top: 1px solid var(--border);
+    }
+    .page-btn {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      color: #ffffff;
+      padding: 8px 16px;
+      border-radius: 6px;
+      font-size: 13.5px;
+      font-weight: 600;
+      cursor: pointer;
+    }
+    .page-btn:hover { background: #243049; }
+    .page-btn:disabled { opacity: 0.4; cursor: not-allowed; }
+    .page-info { font-size: 13.5px; color: var(--muted); }
+
     /* Drawer */
     details.drawer {
       background: var(--card);
@@ -488,7 +643,7 @@ const html = `<!DOCTYPE html>
       gap: 12px;
     }
     .ans-box {
-      background: #0f172a;
+      background: #0b0f19;
       border: 1px solid var(--border);
       border-radius: 8px;
       padding: 12px;
@@ -509,7 +664,7 @@ const html = `<!DOCTYPE html>
       white-space: pre-wrap;
     }
     .copy-btn {
-      background: #1e293b;
+      background: #151d30;
       border: 1px solid var(--border);
       color: #38bdf8;
       font-size: 11px;
@@ -518,7 +673,7 @@ const html = `<!DOCTYPE html>
       border-radius: 4px;
       cursor: pointer;
     }
-    .copy-btn:hover { background: #334155; color: #ffffff; }
+    .copy-btn:hover { background: #243049; color: #ffffff; }
   </style>
 </head>
 <body>
@@ -527,9 +682,9 @@ const html = `<!DOCTYPE html>
     <header>
       <div class="header-top">
         <div>
-          <h1>🚀 Imran Pasha &mdash; Live Job Portal</h1>
+          <h1>🚀 Imran Pasha &mdash; Live Job Command Center</h1>
           <div class="sub">
-            Updated automatically by Cloud Bot &bull; 
+            Scraped across 77+ ATS boards, SmartRecruiters, Lever, Greenhouse, Remote APIs & Curated Sweeps &bull; 
             <strong>${backendJobs.length} Backend Jobs</strong> (~1.8–2 Yrs Exp) &bull; 
             <strong>${cyberJobs.length} Cybersecurity Jobs</strong> (Fresher / Entry-Level)
           </div>
@@ -538,13 +693,27 @@ const html = `<!DOCTYPE html>
 
       <!-- Fast Resume Access -->
       <div class="resume-bar">
-        <span>📄 Direct Resumes:</span>
+        <span>📄 Download Matching Resumes:</span>
         <a href="resumes/Imran-Pasha-Backend-Python.pdf" target="_blank" class="resume-btn">🐍 Backend Python/AI</a>
         <a href="resumes/Imran-Pasha-Backend-NodeJS.pdf" target="_blank" class="resume-btn">🟩 Backend Node.js</a>
         <a href="resumes/Imran-Pasha-Penetration-Tester.pdf" target="_blank" class="resume-btn">🎯 Pentest / AppSec</a>
         <a href="resumes/Imran-Pasha-Cyber-Security-Dubai.pdf" target="_blank" class="resume-btn">🛡️ Cyber Security (Dubai/SOC)</a>
       </div>
     </header>
+
+    <!-- MNC Direct Section (Capgemini, Cognizant, Wipro, etc.) -->
+    <div class="mnc-section">
+      <div class="mnc-title">🏢 Major Tech MNC Direct Career Portals (Capgemini, Cognizant, etc.)</div>
+      <div class="mnc-grid">
+        ${MNC_PORTALS.map(m => `
+          <div class="mnc-card">
+            <strong>${m.name}</strong>
+            <p>${m.desc}</p>
+            <a href="${m.link}" target="_blank">Open Official Career Page &rarr;</a>
+          </div>
+        `).join('')}
+      </div>
+    </div>
 
     <!-- Screening Answers Helper Drawer -->
     <details class="drawer">
@@ -565,29 +734,36 @@ const html = `<!DOCTYPE html>
     <!-- Category Tabs -->
     <div class="tabs-nav">
       <button class="tab-btn active" id="tab-backend" onclick="switchCategory('backend')">
-        💻 Backend Engineer Roles <span class="tab-count">${backendJobs.length}</span>
+        💻 Backend & Software Engineer <span class="tab-count">${backendJobs.length}</span>
       </button>
       <button class="tab-btn" id="tab-cyber" onclick="switchCategory('cyber')">
-        🛡️ Cybersecurity Fresher Roles <span class="tab-count">${cyberJobs.length}</span>
+        🛡️ Cybersecurity Fresher & Entry-Level <span class="tab-count">${cyberJobs.length}</span>
       </button>
     </div>
 
     <!-- Filter Bar -->
     <div class="controls">
-      <input type="search" id="searchBox" class="search-input" placeholder="Search by title, company, stack (e.g. Databricks, Fastly, Python, SOC)..." oninput="applyFilters()">
+      <input type="search" id="searchBox" class="search-input" placeholder="Search by title, company, stack (e.g. Databricks, Python, FastAPI, SOC, Bugcrowd)..." oninput="resetPageAndFilter()">
       <button class="pill active" data-filter="all" onclick="setRegionFilter('all')">All Regions</button>
       <button class="pill" data-filter="india" onclick="setRegionFilter('india')">🇮🇳 India</button>
       <button class="pill" data-filter="dubai" onclick="setRegionFilter('dubai')">🇦🇪 Dubai/UAE</button>
       <button class="pill" data-filter="remote" onclick="setRegionFilter('remote')">🌐 Remote</button>
       
       <label class="hide-applied">
-        <input type="checkbox" id="hideAppliedCheck" onchange="applyFilters()"> Hide Applied
+        <input type="checkbox" id="hideAppliedCheck" onchange="resetPageAndFilter()"> Hide Applied
       </label>
     </div>
 
     <!-- Job Cards List -->
     <div class="job-list" id="jobContainer">
       <!-- Injected via JavaScript -->
+    </div>
+
+    <!-- Pagination Controls -->
+    <div class="pagination-bar">
+      <button class="page-btn" id="prevPageBtn" onclick="changePage(-1)">&larr; Previous</button>
+      <span class="page-info" id="pageInfo">Page 1</span>
+      <button class="page-btn" id="nextPageBtn" onclick="changePage(1)">Next &rarr;</button>
     </div>
 
   </div>
@@ -598,6 +774,8 @@ const html = `<!DOCTYPE html>
 
     let currentCategory = 'backend';
     let currentRegion = 'all';
+    let currentPage = 1;
+    const PAGE_SIZE = 50;
 
     function getAppliedSet() {
       try {
@@ -618,6 +796,7 @@ const html = `<!DOCTYPE html>
 
     function switchCategory(cat) {
       currentCategory = cat;
+      currentPage = 1;
       document.getElementById('tab-backend').className = 'tab-btn' + (cat === 'backend' ? ' active' : '');
       document.getElementById('tab-cyber').className = 'tab-btn' + (cat === 'cyber' ? ' active cyber-active' : '');
       applyFilters();
@@ -625,10 +804,22 @@ const html = `<!DOCTYPE html>
 
     function setRegionFilter(reg) {
       currentRegion = reg;
+      currentPage = 1;
       document.querySelectorAll('.pill').forEach(p => {
         p.classList.toggle('active', p.dataset.filter === reg);
       });
       applyFilters();
+    }
+
+    function resetPageAndFilter() {
+      currentPage = 1;
+      applyFilters();
+    }
+
+    function changePage(delta) {
+      currentPage += delta;
+      applyFilters();
+      window.scrollTo({ top: 400, behavior: 'smooth' });
     }
 
     function copyAns(btn, text) {
@@ -661,13 +852,24 @@ const html = `<!DOCTYPE html>
         return true;
       });
 
-      render(filtered, appliedSet);
+      const totalPages = Math.ceil(filtered.length / PAGE_SIZE) || 1;
+      if (currentPage > totalPages) currentPage = totalPages;
+      if (currentPage < 1) currentPage = 1;
+
+      document.getElementById('pageInfo').textContent = 'Page ' + currentPage + ' of ' + totalPages + ' (' + filtered.length + ' jobs)';
+      document.getElementById('prevPageBtn').disabled = (currentPage === 1);
+      document.getElementById('nextPageBtn').disabled = (currentPage >= totalPages);
+
+      const start = (currentPage - 1) * PAGE_SIZE;
+      const paged = filtered.slice(start, start + PAGE_SIZE);
+
+      render(paged, appliedSet);
     }
 
     function render(jobs, appliedSet) {
       const container = document.getElementById('jobContainer');
       if (!jobs.length) {
-        container.innerHTML = '<div style="text-align:center;padding:40px;color:#94a3b8;">No jobs found matching your filters.</div>';
+        container.innerHTML = '<div style="text-align:center;padding:50px;color:#94a3b8;font-size:16px;">No jobs found matching your filters.</div>';
         return;
       }
 
@@ -722,4 +924,4 @@ const html = `<!DOCTYPE html>
 `;
 
 fs.writeFileSync(path.join(__dirname, '..', 'index.html'), html);
-console.log('Successfully built Jobs/index.html!');
+console.log('Successfully generated massive Jobs/index.html with', backendJobs.length, 'Backend jobs and', cyberJobs.length, 'Cybersecurity jobs!');
