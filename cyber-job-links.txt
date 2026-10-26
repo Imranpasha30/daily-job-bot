@@ -1,0 +1,487 @@
+Cybersecurity jobs — generated 2026-10-26T07:06:23.226Z
+
+  1. Information Security Engineer III — Tower Research Capital (Gurgaon)
+     https://www.tower-research.com/open-positions/?gh_jid=7746119
+  2. Application Security Engineer  II (Contract - 5 months ) — Bugcrowd (Remote - India)
+     https://boards.greenhouse.io/bugcrowd/jobs/8288958?gh_jid=8288958
+  3. Senior InfoSec Analyst — MongoDB (Gurugram)
+     https://www.mongodb.com/careers/job/?gh_jid=8264766
+  4. Security Engineer III -SOC — Anaplan (Gurugram, India)
+     https://job-boards.greenhouse.io/anaplan/jobs/8624597002
+  5. Team Lead- Threat Analyst — sophos (India)
+     https://jobs.lever.co/sophos/f33e1edc-01bc-4716-bd69-71617ae4efb7
+  6. Threat Analyst — sophos (India)
+     https://jobs.lever.co/sophos/dbf278bc-c891-490a-9b58-a7daabb3525c
+  7. Manager, Incident Response — sophos (India)
+     https://jobs.lever.co/sophos/f2ff9a0f-e943-4e85-aedb-5710e4efc0ba
+  8. Information Security Engineer   — bureau (Bangalore)
+     https://jobs.ashbyhq.com/bureau/1d4eaee6-2d65-4d84-9092-4bd0533dc899
+  9. Application Security Engineer — Bugcrowd (Remote - India)
+     https://boards.greenhouse.io/bugcrowd/jobs/8288959?gh_jid=8288959
+ 10. Senior Incident Response Analyst — sophos (India)
+     https://jobs.lever.co/sophos/19260ffe-2626-439d-a314-278bbdbafe40
+ 11. Sr. Manager, Information Security – Application Security & Red Team  — Netskope (Bengaluru, Karnataka, India)
+     https://www.netskope.com/company/careers/open-positions/?gh_jid=7982600
+ 12. Security Engineer IV — meesho (Bangalore, Karnataka)
+     https://jobs.lever.co/meesho/f4e2e8e1-6863-4fe0-85fb-7840189cad3f
+ 13. Senior Security Engineer - Customer Engineering  — Harness  (Bengaluru, Karnataka, India)
+     https://www.harness.io/company/jobs/apply?gh_jid=5214517007&gh_jid=5214517007
+ 14. SIEM & SecOps Engineer II — zeta (Hyderabad)
+     https://jobs.lever.co/zeta/f140e9d7-8d0c-4e24-bace-8568385b6f5c
+ 15. Product Security Engineer II — zeta (Hyderabad)
+     https://jobs.lever.co/zeta/e21ca17d-7bf2-4781-94bb-bcfc8943aae0
+ 16. Security Engineer 2 — fampay (Bengaluru)
+     https://jobs.lever.co/fampay/df8548ac-a0e4-4cd6-a97c-427231b4b3e9
+ 17. Security Engineer — Starburst (India)
+     https://job-boards.greenhouse.io/starburst/jobs/5399498008
+ 18. Security Engineer - Identity and Access  — Rubrik Job Board (Bangalore, India)
+     https://www.rubrik.com/company/careers/departments/job.8220011?gh_jid=8220011
+ 19. Cloud Security Engineer — HighRadius (Hyderabad, Telangana, India)
+     https://www.highradius.com/about/careers-list/?gh_jid=7511618003
+ 20. Manager- Application Security — InMobi  (Bengaluru)
+     https://job-boards.greenhouse.io/inmobi/jobs/7116456
+ 21. Platform & Security Engineer — atlys (Delhi HQ)
+     https://jobs.ashbyhq.com/atlys/4e7f3547-17a4-44cc-a41c-cf64ea7e58c5
+ 22. Supply Chain Security Engineer — Glean (Bangalore, India)
+     https://job-boards.greenhouse.io/gleanwork/jobs/4612849005
+ 23. Security Engineer III — meesho (Bangalore, Karnataka)
+     https://jobs.lever.co/meesho/d2f50690-efbf-45c6-8985-1494901725e6
+ 24. Security GRC Analyst  — Rockstar Games (Bengaluru, Karnataka, India)
+     https://job-boards.greenhouse.io/rockstargames/jobs/7827686003
+ 25. Cyber Security GTM Enablement Lead (Product-Led) — CloudSEK (Bengaluru, Karnataka, India)
+     https://job-boards.greenhouse.io/cloudsek/jobs/5793271004
+ 26. Security Engineer III (~Senior Identity Security Engineer) — Anaplan (Gurugram, India)
+     https://job-boards.greenhouse.io/anaplan/jobs/8610282002
+ 27. Senior Security Engineer — demandbase (Hyderabad)
+     https://jobs.ashbyhq.com/demandbase/1790eca3-31e0-497f-a9e4-45f2c3fd7f60
+ 28. Lead Reliability Engineer - Network and Security — Zenoti (Hyderabad, Telangana, India)
+     https://job-boards.greenhouse.io/zenoti/jobs/8004593003
+ 29. Compliance Analyst — Cohere Health (Hyderabad, Telangana, India)
+     https://job-boards.greenhouse.io/coherehealth/jobs/8010189003
+ 30. Security Researcher II (WAF) — safe (Bengaluru)
+     https://jobs.lever.co/safe/b1e774a9-4b7a-4887-bfc5-042d11ba979a
+ 31. Software Development Engineer II – Sensors / Systems & Security Engineering — safe (Bengaluru)
+     https://jobs.lever.co/safe/d15de9fc-f1f9-4123-9149-d39398bd7988
+ 32. Software Engineer, Security Platform — Coinbase (Remote - India)
+     https://www.coinbase.com/careers/positions/8165441?gh_jid=8165441
+ 33. Specialist, Information Security and Privacy — mindtickle (Pune, Maharashtra)
+     https://jobs.lever.co/mindtickle/da0c54e2-5dca-4fb5-b236-57080dbf8648
+ 34. SDE3, Infrastructure Security Engineer (DevSecOps) — sarvam (Bengaluru)
+     https://jobs.ashbyhq.com/sarvam/1dd07b8b-0c0b-422a-8ff4-c99bdc5add68
+ 35. Technical Success Manager, SecOps — Zscaler (Bangalore, IND; Bangalore, IND)
+     https://job-boards.greenhouse.io/zscaler/jobs/5227661007
+ 36. Senior Tech & Security Regulatory Officer — Adyen (Bengaluru)
+     https://job-boards.greenhouse.io/adyen/jobs/7574487
+ 37. Lead, Product Security — gainsight (IND - Hyderabad)
+     https://jobs.ashbyhq.com/gainsight/7a9d0c57-1382-4898-b9c7-47152c5196eb
+ 38. Security and Automation Engineer — mindtickle (Pune, Maharashtra)
+     https://jobs.lever.co/mindtickle/d62b36db-b088-48c7-a606-4ed458e30208
+ 39. Technical Security Consultant  — CloudSEK (Bengaluru, Karnataka, India)
+     https://job-boards.greenhouse.io/cloudsek/jobs/5997804004
+ 40. Security Consultant - Partnerships — CloudSEK (Bengaluru, Karnataka, India)
+     https://job-boards.greenhouse.io/cloudsek/jobs/5997798004
+ 41. Senior Software Development Engineer in Test (SDET)  - AI Cluster Networking and Security  — cerebras (Bengaluru, IND)
+     https://jobs.ashbyhq.com/cerebras/ba24de32-d882-4e27-b398-90e6356297c5
+ 42. Incident Response Engineer — snowflake (US-CA-Bay Area-Remote) [$143K – $205.8K]
+     https://jobs.ashbyhq.com/snowflake/88a70f56-834d-44d4-add8-e36b739e5495
+ 43. Product Security Engineer  — Bugcrowd (Remote - Costa Rica)
+     https://boards.greenhouse.io/bugcrowd/jobs/8202018?gh_jid=8202018
+ 44. Sr. Security Engineer, Enterprise Security — Databricks (Remote - California)
+     https://databricks.com/company/careers/open-positions/job?gh_jid=8841962002
+ 45. Network Security Engineer (Remote) — cerebras (Remote (US))
+     https://jobs.ashbyhq.com/cerebras/84a9df6b-fe96-4711-8106-971d829b6dc2
+ 46. GRC Analyst  — supabase (Remote, Global)
+     https://jobs.ashbyhq.com/supabase/13478d3f-0093-458f-9f84-af71e66db03f
+ 47. Security Engineer — baseten (San Francisco) [$150K – $250K • Offers Equity]
+     https://jobs.ashbyhq.com/baseten/b85e4b1d-6531-46b5-bc8a-238f3761a50e
+ 48. Offensive Security Engineer — Stripe (US - Remote)
+     https://stripe.com/jobs/search?gh_jid=8233889
+ 49. Penetration Tester - Contract — Bishop Fox (U.S. Remote)
+     http://www.bishopfox.com/jobs?gh_jid=7902114
+ 50. Data Scientist, Cybersecurity  — openai (US - Remote) [$263K – $515K • Offers Equity]
+     https://jobs.ashbyhq.com/openai/894ce80d-c587-4ef0-92d2-b16deb9a06b9
+ 51. Penetration Tester — Bishop Fox (Mexico, Remote)
+     http://www.bishopfox.com/jobs?gh_jid=7905132
+ 52. Security Engineer, Infrastructure Security — openai (US - Remote) [$266K – $445K • Offers Equity]
+     https://jobs.ashbyhq.com/openai/f51f750f-a737-4441-8f96-30133a2a8049
+ 53. Security Engineer, Offensive Security — Anthropic (Remote-Friendly, United States; San Francisco, CA | Seattle, WA | New York City, NY | Washington, DC)
+     https://job-boards.greenhouse.io/anthropic/jobs/5418977008
+ 54. Platform Security Engineer (AMER/APAC) — supabase (Remote, Global)
+     https://jobs.ashbyhq.com/supabase/8fa1c7a0-a85c-4562-a1f5-4dd22cadae27
+ 55. Forward Deployed Security Engineer — openai (Washington, DC) [$266K – $445K • Offers Equity]
+     https://jobs.ashbyhq.com/openai/89d61ae8-1ce1-4187-9edd-da8029979e41
+ 56. Security Engineer, Detection & Response — Anthropic (San Francisco, CA | New York City, NY | Seattle, WA; Washington, DC)
+     https://job-boards.greenhouse.io/anthropic/jobs/4982193008
+ 57. Threat Intelligence Lead — Canonical (Anywhere)
+     https://jobicy.com/jobs/149542-threat-intelligence-lead
+ 58. Ubuntu Security Engineer — Canonical (Anywhere)
+     https://jobicy.com/jobs/149565-ubuntu-security-engineer
+ 59. Security Engineer, Incident Response — Twilio (Remote - United Kingdom)
+     https://job-boards.greenhouse.io/twilio/jobs/8055481
+ 60. Offensive Security Engineer, AI  — Coinbase (Remote - Canada)
+     https://www.coinbase.com/careers/positions/8318599?gh_jid=8318599
+ 61. Security Engineer  — Stripe (US Remote)
+     https://stripe.com/jobs/search?gh_jid=8174965
+ 62. Manager, CyberSecurity Risk Management — Rubrik Job Board (Remote)
+     https://www.rubrik.com/company/careers/departments/job.8306164?gh_jid=8306164
+ 63. Application Security Engineer — Glean (Remote - US)
+     https://job-boards.greenhouse.io/gleanwork/jobs/4728513005
+ 64. Platform Security Engineer — Glean (Remote - US)
+     https://job-boards.greenhouse.io/gleanwork/jobs/4728507005
+ 65. Product Security Engineer — Coinbase (Remote - Canada)
+     https://www.coinbase.com/careers/positions/8165389?gh_jid=8165389
+ 66. Security Engineer - Threat Intel — Anthropic (New York City, NY; Remote-Friendly (Travel-Required) | San Francisco, CA | Washington, DC; San Francisco, CA | New York City, NY)
+     https://job-boards.greenhouse.io/anthropic/jobs/5195705008
+ 67. Software Engineer, Infrastructure Security — openai (US - Remote) [$266K – $445K • Offers Equity]
+     https://jobs.ashbyhq.com/openai/98ad9beb-4f91-496c-bd16-ac0b2a8d5bb2
+ 68. Senior Information Security Engineer — Zscaler (Remote - Costa Rica)
+     https://job-boards.greenhouse.io/zscaler/jobs/5202103007
+ 69. Senior Web Security Engineer, Browser Platform — DuckDuckGo (Anywhere)
+     https://jobicy.com/jobs/151281-senior-web-security-engineer-browser-platform
+ 70. Senior Security Engineer - Enterprise Security — snowflake (US-WA-Bellevue) [$176K – $253K]
+     https://jobs.ashbyhq.com/snowflake/a2b6a785-5103-4668-b5ff-12a7ac00249e
+ 71. Senior Security Engineer, Security Incident Response Team (SIRT) - EMEA — GitLab (Remote, Israel; Remote, Poland; Remote, United Kingdom)
+     https://job-boards.greenhouse.io/gitlab/jobs/8628447002
+ 72. Senior AI Information Security Engineer — Tenable, Inc. (US - Remote - Massachusetts , US - Headquarters - Maryland - Columbia)
+     https://job-boards.greenhouse.io/tenableinc/jobs/5434299008
+ 73. Security Engineer — deepgram (USA - Remote) [$150K – $245K • Offers Equity • Offers Bonus • Multiple Ranges]
+     https://jobs.ashbyhq.com/deepgram/89c0ef18-7433-4c0e-b136-4b03f326c86f
+ 74. Incident Response Engineer 2 — sophos (United Kingdom)
+     https://jobs.lever.co/sophos/bff5b360-c893-49f0-a138-7cb8708d1511
+ 75. Threat Analyst 1 — sophos (Canada)
+     https://jobs.lever.co/sophos/8c4a31c6-3ec4-4f15-acc4-2c1e39b70196
+ 76. Threat Analyst 2 — sophos (Canada)
+     https://jobs.lever.co/sophos/1458b534-9d35-435a-9ccb-16dcffd53d7a
+ 77. Red Team Engineer, Safeguards — Anthropic (San Francisco, CA)
+     https://job-boards.greenhouse.io/anthropic/jobs/5320469008
+ 78. Incident Response Security Engineer — clickhouse (United States)
+     https://jobs.ashbyhq.com/clickhouse/8b103ce1-06d7-4442-8faf-e977df75ef85
+ 79. Security Engineer, Agent Security — openai (San Francisco) [$266K – $445K • Offers Equity]
+     https://jobs.ashbyhq.com/openai/e9bea775-7eb6-438a-ab96-27d5f941e69d
+ 80. Senior Security Engineer - Detection Engineering — Fastly (Denver, CO; New York City, NY; San Francisco, CA)
+     https://www.fastly.com/about/jobs/apply?gh_jid=8257627
+ 81. Senior Security Engineer - Detection and Response — Klaviyo (San Francisco, CA)
+     https://www.klaviyo.com/careers/jobs/7661765003?gh_jid=7661765003
+ 82. Risk Analyst — Pavago (Remote)
+     https://remoteOK.com/remote-jobs/remote-risk-analyst-pavago-1137548
+ 83. Lead Application Security Engineer — Agoda (Bangkok, Thailand)
+     https://job-boards.greenhouse.io/agoda/jobs/8241915
+ 84. Threat Intelligence Platform Engineer — Coinbase (Remote - USA)
+     https://www.coinbase.com/careers/positions/8177619?gh_jid=8177619
+ 85. Sr. Manager, Security — Continuous Monitoring v 2.0  — Databricks (Remote - California)
+     https://databricks.com/company/careers/open-positions/job?gh_jid=8470847002
+ 86. Security Engineer, Application Security — sentry (San Francisco, California) [$150K – $200K • Offers Equity]
+     https://jobs.ashbyhq.com/sentry/dc1e73a4-3cb8-4269-82b5-fdc6495b7e83
+ 87. Security Engineer, Application Security — openai (San Francisco) [$266K – $445K • Offers Equity]
+     https://jobs.ashbyhq.com/openai/0322d6d8-6588-4209-a304-83e768063a25
+ 88. Threat Intelligence Engineer — Take-Two Interactive Software, Inc. (Austin, Texas, United States)
+     https://job-boards.greenhouse.io/taketwo/jobs/8079989
+ 89. Insider Risk Security Engineer — Zscaler (Remote - USA)
+     https://job-boards.greenhouse.io/zscaler/jobs/5208421007
+ 90. Incident Response Analyst — sophos (Australia)
+     https://jobs.lever.co/sophos/2e0ff77f-e1db-4cc0-aace-0607a82338c0
+ 91. Senior Manager, Security & Compliance — leap (US (Remote)) [$150K – $190K • Offers Equity]
+     https://jobs.ashbyhq.com/leap/7d8efcd9-5a0d-4cb8-8214-b1e4b130944b
+ 92. Threat Analyst 3 — sophos (Canada)
+     https://jobs.lever.co/sophos/2f25fc88-5235-42e2-9d6a-06c07b728b83
+ 93. AI Security Engineer — plaid (Seattle Office) [$188,748 – $242,676]
+     https://jobs.ashbyhq.com/plaid/bc64da24-0699-4611-8e62-49ffafe2a3e9
+ 94. Security Engineer (Threat Response), Sophos Security Team (IDR) — sophos (Canada)
+     https://jobs.lever.co/sophos/2e029cdb-ed2d-4d92-b383-c77c55f8d1cf
+ 95. Analyste en sécurité de l’information / Information Security Analyst — Tower Research Capital (Montreal)
+     https://www.tower-research.com/open-positions/?gh_jid=7704976
+ 96. Incident Response & Threat Intelligence Lead​ — sophos (Japan)
+     https://jobs.lever.co/sophos/558afb83-00d9-479c-b5ba-75d1e3d39d5d
+ 97. Incident Response Consultant — sophos (Japan)
+     https://jobs.lever.co/sophos/7350b38b-f49a-4156-8c49-59bc7fd70191
+ 98. Managing Consultant - Red Team — Bishop Fox (U.S. Remote)
+     http://www.bishopfox.com/jobs?gh_jid=8318917
+ 99. Security Engineer, Product Security — Scale AI (New York, NY; San Francisco, CA; Seattle, WA; Washington, DC)
+     https://job-boards.greenhouse.io/scaleai/jobs/4643029005
+100. Security Engineer / Research Engineer, RL Security — Anthropic (San Francisco, CA | New York City, NY | Seattle, WA)
+     https://job-boards.greenhouse.io/anthropic/jobs/5458420008
+101. Hardware Security Engineer, New Grad (2027) — Together AI (San Francisco)
+     https://job-boards.greenhouse.io/togetherai/jobs/5238471007
+102. Security Engineer — Everpure (Prague, Czech Republic)
+     https://job-boards.greenhouse.io/purestorage/jobs/8191920
+103. Network Security Engineer — cerebras (Sunnyvale, CA)
+     https://jobs.ashbyhq.com/cerebras/39c1aea3-d6df-4661-872d-082ba11df5fc
+104. Senior Security Engineer - Detection & Response — Klaviyo (San Francisco, CA)
+     https://www.klaviyo.com/careers/jobs/7991777003?gh_jid=7991777003
+105. GRC Analyst — Vercel (Hybrid - San Francisco, New York City, London)
+     https://job-boards.greenhouse.io/vercel/jobs/6102654004
+106. Manager, Information Security — Synack (Remote in the US)
+     https://job-boards.greenhouse.io/synack/jobs/8156469
+107. Senior  Security Engineer — Navan (Tel-Aviv, Israel)
+     https://navan.com/careers/openings?gh_jid=8257467
+108. Senior Security Engineer,Detection & Incident Response — Everpure (Prague, Czech Republic)
+     https://job-boards.greenhouse.io/purestorage/jobs/8225837
+109. Product Security Engineer — Cloudflare (Hybrid)
+     https://boards.greenhouse.io/cloudflare/jobs/8102768?gh_jid=8102768
+110. Product Security Engineer — Careers at KKR (Boston; New York, New York, United States)
+     https://www.kkr.com/careers/career-opportunities/post?gh_jid=6109544004
+111. Enterprise Security Engineer, Vulnerability Management — openai (San Francisco) [$347K – $445K • Offers Equity]
+     https://jobs.ashbyhq.com/openai/f2d8ed04-3c2f-4298-832b-dda7e1644c1b
+112. Senior Offensive Security Engineer — JFrog (Tel Aviv/ Netanya, Israel)
+     https://join.jfrog.com/job/?job=8222516&gh_jid=8222516
+113. Security Engineer, Detection & Response — sentry (San Francisco, California) [$150K – $200K • Offers Equity]
+     https://jobs.ashbyhq.com/sentry/ac1cb3c4-5408-4912-8591-eea2a84480b7
+114. Red Team - Cyber — openai (San Francisco) [$198K – $320K • Offers Equity]
+     https://jobs.ashbyhq.com/openai/badafdf8-116b-4849-b848-2f20a3ff2732
+115. Security Analyst, Third-Party Ecosystem Risk Management — plaid (New York City Office) [$118,680 – $175,800 • Offers Equity • Multiple Ranges]
+     https://jobs.ashbyhq.com/plaid/94752cfc-4a62-48c9-bcc0-e5f7f1905be6
+116. Offensive Security Engineer — clickhouse (EMEA)
+     https://jobs.ashbyhq.com/clickhouse/75561c67-9c76-4f45-b1a3-70848470bd1e
+117. Corporate Security Engineer — airwallex (US - San Francisco) [$130K – $200K • Offers Equity • Offers Bonus]
+     https://jobs.ashbyhq.com/airwallex/be298e1a-9eed-4845-bc5c-57bf1aaa5589
+118. Security Engineer — Figma (San Francisco, CA • New York, NY • United States)
+     https://boards.greenhouse.io/figma/jobs/5829751004?gh_jid=5829751004
+119. Security Engineer, GRC — plaid (San Francisco HQ) [$156K – $213.6K]
+     https://jobs.ashbyhq.com/plaid/587e83dd-1d1b-4f31-812a-74fc67d67fbe
+120. Senior Product Security Engineer — airwallex (US - San Francisco) [$160K – $250K • Offers Equity • Offers Bonus]
+     https://jobs.ashbyhq.com/airwallex/19bd4876-a691-4497-a31e-893cf62d1d5f
+121. Infrastructure Security Engineer — modal (New York) [$150K – $270K • Offers Equity]
+     https://jobs.ashbyhq.com/modal/8de60620-09bf-4905-910f-a290814a29ee
+122. Senior Application Security Platform Engineer — Rockstar Games (Manhattan, New York, United States)
+     https://job-boards.greenhouse.io/rockstargames/jobs/7782765003
+123. Senior Security Engineer, Vulnerability Management — Datadog (Boston, Massachusetts, USA; New York, New York, USA)
+     https://careers.datadoghq.com/detail/8173840/?gh_jid=8173840
+124. Senior Security Engineer, Security Incident Response Team — Datadog (New York, New York, USA)
+     https://careers.datadoghq.com/detail/8286919/?gh_jid=8286919
+125. Senior Threat Intelligence Engineer — Coinbase (Remote - USA)
+     https://www.coinbase.com/careers/positions/8209803?gh_jid=8209803
+126. Senior Platform Security Engineer — Datadog (Paris, France)
+     https://careers.datadoghq.com/detail/8094188/?gh_jid=8094188
+127. Senior Application Security Engineer — Datadog (Paris, France)
+     https://careers.datadoghq.com/detail/8230663/?gh_jid=8230663
+128. Senior Software Security Engineer — Anthropic (San Francisco, CA | New York City, NY | Seattle, WA)
+     https://job-boards.greenhouse.io/anthropic/jobs/4887959008
+129. Security Software Engineer — Canonical (Anywhere)
+     https://jobicy.com/jobs/149550-security-software-engineer
+130. Security Risk Management Specialist — Canonical (Anywhere)
+     https://jobicy.com/jobs/149564-security-risk-management-specialist
+131. Payroll Tax and Compliance Analyst — Twilio (Remote - Ireland)
+     https://job-boards.greenhouse.io/twilio/jobs/8265268
+132. Senior Commercial Compliance Analyst — Rubrik Job Board (Remote)
+     https://www.rubrik.com/company/careers/departments/job.8274666?gh_jid=8274666
+133. Platform and Integration Engineer Security Telemetry — RedMimicry (Remote)
+     https://remoteOK.com/remote-jobs/remote-platform-and-integration-engineer-security-telemetry-redmimicry-1137465
+134. Security Technology Deployment Specialist — Anthropic (Remote-Friendly (Travel-Required) | San Francisco, CA | Seattle, WA | New York City, NY)
+     https://job-boards.greenhouse.io/anthropic/jobs/5422950008
+135. Cloud Security Engineer, Product Security — Recorded Future (Gothenburg, Sweden)
+     https://job-boards.greenhouse.io/recordedfuture/jobs/8450923002
+136. Senior Product Security Engineer, Assessments — MongoDB (New York City; Seattle; United States)
+     https://www.mongodb.com/careers/job/?gh_jid=8268264
+137. Lead Application Security Engineer — Thoughtworks (Singapore, Singapore)
+     https://www.thoughtworks.com/careers/jobs/8044979?gh_jid=8044979
+138. Senior Product Security Engineer — Cloudflare (Hybrid)
+     https://boards.greenhouse.io/cloudflare/jobs/8079931?gh_jid=8079931
+139. Senior Product Security Engineer — plaid (Seattle Office) [$190K – $262.8K]
+     https://jobs.ashbyhq.com/plaid/865f7c94-9da4-49ac-b490-2f770bd94b1c
+140. Threat Intelligence Response Analyst — Recorded Future (London, England, UK)
+     https://job-boards.greenhouse.io/recordedfuture/jobs/8859088002
+141. Senior Security Analyst, Security Risk Management — plaid (Seattle Office) [$156K – $213.6K]
+     https://jobs.ashbyhq.com/plaid/4c4af954-2c70-4a3c-acc2-97c58211f920
+142. Senior Security Engineer, Offensive Security — docker (United States)
+     https://jobs.ashbyhq.com/docker/2a2f7652-d832-4729-bb6e-84fe0aaf6892
+143. Senior Product Security Engineer — snyk (United States - Boston Office) [$192K – $240K • Offers Equity • Offers Bonus]
+     https://jobs.ashbyhq.com/snyk/507a3707-d6bd-48c4-800f-429ecf40769e
+144. Incident Response Manager - Privacy — Anthropic (San Francisco, CA | New York City, NY)
+     https://job-boards.greenhouse.io/anthropic/jobs/5432528008
+145. Senior Security Engineer, Identity and Access Management — hackerone (Seattle) [$180K – $220K • Offers Equity]
+     https://jobs.ashbyhq.com/hackerone/3a370481-0350-4267-b58b-8874ccecdaa3
+146. Senior Product Security Engineer — harvey (San Francisco) [$188K – $282K • Offers Equity • Offers Bonus]
+     https://jobs.ashbyhq.com/harvey/50a8df2a-c50e-4326-ae90-0c9f8ee0cf1d
+147. Security Software Engineer, Detection & Response — Vercel (Hybrid - San Francisco, New York City, London)
+     https://job-boards.greenhouse.io/vercel/jobs/6111332004
+148. Senior Software Engineer, Security Assurance | Ireland | Remote — Grafana Labs (Republic of Ireland (Remote))
+     https://job-boards.greenhouse.io/grafanalabs/jobs/6228509004
+149. Senior Software Engineer, Security Assurance | Spain | Remote — Grafana Labs (Spain (Remote))
+     https://job-boards.greenhouse.io/grafanalabs/jobs/6228510004
+150. Senior Software Engineer, Security Assurance | Sweden | Remote — Grafana Labs (Sweden (Remote))
+     https://job-boards.greenhouse.io/grafanalabs/jobs/6228514004
+151. Senior Software Engineer, Security Assurance | UK | Remote — Grafana Labs (United Kingdom (Remote))
+     https://job-boards.greenhouse.io/grafanalabs/jobs/6228011004
+152. Software Engineer II - EDR Workflows - Security — Elastic (Portugal)
+     https://jobs.elastic.co/jobs?gh_jid=8173302&gh_jid=8173302
+153. Blockchain Security Engineer - (Solidity / Rust / Golang) — CertiK (USA)
+     https://jobicy.com/jobs/151470-blockchain-security-engineer-solidity-rust-golang
+154. Manager, Cyber Security — Ping Identity (UK)
+     https://jobicy.com/jobs/156790-manager-cyber-security
+155. Cybersecurity Engineer — dscout (USA)
+     https://jobicy.com/jobs/156647-cybersecurity-engineer
+156. Software Engineer (Threat Intelligence), Cloudforce One — Cloudflare (Hybrid)
+     https://boards.greenhouse.io/cloudflare/jobs/7309174?gh_jid=7309174
+157. Client Platform Security Engineer — Stripe (New York, New York)
+     https://stripe.com/jobs/search?gh_jid=7982720
+158. Cloud Security Engineer — Stripe (Seattle)
+     https://stripe.com/jobs/search?gh_jid=7867389
+159. Forward Deployed Security Engineer — Stripe (Dublin)
+     https://stripe.com/jobs/search?gh_jid=8181003
+160. Incident Response Manager  — Stripe (Ireland, Dublin)
+     https://stripe.com/jobs/search?gh_jid=8167558
+161. Incident Response Manager - Security  — Stripe (Dublin)
+     https://stripe.com/jobs/search?gh_jid=8007205
+162. Security Engineer, ACE — Stripe (Dublin, Ireland)
+     https://stripe.com/jobs/search?gh_jid=8174984
+163. Security Engineer, Infrastructure — Scale AI (New York, NY; San Francisco, CA; Seattle, WA; Washington, DC)
+     https://job-boards.greenhouse.io/scaleai/jobs/4646888005
+164. Offensive Security Engineer — Nebius (Europe)
+     https://jobicy.com/jobs/156386-offensive-security-engineer-2
+165. Network Security Engineer — Nebius (Europe)
+     https://jobicy.com/jobs/156385-network-security-engineer
+166. AI Security Research & Red Team Engineer — Cloudflare (Hybrid)
+     https://boards.greenhouse.io/cloudflare/jobs/8097321?gh_jid=8097321
+167. IAM Security Engineer — Cloudflare (Hybrid)
+     https://boards.greenhouse.io/cloudflare/jobs/8157997?gh_jid=8157997
+168. Network Security Engineer — Cloudflare (Hybrid)
+     https://boards.greenhouse.io/cloudflare/jobs/8081027?gh_jid=8081027
+169. Security Engineer, Applied Research & Labs — Cloudflare (Hybrid)
+     https://boards.greenhouse.io/cloudflare/jobs/8264695?gh_jid=8264695
+170. Security Engineer (IAM) — Cloudflare (In-Office)
+     https://boards.greenhouse.io/cloudflare/jobs/8124227?gh_jid=8124227
+171. Information Security Analyst — Tenable, Inc. (US - Headquarters - Maryland - Columbia)
+     https://job-boards.greenhouse.io/tenableinc/jobs/5460006008
+172. Product Security Engineer — Vercel (Hybrid - San Francisco, New York City)
+     https://job-boards.greenhouse.io/vercel/jobs/6102343004
+173. Security Engineer — Roboflow (Europe, USA)
+     https://jobicy.com/jobs/153639-security-engineer-2
+174. Intermediate Security Engineer, Security Incident Response Team (SIRT) — GitLab (Remote, Australia)
+     https://job-boards.greenhouse.io/gitlab/jobs/8782306002
+175. Information Security Engineer — Tenable, Inc. (US - Headquarters - Maryland - Columbia)
+     https://job-boards.greenhouse.io/tenableinc/jobs/5454389008
+176. Security Engineer - Enterprise Security — spotify (London)
+     https://jobs.lever.co/spotify/234ec969-a406-4956-8d85-365b9053ccf5
+177. Sr. Corporate Security Engineer — Cockroach Labs (New York, NY)
+     https://www.cockroachlabs.com/careers/job/?gh_jid=8156737
+178. Senior Threat Intelligence Analyst — Rockstar Games (Andover, Massachusetts, United States)
+     https://job-boards.greenhouse.io/rockstargames/jobs/7787463003
+179. Security Engineer - Detection and Response — spotify (New York, NY)
+     https://jobs.lever.co/spotify/cb29d857-395b-401d-9749-367e666ff870
+180. Software Engineer, Security — cohere (Toronto) [$180K – $325K • Offers Equity • Multiple Ranges]
+     https://jobs.ashbyhq.com/cohere/a10a96b5-f772-466d-9297-f021f78ca9c0
+181. Product Security Engineer, North Security — cohere (Toronto) [CA$230K – CA$330K • Offers Equity • Multiple Ranges]
+     https://jobs.ashbyhq.com/cohere/9b596ab8-0df4-41aa-85da-e07578c082b2
+182. Application Security Engineer — cerebras (Sunnyvale, CA)
+     https://jobs.ashbyhq.com/cerebras/91bc61c1-29db-4a47-817d-30e921064af5
+183. Security Engineer - Detection & Response — langchain (San Francisco, CA)
+     https://jobs.ashbyhq.com/langchain/7b1e5ff7-4531-4d4a-8379-52a21b6d386d
+184. Senior Product Security Engineer — clickhouse (The Netherlands)
+     https://jobs.ashbyhq.com/clickhouse/5e8ba258-6b44-459e-a307-970a5e7db244
+185. Infrastructure Security Engineer — elevenlabs (United Kingdom)
+     https://jobs.ashbyhq.com/elevenlabs/687394d7-fbf8-49ed-822e-c0690191330c
+186. Cloud Security Engineer — clickhouse (The Netherlands)
+     https://jobs.ashbyhq.com/clickhouse/a1159cde-3628-4b5e-aa4b-7b9e73f1dafc
+187. DevOps Engineer, Infrastructure & Security — Scale AI (Washington, DC)
+     https://job-boards.greenhouse.io/scaleai/jobs/4674863005
+188. Software Engineer - SaaS Data Protection — Rubrik Job Board (Palo Alto, CA)
+     https://www.rubrik.com/company/careers/departments/job.8157246?gh_jid=8157246
+189. Senior AI Security Engineer (f/m/d) — Clariness GmbH (Germany, Serbia, South Africa, United Kingdom)
+     https://himalayas.app/companies/clariness-gmbh/jobs/senior-ai-security-engineer-f-m-d?utm_source=api
+190. Senior Security Engineer, Product Security — Goodleap (USA)
+     https://jobicy.com/jobs/153887-senior-security-engineer-product-security
+191. Senior Application Security Engineer — Starburst (Boston, MA)
+     https://job-boards.greenhouse.io/starburst/jobs/5399485008
+192. Senior Application Security Engineer — Apollo.io (Remote, United States)
+     https://job-boards.greenhouse.io/apolloio/jobs/6224092004
+193. Senior Product Security Engineer — AlphaSense (Ireland)
+     https://jobicy.com/jobs/156123-senior-product-security-engineer
+194. Senior Incident Response Analyst - InfoSec — Elastic (United States)
+     https://jobs.elastic.co/jobs?gh_jid=8274371&gh_jid=8274371
+195. Senior AI Information Security Engineer — Tenable (USA)
+     https://jobicy.com/jobs/155867-senior-ai-information-security-engineer
+196. Senior Security Engineer - Platform Trust & Safety — Datadog (New York, New York, USA)
+     https://careers.datadoghq.com/detail/8292699/?gh_jid=8292699
+197. Senior Information Security Infrastructure Engineer - Security Architecture - InfoSec — Elastic (United Kingdom)
+     https://jobs.elastic.co/jobs?gh_jid=8195967&gh_jid=8195967
+198. Senior Product Security Engineer - AI Agents — Datadog (Atlanta, Georgia, USA; Connecticut, USA, Remote; Florida, USA, Remote; Massachusetts, USA, Remote; New York, New York, USA; New York, USA, Remote; Pennsylvania, USA, Remote)
+     https://careers.datadoghq.com/detail/7993198/?gh_jid=7993198
+199. Senior Network Security Engineer | Zero Trust Architecture — Elastic (United States)
+     https://jobs.elastic.co/jobs?gh_jid=8103695&gh_jid=8103695
+200. Senior Product Security Engineer — CLEAR - Corporate (New York, New York, United States)
+     https://job-boards.greenhouse.io/clear/jobs/8042362
+201. Senior Software Engineer - Security Foundations — snowflake (US-WA-Bellevue) [$200K – $287.5K]
+     https://jobs.ashbyhq.com/snowflake/1c90dd70-ffa8-4a50-844d-00a3e8726bd3
+202. Senior Security Engineer — cohere (Toronto) [CA$260K – CA$310K • Offers Equity • Multiple Ranges]
+     https://jobs.ashbyhq.com/cohere/cb981ecd-a161-482c-8d8e-5f19bb6e7fdd
+203. Senior Software Engineer - Cloud Security — snowflake (US-CA-Menlo Park) [$200K – $287.5K]
+     https://jobs.ashbyhq.com/snowflake/f4754cf9-8e07-46b9-8874-528e810892f0
+204. Senior Supply Chain Security Engineer (East Coast Preferred) — docker (Canada)
+     https://jobs.ashbyhq.com/docker/4ed87069-a913-4dc8-8ee2-7f954ab3586f
+205. Senior Security Engineer, Docker Desktop — docker (Canada)
+     https://jobs.ashbyhq.com/docker/6f97e143-cbe9-4416-bc52-ee1692f1e9cb
+206. GRC and Security Compliance Lead — deepgram (USA - Remote) [$165K – $223.3K • Offers Equity • Offers Bonus • Multiple Ranges]
+     https://jobs.ashbyhq.com/deepgram/5ed3eb80-7532-467c-9f3e-04a0590a3966
+207. Senior Software Engineer - Product Security — plaid (Seattle Office) [$204,156 – $281,196]
+     https://jobs.ashbyhq.com/plaid/dfe0f4e7-1c44-447a-82a7-aa2733b134ad
+208. Governance, Risk & Compliance Analyst  — perplexity (San Francisco) [$200K – $220K • Offers Equity]
+     https://jobs.ashbyhq.com/perplexity/977b626c-5546-42c6-95c8-4e2350ec41c9
+209. Security Software Engineer, IAM — Vercel (Remote - United States)
+     https://job-boards.greenhouse.io/vercel/jobs/6093255004
+210. Software Engineer - Product Platform Security — Rubrik Job Board (Palo Alto, CA)
+     https://www.rubrik.com/company/careers/departments/job.8243737?gh_jid=8243737
+211. Software Engineer, Security Agents — cohere (United States) [$195 – $415,000 • Offers Equity • Multiple Ranges]
+     https://jobs.ashbyhq.com/cohere/1b909aeb-1221-476f-88fe-8300a2065975
+212. AI Software Engineer, Security — Everpure (Santa Clara, California)
+     https://job-boards.greenhouse.io/purestorage/jobs/7681034
+213. Security Scientist — Figma (San Francisco, CA • New York, NY • United States)
+     https://boards.greenhouse.io/figma/jobs/6180172004?gh_jid=6180172004
+
+Board searches:
+  LinkedIn — Cybersecurity, India, last 2 days
+     https://www.linkedin.com/jobs/search/?keywords=cybersecurity%20analyst&geoId=102713980&location=India&f_TPR=r172800&sortBy=DD
+  LinkedIn — SOC Analyst, India, last 2 days
+     https://www.linkedin.com/jobs/search/?keywords=SOC%20analyst&geoId=102713980&location=India&f_TPR=r172800&sortBy=DD
+  LinkedIn — Penetration Tester, India
+     https://www.linkedin.com/jobs/search/?keywords=penetration%20tester&geoId=102713980&location=India&f_TPR=r172800&sortBy=DD
+  LinkedIn — Security Analyst, Dubai/UAE
+     https://www.linkedin.com/jobs/search/?keywords=security%20analyst&geoId=104305776&location=United%20Arab%20Emirates&f_TPR=r172800&sortBy=DD
+  LinkedIn — Cybersecurity, Remote
+     https://www.linkedin.com/jobs/search/?keywords=cybersecurity&f_WT=2&f_TPR=r172800&sortBy=DD
+  Naukri — Cybersecurity, India
+     https://www.naukri.com/cybersecurity-jobs
+  Naukri — SOC Analyst, Hyderabad
+     https://www.naukri.com/soc-analyst-jobs-in-hyderabad
+  Naukri — Penetration Tester
+     https://www.naukri.com/penetration-tester-jobs
+  Naukri — Information Security
+     https://www.naukri.com/information-security-analyst-jobs
+  Instahyre — Cybersecurity
+     https://www.instahyre.com/search-jobs/?designation=Cyber+Security+Analyst
+  Indeed India — Cybersecurity
+     https://in.indeed.com/jobs?q=cybersecurity+analyst&l=India&fromage=7
+  Foundit — Security Analyst
+     https://www.foundit.in/search/security-analyst-jobs
+  Bayt — Cybersecurity, Dubai
+     https://www.bayt.com/en/uae/jobs/cyber-security-jobs/
+  GulfTalent — Information Security, UAE
+     https://www.gulftalent.com/uae/jobs/information-security
+
+Application answers:
+
+--- Current fixed CTC ---
+Rs 5,54,000 fixed per annum (excludes variable component).
+
+--- Expected CTC — cybersecurity roles ---
+Rs 6-10 LPA, negotiable based on role scope and the overall package.
+
+--- Expected CTC — top security product companies ---
+Rs 10-16 LPA, negotiable based on role scope and the overall package.
+
+--- Expected salary — Dubai/UAE ---
+AED 8,000-15,000 per month, negotiable based on role scope and benefits package.
+
+--- Notice period ---
+30 days, and I can look at an earlier release for the right role.
+
+--- Why cybersecurity? ---
+I built and secured production backends for two years, closing adversarial security reviews that covered BOLA, IDOR, SSRF, XSS, and auth-bypass classes. The IIT Roorkee iHUB DivyaSampark certification in Cyber Security & Ethical Hacking formalised the offensive-security methodology I was already applying hands-on. I want to make security my primary function rather than a side responsibility of backend development.
+
+--- Security tools and methodology ---
+Hands-on: Burp Suite, Nmap, Wireshark, Metasploit, Kali Linux, OWASP ZAP. Applied OWASP Top 10 and MITRE ATT&CK frameworks in real vulnerability assessments. Built an SSRF guard that resolves DNS before refusing loopback, private, link-local and cloud-metadata addresses. Replaced client-declared MIME types with byte-level magic-number verification. Familiar with SIEM concepts (Splunk, ELK), EDR tools, and vulnerability scanners (Nessus, Qualys).
+
+--- Relevant security experience ---
+I closed a two-round adversarial security review on Kaizer X with a regression test behind every fix, covering cross-tenant authorization (BOLA and IDOR) on live-broadcast controls and WebSockets, an OAuth callback XSS, and password-reset links that trusted an attacker-controlled Origin header. I also wrote an SSRF guard that resolves DNS before refusing loopback, private, link-local and cloud-metadata addresses, and replaced client-declared MIME types with byte-level magic-number verification. I hold an Executive Post Graduate Certification in Cyber Security and Ethical Hacking from IIT Roorkee's iHUB DivyaSampark.
+
+--- Certifications ---
+Executive Post Graduate Certification in Cyber Security & Ethical Hacking — IIT Roorkee, iHUB DivyaSampark. Planning to pursue CompTIA Security+ and CEH next.

@@ -1,0 +1,782 @@
+{
+ "generated": "2026-10-26T06:53:12.626Z",
+ "usdInr": 88,
+ "jobs": [
+  {
+   "source": "Jobicy",
+   "title": "Platform Security Engineer (AMER/APAC)",
+   "company": "Supabase",
+   "url": "https://jobicy.com/jobs/156948-platform-security-engineer-amer-apac",
+   "region": "APAC,  LATAM,  Canada,  USA",
+   "posted": "2026-10-25",
+   "tags": [
+    "Cybersecurity"
+   ],
+   "snippet": "About Supabase Supabase is the Postgres development platform, built by developers for developers. We provide a complete backend solution including Database, Auth, Storage, Edge Functions, Realtime, and Vector Search. All services are deeply integrated and designed for growth. Start in minutes with a fully managed, scal",
+   "salaryText": "",
+   "lpa": null,
+   "type": "Full-Time",
+   "remote": true,
+   "score": 84,
+   "india": "yes"
+  },
+  {
+   "source": "Jobicy",
+   "title": "Security Engineer, Incident Response",
+   "company": "Twilio",
+   "url": "https://jobicy.com/jobs/156851-security-engineer-incident-response",
+   "region": "Ireland,  UK",
+   "posted": "2026-10-24",
+   "tags": [
+    "Cybersecurity"
+   ],
+   "snippet": "Who we are At Twilio, we’re shaping the future of communications, all from the comfort of our homes. We deliver innovative solutions to hundreds of thousands of businesses and empower millions of developers worldwide to craft personalized customer experiences. Our dedication to remote-first work, and strong culture of ",
+   "salaryText": "",
+   "lpa": null,
+   "type": "Full-Time",
+   "remote": true,
+   "score": 78,
+   "india": "maybe"
+  },
+  {
+   "source": "Jobicy",
+   "title": "Threat Intelligence Lead",
+   "company": "Canonical",
+   "url": "https://jobicy.com/jobs/149542-threat-intelligence-lead",
+   "region": "Anywhere",
+   "posted": "2026-10-24",
+   "tags": [
+    "Cybersecurity"
+   ],
+   "snippet": "The Threat Intelligence Lead will own Canonical’s threat intelligence strategy and execution, including understanding of which cyber threat actors are targeting Canonical, and the use of intelligence on Tactics, Techniques and Procedures (TTP) to better our products and internal cybersecurity controls. You will collabo",
+   "salaryText": "",
+   "lpa": null,
+   "type": "Full-Time",
+   "remote": true,
+   "score": 78,
+   "india": "maybe"
+  },
+  {
+   "source": "Jobicy",
+   "title": "Staff Security Operations Engineer",
+   "company": "Canonical",
+   "url": "https://jobicy.com/jobs/149540-staff-security-operations-engineer",
+   "region": "Anywhere",
+   "posted": "2026-10-24",
+   "tags": [
+    "Cybersecurity"
+   ],
+   "snippet": "We have opened several senior/staff Security Operations Engineer (SOC) positions, creating a new team reporting to the CISO. We are looking for a range of experience in these positions - at the high end we are looking for deep experience defending highly contested critical assets and high-value cyber targets against ad",
+   "salaryText": "",
+   "lpa": null,
+   "type": "Full-Time",
+   "remote": true,
+   "score": 78,
+   "india": "maybe"
+  },
+  {
+   "source": "Arbeitnow",
+   "title": "Staff Application Security Engineer",
+   "company": "Samsara",
+   "url": "https://www.arbeitnow.co.uk/jobs/companies/samsara/staff-application-security-engineer-342314",
+   "region": "",
+   "posted": "2026-10-26",
+   "tags": [
+    "IT Security"
+   ],
+   "snippet": "div class= content-intro p span style= font-family: arial, helvetica, sans-serif; strong Who we are /strong /span /p p span style= font-weight: 300; font-family: arial, helvetica, sans-serif; Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depen",
+   "salaryText": "",
+   "lpa": null,
+   "type": "",
+   "remote": false,
+   "score": 70,
+   "india": "maybe"
+  },
+  {
+   "source": "Arbeitnow",
+   "title": "Staff Security Engineer - Blue Team (UK)",
+   "company": "Olo",
+   "url": "https://www.arbeitnow.co.uk/jobs/companies/olo/remote-staff-security-engineer-blue-team-uk-128602",
+   "region": "Belfast, Northern Ireland, Remote",
+   "posted": "2026-10-25",
+   "tags": [
+    "Security",
+    "Full-Time"
+   ],
+   "snippet": "Olo is a leading SaaS platform accelerating digital transformation in the restaurant industry, by helping customers deliver more personalised and profitable guest experiences. As a result, our digital ordering, payment, and guest engagement solutions enable brands to do more with less and make every guest feel like a r",
+   "salaryText": "",
+   "lpa": null,
+   "type": "Full-Time",
+   "remote": false,
+   "score": 70,
+   "india": "maybe"
+  },
+  {
+   "source": "Jobicy",
+   "title": "Manager, Cyber Security",
+   "company": "Ping Identity",
+   "url": "https://jobicy.com/jobs/156790-manager-cyber-security",
+   "region": "UK",
+   "posted": "2026-10-24",
+   "tags": [
+    "Cybersecurity"
+   ],
+   "snippet": "About Ping Identity: At Ping Identity, we believe in making digital experiences both secure and seamless for all users, without compromise. We call this digital freedom. And it's not just something we provide our customers. It's something that inspires our company. People don't come here to join a culture that's built ",
+   "salaryText": "",
+   "lpa": null,
+   "type": "Full-Time",
+   "remote": true,
+   "score": 70,
+   "india": "maybe"
+  },
+  {
+   "source": "Jobicy",
+   "title": "Ubuntu Security Engineer",
+   "company": "Canonical",
+   "url": "https://jobicy.com/jobs/149565-ubuntu-security-engineer",
+   "region": "Anywhere",
+   "posted": "2026-10-24",
+   "tags": [
+    "Cybersecurity"
+   ],
+   "snippet": "Canonical is a leading provider of open source software and operating systems to the global enterprise and technology markets. Our platform, Ubuntu, is very widely used in breakthrough enterprise initiatives such as public cloud, data science, AI, engineering innovation, and IoT. Our customers include the world's leadi",
+   "salaryText": "",
+   "lpa": null,
+   "type": "Full-Time",
+   "remote": true,
+   "score": 70,
+   "india": "maybe"
+  },
+  {
+   "source": "Jobicy",
+   "title": "Senior Security Operations Engineer",
+   "company": "Canonical",
+   "url": "https://jobicy.com/jobs/149578-senior-security-operations-engineer",
+   "region": "Anywhere",
+   "posted": "2026-10-24",
+   "tags": [
+    "Cybersecurity"
+   ],
+   "snippet": "The Canonical Security Operations team is hiring for a Senior or Staff engineer. The Security Operations team is responsible for designing, building, and operating a world-class Security Operations Center, and the successful candidate will provide leadership, mentorship, expertise, and outstanding individual contributi",
+   "salaryText": "",
+   "lpa": null,
+   "type": "Full-Time",
+   "remote": true,
+   "score": 70,
+   "india": "maybe"
+  },
+  {
+   "source": "Jobicy",
+   "title": "Senior Information Security Engineer",
+   "company": "Zscaler",
+   "url": "https://jobicy.com/jobs/156672-senior-information-security-engineer-2",
+   "region": "Costa Rica",
+   "posted": "2026-10-23",
+   "tags": [
+    "Cybersecurity"
+   ],
+   "snippet": "Zscaler (NASDAQ: ZS) accelerates digital transformation so customers can be more agile, efficient, resilient, and secure. The Zscaler Zero Trust Exchange platform protects thousands of customers from cyberattacks and data loss by securely connecting users, devices, and applications in any location. Distributed across 2",
+   "salaryText": "",
+   "lpa": null,
+   "type": "Full-Time",
+   "remote": true,
+   "score": 70,
+   "india": "maybe"
+  },
+  {
+   "source": "Jobicy",
+   "title": "Senior Web Security Engineer, Browser Platform",
+   "company": "DuckDuckGo",
+   "url": "https://jobicy.com/jobs/151281-senior-web-security-engineer-browser-platform",
+   "region": "Anywhere",
+   "posted": "2026-10-22",
+   "tags": [
+    "Cybersecurity"
+   ],
+   "snippet": "Who We Are Hi, we're DuckDuckGo, the online protection company and remote-first team of 300+ on a mission to raise the standard of trust online. Founded in 2008 and profitable since 2014, annual revenue now exceeds $100m USD and millions use our browser on on Mac, Windows, iOS, and Android, our search engine, and the",
+   "salaryText": "",
+   "lpa": null,
+   "type": "Full-Time",
+   "remote": true,
+   "score": 70,
+   "india": "maybe"
+  },
+  {
+   "source": "Jobicy",
+   "title": "Senior Product Security Engineer",
+   "company": "AlphaSense",
+   "url": "https://jobicy.com/jobs/156123-senior-product-security-engineer",
+   "region": "Ireland",
+   "posted": "2026-10-21",
+   "tags": [
+    "Cybersecurity"
+   ],
+   "snippet": "About AlphaSense: AlphaSense is the AI platform redefining market intelligence and workflow orchestration, trusted by thousands of leading organizations to drive faster, more confident decisions in business and finance. The platform combines domain-specific AI with a vast content universe of over 500 million premium bu",
+   "salaryText": "",
+   "lpa": null,
+   "type": "Full-Time",
+   "remote": true,
+   "score": 70,
+   "india": "maybe"
+  },
+  {
+   "source": "Jobicy",
+   "title": "Security Operations Analyst- UK",
+   "company": "Huntress",
+   "url": "https://jobicy.com/jobs/155883-security-operations-analyst-uk",
+   "region": "UK",
+   "posted": "2026-10-19",
+   "tags": [
+    "Cybersecurity"
+   ],
+   "snippet": "What We Do: Cybercrime is growing, and more businesses are getting hit by threats that used to target only the biggest organizations. That pushes defenders like us to operate at the highest level, and it deepens our need for good people who want to make a meaningful impact. Founded in 2015 by former NSA cyber",
+   "salaryText": "",
+   "lpa": null,
+   "type": "Full-Time",
+   "remote": true,
+   "score": 70,
+   "india": "maybe"
+  },
+  {
+   "source": "RemoteOK",
+   "title": "Risk Analyst",
+   "company": "Pavago",
+   "url": "https://remoteOK.com/remote-jobs/remote-risk-analyst-pavago-1137548",
+   "region": "Remote",
+   "posted": "2026-10-20",
+   "tags": [
+    "analyst",
+    "saas",
+    "sys admin",
+    "infosec",
+    "python",
+    "technical",
+    "recruiter",
+    "customer support"
+   ],
+   "snippet": "Risk Analyst / Risk Manager â Remote Enterprise Risk | Compliance | Governance | Financial Operational Risk Position Type: Full-Time, Remote Working Hours: U.S. Client Business Hours (with flexibility for reporting cycles, audits, and incident response) About the Role At Pavago, weâre hiring on behalf of one of our",
+   "salaryText": "",
+   "lpa": null,
+   "type": "",
+   "remote": true,
+   "score": 68,
+   "india": "maybe"
+  },
+  {
+   "source": "Himalayas",
+   "title": "Senior AI Security Engineer (f/m/d)",
+   "company": "Clariness GmbH",
+   "url": "https://himalayas.app/companies/clariness-gmbh/jobs/senior-ai-security-engineer-f-m-d?utm_source=api",
+   "region": "Germany, Serbia, South Africa, United Kingdom",
+   "posted": "2026-10-26",
+   "tags": [
+    "AI-Security-Engineer",
+    "Security-Engineer",
+    "Application-Security-Engineer",
+    "Cloud-Security-Engineer",
+    "Product-Security-Engineer",
+    "Secure-AI-Systems-Engineer",
+    "Senior-Information-Security-Engineer",
+    "AI-Cybersecurity-Engineer"
+   ],
+   "snippet": "Clariness is looking for a Senior AI Security Engineer (f/m/d) based Germany, UK, SA, or Serbia.",
+   "salaryText": "",
+   "lpa": null,
+   "type": "Full Time",
+   "remote": true,
+   "score": 52,
+   "india": "no"
+  },
+  {
+   "source": "Jobicy",
+   "title": "Blockchain Security Engineer - (Solidity / Rust / Golang)",
+   "company": "CertiK",
+   "url": "https://jobicy.com/jobs/151470-blockchain-security-engineer-solidity-rust-golang",
+   "region": "USA",
+   "posted": "2026-10-25",
+   "tags": [
+    "Cybersecurity"
+   ],
+   "snippet": "About the Company CertiK is the largest blockchain security auditor and provides a comprehensive suite of tools to secure the industry at scale. To date, CertiK has worked with over 4,900 Enterprise clients, secured over $557 billion worth of digital assets, and has detected over 18,000 vulnerabilities in blockchain co",
+   "salaryText": "",
+   "lpa": null,
+   "type": "Full-Time",
+   "remote": true,
+   "score": 52,
+   "india": "no"
+  },
+  {
+   "source": "Jobicy",
+   "title": "Manager, Security Operations Center",
+   "company": "Huntress",
+   "url": "https://jobicy.com/jobs/156765-manager-security-operations-center",
+   "region": "USA",
+   "posted": "2026-10-24",
+   "tags": [
+    "Cybersecurity"
+   ],
+   "snippet": "What We Do: Cybercrime is growing, and more businesses are getting hit by threats that used to target only the biggest organizations. That pushes defenders like us to operate at the highest level, and it deepens our need for good people who want to make a meaningful impact. Founded in 2015 by former NSA cyber",
+   "salaryText": "",
+   "lpa": null,
+   "type": "Full-Time",
+   "remote": true,
+   "score": 52,
+   "india": "no"
+  },
+  {
+   "source": "Jobicy",
+   "title": "Cybersecurity Engineer",
+   "company": "dscout",
+   "url": "https://jobicy.com/jobs/156647-cybersecurity-engineer",
+   "region": "USA",
+   "posted": "2026-10-23",
+   "tags": [
+    "Cybersecurity"
+   ],
+   "snippet": "At Dscout, we’re building the most flexible and powerful UX research platform on the market—trusted by the world’s top brands in finance (JP Morgan Chase, Intuit, Charles Schwab, PayPal), healthcare (Aya, Headspace), consumer goods (Keen, Verizon, Target, Northface), and tech (Google, Amazon, Facebook, Meta, Spotify, A",
+   "salaryText": "",
+   "lpa": null,
+   "type": "Full-Time",
+   "remote": true,
+   "score": 52,
+   "india": "no"
+  },
+  {
+   "source": "Jobicy",
+   "title": "Senior Security Engineer, Product Security",
+   "company": "Goodleap",
+   "url": "https://jobicy.com/jobs/153887-senior-security-engineer-product-security",
+   "region": "USA",
+   "posted": "2026-10-23",
+   "tags": [
+    "Cybersecurity"
+   ],
+   "snippet": "About GoodLeap: GoodLeap is a technology company delivering best-in-class financing and software products for sustainable solutions, from solar panels and batteries to energy-efficient HVAC, heat pumps, roofing, windows, and more. Over 1 million homeowners have benefited from our simple, fast, and frictionless technolo",
+   "salaryText": "",
+   "lpa": null,
+   "type": "Full-Time",
+   "remote": true,
+   "score": 52,
+   "india": "no"
+  },
+  {
+   "source": "Jobicy",
+   "title": "Staff Product Security Engineer (Security)",
+   "company": "Phantom",
+   "url": "https://jobicy.com/jobs/153861-staff-product-security-engineer-security",
+   "region": "Canada,  UK,  USA",
+   "posted": "2026-10-23",
+   "tags": [
+    "Cybersecurity"
+   ],
+   "snippet": "Phantom is on a mission to connect the world to the freedom of open markets. Tens of millions of people all over the world use Phantom to access global markets that never close, including perpetuals, prediction markets, tokenized assets, stablecoins and memes. Phantom users are able to discover the markets that matter ",
+   "salaryText": "",
+   "lpa": null,
+   "type": "Full-Time",
+   "remote": true,
+   "score": 52,
+   "india": "no"
+  },
+  {
+   "source": "Jobicy",
+   "title": "Offensive Security Engineer",
+   "company": "Nebius",
+   "url": "https://jobicy.com/jobs/156386-offensive-security-engineer-2",
+   "region": "Europe",
+   "posted": "2026-10-22",
+   "tags": [
+    "Cybersecurity"
+   ],
+   "snippet": "About Nebius: Nebius is leading a new era in cloud infrastructure for the global AI economy. We are building a full-stack AI cloud platform that supports developers and enterprises from data and model training through to production deployment, without the cost and complexity of building large in-house AI/ML infrastruct",
+   "salaryText": "",
+   "lpa": null,
+   "type": "Full-Time",
+   "remote": true,
+   "score": 52,
+   "india": "no"
+  },
+  {
+   "source": "Jobicy",
+   "title": "Network Security Engineer",
+   "company": "Nebius",
+   "url": "https://jobicy.com/jobs/156385-network-security-engineer",
+   "region": "Europe",
+   "posted": "2026-10-22",
+   "tags": [
+    "Cybersecurity"
+   ],
+   "snippet": "About Nebius: Nebius is leading a new era in cloud infrastructure for the global AI economy. We are building a full-stack AI cloud platform that supports developers and enterprises from data and model training through to production deployment, without the cost and complexity of building large in-house AI/ML infrastruct",
+   "salaryText": "",
+   "lpa": null,
+   "type": "Full-Time",
+   "remote": true,
+   "score": 52,
+   "india": "no"
+  },
+  {
+   "source": "Jobicy",
+   "title": "Security Operations Analyst",
+   "company": "Huntress",
+   "url": "https://jobicy.com/jobs/156132-security-operations-analyst",
+   "region": "Australia",
+   "posted": "2026-10-21",
+   "tags": [
+    "Cybersecurity"
+   ],
+   "snippet": "What We Do: Cybercrime is growing, and more businesses are getting hit by threats that used to target only the biggest organizations. That pushes defenders like us to operate at the highest level, and it deepens our need for good people who want to make a meaningful impact. Founded in 2015 by former NSA cyber",
+   "salaryText": "",
+   "lpa": null,
+   "type": "Full-Time",
+   "remote": true,
+   "score": 52,
+   "india": "no"
+  },
+  {
+   "source": "Jobicy",
+   "title": "Security Engineer",
+   "company": "Roboflow",
+   "url": "https://jobicy.com/jobs/153639-security-engineer-2",
+   "region": "Europe,  USA",
+   "posted": "2026-10-20",
+   "tags": [
+    "Cybersecurity"
+   ],
+   "snippet": "Who We Are Our mission is to make the world programmable. Sight is one of the key ways we understand the world, and soon this will be true for the software we use, too. We’re building the tools, community, and resources needed to make the world programmable with artificial intelligence. Roboflow simplifies building and",
+   "salaryText": "",
+   "lpa": null,
+   "type": "Full-Time",
+   "remote": true,
+   "score": 52,
+   "india": "no"
+  },
+  {
+   "source": "Jobicy",
+   "title": "Senior AI Information Security Engineer",
+   "company": "Tenable",
+   "url": "https://jobicy.com/jobs/155867-senior-ai-information-security-engineer",
+   "region": "USA",
+   "posted": "2026-10-19",
+   "tags": [
+    "Cybersecurity"
+   ],
+   "snippet": "Who is Tenable? Tenable® is the Exposure Management company. Over 40,000 organizations around the globe rely on Tenable to understand and reduce cyber risk. Our global employees support 65 percent of the Fortune 500, 50 percent of the Global 2000, and large government agencies. Come be part of our journey! What makes T",
+   "salaryText": "",
+   "lpa": null,
+   "type": "Full-Time",
+   "remote": true,
+   "score": 52,
+   "india": "no"
+  },
+  {
+   "source": "Jobicy",
+   "title": "Head of Security Operations",
+   "company": "Canonical",
+   "url": "https://jobicy.com/jobs/149541-head-of-security-operations",
+   "region": "Anywhere",
+   "posted": "2026-10-24",
+   "tags": [
+    "Cybersecurity"
+   ],
+   "snippet": "This global leadership role in cyber security is to manage the Security Operations (SecOps) team responsible for design, implementation and evolution of Canonical security practices, techniques, tools, systems and policies. The team is the primary owner of strategy and practices that determine how Canonical secures its",
+   "salaryText": "",
+   "lpa": null,
+   "type": "Full-Time",
+   "remote": true,
+   "score": 45,
+   "india": "maybe"
+  },
+  {
+   "source": "Jobicy",
+   "title": "Security Software Engineer",
+   "company": "Canonical",
+   "url": "https://jobicy.com/jobs/149550-security-software-engineer",
+   "region": "Anywhere",
+   "posted": "2026-10-25",
+   "tags": [
+    "Cybersecurity"
+   ],
+   "snippet": "Canonical is a leading provider of open source software and operating systems to the global enterprise and technology markets. Our platform, Ubuntu, is widely used in breakthrough enterprise initiatives such as public cloud, data science, AI, engineering innovation, and IoT. Our customers include the world's leading pu",
+   "salaryText": "",
+   "lpa": null,
+   "type": "Full-Time",
+   "remote": true,
+   "score": 40,
+   "india": "maybe"
+  },
+  {
+   "source": "RemoteOK",
+   "title": "Solutions Engineer",
+   "company": "Onebrief",
+   "url": "https://remoteOK.com/remote-jobs/remote-solutions-engineer-onebrief-1137568",
+   "region": "Remote",
+   "posted": "2026-10-24",
+   "tags": [
+    "design",
+    "ansible",
+    "grafana",
+    "sys admin",
+    "infosec",
+    "python",
+    "docker",
+    "technical"
+   ],
+   "snippet": "Consequential Work. Dedicated People. About Onebrief Onebrief builds collaboration and AI-powered workflow software for military planning and operational coordination. Military planning is complex by nature, requiring teams to coordinate information, people, and decisions across systems and locations. Onebrief brings p",
+   "salaryText": "USD 180k–220k",
+   "lpa": 193.6,
+   "type": "",
+   "remote": true,
+   "score": 40,
+   "india": "maybe"
+  },
+  {
+   "source": "Jobicy",
+   "title": "Security Risk Management Specialist",
+   "company": "Canonical",
+   "url": "https://jobicy.com/jobs/149564-security-risk-management-specialist",
+   "region": "Anywhere",
+   "posted": "2026-10-24",
+   "tags": [
+    "Cybersecurity"
+   ],
+   "snippet": "In security risk management we’re looking to harness the power of industry best practice combined with driving new innovation on how we do security risk assessments and modelling. Our security risk management team is the primary owner of the strategy and practices of how we identify, track and reduce our security risk ",
+   "salaryText": "",
+   "lpa": null,
+   "type": "Full-Time",
+   "remote": true,
+   "score": 40,
+   "india": "maybe"
+  },
+  {
+   "source": "Jobicy",
+   "title": "Senior SecOps Engineer",
+   "company": "Tala",
+   "url": "https://jobicy.com/jobs/156237-senior-secops-engineer",
+   "region": "Mexico",
+   "posted": "2026-10-21",
+   "tags": [
+    "Cybersecurity"
+   ],
+   "snippet": "About Tala Tala is the AI-native credit infrastructure that connects global capital to the global majority. We combine proprietary risk intelligence with an expanding network of capital and distribution partners to power credit access at scale. To date, Tala has distributed more than $9 billion in capital to more than ",
+   "salaryText": "",
+   "lpa": null,
+   "type": "Full-Time",
+   "remote": true,
+   "score": 40,
+   "india": "maybe"
+  },
+  {
+   "source": "RemoteOK",
+   "title": "Platform and Integration Engineer Security Telemetry",
+   "company": "RedMimicry",
+   "url": "https://remoteOK.com/remote-jobs/remote-platform-and-integration-engineer-security-telemetry-redmimicry-1137465",
+   "region": "Remote",
+   "posted": "2026-10-05",
+   "tags": [
+    "golang",
+    "infosec",
+    "engineer",
+    "part time"
+   ],
+   "snippet": "Remote - Location: Mostly remote (within Germany), with monthly in-person collaboration at our Berlin officeHours: Part-time, 32 hours per weekContract: Fixed-termSalary: EUR 53,000 â 59,000 (at 32 hours per week)We are building a new capability that turns fragmented,... Please mention the word **THRIFTY** and tag RM",
+   "salaryText": "",
+   "lpa": null,
+   "type": "",
+   "remote": true,
+   "score": 40,
+   "india": "maybe"
+  },
+  {
+   "source": "RemoteOK",
+   "title": "Senior Software Engineer II Applied AI",
+   "company": "Wrapbook",
+   "url": "https://remoteOK.com/remote-jobs/remote-senior-software-engineer-ii-applied-ai-wrapbook-1137527",
+   "region": "Remote",
+   "posted": "2026-10-15",
+   "tags": [
+    "dev",
+    "design",
+    "amazon",
+    "sys admin",
+    "backend",
+    "infosec",
+    "python",
+    "education"
+   ],
+   "snippet": "About Us: Wrapbook is the AI platform for production finance. Weâre building a system of action that puts finance teams in control of their whole production, from payroll, to spend, to accounting. Built for feature films, TV, and commercials, Wrapbook is trusted by teams at Netflix, Paramount, Anonymous Content, and ",
+   "salaryText": "",
+   "lpa": null,
+   "type": "",
+   "remote": true,
+   "score": 30,
+   "india": "maybe"
+  },
+  {
+   "source": "Jobicy",
+   "title": "Principal Security Engineer, Infrastructure Security",
+   "company": "OpenAI",
+   "url": "https://jobicy.com/jobs/153841-principal-security-engineer-infrastructure-security",
+   "region": "USA",
+   "posted": "2026-10-22",
+   "tags": [
+    "Cybersecurity"
+   ],
+   "snippet": "About the Team Security is at the foundation of OpenAI’s mission to ensure that artificial general intelligence benefits all of humanity. The Security team protects OpenAI’s technology, people, and products. We are technical in what we build but are operational in how we do our work, and are committed to supporting all",
+   "salaryText": "",
+   "lpa": null,
+   "type": "Full-Time",
+   "remote": true,
+   "score": 27,
+   "india": "no"
+  },
+  {
+   "source": "Jobicy",
+   "title": "Intermediate Software Engineer, Security Factory: Vulnerability Management",
+   "company": "GitLab",
+   "url": "https://jobicy.com/jobs/156926-intermediate-software-engineer-security-factory-vulnerability-management",
+   "region": "Canada,  Israel,  UK",
+   "posted": "2026-10-25",
+   "tags": [
+    "Software Engineering"
+   ],
+   "snippet": "GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and more than 50% of the Fortune 100* trust G",
+   "salaryText": "",
+   "lpa": null,
+   "type": "Full-Time",
+   "remote": true,
+   "score": 22,
+   "india": "no"
+  },
+  {
+   "source": "Jobicy",
+   "title": "Sr. Engineer, Infrastructure Security",
+   "company": "Zapier",
+   "url": "https://jobicy.com/jobs/156567-sr-engineer-infrastructure-security",
+   "region": "EMEA,  Canada,  USA",
+   "posted": "2026-10-23",
+   "tags": [
+    "Cybersecurity"
+   ],
+   "snippet": "AI at Zapier At Zapier, we build and use automation every day to make work more efficient, creative, and human. So if you’re using AI tools while applying here - that’s great! We just ask that you use them responsibly and transparently. Check out our guidance on How to Collaborate with AI During Zapier’s Hiring",
+   "salaryText": "",
+   "lpa": null,
+   "type": "Full-Time",
+   "remote": true,
+   "score": 22,
+   "india": "no"
+  },
+  {
+   "source": "Jobicy",
+   "title": "Security Solutions Engineer",
+   "company": "Nebius",
+   "url": "https://jobicy.com/jobs/156529-security-solutions-engineer",
+   "region": "Europe",
+   "posted": "2026-10-23",
+   "tags": [
+    "Cybersecurity"
+   ],
+   "snippet": "About Nebius: Nebius is leading a new era in cloud infrastructure for the global AI economy. We are building a full-stack AI cloud platform that supports developers and enterprises from data and model training through to production deployment, without the cost and complexity of building large in-house AI/ML infrastruct",
+   "salaryText": "",
+   "lpa": null,
+   "type": "Full-Time",
+   "remote": true,
+   "score": 22,
+   "india": "no"
+  },
+  {
+   "source": "Jobicy",
+   "title": "Senior Technical Program Manager - Security",
+   "company": "OpenAI",
+   "url": "https://jobicy.com/jobs/151221-senior-technical-program-manager-security",
+   "region": "USA",
+   "posted": "2026-10-21",
+   "tags": [
+    "Cybersecurity"
+   ],
+   "snippet": "About the Team OpenAI builds powerful AI systems like ChatGPT, the OpenAI API, and enterprise products that serve millions of users across the globe. As we scale, securing our infrastructure, protecting sensitive data, and meeting global compliance standards are essential to our success and societal impact. Security at",
+   "salaryText": "",
+   "lpa": null,
+   "type": "Full-Time",
+   "remote": true,
+   "score": 22,
+   "india": "no"
+  },
+  {
+   "source": "Jobicy",
+   "title": "Software Engineer, Security Observability",
+   "company": "OpenAI",
+   "url": "https://jobicy.com/jobs/151224-software-engineer-security-observability",
+   "region": "USA",
+   "posted": "2026-10-21",
+   "tags": [
+    "Cybersecurity"
+   ],
+   "snippet": "About the Team Security is at the foundation of OpenAI’s mission to ensure that artificial general intelligence benefits all of humanity. The Security team protects OpenAI’s technology, people, and products. We are technical in what we build but are operational in how we do our work, and are committed to supporting all",
+   "salaryText": "",
+   "lpa": null,
+   "type": "Full-Time",
+   "remote": true,
+   "score": 22,
+   "india": "no"
+  },
+  {
+   "source": "Himalayas",
+   "title": "DevSecOps Intern (Energy Transition): Nov/Dec 2026 intake",
+   "company": "GE Vernova",
+   "url": "https://himalayas.app/companies/ge-vernova/jobs/devsecops-intern-energy-transition-nov-dec-2026-intake?utm_source=api",
+   "region": "Australia",
+   "posted": "2026-10-26",
+   "tags": [
+    "DevSecOps-Intern",
+    "DevSecOps-Engineer",
+    "Cybersecurity-Engineer",
+    "Security-Engineer",
+    "Software-Engineer",
+    "DevSecOps-Engineer-Intern",
+    "Junior-DevSecOps-Engineer"
+   ],
+   "snippet": "Job Description SummaryGE Vernova is looking for a high-achieving student to join our team at the intersection of cyber security, software engineering, and critical energy infrastructure.",
+   "salaryText": "",
+   "lpa": null,
+   "type": "Intern",
+   "remote": true,
+   "score": 12,
+   "india": "no"
+  },
+  {
+   "source": "Jobicy",
+   "title": "Senior Manager, Engineering - Identity & Access Management",
+   "company": "ClickUp",
+   "url": "https://jobicy.com/jobs/156885-senior-manager-engineering-identity-access-management",
+   "region": "USA",
+   "posted": "2026-10-25",
+   "tags": [
+    "Software Engineering"
+   ],
+   "snippet": "At ClickUp, we're building the future of work: the first truly converged AI workspace unifying tasks, docs, chat, calendar, and enterprise search, all supercharged by context-driven AI. We are an AI-native company. Every team member is expected to leverage AI daily, and we evaluate AI fluency as part of our hiring proc",
+   "salaryText": "",
+   "lpa": null,
+   "type": "Full-Time",
+   "remote": true,
+   "score": 12,
+   "india": "no"
+  },
+  {
+   "source": "Jobicy",
+   "title": "Principal Software Engineer, SIEM (Ruby/Rails)",
+   "company": "Huntress",
+   "url": "https://jobicy.com/jobs/156769-principal-software-engineer-siem-ruby-rails",
+   "region": "USA",
+   "posted": "2026-10-24",
+   "tags": [
+    "Software Engineering"
+   ],
+   "snippet": "What We Do: Cybercrime is growing, and more businesses are getting hit by threats that used to target only the biggest organizations. That pushes defenders like us to operate at the highest level, and it deepens our need for good people who want to make a meaningful impact. Founded in 2015 by former NSA cyber",
+   "salaryText": "",
+   "lpa": null,
+   "type": "Full-Time",
+   "remote": true,
+   "score": 7,
+   "india": "no"
+  }
+ ]
+}

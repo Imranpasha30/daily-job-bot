@@ -1,0 +1,1138 @@
+{
+ "generated": "2026-10-26T07:02:28.099Z",
+ "usdInr": 88,
+ "jobs": [
+  {
+   "source": "Himalayas",
+   "title": "Sr. Python Developer",
+   "company": "Riverhouse Technologies",
+   "url": "https://himalayas.app/companies/riverhouse-technologies/jobs/sr-python-developer?utm_source=api",
+   "region": "Suriname",
+   "posted": "2026-10-26",
+   "tags": [
+    "Python-Developer",
+    "Backend-Engineer",
+    "Cloud-Engineer",
+    "Software-Engineer",
+    "Senior-Python-Software-Engineer",
+    "Senior-Python-Engineer",
+    "Senior-Python-Developer-(South-America)",
+    "Senior-Python-Backend-Developer"
+   ],
+   "snippet": "Senior Python Developer Job Description:We are seeking an experienced Senior Python Developer with a deep understanding of cloud platforms and services to join our growing, dynamic team.",
+   "salaryText": "USD 1000k–2000k",
+   "lpa": 1760,
+   "type": "Full Time",
+   "remote": true,
+   "score": 100,
+   "india": "maybe"
+  },
+  {
+   "source": "Himalayas",
+   "title": "Senior AI Automation Engineer (n8n, Make, Python/JavaScript)",
+   "company": "Bamboo Works",
+   "url": "https://himalayas.app/companies/bambooworks/jobs/senior-ai-automation-engineer-n8n-make-python-javascript-2119233402?utm_source=api",
+   "region": "Belarus",
+   "posted": "2026-10-26",
+   "tags": [
+    "AI-Automation-Engineer",
+    "Automation-Engineer",
+    "AI-Engineer",
+    "Software-Engineer",
+    "Integration-Engineer",
+    "Senior-Automation-Developer",
+    "AI-Automations-Engineer"
+   ],
+   "snippet": "About the ClientWe're helping a growing AI and process automation consultancy based in Munich, Germany find a Senior AI Automation Engineer to design and deliver sophisticated automation and AI-powered business solutions.",
+   "salaryText": "USD 2k–2k",
+   "lpa": 2.1,
+   "type": "Contractor",
+   "remote": true,
+   "score": 90,
+   "india": "maybe"
+  },
+  {
+   "source": "Jobicy",
+   "title": "Python and Kubernetes Software Engineer - Data, Workflows, AI/ML & Analytics",
+   "company": "Canonical",
+   "url": "https://jobicy.com/jobs/149563-python-and-kubernetes-software-engineer-data-workflows-ai-ml-analytics",
+   "region": "Anywhere",
+   "posted": "2026-10-24",
+   "tags": [
+    "Software Engineering"
+   ],
+   "snippet": "Canonical is a leading provider of open source software and operating systems to the global enterprise and technology markets. Our platform, Ubuntu, is very widely used in breakthrough enterprise initiatives such as public cloud, data science, AI, engineering innovation and IoT. Our customers include the world's leadin",
+   "salaryText": "",
+   "lpa": null,
+   "type": "Full-Time",
+   "remote": true,
+   "score": 90,
+   "india": "maybe"
+  },
+  {
+   "source": "Jobicy",
+   "title": "Python Engineer",
+   "company": "Canonical",
+   "url": "https://jobicy.com/jobs/149543-python-engineer",
+   "region": "Anywhere",
+   "posted": "2026-10-24",
+   "tags": [
+    "Software Engineering"
+   ],
+   "snippet": "Canonical is a leading provider of open source software and operating systems to the global enterprise and technology markets. Our platform, Ubuntu, is very widely used in breakthrough enterprise initiatives such as public cloud, data science, AI, engineering innovation, and IoT. Our customers include the world's leadi",
+   "salaryText": "",
+   "lpa": null,
+   "type": "Full-Time",
+   "remote": true,
+   "score": 90,
+   "india": "maybe"
+  },
+  {
+   "source": "RemoteOK",
+   "title": "APAC Python",
+   "company": "Kodland",
+   "url": "https://remoteOK.com/remote-jobs/remote-apac-python-kodland-1137534",
+   "region": "Remote",
+   "posted": "2026-10-16",
+   "tags": [
+    "python",
+    "teaching",
+    "education",
+    "customer support",
+    "dev",
+    "testing",
+    "part time",
+    "non tech"
+   ],
+   "snippet": "AboutÂ theÂ Company: KodlandÂ isÂ anÂ internationalÂ onlineÂ codingÂ andÂ digitalÂ skillsÂ schoolÂ thatÂ helpsÂ childrenÂ agedÂ 5Â toÂ 17Â takeÂ theirÂ firstÂ stepsÂ intoÂ theÂ worldÂ ofÂ programmingÂ andÂ technology. AboutÂ theÂ Role: AreÂ youÂ aÂ passionateÂ programmerÂ whoÂ lovesÂ codingÂ andÂ computerÂ games?Â Woul",
+   "salaryText": "",
+   "lpa": null,
+   "type": "",
+   "remote": true,
+   "score": 90,
+   "india": "maybe"
+  },
+  {
+   "source": "Jobicy",
+   "title": "Senior Backend Engineer",
+   "company": "Tala",
+   "url": "https://jobicy.com/jobs/156465-senior-backend-engineer-11",
+   "region": "APAC",
+   "posted": "2026-10-22",
+   "tags": [
+    "Software Engineering"
+   ],
+   "snippet": "Tala is the AI-native credit infrastructure that connects global capital to the global majority. We combine proprietary risk intelligence with an expanding network of capital and distribution partners to power credit access at scale. To date, Tala has distributed more than $9 billion in capital to more than 14 million ",
+   "salaryText": "",
+   "lpa": null,
+   "type": "Full-Time",
+   "remote": true,
+   "score": 84,
+   "india": "yes"
+  },
+  {
+   "source": "Jobicy",
+   "title": "Data API Engineer",
+   "company": "Supabase",
+   "url": "https://jobicy.com/jobs/156939-data-api-engineer",
+   "region": "Anywhere",
+   "posted": "2026-10-25",
+   "tags": [
+    "Software Engineering"
+   ],
+   "snippet": "About Supabase Supabase is the Postgres development platform, built by developers for developers. We provide a complete backend solution including Database, Auth, Storage, Edge Functions, Realtime, and Vector Search. All services are deeply integrated and designed for growth. About the Role We’re looking for a Data API",
+   "salaryText": "",
+   "lpa": null,
+   "type": "Full-Time",
+   "remote": true,
+   "score": 82,
+   "india": "maybe"
+  },
+  {
+   "source": "Arbeitnow",
+   "title": "Senior/Tech Lead Backend Engineer (Managed Kubernetes)",
+   "company": "Nebius",
+   "url": "https://www.arbeitnow.co.uk/jobs/companies/nebius/senior-tech-lead-backend-engineer-managed-kubernetes-7631",
+   "region": "",
+   "posted": "2026-10-25",
+   "tags": [
+    "Backend"
+   ],
+   "snippet": "div class= content-intro p strong About Nebius: /strong /p p Nebius is leading a new era in cloud infrastructure for the global AI economy. We are building a full-stack AI cloud platform that supports developers and enterprises from data and model training through to production deployment, without the cost and complexi",
+   "salaryText": "",
+   "lpa": null,
+   "type": "",
+   "remote": false,
+   "score": 82,
+   "india": "maybe"
+  },
+  {
+   "source": "Arbeitnow",
+   "title": "Cloud and Platform Engineer",
+   "company": "SwissPeak Partners GmbH",
+   "url": "https://www.arbeitnow.ch/jobs/companies/swisspeak-partners-gmbh/cloud-and-platform-engineer-zurich-469761",
+   "region": "Zurich, Zürich, Switzerland",
+   "posted": "2026-10-25",
+   "tags": [
+    "Infrastructure & DevOps",
+    "Experienced",
+    "contract"
+   ],
+   "snippet": "For a renowned Swiss bank in Zurich, we are looking for an experienced cloud and platform engineer. You will provision and run platform services as code, depending on the team, with a focus on Entra ID automation, a data platform on Azure or a Kafka platform on Kubernetes. Your tasks Provision platform services with in",
+   "salaryText": "",
+   "lpa": null,
+   "type": "Experienced, contract",
+   "remote": false,
+   "score": 82,
+   "india": "maybe"
+  },
+  {
+   "source": "Jobicy",
+   "title": "Microservices Engineer",
+   "company": "Canonical",
+   "url": "https://jobicy.com/jobs/149558-microservices-engineer",
+   "region": "Anywhere",
+   "posted": "2026-10-24",
+   "tags": [
+    "Software Engineering"
+   ],
+   "snippet": "Canonical is a leading provider of open source software and operating systems to the global enterprise and technology markets. Our platform, Ubuntu, is very widely used in breakthrough enterprise initiatives such as public cloud, data science, AI, engineering innovation, and IoT. Our customers include the world's leadi",
+   "salaryText": "",
+   "lpa": null,
+   "type": "Full-Time",
+   "remote": true,
+   "score": 82,
+   "india": "maybe"
+  },
+  {
+   "source": "RemoteOK",
+   "title": "Golang Kubernetes Engineer",
+   "company": "Arango",
+   "url": "https://remoteOK.com/remote-jobs/remote-golang-kubernetes-engineer-arango-1137400",
+   "region": "Remote",
+   "posted": "2026-09-16",
+   "tags": [
+    "golang",
+    "golang",
+    "engineer"
+   ],
+   "snippet": "Remote - Arango delivers a unified, natively multimodel contextual data platform that powers AI agents, assistants, and applications with the unified, current, and trusted business context needed to reason, decide, and act at scale.The Arango Contextual Data Platform connects... Please mention the word **FESTIVE** and ",
+   "salaryText": "",
+   "lpa": null,
+   "type": "",
+   "remote": true,
+   "score": 82,
+   "india": "maybe"
+  },
+  {
+   "source": "RemoteOK",
+   "title": "Senior Backend Engineer",
+   "company": "DuckDuckGo",
+   "url": "https://remoteOK.com/remote-jobs/remote-senior-backend-engineer-duckduckgo-1137551",
+   "region": "Remote",
+   "posted": "2026-10-21",
+   "tags": [
+    "backend",
+    "perl",
+    "golang",
+    "javascript",
+    "node"
+   ],
+   "snippet": "Who We Are Hi, we're DuckDuckGo, the online protection company and remote-first team of 400+ on a mission to raise the standard of trust online. Founded in 2008 and profitable since 2014, our annual revenue is in the hundreds of millions USD and millions use our browser on Mac , Windows , iOS , and Android , our search",
+   "salaryText": "USD 190k",
+   "lpa": 167.2,
+   "type": "",
+   "remote": true,
+   "score": 80,
+   "india": "maybe"
+  },
+  {
+   "source": "Himalayas",
+   "title": "Copy of Senior AI Engineer (with Python, LangGraph & LangChain)",
+   "company": "Miratech",
+   "url": "https://himalayas.app/companies/miratech/jobs/copy-of-senior-ai-engineer-with-python-langgraph-langchain?utm_source=api",
+   "region": "Canada",
+   "posted": "2026-10-26",
+   "tags": [
+    "Senior-AI-Engineer",
+    "AI-Engineer",
+    "Machine-Learning-Engineer",
+    "LLM-Engineer",
+    "Generative-AI-Engineer",
+    "Senior-AI-Software-Engineer",
+    "Senior-AI-Engineering",
+    "Senior-AI-LLM-Engineer"
+   ],
+   "snippet": "We are looking for a highly skilled, hands-on Senior AI Engineer with Python, LangGraph & LangChain to join our client's enterprise AI initiative.",
+   "salaryText": "",
+   "lpa": null,
+   "type": "Full Time",
+   "remote": true,
+   "score": 72,
+   "india": "no"
+  },
+  {
+   "source": "Jobicy",
+   "title": "Full Stack Web Engineer (Python & React)",
+   "company": "Oowlish Technology",
+   "url": "https://jobicy.com/jobs/151496-full-stack-web-engineer-python-react",
+   "region": "Argentina,  Brazil,  Mexico",
+   "posted": "2026-10-25",
+   "tags": [
+    "Software Engineering"
+   ],
+   "snippet": "Join Our Team Oowlish, one of Latin America's rapidly expanding software development companies, is seeking experienced technology professionals to enhance our diverse and vibrant team. As a valued member of Oowlish, you will collaborate with premier clients from the United States and Europe, contributing to pioneering ",
+   "salaryText": "",
+   "lpa": null,
+   "type": "Full-Time",
+   "remote": true,
+   "score": 72,
+   "india": "no"
+  },
+  {
+   "source": "Jobicy",
+   "title": "Distributed Systems Engineer",
+   "company": "Canonical",
+   "url": "https://jobicy.com/jobs/156945-distributed-systems-engineer-3",
+   "region": "Anywhere",
+   "posted": "2026-10-25",
+   "tags": [
+    "Software Engineering"
+   ],
+   "snippet": "Canonical is a leading provider of open source software and operating systems to the global enterprise and technology markets. Our platform, Ubuntu, is very widely used in breakthrough enterprise initiatives such as public cloud, data science, AI, engineering innovation, and IoT. Our customers include the world's leadi",
+   "salaryText": "",
+   "lpa": null,
+   "type": "Full-Time",
+   "remote": true,
+   "score": 70,
+   "india": "maybe"
+  },
+  {
+   "source": "Arbeitnow",
+   "title": "Ops/Developer Platform Engineer",
+   "company": "tensordyne",
+   "url": "https://www.arbeitnow.com/jobs/companies/tensordyne/ops-developer-platform-engineer-munich-315347",
+   "region": "Munich",
+   "posted": "2026-10-25",
+   "tags": [
+    "Engineering"
+   ],
+   "snippet": "div p strong About Tensordyne (formerly Recogni) /strong /p p nbsp; /p p AI is transforming our world. It can perform cognitive functions that previously only humans could do, such as perceiving interactions across different modalities and environments - with the ability to quickly learn and then solve complex problems",
+   "salaryText": "",
+   "lpa": null,
+   "type": "",
+   "remote": false,
+   "score": 70,
+   "india": "maybe"
+  },
+  {
+   "source": "Arbeitnow",
+   "title": "Senior Backend Product Engineer",
+   "company": "Cais",
+   "url": "https://www.arbeitnow.co.uk/jobs/companies/cais/senior-backend-product-engineer-london-465801",
+   "region": "London",
+   "posted": "2026-10-25",
+   "tags": [
+    "Technology"
+   ],
+   "snippet": "p strong span data-contrast= auto About CAIS /span /strong span data-ccp-props= { quot;201341983 quot;:0, quot;335559738 quot;:240, quot;335559739 quot;:240, quot;335559740 quot;:240} br /span span data-contrast= auto CAIS is the pioneer in democratizing access to and education about alternative investments for indepen",
+   "salaryText": "",
+   "lpa": null,
+   "type": "",
+   "remote": false,
+   "score": 70,
+   "india": "maybe"
+  },
+  {
+   "source": "Jobicy",
+   "title": "Senior Backend Engineer",
+   "company": "Monzo",
+   "url": "https://jobicy.com/jobs/156699-senior-backend-engineer-12",
+   "region": "UK",
+   "posted": "2026-10-24",
+   "tags": [
+    "Software Engineering"
+   ],
+   "snippet": "We’re on a mission to make money work for everyone. We’re waving goodbye to the complicated and confusing ways of traditional banking. After starting as a prepaid card, our product offering has grown a lot in the last 10 years in the UK. As well as personal and business bank accounts, we offer joint",
+   "salaryText": "",
+   "lpa": null,
+   "type": "Part-Time",
+   "remote": true,
+   "score": 70,
+   "india": "maybe"
+  },
+  {
+   "source": "Jobicy",
+   "title": "Golang Engineer",
+   "company": "Canonical",
+   "url": "https://jobicy.com/jobs/149538-golang-engineer-2",
+   "region": "Anywhere",
+   "posted": "2026-10-24",
+   "tags": [
+    "Software Engineering"
+   ],
+   "snippet": "Canonical is a leading provider of open-source software and operating systems for global enterprise and technology markets. Our platform, Ubuntu, is very widely used in breakthrough enterprise initiatives such as public cloud, data science, AI, engineering innovation and IoT. Our customers include the world's leading p",
+   "salaryText": "",
+   "lpa": null,
+   "type": "Full-Time",
+   "remote": true,
+   "score": 70,
+   "india": "maybe"
+  },
+  {
+   "source": "Arbeitnow",
+   "title": "Senior Java Engineer - Distributed Systems, Serverless - Elasticsearch",
+   "company": "Elastic",
+   "url": "https://www.arbeitnow.ch/jobs/companies/elastic/senior-java-engineer-distributed-systems-serverless-elasticsearch-244252",
+   "region": "",
+   "posted": "2026-10-24",
+   "tags": [
+    "Platform - Elasticsearch"
+   ],
+   "snippet": "div class= content-intro p Elastic, the Search AI Company, enables everyone to find the answers they need in real time, using all their data, at scale — unleashing the potential of businesses and people. The Elastic Search AI Platform, used by more than 50% of the Fortune 500, brings together the precision of search an",
+   "salaryText": "",
+   "lpa": null,
+   "type": "",
+   "remote": false,
+   "score": 70,
+   "india": "maybe"
+  },
+  {
+   "source": "RemoteOK",
+   "title": "Senior DevOps Engineer",
+   "company": "Lemon.io",
+   "url": "https://remoteOK.com/remote-jobs/remote-senior-devops-engineer-lemon-io-1137557",
+   "region": "Remote",
+   "posted": "2026-10-22",
+   "tags": [
+    "devops",
+    "engineer",
+    "dev",
+    "python",
+    "golang",
+    "aws",
+    "gcp",
+    "kubernetes"
+   ],
+   "snippet": "Lemon.io helps companies in the US and Europe hire experienced engineers, from funded startups to teams like Klarna, Retool, and Pinterest. Weâve been doing this since 2015, and more than 1,500 companies have hired engineers through us. New roles for Senior DevOps Engineers come in all the time, and several are open ",
+   "salaryText": "USD 50k–150k",
+   "lpa": 132,
+   "type": "",
+   "remote": true,
+   "score": 70,
+   "india": "maybe"
+  },
+  {
+   "source": "Jobicy",
+   "title": "Senior Backend Engineer",
+   "company": "ClickUp",
+   "url": "https://jobicy.com/jobs/151253-senior-backend-engineer-2",
+   "region": "Czechia,  Hungary,  Ukraine",
+   "posted": "2026-10-21",
+   "tags": [
+    "Software Engineering"
+   ],
+   "snippet": "At ClickUp, we're building the future of work: the first truly converged AI workspace unifying tasks, docs, chat, calendar, and enterprise search, all supercharged by context-driven AI. We are an AI-native company. Every team member is expected to leverage AI daily, and we evaluate AI fluency as part of our hiring proc",
+   "salaryText": "",
+   "lpa": null,
+   "type": "Full-Time",
+   "remote": true,
+   "score": 70,
+   "india": "maybe"
+  },
+  {
+   "source": "Jobicy",
+   "title": "Backend Engineer (Ruby), Plan: Spec-Driven Development",
+   "company": "GitLab",
+   "url": "https://jobicy.com/jobs/156080-backend-engineer-ruby-plan-spec-driven-development",
+   "region": "UK",
+   "posted": "2026-10-20",
+   "tags": [
+    "Software Engineering"
+   ],
+   "snippet": "GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and more than 50% of the Fortune 100* trust G",
+   "salaryText": "",
+   "lpa": null,
+   "type": "Full-Time",
+   "remote": true,
+   "score": 70,
+   "india": "maybe"
+  },
+  {
+   "source": "RemoteOK",
+   "title": "Senior Backend Engineer",
+   "company": "Rain",
+   "url": "https://remoteOK.com/remote-jobs/remote-senior-backend-engineer-rain-1137544",
+   "region": "Remote",
+   "posted": "2026-10-18",
+   "tags": [
+    "golang",
+    "finance",
+    "mobile",
+    "senior",
+    "medical",
+    "engineer",
+    "backend"
+   ],
+   "snippet": "Remote - Rain is the world's first AI Financial Health Platform, serving 3.5 million employees at leading organizations like McDonald's, Marriott, and T-Mobile. Rain works in the background to optimize every employee's financial life to prevent shortfalls and build long-term sta... Please mention the word **COVENANT** ",
+   "salaryText": "",
+   "lpa": null,
+   "type": "",
+   "remote": true,
+   "score": 70,
+   "india": "maybe"
+  },
+  {
+   "source": "RemoteOK",
+   "title": "Senior Backend Engineer Build AI Agents",
+   "company": "Salesforge",
+   "url": "https://remoteOK.com/remote-jobs/remote-senior-backend-engineer-build-ai-agents-salesforge-1137114",
+   "region": "Remote",
+   "posted": "2026-08-25",
+   "tags": [
+    "golang",
+    "senior",
+    "sales",
+    "engineer",
+    "backend"
+   ],
+   "snippet": "Remote - Most sales tools help you send emails. Weâre building something different.At Salesforge, weâre creating autonomous AI agents that can:Find the right prospectsGenerate highly personalized outreachRun conversationsAnd book meetingsAll without human invo... Please mention the word **EMPATHY** and tag RMjQwOTo",
+   "salaryText": "",
+   "lpa": null,
+   "type": "",
+   "remote": true,
+   "score": 70,
+   "india": "maybe"
+  },
+  {
+   "source": "RemoteOK",
+   "title": "Senior Software Engineer Case Execution",
+   "company": "Pivotal Health",
+   "url": "https://remoteOK.com/remote-jobs/remote-senior-software-engineer-case-execution-pivotal-health-1136795",
+   "region": "New York City",
+   "posted": "2026-08-16",
+   "tags": [
+    "dev",
+    "front end",
+    "python",
+    "customer support",
+    "design",
+    "admin",
+    "exec",
+    "senior"
+   ],
+   "snippet": "About Pivotal Health Pivotal Health is the leading technology platform that helps healthcare providers get paid fairly in an increasingly complex reimbursement landscape. Today, many providers face persistent underpayment from health insurance companies, despite delivering high-quality care. While processes like IDR (I",
+   "salaryText": "USD 190k–220k",
+   "lpa": 193.6,
+   "type": "",
+   "remote": true,
+   "score": 70,
+   "india": "maybe"
+  },
+  {
+   "source": "RemoteOK",
+   "title": "Senior Software Engineer II Applied AI",
+   "company": "Wrapbook",
+   "url": "https://remoteOK.com/remote-jobs/remote-senior-software-engineer-ii-applied-ai-wrapbook-1137527",
+   "region": "Remote",
+   "posted": "2026-10-15",
+   "tags": [
+    "dev",
+    "design",
+    "amazon",
+    "sys admin",
+    "backend",
+    "infosec",
+    "python",
+    "education"
+   ],
+   "snippet": "About Us: Wrapbook is the AI platform for production finance. Weâre building a system of action that puts finance teams in control of their whole production, from payroll, to spend, to accounting. Built for feature films, TV, and commercials, Wrapbook is trusted by teams at Netflix, Paramount, Anonymous Content, and ",
+   "salaryText": "",
+   "lpa": null,
+   "type": "",
+   "remote": true,
+   "score": 66,
+   "india": "maybe"
+  },
+  {
+   "source": "Remotive",
+   "title": "Software Engineer, AI Coding Tasks",
+   "company": "Askable",
+   "url": "https://remotive.com/remote-jobs/software-development/software-engineer-ai-coding-tasks-2091158",
+   "region": "Worldwide",
+   "posted": "2026-10-17",
+   "tags": [
+    "C++",
+    "docker",
+    "git",
+    "go",
+    "java",
+    "python",
+    "security",
+    "AI/ML"
+   ],
+   "snippet": "We're looking for experienced software engineers to build AI coding tasks from a codebase they know well. US$1,000 per task, and you can do as many tasks as you want. You turn a real change from a repository you know into a task that today's best AI coding models struggle with: hard for the models, but fair for a skill",
+   "salaryText": "$1000 per task",
+   "lpa": null,
+   "type": "contract",
+   "remote": true,
+   "score": 60,
+   "india": "maybe"
+  },
+  {
+   "source": "RemoteOK",
+   "title": "DESARROLLADOR FULL STACK",
+   "company": "Kruger NearShore LLC - Rekluti",
+   "url": "https://remoteOK.com/remote-jobs/remote-desarrollador-full-stack-kruger-nearshore-llc-rekluti-1137062",
+   "region": "Remote",
+   "posted": "2026-08-22",
+   "tags": [
+    "full stack",
+    "front end",
+    "python",
+    "dev",
+    "testing",
+    "web dev",
+    "quality assurance",
+    "devops"
+   ],
+   "snippet": "Desarrollador/a Full Stack â Python / Angular / Go En Rekluti , consultora especializada en talento tecnolÃ³gico en LATAM, buscamos un/a Desarrollador/a Full Stack para integrarse a proyectos de alta complejidad y participar en el desarrollo de soluciones web escalables. Buscamos un perfil con sÃ³lida experiencia en ",
+   "salaryText": "",
+   "lpa": null,
+   "type": "",
+   "remote": true,
+   "score": 60,
+   "india": "maybe"
+  },
+  {
+   "source": "Remotive",
+   "title": "Senior React Full-stack Developer",
+   "company": "Lemon.io",
+   "url": "https://remotive.com/remote-jobs/software-development/senior-react-full-stack-developer-2091133",
+   "region": "Europe, USA, Canada, APAC",
+   "posted": "2026-10-02",
+   "tags": [
+    ".Net",
+    "android",
+    "AWS",
+    "azure",
+    "C",
+    "C#",
+    "C++",
+    "data science"
+   ],
+   "snippet": "Are you a talented Senior Developer looking for a remote job that lets you show your skills and get decent compensation? Look no further than Lemon.io — the marketplace that connects you with hand-picked startups in the US and Europe. What we offer: The rate depends on your seniority level, skills and experience. We've",
+   "salaryText": "",
+   "lpa": null,
+   "type": "full_time",
+   "remote": true,
+   "score": 56,
+   "india": "yes"
+  },
+  {
+   "source": "Jobicy",
+   "title": "Software Engineer - Branching",
+   "company": "Supabase",
+   "url": "https://jobicy.com/jobs/156947-software-engineer-branching",
+   "region": "Anywhere",
+   "posted": "2026-10-25",
+   "tags": [
+    "Software Engineering"
+   ],
+   "snippet": "About Supabase Supabase is the Postgres development platform, built by developers for developers. We provide a complete backend solution including Database, Auth, Storage, Edge Functions, Realtime, and Vector Search. All services are deeply integrated and designed for growth. About the Role We’re building a high-perfor",
+   "salaryText": "",
+   "lpa": null,
+   "type": "Full-Time",
+   "remote": true,
+   "score": 52,
+   "india": "maybe"
+  },
+  {
+   "source": "Jobicy",
+   "title": "Software Engineer - Storage",
+   "company": "Supabase",
+   "url": "https://jobicy.com/jobs/156940-software-engineer-storage",
+   "region": "Anywhere",
+   "posted": "2026-10-25",
+   "tags": [
+    "Software Engineering"
+   ],
+   "snippet": "About Supabase Supabase is the Postgres development platform, built by developers for developers. We provide a complete backend solution including Database, Auth, Storage, Edge Functions, Realtime, and Vector Search. All services are deeply integrated and designed for growth. About the Role Supabase Storage is a scalab",
+   "salaryText": "",
+   "lpa": null,
+   "type": "Full-Time",
+   "remote": true,
+   "score": 52,
+   "india": "maybe"
+  },
+  {
+   "source": "Jobicy",
+   "title": "Senior Workday Platform Engineer",
+   "company": "Natera",
+   "url": "https://jobicy.com/jobs/149595-senior-workday-platform-engineer",
+   "region": "USA",
+   "posted": "2026-10-25",
+   "tags": [
+    "Software Engineering"
+   ],
+   "snippet": "We are seeking a hands-on Senior Workday Platform Engineer within the G A IT Applications team to serve as the primary technical owner of the Workday platform across HCM, Payroll, Recruiting, Prism Analytics, Illuminate (AI/ML), integrations, security, and release management.This is a builder-first role. You will confi",
+   "salaryText": "",
+   "lpa": null,
+   "type": "Full-Time",
+   "remote": true,
+   "score": 52,
+   "india": "no"
+  },
+  {
+   "source": "Arbeitnow",
+   "title": "Staff Backend Engineer - Platform (f/m/d)",
+   "company": "Apaleo",
+   "url": "https://www.arbeitnow.com/jobs/companies/apaleo/staff-backend-engineer-platform-munchen-123859",
+   "region": "München, Bavaria, Germany",
+   "posted": "2026-10-25",
+   "tags": [],
+   "snippet": "Staff Backend Engineer – Platform Join Apaleo and shape the future of hospitality tech Apaleo is the world's most open, API-first property management platform powering the next generation of hospitality operations. Its modular, AI-powered infrastructure lets hoteliers customise their tech stack, automate routine work a",
+   "salaryText": "",
+   "lpa": null,
+   "type": "",
+   "remote": false,
+   "score": 52,
+   "india": "no"
+  },
+  {
+   "source": "Jobicy",
+   "title": "Senior Software Engineer, Backend",
+   "company": "Customer.io",
+   "url": "https://jobicy.com/jobs/156558-senior-software-engineer-backend-4",
+   "region": "EMEA",
+   "posted": "2026-10-23",
+   "tags": [
+    "Software Engineering"
+   ],
+   "snippet": "Hi, I’m Paul, VP of Engineering at Customer.io. We’re looking for experienced backend engineers who care deeply about reliability, performance, and scalability. You’ll design, build, and evolve the systems that power communication at massive scale - while helping us push the boundaries of what great engineering can loo",
+   "salaryText": "",
+   "lpa": null,
+   "type": "Full-Time",
+   "remote": true,
+   "score": 52,
+   "india": "no"
+  },
+  {
+   "source": "Jobicy",
+   "title": "Staff Backend Engineer",
+   "company": "Socure",
+   "url": "https://jobicy.com/jobs/153889-staff-backend-engineer-3",
+   "region": "USA",
+   "posted": "2026-10-23",
+   "tags": [
+    "Software Engineering"
+   ],
+   "snippet": "Why Socure? Socure is building the identity trust infrastructure for the digital economy — verifying 100% of good identities in real time and stopping fraud before it starts. The mission is big, the problems are complex, and the impact is felt by businesses, governments, and millions of people every day. We hire people",
+   "salaryText": "",
+   "lpa": null,
+   "type": "Full-Time",
+   "remote": true,
+   "score": 52,
+   "india": "no"
+  },
+  {
+   "source": "Jobicy",
+   "title": "Staff Software Backend Engineer, Tech Lead - Foundations",
+   "company": "NetBox Labs",
+   "url": "https://jobicy.com/jobs/153647-staff-software-backend-engineer-tech-lead-foundations",
+   "region": "UK,  USA",
+   "posted": "2026-10-23",
+   "tags": [
+    "Software Engineering"
+   ],
+   "snippet": "NetBox Labs seeks a Staff Software Backend Engineer to technically lead our Foundations team. Foundations is the platform team that builds shared platform primitives that other engineering teams depend on including core services for authentication, access control, customer secrets management, and customer telemetry. Th",
+   "salaryText": "",
+   "lpa": null,
+   "type": "Full-Time",
+   "remote": true,
+   "score": 52,
+   "india": "no"
+  },
+  {
+   "source": "Jobicy",
+   "title": "Backend Software Engineer, SDK",
+   "company": "LaunchDarkly",
+   "url": "https://jobicy.com/jobs/156284-backend-software-engineer-sdk",
+   "region": "USA",
+   "posted": "2026-10-22",
+   "tags": [
+    "Software Engineering"
+   ],
+   "snippet": "About LaunchDarkly Engineering LaunchDarkly helps engineering organizations ship software and AI with speed, safety, and control. Our platform gives teams the confidence to release gradually, target experiences to the right audiences, learn through experimentation, understand what is happening in production, and respon",
+   "salaryText": "",
+   "lpa": null,
+   "type": "Full-Time",
+   "remote": true,
+   "score": 52,
+   "india": "no"
+  },
+  {
+   "source": "Jobicy",
+   "title": "Senior Backend Engineer, Search",
+   "company": "ClickUp",
+   "url": "https://jobicy.com/jobs/156289-senior-backend-engineer-search",
+   "region": "USA",
+   "posted": "2026-10-22",
+   "tags": [
+    "Software Engineering"
+   ],
+   "snippet": "At ClickUp, we're building the future of work: the first truly converged AI workspace unifying tasks, docs, chat, calendar, and enterprise search, all supercharged by context-driven AI. We are an AI-native company. Every team member is expected to leverage AI daily, and we evaluate AI fluency as part of our hiring proc",
+   "salaryText": "",
+   "lpa": null,
+   "type": "Full-Time",
+   "remote": true,
+   "score": 52,
+   "india": "no"
+  },
+  {
+   "source": "Jobicy",
+   "title": "Senior Software Engineer – Backend (USA Only - 100% Remote)",
+   "company": "Close",
+   "url": "https://jobicy.com/jobs/151308-senior-software-engineer-backend-usa-only-100-remote",
+   "region": "USA",
+   "posted": "2026-10-22",
+   "tags": [
+    "Software Engineering"
+   ],
+   "snippet": "About Us Since 2013, we’ve been building a CRM that gets out of your way and helps your team sell more, faster. Now we’re building AI into every part of it, so Close does the busywork and your team does the selling. No manual data entry, no 10-click workflows. Just communication-first, AI-powered sales software designe",
+   "salaryText": "",
+   "lpa": null,
+   "type": "Full-Time",
+   "remote": true,
+   "score": 52,
+   "india": "no"
+  },
+  {
+   "source": "Jobicy",
+   "title": "Staff Backend Engineer, Hierarchy",
+   "company": "ClickUp",
+   "url": "https://jobicy.com/jobs/151239-staff-backend-engineer-hierarchy",
+   "region": "USA",
+   "posted": "2026-10-21",
+   "tags": [
+    "Software Engineering"
+   ],
+   "snippet": "At ClickUp, we're building the future of work: the first truly converged AI workspace unifying tasks, docs, chat, calendar, and enterprise search, all supercharged by context-driven AI. We are an AI-native company. Every team member is expected to leverage AI daily, and we evaluate AI fluency as part of our hiring proc",
+   "salaryText": "",
+   "lpa": null,
+   "type": "Full-Time",
+   "remote": true,
+   "score": 52,
+   "india": "no"
+  },
+  {
+   "source": "Jobicy",
+   "title": "Backend Engineer, Create: Source Code Experience (Ruby)",
+   "company": "GitLab",
+   "url": "https://jobicy.com/jobs/156076-backend-engineer-create-source-code-experience-ruby",
+   "region": "Canada",
+   "posted": "2026-10-20",
+   "tags": [
+    "Software Engineering"
+   ],
+   "snippet": "GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and more than 50% of the Fortune 100* trust G",
+   "salaryText": "",
+   "lpa": null,
+   "type": "Full-Time",
+   "remote": true,
+   "score": 52,
+   "india": "no"
+  },
+  {
+   "source": "Jobicy",
+   "title": "Staff Software Engineer (Full-stack/Backend)",
+   "company": "hims &#038; hers",
+   "url": "https://jobicy.com/jobs/155988-staff-software-engineer-full-stack-backend",
+   "region": "USA",
+   "posted": "2026-10-20",
+   "tags": [
+    "Software Engineering"
+   ],
+   "snippet": "Hims Hers is the leading health and wellness platform, on a mission to help the world feel great through the power of better health. We are redefining healthcare by putting the customer first and delivering access to care that is affordable, accessible, and personal, from diagnosis to treatment to delivery. No two peop",
+   "salaryText": "",
+   "lpa": null,
+   "type": "Full-Time",
+   "remote": true,
+   "score": 52,
+   "india": "no"
+  },
+  {
+   "source": "Remotive",
+   "title": "Senior back-end Engineer",
+   "company": "Lemon.io",
+   "url": "https://remotive.com/remote-jobs/software-development/senior-back-end-engineer-2091132",
+   "region": "Europe, USA, UK, Canada, Australia, Ireland, Switzerland, Singapore, Mexico, Iceland, Norway",
+   "posted": "2026-09-30",
+   "tags": [
+    ".Net",
+    "android",
+    "C",
+    "C#",
+    "C++",
+    "data science",
+    "golang",
+    "ios"
+   ],
+   "snippet": "Senior Developer? Work Remote. Get Paid Well. Build What Matters. Lemon.io connects hand-picked senior developers with vetted startups across the US and Europe — no bidding wars, no ghosting, just serious opportunities. We're currently hiring for a research-driven AI company on a mission to slash the cost of modern AI ",
+   "salaryText": "",
+   "lpa": null,
+   "type": "full_time",
+   "remote": true,
+   "score": 52,
+   "india": "no"
+  },
+  {
+   "source": "RemoteOK",
+   "title": "Software Engineer",
+   "company": "Mirantis",
+   "url": "https://remoteOK.com/remote-jobs/remote-software-engineer-mirantis-1137387",
+   "region": "Remote",
+   "posted": "2026-09-12",
+   "tags": [
+    "golang",
+    "dev",
+    "engineer",
+    "digital nomad"
+   ],
+   "snippet": "Remote - Mirantis, an IREN company, is the Kubernetes-native AI infrastructure company, enabling organizations to build and operate scalable, secure, and sovereign infrastructure for modern AI, machine learning, and data-intensive applications. By combining open source innovatio... Please mention the word **SEAMLESS** ",
+   "salaryText": "",
+   "lpa": null,
+   "type": "",
+   "remote": true,
+   "score": 52,
+   "india": "maybe"
+  },
+  {
+   "source": "Jobicy",
+   "title": "Engineering Manager - Distributed Systems, Python / Go",
+   "company": "Canonical",
+   "url": "https://jobicy.com/jobs/156573-engineering-manager-distributed-systems-python-go",
+   "region": "EMEA,  LATAM,  Canada,  USA",
+   "posted": "2026-10-23",
+   "tags": [
+    "QA & Testing"
+   ],
+   "snippet": "Canonical is a leading provider of open source software and operating systems to the global enterprise and technology markets. Our platform, Ubuntu, is widely used in breakthrough enterprise initiatives such as public cloud, data science, AI, engineering innovation, and IoT. Our customers include the world's leading pu",
+   "salaryText": "",
+   "lpa": null,
+   "type": "Full-Time",
+   "remote": true,
+   "score": 47,
+   "india": "no"
+  },
+  {
+   "source": "Himalayas",
+   "title": "Software Engineer",
+   "company": "Picus",
+   "url": "https://himalayas.app/companies/picus/jobs/software-engineer?utm_source=api",
+   "region": "Turkey",
+   "posted": "2026-10-26",
+   "tags": [
+    "Software-Engineer",
+    "Windows-Software-Engineer",
+    "Backend-Engineer",
+    "Cybersecurity-Engineer",
+    "Software-Engineer-Developer",
+    "Software-Developer",
+    "IT-Software-Engineer",
+    "Engineering-Software-Developer"
+   ],
+   "snippet": "Are you passionate about technology and enjoy explaining complex solutions in a way that everybody gets excited?",
+   "salaryText": "",
+   "lpa": null,
+   "type": "Full Time",
+   "remote": true,
+   "score": 40,
+   "india": "maybe"
+  },
+  {
+   "source": "Arbeitnow",
+   "title": "Senior Software Engineer, Backoffice Platform",
+   "company": "Ably30",
+   "url": "https://www.arbeitnow.co.uk/jobs/companies/ably30/senior-software-engineer-backoffice-platform-london-381554",
+   "region": "London",
+   "posted": "2026-10-25",
+   "tags": [
+    "Engineering"
+   ],
+   "snippet": "div class= content-intro p Our everyday digital experiences are in the middle of a realtime revolution: chatting alongside a livestream, getting realtime financial updates, or working with colleagues in a shared online space. Consumers now expect realtime as standard, and Ably powers a large part of it. /p p We put dev",
+   "salaryText": "",
+   "lpa": null,
+   "type": "",
+   "remote": false,
+   "score": 40,
+   "india": "maybe"
+  },
+  {
+   "source": "Arbeitnow",
+   "title": "Senior Software Engineer (Stream Processing)",
+   "company": "Nebius",
+   "url": "https://www.arbeitnow.co.uk/jobs/companies/nebius/senior-software-engineer-stream-processing-290179",
+   "region": "",
+   "posted": "2026-10-25",
+   "tags": [
+    "Backend"
+   ],
+   "snippet": "div class= content-intro p strong About Nebius: /strong /p p Nebius is leading a new era in cloud infrastructure for the global AI economy. We are building a full-stack AI cloud platform that supports developers and enterprises from data and model training through to production deployment, without the cost and complexi",
+   "salaryText": "",
+   "lpa": null,
+   "type": "",
+   "remote": false,
+   "score": 40,
+   "india": "maybe"
+  },
+  {
+   "source": "RemoteOK",
+   "title": "Senior Software Engineer",
+   "company": "Sothebyâs",
+   "url": "https://remoteOK.com/remote-jobs/remote-senior-software-engineer-sothebys-1137545",
+   "region": "Remote",
+   "posted": "2026-10-18",
+   "tags": [
+    "golang",
+    "dev",
+    "senior",
+    "sales",
+    "engineer",
+    "digital nomad"
+   ],
+   "snippet": "Remote - Established in 1744, Sothebyâs promotes access and ownership of exceptional art and luxury objects through auctions, private sales and retail. Our deep expertise across 70 selling categories is supported by a leading technology platform and a global network of special... Please mention the word **EVALUATIVE*",
+   "salaryText": "",
+   "lpa": null,
+   "type": "",
+   "remote": true,
+   "score": 40,
+   "india": "maybe"
+  },
+  {
+   "source": "RemoteOK",
+   "title": "Software Engineer",
+   "company": "Prenosis",
+   "url": "https://remoteOK.com/remote-jobs/remote-software-engineer-prenosis-1137427",
+   "region": "Remote",
+   "posted": "2026-09-23",
+   "tags": [
+    "golang",
+    "dev",
+    "engineer",
+    "digital nomad"
+   ],
+   "snippet": "Remote - Prenosis Inc. is an artificial intelligence company pioneering precision medicine in acute care. Our Immunixâ¢ precision medicine platform drives the development of precision products and enables real-time delivery of optimal therapy. We've created and validated the fi... Please mention the word **STELLARLY**",
+   "salaryText": "",
+   "lpa": null,
+   "type": "",
+   "remote": true,
+   "score": 40,
+   "india": "maybe"
+  },
+  {
+   "source": "Himalayas",
+   "title": "AWS ETL Data Engineer - REMOTE (Memphis, TN, US)",
+   "company": "NTT DATA",
+   "url": "https://himalayas.app/companies/nttdata/jobs/aws-etl-data-engineer-remote-memphis-tn-us?utm_source=api",
+   "region": "United States",
+   "posted": "2026-10-26",
+   "tags": [
+    "AWS-Data-Engineer",
+    "Data-Engineer",
+    "ETL-Developer",
+    "Cloud-Data-Engineer",
+    "Big-Data-Engineer",
+    "AWS-ETL-Data-Engineer",
+    "ETL-Data-Engineer",
+    "ETL-Engineer"
+   ],
+   "snippet": "Req ID:382980 NTT DATA strives to hire exceptional, innovative and passionate individuals who want to grow with us.",
+   "salaryText": "USD 98k–163k",
+   "lpa": 143.3,
+   "type": "Full Time",
+   "remote": true,
+   "score": 34,
+   "india": "no"
+  },
+  {
+   "source": "Remotive",
+   "title": "Tech Lead Full-Stack Rails Engineer",
+   "company": "Mitre Media",
+   "url": "https://remotive.com/remote-jobs/software-development/tech-lead-full-stack-rails-engineer-2069746",
+   "region": "USA, Canada, USA timezones",
+   "posted": "2026-10-14",
+   "tags": [
+    "api",
+    "CSS",
+    "docker",
+    "elasticsearch",
+    "fullstack",
+    "html",
+    "javascript",
+    "kubernetes"
+   ],
+   "snippet": "About Mitre Media Mitre Media is redefining FinTech with AI-driven tools that empower millions of investors. Our portfolio, including Dividend.com and MutualFunds.com, leverages LLMs to deliver novel data insights and visually rich user experiences. For over a decade, we’ve served individual investors, financial adviso",
+   "salaryText": "$170k - $200k",
+   "lpa": 176,
+   "type": "full_time",
+   "remote": true,
+   "score": 34,
+   "india": "no"
+  },
+  {
+   "source": "Jobicy",
+   "title": "Sr. Staff Engineer (Fullstack/Backend)",
+   "company": "hims &#038; hers",
+   "url": "https://jobicy.com/jobs/155991-sr-staff-engineer-fullstack-backend",
+   "region": "USA",
+   "posted": "2026-10-20",
+   "tags": [
+    "Software Engineering"
+   ],
+   "snippet": "Hims Hers is the leading health and wellness platform, on a mission to help the world feel great through the power of better health. We are redefining healthcare by putting the customer first and delivering access to care that is affordable, accessible, and personal, from diagnosis to treatment to delivery. No two peop",
+   "salaryText": "",
+   "lpa": null,
+   "type": "Full-Time",
+   "remote": true,
+   "score": 27,
+   "india": "no"
+  },
+  {
+   "source": "Jobicy",
+   "title": "Software Engineer/C Developer-PGD",
+   "company": "EDB",
+   "url": "https://jobicy.com/jobs/156380-software-engineer-c-developer-pgd",
+   "region": "EMEA",
+   "posted": "2026-10-22",
+   "tags": [
+    "Software Engineering"
+   ],
+   "snippet": "A Little About Us EDB provides a data and AI platform that enables organizations to harness the full power of Postgres for transactional, analytical, and AI workloads across any cloud, anywhere. EDB empowers enterprises to control risk, manage costs and scale efficiently for a data and AI led world. Serving more than 1",
+   "salaryText": "",
+   "lpa": null,
+   "type": "Full-Time",
+   "remote": true,
+   "score": 24,
+   "india": "no"
+  },
+  {
+   "source": "Jobicy",
+   "title": "Staff Software Engineer-ClickHouse Committer",
+   "company": "EDB",
+   "url": "https://jobicy.com/jobs/156381-staff-software-engineer-clickhouse-committer",
+   "region": "EMEA",
+   "posted": "2026-10-22",
+   "tags": [
+    "Software Engineering"
+   ],
+   "snippet": "A Little About Us EDB provides a data and AI platform that enables organizations to harness the full power of Postgres for transactional, analytical, and AI workloads across any cloud, anywhere. EDB empowers enterprises to control risk, manage costs and scale efficiently for a data and AI led world. Serving more than 1",
+   "salaryText": "",
+   "lpa": null,
+   "type": "Full-Time",
+   "remote": true,
+   "score": 24,
+   "india": "no"
+  }
+ ]
+}

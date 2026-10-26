@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Which resume? — Imran Pasha</title>
+<style>
+:root{--bg:#f6f7f9;--card:#fff;--ink:#16181d;--mut:#5f6673;--line:#e3e6ea;--navy:#1f3a5f;--accent:#1769aa;--ok:#0f7b4f;--warn:#9a6700;--bad:#a33}
+*{box-sizing:border-box}
+body{margin:0;font:15px/1.6 -apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;background:var(--bg);color:var(--ink)}
+.wrap{max-width:1060px;margin:0 auto;padding:22px 18px 70px}
+h1{font-size:23px;margin:0 0 4px;color:var(--navy)}
+.sub{color:var(--mut);font-size:13.5px;margin-bottom:16px}
+textarea{width:100%;height:190px;font:13px/1.5 ui-monospace,Consolas,monospace;padding:11px;border:1px solid var(--line);border-radius:9px;resize:vertical;background:#fff;color:var(--ink)}
+.bar{display:flex;gap:9px;margin:10px 0 18px;flex-wrap:wrap;align-items:center}
+button{border:0;border-radius:8px;padding:10px 20px;font-size:14px;font-weight:600;cursor:pointer}
+.go{background:var(--navy);color:#fff}.go:hover{background:#2a4d7a}
+.alt{background:#fff;border:1px solid var(--line);color:var(--accent)}.alt:hover{background:#eef4fa}
+.hint{color:var(--mut);font-size:12.5px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:16px 18px;margin-bottom:13px}
+.verdict{border-radius:10px;padding:16px 18px;margin-bottom:13px;border-left:5px solid}
+.v-go{background:#eaf6ef;border-color:var(--ok)}
+.v-care{background:#fff8e6;border-color:#d9a441}
+.v-no{background:#fdecec;border-color:var(--bad)}
+.verdict h2{margin:0 0 6px;font-size:19px}
+.v-go h2{color:var(--ok)}.v-care h2{color:#7a4d00}.v-no h2{color:var(--bad)}
+.verdict p{margin:0;font-size:14px}
+h3{font-size:15px;margin:0 0 10px;color:var(--navy)}
+.picks{display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:11px}
+.pick{border:1px solid var(--line);border-radius:9px;padding:12px 14px;background:#fafbfc;position:relative}
+.pick.win{border-color:var(--ok);background:#f2faf5;box-shadow:0 0 0 2px #cfeadc inset}
+.pick .nm{font-weight:700;font-size:14.5px;color:var(--navy)}
+.pick .fl{font-family:ui-monospace,Consolas,monospace;font-size:11.5px;color:var(--mut);margin:3px 0 7px;word-break:break-all}
+.pick .sc{font-size:26px;font-weight:700;color:var(--navy);line-height:1}
+.pick .sc small{font-size:12px;font-weight:400;color:var(--mut)}
+.meter{height:6px;background:var(--line);border-radius:4px;overflow:hidden;margin-top:6px}
+.meter i{display:block;height:100%;background:var(--ok)}
+.badge{position:absolute;top:10px;right:11px;background:var(--ok);color:#fff;font-size:10.5px;font-weight:700;padding:2px 8px;border-radius:999px;letter-spacing:.04em}
+ul{margin:7px 0 0;padding-left:19px}li{margin-bottom:5px;font-size:13.5px}
+.chips{display:flex;flex-wrap:wrap;gap:5px;margin-top:8px}
+.c{font-size:11.5px;padding:3px 9px;border-radius:999px;border:1px solid var(--line);background:#f4f6f8;color:var(--mut)}
+.c.hit{background:#e8f5ee;color:var(--ok);border-color:#bfe3d0}
+.c.miss{background:#fdecec;color:var(--bad);border-color:#f2cccc}
+.row2{display:grid;grid-template-columns:1fr 1fr;gap:13px}
+@media(max-width:760px){.row2{grid-template-columns:1fr}}
+.kv{display:flex;justify-content:space-between;gap:10px;font-size:13.5px;padding:5px 0;border-bottom:1px solid #f0f2f4}
+.kv:last-child{border:0}.kv b{color:var(--navy);text-align:right}
+.ans{margin-top:9px;border-top:1px solid var(--line);padding-top:9px}
+.ans .q{display:flex;justify-content:space-between;align-items:center;gap:9px;font-weight:600;font-size:13px;color:var(--navy)}
+.ans pre{white-space:pre-wrap;background:#f7f9fb;border:1px solid var(--line);border-radius:7px;padding:9px 11px;font:12.5px/1.55 inherit;margin:5px 0 0}
+.cp{border:1px solid var(--line);background:#fff;border-radius:6px;padding:3px 10px;font-size:11.5px;cursor:pointer;color:var(--accent)}
+.cp:hover{background:#eef4fa}.cp.done{background:#e8f5ee;color:var(--ok)}
+.muted{color:var(--mut);font-size:12.5px;margin-top:8px}
+footer{margin-top:24px;font-size:12.5px;color:var(--mut);text-align:center}
+</style></head><body><div class="wrap">
+
+<h1>Which resume should I send?</h1>
+<div class="sub">Paste a job description. It picks the variant, checks the role against your real experience, flags anything you must not claim, and tests the salary against your floor.</div>
+
+<textarea id="jd" placeholder="Paste the full job description here, including the title, requirements and salary if listed..."></textarea>
+<div class="bar">
+  <button class="go" id="run">Analyse</button>
+  <button class="alt" id="demo">Load an example</button>
+  <button class="alt" id="clear">Clear</button>
+  <span class="hint">Everything runs in this page. Nothing is uploaded.</span>
+</div>
+
+<div id="out"></div>
+
+<footer>Built from your verified repositories. Facts and gaps come from the same evidence as the resumes themselves.</footer>
+</div>
+
+<script>
+/* ---------- your three resumes ---------- */
+var VARIANTS = [
+  { id:'python', name:'Python / Backend', file:'Imran-Pasha-Backend-Engineer-Python.docx',
+    lead:/\b(python|fastapi|django|flask|asyncio|sqlalchemy|pydantic|celery)\b/gi, weight:1.0 },
+  { id:'node', name:'Node.js / TypeScript', file:'Imran-Pasha-Backend-Engineer-NodeJS.docx',
+    lead:/\b(node\.?js|express(\.js)?|typescript|javascript|nest\.?js|npm|payment|razorpay|stripe|webhook|fintech)\b/gi, weight:1.0 },
+  { id:'ai', name:'AI Backend', file:'Imran-Pasha-AI-Backend-Engineer.docx',
+    lead:/\b(llm|genai|generative ai|rag\b|retrieval.augmented|embedding|vector (db|database|store)|chroma|pinecone|weaviate|faiss|pgvector|openai|gemini|anthropic|claude|prompt|chatbot|ai agent|agentic|langchain|llamaindex|fine.?tun)\b/gi, weight:1.35 }
+];
+
+/* ---------- what he genuinely has, with evidence weight ---------- */
+var HAS = [
+  ['Python',/\bpython\b/i,10],['FastAPI',/\bfastapi\b/i,9],['Django',/\bdjango\b/i,6],['Flask',/\bflask\b/i,5],
+  ['SQLAlchemy',/\bsqlalchemy\b/i,5],['Pydantic',/\bpydantic\b/i,6],['async/await',/\b(asyncio|async\s*\/?\s*await|asynchronous)\b/i,6],
+  ['Node.js',/\bnode\.?js\b/i,9],['Express',/\bexpress(\.js)?\b/i,7],['TypeScript',/\btypescript\b/i,6],
+  ['PostgreSQL',/\b(postgres(ql)?|psql|rdbms|relational database)\b/i,10],['Redis',/\bredis\b/i,9],['SQL',/\bsql\b/i,5],
+  ['REST APIs',/\b(rest(ful)? api|rest api|api design|api development)\b/i,8],['Microservices',/\bmicroservices?\b/i,7],
+  ['Message queues',/\b(message queue|queue|pub\/?sub|event[- ]driven|streaming)\b/i,6],
+  ['WebSockets/SSE',/\b(websocket|server[- ]sent event|\bsse\b|real[- ]?time)\b/i,6],
+  ['Docker',/\bdocker|container(is|iz)ed?\b/i,7],['Linux',/\blinux|unix\b/i,5],
+  ['AWS',/\b(aws|amazon web services|\bec2\b|\bs3\b|lambda)\b/i,7],
+  ['CI/CD',/\b(ci\/cd|continuous (integration|delivery|deployment)|github actions|jenkins)\b/i,6],
+  ['JWT / OAuth',/\b(jwt|oauth|authentication|authorization|rbac|sso)\b/i,7],
+  ['Rate limiting',/\brate.?limit/i,4],['Idempotency',/\bidempoten/i,4],
+  ['Observability',/\b(observability|prometheus|opentelemetry|grafana|monitoring|logging|tracing)\b/i,5],
+  ['Testing',/\b(pytest|unit test|integration test|test coverage|jest|tdd)\b/i,5],
+  ['Payments',/\b(payment|billing|razorpay|stripe|\bupi\b|settlement|gateway|transaction)\b/i,6],
+  ['Security / OWASP',/\b(owasp|security|vulnerab|appsec|secure cod|penetration)\b/i,6],
+  ['Scale & tuning',/\b(scalab|high.throughput|low.latency|performance tuning|query optimi|indexing|sharding|caching)\b/i,7],
+  ['LLM integration',/\b(llm|openai|gpt|gemini|claude|anthropic|generative ai|genai)\b/i,8],
+  ['RAG',/\b(rag\b|retrieval.augmented)\b/i,8],
+  ['Embeddings',/\b(embedding|sentence.transformer|text-embedding)\b/i,7],
+  ['Vector DB',/\b(vector (db|database|store|search)|chroma|pinecone|weaviate|qdrant|faiss|pgvector|milvus)\b/i,7],
+  ['Speech / ASR',/\b(speech|transcription|whisper|deepgram|asr\b|stt\b)\b/i,5],
+  ['FFmpeg / media',/\b(ffmpeg|video processing|transcod|media pipeline|nvenc)\b/i,5],
+  ['Electron / desktop',/\belectron|desktop app\b/i,4],
+  ['Git',/\bgit\b/i,3],['GraphQL',/\bgraphql\b/i,3],['Flutter',/\bflutter|dart\b/i,3]
+];
+
+/* ---------- what he does NOT have: never claim these ---------- */
+var LACKS = [
+  ['Go / Golang',/\bgolang\b|proficien\w*\s+(in|with)\s+go\b|experience\s+(in|with)\s+go\b|\bgo\b\s*,\s*(with|and|ruby|python|rust|java|zig)|written in go\b|\bgo\b\s+(developer|engineer|programming|services|microservice)/i,'No production Go. You debugged a Go RTMP relay once; that is the honest answer.'],
+  ['C / C++',/\bc\+\+|\bc\b\s*(and|\/)\s*c\+\+|\bembedded c\b/i,'No C or C++ anywhere in your repositories.'],
+  ['Java',/\bjava\b(?!script)/i,'No Java. Your JVM exposure is zero.'],
+  ['Rust',/\brust\b/i,'No Rust.'],
+  ['Scala',/\bscala\b/i,'No Scala.'],
+  ['Kubernetes / EKS',/\b(kubernetes|k8s|eks\b|helm|openshift)\b/i,'Docker and Compose only. No orchestration.'],
+  ['Terraform / IaC',/\b(terraform|pulumi|ansible|cloudformation|infrastructure as code|\biac\b)\b/i,'No Terraform, Pulumi or Ansible. You have Dockerfiles, Compose, render.yaml and systemd.'],
+  ['Spark / PySpark',/\b(pyspark|apache spark|\bspark\b|databricks|hadoop|emr\b)\b/i,'No Spark. Your scale is tens of millions of rows in PostgreSQL, not distributed compute.'],
+  ['Kafka / MSK',/\b(kafka|\bmsk\b|pulsar|kinesis)\b/i,'No Kafka. You used Redis Streams consumer groups, which is the same model, different product.'],
+  ['Airflow / dbt',/\b(airflow|dagster|prefect|dbt\b|luigi)\b/i,'No orchestration frameworks.'],
+  ['Debezium / CDC',/\b(debezium|peerdb|change data capture|\bcdc\b|logical replication)\b/i,'No CDC tooling of any kind.'],
+  ['Snowflake / warehouse',/\b(snowflake|bigquery|redshift|clickhouse|data warehouse)\b/i,'No warehouse experience.'],
+  ['NoSQL',/\b(nosql|mongodb|mongo|dynamodb|cassandra|firestore|couchbase)\b/i,'No real NoSQL. You are PostgreSQL and Redis.'],
+  ['AI agent frameworks',/\b(langchain|llamaindex|autogen|crewai|agentic framework|tool.calling|\bmcp\b)\b/i,'No agent frameworks. You built direct LLM orchestration, not LangChain-style agents.'],
+  ['.NET / C#',/\b(\.net|c#|asp\.net)\b/i,'No .NET.'],
+  ['PHP',/\bphp\b|laravel/i,'No PHP.'],
+  ['Mobile native',/\b(android (developer|native)|ios developer|swift\b|kotlin\b)\b/i,'No native mobile. You wrote a Flutter client only.'],
+  ['GCP',/\b(gcp|google cloud)\b/i,'AWS yes, GCP no beyond calling Gemini.'],
+  ['Elasticsearch',/\b(elasticsearch|opensearch|solr)\b/i,'No search engines.']
+];
+
+/* ---------- prepared answers, surfaced when the JD touches them ---------- */
+var ANSWERS = [
+  ['Databases',/\b(postgres|database|sql|rdbms|data model)\b/i,'Databases are my strongest area. I design and tune PostgreSQL rather than just query it: 68 tables across 37 transactional migrations on a payments platform I owned solo, 150 tables on the AI video SaaS I founded the backend for, and a 9.9 million row dataset I held under a second per read using composite indexes designed off EXPLAIN ANALYZE, rewritten aggregates and Redis caching. Day to day that means FOR UPDATE SKIP LOCKED job queues with lease fencing, advisory locks for reserve-and-confirm flows, ON CONFLICT upserts, and pool tuning for pgBouncer.'],
+  ['RAG and Generative AI',/\b(rag|llm|generative ai|genai|embedding|vector|chatbot|openai|gemini)\b/i,'I built a retrieval-augmented chatbot end to end: document ingestion and chunking, local sentence-transformers embeddings, a persistent Chroma vector store, top-K retrieval preserving source metadata, and a Flask chat UI with Ollama, OpenAI and Anthropic backends behind one interface. I then attacked it against the OWASP LLM Top 10 and proved each guardrail with before-and-after deltas. In production on Kaizer X I run a provider-agnostic LLM layer over Gemini, Claude and OpenAI with per-model token-bucket rate limiting, per-provider circuit breakers, Retry-After aware retries and a per-job cost meter.'],
+  ['Biggest production incident',/\b(incident|debug|troubleshoot|root cause|outage|reliability|on-call)\b/i,'A Redis upload stream on Kaizer X grew from 8 entries to over 619,000 at roughly 80 enqueues per second. I traced it to a time-of-check-to-time-of-use race between two worker paths reading job status, plus a re-enqueue loop with no backoff. I replaced the status check with an atomic conditional UPDATE claim, removed the loop, and wrote a regression test that reproduces the race before shipping the fix.'],
+  ['Microservices and scale',/\b(microservice|distributed|scalab|high.throughput|architecture|system design)\b/i,'I designed a durable publish queue on PostgreSQL using FOR UPDATE SKIP LOCKED with lease fencing, heartbeat renewal, priority aging and jittered exponential backoff, so workers on separate hosts claim each job exactly once without an external coordinator, plus a leader-elected cron runner on advisory locks. Alongside it a Redis Streams consumer-group queue with three priority lanes, XCLAIM crash recovery and a dead-letter stream, and SHA-256 idempotency keys arbitrated by a database UNIQUE constraint.'],
+  ['Payments',/\b(payment|billing|fintech|gateway|settlement|upi|transaction)\b/i,'I was the sole backend engineer on a field-service payments platform for six months. Three gateways sit behind one facade with raw-body HMAC-SHA256 webhook verification, replay deduplication and idempotent settlement, so a redelivered or late webhook never double-confirms a booking. Refunds run inside SELECT FOR UPDATE transactions with the gateway call held under the row lock, backed by an append-only payment-events ledger.'],
+  ['Security',/\b(security|owasp|vulnerab|appsec|secure|threat)\b/i,'I hold an Executive Post Graduate Certification in Cyber Security and Ethical Hacking from IIT Roorkee, and I apply it to API design rather than keeping it separate. I closed a two-round adversarial security review on Kaizer X with a regression test behind every fix: cross-tenant authorization (BOLA and IDOR) on live-broadcast controls and WebSockets, an OAuth callback XSS, and password-reset links trusting an attacker-controlled Origin header. I also wrote an SSRF guard that resolves DNS before refusing loopback, private, link-local and cloud-metadata addresses.'],
+  ['Why looking for a change',/./,'I have taken my current backend work about as far as the scope allows. In under two years I have gone from building features to founding and owning a production backend end to end, and I am looking for a team where I can keep working on systems at that level of complexity alongside more senior engineers I can learn from.'],
+  ['Expected CTC',/\b(ctc|salary|compensation|package|expected)\b/i,'Rs 14-18 LPA fixed, negotiable based on role scope and the overall package.']
+];
+
+var YOU = { years:2, currentLPA:5.54, floorLPA:12, askLPA:'14-18' };
+
+/* ---------- analysis ---------- */
+function analyse(t){
+  var low = t.toLowerCase();
+  var r = { variants:[], has:[], lacks:[], answers:[], flags:[], notes:[] };
+
+  VARIANTS.forEach(function(v){
+    var m = low.match(v.lead) || [];
+    var uniq = {}; m.forEach(function(x){ uniq[x.toLowerCase().replace(/\s+/g,' ')] = 1; });
+    var distinct = Object.keys(uniq).length;
+    // distinct technologies named matters far more than how often one word repeats
+    r.variants.push({ v:v, hits:m.length, uniq:distinct, raw:(distinct * 3 + Math.min(m.length, distinct * 2)) * v.weight });
+  });
+  // three or more distinct GenAI terms is a specialist signal that should decide it
+  var ai = r.variants.filter(function(x){ return x.v.id === 'ai'; })[0];
+  if (ai && ai.uniq >= 3) ai.raw *= 1.6;
+  var max = Math.max.apply(null, r.variants.map(function(x){return x.raw;})) || 1;
+  r.variants.forEach(function(x){ x.score = Math.round((x.raw / max) * 100); });
+  r.variants.sort(function(a,b){ return b.raw - a.raw; });
+  if (r.variants[0].raw === 0) { r.variants.forEach(function(x){ x.score = x.v.id==='python' ? 100 : 55; }); r.notes.push('No strong stack signal in the text, so the Python resume is the safe default.'); }
+
+  HAS.forEach(function(h){ if (h[1].test(t)) r.has.push({ name:h[0], w:h[2] }); });
+  r.has.sort(function(a,b){ return b.w - a.w; });
+  LACKS.forEach(function(l){ if (l[1].test(t)) r.lacks.push({ name:l[0], why:l[2] }); });
+  ANSWERS.forEach(function(a){ if (a[1].test(t)) r.answers.push({ q:a[0], a:a[2] }); });
+
+  /* years required */
+  var yrs = 0, ym;
+  var re = /(\d{1,2})\s*\+?\s*(?:-|–|to)?\s*(\d{1,2})?\s*\+?\s*years?/gi;
+  while ((ym = re.exec(t))) {
+    var lo = parseInt(ym[1],10);
+    if (lo >= 0 && lo <= 25 && lo > yrs) yrs = lo;
+  }
+  r.years = yrs;
+
+  /* seniority from the title area */
+  var head = t.slice(0, 600);
+  r.senior = /\b(staff|principal|distinguished|director|head of|vp\b|architect|lead engineer|engineering manager)\b/i.test(head) ||
+             /\b(sr\.?\s*staff|senior staff)\b/i.test(t);
+  r.juniorFriendly = /\b(0\s*[-–to]+\s*[1-3]|fresher|graduate|entry.level|sde ?-?1|sde ?i\b|associate|junior|6 months)\b/i.test(t);
+
+  /* salary */
+  var sal = null, sm;
+  if ((sm = t.match(/(?:₹|rs.?|inr)?\s*([\d.,]+)\s*(?:-|–|to)\s*(?:₹|rs.?|inr)?\s*([\d.,]+)\s*(?:lpa|lakh|lacs)/i))) {
+    sal = { cur:'INR', lo:parseFloat(sm[1].replace(/,/g,'')), hi:parseFloat(sm[2].replace(/,/g,'')) };
+  } else if ((sm = t.match(/(?:₹|rs.?|inr)?\s*([\d.,]+)\s*(?:lpa|lakh|lacs)\b/i))) {
+    sal = { cur:'INR', lo:parseFloat(sm[1].replace(/,/g,'')), hi:null };
+  } else if ((sm = t.match(/(?:₹|\brs\.?|\binr\b)\s*([\d][\d,]{5,})/i))) {
+    // absolute annual figure such as Rs 9,00,000 - convert to lakhs
+    var abs = parseFloat(sm[1].replace(/,/g, ''));
+    if (abs >= 100000 && abs <= 100000000) sal = { cur:'INR', lo: Math.round(abs / 10000) / 10, hi: null };
+  } else if ((sm = t.match(/₹\s*([\d.,]+)\s*(?:-|–|to)\s*₹?\s*([\d.,]+)/i))) {
+    sal = { cur:'INR', lo:parseFloat(sm[1].replace(/,/g,'')), hi: sm[2] ? parseFloat(sm[2].replace(/,/g,'')) : null };
+  } else if ((sm = t.match(/([\d.,]+)\s*(?:-|–|to)\s*([\d.,]+)\s*(?:lpa|lakh|lacs)/i))) {
+    sal = { cur:'INR', lo:parseFloat(sm[1].replace(/,/g,'')), hi:parseFloat(sm[2].replace(/,/g,'')) };
+  } else if ((sm = t.match(/\$\s*([\d,]{5,})\s*(?:-|–|to)\s*\$?\s*([\d,]{5,})/))) {
+    sal = { cur:'USD', lo:parseInt(sm[1].replace(/,/g,''),10), hi:parseInt(sm[2].replace(/,/g,''),10) };
+  }
+  r.salary = sal;
+
+  /* flags + verdict */
+  var score = 0;
+  if (r.senior) { r.flags.push({ t:'bad', m:'Title is staff, principal, lead or director level. That is typically 8+ years. You have 2.' }); score += 3; }
+  if (r.years >= 8) { r.flags.push({ t:'bad', m:'Asks for ' + r.years + '+ years. You have 2. This is four times the gap.' }); score += 3; }
+  else if (r.years >= 5) { r.flags.push({ t:'warn', m:'Asks for ' + r.years + '+ years against your 2. Worth a shot only if the stack is a strong match.' }); score += 2; }
+  else if (r.years > 0) { r.flags.push({ t:'ok', m:'Asks for ' + r.years + '+ years, which your 2 years clears or nearly clears.' }); }
+  if (r.juniorFriendly) r.flags.push({ t:'ok', m:'Language suggests they are open to junior or associate candidates.' });
+
+  var core = r.lacks.filter(function(l){
+    var re2 = new RegExp('(must|required|strong|proficien|expert|fluen|solid|deep)[^.]{0,80}' + l.name.split(' ')[0], 'i');
+    return re2.test(t);
+  });
+  if (core.length) { r.flags.push({ t:'bad', m:core.length + ' technology you have never used is listed as a hard requirement: ' + core.map(function(c){return c.name;}).join(', ') + '.' }); score += core.length >= 2 ? 3 : 2; }
+  else if (r.lacks.length >= 4) { r.flags.push({ t:'warn', m:'Mentions ' + r.lacks.length + ' technologies you have not used, though not as hard requirements.' }); score += 1; }
+
+  if (sal && sal.cur === 'INR' && isFinite(sal.hi || sal.lo)) {
+    var top = sal.hi || sal.lo;
+    if (top < YOU.currentLPA) { r.flags.push({ t:'bad', m:'Pays up to ' + top + ' LPA. That is BELOW your current ' + YOU.currentLPA + ' LPA — a pay cut.' }); score += 5; }
+    else if (top < YOU.floorLPA) { r.flags.push({ t:'warn', m:'Pays up to ' + top + ' LPA, under your ' + YOU.floorLPA + ' LPA walk-away.' }); score += 2; }
+    else { r.flags.push({ t:'ok', m:'Pays up to ' + top + ' LPA, at or above your ' + YOU.floorLPA + ' LPA floor.' }); }
+  } else if (sal && sal.cur === 'USD') {
+    r.flags.push({ t:'warn', m:'Salary is in USD (' + sal.lo.toLocaleString() + '–' + sal.hi.toLocaleString() + '). Likely a US-based role; check they hire in India.' });
+    score += 1;
+  }
+
+  var strong = r.has.filter(function(h){ return h.w >= 7; }).length;
+  if (strong >= 6) r.flags.push({ t:'ok', m:strong + ' of your strongest skills appear in this description.' });
+
+  r.verdict = score >= 5 ? 'no' : score >= 2 ? 'care' : 'go';
+  return r;
+}
+
+/* ---------- render ---------- */
+function esc(s){ return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;'); }
+
+function render(r){
+  var V = { go:['v-go','Apply','Good fit. Send it today while the posting is fresh.'],
+            care:['v-care','Apply with care','Real gaps here. Worth it only if you want this company specifically.'],
+            no:['v-no','Skip this one','The gap is too wide. Spend the hour on a role that fits.'] }[r.verdict];
+  var h = '<div class="verdict ' + V[0] + '"><h2>' + V[1] + '</h2><p>' + V[2] + '</p></div>';
+
+  h += '<div class="card"><h3>Which resume to send</h3><div class="picks">';
+  r.variants.forEach(function(x,i){
+    h += '<div class="pick' + (i===0?' win':'') + '">' + (i===0?'<span class="badge">SEND THIS</span>':'') +
+      '<div class="nm">' + x.v.name + '</div><div class="fl">' + x.v.file + '</div>' +
+      '<div class="sc">' + x.score + '<small>/100</small></div>' +
+      '<div class="meter"><i style="width:' + x.score + '%"></i></div></div>';
+  });
+  h += '</div><div class="muted">Scored on which of your three resumes leads with the stack this job actually names.</div></div>';
+
+  h += '<div class="row2"><div class="card"><h3>Role check</h3>';
+  if (!r.flags.length) h += '<p class="muted">Nothing notable detected.</p>';
+  r.flags.forEach(function(f){
+    var col = f.t==='bad' ? 'var(--bad)' : f.t==='warn' ? 'var(--warn)' : 'var(--ok)';
+    var ic = f.t==='bad' ? '✕' : f.t==='warn' ? '!' : '✓';
+    h += '<div class="kv"><span><b style="color:' + col + ';margin-right:7px">' + ic + '</b>' + esc(f.m) + '</span></div>';
+  });
+  h += '<div class="kv" style="margin-top:8px"><span>Your experience</span><b>' + YOU.years + ' years</b></div>' +
+       '<div class="kv"><span>Current fixed CTC</span><b>Rs ' + YOU.currentLPA + ' LPA</b></div>' +
+       '<div class="kv"><span>What to ask for</span><b>Rs ' + YOU.askLPA + ' LPA</b></div></div>';
+
+  h += '<div class="card"><h3>Do not claim these</h3>';
+  if (!r.lacks.length) h += '<p class="muted">Nothing in this description is outside your experience. Rare and good.</p>';
+  else {
+    h += '<ul>';
+    r.lacks.forEach(function(l){ h += '<li><b>' + esc(l.name) + '</b> — ' + esc(l.why) + '</li>'; });
+    h += '</ul><div class="muted">If a form asks whether you have hands-on experience with any of these, answer no. It is checked in the first technical round.</div>';
+  }
+  h += '</div></div>';
+
+  h += '<div class="card"><h3>Your skills this job names</h3><div class="chips">';
+  r.has.slice(0,24).forEach(function(x){ h += '<span class="c hit">' + esc(x.name) + '</span>'; });
+  if (!r.has.length) h += '<span class="muted">No overlap detected — check you pasted the requirements section.</span>';
+  h += '</div>';
+  if (r.lacks.length) {
+    h += '<div class="muted" style="margin-top:11px">Named but missing:</div><div class="chips">';
+    r.lacks.forEach(function(l){ h += '<span class="c miss">' + esc(l.name) + '</span>'; });
+    h += '</div>';
+  }
+  h += '</div>';
+
+  if (r.answers.length) {
+    h += '<div class="card"><h3>Answers worth pasting into this application</h3>';
+    r.answers.forEach(function(a,i){
+      h += '<div class="ans"><div class="q"><span>' + esc(a.q) + '</span><button class="cp" data-i="' + i + '">copy</button></div><pre id="a' + i + '">' + esc(a.a) + '</pre></div>';
+    });
+    h += '</div>';
+    window.__ans = r.answers;
+  }
+  if (r.notes.length) h += '<div class="card"><h3>Notes</h3><ul>' + r.notes.map(function(n){return '<li>' + esc(n) + '</li>';}).join('') + '</ul></div>';
+  return h;
+}
+
+var out = document.getElementById('out');
+document.getElementById('run').onclick = function(){
+  var t = document.getElementById('jd').value.trim();
+  if (t.length < 60) { out.innerHTML = '<div class="card"><p class="muted">Paste a bit more of the description — I need the requirements section to judge it.</p></div>'; return; }
+  out.innerHTML = render(analyse(t));
+  out.scrollIntoView({ behavior:'smooth', block:'start' });
+};
+document.getElementById('clear').onclick = function(){ document.getElementById('jd').value=''; out.innerHTML=''; };
+document.getElementById('demo').onclick = function(){
+  document.getElementById('jd').value = 'AI Backend Engineer\n\nWe are looking for an AI Backend Engineer with strong Python backend development skills and practical exposure to Generative AI. The role focuses on developing scalable microservices and integrating AI agents and RAG-based workflows.\n\nExperience: 1-4 years\n\nQualifications:\n- Strong Python, FastAPI or Flask, REST APIs\n- Pydantic for data validation\n- Microservices architecture\n- Practical exposure to LLMs, RAG, embedding models, vector databases\n- Understanding of NoSQL databases\n- Familiarity with Redis and caching\n- Asynchronous programming in Python\n- Exposure to GCP or AWS';
+  document.getElementById('run').click();
+};
+out.addEventListener('click', function(e){
+  var b = e.target.closest('.cp'); if (!b) return;
+  var txt = window.__ans[Number(b.dataset.i)].a;
+  (navigator.clipboard ? navigator.clipboard.writeText(txt) : Promise.reject()).catch(function(){
+    var ta=document.createElement('textarea'); ta.value=txt; document.body.appendChild(ta); ta.select();
+    try{document.execCommand('copy');}catch(err){} ta.remove();
+  });
+  b.textContent='copied'; b.classList.add('done');
+  setTimeout(function(){ b.textContent='copy'; b.classList.remove('done'); }, 1300);
+});
+document.getElementById('jd').addEventListener('keydown', function(e){
+  if ((e.ctrlKey||e.metaKey) && e.key === 'Enter') document.getElementById('run').click();
+});
+</script></body></html>

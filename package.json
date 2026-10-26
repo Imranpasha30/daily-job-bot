@@ -1,0 +1,14 @@
+{
+  "name": "daily-job-bot",
+  "version": "1.0.0",
+  "description": "Daily automated job fetcher and email digest for Backend and Cybersecurity roles",
+  "main": "source/refresh_all.js",
+  "scripts": {
+    "start": "node source/refresh_all.js && node source/email_digest.js",
+    "refresh": "node source/refresh_all.js",
+    "email": "node source/email_digest.js"
+  },
+  "dependencies": {
+    "nodemailer": "^6.9.16"
+  }
+}

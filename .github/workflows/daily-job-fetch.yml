@@ -1,0 +1,46 @@
+name: Daily Job Sweep & Email Alert
+
+on:
+  schedule:
+    # 03:30 UTC = 09:00 AM Indian Standard Time (IST) every single day
+    - cron: '30 3 * * *'
+  workflow_dispatch: # Allows manual trigger from GitHub UI anytime
+
+permissions:
+  contents: write
+
+jobs:
+  sweep-and-email:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Install Dependencies
+        run: |
+          npm install
+
+      - name: Run Full Job Refresh
+        run: |
+          npm run refresh
+
+      - name: Send Daily Email Digest
+        env:
+          EMAIL_USER: ${{ secrets.EMAIL_USER }}
+          EMAIL_PASS: ${{ secrets.EMAIL_PASS }}
+          TO_EMAIL: ${{ secrets.TO_EMAIL || 'imranpasha.ahmed@gmail.com' }}
+        run: |
+          npm run email
+
+      - name: Commit and Push Updated Trackers
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git add jobs.html cyber_jobs.html final.json cyber_final.json email_preview.html
+          git commit -m "Auto-refresh jobs and update tracker [skip ci]" || echo "No changes to commit"
+          git push

@@ -1,0 +1,338 @@
+BANGALORE BACKEND JOBS — ONE ENTRY PER COMPANY
+Generated 2026-10-15T14:31:46.789Z
+
+
+========================================================================
+BANGALORE (47 companies)
+========================================================================
+  1. Sigmoid — Bengaluru, Karnataka, India  (3 open roles)
+     [76% match] Full Stack Software Development Engineer II · about a month ago
+     https://job-boards.greenhouse.io/sigmoid/jobs/8741978002
+  2. HackerRank Careers — Hybrid in Bangalore, India  (4 open roles)
+     [67% match] DevOps Engineer II · 14 days ago
+     https://job-boards.greenhouse.io/hackerrank/jobs/7824249
+  3. Databricks — Bengaluru, India  (12 open roles)
+     [45% match] Software Engineer, Infrastructure · 2 days ago
+     https://databricks.com/company/careers/open-positions/job?gh_jid=8829029002
+  4. Rubrik Job Board — Bangalore  (5 open roles)
+     [46% match] Software Engineer - Cloud: Azure · 9 days ago
+     https://www.rubrik.com/company/careers/departments/job.8258200?gh_jid=8258200
+  5. fampay — Bengaluru  (3 open roles)
+     [51% match] Data Engineer (SDE 2) · about a month ago
+     https://jobs.lever.co/fampay/01750a61-a53b-433f-8d8c-bfb5a18417f8
+  6. Adyen — Bengaluru
+     [25% match] Senior Backend Engineer (Java) · 1 day ago
+     https://job-boards.greenhouse.io/adyen/jobs/8041307
+  7. Okta — Bengaluru, India  (12 open roles)
+     [35% match] Senior Software Engineer - SRE · 3 days ago
+     https://www.okta.com/company/careers/opportunity/8263918?gh_jid=8263918
+  8. GitLab — Bangalore, India  (7 open roles)
+     [35% match] Site Reliability Engineer, Cells Infrastructure · 1 day ago
+     https://job-boards.greenhouse.io/gitlab/jobs/8867756002
+  9. hevodata — Bangalore, India  (5 open roles)
+     [26% match] Associate Software Development Engineer (SDE) · 25 days ago
+     https://jobs.lever.co/hevodata/993a3ed3-3014-432f-b0f4-28d300d58d9a
+ 10. cerebras — Bengaluru, IND
+     [13% match] Full Stack Machine Learning Engineer · 7 days ago
+     https://jobs.ashbyhq.com/cerebras/c2198d42-ccad-4bee-aa43-83027aa5e46e
+ 11. Five9 — India, Bengaluru (Hybrid)  (7 open roles)
+     [30% match] Senior Backend Engineer - Cortex| IND · about a month ago
+     https://www.five9.com/about/careers/job-detail?gh_jid=6184800004
+ 12. ZoomInfo Technologies LLC — Bengaluru, Karnataka, India  (2 open roles)
+     [32% match] Senior Software Engineer · 16 days ago
+     https://www.zoominfo.com/careers?gh_jid=8822475002
+ 13. sarvam — Bengaluru  (6 open roles)
+     [27% match] Platform Engineer - AI Infrastructure · 4 months ago
+     https://jobs.ashbyhq.com/sarvam/fcb15601-6440-41f7-aa79-b9992057a4b2
+ 14. bureau — Bangalore  (4 open roles)
+     [31% match] Data Engineer · 24 days ago
+     https://jobs.ashbyhq.com/bureau/0896ed82-d54c-4e35-81a9-bb3818056034
+ 15. Netradyne — Bengaluru, Karnataka, India
+     [51% match] Senior DevOps Engineer · 5 months ago
+     https://www.netradyne.com/company/careers?gh_jid=4692391005
+ 16. spotdraft — SpotDraft HQ, Bengaluru
+     [25% match] Software Development Engineer III | Backend · 6 months ago
+     https://jobs.ashbyhq.com/spotdraft/62a79224-efa6-4a0d-8cfc-29ab3fc48f7d
+ 17. harvey — Bengaluru
+     [23% match] Senior Software Engineer, Backend · 6 months ago
+     https://jobs.ashbyhq.com/harvey/992183a0-4526-4ea6-be3d-799a2401da4f
+ 18. InMobi — Bangalore
+     [13% match] SDE III - Devops · 22 days ago
+     https://job-boards.greenhouse.io/inmobi/jobs/7393433
+ 19. Take-Two Interactive Software, Inc. — Bangalore, Karnataka, India
+     [25% match] Senior Data Engineer · about a month ago
+     https://job-boards.greenhouse.io/taketwo/jobs/8075057
+ 20. Everpure — Bangalore, India
+     [19% match] Application Engineer (AI Automation) · 3 months ago
+     https://job-boards.greenhouse.io/purestorage/jobs/8002123
+ 21. AlphaGrep Securities — Bangalore
+     [23% match] Devops Engineer · date unknown
+     https://job-boards.greenhouse.io/alphagrepsecurities/jobs/6902979002
+ 22. MongoDB — Bengaluru
+     [12% match] Application Engineer · 3 days ago
+     https://www.mongodb.com/careers/job/?gh_jid=8143980
+ 23. Commvault — Bangalore, India; Hyderbad, India; Pune, India
+     [18% match] Senior Engineer - DevOps · about a month ago
+     https://job-boards.greenhouse.io/commvault/jobs/5400026008
+ 24. Harness — Bengaluru, Karnataka, India  (2 open roles)
+     [15% match] Senior Security Engineer - Customer Engineering · about a month ago
+     https://www.harness.io/company/jobs/apply?gh_jid=5214517007&gh_jid=5214517007
+ 25. Stripe — Bangalore  (2 open roles)
+     [12% match] Software Engineer, Stripe Data Pipeline · 9 days ago
+     https://stripe.com/jobs/search?gh_jid=8209970
+ 26. Razorpay Software Private Limited — Bengaluru
+     [10% match] Lead Software Development Engineer · 3 days ago
+     https://job-boards.greenhouse.io/razorpaysoftwareprivatelimited/jobs/4740333005
+ 27. Navan — Bengaluru, IN  (2 open roles)
+     [28% match] Sr. Software Engineer · about a month ago
+     https://navan.com/careers/openings?gh_jid=8173822
+ 28. uipath — Bangalore
+     [9% match] Senior Software Engineer- Site Reliability Platform · 2 days ago
+     https://jobs.ashbyhq.com/uipath/bbe6da8a-7850-46c8-a5aa-4e72d4515842
+ 29. safe — Bengaluru  (5 open roles)
+     [9% match] SDE II - AI Platform · 28 days ago
+     https://jobs.lever.co/safe/fb78afcd-5711-44d4-8533-56a6349dd528
+ 30. paytm — Bangalore, Karnataka
+     [17% match] Backend - TL/STL · 17 months ago
+     https://jobs.lever.co/paytm/fffdcfb1-fd6e-4401-b059-500838a6db0e
+ 31. Samsara — Bengaluru - BLR1
+     [5% match] Network Engineer II · 21 days ago
+     https://www.samsara.com/company/careers/roles/8168295?gh_jid=8168295
+ 32. Glance — Bangalore  (4 open roles)
+     [4% match] SDE IV - Backend · 22 days ago
+     https://job-boards.greenhouse.io/glance/jobs/7999722
+ 33. Crediwatch — Bengaluru, KA, in
+     [10% match] Full Stack Engineer - Python · date unknown
+     https://jobs.smartrecruiters.com/crediwatch/743999715816513
+ 34. Fivetran — Bengaluru, Karnataka, India, APAC  (2 open roles)
+     [9% match] Senior Software Engineer - Developer Productivity · 14 days ago
+     https://www.fivetran.com/careers/job?gh_jid=7818306003
+ 35. meesho — Bangalore, Karnataka  (4 open roles)
+     [5% match] Security Engineer III · 9 days ago
+     https://jobs.lever.co/meesho/d2f50690-efbf-45c6-8985-1494901725e6
+ 36. Glean — Bangalore, India  (6 open roles)
+     [4% match] Software Engineer, Backend · date unknown
+     https://job-boards.greenhouse.io/gleanwork/jobs/4006731005
+ 37. Apollo.io — Hybrid, Bangalore  (2 open roles)
+     [9% match] Senior Software Engineer II · about a month ago
+     https://job-boards.greenhouse.io/apolloio/jobs/6130765004
+ 38. SWIGGY — Bengaluru, KA, in  (2 open roles)
+     [0% match] Software Dev Engineer I · 1 day ago
+     https://jobs.smartrecruiters.com/swiggy/6000000001491502
+ 39. zeta — Hyderabad/Bangalore
+     [15% match] Lead Site Reliability Engineer · 3 months ago
+     https://jobs.lever.co/zeta/803792f5-0e9c-45bc-82ce-c0a552ce0cf8
+ 40. Couchbase, Inc. — Bangalore, India
+     [13% match] Lead Software Engineer · 8 months ago
+     https://job-boards.greenhouse.io/couchbaseinc/jobs/4649193006
+ 41. Netskope — Bengaluru, Karnataka, India
+     [13% match] Sr. Site Reliability Engineer, Engineering Stack Support · 2 months ago
+     https://www.netskope.com/company/careers/open-positions/?gh_jid=8088811
+ 42. Continental — Electronic City, Bengaluru, Karnataka, in
+     [0% match] Java Full Stack Developer · 9 days ago
+     https://jobs.smartrecruiters.com/continental/744000154002299
+ 43. Arista Networks — Bengaluru, KA, in  (6 open roles)
+     [0% match] Software Developer(SRE) - CloudVision as a Service (CVaaS) · 28 days ago
+     https://jobs.smartrecruiters.com/aristanetworks/744000150304670
+ 44. Unacademy — Bengaluru, KA, in
+     [0% match] Software Engineer, Backend · date unknown
+     https://jobs.smartrecruiters.com/unacademy/743999672726735
+ 45. Lendingkart — Bengaluru, in
+     [0% match] Backend Developer · date unknown
+     https://jobs.smartrecruiters.com/lendingkart/82097348
+ 46. ServiceNow — Bangalore, in  (3 open roles)
+     [0% match] Sr Software Engineer - Cybersecurity Integrations (Armis) · 15 days ago
+     https://jobs.smartrecruiters.com/servicenow/744000152833329
+ 47. Captain Fresh — Bengaluru, KA, in
+     [0% match] SDE-III Backend · date unknown
+     https://jobs.smartrecruiters.com/captainfresh/743999748402463
+
+========================================================================
+ALSO WORTH APPLYING (62 companies)
+========================================================================
+  1. atlys — Delhi HQ  (2 open roles)
+     [97% match] Backend Engineer · 23 days ago
+     https://jobs.ashbyhq.com/atlys/a2158e46-0991-4235-aeec-758b1832c5fb
+  2. supabase — Remote, Global  (6 open roles)
+     [49% match] Platform Engineer, Managed Postgres · 7 days ago
+     https://jobs.ashbyhq.com/supabase/9073c0cd-2545-473a-b2ac-63e4615c69b5
+  3. MongoDB — Gurugram  (6 open roles)
+     [46% match] Software Engineer 3 - Enterprise Architecture · 3 days ago
+     https://www.mongodb.com/careers/job/?gh_jid=8221290
+  4. levelai — Noida  (6 open roles)
+     [75% match] Senior Full Stack Engineer (Noida, BLR, India) · 4 months ago
+     https://jobs.lever.co/levelai/d3198817-960e-4625-9b06-418ca2e6ce4e
+  5. HighRadius — Hyderabad, Telangana, India  (6 open roles)
+     [58% match] Software Development Engineer - IV · 2 months ago
+     https://www.highradius.com/about/careers-list/?gh_jid=7608435003
+  6. Affirm — Remote US  (6 open roles)
+     [33% match] Senior Software Engineer, Backend (Lakehouse Infra) · 3 days ago
+     https://job-boards.greenhouse.io/affirm/jobs/8013442003
+  7. Zenoti — Hyderabad, Telangana, India  (4 open roles)
+     [46% match] Senior Software Engineer - Python, Data Engineering, AI · 17 days ago
+     https://job-boards.greenhouse.io/zenoti/jobs/8004516003
+  8. Starburst — India  (3 open roles)
+     [24% match] AI Platform Engineer · 29 days ago
+     https://job-boards.greenhouse.io/starburst/jobs/5416975008
+  9. Cohere Health — Hyderabad, Telangana, India  (4 open roles)
+     [41% match] Software Engineer · about a month ago
+     https://job-boards.greenhouse.io/coherehealth/jobs/7980642003
+ 10. Anaplan — Gurugram, India  (6 open roles)
+     [30% match] Engineer II · about a month ago
+     https://job-boards.greenhouse.io/anaplan/jobs/8772311002
+ 11. Tower Research Capital — Gurgaon  (4 open roles)
+     [35% match] Software Engineer II · about a month ago
+     https://www.tower-research.com/open-positions/?gh_jid=8132180
+ 12. mindtickle — Pune, Maharashtra
+     [32% match] Software Engineer, Business Systems · about a month ago
+     https://jobs.lever.co/mindtickle/b6e024c2-42c2-463c-8bc8-ca0aa0826845
+ 13. signoz — India
+     [43% match] Sr Backend Engineer - AI · 4 months ago
+     https://jobs.ashbyhq.com/signoz/d8fd6b52-8499-4dad-9903-f231e39c996d
+ 14. braintrust — Remote
+     [30% match] Software Engineer, SDK · 8 days ago
+     https://jobs.ashbyhq.com/braintrust/2a6c4ee9-063f-45d4-83ba-faf64b1f1a60
+ 15. 6sense — Pune, Maharashtra, India
+     [19% match] Software Engineer II · 10 days ago
+     https://boards.greenhouse.io/6sense/jobs/8257104?gh_jid=8257104
+ 16. PlanetScale — Remote
+     [35% match] Software Engineer - PlanetScale Postgres · 3 months ago
+     https://job-boards.greenhouse.io/planetscale/jobs/4251150009
+ 17. Canonical — APAC, EMEA, LATAM, Canada, USA  (2 open roles)
+     [13% match] Software Engineer - Python - Container Images · 5 days ago
+     https://jobicy.com/jobs/150364-software-engineer-python-container-images
+ 18. demandbase — Hyderabad  (3 open roles)
+     [37% match] DevOps Engineer - AI Runtime Services · 3 months ago
+     https://jobs.ashbyhq.com/demandbase/0cdcc3bc-843f-41d8-a6cc-fcc97f96c5ad
+ 19. openai — US - Remote  (3 open roles)
+     [39% match] Software Engineer, Infrastructure Security · 13 months ago
+     https://jobs.ashbyhq.com/openai/98ad9beb-4f91-496c-bd16-ac0b2a8d5bb2
+ 20. paytm — Noida, Uttar Pradesh  (2 open roles)
+     [30% match] Backend - Senior Software Engineer · 15 months ago
+     https://jobs.lever.co/paytm/23534d2b-3e2e-4759-b498-0bb15b2fb995
+ 21. Zscaler — Hyderabad, IND  (2 open roles)
+     [19% match] Software Development Engineer - Java + Distributed Systems · 2 days ago
+     https://job-boards.greenhouse.io/zscaler/jobs/5261571007
+ 22. SingleStore — India  (4 open roles)
+     [25% match] Software Engineer | AI Platforms · 9 months ago
+     https://job-boards.greenhouse.io/singlestore/jobs/7573638
+ 23. cerebras — Remote (US)
+     [25% match] Network Security Engineer (Remote) · 25 days ago
+     https://jobs.ashbyhq.com/cerebras/84a9df6b-fe96-4711-8106-971d829b6dc2
+ 24. ZoomInfo Technologies LLC — Remote  (2 open roles)
+     [25% match] Senior Software Engineer, Data Infrastructure · 2 months ago
+     https://www.zoominfo.com/careers?gh_jid=8687939002
+ 25. YugabyteDB — India
+     [27% match] Sr Software Engineer · 5 months ago
+     https://job-boards.greenhouse.io/yugabyte/jobs/4679058006
+ 26. Databricks — Remote - California
+     [18% match] Sr. Security Engineer, Enterprise Security · 4 days ago
+     https://databricks.com/company/careers/open-positions/job?gh_jid=8841962002
+ 27. DevRev — Philippines Remote  (2 open roles)
+     [24% match] Software Engineer - Applied AI · 10 months ago
+     https://job-boards.greenhouse.io/devrev/jobs/5722574004
+ 28. Kruger NearShore LLC - Rekluti — Remote
+     [10% match] DESARROLLADOR FULL STACK · about a month ago
+     https://remoteOK.com/remote-jobs/remote-desarrollador-full-stack-kruger-nearshore-llc-rekluti-1137062
+ 29. elevenlabs — Remote  (6 open roles)
+     [14% match] Full-Stack Engineer (Backend Leaning) - Payments Engineering · 2 days ago
+     https://jobs.ashbyhq.com/elevenlabs/e4e0450f-d139-4f8e-b210-2f326a680d90
+ 30. railway — Global  (3 open roles)
+     [9% match] Infrastructure Engineer · date unknown
+     https://jobs.ashbyhq.com/railway/b8072f95-043f-404d-a313-f0bdf8dd3c81
+ 31. NielsenIQ — Pune, MH, in  (6 open roles)
+     [21% match] Senior Software Engineer (must haves: NodeJS, Java, MySQL, MongoDb, Docker) · 22 days ago
+     https://jobs.smartrecruiters.com/nielseniq/744000151574630
+ 32. Twilio — Remote - US  (6 open roles)
+     [17% match] Software Engineer L3 · 2 days ago
+     https://job-boards.greenhouse.io/twilio/jobs/8009057
+ 33. Slice — Fully remote - Canada, UK & North Macedonia
+     [16% match] Software Developer, Web · 3 days ago
+     https://slice.careers/careers-listing?gh_jid=8260907
+ 34. Harness — U.S. (Remote)  (3 open roles)
+     [25% match] Customer Experience Engineer I/II · 9 days ago
+     https://www.harness.io/company/jobs/apply?gh_jid=5256226007&gh_jid=5256226007
+ 35. Coinbase — Remote - India
+     [5% match] Software Engineer, Security Platform · 3 days ago
+     https://www.coinbase.com/careers/positions/8165441?gh_jid=8165441
+ 36. zeta — Hyderabad  (3 open roles)
+     [20% match] SIEM & SecOps Engineer II · 3 months ago
+     https://jobs.lever.co/zeta/f140e9d7-8d0c-4e24-bace-8568385b6f5c
+ 37. GitLab — Remote
+     [14% match] Senior CX Platform Engineer · 9 days ago
+     https://job-boards.greenhouse.io/gitlab/jobs/8871406002
+ 38. Coursera — India  (2 open roles)
+     [4% match] Senior Software Engineer, Backend & Infrastructure · 18 days ago
+     https://job-boards.greenhouse.io/coursera/jobs/6126490004
+ 39. Samsara — Remote - US  (6 open roles)
+     [13% match] Software Engineer - Data Platform · 21 days ago
+     https://www.samsara.com/company/careers/roles/7922530?gh_jid=7922530
+ 40. Shipsy — Gurugram, HR, in
+     [9% match] Software Engineer (Fullstack/NodeJs/ReactJs) · date unknown
+     https://jobs.smartrecruiters.com/shipsy/744000002694405
+ 41. Stripe — US - Remote  (4 open roles)
+     [11% match] Software Engineer, Vulnerability Management · 9 days ago
+     https://stripe.com/jobs/search?gh_jid=8089353
+ 42. influxdata — Remote US
+     [19% match] Software Engineer, Database Reliability & Performance · about a month ago
+     https://jobs.ashbyhq.com/influxdata/c2b30d69-ba41-427a-b789-e811f566e177
+ 43. Netskope — India
+     [35% match] Sr. DevOps Engineer, Data Platform · about a month ago
+     https://www.netskope.com/company/careers/open-positions/?gh_jid=8161047
+ 44. Agoda — Gurugram  (2 open roles)
+     [22% match] Backend Lead Software Engineer (Level 5) | Gurugram based · 3 months ago
+     https://job-boards.greenhouse.io/agoda/jobs/8063904
+ 45. Rubrik Job Board — Pune
+     [6% match] Software Engineer - IAM · about a month ago
+     https://www.rubrik.com/company/careers/departments/job.7956918?gh_jid=7956918
+ 46. leap — US (Remote)
+     [10% match] Senior Software Engineer · 16 days ago
+     https://jobs.ashbyhq.com/leap/12304ca3-9230-4432-8f8a-d0fdbb82c427
+ 47. Prenosis — Remote
+     [0% match] Software Engineer · 23 days ago
+     https://remoteOK.com/remote-jobs/remote-software-engineer-prenosis-1137427
+ 48. Mirantis — Remote
+     [7% match] Software Engineer · about a month ago
+     https://remoteOK.com/remote-jobs/remote-software-engineer-mirantis-1137387
+ 49. Five9 — India, Chennai (Hybrid)
+     [23% match] Sr. DevOps Network Engineer- Operations · about a month ago
+     https://www.five9.com/about/careers/job-detail?gh_jid=6180402004
+ 50. notion — Hyderabad, India
+     [10% match] Software Engineer, Developer Experience · 4 months ago
+     https://jobs.ashbyhq.com/notion/49bdf081-6e20-4323-8c73-6d6b19544ff5
+ 51. Lemon.io — Europe, USA, Canada, APAC  (2 open roles)
+     [7% match] Senior React Full-stack Developer · 14 days ago
+     https://remotive.com/remote-jobs/software-development/senior-react-full-stack-developer-2091133
+ 52. Neo4j — Remote: EMEA  (2 open roles)
+     [4% match] Tech Lead, Backend - GraphAware Hume · about a month ago
+     https://boards.greenhouse.io/neo4j/jobs/4708467006?gh_jid=4708467006
+ 53. Salesforge — Remote
+     [4% match] Senior Backend Engineer Build AI Agents · about a month ago
+     https://remoteOK.com/remote-jobs/remote-senior-backend-engineer-build-ai-agents-salesforge-1137114
+ 54. safe — New Delhi
+     [9% match] Software Development Engineer I · 13 months ago
+     https://jobs.lever.co/safe/6c2f5678-38a5-40ac-a0d7-f5274a1fd620
+ 55. Everpure — Remote, Malaysia  (2 open roles)
+     [4% match] Systems Engineer · about a month ago
+     https://job-boards.greenhouse.io/purestorage/jobs/8172524
+ 56. coupa — Pune, India
+     [9% match] Sr Security Engineer - 11917 · 11 days ago
+     https://jobs.lever.co/coupa/0763f69c-e551-4d45-bd3b-91df3260d8ff
+ 57. Discord — Remote (U.S.)
+     [14% match] Senior Data Engineer, Ads · 14 days ago
+     https://job-boards.greenhouse.io/discord/jobs/8299493002
+ 58. StreamNative — Remote
+     [6% match] Sr Software Engineer, Platform · about a month ago
+     https://job-boards.eu.greenhouse.io/streamnative/jobs/4963682101
+ 59. Glean — United Sates, Remote
+     [9% match] Platform Security Engineer · about a month ago
+     https://job-boards.greenhouse.io/gleanwork/jobs/4728507005
+ 60. Tenable, Inc. — US - Remote - Massachusetts , US - Headquarters - Maryland - Columbia
+     [9% match] Senior AI Information Security Engineer · 22 days ago
+     https://job-boards.greenhouse.io/tenableinc/jobs/5434299008
+ 61. atlan — India
+     [9% match] Senior Security Engineer - Corporate Security · 3 months ago
+     https://jobs.ashbyhq.com/atlan/254c1250-953b-4323-8d18-9fe5e41d8d7d
+ 62. ServiceNow — Hyderabad, in
+     [3% match] Sr Software Engineer - Kubernetes · about a month ago
+     https://jobs.smartrecruiters.com/servicenow/744000149918201
