@@ -2,7 +2,9 @@ import os
 import sqlite3
 import json
 
-cookie_path = os.path.abspath(r'.user_browser_profile\Default\Network\Cookies')
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+cookie_path = os.path.join(BASE_DIR, '.user_browser_profile', 'Default', 'Network', 'Cookies')
+storage_state_path = os.path.join(BASE_DIR, 'bot_storage_state.json')
 user_data = os.path.expandvars(r'%LOCALAPPDATA%\Google\Chrome\User Data')
 local_state_file = os.path.join(user_data, 'Local State')
 
@@ -30,6 +32,7 @@ details = {
     'topDomains': []
 }
 
+# 1. First inspect SQLite database if present
 if os.path.exists(cookie_path):
     try:
         conn = sqlite3.connect(cookie_path)
@@ -86,5 +89,34 @@ if os.path.exists(cookie_path):
         conn.close()
     except Exception as e:
         details['error'] = str(e)
+
+# 2. Check bot_storage_state.json for live Playwright session tokens
+if os.path.exists(storage_state_path):
+    try:
+        with open(storage_state_path, 'r', encoding='utf-8') as f:
+            st = json.load(f)
+            st_cookies = st.get('cookies', [])
+            if len(st_cookies) > details['totalCookies']:
+                details['totalCookies'] = len(st_cookies)
+                
+            li_cookies = [c['name'] for c in st_cookies if 'linkedin' in c.get('domain', '')]
+            nk_cookies = [c['name'] for c in st_cookies if 'naukri' in c.get('domain', '')]
+            
+            if 'li_at' in li_cookies:
+                details['platforms']['linkedin'] = {
+                    'count': max(details['platforms'].get('linkedin', {}).get('count', 0), len(li_cookies)),
+                    'hasAuthSession': True,
+                    'status': '🟢 Fully Logged In (li_at Active)',
+                    'sampleCookies': li_cookies[:6]
+                }
+            if any(k in nk_cookies for k in ['naukri_user', 'user_id', 'profile_id', 'nauk_auth']):
+                details['platforms']['naukri'] = {
+                    'count': max(details['platforms'].get('naukri', {}).get('count', 0), len(nk_cookies)),
+                    'hasAuthSession': True,
+                    'status': '🟢 Fully Logged In',
+                    'sampleCookies': nk_cookies[:6]
+                }
+    except Exception as e:
+        pass
 
 print(json.dumps(details, indent=2))

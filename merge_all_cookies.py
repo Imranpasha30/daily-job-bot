@@ -4,7 +4,8 @@ import shutil
 import tempfile
 import json
 
-bot_cookies_path = os.path.abspath(r'.user_browser_profile\Default\Network\Cookies')
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+bot_cookies_path = os.path.join(BASE_DIR, '.user_browser_profile', 'Default', 'Network', 'Cookies')
 user_data = os.path.expandvars(r'%LOCALAPPDATA%\Google\Chrome\User Data')
 
 if not os.path.exists(os.path.dirname(bot_cookies_path)):

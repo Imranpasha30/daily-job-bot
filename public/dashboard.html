@@ -1761,34 +1761,47 @@
       const btn = document.getElementById('btnOpenAuth');
       btn.disabled = true;
       btn.textContent = '⏳ Launching Browser...';
-      appendPanelLog('🔐 Launching visible browser for LinkedIn & Naukri authentication...');
+      appendPanelLog('🔐 Launching dedicated visible Chrome browser for LinkedIn & Naukri...');
       try {
         const res = await fetch('/api/auth-session', { method: 'POST' });
         const data = await res.json();
         if (data.error) {
           appendPanelLog('⚠️ Note: ' + data.error);
+          btn.textContent = '🔐 Open Browser';
+          btn.disabled = false;
         } else {
-          appendPanelLog('👉 Real browser launched! Log into LinkedIn & Naukri, then click Done / Close.');
+          appendPanelLog('👉 Dedicated Chrome window launched on your desktop! Log into LinkedIn & Naukri, then click Close.');
+          btn.textContent = '🌐 Browser Open';
+          btn.disabled = false;
+          btn.style.borderColor = '#10b981';
+          btn.style.color = '#34d399';
         }
       } catch (e) {
         appendPanelLog('❌ Launch failed: ' + e.message);
-      } finally {
+        btn.textContent = '🔐 Open Browser';
         btn.disabled = false;
-        btn.textContent = '🔐 Authenticate Now';
+      } finally {
         fetchAuthStatus();
       }
     }
 
     async function closeAuthSession() {
       const btn = document.getElementById('btnCloseAuth');
+      const openBtn = document.getElementById('btnOpenAuth');
       btn.disabled = true;
       btn.textContent = '⏳ Closing...';
       try {
         await fetch('/api/auth-session/close', { method: 'POST' });
+        appendPanelLog('🔒 Auth browser closed. Session saved cleanly.');
+        if (openBtn) {
+          openBtn.textContent = '🔐 Open Browser';
+          openBtn.style.borderColor = 'rgba(6, 182, 212, 0.4)';
+          openBtn.style.color = '#38bdf8';
+        }
       } catch (e) {}
       finally {
         btn.disabled = false;
-        btn.textContent = '🔒 Done / Close';
+        btn.textContent = '🔒 Close';
         fetchAuthStatus();
       }
     }

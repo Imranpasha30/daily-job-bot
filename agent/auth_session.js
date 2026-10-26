@@ -8,8 +8,10 @@
 const { chromium } = require('playwright');
 const path = require('path');
 const fs = require('fs');
+const { execSync } = require('child_process');
 
 const PROFILE_DIR = path.resolve(__dirname, '..', '.user_browser_profile');
+const STORAGE_STATE_FILE = path.resolve(__dirname, '..', 'bot_storage_state.json');
 
 if (!fs.existsSync(PROFILE_DIR)) {
   fs.mkdirSync(PROFILE_DIR, { recursive: true });
@@ -17,12 +19,13 @@ if (!fs.existsSync(PROFILE_DIR)) {
 
 let authContext = null;
 let isBrowserOpen = false;
+let syncInterval = null;
 
 function clearProfileLocks() {
   try {
-    const { execSync } = require('child_process');
+    // Terminate any background chrome processes locking user_browser_profile
     try {
-      execSync('powershell -NoProfile -Command "Get-Process chrome -ErrorAction SilentlyContinue | Where-Object { $_.Id -in (Get-CimInstance Win32_Process | Where-Object { $_.CommandLine -like \'*user_browser_profile*\' }).ProcessId } | Stop-Process -Force -ErrorAction SilentlyContinue"', { timeout: 4000 });
+      execSync('powershell -NoProfile -Command "Get-CimInstance Win32_Process -Filter \\"Name = \'chrome.exe\'\\" | Where-Object { $_.CommandLine -like \'*user_browser_profile*\' } | ForEach-Object { Stop-Process -Id $_.ProcessId -Force -ErrorAction SilentlyContinue }"', { timeout: 5000 });
     } catch (e) {}
 
     ['lockfile', 'SingletonLock', 'SingletonCookie', 'SingletonSocket'].forEach(f => {
@@ -35,8 +38,22 @@ function clearProfileLocks() {
 }
 
 async function launchAuthSession() {
-  if (authContext) {
-    return { status: 'already_running', profileDir: PROFILE_DIR };
+  if (authContext && isBrowserOpen) {
+    try {
+      const pages = authContext.pages();
+      if (pages.length > 0) {
+        await pages[0].bringToFront();
+      }
+      return { 
+        status: 'already_running', 
+        profileDir: PROFILE_DIR,
+        message: 'Browser window is already open on your desktop.' 
+      };
+    } catch (e) {
+      // If bringing to front fails, recreate
+      authContext = null;
+      isBrowserOpen = false;
+    }
   }
 
   clearProfileLocks();
@@ -44,40 +61,67 @@ async function launchAuthSession() {
   console.log('\n' + '='.repeat(70));
   console.log('   🔐  LINKEDIN & NAUKRI SAFE AUTHENTICATION SESSION  🔐');
   console.log('='.repeat(70));
-  console.log(' Launching visible browser on user desktop...');
+  console.log(' Launching visible browser window on user desktop...');
   console.log(` Storage profile: ${PROFILE_DIR}`);
   console.log('='.repeat(70) + '\n');
 
-  const baseOptions = {
-    headless: false,
-    viewport: null,
-    args: [
-      '--start-maximized',
-      '--disable-blink-features=AutomationControlled',
-      '--no-sandbox'
-    ]
-  };
+  const launchArgs = [
+    '--start-maximized',
+    '--disable-blink-features=AutomationControlled',
+    '--no-sandbox',
+    '--disable-infobars',
+    '--window-position=50,50',
+    '--window-size=1400,900'
+  ];
 
   try {
-    // Try launching installed Google Chrome first
     authContext = await chromium.launchPersistentContext(PROFILE_DIR, {
-      ...baseOptions,
-      channel: 'chrome'
+      headless: false,
+      channel: 'chrome',
+      args: launchArgs,
+      viewport: null
     });
   } catch (chromeErr) {
     console.log('Installed Chrome launch note:', chromeErr.message, '- falling back to Chromium engine');
-    authContext = await chromium.launchPersistentContext(PROFILE_DIR, baseOptions);
+    authContext = await chromium.launchPersistentContext(PROFILE_DIR, {
+      headless: false,
+      args: launchArgs,
+      viewport: null
+    });
   }
 
   isBrowserOpen = true;
 
-  authContext.on('close', () => {
-    console.log('👉 Auth browser window closed. Session saved to .user_browser_profile');
+  // Real-time cookie capture interval
+  if (syncInterval) clearInterval(syncInterval);
+  syncInterval = setInterval(async () => {
+    if (!authContext || !isBrowserOpen) {
+      if (syncInterval) clearInterval(syncInterval);
+      return;
+    }
+    try {
+      await authContext.storageState({ path: STORAGE_STATE_FILE });
+      if (fs.existsSync(STORAGE_STATE_FILE)) {
+        const state = JSON.parse(fs.readFileSync(STORAGE_STATE_FILE, 'utf8'));
+        const hasLiAt = (state.cookies || []).some(c => c.name === 'li_at');
+        if (hasLiAt) {
+          console.log('🎉 [AUTH DETECTED] LinkedIn session (li_at) captured in real time!');
+        }
+      }
+    } catch (e) {}
+  }, 4000);
+
+  authContext.on('close', async () => {
+    console.log('👉 Auth browser window closed. Final session state saved.');
+    if (syncInterval) {
+      clearInterval(syncInterval);
+      syncInterval = null;
+    }
     isBrowserOpen = false;
     authContext = null;
   });
 
-  // Open LinkedIn and Naukri login tabs
+  // Navigate to LinkedIn and Naukri login pages
   try {
     const pages = authContext.pages();
     const page1 = pages.length > 0 ? pages[0] : await authContext.newPage();
@@ -85,14 +129,19 @@ async function launchAuthSession() {
 
     const page2 = await authContext.newPage();
     page2.goto('https://www.naukri.com/nlogin/login').catch(() => {});
+
+    // Focus on LinkedIn first
+    await page1.bringToFront().catch(() => {});
   } catch (navErr) {
-    console.warn('Navigation warning:', navErr.message);
+    console.warn('Navigation note:', navErr.message);
   }
 
-  return { status: 'opened', profileDir: PROFILE_DIR };
+  return { 
+    status: 'opened', 
+    profileDir: PROFILE_DIR,
+    message: 'Dedicated Chrome browser window launched on your desktop! Log into LinkedIn & Naukri.' 
+  };
 }
-
-const STORAGE_STATE_FILE = path.resolve(__dirname, '..', 'bot_storage_state.json');
 
 async function exportStorageStateFromProfile() {
   if (!fs.existsSync(PROFILE_DIR) || isBrowserOpen) return;
@@ -111,6 +160,10 @@ async function exportStorageStateFromProfile() {
 }
 
 async function closeAuthSession() {
+  if (syncInterval) {
+    clearInterval(syncInterval);
+    syncInterval = null;
+  }
   if (authContext) {
     try {
       await authContext.storageState({ path: STORAGE_STATE_FILE });
@@ -132,30 +185,14 @@ function isAuthSessionActive() {
 }
 
 function syncFromActiveChrome() {
-  const chromeDefault = path.join(process.env.LOCALAPPDATA || '', 'Google', 'Chrome', 'User Data', 'Default');
-  const targetDefault = path.join(PROFILE_DIR, 'Default');
-
-  if (!fs.existsSync(chromeDefault)) {
-    return { success: false, message: 'Google Chrome default profile not found' };
-  }
-
-  const targetNetwork = path.join(targetDefault, 'Network');
-  if (!fs.existsSync(targetNetwork)) {
-    fs.mkdirSync(targetNetwork, { recursive: true });
-  }
-
   try {
-    const srcCookies = path.join(chromeDefault, 'Network', 'Cookies');
-    if (fs.existsSync(srcCookies)) {
-      fs.copyFileSync(srcCookies, path.join(targetNetwork, 'Cookies'));
-    }
-
-    const srcPrefs = path.join(chromeDefault, 'Preferences');
-    if (fs.existsSync(srcPrefs)) {
-      fs.copyFileSync(srcPrefs, path.join(targetDefault, 'Preferences'));
-    }
-
-    console.log('🔄 Synced session cookies from user active Google Chrome profile!');
+    const mergeScript = path.resolve(__dirname, '..', 'merge_all_cookies.py');
+    console.log('🔄 Merging cookies across all Chrome profiles into .user_browser_profile...');
+    execSync(`py "${mergeScript}"`, { timeout: 15000 });
+    console.log('✅ Active Google Chrome profile session synced into bot storage!');
+    
+    // Also export storageState
+    exportStorageStateFromProfile();
     return { success: true, message: 'Active Google Chrome session synchronized successfully!' };
   } catch (err) {
     console.error('Session sync error:', err.message);
@@ -167,7 +204,6 @@ function checkAuthStatus() {
   const profileExists = fs.existsSync(PROFILE_DIR);
   let hasStorage = false;
 
-  // Auto-sync if profile doesn't have storage yet
   if (profileExists) {
     const defaultDir = path.join(PROFILE_DIR, 'Default');
     if (fs.existsSync(defaultDir)) {
@@ -181,9 +217,8 @@ function checkAuthStatus() {
     }
   }
 
-  if (!hasStorage) {
-    const syncRes = syncFromActiveChrome();
-    if (syncRes.success) hasStorage = true;
+  if (fs.existsSync(STORAGE_STATE_FILE)) {
+    hasStorage = true;
   }
 
   return {
@@ -196,7 +231,9 @@ function checkAuthStatus() {
 }
 
 if (require.main === module) {
-  launchAuthSession().catch(e => console.error('Auth error:', e));
+  launchAuthSession().then(() => {
+    console.log('👉 Real visible browser opened on desktop. Complete login, then close the browser.');
+  }).catch(e => console.error('Auth error:', e));
 }
 
 module.exports = {
