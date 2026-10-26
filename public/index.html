@@ -799,6 +799,9 @@
             <button class="btn" id="btnSyncAuth" onclick="syncActiveChromeProfile()" style="background: rgba(16, 185, 129, 0.2); border: 1px solid rgba(16, 185, 129, 0.4); color: #34d399; flex: 1; min-width: 170px; padding: 9px 12px; font-size: 12px; font-weight: 700;">
               🔄 Use Current Logged-in Chrome (1-Click)
             </button>
+            <button class="btn" id="btnViewProof" onclick="openSessionProofModal()" style="background: rgba(139, 92, 246, 0.2); border: 1px solid rgba(139, 92, 246, 0.4); color: #c084fc; padding: 9px 12px; font-size: 12px; font-weight: 700;">
+              🔍 View Synced Proof
+            </button>
             <button class="btn" id="btnOpenAuth" onclick="openAuthSession()" style="background: rgba(6, 182, 212, 0.18); border: 1px solid rgba(6, 182, 212, 0.4); color: #38bdf8; padding: 9px 12px; font-size: 12px;">
               🔐 Open Browser
             </button>
@@ -959,6 +962,18 @@
         </div>
 
         <div class="control-item">
+          <span>Apply Scope:</span>
+          <select id="selectApplyScope" style="color: #38bdf8; font-weight: 700; border-color: rgba(6, 182, 212, 0.4);">
+            <option value="all" selected>All at One Go (All Pools &amp; Sources)</option>
+            <option value="linkedin">Only LinkedIn Jobs (Safe Authenticated)</option>
+            <option value="scraped">Only Fresh Scraped (Past 24h)</option>
+            <option value="dubai">Only Dubai Internet City</option>
+            <option value="boards">Only Direct ATS (Greenhouse/Ashby)</option>
+            <option value="naukri">Only Naukri Jobs</option>
+          </select>
+        </div>
+
+        <div class="control-item">
           <span>ATS Focus:</span>
           <select id="selectAts">
             <option value="all">All (Greenhouse, Ashby, Lever)</option>
@@ -1050,27 +1065,50 @@
 
     </div>
 
-    <!-- Live Scraped Jobs Database Explorer -->
+    <!-- Live Scraped Jobs Database Explorer & Organized Job Pools -->
     <div class="panel" style="margin-top: 24px;">
-      <div class="panel-header">
-        <div class="panel-title">
-          <span>🕷️ Fresh Scraped Jobs Explorer (<span id="scrapedTableCount">0</span> Available)</span>
+      <div class="panel-header" style="flex-wrap: wrap; gap: 12px;">
+        <div>
+          <div class="panel-title">
+            <span>🕷️ Scraped Jobs &amp; Dedicated Storage Pools (<span id="scrapedTableCount">0</span> Jobs in Pool)</span>
+          </div>
+          <div style="font-size: 11px; color: var(--muted); margin-top: 4px; font-family: 'JetBrains Mono', monospace;">
+            💾 Organized Storage: <span style="color:#38bdf8;">data/jobs_backend.json</span> &bull; <span style="color:#f87171;">data/jobs_cyber.json</span> &bull; <span style="color:#34d399;">data/jobs_dubai.json</span>
+          </div>
         </div>
-        <div style="display: flex; gap: 8px;">
+        <div style="display: flex; gap: 8px; flex-wrap: wrap;">
           <button class="btn btn-csv" style="padding: 4px 10px; font-size: 11px;" onclick="refreshScrapedTable()">↻ Refresh</button>
           <button class="btn btn-csv" style="padding: 4px 10px; font-size: 11px; color:#c084fc; border-color: rgba(139,92,246,0.4);" onclick="startModeApplyScraped()">⚡ Apply Scraped (Mode 2)</button>
           <button class="btn btn-csv" style="padding: 4px 10px; font-size: 11px; color:#34d399; border-color: rgba(16,185,129,0.4);" onclick="mergeScrapedJobs()">➕ Merge to Queue</button>
         </div>
       </div>
-      <div class="table-container" style="max-height: 380px;">
+
+      <!-- Pool Filter Tabs -->
+      <div style="padding: 10px 18px; background: rgba(0,0,0,0.3); border-bottom: 1px solid rgba(255,255,255,0.06); display: flex; gap: 8px; flex-wrap: wrap; align-items: center;">
+        <span style="font-size: 11px; font-weight: 700; color: var(--muted); text-transform: uppercase; margin-right: 6px;">Active Pool:</span>
+        <button class="btn pool-tab-btn" id="poolBtnAll" onclick="switchJobPool('all')" style="padding: 5px 12px; font-size: 11px; font-weight: 700; background: rgba(6, 182, 212, 0.2); border: 1px solid rgba(6, 182, 212, 0.5); color: #38bdf8;">
+          📁 Master Pool (<span id="poolBadgeAll">132</span>)
+        </button>
+        <button class="btn pool-tab-btn" id="poolBtnBackend" onclick="switchJobPool('backend')" style="padding: 5px 12px; font-size: 11px; font-weight: 700; background: #0c1222; border: 1px solid #1e293b; color: #94a3b8;">
+          🐍 Backend Pool (<span id="poolBadgeBackend">102</span>)
+        </button>
+        <button class="btn pool-tab-btn" id="poolBtnCyber" onclick="switchJobPool('cyber')" style="padding: 5px 12px; font-size: 11px; font-weight: 700; background: #0c1222; border: 1px solid #1e293b; color: #94a3b8;">
+          🛡️ Cyber Pool (<span id="poolBadgeCyber">30</span>)
+        </button>
+        <button class="btn pool-tab-btn" id="poolBtnDubai" onclick="switchJobPool('dubai')" style="padding: 5px 12px; font-size: 11px; font-weight: 700; background: #0c1222; border: 1px solid #1e293b; color: #94a3b8;">
+          🇦🇪 Dubai Pool (<span id="poolBadgeDubai">65</span>)
+        </button>
+      </div>
+
+      <div class="table-container" style="max-height: 400px;">
         <table>
           <thead>
             <tr>
-              <th style="width: 50px;">#</th>
+              <th style="width: 45px;">#</th>
               <th>Platform / Age</th>
               <th>Role &amp; Company</th>
               <th>Location</th>
-              <th>Category</th>
+              <th>Assigned Resume (Strict Separation)</th>
               <th>Direct Link</th>
               <th>Action</th>
             </tr>
@@ -1215,6 +1253,21 @@
       </div>
       <div class="modal-body">
         <img src="" id="modalImg" class="modal-img" alt="Submission Screenshot">
+      </div>
+    </div>
+  </div>
+
+  <!-- Session Proof Modal (Proof of Verified Logged-In Session) -->
+  <div class="modal-overlay" id="sessionProofModal" onclick="closeSessionProofModal()" style="display:none; z-index: 10000;">
+    <div class="modal-content" onclick="event.stopPropagation()" style="max-width: 720px; width: 92%; background: #0c1222; border: 1px solid #1e293b; border-radius: 16px; padding: 22px; box-shadow: 0 25px 60px rgba(0,0,0,0.85);">
+      <div class="modal-header" style="display:flex; justify-content:space-between; align-items:center; border-bottom: 1px solid rgba(255,255,255,0.08); padding-bottom: 14px; margin-bottom: 16px;">
+        <div style="font-weight: 800; font-size: 16px; display:flex; align-items:center; gap: 8px; color: var(--cyan);">
+          <span>🔍</span> Verified Chrome Session &amp; Cookies Proof
+        </div>
+        <button class="close-btn" onclick="closeSessionProofModal()" style="background:none; border:none; color:var(--muted); font-size: 24px; cursor:pointer; line-height: 1;">&times;</button>
+      </div>
+      <div id="sessionProofModalBody" style="max-height: 520px; overflow-y: auto;">
+        <div style="text-align:center; padding: 30px; color: var(--muted);">⏳ Loading cookie database inspection...</div>
       </div>
     </div>
   </div>
@@ -1496,6 +1549,7 @@
       const limit = parseInt(document.getElementById('inputLimit').value, 10) || 1000;
       const category = document.getElementById('selectCategory').value;
       const ats = document.getElementById('selectAts').value;
+      const source = document.getElementById('selectApplyScope') ? document.getElementById('selectApplyScope').value : 'all';
       const concurrency = parseInt(document.getElementById('selectConcurrency').value, 10) || 5;
       const headless = document.getElementById('checkHeadless').checked;
 
@@ -1504,7 +1558,7 @@
       await fetch('/api/start', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ limit, category, ats, concurrency, headless })
+        body: JSON.stringify({ limit, category, ats, source, concurrency, headless })
       });
       refreshData();
     }
@@ -1559,6 +1613,7 @@
         if (data.success) {
           appendPanelLog('✅ Active Google Chrome session (LinkedIn, Naukri & Google) synced into bot storage!');
           fetchAuthStatus();
+          openSessionProofModal();
         } else {
           appendPanelLog('⚠️ Sync note: ' + data.message);
         }
@@ -1568,6 +1623,136 @@
         btn.disabled = false;
         btn.textContent = '🔄 Use Current Logged-in Chrome (1-Click)';
       }
+    }
+
+    async function openSessionProofModal() {
+      const modal = document.getElementById('sessionProofModal');
+      const body = document.getElementById('sessionProofModalBody');
+      if (!modal || !body) return;
+      modal.style.display = 'flex';
+      body.innerHTML = '<div style="text-align:center; padding: 30px; color: var(--muted);"><div class="spinner" style="margin: 0 auto 12px; width: 24px; height: 24px; border: 2px solid #38bdf8; border-top-color: transparent; border-radius: 50%; animation: spin 0.8s linear infinite;"></div>Reading verified session cookies from Chrome database...</div>';
+      
+      try {
+        const res = await fetch('/api/auth-details');
+        const data = await res.json();
+        if (data.error) {
+          body.innerHTML = `<div style="color:#ef4444; padding:20px;">Failed to inspect session: ${escapeHtml(data.error)}</div>`;
+          return;
+        }
+
+        const candidate = data.platforms?.google?.candidate || 'Imran Pasha';
+        const email = data.platforms?.google?.activeEmail || 'imranpasha.ahmed@gmail.com';
+        const liCount = data.platforms?.linkedin?.count || 0;
+        const liStatus = data.platforms?.linkedin?.status || 'Active';
+        const liCookies = (data.platforms?.linkedin?.sampleCookies || []).join(', ');
+        const nkCount = data.platforms?.naukri?.count || 0;
+        const nkStatus = data.platforms?.naukri?.status || 'Active';
+        const nkCookies = (data.platforms?.naukri?.sampleCookies || []).join(', ');
+        const ggCount = data.platforms?.google?.count || 0;
+        const ghCount = data.platforms?.github?.count || 0;
+
+        let domainRows = '';
+        (data.topDomains || []).slice(0, 10).forEach(d => {
+          domainRows += `<tr style="border-bottom: 1px solid rgba(255,255,255,0.04);">
+            <td style="padding: 6px 8px; font-family:'JetBrains Mono',monospace; color:var(--cyan); font-size: 11px;">${escapeHtml(d.domain)}</td>
+            <td style="padding: 6px 8px; text-align:right; font-weight:700; color:#34d399; font-size: 11px;">${d.cookies} cookies</td>
+          </tr>`;
+        });
+
+        body.innerHTML = `
+          <div style="background: rgba(16, 185, 129, 0.1); border: 1px solid rgba(16, 185, 129, 0.3); border-radius: 12px; padding: 16px; margin-bottom: 16px;">
+            <div style="display:flex; justify-content:space-between; align-items:center; flex-wrap: wrap; gap: 10px;">
+              <div>
+                <div style="font-size: 15px; font-weight: 800; color: #34d399; display:flex; align-items:center; gap: 8px;">
+                  <span>✅</span> Active Session Verified &amp; Synced
+                </div>
+                <div style="font-size: 12px; color: var(--text); margin-top: 4px;">
+                  Candidate: <strong>${escapeHtml(candidate)}</strong> &bull; <code style="color:var(--cyan);">${escapeHtml(email)}</code>
+                </div>
+              </div>
+              <div style="text-align:right;">
+                <div style="font-size: 22px; font-weight: 800; color: #38bdf8;">${data.totalCookies}</div>
+                <div style="font-size: 11px; color: var(--muted);">Verified Cookies in Bot Storage</div>
+              </div>
+            </div>
+            <div style="margin-top: 10px; font-size: 11px; color: var(--muted); font-family: 'JetBrains Mono', monospace; word-break:break-all;">
+              Storage: <span style="color:#cbd5e1;">${escapeHtml(data.storagePath || '.user_browser_profile/Default/Network/Cookies')}</span>
+            </div>
+          </div>
+
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 12px; margin-bottom: 16px;">
+            <!-- LinkedIn Card -->
+            <div style="background: #090e1a; border: 1px solid rgba(6, 182, 212, 0.3); border-radius: 10px; padding: 14px;">
+              <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom: 6px;">
+                <span style="font-weight: 800; color: #38bdf8; font-size: 13px;">🔵 LinkedIn</span>
+                <span class="badge-status" style="background:rgba(16,185,129,0.2); color:#34d399; font-size:10px;">${liCount} Cookies</span>
+              </div>
+              <div style="font-size: 12px; color: var(--text); font-weight: 600;">Status: <span style="color:#34d399;">${escapeHtml(liStatus)}</span></div>
+              <div style="font-size: 10px; color: var(--muted); margin-top: 6px; font-family:'JetBrains Mono',monospace; word-break:break-all;">
+                Key tokens: ${escapeHtml(liCookies || 'Active session cookies')}
+              </div>
+            </div>
+
+            <!-- Naukri Card -->
+            <div style="background: #090e1a; border: 1px solid rgba(245, 158, 11, 0.3); border-radius: 10px; padding: 14px;">
+              <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom: 6px;">
+                <span style="font-weight: 800; color: #fbbf24; font-size: 13px;">🟠 Naukri.com</span>
+                <span class="badge-status" style="background:rgba(16,185,129,0.2); color:#34d399; font-size:10px;">${nkCount} Cookies</span>
+              </div>
+              <div style="font-size: 12px; color: var(--text); font-weight: 600;">Status: <span style="color:#34d399;">${escapeHtml(nkStatus)}</span></div>
+              <div style="font-size: 10px; color: var(--muted); margin-top: 6px; font-family:'JetBrains Mono',monospace; word-break:break-all;">
+                Key tokens: ${escapeHtml(nkCookies || 'Active session cookies')}
+              </div>
+            </div>
+
+            <!-- Google Account Card -->
+            <div style="background: #090e1a; border: 1px solid rgba(239, 68, 68, 0.3); border-radius: 10px; padding: 14px;">
+              <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom: 6px;">
+                <span style="font-weight: 800; color: #f87171; font-size: 13px;">🔴 Google Account</span>
+                <span class="badge-status" style="background:rgba(16,185,129,0.2); color:#34d399; font-size:10px;">${ggCount} Cookies</span>
+              </div>
+              <div style="font-size: 12px; color: var(--text); font-weight: 600;">${escapeHtml(candidate)} (${escapeHtml(email)})</div>
+              <div style="font-size: 10px; color: var(--muted); margin-top: 6px;">Google OAuth2 Single Sign-On active</div>
+            </div>
+
+            <!-- GitHub Card -->
+            <div style="background: #090e1a; border: 1px solid rgba(148, 163, 184, 0.3); border-radius: 10px; padding: 14px;">
+              <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom: 6px;">
+                <span style="font-weight: 800; color: #cbd5e1; font-size: 13px;">⚫ GitHub / Dev Auth</span>
+                <span class="badge-status" style="background:rgba(16,185,129,0.2); color:#34d399; font-size:10px;">${ghCount} Cookies</span>
+              </div>
+              <div style="font-size: 12px; color: var(--text); font-weight: 600;">Status: Synced</div>
+              <div style="font-size: 10px; color: var(--muted); margin-top: 6px;">Developer portal cookies ready</div>
+            </div>
+          </div>
+
+          <!-- Top Domains Table -->
+          <div style="background: #090e1a; border: 1px solid #1e293b; border-radius: 10px; padding: 12px;">
+            <div style="font-size: 11px; font-weight: 700; color: var(--muted); text-transform: uppercase; margin-bottom: 8px;">Top Domain Cookie Distribution in Storage:</div>
+            <table style="width: 100%; font-size: 12px; border-collapse: collapse;">
+              <tbody>
+                ${domainRows}
+              </tbody>
+            </table>
+          </div>
+
+          <div style="display:flex; justify-content:flex-end; gap: 10px; margin-top: 16px;">
+            <button class="btn" onclick="syncActiveChromeProfile();" style="background: rgba(16, 185, 129, 0.2); border: 1px solid rgba(16, 185, 129, 0.4); color: #34d399; padding: 8px 16px; font-size: 12px;">
+              🔄 Re-Sync from Chrome Now
+            </button>
+            <button class="btn" onclick="closeSessionProofModal()" style="background: #1e293b; color: white; padding: 8px 16px; font-size: 12px;">
+              Close Proof
+            </button>
+          </div>
+        `;
+      } catch (err) {
+        body.innerHTML = `<div style="color:#ef4444; padding:20px;">Network error: ${escapeHtml(err.message)}</div>`;
+      }
+    }
+
+    function closeSessionProofModal() {
+      const modal = document.getElementById('sessionProofModal');
+      if (modal) modal.style.display = 'none';
     }
 
     async function openAuthSession() {
@@ -1659,9 +1844,55 @@
       }
     }
 
+    let currentPool = 'all';
+
+    async function loadJobPoolSummary() {
+      try {
+        const res = await fetch('/api/job-pools');
+        const data = await res.json();
+        const bAll = document.getElementById('poolBadgeAll');
+        if (bAll) bAll.textContent = data.total || 0;
+        const bBackend = document.getElementById('poolBadgeBackend');
+        if (bBackend) bBackend.textContent = data.backendCount || 0;
+        const bCyber = document.getElementById('poolBadgeCyber');
+        if (bCyber) bCyber.textContent = data.cyberCount || 0;
+        const bDubai = document.getElementById('poolBadgeDubai');
+        if (bDubai) bDubai.textContent = data.dubaiCount || 0;
+      } catch (e) {}
+    }
+
+    async function switchJobPool(poolName) {
+      currentPool = poolName;
+      ['all', 'backend', 'cyber', 'dubai'].forEach(p => {
+        const btn = document.getElementById(`poolBtn${p.charAt(0).toUpperCase() + p.slice(1)}`);
+        if (btn) {
+          if (p === poolName) {
+            btn.style.background = 'rgba(6, 182, 212, 0.2)';
+            btn.style.borderColor = 'rgba(6, 182, 212, 0.5)';
+            btn.style.color = '#38bdf8';
+          } else {
+            btn.style.background = '#0c1222';
+            btn.style.borderColor = '#1e293b';
+            btn.style.color = '#94a3b8';
+          }
+        }
+      });
+
+      try {
+        const res = await fetch(`/api/job-pools/${poolName}`);
+        const data = await res.json();
+        const tblCount = document.getElementById('scrapedTableCount');
+        if (tblCount) tblCount.textContent = data.count || (data.jobs ? data.jobs.length : 0);
+        renderScrapedJobsTable(data.jobs || []);
+      } catch (e) {
+        console.error('Error switching job pool:', e);
+      }
+    }
+
     async function loadScrapedJobsCount() {
       try {
-        const res = await fetch('/api/scraped-jobs');
+        await loadJobPoolSummary();
+        const res = await fetch('/api/job-pools/' + currentPool);
         const data = await res.json();
         const badge = document.getElementById('scrapedBadgeCount');
         if (badge) {
@@ -1674,11 +1905,31 @@
         if (data.jobs) {
           renderScrapedJobsTable(data.jobs);
         }
-      } catch (e) {}
+      } catch (e) {
+        try {
+          const res = await fetch('/api/scraped-jobs');
+          const data = await res.json();
+          if (data.jobs) renderScrapedJobsTable(data.jobs);
+        } catch (err) {}
+      }
     }
 
     async function refreshScrapedTable() {
-      await loadScrapedJobsCount();
+      await switchJobPool(currentPool);
+    }
+
+    function getExactResumeForJob(j) {
+      if (j.resume) return j.resume;
+      const isDubai = (j.region === 'dubai' || (j.location || '').toLowerCase().includes('dubai'));
+      const cat = (j.category || '').toLowerCase();
+      const title = (j.title || '').toLowerCase();
+      if (cat.includes('cyber') || title.includes('cyber') || title.includes('security') || title.includes('pentest') || title.includes('soc')) {
+        return isDubai ? 'Imran-Pasha-Cyber-Security-Dubai.pdf' : 'Imran-Pasha-Penetration-Tester.pdf';
+      } else if (cat.includes('python') || (!cat.includes('node') && !title.includes('node'))) {
+        return isDubai ? 'Imran-Pasha-Backend-Python-Dubai.pdf' : 'Imran-Pasha-Backend-Python.pdf';
+      } else {
+        return isDubai ? 'Imran-Pasha-Backend-NodeJS-Dubai.pdf' : 'Imran-Pasha-Backend-NodeJS.pdf';
+      }
     }
 
     function renderScrapedJobsTable(jobs) {
@@ -1686,7 +1937,7 @@
       if (!tbody) return;
       tbody.innerHTML = '';
       if (!jobs || jobs.length === 0) {
-        tbody.innerHTML = `<tr><td colspan="7" style="text-align:center;color:var(--muted);padding:24px;">No scraped jobs currently in database. Click "⚡ SCRAPE JOBS" or "1. ONLY SCRAPE" above to scan live postings!</td></tr>`;
+        tbody.innerHTML = `<tr><td colspan="7" style="text-align:center;color:var(--muted);padding:24px;">No jobs currently in this pool. Click "⚡ SCRAPE JOBS" or "1. ONLY SCRAPE" above to scan live postings!</td></tr>`;
         return;
       }
 
@@ -1699,6 +1950,18 @@
           ? `<span class="badge-status" style="background:rgba(16,185,129,0.2);color:#34d399;font-weight:700;font-size:11px;padding:4px 8px;border-radius:6px;display:inline-block;">✅ Applied</span>`
           : `<button class="btn-view-proof" onclick="singleApply('${escapeHtml(j.url)}', '${escapeHtml(j.company)}')">Apply Now</button>`;
 
+        const resumeFile = getExactResumeForJob(j);
+        let rColor = '#60a5fa';
+        let rBg = 'rgba(59,130,246,0.15)';
+        if (resumeFile.includes('NodeJS')) {
+          rColor = '#34d399';
+          rBg = 'rgba(16,185,129,0.15)';
+        } else if (resumeFile.includes('Cyber') || resumeFile.includes('Penetration')) {
+          rColor = '#f87171';
+          rBg = 'rgba(239,68,68,0.15)';
+        }
+        const resumeBadge = `<span class="badge-status" style="font-size:11px;font-weight:700;background:${rBg};color:${rColor};border:1px solid ${rColor}40;display:inline-block;padding:2px 8px;border-radius:6px;">📄 ${escapeHtml(resumeFile)}</span>`;
+
         tr.innerHTML = `
           <td>${idx + 1}</td>
           <td>${platformBadge} ${timingBadge}</td>
@@ -1707,7 +1970,7 @@
             <span style="color:var(--muted);font-size:12px;">${escapeHtml(j.title)}</span>
           </td>
           <td style="font-size:12px;color:var(--muted);">${escapeHtml(j.location || 'India / Remote')}</td>
-          <td><span class="badge-status" style="font-size:10px;background:rgba(6,182,212,0.15);color:#38bdf8;">${escapeHtml(j.category || 'all')}</span></td>
+          <td>${resumeBadge}</td>
           <td><a href="${escapeHtml(j.url)}" target="_blank" style="color:var(--cyan);text-decoration:none;font-size:11px;font-weight:700;">🔗 Open Link</a></td>
           <td>${actionBtn}</td>
         `;
@@ -1757,6 +2020,8 @@
     async function startModeApplyScraped() {
       const concurrency = parseInt(document.getElementById('selectConcurrency').value, 10) || 5;
       const headless = document.getElementById('checkHeadless').checked;
+      const source = document.getElementById('selectApplyScope') ? document.getElementById('selectApplyScope').value : 'scraped';
+      const category = document.getElementById('selectCategory') ? document.getElementById('selectCategory').value : 'all';
 
       initWorkerTiles(concurrency);
 
@@ -1764,13 +2029,13 @@
         const res = await fetch('/api/mode/apply-scraped', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ concurrency, headless })
+          body: JSON.stringify({ concurrency, headless, source, category })
         });
         const data = await res.json();
         if (data.error) {
           alert('Apply Scraped Error: ' + data.error);
         } else {
-          appendLog({ time: new Date().toLocaleTimeString(), text: `⚡ [Mode 2] Applying to ${data.jobCount} scraped jobs across ${concurrency} workers...` });
+          appendLog({ time: new Date().toLocaleTimeString(), text: `⚡ [Mode 2] Applying to ${data.jobCount} jobs (Scope: ${source.toUpperCase()}) across ${concurrency} workers...` });
         }
       } catch (e) {
         alert('Failed to launch: ' + e.message);

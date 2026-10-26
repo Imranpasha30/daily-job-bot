@@ -12,6 +12,8 @@ const { runJobScraper, getScrapedJobs, mergeScrapedJobsIntoIndexHtml } = require
 const { scrapeDicCommunity, getDicCompanies, getDicJobs } = require('./agent/scrapers/dic_scraper');
 const { loadHistory, saveHistory, isJobApplied, filterUnappliedJobs } = require('./agent/applied_tracker');
 const { getNoticePeriod, setNoticePeriod, PROFILE } = require('./agent/profile');
+const { syncJobPools, getPoolJobs, selectJobsByScope } = require('./agent/job_pool_manager');
+const { execSync } = require('child_process');
 
 const getHistory = loadHistory;
 
@@ -178,38 +180,50 @@ app.post('/api/start', async (req, res) => {
   const {
     limit = 1000,
     category = 'all',
+    source = 'all',
     ats = 'all',
     concurrency = 5,
     headless = true
   } = req.body;
 
-  let allJobs = loadAllJobs();
-  if (category === 'backend') allJobs = allJobs.filter(j => j.category === 'backend');
-  if (category === 'cyber') allJobs = allJobs.filter(j => j.category === 'cyber');
+  const history = getHistory();
+  let targetJobs = [];
 
-  if (ats !== 'all') {
-    allJobs = allJobs.filter(j => {
-      const u = (j.url || '').toLowerCase();
-      if (ats === 'greenhouse') return u.includes('greenhouse.io');
-      if (ats === 'ashby') return u.includes('ashbyhq.com');
-      if (ats === 'lever') return u.includes('lever.co');
-      return true;
+  if (source === 'all') {
+    const poolJobs = selectJobsByScope({ source: 'all', category, ats, limit: 500, historyObj: history });
+    let dbJobs = loadAllJobs();
+    if (category === 'backend') dbJobs = dbJobs.filter(j => j.category === 'backend');
+    if (category === 'cyber') dbJobs = dbJobs.filter(j => j.category === 'cyber');
+    if (ats !== 'all') {
+      dbJobs = dbJobs.filter(j => {
+        const u = (j.url || '').toLowerCase();
+        if (ats === 'greenhouse') return u.includes('greenhouse.io');
+        if (ats === 'ashby') return u.includes('ashbyhq.com');
+        if (ats === 'lever') return u.includes('lever.co');
+        return true;
+      });
+    }
+    const unappliedDb = filterUnappliedJobs(dbJobs, history);
+    const seen = new Set();
+    [...poolJobs, ...unappliedDb].forEach(j => {
+      const id = j.id || j.url;
+      if (!seen.has(id)) {
+        seen.add(id);
+        targetJobs.push(j);
+      }
     });
+  } else {
+    targetJobs = selectJobsByScope({ source, category, ats, limit, historyObj: history });
   }
 
-  // Prioritize standard ATS platforms for high automation success
-  allJobs.sort((a, b) => {
-    const aATS = /greenhouse\.io|ashbyhq\.com|lever\.co/.test(a.url || '') ? 1 : 0;
-    const bATS = /greenhouse\.io|ashbyhq\.com|lever\.co/.test(b.url || '') ? 1 : 0;
-    if (bATS !== aATS) return bATS - aATS;
-    return (b.score || 0) - (a.score || 0);
-  });
+  if (targetJobs.length === 0) {
+    return res.status(400).json({ error: `No unapplied jobs found for Scope: ${source.toUpperCase()}, Role: ${category.toUpperCase()}. Run Scraper first or choose another scope.` });
+  }
 
-  const history = getHistory();
   const currentSuccessful = Object.values(history.applied).filter(a => a.status === 'APPLIED').length;
 
   agentState = 'RUNNING';
-  stats.target = limit;
+  stats.target = Math.min(limit, targetJobs.length);
   stats.successful = currentSuccessful;
   stats.concurrency = concurrency;
 
@@ -222,13 +236,14 @@ app.post('/api/start', async (req, res) => {
     appliedCount: 0
   }));
 
-  res.json({ status: 'started', settings: { limit, category, ats, concurrency, headless } });
+  addLog(`🚀 [Campaign Initiated] Scope: ${source.toUpperCase()} | Role: ${category.toUpperCase()} | Queue: ${targetJobs.length} eligible jobs | Concurrency: ${concurrency}x`);
+  res.json({ status: 'started', settings: { limit: stats.target, category, source, ats, concurrency, headless, queueLength: targetJobs.length } });
 
   activePool = new ParallelApplyPool({
     concurrency: parseInt(concurrency, 10) || 5,
     headless: headless !== undefined ? headless : true,
-    limit: limit,
-    jobs: allJobs,
+    limit: stats.target,
+    jobs: targetJobs,
     history: history,
     screenshotsDir: SCREENSHOTS_DIR,
     onWorkerUpdate: (worker) => {
@@ -340,6 +355,29 @@ app.post('/api/auth-session/sync', (req, res) => {
     addLog(`⚠️ Session sync note: ${result.message}`);
   }
   res.json(result);
+});
+
+// 1c. Get Detailed Synced Session Proof
+app.get('/api/auth-details', (req, res) => {
+  try {
+    const scriptPath = path.join(BASE_DIR, 'get_session_details.py');
+    const out = execSync(`py "${scriptPath}"`, { encoding: 'utf8', timeout: 5000 });
+    res.json(JSON.parse(out));
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
+});
+
+// 1d. Get Job Pools (Backend, Cyber, Dubai, All)
+app.get('/api/job-pools', (req, res) => {
+  const summary = syncJobPools();
+  res.json(summary);
+});
+
+app.get('/api/job-pools/:pool', (req, res) => {
+  const poolName = req.params.pool || 'all';
+  const jobs = getPoolJobs(poolName);
+  res.json({ pool: poolName, count: jobs.length, jobs });
 });
 
 // 2. Launch Visible Real Browser for Safe One-Time Login
@@ -483,18 +521,19 @@ app.post('/api/mode/apply-scraped', async (req, res) => {
 
   const {
     concurrency = 5,
-    headless = true
+    headless = true,
+    source = 'scraped',
+    category = 'all'
   } = req.body;
 
-  const scrapedJobs = getScrapedJobs();
   const history = getHistory();
 
-  // Strict Anti-Revolving: Filter for unapplied scraped jobs
-  const unappliedScraped = filterUnappliedJobs(scrapedJobs, history);
+  // Strict Anti-Revolving: Filter for unapplied scoped jobs
+  const unappliedScraped = selectJobsByScope({ source, category, limit: 1000, historyObj: history });
 
   if (unappliedScraped.length === 0) {
-    addLog('ℹ️ [Mode 2] No unapplied scraped jobs found. Please run Scraper first.');
-    return res.status(400).json({ error: 'No unapplied scraped jobs found. Run Scraper first.' });
+    addLog(`ℹ️ [Mode 2] No unapplied jobs found matching Scope: ${source.toUpperCase()}, Category: ${category.toUpperCase()}.`);
+    return res.status(400).json({ error: `No unapplied jobs found matching Scope: ${source.toUpperCase()}, Category: ${category.toUpperCase()}. Run Scraper first.` });
   }
 
   agentState = 'RUNNING';

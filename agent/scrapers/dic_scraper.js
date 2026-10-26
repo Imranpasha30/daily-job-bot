@@ -145,6 +145,12 @@ async function scrapeDicCommunity({ maxCompanies = 100, fetchAll = false, onLog 
   fs.writeFileSync(DIC_JOBS_FILE, JSON.stringify(dubaiJobs, null, 2), 'utf8');
   onLog(`✨ [Dubai Jobs Engine] Generated ${dubaiJobs.length} Dubai career opportunities across Python, Node.js, and Cyber Security with strict CV alignment!`);
 
+  // Synchronize dedicated backend & cyber storage pools
+  try {
+    const { syncJobPools } = require('../job_pool_manager');
+    syncJobPools();
+  } catch (e) {}
+
   return {
     companiesCount: allAccounts.length,
     jobsCount: dubaiJobs.length,

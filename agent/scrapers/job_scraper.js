@@ -78,6 +78,13 @@ function saveScrapedJobs(newJobs) {
   const merged = [...filteredNew, ...existing];
 
   fs.writeFileSync(SCRAPED_JOBS_FILE, JSON.stringify(merged, null, 2), 'utf8');
+
+  // Synchronize dedicated backend & cyber storage pools
+  try {
+    const { syncJobPools } = require('../job_pool_manager');
+    syncJobPools();
+  } catch (e) {}
+
   return { added: filteredNew.length, total: merged.length, newJobs: filteredNew };
 }
 
