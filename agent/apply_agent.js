@@ -11,6 +11,7 @@ const path = require('path');
 const readline = require('readline');
 const { processJobPage } = require('./form_router');
 const { selectResume } = require('./profile');
+const { verifySubmission } = require('./submission_verifier');
 
 // Paths
 const BASE_DIR = path.resolve(__dirname, '..');
@@ -289,58 +290,100 @@ async function run() {
         console.log(`  [4/4] Submitting application...`);
         if (formReport.submitElement) {
           await formReport.submitElement.click().catch(() => {});
-          await sleep(3000);
         } else {
-          // Attempt generic submit button
           const btn = await page.$('button[type="submit"], input[type="submit"], button:has-text("Submit")');
           if (btn) await btn.click().catch(() => {});
-          await sleep(3000);
         }
 
-        console.log(`  ✅ Successfully Submitted application to ${job.company}!`);
-        applicationCount++;
-        history.stats.successful++;
-        history.applied[jobId] = {
-          title: job.title,
-          company: job.company,
-          url: job.url,
-          ats: formReport.ats,
-          resume: path.basename(resumeFile),
-          status: 'APPLIED',
-          date: new Date().toISOString()
-        };
-        saveHistory(history);
+        console.log(`  [Verification] Checking server-side confirmation...`);
+        const verification = await verifySubmission(page, 7500);
+
+        const safeCo = job.company.replace(/[^a-zA-Z0-9]/g, '_');
+        const ssFilename = `${verification.isConfirmed ? 'confirmed' : 'unconfirmed'}_${applicationCount + 1}_${safeCo}.png`;
+        const ssPath = path.join(SCREENSHOTS_DIR, ssFilename);
+        await page.screenshot({ path: ssPath, fullPage: false }).catch(() => {});
+
+        if (verification.isConfirmed) {
+          console.log(`  ✅ [CONFIRMED] Application officially accepted by ${job.company}! (${verification.confirmationText})`);
+          applicationCount++;
+          history.stats.successful++;
+          history.applied[jobId] = {
+            title: job.title,
+            company: job.company,
+            url: job.url,
+            ats: formReport.ats,
+            resume: path.basename(resumeFile),
+            screenshot: ssFilename,
+            status: 'CONFIRMED_APPLIED',
+            date: new Date().toISOString()
+          };
+          saveHistory(history);
+        } else {
+          console.log(`  ❌ [NOT SUBMITTED] ${job.company} — ${verification.reason}`);
+          history.stats.failed++;
+          history.applied[jobId] = {
+            title: job.title,
+            company: job.company,
+            url: job.url,
+            ats: formReport.ats,
+            resume: path.basename(resumeFile),
+            screenshot: ssFilename,
+            status: 'NOT_SUBMITTED',
+            error: verification.reason,
+            date: new Date().toISOString()
+          };
+          saveHistory(history);
+        }
 
       } else {
         // FULL AUTO MODE
         console.log(`  [4/4] [AUTO MODE] Submitting application...`);
         if (formReport.submitElement) {
           await formReport.submitElement.click().catch(() => {});
-          await sleep(3000);
         } else {
           const btn = await page.$('button[type="submit"], input[type="submit"], button:has-text("Submit")');
           if (btn) await btn.click().catch(() => {});
-          await sleep(3000);
         }
 
-        // Take submission confirmation screenshot
-        const ssPath = path.join(SCREENSHOTS_DIR, `submitted_${applicationCount + 1}_${job.company.replace(/[^a-zA-Z0-9]/g, '_')}.png`);
+        console.log(`  [Verification] Checking server-side confirmation...`);
+        const verification = await verifySubmission(page, 7500);
+
+        const safeCo = job.company.replace(/[^a-zA-Z0-9]/g, '_');
+        const ssFilename = `${verification.isConfirmed ? 'confirmed' : 'unconfirmed'}_${applicationCount + 1}_${safeCo}.png`;
+        const ssPath = path.join(SCREENSHOTS_DIR, ssFilename);
         await page.screenshot({ path: ssPath, fullPage: false }).catch(() => {});
 
-        console.log(`  ✅ [AUTO] Submitted application to ${job.company}! Saved proof: ${path.basename(ssPath)}`);
-        applicationCount++;
-        history.stats.successful++;
-        history.applied[jobId] = {
-          title: job.title,
-          company: job.company,
-          url: job.url,
-          ats: formReport.ats,
-          resume: path.basename(resumeFile),
-          screenshot: ssPath,
-          status: 'APPLIED',
-          date: new Date().toISOString()
-        };
-        saveHistory(history);
+        if (verification.isConfirmed) {
+          console.log(`  ✅ [AUTO CONFIRMED] Application officially accepted by ${job.company}! (${verification.confirmationText})`);
+          applicationCount++;
+          history.stats.successful++;
+          history.applied[jobId] = {
+            title: job.title,
+            company: job.company,
+            url: job.url,
+            ats: formReport.ats,
+            resume: path.basename(resumeFile),
+            screenshot: ssFilename,
+            status: 'CONFIRMED_APPLIED',
+            date: new Date().toISOString()
+          };
+          saveHistory(history);
+        } else {
+          console.log(`  ❌ [NOT SUBMITTED] ${job.company} — ${verification.reason}`);
+          history.stats.failed++;
+          history.applied[jobId] = {
+            title: job.title,
+            company: job.company,
+            url: job.url,
+            ats: formReport.ats,
+            resume: path.basename(resumeFile),
+            screenshot: ssFilename,
+            status: 'NOT_SUBMITTED',
+            error: verification.reason,
+            date: new Date().toISOString()
+          };
+          saveHistory(history);
+        }
 
         // Anti-bot pacing jitter (3 - 6 seconds)
         const jitter = opts.delayMs + Math.floor(Math.random() * 2500);

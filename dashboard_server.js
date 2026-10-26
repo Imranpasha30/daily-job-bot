@@ -7,6 +7,8 @@ const express = require('express');
 const fs = require('fs');
 const path = require('path');
 const { ParallelApplyPool } = require('./agent/parallel_worker');
+const { launchAuthSession, closeAuthSession, isAuthSessionActive, checkAuthStatus } = require('./agent/auth_session');
+const { runJobScraper, getScrapedJobs, mergeScrapedJobsIntoIndexHtml } = require('./agent/scrapers/job_scraper');
 
 const app = express();
 const PORT = process.env.PORT || 4000;
@@ -113,7 +115,7 @@ function saveHistory(history) {
   fs.writeFileSync(path.join(BASE_DIR, 'applied_companies.md'), md, 'utf8');
 }
 
-// Load jobs from index.html
+// Load jobs from index.html and scraped_jobs.json
 function loadAllJobs() {
   let backend = [];
   let cyber = [];
@@ -130,6 +132,23 @@ function loadAllJobs() {
 
   backend.forEach(j => { j.category = 'backend'; });
   cyber.forEach(j => { j.category = 'cyber'; });
+
+  // Merge in fresh verified scraped jobs from scraped_jobs.json
+  const scrapedFile = path.join(BASE_DIR, 'scraped_jobs.json');
+  if (fs.existsSync(scrapedFile)) {
+    try {
+      const scraped = JSON.parse(fs.readFileSync(scrapedFile, 'utf8'));
+      const existingUrls = new Set([...backend, ...cyber].map(j => (j.url || '').toLowerCase().trim()));
+      scraped.forEach(s => {
+        const u = (s.url || '').toLowerCase().trim();
+        if (u && !existingUrls.has(u)) {
+          existingUrls.add(u);
+          if (s.category === 'cyber') cyber.push(s);
+          else backend.push(s);
+        }
+      });
+    } catch (e) {}
+  }
 
   return [...backend, ...cyber];
 }
@@ -307,6 +326,105 @@ app.get('/api/export-csv', (req, res) => {
   res.setHeader('Content-Type', 'text/csv');
   res.setHeader('Content-Disposition', 'attachment; filename="imran_pasha_applications.csv"');
   res.send(csv);
+});
+
+// ======================================================================
+// 🕷️ AUTONOMOUS JOB SCRAPER & SAFE PLATFORM AUTHENTICATION ENDPOINTS
+// ======================================================================
+
+let isScraperRunning = false;
+
+// 1. Check Platform Authentication Status (LinkedIn & Naukri)
+app.get('/api/auth-status', (req, res) => {
+  const status = checkAuthStatus();
+  res.json(status);
+});
+
+// 2. Launch Visible Real Browser for Safe One-Time Login
+app.post('/api/auth-session', async (req, res) => {
+  try {
+    addLog('🔐 Launching visible browser for LinkedIn & Naukri authentication...');
+    const result = await launchAuthSession();
+    addLog('👉 Browser opened! Please log into LinkedIn & Naukri. Your session is saved locally.');
+    broadcast('AUTH_UPDATE', { browserActive: true, status: 'opened' });
+    res.json({ success: true, message: 'Browser launched successfully', result });
+  } catch (err) {
+    addLog(`❌ Auth session error: ${err.message}`);
+    res.status(500).json({ error: err.message });
+  }
+});
+
+// 3. Close Auth Browser Window
+app.post('/api/auth-session/close', async (req, res) => {
+  try {
+    await closeAuthSession();
+    addLog('🔒 Authenticated browser window closed. Safe profile session saved.');
+    broadcast('AUTH_UPDATE', { browserActive: false, status: 'closed' });
+    res.json({ success: true });
+  } catch (err) {
+    res.status(500).json({ error: err.message });
+  }
+});
+
+// 4. Trigger Autonomous Scraper
+app.post('/api/scrape', async (req, res) => {
+  if (isScraperRunning) {
+    return res.status(400).json({ error: 'Job scraper is currently already running.' });
+  }
+
+  const {
+    platform = 'all',
+    timing = '24h',
+    category = 'all',
+    keywords = '',
+    limit = 40
+  } = req.body;
+
+  isScraperRunning = true;
+  addLog(`🕷️ [Scraper Initiated] Platform: ${platform.toUpperCase()} | Timing: ${timing.toUpperCase()} | Category: ${category.toUpperCase()}`);
+  broadcast('SCRAPER_STATUS', { running: true, platform, timing });
+
+  res.json({ status: 'started', settings: { platform, timing, category, keywords, limit } });
+
+  // Execute asynchronously with live SSE telemetry
+  runJobScraper({
+    platform,
+    timing,
+    category,
+    keywords,
+    limit: parseInt(limit, 10) || 40,
+    onLog: (msg) => {
+      addLog(msg);
+    }
+  }).then((result) => {
+    isScraperRunning = false;
+    addLog(`🎉 [Scraper Done] Successfully added ${result.added} new jobs (Total database: ${result.total})`);
+    broadcast('SCRAPER_STATUS', { running: false, result });
+    broadcast('SCRAPER_DONE', result);
+  }).catch((err) => {
+    isScraperRunning = false;
+    addLog(`❌ Scraper failed: ${err.message}`);
+    broadcast('SCRAPER_STATUS', { running: false, error: err.message });
+  });
+});
+
+// 5. Get All Scraped Jobs
+app.get('/api/scraped-jobs', (req, res) => {
+  const jobs = getScrapedJobs();
+  res.json({ count: jobs.length, jobs });
+});
+
+// 6. Merge Scraped Jobs into index.html
+app.post('/api/merge-scraped', (req, res) => {
+  const mergeResult = mergeScrapedJobsIntoIndexHtml();
+  if (mergeResult.added > 0) {
+    addLog(`✨ Merged ${mergeResult.added} new scraped jobs into active database (Backend: +${mergeResult.backendAdded}, Cyber: +${mergeResult.cyberAdded})`);
+    const allJobs = loadAllJobs();
+    broadcast('DATABASE_UPDATED', { totalJobs: allJobs.length, added: mergeResult.added });
+  } else {
+    addLog('ℹ️ All scraped jobs are already merged or duplicate.');
+  }
+  res.json(mergeResult);
 });
 
 // Start Server

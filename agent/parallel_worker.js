@@ -9,6 +9,7 @@ const path = require('path');
 const fs = require('fs');
 const { processJobPage } = require('./form_router');
 const { selectResume } = require('./profile');
+const { verifySubmission } = require('./submission_verifier');
 
 class ParallelApplyPool {
   constructor(options = {}) {
@@ -153,28 +154,28 @@ class ParallelApplyPool {
           this.onLog(`[Worker #${workerId}] 🧠 Gemini 2.5 Flash synthesized answers for ${job.company}`);
         }
 
-        // Step 3: Submission
+        // Step 3: Submission Click
         worker.step = 'Submitting application...';
         this.onWorkerUpdate(worker);
 
         if (formReport.submitElement) {
           await formReport.submitElement.click().catch(() => {});
-          await new Promise(r => setTimeout(r, 3000));
         } else {
           const btn = await page.$('button[type="submit"], input[type="submit"], button:has-text("Submit")');
           if (btn) await btn.click().catch(() => {});
-          await new Promise(r => setTimeout(r, 3000));
         }
 
-        // Step 4: Screenshot proof
+        // Step 4: Strict Server-Side Submission Verification
+        worker.step = 'Verifying server confirmation...';
+        this.onWorkerUpdate(worker);
+
+        const verification = await verifySubmission(page, 7500);
+
         const safeCo = job.company.replace(/[^a-zA-Z0-9]/g, '_');
-        const ssFilename = `submitted_w${workerId}_${Date.now()}_${safeCo}.png`;
+        const prefix = verification.isConfirmed ? 'confirmed' : 'unconfirmed';
+        const ssFilename = `${prefix}_w${workerId}_${Date.now()}_${safeCo}.png`;
         const ssPath = path.join(this.screenshotsDir, ssFilename);
         await page.screenshot({ path: ssPath, fullPage: false }).catch(() => {});
-
-        this.stats.successful++;
-        worker.appliedCount++;
-        this.updateSpeedAndEta();
 
         const record = {
           title: job.title,
@@ -184,18 +185,30 @@ class ParallelApplyPool {
           resume: resumeName,
           screenshot: ssFilename,
           workerId: workerId,
-          status: 'APPLIED',
+          status: verification.isConfirmed ? 'CONFIRMED_APPLIED' : 'NOT_SUBMITTED',
+          confirmed: verification.isConfirmed,
+          verificationReason: verification.reason || verification.confirmationText,
           date: new Date().toISOString()
         };
 
-        this.history.applied[jobId] = record;
-        this.onJobComplete(record);
-        this.onLog(`[Worker #${workerId}] ✅ SUBMITTED: ${job.company} (${job.title}) — Proof: ${ssFilename}`);
+        if (verification.isConfirmed) {
+          this.stats.successful++;
+          worker.appliedCount++;
+          worker.step = 'Confirmed Submitted ✓';
+          this.updateSpeedAndEta();
+          this.history.applied[jobId] = record;
+          this.onJobComplete(record);
+          this.onLog(`[Worker #${workerId}] ✅ 100% CONFIRMED: Application submitted to ${job.company}! (${verification.confirmationText})`);
+        } else {
+          this.stats.failed++;
+          worker.step = `Submission blocked: ${verification.reason.slice(0, 30)}...`;
+          this.onLog(`[Worker #${workerId}] ❌ NOT SUBMITTED: ${job.company} — ${verification.reason}`);
+          this.history.applied[jobId] = record;
+        }
 
-        worker.step = 'Application complete ✓';
         this.onWorkerUpdate(worker);
 
-        // Anti-bot brief pacing jitter (1.5 - 3.5s per worker)
+        // Anti-bot pacing jitter
         const jitter = 1500 + Math.floor(Math.random() * 2000);
         await new Promise(r => setTimeout(r, jitter));
 

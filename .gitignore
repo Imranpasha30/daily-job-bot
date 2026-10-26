@@ -9,3 +9,5 @@ Thumbs.db
 screenshots/
 .env
 .env.local
+.user_browser_profile/
+.browser_session/

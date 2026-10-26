@@ -292,6 +292,61 @@ async function handleGreenhouse(page, job) {
     } catch (e) {}
   }
 
+  // 7b. Handle Custom React-Select Dropdowns (Modern Greenhouse UI)
+  try {
+    const reactSelectControls = await page.$$('.select__control, div[class*="select__control"], div[role="combobox"]');
+    for (const ctrl of reactSelectControls) {
+      try {
+        if (!(await ctrl.isVisible())) continue;
+        const ctx = await getElementContext(page, ctrl);
+
+        let targetOptionText = null;
+        if (/country|residence|current.*location/i.test(ctx)) {
+          targetOptionText = 'India';
+        } else if (/authorized|legal.*work|right.*to.*work|eligible/i.test(ctx)) {
+          targetOptionText = 'Yes';
+        } else if (/require.*(sponsorship|visa)|immigration/i.test(ctx)) {
+          targetOptionText = 'No';
+        } else if (/relocat|willing.*to.*relocate/i.test(ctx)) {
+          targetOptionText = 'Yes';
+        } else if (/notice/i.test(ctx)) {
+          targetOptionText = '30 days';
+        } else if (/gender/i.test(ctx)) {
+          targetOptionText = 'Male';
+        } else if (/veteran/i.test(ctx)) {
+          targetOptionText = 'I am not a protected veteran';
+        } else if (/disability/i.test(ctx)) {
+          targetOptionText = 'No, I don\'t have a disability';
+        }
+
+        if (targetOptionText) {
+          await ctrl.click();
+          await page.waitForTimeout(300);
+
+          // Try typing into input inside control if present
+          const inputInCtrl = await ctrl.$('input');
+          if (inputInCtrl) {
+            await inputInCtrl.fill(targetOptionText);
+            await page.waitForTimeout(300);
+          }
+
+          // Look for matching option in the dropdown menu
+          const opt = await page.$(`.select__option:has-text("${targetOptionText}"), [role="option"]:has-text("${targetOptionText}")`);
+          if (opt && await opt.isVisible()) {
+            await opt.click();
+            result.fieldsFilled++;
+            result.details.push(`React-Select: Picked "${targetOptionText}" for ${ctx.slice(0, 30)}`);
+          } else {
+            // Fallback: press Enter to select first filtered item
+            await page.keyboard.press('Enter');
+            result.fieldsFilled++;
+          }
+          await page.waitForTimeout(200);
+        }
+      } catch (e) {}
+    }
+  } catch (e) {}
+
   // 8. Handle Radio Buttons & Checkboxes (CRITICAL: Tick options properly)
   const fieldsets = await page.$$('fieldset, .field:has(input[type="radio"]), div:has(input[type="radio"])');
   for (const fs of fieldsets) {
