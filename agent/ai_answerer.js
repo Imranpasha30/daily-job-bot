@@ -97,7 +97,14 @@ async function answerQuestion(questionLabel, jobDetails = {}) {
 
   // 1. PRIORITY 1: Google Gemini (if GEMINI_API_KEY is configured)
   if (genAI) {
-    const candidateGeminiModels = ['gemini-1.5-flash', 'gemini-1.5-pro', 'gemini-2.0-flash'];
+    const candidateGeminiModels = [
+      'gemini-2.5-flash',
+      'gemini-flash-latest',
+      'gemini-2.5-pro',
+      'gemini-pro-latest',
+      'gemini-1.5-flash',
+      'gemini-1.5-pro'
+    ];
     for (const modelName of candidateGeminiModels) {
       try {
         const model = genAI.getGenerativeModel({ model: modelName });

@@ -7,7 +7,7 @@ const FIELD_RULES = [
   { pattern: /last\s*name|surname|family\s*name/i, value: PROFILE.last, name: 'Last Name' },
   { pattern: /^name\b|full\s*name|your\s*name/i, value: PROFILE.full, name: 'Full Name' },
   { pattern: /e-?mail/i, value: PROFILE.email, name: 'Email' },
-  { pattern: /phone|mobile|contact\s*number/i, value: PROFILE.phone, name: 'Phone' },
+  { pattern: /phone|mobile|contact\s*number/i, value: PROFILE.phoneDigits, name: 'Phone' },
   { pattern: /linkedin/i, value: PROFILE.linkedin, name: 'LinkedIn' },
   { pattern: /github/i, value: PROFILE.github, name: 'GitHub' },
   { pattern: /portfolio|website|blog|personal\s*site/i, value: PROFILE.portfolio, name: 'Portfolio' },
