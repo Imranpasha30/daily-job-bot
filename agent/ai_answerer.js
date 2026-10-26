@@ -73,7 +73,7 @@ const KNOWLEDGE_BASE = {
 
   notice: () => `30 days notice period, with option to negotiate early release.`,
 
-  location: () => `Based in India (Hyderabad / Mangalore / Bangalore). Open to relocation across India, Dubai/UAE, and Remote positions.`
+  location: () => `Based in Hassan, Karnataka, India. Open to relocation across Bangalore, Hyderabad, Dubai/UAE, and Remote positions.`
 };
 
 function buildPrompt(questionLabel, jobDetails) {
@@ -89,7 +89,7 @@ Candidate Profile:
 - Database & Scaling: PostgreSQL 17 (advisory locks, FOR UPDATE SKIP LOCKED, composite indexing, EXPLAIN ANALYZE), Redis 7 (Streams, consumer groups, Lua scripting). Reduced p95 latency from 12s to 141ms on Kaizer X (765 endpoints, 150 tables, 9.9M rows).
 - Security: Executive PG in Cyber Security & Ethical Hacking from IIT Roorkee (OWASP API Top 10, IDOR, SSRF).
 - Notice Period: 30 days. Current CTC: 5.54 LPA, Target: 14-18 LPA.
-- Location: Hyderabad / Mangalore / Bangalore. Open to Relocate & Remote.
+- Location: Hassan, Karnataka, India. Open to Relocate (Bangalore, Hyderabad, Dubai/UAE) & Remote.
 
 Job: ${title} at ${co}
 Context: ${desc}

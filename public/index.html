@@ -852,6 +852,23 @@
 
       </div>
 
+      <!-- 📟 LIVE IN-PANEL ACTION TELEMETRY STREAM -->
+      <div style="margin-top: 16px; background: #040711; border: 1px solid #1c2742; border-radius: 12px; padding: 12px 16px; font-family: 'JetBrains Mono', monospace; font-size: 12px; display: flex; flex-direction: column; gap: 6px;">
+        <div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid rgba(255, 255, 255, 0.06); padding-bottom: 6px;">
+          <div style="display: flex; align-items: center; gap: 8px; color: var(--cyan); font-weight: 700; font-size: 11px; text-transform: uppercase;">
+            <div class="pulse-dot" style="width: 8px; height: 8px;"></div>
+            <span>⚡ Panel Live Activity &amp; Status Stream</span>
+          </div>
+          <div style="display: flex; gap: 10px; align-items: center;">
+            <span style="font-size: 11px; color: var(--muted);" id="panelActivityTimestamp">Ready</span>
+            <button onclick="clearPanelLog()" style="background: none; border: none; color: var(--muted); font-size: 11px; cursor: pointer; text-decoration: underline;">Clear</button>
+          </div>
+        </div>
+        <div id="panelLiveLog" style="color: #94a3b8; line-height: 1.6; max-height: 100px; min-height: 48px; overflow-y: auto; word-break: break-all; scroll-behavior: smooth;">
+          <div style="color: #38bdf8;"><span style="color:#475569;">[ONLINE]</span> 🟢 Safe browser session active (.user_browser_profile). Ready to scrape &amp; apply.</div>
+        </div>
+      </div>
+
       <!-- 🎯 3 WORKFLOW ACTION MODES -->
       <div style="margin-top: 18px; padding-top: 16px; border-top: 1px solid rgba(255, 255, 255, 0.08);">
         <div style="font-size: 13px; font-weight: 800; text-transform: uppercase; letter-spacing: 0.5px; color: var(--cyan); margin-bottom: 10px;">
@@ -1334,6 +1351,36 @@
       line.innerHTML = `<span class="log-ts">[${log.time || new Date().toLocaleTimeString()}]</span> <span class="${cls}">${escapeHtml(log.text)}</span>`;
       term.appendChild(line);
       term.scrollTop = term.scrollHeight;
+
+      // Also append to in-panel mini log so user sees live progress directly in the card!
+      appendPanelLog(log.text);
+    }
+
+    function appendPanelLog(text) {
+      const panelLog = document.getElementById('panelLiveLog');
+      const ts = document.getElementById('panelActivityTimestamp');
+      if (!panelLog) return;
+
+      const now = new Date().toLocaleTimeString();
+      if (ts) ts.textContent = now;
+
+      let color = '#38bdf8';
+      if (/success|submitted|✅|passed/i.test(text)) color = '#34d399';
+      else if (/error|failed|❌/i.test(text)) color = '#f87171';
+      else if (/warning|⚠️|pause/i.test(text)) color = '#fbbf24';
+      else if (/auth|google|linkedin|profile/i.test(text)) color = '#c084fc';
+      else if (/dic|dubai/i.test(text)) color = '#34d399';
+
+      const line = document.createElement('div');
+      line.style.color = color;
+      line.innerHTML = `<span style="color:#475569;">[${now}]</span> ${escapeHtml(text)}`;
+      panelLog.appendChild(line);
+      panelLog.scrollTop = panelLog.scrollHeight;
+    }
+
+    function clearPanelLog() {
+      const p = document.getElementById('panelLiveLog');
+      if (p) p.innerHTML = '<div style="color:#64748b;">[CLEARED] Live log cleared. Ready.</div>';
     }
 
     async function launchCampaign() {

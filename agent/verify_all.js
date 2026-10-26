@@ -76,6 +76,12 @@ async function runVerification() {
     if (PROFILE.experienceYears && PROFILE.noticePeriod === '30 days') {
       pass('Candidate Experience & Notice', `Sharkify ~2 yrs backend, notice: ${PROFILE.noticePeriod}`);
     }
+
+    if (PROFILE.city === 'Hassan' && PROFILE.state === 'Karnataka') {
+      pass('Current Location Verification', `Location set to: ${PROFILE.city}, ${PROFILE.state}, India`);
+    } else {
+      fail('Current Location Verification', `Expected Hassan, got: ${PROFILE.city}`);
+    }
   } catch (e) {
     fail('Profile Integrity', e.message);
   }
