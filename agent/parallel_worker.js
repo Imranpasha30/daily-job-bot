@@ -10,6 +10,7 @@ const fs = require('fs');
 const { processJobPage } = require('./form_router');
 const { selectResume } = require('./profile');
 const { verifySubmission } = require('./submission_verifier');
+const { isJobApplied, filterUnappliedJobs } = require('./applied_tracker');
 
 class ParallelApplyPool {
   constructor(options = {}) {
@@ -59,7 +60,7 @@ class ParallelApplyPool {
     let addedCount = 0;
     newJobs.forEach(j => {
       const id = j.id || j.url;
-      if (!existingIds.has(id) && !(this.history.applied && this.history.applied[id] && this.history.applied[id].status === 'APPLIED')) {
+      if (!existingIds.has(id) && !isJobApplied(j, this.history)) {
         this.queue.push(j);
         existingIds.add(id);
         addedCount++;
@@ -77,14 +78,11 @@ class ParallelApplyPool {
     this.isPaused = false;
     this.stats.startTime = Date.now();
     
-    // Filter out already applied jobs
-    this.queue = this.jobs.filter(j => {
-      const id = j.id || j.url;
-      return !(this.history.applied[id] && this.history.applied[id].status === 'APPLIED');
-    });
+    // Strict Anti-Revolving: Filter out any jobs previously applied
+    this.queue = filterUnappliedJobs(this.jobs, this.history);
 
     this.onLog(`⚡ RTX Parallel Engine initialized with ${this.concurrency} concurrent worker threads`);
-    this.onLog(`📋 Processing queue: ${this.queue.length} eligible openings loaded`);
+    this.onLog(`📋 Processing queue: ${this.queue.length} eligible openings loaded (Duplicate already-applied jobs excluded)`);
 
     // Launch single hardware-accelerated Chromium instance
     this.browser = await chromium.launch({
@@ -146,6 +144,11 @@ class ParallelApplyPool {
 
       const job = this.queue.shift();
       if (!job) break;
+
+      if (isJobApplied(job, this.history)) {
+        this.onLog(`⏭️ [Worker #${workerId} Skip] Already applied to ${job.company} — "${job.title}". Skipping duplicate.`);
+        continue;
+      }
 
       const jobId = job.id || job.url;
       const resumeFile = selectResume(job);

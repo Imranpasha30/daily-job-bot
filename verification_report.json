@@ -1,6 +1,6 @@
 {
-  "timestamp": "2026-10-26T11:46:58.262Z",
-  "testsPassed": 14,
+  "timestamp": "2026-10-26T12:07:51.898Z",
+  "testsPassed": 17,
   "testsFailed": 0,
   "details": [
     {
@@ -26,12 +26,12 @@
     {
       "test": "Resume PDF Files Existence",
       "status": "PASSED",
-      "info": "All 4 targeted resumes exist on disk"
+      "info": "All 6 targeted resumes exist on disk (Python, Node, Cyber for Global and Dubai)"
     },
     {
       "test": "Resume Dynamic Routing",
       "status": "PASSED",
-      "info": "Correctly matches Python, Node.js, and Cyber roles"
+      "info": "Strict job-wise resume separation verified: Python, Node, Cyber NEVER cross-assigned"
     },
     {
       "test": "Live Scraper Execution",
@@ -66,12 +66,27 @@
     {
       "test": "DIC Community Directory Data",
       "status": "PASSED",
-      "info": "Verified 25 Dubai companies and 27 Dubai tech job applications in database"
+      "info": "Verified 30 Dubai companies and 65 Dubai tech job applications in database"
     },
     {
       "test": "Google Multi-Account Chooser Resolver",
       "status": "PASSED",
       "info": "resolveGoogleAccountChooser is exported and operational"
+    },
+    {
+      "test": "Anti-Revolving Deduplication",
+      "status": "PASSED",
+      "info": "Strict deduplication verified: matches on ID, normalized URL, and Company + Title to prevent revolving"
+    },
+    {
+      "test": "Dynamic Notice Period Setting",
+      "status": "PASSED",
+      "info": "Notice period updated to \"Immediate / 0 Days\" (0 days)"
+    },
+    {
+      "test": "Safe Authenticator Profile",
+      "status": "PASSED",
+      "info": "Local persistent profile verified at: E:\\resume\\Jobs\\.user_browser_profile"
     }
   ]
 }

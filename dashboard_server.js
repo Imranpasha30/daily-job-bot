@@ -10,6 +10,10 @@ const { ParallelApplyPool } = require('./agent/parallel_worker');
 const { launchAuthSession, closeAuthSession, isAuthSessionActive, checkAuthStatus } = require('./agent/auth_session');
 const { runJobScraper, getScrapedJobs, mergeScrapedJobsIntoIndexHtml } = require('./agent/scrapers/job_scraper');
 const { scrapeDicCommunity, getDicCompanies, getDicJobs } = require('./agent/scrapers/dic_scraper');
+const { loadHistory, saveHistory, isJobApplied, filterUnappliedJobs } = require('./agent/applied_tracker');
+const { getNoticePeriod, setNoticePeriod, PROFILE } = require('./agent/profile');
+
+const getHistory = loadHistory;
 
 const app = express();
 const PORT = process.env.PORT || 4000;
@@ -73,48 +77,28 @@ function addLog(text) {
   broadcast('LOG', log);
 }
 
-// Load Application History
-function getHistory() {
-  if (fs.existsSync(HISTORY_FILE)) {
-    try { return JSON.parse(fs.readFileSync(HISTORY_FILE, 'utf8')); } catch (e) {}
+// ---------------------------------------------------------
+// Candidate Settings & Dynamic Notice Period Endpoints
+// ---------------------------------------------------------
+app.get('/api/settings', (req, res) => {
+  res.json({
+    noticePeriod: getNoticePeriod(),
+    noticeDays: PROFILE.noticeDays || 30,
+    currentLocation: PROFILE.currentLocation || 'Hassan, Karnataka, India',
+    candidate: PROFILE.full
+  });
+});
+
+app.post('/api/settings/notice-period', (req, res) => {
+  const { noticePeriod } = req.body;
+  if (!noticePeriod) {
+    return res.status(400).json({ error: 'Missing noticePeriod parameter' });
   }
-  return { applied: {}, stats: { totalAttempted: 0, successful: 0, failed: 0 } };
-}
-
-function saveHistory(history) {
-  // 1. Save JSON
-  fs.writeFileSync(HISTORY_FILE, JSON.stringify(history, null, 2), 'utf8');
-
-  // 2. Save CSV Spreadsheet
-  const csvRows = [
-    ['#', 'Company', 'Role', 'ATS', 'Resume Used', 'Status', 'Date Applied', 'Job URL', 'Proof Screenshot']
-  ];
-  const apps = Object.values(history.applied);
-  apps.forEach((app, idx) => {
-    csvRows.push([
-      idx + 1,
-      `"${(app.company || '').replace(/"/g, '""')}"`,
-      `"${(app.title || '').replace(/"/g, '""')}"`,
-      `"${app.ats || ''}"`,
-      `"${app.resume || ''}"`,
-      `"${app.status || ''}"`,
-      `"${app.date || ''}"`,
-      `"${app.url || ''}"`,
-      `"${app.screenshot || ''}"`
-    ]);
-  });
-  fs.writeFileSync(path.join(BASE_DIR, 'applied_companies.csv'), csvRows.map(r => r.join(',')).join('\n'), 'utf8');
-
-  // 3. Save Markdown Log with Links
-  let md = `# Imran Pasha — Applied Companies Tracking Log\n\n`;
-  md += `**Total Applied:** ${apps.filter(a => a.status === 'APPLIED').length} | **Last Updated:** ${new Date().toLocaleString()}\n\n`;
-  md += `| # | Company | Role | ATS | Resume Submitted | Date Applied | Job Link | Screenshot Proof |\n`;
-  md += `|---|---------|------|-----|------------------|--------------|----------|------------------|\n`;
-  apps.forEach((app, idx) => {
-    md += `| ${idx + 1} | **${app.company}** | ${app.title} | ${app.ats || 'ATS'} | \`${app.resume}\` | ${new Date(app.date).toLocaleString()} | [Open Job](${app.url}) | ${app.screenshot ? `[View Proof](screenshots/${app.screenshot})` : '--'} |\n`;
-  });
-  fs.writeFileSync(path.join(BASE_DIR, 'applied_companies.md'), md, 'utf8');
-}
+  const result = setNoticePeriod(noticePeriod);
+  addLog(`⏱️ [Candidate Config] Notice period updated to: "${result.noticePeriod}" (${result.noticeDays} days)`);
+  broadcast('SETTINGS_UPDATE', result);
+  res.json(result);
+});
 
 // Load jobs from index.html and scraped_jobs.json
 function loadAllJobs() {
@@ -493,11 +477,8 @@ app.post('/api/mode/apply-scraped', async (req, res) => {
   const scrapedJobs = getScrapedJobs();
   const history = getHistory();
 
-  // Filter for unapplied scraped jobs
-  const unappliedScraped = scrapedJobs.filter(j => {
-    const id = j.id || j.url;
-    return !(history.applied[id] && history.applied[id].status === 'APPLIED');
-  });
+  // Strict Anti-Revolving: Filter for unapplied scraped jobs
+  const unappliedScraped = filterUnappliedJobs(scrapedJobs, history);
 
   if (unappliedScraped.length === 0) {
     addLog('ℹ️ [Mode 2] No unapplied scraped jobs found. Please run Scraper first.');
@@ -703,19 +684,20 @@ app.post('/api/dic/scrape', async (req, res) => {
     return res.status(400).json({ error: 'DIC Scraper is already running' });
   }
 
-  const { maxCompanies = 60 } = req.body;
+  const { maxCompanies = 100, fetchAll = false } = req.body;
   isDicScraperRunning = true;
-  addLog(`🇦🇪 [DIC Scraper Initiated] Connecting to Dubai Internet City directory (dic.ae)...`);
-  broadcast('DIC_SCRAPER_STATUS', { running: true });
+  addLog(`🇦🇪 [DIC Scraper Initiated] Connecting to Dubai Internet City directory (dic.ae) for ${fetchAll ? 'ALL 3,675 companies' : maxCompanies + ' companies'}...`);
+  broadcast('DIC_SCRAPER_STATUS', { running: true, fetchAll });
 
-  res.json({ status: 'started', maxCompanies });
+  res.json({ status: 'started', maxCompanies, fetchAll });
 
   scrapeDicCommunity({
-    maxCompanies: parseInt(maxCompanies, 10) || 60,
+    maxCompanies: parseInt(maxCompanies, 10) || 100,
+    fetchAll: Boolean(fetchAll),
     onLog: (msg) => addLog(msg)
   }).then((result) => {
     isDicScraperRunning = false;
-    addLog(`🎉 [DIC Scraper Done] Extracted ${result.companiesCount} Dubai tech companies & generated ${result.jobsCount} career applications!`);
+    addLog(`🎉 [DIC Scraper Done] Extracted ${result.companiesCount} Dubai tech companies & generated ${result.jobsCount} career applications across Python, Node.js, and Cyber!`);
     broadcast('DIC_SCRAPER_STATUS', { running: false, result });
     broadcast('DIC_SCRAPER_DONE', result);
   }).catch((err) => {
@@ -735,14 +717,11 @@ app.post('/api/dic/apply', async (req, res) => {
   const dubaiJobs = getDicJobs();
   const history = getHistory();
 
-  // Filter unapplied
-  const unappliedDubai = dubaiJobs.filter(j => {
-    const id = j.id || j.url;
-    return !(history.applied[id] && history.applied[id].status === 'APPLIED');
-  });
+  // Strict Anti-Revolving: Filter unapplied
+  const unappliedDubai = filterUnappliedJobs(dubaiJobs, history);
 
   if (unappliedDubai.length === 0) {
-    addLog('ℹ️ No unapplied Dubai jobs found. Run DIC Scraper first.');
+    addLog('ℹ️ No unapplied Dubai jobs found. Scrape new companies from DIC directory first.');
     return res.status(400).json({ error: 'No unapplied Dubai jobs found. Scrape DIC directory first.' });
   }
 
@@ -758,7 +737,7 @@ app.post('/api/dic/apply', async (req, res) => {
     appliedCount: 0
   }));
 
-  addLog(`🇦🇪 [Dubai Campaign Launched] Auto-applying to ${unappliedDubai.length} Dubai Internet City tech jobs using Dubai Resume (Imran-Pasha-Cyber-Security-Dubai.pdf)!`);
+  addLog(`🇦🇪 [Dubai Campaign Launched] Auto-applying to ${unappliedDubai.length} Dubai Internet City tech jobs with role-matched resumes (Python, Node.js, and Cyber Security)!`);
   res.json({ status: 'started', jobCount: unappliedDubai.length });
 
   activePool = new ParallelApplyPool({

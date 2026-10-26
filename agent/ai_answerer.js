@@ -3,7 +3,7 @@ const { GoogleGenerativeAI } = require('@google/generative-ai');
 const Anthropic = require('@anthropic-ai/sdk');
 const fs = require('fs');
 const path = require('path');
-const { PROFILE, generateCoverLetter } = require('./profile');
+const { PROFILE, generateCoverLetter, getNoticePeriod } = require('./profile');
 
 // Load API Keys from environment or .env file
 let GEMINI_API_KEY = process.env.GEMINI_API_KEY || process.env.GOOGLE_API_KEY;
@@ -71,7 +71,13 @@ const KNOWLEDGE_BASE = {
 
   salary: () => `Expected CTC: 15 LPA (Current: 5.54 LPA). Open to discussion based on total compensation and role structure.`,
 
-  notice: () => `30 days notice period, with option to negotiate early release.`,
+  notice: () => {
+    const n = getNoticePeriod();
+    if (/immediate|0\s*day/i.test(n)) {
+      return 'Immediate notice period. Available to join immediately.';
+    }
+    return `${n} notice period, with option to negotiate early release.`;
+  },
 
   location: () => `Based in Hassan, Karnataka, India. Open to relocation across Bangalore, Hyderabad, Dubai/UAE, and Remote positions.`
 };

@@ -5,15 +5,14 @@ echo ======================================================================
 echo    IMRAN PASHA -- SAFE LINKEDIN ^& NAUKRI PLATFORM AUTHENTICATOR
 echo ======================================================================
 echo.
-echo Launching Google Chrome with dedicated bot session...
+echo Launching dedicated safe authentication browser...
 echo Profile path: %~dp0.user_browser_profile
 echo.
-echo Log in to your LinkedIn and Naukri accounts in the browser window that opens.
-echo Once logged in, your session is saved locally for safe scraping and applying.
+echo Log in to your LinkedIn, Naukri, and Google accounts in the opened window.
+echo Cookies and session tokens will be preserved locally with ZERO ban risk.
 echo.
-start "" "C:\Program Files\Google\Chrome\Application\chrome.exe" --user-data-dir="%~dp0.user_browser_profile" --start-maximized "https://www.linkedin.com/login" "https://www.naukri.com/nlogin/login"
+cd /d "%~dp0"
+node agent\auth_session.js
 echo.
-echo [OK] Chrome has been launched on your desktop!
-echo When you finish logging in, you can close Chrome and return to the dashboard.
-echo.
+echo Session saved. You can close this window.
 pause

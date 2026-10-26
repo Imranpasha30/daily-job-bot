@@ -965,6 +965,18 @@
           </select>
         </div>
 
+        <div class="control-item">
+          <span>Notice Period:</span>
+          <select id="selectNoticePeriodMain" onchange="updateNoticePeriod(this.value)" style="color: #fbbf24; font-weight: 700; border-color: rgba(245, 158, 11, 0.4);">
+            <option value="Immediate / 0 Days">Immediate (0d)</option>
+            <option value="15 Days">15 Days</option>
+            <option value="30 Days" selected>30 Days</option>
+            <option value="45 Days">45 Days</option>
+            <option value="60 Days">60 Days</option>
+            <option value="90 Days">90 Days</option>
+          </select>
+        </div>
+
         <label style="font-size: 13px; font-weight: 600; color: var(--muted); display: flex; align-items: center; gap: 6px; cursor: pointer;">
           <input type="checkbox" id="checkHeadless" checked> Silent Background (GPU)
         </label>
@@ -1086,7 +1098,7 @@
           </div>
           <div style="display: flex; align-items: center; gap: 10px;">
             <div class="tech-pill" style="background: rgba(16, 185, 129, 0.15); border-color: rgba(16, 185, 129, 0.4); color: #34d399;">
-              📄 Target Resume: Imran-Pasha-Cyber-Security-Dubai.pdf
+              📄 Strict CV Match: Cyber, Python &amp; Node.js Dedicated CVs
             </div>
           </div>
         </div>
@@ -1108,16 +1120,32 @@
             <div class="kpi-number" style="color: #c084fc;">Immediate</div>
             <div class="kpi-detail">Dubai / UAE or Remote</div>
           </div>
-          <div class="kpi-box">
-            <div class="kpi-title">Current Notice Period</div>
-            <div class="kpi-number" style="color: #fbbf24;">30 Days</div>
-            <div class="kpi-detail">Available to join fast</div>
+          <div class="kpi-box" style="border: 1px solid rgba(251, 191, 36, 0.4); background: rgba(251, 191, 36, 0.05);">
+            <div class="kpi-title" style="display:flex; justify-content:space-between; align-items:center;">
+              <span style="color:#fbbf24;">⚡ Notice Period (Variable)</span>
+              <span id="noticeSavedBadge" style="font-size:10px; color:#34d399; font-weight:700; display:none;">Saved ✓</span>
+            </div>
+            <select id="selectNoticePeriodDubai" onchange="updateNoticePeriod(this.value)" style="margin-top:6px; width:100%; background:#0b1329; border:1px solid #fbbf24; color:#fbbf24; font-weight:900; font-size:17px; padding:4px 8px; border-radius:6px; cursor:pointer; outline:none;">
+              <option value="Immediate / 0 Days">Immediate (0 Days)</option>
+              <option value="15 Days">15 Days</option>
+              <option value="30 Days" selected>30 Days (Standard)</option>
+              <option value="45 Days">45 Days</option>
+              <option value="60 Days">60 Days</option>
+              <option value="90 Days">90 Days</option>
+            </select>
+            <div class="kpi-detail" style="margin-top:4px;">Auto-applied across all forms</div>
           </div>
         </div>
 
         <!-- Dubai Action Bar -->
         <div style="margin-top: 20px; padding-top: 16px; border-top: 1px solid rgba(255, 255, 255, 0.08); display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 14px;">
           <div style="display: flex; gap: 12px; align-items: center; flex-wrap: wrap;">
+            <select id="dicScrapeLimit" style="padding: 9px 12px; background: #0b1329; border: 1px solid #1c2742; color: var(--text); border-radius: 8px; font-size: 12px; font-weight: 700;">
+              <option value="60">60 Companies</option>
+              <option value="150" selected>150 Companies (Standard)</option>
+              <option value="500">500 Companies (Deep)</option>
+              <option value="all">ALL 3,675 Companies (Full Directory)</option>
+            </select>
             <button class="btn btn-launch" id="btnScrapeDic" onclick="scrapeDicCommunity()" style="background: linear-gradient(135deg, #06b6d4, #10b981);">
               🕷️ SCRAPE DIC DIRECTORY (dic.ae)
             </button>
@@ -1131,7 +1159,9 @@
             <select id="selectDicSegment" onchange="filterDicTable()" style="padding: 8px 12px;">
               <option value="all">All Segments</option>
               <option value="cyber">Cyber Security</option>
-              <option value="software">Software &amp; Tech</option>
+              <option value="python">Python Backend</option>
+              <option value="node">Node.js Backend</option>
+              <option value="software">All Software / Tech</option>
               <option value="cloud">Cloud &amp; DevOps</option>
             </select>
             <input type="text" id="searchDicCompany" oninput="filterDicTable()" placeholder="Search Dubai company..." style="padding: 8px 14px; width: 200px;">
@@ -1190,6 +1220,66 @@
     let isRunning = false;
     let isPaused = false;
     let eventSource = null;
+    let appliedHistoryCache = {};
+
+    // --- Dynamic Notice Period & Candidate Settings ---
+    async function loadSettingsData() {
+      try {
+        const res = await fetch('/api/settings');
+        const data = await res.json();
+        if (data.noticePeriod) {
+          const selDubai = document.getElementById('selectNoticePeriodDubai');
+          const selMain = document.getElementById('selectNoticePeriodMain');
+          if (selDubai) selDubai.value = data.noticePeriod;
+          if (selMain) selMain.value = data.noticePeriod;
+        }
+      } catch (e) {}
+    }
+
+    async function updateNoticePeriod(val) {
+      try {
+        const res = await fetch('/api/settings/notice-period', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ noticePeriod: val })
+        });
+        const data = await res.json();
+        const selDubai = document.getElementById('selectNoticePeriodDubai');
+        const selMain = document.getElementById('selectNoticePeriodMain');
+        if (selDubai) selDubai.value = data.noticePeriod;
+        if (selMain) selMain.value = data.noticePeriod;
+
+        const badge = document.getElementById('noticeSavedBadge');
+        if (badge) {
+          badge.style.display = 'inline';
+          setTimeout(() => badge.style.display = 'none', 2500);
+        }
+        appendPanelLog(`⏱️ Candidate Notice Period updated to: "${data.noticePeriod}" (${data.noticeDays} days)`);
+      } catch (e) {
+        alert('Failed to update notice period: ' + e.message);
+      }
+    }
+
+    // Strict Client-Side Deduplication Checker
+    function checkIsJobAppliedInClient(job) {
+      if (!job || !appliedHistoryCache) return false;
+      const id = job.id || job.url;
+      if (appliedHistoryCache[id] && appliedHistoryCache[id].status === 'APPLIED') return true;
+      if (job.url && appliedHistoryCache[job.url] && appliedHistoryCache[job.url].status === 'APPLIED') return true;
+
+      const normUrl = (job.url || '').toLowerCase().replace(/(\?.*|\#.*|\/+$)/g, '');
+      const cleanComp = (job.company || '').toLowerCase().replace(/\b(fz-llc|llc|inc|ltd|pvt|private|limited|technologies|solutions|services|group)\b/gi, '').replace(/[^a-z0-9]/g, '');
+      const cleanTitle = (job.title || '').toLowerCase().replace(/[^a-z0-9]/g, '');
+
+      for (const app of Object.values(appliedHistoryCache)) {
+        if (!app || app.status !== 'APPLIED') continue;
+        if (normUrl && (app.url || '').toLowerCase().replace(/(\?.*|\#.*|\/+$)/g, '') === normUrl) return true;
+        const appComp = (app.company || '').toLowerCase().replace(/\b(fz-llc|llc|inc|ltd|pvt|private|limited|technologies|solutions|services|group)\b/gi, '').replace(/[^a-z0-9]/g, '');
+        const appTitle = (app.title || '').toLowerCase().replace(/[^a-z0-9]/g, '');
+        if (cleanComp && appComp === cleanComp && cleanTitle && appTitle === cleanTitle) return true;
+      }
+      return false;
+    }
 
     // Initialize 5 worker tiles in DOM
     function initWorkerTiles(count = 5) {
@@ -1235,11 +1325,27 @@
 
     function handleLiveUpdate(data) {
       if (data.type === 'STATUS') {
+        if (data.payload && data.payload.history) {
+          appliedHistoryCache = data.payload.history;
+        }
         updateUI(data.payload);
+      } else if (data.type === 'SETTINGS_UPDATE') {
+        if (data.payload && data.payload.noticePeriod) {
+          const selDubai = document.getElementById('selectNoticePeriodDubai');
+          const selMain = document.getElementById('selectNoticePeriodMain');
+          if (selDubai) selDubai.value = data.payload.noticePeriod;
+          if (selMain) selMain.value = data.payload.noticePeriod;
+        }
       } else if (data.type === 'WORKER_UPDATE') {
         updateWorkerTile(data.payload);
       } else if (data.type === 'JOB_DONE') {
         addAppliedRow(data.payload);
+        if (data.payload) {
+          const k = data.payload.id || data.payload.url;
+          appliedHistoryCache[k] = data.payload;
+          refreshScrapedTable();
+          renderDicTable(dicJobsCache);
+        }
         playChime();
       } else if (data.type === 'STATS_UPDATE') {
         updateStats(data.payload);
@@ -1443,15 +1549,18 @@
     async function openAuthSession() {
       const btn = document.getElementById('btnOpenAuth');
       btn.disabled = true;
-      btn.textContent = '⏳ Opening Chrome...';
+      btn.textContent = '⏳ Launching Browser...';
+      appendPanelLog('🔐 Launching visible browser for LinkedIn & Naukri authentication...');
       try {
         const res = await fetch('/api/auth-session', { method: 'POST' });
         const data = await res.json();
         if (data.error) {
-          alert('Note: ' + data.error);
+          appendPanelLog('⚠️ Note: ' + data.error);
+        } else {
+          appendPanelLog('👉 Real browser launched! Log into LinkedIn & Naukri, then click Done / Close.');
         }
       } catch (e) {
-        alert('Failed to launch browser: ' + e.message);
+        appendPanelLog('❌ Launch failed: ' + e.message);
       } finally {
         btn.disabled = false;
         btn.textContent = '🔐 Authenticate Now';
@@ -1561,6 +1670,10 @@
         const tr = document.createElement('tr');
         const platformBadge = `<span class="badge-ats" style="text-transform:uppercase;">${escapeHtml(j.platform || j.ats || 'ATS')}</span>`;
         const timingBadge = `<span style="font-size:11px;color:var(--muted);margin-left:4px;">(${escapeHtml(j.postedTime || j.timing || 'Recent')})</span>`;
+        const isApplied = checkIsJobAppliedInClient(j);
+        const actionBtn = isApplied
+          ? `<span class="badge-status" style="background:rgba(16,185,129,0.2);color:#34d399;font-weight:700;font-size:11px;padding:4px 8px;border-radius:6px;display:inline-block;">✅ Applied</span>`
+          : `<button class="btn-view-proof" onclick="singleApply('${escapeHtml(j.url)}', '${escapeHtml(j.company)}')">Apply Now</button>`;
 
         tr.innerHTML = `
           <td>${idx + 1}</td>
@@ -1572,9 +1685,7 @@
           <td style="font-size:12px;color:var(--muted);">${escapeHtml(j.location || 'India / Remote')}</td>
           <td><span class="badge-status" style="font-size:10px;background:rgba(6,182,212,0.15);color:#38bdf8;">${escapeHtml(j.category || 'all')}</span></td>
           <td><a href="${escapeHtml(j.url)}" target="_blank" style="color:var(--cyan);text-decoration:none;font-size:11px;font-weight:700;">🔗 Open Link</a></td>
-          <td>
-            <button class="btn-view-proof" onclick="singleApply('${escapeHtml(j.url)}', '${escapeHtml(j.company)}')">Apply Now</button>
-          </td>
+          <td>${actionBtn}</td>
         `;
         tbody.appendChild(tr);
       });
@@ -1799,9 +1910,30 @@
 
       jobs.forEach((j, idx) => {
         const tr = document.createElement('tr');
-        const roleBadge = j.category === 'cyber'
-          ? `<span class="badge-status" style="background:rgba(16,185,129,0.15);color:#34d399;font-size:11px;">🛡️ CYBER SECURITY</span>`
-          : `<span class="badge-status" style="background:rgba(6,182,212,0.15);color:#38bdf8;font-size:11px;">⚡ BACKEND</span>`;
+        let roleBadge = '';
+        let resumeColor = '#34d399';
+        let resumeIcon = '🛡️';
+
+        if (j.category === 'cyber') {
+          roleBadge = `<span class="badge-status" style="background:rgba(16,185,129,0.15);color:#34d399;font-size:11px;">🛡️ CYBER SECURITY</span>`;
+          resumeColor = '#34d399';
+          resumeIcon = '🛡️';
+        } else if (j.category === 'backend-python' || (j.resume || '').includes('Python')) {
+          roleBadge = `<span class="badge-status" style="background:rgba(251,191,36,0.15);color:#fbbf24;font-size:11px;">🐍 PYTHON BACKEND</span>`;
+          resumeColor = '#fbbf24';
+          resumeIcon = '🐍';
+        } else if (j.category === 'backend-node' || (j.resume || '').includes('NodeJS')) {
+          roleBadge = `<span class="badge-status" style="background:rgba(6,182,212,0.15);color:#38bdf8;font-size:11px;">⚡ NODE.JS BACKEND</span>`;
+          resumeColor = '#38bdf8';
+          resumeIcon = '⚡';
+        } else {
+          roleBadge = `<span class="badge-ats">${escapeHtml(j.category ? j.category.toUpperCase() : 'TECH')}</span>`;
+        }
+
+        const isApplied = checkIsJobAppliedInClient(j);
+        const actionBtn = isApplied
+          ? `<span class="badge-status" style="background:rgba(16,185,129,0.2);color:#34d399;font-weight:700;font-size:11px;padding:5px 10px;border-radius:6px;display:inline-block;">✅ Applied</span>`
+          : `<button class="btn-view-proof" onclick="singleApply('${escapeHtml(j.url)}', '${escapeHtml(j.company)}')">Apply (Dubai CV)</button>`;
 
         tr.innerHTML = `
           <td>${idx + 1}</td>
@@ -1809,20 +1941,16 @@
             <strong style="color:var(--text);font-size:13px;">${escapeHtml(j.company)}</strong>
           </td>
           <td style="font-size:12px;color:var(--muted);">${escapeHtml(j.location || 'Dubai Internet City')}</td>
-          <td><span class="badge-ats">${escapeHtml(j.category ? j.category.toUpperCase() : 'TECH')}</span></td>
+          <td>${roleBadge}</td>
           <td style="font-size:12px;color:var(--muted);">${escapeHtml(j.email || j.phone || 'TECOM Directory')}</td>
           <td>
             ${j.website ? `<a href="${escapeHtml(j.website)}" target="_blank" style="color:var(--cyan);font-size:11px;text-decoration:none;font-weight:700;">🌐 ${escapeHtml(j.website.replace(/https?:\/\//, '').replace(/\/$/, ''))}</a>` : '--'}
           </td>
           <td>
             <div style="font-size:12px;font-weight:700;color:var(--text);">${escapeHtml(j.title)}</div>
-            <div style="font-size:11px;color:#34d399;">📄 ${escapeHtml(j.resume)}</div>
+            <div style="font-size:11px;color:${resumeColor};margin-top:2px;">${resumeIcon} ${escapeHtml(j.resume)}</div>
           </td>
-          <td>
-            <button class="btn-view-proof" onclick="singleApply('${escapeHtml(j.url)}', '${escapeHtml(j.company)}')">
-              Apply (Dubai CV)
-            </button>
-          </td>
+          <td>${actionBtn}</td>
         `;
         tbody.appendChild(tr);
       });
@@ -1836,7 +1964,9 @@
         const matchName = (j.company || '').toLowerCase().includes(q) || (j.title || '').toLowerCase().includes(q);
         if (!matchName) return false;
         if (seg === 'cyber') return j.category === 'cyber';
-        if (seg === 'software') return j.category === 'backend';
+        if (seg === 'python') return j.category === 'backend-python';
+        if (seg === 'node') return j.category === 'backend-node';
+        if (seg === 'software') return j.category === 'backend' || j.category === 'backend-python' || j.category === 'backend-node';
         return true;
       });
 
@@ -1845,15 +1975,20 @@
 
     async function scrapeDicCommunity() {
       const btn = document.getElementById('btnScrapeDic');
+      const limitSelect = document.getElementById('dicScrapeLimit');
+      const limitVal = limitSelect ? limitSelect.value : '150';
+      const fetchAll = limitVal === 'all';
+      const maxCompanies = fetchAll ? 4000 : (parseInt(limitVal, 10) || 150);
+
       btn.disabled = true;
       btn.innerHTML = '⏳ SCRAPING DIC (dic.ae)...';
-      appendLog({ time: new Date().toLocaleTimeString(), text: '🇦🇪 [DIC Scraper] Connecting to Dubai Internet City community directory (dic.ae)...' });
+      appendLog({ time: new Date().toLocaleTimeString(), text: `🇦🇪 [DIC Scraper] Connecting to Dubai Internet City directory (Target: ${fetchAll ? 'ALL 3,675 companies' : maxCompanies + ' companies'})...` });
 
       try {
         const res = await fetch('/api/dic/scrape', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ maxCompanies: 60 })
+          body: JSON.stringify({ maxCompanies, fetchAll })
         });
         const data = await res.json();
         if (data.error) alert(data.error);
@@ -1864,7 +1999,7 @@
           btn.disabled = false;
           btn.innerHTML = '🕷️ SCRAPE DIC DIRECTORY (dic.ae)';
           await loadDicData();
-        }, 6000);
+        }, 5000);
       }
     }
 
@@ -1881,11 +2016,11 @@
         });
         const data = await res.json();
         if (data.error) {
-          alert('Dubai Apply Error: ' + data.error);
+          alert('Dubai Apply Note: ' + data.error);
           btn.disabled = false;
           btn.innerHTML = '⚡ AUTO APPLY TO ALL DUBAI TECH JOBS';
         } else {
-          appendLog({ time: new Date().toLocaleTimeString(), text: `🇦🇪 [Dubai Campaign Launched] Auto-applying to ${data.jobCount} Dubai Internet City jobs using Dubai CV!` });
+          appendLog({ time: new Date().toLocaleTimeString(), text: `🇦🇪 [Dubai Campaign Launched] Auto-applying to ${data.jobCount} Dubai Internet City jobs with exact role resumes!` });
           switchTab('main'); // Switch to main tab so user sees 5 live worker tiles in action!
         }
       } catch (e) {
@@ -1903,6 +2038,7 @@
     initWorkerTiles(5);
     connectSSE();
     fetchAuthStatus();
+    loadSettingsData();
     loadScrapedJobsCount();
     loadDicData();
     refreshData();

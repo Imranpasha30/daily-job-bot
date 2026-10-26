@@ -92,25 +92,39 @@ async function runVerification() {
     const resumesDir = path.resolve(__dirname, '..', 'resumes');
     const pythonResume = path.join(resumesDir, 'Imran-Pasha-Backend-Python.pdf');
     const nodeResume = path.join(resumesDir, 'Imran-Pasha-Backend-NodeJS.pdf');
-    const dubaiResume = path.join(resumesDir, 'Imran-Pasha-Cyber-Security-Dubai.pdf');
+    const dubaiCyber = path.join(resumesDir, 'Imran-Pasha-Cyber-Security-Dubai.pdf');
+    const dubaiPython = path.join(resumesDir, 'Imran-Pasha-Backend-Python-Dubai.pdf');
+    const dubaiNode = path.join(resumesDir, 'Imran-Pasha-Backend-NodeJS-Dubai.pdf');
     const pentestResume = path.join(resumesDir, 'Imran-Pasha-Penetration-Tester.pdf');
 
-    const allExist = [pythonResume, nodeResume, dubaiResume, pentestResume].every(f => fs.existsSync(f));
+    const allExist = [pythonResume, nodeResume, dubaiCyber, dubaiPython, dubaiNode, pentestResume].every(f => fs.existsSync(f));
     if (allExist) {
-      pass('Resume PDF Files Existence', 'All 4 targeted resumes exist on disk');
+      pass('Resume PDF Files Existence', 'All 6 targeted resumes exist on disk (Python, Node, Cyber for Global and Dubai)');
     } else {
       fail('Resume PDF Files Existence', 'Missing one or more resume PDF files');
     }
 
-    // Verify routing logic
-    const routedPython = selectResume({ title: 'Senior Python Developer' });
-    const routedNode = selectResume({ title: 'Fullstack Node.js Backend Engineer' });
-    const routedCyber = selectResume({ title: 'SOC Analyst / Incident Responder', region: 'dubai' });
+    // Verify strict routing logic: Python -> Python, Node -> Node, Cyber -> Cyber
+    const routedPython = selectResume({ title: 'Senior Python Developer', category: 'backend' });
+    const routedNode = selectResume({ title: 'Fullstack Node.js Backend Engineer', category: 'backend' });
+    const routedCyber = selectResume({ title: 'SOC Analyst / Incident Responder', category: 'cyber' });
+    const routedDubaiCyber = selectResume({ title: 'Cyber Security Analyst', category: 'cyber', region: 'dubai' });
+    const routedDubaiPython = selectResume({ title: 'Backend Engineer (FastAPI)', category: 'backend-python', region: 'dubai' });
+    const routedDubaiNode = selectResume({ title: 'Backend Engineer (Express/TypeScript)', category: 'backend-node', region: 'dubai' });
 
-    if (routedPython.includes('Python') && routedNode.includes('NodeJS') && routedCyber.includes('Dubai')) {
-      pass('Resume Dynamic Routing', 'Correctly matches Python, Node.js, and Cyber roles');
+    const checks = [
+      routedPython.includes('Python') && !routedPython.includes('Node') && !routedPython.includes('Cyber'),
+      routedNode.includes('NodeJS') && !routedNode.includes('Python') && !routedNode.includes('Cyber'),
+      routedCyber.includes('Penetration-Tester') || routedCyber.includes('Cyber'),
+      routedDubaiCyber.includes('Cyber-Security-Dubai'),
+      routedDubaiPython.includes('Backend-Python-Dubai'),
+      routedDubaiNode.includes('Backend-NodeJS-Dubai')
+    ];
+
+    if (checks.every(Boolean)) {
+      pass('Resume Dynamic Routing', 'Strict job-wise resume separation verified: Python, Node, Cyber NEVER cross-assigned');
     } else {
-      fail('Resume Dynamic Routing', 'Resume router misrouted one of the roles');
+      fail('Resume Dynamic Routing', 'Resume router misrouted one or more roles');
     }
   } catch (e) {
     fail('Resume Check', e.message);
@@ -253,6 +267,70 @@ async function runVerification() {
     }
   } catch (e) {
     fail('Google Multi-Account Chooser Resolver', e.message);
+  }
+
+  // TEST 9: Anti-Revolving Applied History Deduplicator Check
+  console.log('\n--- Test 9: Anti-Revolving Deduplication & Applied Tracking Check ---');
+  try {
+    const { isJobApplied, filterUnappliedJobs } = require('./applied_tracker');
+    const mockJob = { id: 'mock_apply_test_1', company: 'Unique Test Tech FZ-LLC', title: 'Backend Dev', url: 'https://testtech.ae/careers/1' };
+    const mockHistory = {
+      applied: {
+        'mock_apply_test_1': {
+          company: 'Unique Test Tech',
+          title: 'Backend Dev',
+          url: 'https://testtech.ae/careers/1?utm_campaign=dubai',
+          status: 'APPLIED',
+          date: new Date().toISOString()
+        }
+      }
+    };
+
+    const isDirectApplied = isJobApplied(mockJob, mockHistory);
+    const isParamApplied = isJobApplied({ id: 'different_id', company: 'Other', title: 'Other', url: 'https://testtech.ae/careers/1?ref=linkedin' }, mockHistory);
+    const isCompanyRoleApplied = isJobApplied({ id: 'id_3', company: 'Unique Test Tech LLC', title: 'Backend Dev', url: 'https://other-domain.com/job' }, mockHistory);
+
+    if (isDirectApplied && isParamApplied && isCompanyRoleApplied) {
+      pass('Anti-Revolving Deduplication', 'Strict deduplication verified: matches on ID, normalized URL, and Company + Title to prevent revolving');
+    } else {
+      fail('Anti-Revolving Deduplication', `Deduplicator failed (direct: ${isDirectApplied}, param: ${isParamApplied}, coRole: ${isCompanyRoleApplied})`);
+    }
+  } catch (e) {
+    fail('Anti-Revolving Deduplication', e.message);
+  }
+
+  // TEST 10: Dynamic Notice Period Setting & Real-Time API Check
+  console.log('\n--- Test 10: Dynamic Notice Period API & Profile Verification ---');
+  try {
+    const { getNoticePeriod, setNoticePeriod } = require('./profile');
+    const originalNotice = getNoticePeriod();
+
+    // Test updating notice period
+    const updated = setNoticePeriod('Immediate / 0 Days');
+    if (updated.noticePeriod.includes('Immediate') && updated.noticeDays === 0) {
+      pass('Dynamic Notice Period Setting', `Notice period updated to "${updated.noticePeriod}" (${updated.noticeDays} days)`);
+    } else {
+      fail('Dynamic Notice Period Setting', `Failed to update notice period to Immediate`);
+    }
+
+    // Restore original
+    setNoticePeriod(originalNotice);
+  } catch (e) {
+    fail('Dynamic Notice Period Setting', e.message);
+  }
+
+  // TEST 11: Safe Platform Authenticator & Browser Profile Readiness
+  console.log('\n--- Test 11: Safe Platform Authenticator Readiness Check ---');
+  try {
+    const { checkAuthStatus } = require('./auth_session');
+    const authStatus = checkAuthStatus();
+    if (authStatus.profileExists && authStatus.profileDir) {
+      pass('Safe Authenticator Profile', `Local persistent profile verified at: ${authStatus.profileDir}`);
+    } else {
+      fail('Safe Authenticator Profile', 'Profile directory missing');
+    }
+  } catch (e) {
+    fail('Safe Authenticator Profile', e.message);
   }
 
   // Final Summary
