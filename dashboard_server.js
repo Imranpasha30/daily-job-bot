@@ -1,14 +1,12 @@
 /**
  * Imran Pasha — Autonomous AI Job Apply Agent
- * Real-Time Dashboard Server & Application Orchestrator
+ * High-Performance RTX 5060 Accelerated Parallel Server & Command Center
  */
 
 const express = require('express');
 const fs = require('fs');
 const path = require('path');
-const { chromium } = require('playwright');
-const { processJobPage } = require('./agent/form_router');
-const { selectResume } = require('./agent/profile');
+const { ParallelApplyPool } = require('./agent/parallel_worker');
 
 const app = express();
 const PORT = process.env.PORT || 4000;
@@ -32,25 +30,28 @@ app.use('/screenshots', express.static(SCREENSHOTS_DIR));
 app.use('/resumes', express.static(RESUMES_DIR));
 
 // Runner Global State
-let agentState = 'IDLE'; // IDLE, RUNNING, PAUSED, STOPPED
-let activeBrowser = null;
-let activePage = null;
-let stopRequested = false;
-let pauseRequested = false;
+let agentState = 'IDLE'; // IDLE, RUNNING, PAUSED, COMPLETED
+let activePool = null;
 
 let stats = {
   target: 1000,
-  attempted: 0,
   successful: 0,
   failed: 0,
   skipped: 0,
   claudeAnswers: 0,
-  startTime: null,
   speed: 0,
-  eta: '--'
+  eta: '--',
+  concurrency: 5
 };
 
-let currentJob = null;
+let workers = Array.from({ length: 5 }, (_, i) => ({
+  id: i + 1,
+  state: 'IDLE',
+  currentJob: null,
+  step: 'Standby',
+  appliedCount: 0
+}));
+
 let sseClients = [];
 const logBuffer = [];
 
@@ -65,7 +66,7 @@ function broadcast(type, payload) {
 function addLog(text) {
   const log = { time: new Date().toLocaleTimeString(), text };
   logBuffer.push(log);
-  if (logBuffer.length > 300) logBuffer.shift();
+  if (logBuffer.length > 350) logBuffer.shift();
   broadcast('LOG', log);
 }
 
@@ -78,7 +79,38 @@ function getHistory() {
 }
 
 function saveHistory(history) {
+  // 1. Save JSON
   fs.writeFileSync(HISTORY_FILE, JSON.stringify(history, null, 2), 'utf8');
+
+  // 2. Save CSV Spreadsheet
+  const csvRows = [
+    ['#', 'Company', 'Role', 'ATS', 'Resume Used', 'Status', 'Date Applied', 'Job URL', 'Proof Screenshot']
+  ];
+  const apps = Object.values(history.applied);
+  apps.forEach((app, idx) => {
+    csvRows.push([
+      idx + 1,
+      `"${(app.company || '').replace(/"/g, '""')}"`,
+      `"${(app.title || '').replace(/"/g, '""')}"`,
+      `"${app.ats || ''}"`,
+      `"${app.resume || ''}"`,
+      `"${app.status || ''}"`,
+      `"${app.date || ''}"`,
+      `"${app.url || ''}"`,
+      `"${app.screenshot || ''}"`
+    ]);
+  });
+  fs.writeFileSync(path.join(BASE_DIR, 'applied_companies.csv'), csvRows.map(r => r.join(',')).join('\n'), 'utf8');
+
+  // 3. Save Markdown Log with Links
+  let md = `# Imran Pasha — Applied Companies Tracking Log\n\n`;
+  md += `**Total Applied:** ${apps.filter(a => a.status === 'APPLIED').length} | **Last Updated:** ${new Date().toLocaleString()}\n\n`;
+  md += `| # | Company | Role | ATS | Resume Submitted | Date Applied | Job Link | Screenshot Proof |\n`;
+  md += `|---|---------|------|-----|------------------|--------------|----------|------------------|\n`;
+  apps.forEach((app, idx) => {
+    md += `| ${idx + 1} | **${app.company}** | ${app.title} | ${app.ats || 'ATS'} | \`${app.resume}\` | ${new Date(app.date).toLocaleString()} | [Open Job](${app.url}) | ${app.screenshot ? `[View Proof](screenshots/${app.screenshot})` : '--'} |\n`;
+  });
+  fs.writeFileSync(path.join(BASE_DIR, 'applied_companies.md'), md, 'utf8');
 }
 
 // Load jobs from index.html
@@ -102,9 +134,7 @@ function loadAllJobs() {
   return [...backend, ...cyber];
 }
 
-const sleep = (ms) => new Promise(res => setTimeout(res, ms));
-
-// SSE Endpoint
+// SSE Stream Endpoint
 app.get('/api/events', (req, res) => {
   res.setHeader('Content-Type', 'text/event-stream');
   res.setHeader('Cache-Control', 'no-cache');
@@ -113,11 +143,10 @@ app.get('/api/events', (req, res) => {
 
   sseClients.push(res);
 
-  // Send initial snapshot
   const history = getHistory();
   res.write(`data: ${JSON.stringify({
     type: 'STATUS',
-    payload: { state: agentState, stats, currentJob, history: history.applied }
+    payload: { state: agentState, stats, workers, history: history.applied }
   })}\n\n`);
 
   req.on('close', () => {
@@ -125,84 +154,41 @@ app.get('/api/events', (req, res) => {
   });
 });
 
-// REST API Endpoints
+// REST Status Endpoint
 app.get('/api/status', (req, res) => {
   const history = getHistory();
   res.json({
     state: agentState,
     stats,
-    currentJob,
+    workers,
     history: history.applied
   });
 });
 
+// Start Parallel Campaign
 app.post('/api/start', async (req, res) => {
   if (agentState === 'RUNNING') {
     return res.status(400).json({ error: 'Agent is already running' });
   }
 
-  const { limit = 1000, category = 'all', ats = 'all', mode = 'auto', headless = false } = req.body;
-
-  stopRequested = false;
-  pauseRequested = false;
-  agentState = 'RUNNING';
-  stats.target = limit;
-  stats.startTime = Date.now();
-
-  const history = getHistory();
-  stats.successful = Object.values(history.applied).filter(a => a.status === 'APPLIED').length;
-
-  res.json({ status: 'started', settings: { limit, category, ats, mode, headless } });
-
-  // Run the apply loop asynchronously
-  runApplyLoop({ limit, category, ats, mode, headless }).catch(err => {
-    addLog(`❌ Fatal Loop Error: ${err.message}`);
-    agentState = 'STOPPED';
-    broadcast('STATUS', { state: agentState, stats, currentJob: null });
-  });
-});
-
-app.post('/api/pause', (req, res) => {
-  if (agentState === 'RUNNING') {
-    agentState = 'PAUSED';
-    pauseRequested = true;
-    addLog('⏸ Agent loop PAUSED by user');
-  } else if (agentState === 'PAUSED') {
-    agentState = 'RUNNING';
-    pauseRequested = false;
-    addLog('▶ Agent loop RESUMED by user');
-  }
-  broadcast('STATUS', { state: agentState, stats, currentJob });
-  res.json({ state: agentState });
-});
-
-app.post('/api/stop', async (req, res) => {
-  stopRequested = true;
-  agentState = 'STOPPED';
-  addLog('⏹ Agent loop STOPPED by user');
-  if (activeBrowser) {
-    try { await activeBrowser.close(); } catch (e) {}
-    activeBrowser = null;
-  }
-  broadcast('STATUS', { state: agentState, stats, currentJob: null });
-  res.json({ state: agentState });
-});
-
-// Main Autonomous Worker Loop
-async function runApplyLoop(options) {
-  addLog(`🚀 Launching AI Apply Agent. Target: ${options.limit} jobs...`);
-  broadcast('STATUS', { state: agentState, stats, currentJob: null });
+  const {
+    limit = 1000,
+    category = 'all',
+    ats = 'all',
+    concurrency = 5,
+    headless = true
+  } = req.body;
 
   let allJobs = loadAllJobs();
-  if (options.category === 'backend') allJobs = allJobs.filter(j => j.category === 'backend');
-  if (options.category === 'cyber') allJobs = allJobs.filter(j => j.category === 'cyber');
+  if (category === 'backend') allJobs = allJobs.filter(j => j.category === 'backend');
+  if (category === 'cyber') allJobs = allJobs.filter(j => j.category === 'cyber');
 
-  if (options.ats !== 'all') {
+  if (ats !== 'all') {
     allJobs = allJobs.filter(j => {
       const u = (j.url || '').toLowerCase();
-      if (options.ats === 'greenhouse') return u.includes('greenhouse.io');
-      if (options.ats === 'ashby') return u.includes('ashbyhq.com');
-      if (options.ats === 'lever') return u.includes('lever.co');
+      if (ats === 'greenhouse') return u.includes('greenhouse.io');
+      if (ats === 'ashby') return u.includes('ashbyhq.com');
+      if (ats === 'lever') return u.includes('lever.co');
       return true;
     });
   }
@@ -215,169 +201,117 @@ async function runApplyLoop(options) {
     return (b.score || 0) - (a.score || 0);
   });
 
-  addLog(`📋 Loaded ${allJobs.length} eligible job openings for this campaign`);
-
-  // Launch Chromium
-  addLog(`🌐 Initializing Chromium (headless: ${options.headless})...`);
-  activeBrowser = await chromium.launch({
-    headless: options.headless,
-    args: ['--disable-blink-features=AutomationControlled', '--no-sandbox']
-  });
-
-  const context = await activeBrowser.newContext({
-    viewport: { width: 1280, height: 900 },
-    userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36'
-  });
-
-  activePage = await context.newPage();
-
   const history = getHistory();
-  let countThisSession = 0;
+  const currentSuccessful = Object.values(history.applied).filter(a => a.status === 'APPLIED').length;
 
-  for (let i = 0; i < allJobs.length; i++) {
-    if (stopRequested) break;
+  agentState = 'RUNNING';
+  stats.target = limit;
+  stats.successful = currentSuccessful;
+  stats.concurrency = concurrency;
 
-    // Check pause condition
-    while (pauseRequested && !stopRequested) {
-      await sleep(1000);
-    }
-    if (stopRequested) break;
+  // Re-initialize worker slots
+  workers = Array.from({ length: concurrency }, (_, i) => ({
+    id: i + 1,
+    state: 'IDLE',
+    currentJob: null,
+    step: 'Starting...',
+    appliedCount: 0
+  }));
 
-    if (stats.successful >= options.limit) {
-      addLog(`🎉 Target goal of ${options.limit} applications reached!`);
-      break;
-    }
+  res.json({ status: 'started', settings: { limit, category, ats, concurrency, headless } });
 
-    const job = allJobs[i];
-    const jobId = job.id || job.url;
-
-    if (history.applied[jobId] && history.applied[jobId].status === 'APPLIED') {
-      stats.skipped++;
-      continue;
-    }
-
-    const resumeFile = selectResume(job);
-    const resumeName = path.basename(resumeFile);
-
-    currentJob = {
-      title: job.title,
-      company: job.company,
-      region: job.region,
-      url: job.url,
-      ats: job.url.includes('greenhouse') ? 'Greenhouse' : (job.url.includes('ashby') ? 'Ashby' : (job.url.includes('lever') ? 'Lever' : 'Direct Portal')),
-      resume: resumeName,
-      step: 'Navigating to application...'
-    };
-
-    broadcast('JOB_START', currentJob);
-    broadcast('STATUS', { state: agentState, stats, currentJob });
-    addLog(`\n[${i + 1}/${allJobs.length}] Starting application for ${job.company} — "${job.title}"`);
-
-    try {
-      // Step 1: Navigate
-      currentJob.step = `Navigating to ${new URL(job.url).hostname}...`;
-      broadcast('JOB_START', currentJob);
-      await activePage.goto(job.url, { waitUntil: 'domcontentloaded', timeout: 35000 });
-      await sleep(1200);
-
-      // Step 2: Form detection & auto-fill
-      currentJob.step = 'Detecting fields & attaching PDF resume...';
-      broadcast('JOB_START', currentJob);
-      const formReport = await processJobPage(activePage, job);
-
-      currentJob.ats = formReport.ats;
-      addLog(`📄 Attached: ${resumeName} | Fields filled: ${formReport.fieldsFilled} | ATS: ${formReport.ats}`);
-
-      if (formReport.questionsAnswered > 0) {
-        stats.claudeAnswers += formReport.questionsAnswered;
-        addLog(`🧠 Claude 5.5 answered ${formReport.questionsAnswered} custom questions with Imran's metrics`);
+  activePool = new ParallelApplyPool({
+    concurrency: parseInt(concurrency, 10) || 5,
+    headless: headless !== undefined ? headless : true,
+    limit: limit,
+    jobs: allJobs,
+    history: history,
+    screenshotsDir: SCREENSHOTS_DIR,
+    onWorkerUpdate: (worker) => {
+      const idx = worker.id - 1;
+      if (workers[idx]) {
+        workers[idx] = { ...worker };
       }
-
-      // Step 3: Submission
-      currentJob.step = 'Submitting application...';
-      broadcast('JOB_START', currentJob);
-
-      if (formReport.submitElement) {
-        await formReport.submitElement.click().catch(() => {});
-        await sleep(3000);
-      } else {
-        const btn = await activePage.$('button[type="submit"], input[type="submit"], button:has-text("Submit")');
-        if (btn) await btn.click().catch(() => {});
-        await sleep(3000);
-      }
-
-      // Step 4: Verification screenshot
-      const safeCo = job.company.replace(/[^a-zA-Z0-9]/g, '_');
-      const ssFilename = `submitted_${stats.successful + 1}_${safeCo}.png`;
-      const ssPath = path.join(SCREENSHOTS_DIR, ssFilename);
-      await activePage.screenshot({ path: ssPath, fullPage: false }).catch(() => {});
-
-      stats.successful++;
-      countThisSession++;
-      addLog(`✅ SUBMITTED: ${job.company} (${job.title}) — Screenshot: ${ssFilename}`);
-
-      const appRecord = {
-        title: job.title,
-        company: job.company,
-        url: job.url,
-        ats: formReport.ats,
-        resume: resumeName,
-        screenshot: ssFilename,
-        status: 'APPLIED',
-        date: new Date().toISOString()
-      };
-
-      history.applied[jobId] = appRecord;
+      broadcast('WORKER_UPDATE', worker);
+    },
+    onJobComplete: (record) => {
       saveHistory(history);
-
-      // Calculate speed & ETA
-      const elapsedMins = (Date.now() - stats.startTime) / 60000;
-      if (elapsedMins > 0.1) {
-        const speed = (countThisSession / elapsedMins).toFixed(1);
-        stats.speed = speed;
-        const remaining = options.limit - stats.successful;
-        const minsLeft = Math.ceil(remaining / Math.max(0.1, speed));
-        stats.eta = `${Math.floor(minsLeft / 60)}h ${minsLeft % 60}m`;
-      }
-
-      broadcast('JOB_DONE', appRecord);
-      broadcast('STATUS', { state: agentState, stats, currentJob });
-
-      // Anti-Bot pacing jitter (3.5 - 6s)
-      const jitter = 3500 + Math.floor(Math.random() * 2500);
-      currentJob.step = `Pacing delay (${(jitter/1000).toFixed(1)}s)...`;
-      broadcast('JOB_START', currentJob);
-      await sleep(jitter);
-
-    } catch (err) {
-      stats.failed++;
-      addLog(`⚠️ Could not complete ${job.company}: ${err.message}`);
-      history.applied[jobId] = {
-        title: job.title,
-        company: job.company,
-        url: job.url,
-        status: 'FAILED',
-        error: err.message,
-        date: new Date().toISOString()
-      };
-      saveHistory(history);
-      broadcast('STATUS', { state: agentState, stats, currentJob });
+      broadcast('JOB_DONE', record);
+      broadcast('STATUS', { state: agentState, stats, workers });
+    },
+    onLog: (text) => {
+      addLog(text);
+    },
+    onStatsUpdate: (updatedStats) => {
+      Object.assign(stats, updatedStats);
+      broadcast('STATS_UPDATE', stats);
     }
-  }
+  });
 
-  if (activeBrowser) {
-    await activeBrowser.close();
-    activeBrowser = null;
-  }
+  // Run asynchronously
+  activePool.start().then(() => {
+    agentState = 'COMPLETED';
+    addLog('🎉 Campaign completed! Target reached.');
+    broadcast('STATUS', { state: agentState, stats, workers });
+  }).catch((err) => {
+    agentState = 'ERROR';
+    addLog(`❌ Pool error: ${err.message}`);
+    broadcast('STATUS', { state: agentState, stats, workers });
+  });
+});
 
-  agentState = 'COMPLETED';
-  addLog('🏁 Campaign run finished!');
-  broadcast('STATUS', { state: agentState, stats, currentJob: null });
-}
+app.post('/api/pause', (req, res) => {
+  if (activePool) {
+    const isPaused = activePool.pause();
+    agentState = isPaused ? 'PAUSED' : 'RUNNING';
+    addLog(isPaused ? '⏸ Campaign PAUSED across all workers' : '▶ Campaign RESUMED');
+    broadcast('STATUS', { state: agentState, stats, workers });
+    res.json({ state: agentState });
+  } else {
+    res.status(400).json({ error: 'No active pool to pause' });
+  }
+});
+
+app.post('/api/stop', async (req, res) => {
+  if (activePool) {
+    await activePool.stop();
+    activePool = null;
+  }
+  agentState = 'STOPPED';
+  workers.forEach(w => { w.state = 'IDLE'; w.step = 'Stopped'; });
+  addLog('⏹ Campaign STOPPED by user');
+  broadcast('STATUS', { state: agentState, stats, workers });
+  res.json({ state: agentState });
+});
+
+// CSV Export Endpoint
+app.get('/api/export-csv', (req, res) => {
+  const history = getHistory();
+  const rows = [
+    ['Company', 'Title', 'ATS', 'Resume Used', 'Status', 'Date Applied', 'URL']
+  ];
+
+  Object.values(history.applied).forEach(app => {
+    rows.push([
+      `"${(app.company || '').replace(/"/g, '""')}"`,
+      `"${(app.title || '').replace(/"/g, '""')}"`,
+      `"${app.ats || ''}"`,
+      `"${app.resume || ''}"`,
+      `"${app.status || ''}"`,
+      `"${app.date || ''}"`,
+      `"${app.url || ''}"`
+    ]);
+  });
+
+  const csv = rows.map(r => r.join(',')).join('\n');
+  res.setHeader('Content-Type', 'text/csv');
+  res.setHeader('Content-Disposition', 'attachment; filename="imran_pasha_applications.csv"');
+  res.send(csv);
+});
 
 // Start Server
 app.listen(PORT, () => {
   console.log(`\n======================================================================`);
-  console.log(`🚀 AI Job Apply Dashboard is live at: http://localhost:${PORT}`);
+  console.log(`🚀 RTX 5060 Accelerated Parallel Apply Dashboard: http://localhost:${PORT}`);
   console.log(`======================================================================\n`);
 });
