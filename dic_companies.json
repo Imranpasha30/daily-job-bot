@@ -1,0 +1,354 @@
+[
+  {
+    "id": "0012R00002DK1URQA1",
+    "name": "1001 App Software Solutions FZ-LLC",
+    "website": "https://1001dubai.com/",
+    "phone": "",
+    "email": "",
+    "segments": [
+      "E-Commerce",
+      "Software"
+    ],
+    "location": "Dubai Internet City",
+    "profile": "1001 App is a mobile software company that is the parent company of the high growth Repeat App, that is changing the Food & Beverage industry loyalty landscape. In addition to Repeat, 1001 App also has a mobile supermarket division which caters to supermarkets who want to build their own mobile applications to give more streamlined services to their end users. The company is 3 years old and has grown to a team of 20 people.",
+    "logoUrl": "https://tecomgroup.my.salesforce.com/servlet/servlet.ImageServer?id=0152R00000CTwrjQAD&oid=00D1U0000019jfo",
+    "businessPark": "DIC"
+  },
+  {
+    "id": "0012R00002HjkjXQAR",
+    "name": "3Poch Software Services FZ-LLC",
+    "website": "",
+    "phone": "",
+    "email": "",
+    "segments": [
+      "Software"
+    ],
+    "location": "Dubai Internet City",
+    "profile": "",
+    "logoUrl": "",
+    "businessPark": "DIC"
+  },
+  {
+    "id": "001RP00000aQpS6YAK",
+    "name": "AI Software for Surveillance FZ-LLC",
+    "website": "",
+    "phone": "",
+    "email": "",
+    "segments": [
+      "Software"
+    ],
+    "location": "Bldg 03, 109, Dubai Internet City",
+    "profile": "",
+    "logoUrl": "",
+    "businessPark": "DIC"
+  },
+  {
+    "id": "001RP00000JVsyrYAD",
+    "name": "AIRE Software FZ-LLC",
+    "website": "https://www.airealestate.org/home",
+    "phone": "",
+    "email": "",
+    "segments": [
+      "Software"
+    ],
+    "location": "Dubai Internet City",
+    "profile": "",
+    "logoUrl": "",
+    "businessPark": "DIC"
+  },
+  {
+    "id": "001RP00000JfrGpYAJ",
+    "name": "Alfabet Software FZ-LLC",
+    "website": "",
+    "phone": "",
+    "email": "",
+    "segments": [
+      "Software"
+    ],
+    "location": "Dubai Internet City",
+    "profile": "",
+    "logoUrl": "",
+    "businessPark": "DIC"
+  },
+  {
+    "id": "001RP00000Ngk9sYAB",
+    "name": "Appverse Software FZ-LLC",
+    "website": "https://www.appverse.com",
+    "phone": "",
+    "email": "",
+    "segments": [
+      "Software"
+    ],
+    "location": "Dubai Internet City",
+    "profile": "",
+    "logoUrl": "",
+    "businessPark": "DIC"
+  },
+  {
+    "id": "0012R00002IQH7OQAX",
+    "name": "Armis Security Software Middle East FZ-LLC",
+    "website": "",
+    "phone": "",
+    "email": "",
+    "segments": [
+      "Software"
+    ],
+    "location": "Dubai Internet City",
+    "profile": "",
+    "logoUrl": "",
+    "businessPark": "DIC"
+  },
+  {
+    "id": "0012R00002DJwZiQAL",
+    "name": "Aurea Software FZ-LLC",
+    "website": "https://www.aurea.com",
+    "phone": "+971 4 4489298",
+    "email": "vinish.p@versata.com",
+    "segments": [
+      "Software"
+    ],
+    "location": "Dubai Internet City",
+    "profile": "Aurea helps global businesses accelerate digital transformation with a software library that creates unparalleled value and unlimited possibility.",
+    "logoUrl": "https://tecomgroup.my.salesforce.com/servlet/servlet.ImageServer?id=0152R00000CTwSWQA1&oid=00D1U0000019jfo",
+    "businessPark": "DIC"
+  },
+  {
+    "id": "0012R00002DK2IOQA1",
+    "name": "AVEVA Software Middle East FZ-LLC",
+    "website": "",
+    "phone": "",
+    "email": "",
+    "segments": [
+      "IT Service",
+      "Software"
+    ],
+    "location": "Dubai Internet City",
+    "profile": "",
+    "logoUrl": "",
+    "businessPark": "DIC"
+  },
+  {
+    "id": "0012R00002LA7rAQAT",
+    "name": "AVision Software FZ-LLC",
+    "website": "https://www.avisionsoftware.com",
+    "phone": "",
+    "email": "",
+    "segments": [
+      "Software"
+    ],
+    "location": "Dubai Internet City",
+    "profile": "",
+    "logoUrl": "",
+    "businessPark": "DIC"
+  },
+  {
+    "id": "0012R00002DK4txQAD",
+    "name": "Azentio Software (Middle East) FZ-LLC",
+    "website": "",
+    "phone": "",
+    "email": "",
+    "segments": [
+      "Software"
+    ],
+    "location": "Dubai Internet City",
+    "profile": "",
+    "logoUrl": "",
+    "businessPark": "DIC"
+  },
+  {
+    "id": "0012R00002DK4f7QAD",
+    "name": "Azentio Software Orion (Middle East) FZ-LLC",
+    "website": "",
+    "phone": "",
+    "email": "",
+    "segments": [
+      "Software"
+    ],
+    "location": "Dubai Internet City",
+    "profile": "",
+    "logoUrl": "",
+    "businessPark": "DIC"
+  },
+  {
+    "id": "0012R00002DK3vuQAD",
+    "name": "Blue Yonder Software Middle East FZ-LLC",
+    "website": "",
+    "phone": "",
+    "email": "",
+    "segments": [
+      "Software"
+    ],
+    "location": "Dubai Internet City",
+    "profile": "",
+    "logoUrl": "",
+    "businessPark": "DIC"
+  },
+  {
+    "id": "001RP00000C8AjMYAV",
+    "name": "Bobo Business  Software FZ-LLC",
+    "website": "",
+    "phone": "",
+    "email": "",
+    "segments": [
+      "Software"
+    ],
+    "location": "In5 Tech, HD36C, IN5 FZ LLC",
+    "profile": "",
+    "logoUrl": "",
+    "businessPark": "DIC"
+  },
+  {
+    "id": "0012R00002DK011QAD",
+    "name": "Bravo Software FZ-LLC",
+    "website": "https://www.bravobravoapp.com",
+    "phone": "",
+    "email": "",
+    "segments": [
+      "Software"
+    ],
+    "location": "Dubai Internet City",
+    "profile": "350 million people in 22 countries speak Arabic, it is the language of all online and print media in these countries, it is the language of business, all official correspondence, poetry, the arts and more.   \n \nSpoken Arabic however is quite different from what is learned at school. While spoken Arabic has its roots in classical (Fusha) Arabic, it is different enough to pose a considerable challenge to learners of classical Arabic, simply put, we are teaching our students a language that they do not actually use in everyday life!   \n \nBravoBravo is a mobile and web app designed to reach the new generation of students (increasingly immersed in technology) and to allow them to learn the all-so-important classical Arabic. \n \nBravoBravo is a learning tool like no other; it is a gamified, adaptive, interactive, fun and visually rich learning and assessment application that will take the user experience to a whole new level. This is a game changer.   \n \nThe deep level of engagement and the breadth of the content expose the students to a great amount new vocabulary. Data captured is presented as detailed analytics ranging from the individual learner to the district/country level.     \n \nBravoBravo streamlines school assessment and is a live evaluation tool. The system is home to a huge database of questions that are all skill based and is suitable for all Arabic curricula, questions are presented to students as a game that is available on all smart devices, each question has easy, medium and hard levels of difficulty. BravoBravo offers a web dashboard for school administrators, teachers and parents. \n The covered subjects are Arabic and Mathematics for grades 1 to 4. Data is collected from the students’ performance while playing the game (answering questions) and is presented using portals and dashboards to different stakeholders. The game is adaptive automatically generating harder and easier questions based on the students’ performance.  \nBravoBravo is ideal for monitoring student progress and identifying areas of strengths and weaknesses. With a focus on Arabic, BravoBravo sets itself apart in the landscape of learning applications and gives all educational institutions the freedom to adapt their curricula and teach Arabic in a more appealing manner. It frees up hundreds of assignment and homework preparation hours so teachers can focus more on the learning process inside the classroom, teachers do not have to change their lesson plans to use BravoBravo.",
+    "logoUrl": "https://tecomgroup.my.salesforce.com/servlet/servlet.ImageServer?id=0152R00000CTwaeQAD&oid=00D1U0000019jfo",
+    "businessPark": "DIC"
+  },
+  {
+    "id": "0012R00002DJzb4QAD",
+    "name": "Bynder Software FZ-LLC",
+    "website": "",
+    "phone": "",
+    "email": "",
+    "segments": [
+      "Software"
+    ],
+    "location": "Bldg 07-Co Work, B7-SD-89, Dubai Outsource City",
+    "profile": "",
+    "logoUrl": "",
+    "businessPark": "DIC"
+  },
+  {
+    "id": "0012R00002DK2BGQA1",
+    "name": "Ceva Software FZ-LLC",
+    "website": "",
+    "phone": "",
+    "email": "",
+    "segments": [
+      "Software"
+    ],
+    "location": "Bldg 06, 114, Dubai Outsource City",
+    "profile": "",
+    "logoUrl": "",
+    "businessPark": "DIC"
+  },
+  {
+    "id": "0012R00002DJqRtQAL",
+    "name": "Check Point Software Technologies Middle East",
+    "website": "https://www.checkpoint.com",
+    "phone": "97143672210",
+    "email": "infogcc@checkpoint.com",
+    "segments": [
+      "Software"
+    ],
+    "location": "Bldg 15, 202 , 204 , 203, Dubai Internet City",
+    "profile": "Check Point Software Technologies is a leading provider of cyber security solutions to governments and corporate enterprises globally. Its solutions protect customers from cyber-attacks with an industry leading catch rate of malware, ransomware and other types of attacks. Check Point offers a multilevel security architecture that defends enterprises’ cloud, network and mobile device held information, plus the most comprehensive and intuitive one point of control security management system. Check Point protects over 100,000 organizations of all sizes.",
+    "logoUrl": "https://tecomgroup.my.salesforce.com/servlet/servlet.ImageServer?id=0152R00000CTvrjQAD&oid=00D1U0000019jfo",
+    "businessPark": "DIC"
+  },
+  {
+    "id": "0012R00002JvAZpQAN",
+    "name": "Conceal Software FZ-LLC",
+    "website": "",
+    "phone": "",
+    "email": "",
+    "segments": [
+      "Software"
+    ],
+    "location": "Dubai Internet City",
+    "profile": "",
+    "logoUrl": "",
+    "businessPark": "DIC"
+  },
+  {
+    "id": "001RP00000J5IxUYAV",
+    "name": "Cumulocity Software Solutions FZ-LLC",
+    "website": "",
+    "phone": "",
+    "email": "",
+    "segments": [
+      "Software"
+    ],
+    "location": "Dubai Internet City",
+    "profile": "",
+    "logoUrl": "",
+    "businessPark": "DIC"
+  },
+  {
+    "id": "0012R00002DJuaXQAT",
+    "name": "D Software FZ-LLC",
+    "website": "",
+    "phone": "+971 4 3912230",
+    "email": "",
+    "segments": [
+      "Software"
+    ],
+    "location": "Dubai Internet City",
+    "profile": "",
+    "logoUrl": "",
+    "businessPark": "DIC"
+  },
+  {
+    "id": "0012R00002DK4RjQAL",
+    "name": "Dedalus Healthcare Software Middle East FZ-LLC",
+    "website": "https://www.dedalus.com/mea/en/",
+    "phone": "",
+    "email": "",
+    "segments": [
+      "Software"
+    ],
+    "location": "Dubai Internet City",
+    "profile": "",
+    "logoUrl": "",
+    "businessPark": "DIC"
+  },
+  {
+    "id": "0012R00002I0aZ1QAJ",
+    "name": "Defender Software FZ-LLC",
+    "website": "",
+    "phone": "",
+    "email": "",
+    "segments": [
+      "Software"
+    ],
+    "location": "Dubai Internet City",
+    "profile": "",
+    "logoUrl": "",
+    "businessPark": "DIC"
+  },
+  {
+    "id": "0012R00002DK123QAD",
+    "name": "Dtech Software Technology FZ-LLC",
+    "website": "https://www.dtechsoft.com",
+    "phone": "",
+    "email": "info@dtechsoft.com",
+    "segments": [
+      "Software"
+    ],
+    "location": "Bldg 13, 112, Dubai Internet City",
+    "profile": "DTECH is proud to be recognized as the Leading Customer Experience (CX) Integrator across the Middle East, Africa, and Eastern Europe. We empower organizations across all industries — from banking and telecommunications to healthcare, retail, government, and beyond — to transform customer engagement and communication journeys.\r\nWith the launch of our next-generation Customer Experience and Communication Platform, DTECH now enables businesses of any size and sector to streamline onboarding, automate interactions, and deliver personalized, omnichannel customer experiences at scale.",
+    "logoUrl": "https://tecomgroup.my.salesforce.com/servlet/servlet.ImageServer?id=0152R00000CTwmpQAD&oid=00D1U0000019jfo",
+    "businessPark": "DIC"
+  },
+  {
+    "id": "0012R00002KAkTtQAL",
+    "name": "Dynamics EJewelry Software FZ-LLC",
+    "website": "",
+    "phone": "",
+    "email": "",
+    "segments": [
+      "Software"
+    ],
+    "location": "Dubai Internet City",
+    "profile": "",
+    "logoUrl": "",
+    "businessPark": "DIC"
+  }
+]

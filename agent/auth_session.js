@@ -1,10 +1,10 @@
 /**
  * Imran Pasha — Safe Platform Authenticator
- * Launches real Chromium with persistent user profile to log into LinkedIn & Naukri
- * Saves session cookies and storage locally so scrapers & agents run logged-in with ZERO ban risk
+ * Launches native Google Chrome directly on user's desktop to log into LinkedIn & Naukri
+ * Saves session cookies and storage locally in .user_browser_profile so scrapers run logged-in with ZERO ban risk
  */
 
-const { chromium } = require('playwright');
+const { exec } = require('child_process');
 const path = require('path');
 const fs = require('fs');
 
@@ -14,86 +14,63 @@ if (!fs.existsSync(PROFILE_DIR)) {
   fs.mkdirSync(PROFILE_DIR, { recursive: true });
 }
 
-let activeAuthContext = null;
+let isBrowserOpen = false;
 
-async function launchAuthSession() {
-  if (activeAuthContext) {
-    try {
-      const pages = activeAuthContext.pages();
-      if (pages.length > 0) {
-        await pages[0].bringToFront();
-        return { context: activeAuthContext, message: 'Browser already open' };
+function launchAuthSession() {
+  return new Promise((resolve, reject) => {
+    console.log('\n' + '='.repeat(70));
+    console.log('   🔐  LINKEDIN & NAUKRI SAFE AUTHENTICATION SESSION  🔐');
+    console.log('='.repeat(70));
+    console.log(' Opening native Google Chrome on your desktop...');
+    console.log(` Storage profile: ${PROFILE_DIR}`);
+    console.log('='.repeat(70) + '\n');
+
+    const chromePath = 'C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe';
+    const edgePath = 'C:\\Program Files (x86)\\Microsoft\\Edge\\Application\\msedge.exe';
+
+    let browserExe = chromePath;
+    if (!fs.existsSync(chromePath) && fs.existsSync(edgePath)) {
+      browserExe = edgePath;
+    }
+
+    const urls = '"https://www.linkedin.com/login" "https://www.naukri.com/nlogin/login"';
+    const cmd = `start "" "${browserExe}" --user-data-dir="${PROFILE_DIR}" --start-maximized ${urls}`;
+
+    exec(cmd, (error) => {
+      if (error) {
+        console.error('Failed to launch browser via shell:', error);
+        return reject(error);
       }
-    } catch (e) {
-      activeAuthContext = null;
-    }
-  }
-
-  console.log('\n' + '='.repeat(70));
-  console.log('   🔐  LINKEDIN & NAUKRI SAFE AUTHENTICATION SESSION  🔐');
-  console.log('='.repeat(70));
-  console.log(' Opening real visible browser window...');
-  console.log(' Log into LinkedIn and Naukri. Your session will be saved locally.');
-  console.log(` Storage: ${PROFILE_DIR}`);
-  console.log(' Once you have logged in, keep it open or click "Done" in the UI.');
-  console.log('='.repeat(70) + '\n');
-
-  try {
-    activeAuthContext = await chromium.launchPersistentContext(PROFILE_DIR, {
-      headless: false,
-      viewport: { width: 1280, height: 900 },
-      userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
-      args: [
-        '--disable-blink-features=AutomationControlled',
-        '--start-maximized',
-        '--no-sandbox'
-      ]
+      isBrowserOpen = true;
+      console.log('👉 Native browser launched successfully on user desktop!');
+      resolve({ status: 'opened', browser: browserExe, profileDir: PROFILE_DIR });
     });
-
-    activeAuthContext.on('close', () => {
-      activeAuthContext = null;
-    });
-
-    const page1 = activeAuthContext.pages()[0] || await activeAuthContext.newPage();
-    console.log('Opening LinkedIn login...');
-    await page1.goto('https://www.linkedin.com/login', { waitUntil: 'domcontentloaded' }).catch(() => {});
-
-    const page2 = await activeAuthContext.newPage();
-    console.log('Opening Naukri login...');
-    await page2.goto('https://www.naukri.com/nlogin/login', { waitUntil: 'domcontentloaded' }).catch(() => {});
-
-    return { context: activeAuthContext, page1, page2, status: 'opened' };
-  } catch (err) {
-    if (err.message && err.message.includes('Process singleton')) {
-      throw new Error('A browser instance is already using this profile. Please close other Chromium windows.');
-    }
-    throw err;
-  }
+  });
 }
 
-async function closeAuthSession() {
-  if (activeAuthContext) {
-    try {
-      await activeAuthContext.close();
-    } catch (e) {}
-    activeAuthContext = null;
-    return true;
-  }
-  return false;
+function closeAuthSession() {
+  return new Promise((resolve) => {
+    // Gracefully release flag
+    isBrowserOpen = false;
+    resolve({ success: true, message: 'Session flag released' });
+  });
 }
 
 function isAuthSessionActive() {
-  return activeAuthContext !== null;
+  return isBrowserOpen;
 }
 
 function checkAuthStatus() {
   const profileExists = fs.existsSync(PROFILE_DIR);
   let hasStorage = false;
+
   if (profileExists) {
     const defaultDir = path.join(PROFILE_DIR, 'Default');
     if (fs.existsSync(defaultDir)) {
-      const files = fs.readdirSync(defaultDir);
-      hasStorage = files.some(f => f.toLowerCase().includes('cookie') || f.toLowerCase().includes('network'));
+      try {
+        const files = fs.readdirSync(defaultDir);
+        hasStorage = files.some(f => f.toLowerCase().includes('cookie') || f.toLowerCase().includes('network'));
+      } catch (e) {}
     }
   }
 
@@ -101,7 +78,7 @@ function checkAuthStatus() {
     profileDir: PROFILE_DIR,
     profileExists,
     sessionReady: hasStorage,
-    browserActive: isAuthSessionActive()
+    browserActive: isBrowserOpen
   };
 }
 

@@ -9,6 +9,7 @@ const path = require('path');
 const { ParallelApplyPool } = require('./agent/parallel_worker');
 const { launchAuthSession, closeAuthSession, isAuthSessionActive, checkAuthStatus } = require('./agent/auth_session');
 const { runJobScraper, getScrapedJobs, mergeScrapedJobsIntoIndexHtml } = require('./agent/scrapers/job_scraper');
+const { scrapeDicCommunity, getDicCompanies, getDicJobs } = require('./agent/scrapers/dic_scraper');
 
 const app = express();
 const PORT = process.env.PORT || 4000;
@@ -292,6 +293,11 @@ app.post('/api/pause', (req, res) => {
 });
 
 app.post('/api/stop', async (req, res) => {
+  isAutopilotRunning = false;
+  if (autopilotTimer) {
+    clearInterval(autopilotTimer);
+    autopilotTimer = null;
+  }
   if (activePool) {
     await activePool.stop();
     activePool = null;
@@ -425,6 +431,369 @@ app.post('/api/merge-scraped', (req, res) => {
     addLog('ℹ️ All scraped jobs are already merged or duplicate.');
   }
   res.json(mergeResult);
+});
+
+// ======================================================================
+// 🎯 3 WORKFLOW MODES: ONLY SCRAPE, APPLY SCRAPED, AUTO-PILOT (BOTH)
+// ======================================================================
+
+let autopilotTimer = null;
+let isAutopilotRunning = false;
+
+// MODE 1: ONLY SCRAPE
+app.post('/api/mode/scrape-only', async (req, res) => {
+  if (isScraperRunning) {
+    return res.status(400).json({ error: 'Job scraper is currently already running.' });
+  }
+
+  const {
+    platform = 'all',
+    timing = '24h',
+    category = 'all',
+    keywords = '',
+    limit = 40
+  } = req.body;
+
+  isScraperRunning = true;
+  addLog(`🕷️ [Mode 1: ONLY SCRAPE] Starting scan: ${platform.toUpperCase()} (${timing})...`);
+  broadcast('SCRAPER_STATUS', { running: true, mode: 'scrape-only' });
+
+  res.json({ mode: 'scrape-only', status: 'started' });
+
+  runJobScraper({
+    platform,
+    timing,
+    category,
+    keywords,
+    limit: parseInt(limit, 10) || 40,
+    onLog: (msg) => addLog(msg)
+  }).then((result) => {
+    isScraperRunning = false;
+    addLog(`🎉 [Mode 1: Only Scrape Completed] Saved ${result.added} new jobs. Ready for review or apply.`);
+    broadcast('SCRAPER_STATUS', { running: false, result, mode: 'scrape-only' });
+    broadcast('SCRAPER_DONE', result);
+  }).catch((err) => {
+    isScraperRunning = false;
+    addLog(`❌ Scraper failed: ${err.message}`);
+    broadcast('SCRAPER_STATUS', { running: false, error: err.message });
+  });
+});
+
+// MODE 2: APPLY FROM SCRAPED DATA ONLY
+app.post('/api/mode/apply-scraped', async (req, res) => {
+  if (agentState === 'RUNNING') {
+    return res.status(400).json({ error: 'Agent is already running. Please pause or stop first.' });
+  }
+
+  const {
+    concurrency = 5,
+    headless = true
+  } = req.body;
+
+  const scrapedJobs = getScrapedJobs();
+  const history = getHistory();
+
+  // Filter for unapplied scraped jobs
+  const unappliedScraped = scrapedJobs.filter(j => {
+    const id = j.id || j.url;
+    return !(history.applied[id] && history.applied[id].status === 'APPLIED');
+  });
+
+  if (unappliedScraped.length === 0) {
+    addLog('ℹ️ [Mode 2] No unapplied scraped jobs found. Please run Scraper first.');
+    return res.status(400).json({ error: 'No unapplied scraped jobs found. Run Scraper first.' });
+  }
+
+  agentState = 'RUNNING';
+  stats.target = unappliedScraped.length;
+  stats.concurrency = concurrency;
+
+  workers = Array.from({ length: concurrency }, (_, i) => ({
+    id: i + 1,
+    state: 'IDLE',
+    currentJob: null,
+    step: 'Starting Scraped Apply...',
+    appliedCount: 0
+  }));
+
+  addLog(`⚡ [Mode 2: Apply Scraped Jobs] Launching ${concurrency} parallel workers for ${unappliedScraped.length} scraped jobs!`);
+  res.json({ mode: 'apply-scraped', status: 'started', jobCount: unappliedScraped.length });
+
+  activePool = new ParallelApplyPool({
+    concurrency: parseInt(concurrency, 10) || 5,
+    headless: headless !== undefined ? headless : true,
+    limit: unappliedScraped.length,
+    jobs: unappliedScraped,
+    history: history,
+    screenshotsDir: SCREENSHOTS_DIR,
+    onWorkerUpdate: (w) => {
+      const idx = w.id - 1;
+      if (workers[idx]) workers[idx] = { ...w };
+      broadcast('WORKER_UPDATE', w);
+    },
+    onJobComplete: (record) => {
+      saveHistory(history);
+      broadcast('JOB_DONE', record);
+      broadcast('STATUS', { state: agentState, stats, workers });
+    },
+    onLog: (text) => addLog(text),
+    onStatsUpdate: (s) => {
+      Object.assign(stats, s);
+      broadcast('STATS_UPDATE', stats);
+    }
+  });
+
+  activePool.start().then(() => {
+    agentState = 'COMPLETED';
+    addLog('🎉 [Mode 2 Complete] All scraped jobs processed!');
+    broadcast('STATUS', { state: agentState, stats, workers });
+  }).catch((err) => {
+    agentState = 'ERROR';
+    addLog(`❌ Pool error: ${err.message}`);
+    broadcast('STATUS', { state: agentState, stats, workers });
+  });
+});
+
+// MODE 3: AUTO-PILOT (SCRAPE & APPLY SIMULTANEOUSLY)
+app.post('/api/mode/autopilot-start', async (req, res) => {
+  if (agentState === 'RUNNING' || isAutopilotRunning) {
+    return res.status(400).json({ error: 'Campaign or Auto-Pilot is already running.' });
+  }
+
+  const {
+    platform = 'all',
+    timing = '24h',
+    category = 'all',
+    keywords = '',
+    concurrency = 5,
+    headless = true,
+    limit = 1000
+  } = req.body;
+
+  isAutopilotRunning = true;
+  agentState = 'RUNNING';
+  stats.target = limit;
+  stats.concurrency = concurrency;
+
+  addLog(`🚀 [Mode 3: AUTO-PILOT INITIATED] Running Scrape & Apply Simultaneously!`);
+  addLog(`   Workers: ${concurrency}x Parallel | Scraper: Continuous 24h Feed`);
+
+  let allJobs = loadAllJobs();
+  const history = getHistory();
+
+  workers = Array.from({ length: concurrency }, (_, i) => ({
+    id: i + 1,
+    state: 'IDLE',
+    currentJob: null,
+    step: 'Auto-Pilot Initializing...',
+    appliedCount: 0
+  }));
+
+  res.json({ mode: 'autopilot', status: 'started' });
+
+  // Initialize pool with isAutoPilot: true so workers wait for new jobs instead of exiting
+  activePool = new ParallelApplyPool({
+    concurrency: parseInt(concurrency, 10) || 5,
+    headless: headless !== undefined ? headless : true,
+    limit: limit,
+    jobs: allJobs,
+    history: history,
+    isAutoPilot: true,
+    screenshotsDir: SCREENSHOTS_DIR,
+    onWorkerUpdate: (w) => {
+      const idx = w.id - 1;
+      if (workers[idx]) workers[idx] = { ...w };
+      broadcast('WORKER_UPDATE', w);
+    },
+    onJobComplete: (record) => {
+      saveHistory(history);
+      broadcast('JOB_DONE', record);
+      broadcast('STATUS', { state: agentState, stats, workers });
+    },
+    onLog: (text) => addLog(text),
+    onStatsUpdate: (s) => {
+      Object.assign(stats, s);
+      broadcast('STATS_UPDATE', stats);
+    }
+  });
+
+  // Start concurrent apply workers
+  activePool.start().then(() => {
+    if (!isAutopilotRunning) return;
+    agentState = 'COMPLETED';
+    isAutopilotRunning = false;
+    if (autopilotTimer) clearInterval(autopilotTimer);
+    addLog('🎉 Auto-Pilot Campaign reached target!');
+    broadcast('STATUS', { state: agentState, stats, workers });
+  }).catch((err) => {
+    isAutopilotRunning = false;
+    if (autopilotTimer) clearInterval(autopilotTimer);
+    agentState = 'ERROR';
+    addLog(`❌ Auto-Pilot error: ${err.message}`);
+    broadcast('STATUS', { state: agentState, stats, workers });
+  });
+
+  // Start concurrent recurring scraper
+  const runScrapeCycle = async () => {
+    if (!isAutopilotRunning) return;
+    try {
+      addLog(`🕷️ [Auto-Pilot Scraper] Scanning for fresh jobs (${platform}, ${timing})...`);
+      const scrapeResult = await runJobScraper({
+        platform,
+        timing,
+        category,
+        keywords,
+        limit: 20,
+        onLog: (msg) => addLog(msg)
+      });
+      if (scrapeResult && scrapeResult.newJobs && scrapeResult.newJobs.length > 0 && activePool) {
+        activePool.addJobs(scrapeResult.newJobs);
+      }
+    } catch (e) {
+      addLog(`⚠️ Auto-Pilot scrape cycle note: ${e.message}`);
+    }
+  };
+
+  // Run initial scrape immediately
+  setTimeout(runScrapeCycle, 1500);
+
+  // Repeat scrape cycle every 75 seconds
+  autopilotTimer = setInterval(runScrapeCycle, 75000);
+});
+
+// Stop Auto-Pilot
+app.post('/api/mode/autopilot-stop', async (req, res) => {
+  isAutopilotRunning = false;
+  if (autopilotTimer) {
+    clearInterval(autopilotTimer);
+    autopilotTimer = null;
+  }
+  if (activePool) {
+    await activePool.stop();
+    activePool = null;
+  }
+  agentState = 'STOPPED';
+  workers.forEach(w => { w.state = 'IDLE'; w.step = 'Stopped'; });
+  addLog('⏹ [Auto-Pilot STOPPED] Both Scraper & Apply workers stopped.');
+  broadcast('STATUS', { state: agentState, stats, workers });
+  res.json({ status: 'stopped' });
+});
+
+// ======================================================================
+// 🇦🇪 DUBAI INTERNET CITY (DIC) DIRECTORY & CAREER ENGINE ENDPOINTS
+// ======================================================================
+
+let isDicScraperRunning = false;
+
+// 1. Get DIC Companies List
+app.get('/api/dic/companies', (req, res) => {
+  const companies = getDicCompanies();
+  res.json({ count: companies.length, companies });
+});
+
+// 2. Get DIC Jobs List
+app.get('/api/dic/jobs', (req, res) => {
+  const jobs = getDicJobs();
+  res.json({ count: jobs.length, jobs });
+});
+
+// 3. Trigger Scrape of Dubai Internet City Directory
+app.post('/api/dic/scrape', async (req, res) => {
+  if (isDicScraperRunning) {
+    return res.status(400).json({ error: 'DIC Scraper is already running' });
+  }
+
+  const { maxCompanies = 60 } = req.body;
+  isDicScraperRunning = true;
+  addLog(`🇦🇪 [DIC Scraper Initiated] Connecting to Dubai Internet City directory (dic.ae)...`);
+  broadcast('DIC_SCRAPER_STATUS', { running: true });
+
+  res.json({ status: 'started', maxCompanies });
+
+  scrapeDicCommunity({
+    maxCompanies: parseInt(maxCompanies, 10) || 60,
+    onLog: (msg) => addLog(msg)
+  }).then((result) => {
+    isDicScraperRunning = false;
+    addLog(`🎉 [DIC Scraper Done] Extracted ${result.companiesCount} Dubai tech companies & generated ${result.jobsCount} career applications!`);
+    broadcast('DIC_SCRAPER_STATUS', { running: false, result });
+    broadcast('DIC_SCRAPER_DONE', result);
+  }).catch((err) => {
+    isDicScraperRunning = false;
+    addLog(`❌ DIC Scraper error: ${err.message}`);
+    broadcast('DIC_SCRAPER_STATUS', { running: false, error: err.message });
+  });
+});
+
+// 4. Auto-Apply to Dubai Tech Jobs
+app.post('/api/dic/apply', async (req, res) => {
+  if (agentState === 'RUNNING') {
+    return res.status(400).json({ error: 'Another campaign is currently running. Please stop it first.' });
+  }
+
+  const { concurrency = 5, headless = true } = req.body;
+  const dubaiJobs = getDicJobs();
+  const history = getHistory();
+
+  // Filter unapplied
+  const unappliedDubai = dubaiJobs.filter(j => {
+    const id = j.id || j.url;
+    return !(history.applied[id] && history.applied[id].status === 'APPLIED');
+  });
+
+  if (unappliedDubai.length === 0) {
+    addLog('ℹ️ No unapplied Dubai jobs found. Run DIC Scraper first.');
+    return res.status(400).json({ error: 'No unapplied Dubai jobs found. Scrape DIC directory first.' });
+  }
+
+  agentState = 'RUNNING';
+  stats.target = unappliedDubai.length;
+  stats.concurrency = concurrency;
+
+  workers = Array.from({ length: concurrency }, (_, i) => ({
+    id: i + 1,
+    state: 'IDLE',
+    currentJob: null,
+    step: 'Starting Dubai Tech Apply...',
+    appliedCount: 0
+  }));
+
+  addLog(`🇦🇪 [Dubai Campaign Launched] Auto-applying to ${unappliedDubai.length} Dubai Internet City tech jobs using Dubai Resume (Imran-Pasha-Cyber-Security-Dubai.pdf)!`);
+  res.json({ status: 'started', jobCount: unappliedDubai.length });
+
+  activePool = new ParallelApplyPool({
+    concurrency: parseInt(concurrency, 10) || 5,
+    headless: headless !== undefined ? headless : true,
+    limit: unappliedDubai.length,
+    jobs: unappliedDubai,
+    history: history,
+    screenshotsDir: SCREENSHOTS_DIR,
+    onWorkerUpdate: (w) => {
+      const idx = w.id - 1;
+      if (workers[idx]) workers[idx] = { ...w };
+      broadcast('WORKER_UPDATE', w);
+    },
+    onJobComplete: (record) => {
+      saveHistory(history);
+      broadcast('JOB_DONE', record);
+      broadcast('STATUS', { state: agentState, stats, workers });
+    },
+    onLog: (text) => addLog(text),
+    onStatsUpdate: (s) => {
+      Object.assign(stats, s);
+      broadcast('STATS_UPDATE', stats);
+    }
+  });
+
+  activePool.start().then(() => {
+    agentState = 'COMPLETED';
+    addLog('🎉 [Dubai Campaign Completed] All Dubai Internet City jobs processed!');
+    broadcast('STATUS', { state: agentState, stats, workers });
+  }).catch((err) => {
+    agentState = 'ERROR';
+    addLog(`❌ Dubai pool error: ${err.message}`);
+    broadcast('STATUS', { state: agentState, stats, workers });
+  });
 });
 
 // Start Server

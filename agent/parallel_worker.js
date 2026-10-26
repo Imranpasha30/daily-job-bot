@@ -50,6 +50,25 @@ class ParallelApplyPool {
       step: 'Standby',
       appliedCount: 0
     }));
+
+    this.isAutoPilot = options.isAutoPilot || false;
+  }
+
+  addJobs(newJobs) {
+    const existingIds = new Set(this.queue.map(j => j.id || j.url));
+    let addedCount = 0;
+    newJobs.forEach(j => {
+      const id = j.id || j.url;
+      if (!existingIds.has(id) && !(this.history.applied && this.history.applied[id] && this.history.applied[id].status === 'APPLIED')) {
+        this.queue.push(j);
+        existingIds.add(id);
+        addedCount++;
+      }
+    });
+    if (addedCount > 0) {
+      this.onLog(`📥 [Auto-Pilot Stream] Injected +${addedCount} fresh scraped jobs into active worker pool! (Queue: ${this.queue.length})`);
+    }
+    return addedCount;
   }
 
   async start() {
@@ -104,7 +123,16 @@ class ParallelApplyPool {
     this.contexts.push(context);
     const page = await context.newPage();
 
-    while (this.queue.length > 0 && !this.stopRequested) {
+    while (!this.stopRequested) {
+      if (this.queue.length === 0) {
+        if (!this.isAutoPilot) break;
+        worker.state = 'WAITING';
+        worker.step = 'Awaiting next scraped job batch...';
+        this.onWorkerUpdate(worker);
+        await new Promise(r => setTimeout(r, 2000));
+        continue;
+      }
+
       // Pause check
       while (this.isPaused && !this.stopRequested) {
         worker.state = 'PAUSED';
