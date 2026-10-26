@@ -118,23 +118,54 @@ async function scrapeLinkedIn({ timing = '24h', category = 'backend', keywords =
   // Use persistent context if not in use, else launch standard stealth context
   try {
     if (!isAuthSessionActive() && fs.existsSync(PROFILE_DIR)) {
-      browserContext = await chromium.launchPersistentContext(PROFILE_DIR, {
-        headless: true,
-        userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
-        args: ['--disable-blink-features=AutomationControlled', '--no-sandbox']
-      });
-      isPersistent = true;
-      onLog('🛡️ [LinkedIn Scraper] Using persistent authenticated profile session.');
+      try {
+        browserContext = await chromium.launchPersistentContext(PROFILE_DIR, {
+          channel: 'chrome',
+          headless: false,
+          viewport: { width: 1366, height: 768 },
+          args: [
+            '--window-position=-2400,-2400',
+            '--window-size=1366,768',
+            '--disable-blink-features=AutomationControlled',
+            '--no-sandbox'
+          ]
+        });
+        isPersistent = true;
+        onLog('🛡️ [LinkedIn Scraper] Using persistent authenticated profile session via genuine Google Chrome.');
+      } catch (chromeErr) {
+        browserContext = await chromium.launchPersistentContext(PROFILE_DIR, {
+          headless: true,
+          userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+          args: ['--disable-blink-features=AutomationControlled', '--no-sandbox']
+        });
+        isPersistent = true;
+        onLog('🛡️ [LinkedIn Scraper] Using persistent profile fallback.');
+      }
     } else {
-      const browser = await chromium.launch({
-        headless: true,
-        args: ['--disable-blink-features=AutomationControlled', '--no-sandbox']
-      });
-      browserContext = await browser.newContext({
-        userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
-        viewport: { width: 1366, height: 768 }
-      });
-      onLog('🌐 [LinkedIn Scraper] Using stealth guest context with anti-ban headers.');
+      try {
+        browserContext = await chromium.launchPersistentContext('', {
+          channel: 'chrome',
+          headless: false,
+          viewport: { width: 1366, height: 768 },
+          args: [
+            '--window-position=-2400,-2400',
+            '--window-size=1366,768',
+            '--disable-blink-features=AutomationControlled',
+            '--no-sandbox'
+          ]
+        });
+        onLog('🌐 [LinkedIn Scraper] Using genuine Google Chrome off-screen session.');
+      } catch (e) {
+        const browser = await chromium.launch({
+          headless: true,
+          args: ['--disable-blink-features=AutomationControlled', '--no-sandbox']
+        });
+        browserContext = await browser.newContext({
+          userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+          viewport: { width: 1366, height: 768 }
+        });
+        onLog('🌐 [LinkedIn Scraper] Using stealth guest context with anti-ban headers.');
+      }
     }
 
     const page = browserContext.pages()[0] || await browserContext.newPage();
@@ -266,24 +297,54 @@ async function scrapeNaukri({ timing = '24h', category = 'backend', keywords = '
   let browserContext = null;
 
   try {
-    // If authenticated profile exists and is free, use it
+    // Launch using genuine Google Chrome engine to bypass Cloudflare bot barrier
     if (!isAuthSessionActive() && fs.existsSync(PROFILE_DIR)) {
-      browserContext = await chromium.launchPersistentContext(PROFILE_DIR, {
-        headless: true,
-        userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
-        args: ['--disable-blink-features=AutomationControlled', '--no-sandbox']
-      });
-      onLog('🛡️ [Naukri Scraper] Using persistent authenticated profile session.');
+      try {
+        browserContext = await chromium.launchPersistentContext(PROFILE_DIR, {
+          channel: 'chrome',
+          headless: false,
+          viewport: { width: 1366, height: 768 },
+          args: [
+            '--window-position=-2400,-2400',
+            '--window-size=1366,768',
+            '--disable-blink-features=AutomationControlled',
+            '--no-sandbox'
+          ]
+        });
+        onLog('🛡️ [Naukri Scraper] Connected via genuine Google Chrome profile session.');
+      } catch (chromeErr) {
+        browserContext = await chromium.launchPersistentContext(PROFILE_DIR, {
+          headless: true,
+          userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+          args: ['--disable-blink-features=AutomationControlled', '--no-sandbox']
+        });
+        onLog('🛡️ [Naukri Scraper] Using persistent profile fallback.');
+      }
     } else {
-      const browser = await chromium.launch({
-        headless: true,
-        args: ['--disable-blink-features=AutomationControlled', '--no-sandbox']
-      });
-      browserContext = await browser.newContext({
-        userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36',
-        viewport: { width: 1366, height: 768 }
-      });
-      onLog('🌐 [Naukri Scraper] Using stealth context with genuine browser headers.');
+      try {
+        browserContext = await chromium.launchPersistentContext('', {
+          channel: 'chrome',
+          headless: false,
+          viewport: { width: 1366, height: 768 },
+          args: [
+            '--window-position=-2400,-2400',
+            '--window-size=1366,768',
+            '--disable-blink-features=AutomationControlled',
+            '--no-sandbox'
+          ]
+        });
+        onLog('🌐 [Naukri Scraper] Using genuine Google Chrome off-screen session.');
+      } catch (e) {
+        const browser = await chromium.launch({
+          headless: true,
+          args: ['--disable-blink-features=AutomationControlled', '--no-sandbox']
+        });
+        browserContext = await browser.newContext({
+          userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36',
+          viewport: { width: 1366, height: 768 }
+        });
+        onLog('🌐 [Naukri Scraper] Using stealth context with genuine browser headers.');
+      }
     }
 
     const page = browserContext.pages()[0] || await browserContext.newPage();
