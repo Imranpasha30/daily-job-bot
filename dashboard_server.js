@@ -24,6 +24,9 @@ const INDEX_HTML = path.join(BASE_DIR, 'index.html');
 if (!fs.existsSync(SCREENSHOTS_DIR)) fs.mkdirSync(SCREENSHOTS_DIR, { recursive: true });
 
 app.use(express.json());
+app.get('/', (req, res) => {
+  res.sendFile(path.join(PUBLIC_DIR, 'dashboard.html'));
+});
 app.use(express.static(PUBLIC_DIR));
 app.use('/screenshots', express.static(SCREENSHOTS_DIR));
 app.use('/resumes', express.static(RESUMES_DIR));
