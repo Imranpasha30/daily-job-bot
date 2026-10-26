@@ -1,4 +1,4 @@
-// AI Application Answer Generator: Gemini 1.5/2.0 + Claude 5.5 + Fallback Engine
+// Dual AI Load-Balanced Engine: Google Gemini 2.5 Flash + Anthropic Claude 5.5 + Fallback
 const { GoogleGenerativeAI } = require('@google/generative-ai');
 const Anthropic = require('@anthropic-ai/sdk');
 const fs = require('fs');
@@ -28,7 +28,7 @@ if (GEMINI_API_KEY) {
   try {
     genAI = new GoogleGenerativeAI(GEMINI_API_KEY);
   } catch (e) {
-    console.warn('Could not initialize GoogleGenerativeAI client:', e.message);
+    console.warn('Could not initialize GoogleGenerativeAI:', e.message);
   }
 }
 
@@ -41,7 +41,19 @@ if (ANTHROPIC_API_KEY) {
   }
 }
 
-// Fallback Answer Knowledge Base
+// Telemetry & Rate-Limit Tracking
+let geminiAvailableAt = 0;
+let claudeAvailableAt = 0;
+let requestCounter = 0;
+
+const aiStats = {
+  gemini: 0,
+  claude: 0,
+  fallback: 0,
+  lastProvider: 'Standby'
+};
+
+// Fallback Knowledge Base
 const KNOWLEDGE_BASE = {
   whyCompany: (job) => `I am drawn to ${job.company || 'your team'} because of your technical ambition and engineering standards. With nearly two years of production experience architecting high-throughput backend services (FastAPI/Node.js, PostgreSQL 17, Redis Streams) and tuning latency over 9.9M-row databases, my hands-on background in scalable, resilient systems directly aligns with the challenges your team tackles.`,
 
@@ -57,7 +69,7 @@ const KNOWLEDGE_BASE = {
 
   biggestChallenge: () => `On Kaizer X, database lock contention and unindexed multi-table joins were driving p95 query latency to 12 seconds during batch video processing. I analyzed query plans with EXPLAIN ANALYZE, eliminated N+1 queries, introduced partial composite indexes on active job states, and replaced naive table locks with PostgreSQL FOR UPDATE SKIP LOCKED queues backed by Redis Streams. This reduced p95 latency to 141ms without increasing server costs.`,
 
-  salary: () => `Expected CTC: 14-18 LPA (Current: 5.54 LPA). Open to discussion based on total compensation and role structure.`,
+  salary: () => `Expected CTC: 15 LPA (Current: 5.54 LPA). Open to discussion based on total compensation and role structure.`,
 
   notice: () => `30 days notice period, with option to negotiate early release.`,
 
@@ -92,54 +104,98 @@ Instructions:
 5. Output ONLY the response text to paste directly into the form.`;
 }
 
+const timeoutPromise = (ms) => new Promise((_, reject) => setTimeout(() => reject(new Error('AI Request Timeout')), ms));
+
+// Call Google Gemini (Fast with 3.5s timeout)
+async function tryCallGemini(prompt) {
+  if (!genAI) return null;
+  if (Date.now() < geminiAvailableAt) return null;
+
+  try {
+    const model = genAI.getGenerativeModel({ model: 'gemini-2.5-flash' });
+    const result = await Promise.race([
+      model.generateContent(prompt),
+      timeoutPromise(3500)
+    ]);
+    const text = result.response.text();
+    if (text && text.trim()) {
+      aiStats.gemini++;
+      aiStats.lastProvider = 'Google Gemini 2.5 Flash';
+      return text.trim();
+    }
+  } catch (err) {
+    if (err.message && err.message.includes('429')) {
+      geminiAvailableAt = Date.now() + 45000; // Pause Gemini for 45s on 429
+    }
+  }
+  return null;
+}
+
+// Call Anthropic Claude (Fast with 3.5s timeout)
+async function tryCallClaude(prompt) {
+  if (!anthropic) return null;
+  if (Date.now() < claudeAvailableAt) return null;
+
+  try {
+    const msg = await Promise.race([
+      anthropic.messages.create({
+        model: 'claude-sonnet-5-5',
+        max_tokens: 250,
+        messages: [{ role: 'user', content: prompt }]
+      }),
+      timeoutPromise(3500)
+    ]);
+    if (msg && msg.content && msg.content[0] && msg.content[0].text) {
+      aiStats.claude++;
+      aiStats.lastProvider = 'Anthropic Claude 5.5 Sonnet';
+      return msg.content[0].text.trim();
+    }
+  } catch (err) {
+    if (err.message && err.message.includes('429')) {
+      claudeAvailableAt = Date.now() + 30000;
+    }
+  }
+  return null;
+}
+
+// Master Dual-AI Load-Balanced Dispatcher
 async function answerQuestion(questionLabel, jobDetails = {}) {
   const prompt = buildPrompt(questionLabel, jobDetails);
+  requestCounter++;
 
-  // 1. PRIORITY 1: Google Gemini (if GEMINI_API_KEY is configured)
-  if (genAI) {
-    const candidateGeminiModels = [
-      'gemini-2.5-flash',
-      'gemini-flash-latest',
-      'gemini-2.5-pro',
-      'gemini-pro-latest',
-      'gemini-1.5-flash',
-      'gemini-1.5-pro'
-    ];
-    for (const modelName of candidateGeminiModels) {
-      try {
-        const model = genAI.getGenerativeModel({ model: modelName });
-        const result = await model.generateContent(prompt);
-        const text = result.response.text();
-        if (text && text.trim()) {
-          return text.trim();
-        }
-      } catch (geminiErr) {
-        // Try next gemini model
-      }
+  const now = Date.now();
+  const canUseGemini = genAI && (now >= geminiAvailableAt);
+  const canUseClaude = anthropic && (now >= claudeAvailableAt);
+
+  // Even requests -> Claude, Odd requests -> Gemini
+  const preferGemini = canUseGemini && (requestCounter % 2 === 1 || !canUseClaude);
+
+  if (preferGemini) {
+    const gAns = await tryCallGemini(prompt);
+    if (gAns) return gAns;
+    if (canUseClaude) {
+      const cAns = await tryCallClaude(prompt);
+      if (cAns) return cAns;
     }
+  } else if (canUseClaude) {
+    const cAns = await tryCallClaude(prompt);
+    if (cAns) return cAns;
+    if (canUseGemini) {
+      const gAns = await tryCallGemini(prompt);
+      if (gAns) return gAns;
+    }
+  } else if (canUseGemini) {
+    const gAns = await tryCallGemini(prompt);
+    if (gAns) return gAns;
   }
 
-  // 2. PRIORITY 2: Anthropic Claude (if ANTHROPIC_API_KEY is configured)
-  if (anthropic) {
-    const candidateClaudeModels = ['claude-sonnet-5-5', 'claude-sonnet-4-5-20250929', 'claude-3-5-sonnet-20241022'];
-    for (const modelName of candidateClaudeModels) {
-      try {
-        const msg = await anthropic.messages.create({
-          model: modelName,
-          max_tokens: 300,
-          temperature: 0.2,
-          messages: [{ role: 'user', content: prompt }]
-        });
-        if (msg && msg.content && msg.content[0] && msg.content[0].text) {
-          return msg.content[0].text.trim();
-        }
-      } catch (claudeErr) {
-        // Try next model
-      }
-    }
-  }
+  // Fallback to Knowledge Base
+  aiStats.fallback++;
+  aiStats.lastProvider = 'Production Knowledge Base';
+  return getFallbackAnswer(questionLabel, jobDetails);
+}
 
-  // 3. PRIORITY 3: Smart Rule-Based Production Fallback
+function getFallbackAnswer(questionLabel, jobDetails) {
   const q = String(questionLabel || '').trim();
   if (/why (do you want|are you interested|this company|join|us\b)|what excites you/i.test(q)) {
     return KNOWLEDGE_BASE.whyCompany(jobDetails);
@@ -180,5 +236,6 @@ async function answerQuestion(questionLabel, jobDetails = {}) {
 
 module.exports = {
   answerQuestion,
+  aiStats,
   KNOWLEDGE_BASE
 };
