@@ -1,205 +1,205 @@
-Backend jobs — generated 2026-10-26T07:06:23.041Z
+Backend jobs — generated 2026-10-26T07:25:18.706Z
 
   1. Software Engineer (Backend - SDE 2) — Databricks (Bengaluru, India)
      https://databricks.com/company/careers/open-positions/job?gh_jid=7955594002
-  2. Senior Software Engineer – Backend (Travel) — paytm (Bangalore, Karnataka)
-     https://jobs.lever.co/paytm/105a0d9e-94e9-4026-9105-5bea558ab3d9
-  3. Sr Software Engineer - Backend — Databricks (Bengaluru, India)
-     https://databricks.com/company/careers/open-positions/job?gh_jid=7955601002
+  2. SDE I — hevodata (Bangalore, India)
+     https://jobs.lever.co/hevodata/6cbbe304-e065-4711-bf3e-756795d2bc2a
+  3. Data Engineer (SDE 2) — fampay (Bengaluru)
+     https://jobs.lever.co/fampay/01750a61-a53b-433f-8d8c-bfb5a18417f8
   4. Infrastructure Engineer — sarvam (Bengaluru)
      https://jobs.ashbyhq.com/sarvam/f09b6a35-e2d1-4833-8bc5-2b495991d882
-  5. Backend - TL/STL — paytm (Bangalore, Karnataka)
-     https://jobs.lever.co/paytm/fffdcfb1-fd6e-4401-b059-500838a6db0e
-  6. SDE I — hevodata (Bangalore, India)
-     https://jobs.lever.co/hevodata/6cbbe304-e065-4711-bf3e-756795d2bc2a
-  7. DevOps Engineer II — HackerRank Careers (Hybrid in Bangalore, India)
-     https://job-boards.greenhouse.io/hackerrank/jobs/7824249
-  8. Data Engineer (SDE 2) — fampay (Bengaluru)
-     https://jobs.lever.co/fampay/01750a61-a53b-433f-8d8c-bfb5a18417f8
-  9. Platform Engineer - AI Infrastructure — sarvam (Bengaluru)
+  5. Platform Engineer - AI Infrastructure — sarvam (Bengaluru)
      https://jobs.ashbyhq.com/sarvam/fcb15601-6440-41f7-aa79-b9992057a4b2
- 10. Backend - Senior Software Engineer — paytm (Noida, Uttar Pradesh)
-     https://jobs.lever.co/paytm/23534d2b-3e2e-4759-b498-0bb15b2fb995
- 11. Software Engineer 3 - Enterprise Architecture — MongoDB (Gurugram)
-     https://www.mongodb.com/careers/job/?gh_jid=8221290
- 12. Software Engineer 3, Atlas Agent Engine — MongoDB (Gurugram)
-     https://www.mongodb.com/careers/job/?gh_jid=7597723
- 13. Infrastructure SRE - HPC — sarvam (Bengaluru)
-     https://jobs.ashbyhq.com/sarvam/e1dd678f-6e25-48b4-82d8-a1a7d10a78d6
- 14. Sr Software Engineer - Agentic Applications (Full Stack) — Databricks (Bengaluru, India)
-     https://databricks.com/company/careers/open-positions/job?gh_jid=8679982002
- 15. Software Engineer 3, AI Framework Integrations — MongoDB (Gurugram)
+  6. Software Engineer 3, AI Framework Integrations — MongoDB (Gurugram)
      https://www.mongodb.com/careers/job/?gh_jid=8127772
- 16. Senior Software Engineer (Infra) — Databricks (Bengaluru, India)
-     https://databricks.com/company/careers/open-positions/job?gh_jid=7619810002
- 17. Sr. Software Engineer - Observability — Databricks (Bengaluru, India)
-     https://databricks.com/company/careers/open-positions/job?gh_jid=7925560002
- 18. Software Engineer, Infrastructure — Databricks (Bengaluru, India)
-     https://databricks.com/company/careers/open-positions/job?gh_jid=8829029002
- 19. Intermediate Backend Engineer, India — GitLab (Bangalore, India)
+  7. Software Engineer 3 - Enterprise Architecture — MongoDB (Gurugram)
+     https://www.mongodb.com/careers/job/?gh_jid=8221290
+  8. Software Engineer 3, Atlas Agent Engine — MongoDB (Gurugram)
+     https://www.mongodb.com/careers/job/?gh_jid=7597723
+  9. DevOps Engineer II — HackerRank Careers (Hybrid in Bangalore, India)
+     https://job-boards.greenhouse.io/hackerrank/jobs/7824249
+ 10. Infrastructure SRE - HPC — sarvam (Bengaluru)
+     https://jobs.ashbyhq.com/sarvam/e1dd678f-6e25-48b4-82d8-a1a7d10a78d6
+ 11. Intermediate Backend Engineer, India — GitLab (Bangalore, India)
      https://job-boards.greenhouse.io/gitlab/jobs/8775507002
- 20. Software Engineer, Backend — Unacademy (Bengaluru, KA, in)
+ 12. Software Engineer, Backend — Unacademy (Bengaluru, KA, in)
      https://jobs.smartrecruiters.com/unacademy/743999672726735
- 21. Senior Software Engineer, AI Framework Integrations — MongoDB (Gurugram)
-     https://www.mongodb.com/careers/job/?gh_jid=8107301
- 22. Software Engineer 3, AI Builder Experience  — MongoDB (Gurugram)
-     https://www.mongodb.com/careers/job/?gh_jid=8111979
- 23. Senior Site Reliability Engineer — MongoDB (Gurugram)
-     https://www.mongodb.com/careers/job/?gh_jid=8051379
- 24. Senior Backend Engineer, India — GitLab (Bangalore, India)
-     https://job-boards.greenhouse.io/gitlab/jobs/8716143002
- 25. SDE 2 Infra — fampay (Bengaluru)
+ 13. SDE 2 Infra — fampay (Bengaluru)
      https://jobs.lever.co/fampay/9b8d4eaa-cd29-4aec-8dcc-a33fd78d5657
- 26. DevOps Engineer — sarvam (Bengaluru)
-     https://jobs.ashbyhq.com/sarvam/d2d593e6-be5a-4431-b1fa-86f18d1c7edf
- 27. SDE II - AI — InMobi  (Bangalore)
+ 14. Software Engineer, Infrastructure — Databricks (Bengaluru, India)
+     https://databricks.com/company/careers/open-positions/job?gh_jid=8829029002
+ 15. SDE II - AI — InMobi  (Bangalore)
      https://job-boards.greenhouse.io/inmobi/jobs/8073988
- 28. SDE II - Gen AI — Glance (Bangalore)
+ 16. SDE II - Gen AI — Glance (Bangalore)
      https://job-boards.greenhouse.io/glance/jobs/7846609
- 29. Applications Engineer 2 — Twilio (Remote - India)
-     https://job-boards.greenhouse.io/twilio/jobs/7781659
- 30. Software Engineer, Payin — Stripe (Bengaluru)
-     https://stripe.com/jobs/search?gh_jid=8185012
- 31. Software Engineer, Stripe Data Pipeline — Stripe (Bangalore)
-     https://stripe.com/jobs/search?gh_jid=8209970
- 32. SDE II — hevodata (Bangalore, India)
+ 17. Software Engineer 3, AI Builder Experience  — MongoDB (Gurugram)
+     https://www.mongodb.com/careers/job/?gh_jid=8111979
+ 18. SDE II — hevodata (Bangalore, India)
      https://jobs.lever.co/hevodata/53987105-3d28-42b1-9132-3672abcef2aa
- 33. SDE IV - Backend — Glance (Bangalore)
-     https://job-boards.greenhouse.io/glance/jobs/7999722
- 34. Software Engineer, Security Platform — Coinbase (Remote - India)
-     https://www.coinbase.com/careers/positions/8165441?gh_jid=8165441
- 35. SDE III - Data Engineering — Glance (Bangalore)
-     https://job-boards.greenhouse.io/glance/jobs/8054886
- 36. SDE IV - GPU Engineer — Glance (Bangalore)
-     https://job-boards.greenhouse.io/glance/jobs/7213752
- 37. People Systems Engineer — GitLab (Bangalore, India; Remote, Poland)
+ 19. Software Engineer 3 — MongoDB (Gurugram)
+     https://www.mongodb.com/careers/job/?gh_jid=8239047
+ 20. Software Engineer, Payin — Stripe (Bengaluru)
+     https://stripe.com/jobs/search?gh_jid=8185012
+ 21. DevOps Engineer — sarvam (Bengaluru)
+     https://jobs.ashbyhq.com/sarvam/d2d593e6-be5a-4431-b1fa-86f18d1c7edf
+ 22. Applications Engineer 2 — Twilio (Remote - India)
+     https://job-boards.greenhouse.io/twilio/jobs/7781659
+ 23. People Systems Engineer — GitLab (Bangalore, India; Remote, Poland)
      https://job-boards.greenhouse.io/gitlab/jobs/8861748002
- 38. Software Engineer - Model API Platform — sarvam (Bengaluru)
+ 24. Software Engineer - Model API Platform — sarvam (Bengaluru)
      https://jobs.ashbyhq.com/sarvam/0371342b-5cb8-487b-9310-4d0eb5b37f47
- 39. SDE III — hevodata (Bangalore, India)
-     https://jobs.lever.co/hevodata/3d8a647b-44f5-4615-8623-2f9142b34602
- 40. Embedded Infrastructure Engineer, Chanakya — sarvam (Delhi)
-     https://jobs.ashbyhq.com/sarvam/b2201b5e-1e96-497a-962c-bca1768f75fd
- 41. Senior Software Engineer — Fivetran  (Bengaluru, Karnataka, India, APAC)
-     https://www.fivetran.com/careers/job?gh_jid=7917346003
- 42. Senior Software Engineer, Applied AI and Customer Solutions — Coursera (India)
-     https://job-boards.greenhouse.io/coursera/jobs/6145774004
- 43. Senior Software Engineer, SSCS : Authentication — GitLab (Bangalore, India)
-     https://job-boards.greenhouse.io/gitlab/jobs/8878486002
- 44. Senior Software Engineer - Developer Productivity — Fivetran  (Bengaluru, Karnataka, India, APAC)
-     https://www.fivetran.com/careers/job?gh_jid=7818306003
- 45. SDE III - Devops — InMobi  (Bangalore)
-     https://job-boards.greenhouse.io/inmobi/jobs/7393433
- 46. Software Engineer, Developer Experience — notion (Hyderabad, India)
-     https://jobs.ashbyhq.com/notion/49bdf081-6e20-4323-8c73-6d6b19544ff5
- 47. Software Engineer — Turing (Bengaluru, Karnataka, India)
-     https://job-boards.greenhouse.io/turing/jobs/6115695004
- 48. Software Engineer II, Backend (Card) — Affirm (Remote Poland)
+ 25. Software Engineer, Security Platform — Coinbase (Remote - India)
+     https://www.coinbase.com/careers/positions/8165441?gh_jid=8165441
+ 26. Software Engineer II, Backend (Card) — Affirm (Remote Poland)
      https://job-boards.greenhouse.io/affirm/jobs/8006331003
- 49. Platform Engineer - Compute Capacity — supabase (Remote, Global)
+ 27. Platform Engineer - Compute Capacity — supabase (Remote, Global)
      https://jobs.ashbyhq.com/supabase/4eb14408-51e6-4c58-812a-3782d5c0b045
- 50. Software Engineer II, Backend (Batch Developer Experience) — Affirm (Remote US)
-     https://job-boards.greenhouse.io/affirm/jobs/8003028003
- 51. Software Engineer II , Backend, (Furnishing Platform)  — Affirm (Remote Spain)
-     https://job-boards.greenhouse.io/affirm/jobs/7799346003
- 52. Software Engineer II, Backend (Streaming) — Affirm (Remote US)
-     https://job-boards.greenhouse.io/affirm/jobs/8003020003
- 53. Platform Engineer - Compute — supabase (Remote, Global)
-     https://jobs.ashbyhq.com/supabase/6b314e83-6617-49fc-8c73-021ebae9a757
- 54. Backend Engineer (Ruby), Plan: Spec-Driven Development — GitLab (Remote, Poland)
+ 28. Backend Engineer (Ruby), Plan: Spec-Driven Development — GitLab (Remote, Poland)
      https://job-boards.greenhouse.io/gitlab/jobs/8749950002
- 55. Software Engineer I, Backend (Collections) — Affirm (Remote Poland)
+ 29. Software Engineer I, Backend (Collections) — Affirm (Remote Poland)
      https://job-boards.greenhouse.io/affirm/jobs/7807508003
- 56. Platform Engineer, Managed Postgres — supabase (Remote, Global)
+ 30. Platform Engineer, Managed Postgres — supabase (Remote, Global)
      https://jobs.ashbyhq.com/supabase/9073c0cd-2545-473a-b2ac-63e4615c69b5
- 57. Data API Engineer — supabase (Remote, Global)
-     https://jobs.ashbyhq.com/supabase/950e8ffc-79a5-4626-b1dd-115fcbcddad0
- 58. Senior Software Engineer, Backend (Identity Data) — Affirm (Remote US)
-     https://job-boards.greenhouse.io/affirm/jobs/8017503003
- 59. Software Engineer - Auth — supabase (Remote, Global)
-     https://jobs.ashbyhq.com/supabase/e569b7f7-fa8f-4139-86f6-4f52b456882d
- 60. Python Engineer — Canonical (Anywhere)
+ 31. Python Engineer — Canonical (Anywhere)
      https://jobicy.com/jobs/149543-python-engineer
- 61. IT Systems Engineer, Client Platform Engineer, ChromeOS — Anthropic (Boston, MA; Remote-Friendly (Travel-Required) | San Francisco, CA | Seattle, WA | New York City, NY; Washington, DC)
+ 32. Software Engineer - Auth — supabase (Remote, Global)
+     https://jobs.ashbyhq.com/supabase/e569b7f7-fa8f-4139-86f6-4f52b456882d
+ 33. Data API Engineer — supabase (Remote, Global)
+     https://jobs.ashbyhq.com/supabase/950e8ffc-79a5-4626-b1dd-115fcbcddad0
+ 34. IT Systems Engineer, Client Platform Engineer, ChromeOS — Anthropic (Boston, MA; Remote-Friendly (Travel-Required) | San Francisco, CA | Seattle, WA | New York City, NY; Washington, DC)
      https://job-boards.greenhouse.io/anthropic/jobs/5456018008
- 62. Platform Engineer, Edge & Networking — supabase (Remote, Global)
-     https://jobs.ashbyhq.com/supabase/6c9de03c-e289-4612-9045-492985d0274b
- 63. Infrastructure Engineer — railway (Global)
-     https://jobs.ashbyhq.com/railway/b8072f95-043f-404d-a313-f0bdf8dd3c81
- 64. Senior Backend Engineer, AI Engineering: Chat    — GitLab (Remote, United Kingdom)
-     https://job-boards.greenhouse.io/gitlab/jobs/8621733002
- 65. Software Engineer - Backend — snowflake (US-CA-Menlo Park) [$157K – $230K]
-     https://jobs.ashbyhq.com/snowflake/3eb872af-0ab1-4986-8f72-e7321fcd1538
- 66. Software Engineer, Infrastructure Security — openai (US - Remote) [$266K – $445K • Offers Equity]
+ 35. AI Platform Engineer — supabase (Remote, Global)
+     https://jobs.ashbyhq.com/supabase/3b5d54ca-741b-45ac-bd3f-31605a0d3541
+ 36. Software Engineer, Infrastructure Security — openai (US - Remote) [$266K – $445K • Offers Equity]
      https://jobs.ashbyhq.com/openai/98ad9beb-4f91-496c-bd16-ac0b2a8d5bb2
- 67. Software Engineer, Full Stack (People Innovation) — openai (US - Remote) [$153K – $385K • Offers Equity]
+ 37. Software Engineer, Full Stack (People Innovation) — openai (US - Remote) [$153K – $385K • Offers Equity]
      https://jobs.ashbyhq.com/openai/d4780eac-03ad-4dae-861f-99af22b4287e
- 68. Distributed Systems Engineer — Canonical (Anywhere)
-     https://jobicy.com/jobs/156945-distributed-systems-engineer-3
- 69. Backend Engineer, Core Technology — Stripe (US-Remote, Chicago, Seattle, San Francisco)
-     https://stripe.com/jobs/search?gh_jid=6042172
- 70. Senior Backend Engineer, Database Excellence (Ruby) — GitLab (Remote, United Kingdom)
-     https://job-boards.greenhouse.io/gitlab/jobs/8778943002
- 71. Senior Backend Engineer — HackerRank Careers (Hybrid in Santa Clara, CA)
-     https://job-boards.greenhouse.io/hackerrank/jobs/7729208
- 72. Senior Backend Engineer — DuckDuckGo (Remote) [USD 190k]
-     https://remoteOK.com/remote-jobs/remote-senior-backend-engineer-duckduckgo-1137551
- 73. Backend Software Engineer, Cooperative AI (Evals)  — openai (San Francisco) [$266K – $445K • Offers Equity]
-     https://jobs.ashbyhq.com/openai/3d064454-c0c3-4225-bc2c-6d8c0f8735b2
- 74. Software Engineer - Distributed Systems — Figma (San Francisco, CA • New York, NY • United States)
+ 38. Infrastructure Engineer — railway (Global)
+     https://jobs.ashbyhq.com/railway/b8072f95-043f-404d-a313-f0bdf8dd3c81
+ 39. Software Engineer - Distributed Systems — Figma (San Francisco, CA • New York, NY • United States)
      https://boards.greenhouse.io/figma/jobs/5552549004?gh_jid=5552549004
- 75. Backend Software Engineer, Applied Foundations — openai (San Francisco) [$266K – $445K • Offers Equity]
+ 40. Distributed Systems Engineer — Canonical (Anywhere)
+     https://jobicy.com/jobs/156945-distributed-systems-engineer-3
+ 41. Backend Engineer, Core Technology — Stripe (US-Remote, Chicago, Seattle, San Francisco)
+     https://stripe.com/jobs/search?gh_jid=6042172
+ 42. Backend Software Engineer, Cooperative AI (Evals)  — openai (San Francisco) [$266K – $445K • Offers Equity]
+     https://jobs.ashbyhq.com/openai/3d064454-c0c3-4225-bc2c-6d8c0f8735b2
+ 43. Backend Software Engineer, Applied Foundations — openai (San Francisco) [$266K – $445K • Offers Equity]
      https://jobs.ashbyhq.com/openai/b398e1c6-0c32-4464-bb34-6ccda901b688
- 76. Backend Engineer, Consumer Devices — openai (San Francisco) [$293K – $325K • Offers Equity]
+ 44. Software Engineer - Backend — snowflake (US-CA-Menlo Park) [$157K – $230K]
+     https://jobs.ashbyhq.com/snowflake/3eb872af-0ab1-4986-8f72-e7321fcd1538
+ 45. Backend Engineer, Consumer Devices — openai (San Francisco) [$293K – $325K • Offers Equity]
      https://jobs.ashbyhq.com/openai/8e301350-62fb-4251-bc34-c7036498f08c
- 77. Senior Backend Engineer — Tala (APAC)
-     https://jobicy.com/jobs/156465-senior-backend-engineer-11
- 78. Senior Platform Engineer: Storage — railway (Global)
-     https://jobs.ashbyhq.com/railway/25d8444a-47dc-4084-ae56-29a0f0b19b74
- 79. Software Engineer - PlanetScale Postgres — PlanetScale (Remote)
-     https://job-boards.greenhouse.io/planetscale/jobs/4251150009
- 80. Golang Engineer — Canonical (Anywhere)
-     https://jobicy.com/jobs/149538-golang-engineer-2
- 81. Backend Engineer (Ruby), Create: Change Record — GitLab (Remote, Poland; Remote, United Kingdom)
-     https://job-boards.greenhouse.io/gitlab/jobs/8891301002
- 82. IT Systems Engineer, Client Platform Engineer, macOS — Anthropic (Boston, MA; Remote-Friendly (Travel-Required) | San Francisco, CA | Seattle, WA | New York City, NY; Washington, DC)
-     https://job-boards.greenhouse.io/anthropic/jobs/5445625008
- 83. Senior DevOps Engineer — Lemon.io (Remote) [USD 50k–150k]
-     https://remoteOK.com/remote-jobs/remote-senior-devops-engineer-lemon-io-1137557
- 84. Software Engineer, Platform Engineering (L2) — Twilio (Remote - US)
+ 46. Software Engineer, Platform Engineering (L2) — Twilio (Remote - US)
      https://job-boards.greenhouse.io/twilio/jobs/8026207
- 85. Sr. Python Developer — Riverhouse Technologies (Suriname) [USD 1000k–2000k]
-     https://himalayas.app/companies/riverhouse-technologies/jobs/sr-python-developer?utm_source=api
- 86. Client Platform Engineer — openai (San Francisco) [$347K – $445K • Offers Equity]
-     https://jobs.ashbyhq.com/openai/329fe50f-7701-4f07-982d-a4e10cbec236
- 87. Software Engineer, Backend — Stripe (Seattle, WA)
-     https://stripe.com/jobs/search?gh_jid=8198280
- 88. Senior Backend Engineer — Rain (Remote)
-     https://remoteOK.com/remote-jobs/remote-senior-backend-engineer-rain-1137544
- 89. Senior Backend Engineer, Core DevOps — GitLab (Remote, United Kingdom)
-     https://job-boards.greenhouse.io/gitlab/jobs/8689243002
- 90. Senior Backend Engineer, Core DevOps: Container Registry — GitLab (Remote, United Kingdom)
-     https://job-boards.greenhouse.io/gitlab/jobs/8687958002
- 91. Data Platform Engineer — Figma (San Francisco, CA • New York, NY • United States)
-     https://boards.greenhouse.io/figma/jobs/6201407004?gh_jid=6201407004
- 92. Pre-training Data Infrastructure Engineer — Anthropic (San Francisco, CA)
-     https://job-boards.greenhouse.io/anthropic/jobs/4973067008
- 93. Senior Backend Engineer Build AI Agents — Salesforge (Remote)
-     https://remoteOK.com/remote-jobs/remote-senior-backend-engineer-build-ai-agents-salesforge-1137114
- 94. Machine Learning Infrastructure Engineer, Safeguards Research — Anthropic (San Francisco, CA | New York City, NY)
-     https://job-boards.greenhouse.io/anthropic/jobs/5364804008
- 95. Python and Kubernetes Software Engineer - Data, Workflows, AI/ML & Analytics — Canonical (Anywhere)
-     https://jobicy.com/jobs/149563-python-and-kubernetes-software-engineer-data-workflows-ai-ml-analytics
- 96. Software Engineer (L2) — Twilio (Remote - US)
+ 47. Software Engineer I, Fullstack (Search) — Affirm (Remote US)
+     https://job-boards.greenhouse.io/affirm/jobs/8017340003
+ 48. Software Engineer - PlanetScale Postgres — PlanetScale (Remote)
+     https://job-boards.greenhouse.io/planetscale/jobs/4251150009
+ 49. Software Engineer I — amplitude (San Francisco)
+     https://jobs.ashbyhq.com/amplitude/9c43576b-d16f-4192-a366-7c9eb689c4be
+ 50. Software Engineer - Storage — supabase (Remote, Global)
+     https://jobs.ashbyhq.com/supabase/9f2ba0b2-6d3b-43ea-990f-5b4bf3930520
+ 51. Software Engineer (L2) — Twilio (Remote - US)
      https://job-boards.greenhouse.io/twilio/jobs/8100236
- 97. Software Engineer, AI Coding Tasks — Askable (Worldwide) [$1000 per task]
+ 52. Software Engineer - Video — Twilio (Remote - US)
+     https://job-boards.greenhouse.io/twilio/jobs/7661919
+ 53. Software Engineer, Streaming Platform — sentry (San Francisco, California) [$155K – $190K • Offers Equity]
+     https://jobs.ashbyhq.com/sentry/5ee81d6f-e837-43bb-af06-8f26c992a766
+ 54. Software Engineer - Postgres — snowflake (US-CA-Menlo Park) [$160K – $230K • Offers Equity]
+     https://jobs.ashbyhq.com/snowflake/6e96b818-2350-4601-8bdd-7ddd6c4a5f6d
+ 55. Golang Engineer — Canonical (Anywhere)
+     https://jobicy.com/jobs/149538-golang-engineer-2
+ 56. Backend Engineer (Ruby), Create: Change Record — GitLab (Remote, Poland; Remote, United Kingdom)
+     https://job-boards.greenhouse.io/gitlab/jobs/8891301002
+ 57. IT Systems Engineer, Client Platform Engineer, macOS — Anthropic (Boston, MA; Remote-Friendly (Travel-Required) | San Francisco, CA | Seattle, WA | New York City, NY; Washington, DC)
+     https://job-boards.greenhouse.io/anthropic/jobs/5445625008
+ 58. Software Engineer, Backend — Stripe (Seattle, WA)
+     https://stripe.com/jobs/search?gh_jid=8198280
+ 59. Software Engineer II, Backend (Decisions Orchestration) — Affirm (Remote Canada)
+     https://job-boards.greenhouse.io/affirm/jobs/8003018003
+ 60. Client Platform Engineer — openai (San Francisco) [$347K – $445K • Offers Equity]
+     https://jobs.ashbyhq.com/openai/329fe50f-7701-4f07-982d-a4e10cbec236
+ 61. Pre-training Data Infrastructure Engineer — Anthropic (San Francisco, CA)
+     https://job-boards.greenhouse.io/anthropic/jobs/4973067008
+ 62. Machine Learning Infrastructure Engineer, Safeguards Research — Anthropic (San Francisco, CA | New York City, NY)
+     https://job-boards.greenhouse.io/anthropic/jobs/5364804008
+ 63. Software Engineer, Platform Access (L2) — Twilio (Remote - US)
+     https://job-boards.greenhouse.io/twilio/jobs/8026211
+ 64. Python and Kubernetes Software Engineer - Data, Workflows, AI/ML & Analytics — Canonical (Anywhere)
+     https://jobicy.com/jobs/149563-python-and-kubernetes-software-engineer-data-workflows-ai-ml-analytics
+ 65. Software Engineer, AI Coding Tasks — Askable (Worldwide) [$1000 per task]
      https://remotive.com/remote-jobs/software-development/software-engineer-ai-coding-tasks-2091158
- 98. Sr. Software Engineer II, AI Platform — Samsara (Remote - SF Bay Area)
-     https://www.samsara.com/company/careers/roles/8050373?gh_jid=8050373
- 99. DESARROLLADOR FULL STACK — Kruger NearShore LLC - Rekluti (Remote)
+ 66. Analytics Engineer II, Full Stack (Revenue Analytics) — Affirm (Remote Poland)
+     https://job-boards.greenhouse.io/affirm/jobs/7813362003
+ 67. DESARROLLADOR FULL STACK — Kruger NearShore LLC - Rekluti (Remote)
      https://remoteOK.com/remote-jobs/remote-desarrollador-full-stack-kruger-nearshore-llc-rekluti-1137062
-100. Backend Engineer, Developer SDKs — Stripe (Toronto, NY, SEA, SF)
+ 68. Software Engineer L2-Messaging API — Twilio (Remote - US)
+     https://job-boards.greenhouse.io/twilio/jobs/7816159
+ 69. Software Engineer — Stripe (Seattle, WA)
+     https://stripe.com/jobs/search?gh_jid=8267736
+ 70. Software Engineer - Internal Tools — PlanetScale (San Francisco Office)
+     https://job-boards.greenhouse.io/planetscale/jobs/4389100009
+ 71. Backend Engineer- Inference Services — deepgram (USA - Remote) [$150K – $220K • Offers Equity • Offers Bonus • 10% Annual Bonus]
+     https://jobs.ashbyhq.com/deepgram/2084edc0-2df0-4bd4-b759-0f05c38d5ef5
+ 72. Backend Engineer (Python),AI Engineering: Agent Foundations — GitLab (Remote, Canada; Remote, Poland; Remote, United Kingdom)
+     https://job-boards.greenhouse.io/gitlab/jobs/8704363002
+ 73. Backend Engineer (Ruby), AI Engineering: Agent Foundations — GitLab (Remote, Canada; Remote, Poland; Remote, United Kingdom)
+     https://job-boards.greenhouse.io/gitlab/jobs/8620720002
+ 74. Software Engineer, Trust & Safety — Vercel (Hybrid - San Francisco, New York City)
+     https://job-boards.greenhouse.io/vercel/jobs/5649459004
+ 75. Infrastructure Software Engineer, Enterprise GenAI — Scale AI (San Francisco, CA; New York, NY)
+     https://job-boards.greenhouse.io/scaleai/jobs/4665557005
+ 76. Software Engineer - AI Enablement — Scale AI (San Francisco, CA)
+     https://job-boards.greenhouse.io/scaleai/jobs/4722512005
+ 77. Software Engineer, Enterprise AI — Scale AI (New York, NY; San Francisco, CA)
+     https://job-boards.greenhouse.io/scaleai/jobs/4513943005
+ 78. Backend Engineer, Developer SDKs — Stripe (Toronto, NY, SEA, SF)
      https://stripe.com/jobs/search?gh_jid=7557899
+ 79. Systems Engineer - Data Security — Cloudflare (Hybrid)
+     https://boards.greenhouse.io/cloudflare/jobs/8257140?gh_jid=8257140
+ 80. Software Engineer, Backend — Vercel (Remote - United States)
+     https://job-boards.greenhouse.io/vercel/jobs/5430088004
+ 81. Fullstack Engineer - Marketplace — snowflake (US-CA-Menlo Park) [$160K – $230K]
+     https://jobs.ashbyhq.com/snowflake/a51a1e30-94ec-4550-b39f-90ef328dfa87
+ 82. Platform Infrastructure Engineer — snowflake (PL-Warsaw-Lixa C)
+     https://jobs.ashbyhq.com/snowflake/cbc2087c-f5fc-48b7-8d23-114836a42e3e
+ 83. Software Engineer - Growth & Monetization — Figma (San Francisco, CA • New York, NY • United States)
+     https://boards.greenhouse.io/figma/jobs/5552560004?gh_jid=5552560004
+ 84. Software Engineer - Data Platform — Samsara (Remote - US)
+     https://www.samsara.com/company/careers/roles/7922530?gh_jid=7922530
+ 85. Cloud and Platform Engineer — SwissPeak Partners GmbH (Zurich, Zürich, Switzerland)
+     https://www.arbeitnow.ch/jobs/companies/swisspeak-partners-gmbh/cloud-and-platform-engineer-zurich-469761
+ 86. Backend Engineer, Privy — Stripe (NYC-Privy)
+     https://stripe.com/jobs/search?gh_jid=7235875
+ 87. Software Engineer II, Backend (Online Storage) — Affirm (Remote Canada)
+     https://job-boards.greenhouse.io/affirm/jobs/8012043003
+ 88. Software Engineer — Engineering Systems, Continuous Integration — snowflake (US-WA-Bellevue) [$160K – $230K]
+     https://jobs.ashbyhq.com/snowflake/37ad5524-1716-4b54-8c3a-a81429592a91
+ 89. Software Engineer - SnowConvert AI — snowflake (US-CA-Menlo Park) [$160K – $230K]
+     https://jobs.ashbyhq.com/snowflake/2a928b93-a5d4-4285-a92c-032fb389faa2
+ 90. Software Engineer - Backend — Databricks (Belgrade, Serbia)
+     https://databricks.com/company/careers/open-positions/job?gh_jid=8012650002
+ 91. Platform Engineer II — Duolingo (New York, NY)
+     https://careers.duolingo.com/jobs/8778700002?gh_jid=8778700002
+ 92. Software Engineer, Data Infrastructure — cohere (New York) [$160K – $325K • Offers Equity • Multiple Ranges]
+     https://jobs.ashbyhq.com/cohere/6aa3cb2b-ee8b-4c92-b505-3a7509f80d7f
+ 93. DevOps Engineer, Infrastructure & Security — Scale AI (Washington, DC)
+     https://job-boards.greenhouse.io/scaleai/jobs/4674863005
+ 94. Software Engineer — Mirantis (Remote)
+     https://remoteOK.com/remote-jobs/remote-software-engineer-mirantis-1137387
+ 95. Backend/API Engineer, Money as a Service — Stripe (US)
+     https://stripe.com/jobs/search?gh_jid=6176758
+ 96. Systems Engineer, Network Protocols & Distributed Systems — Cloudflare (Hybrid)
+     https://boards.greenhouse.io/cloudflare/jobs/8187404?gh_jid=8187404
+ 97. Software Engineer, Distributed Systems  — Mixpanel (San Francisco, US (Hybrid))
+     https://job-boards.greenhouse.io/mixpanel/jobs/8162414
+ 98. Research Engineer / Performance Engineer, RL Distributed Systems — Anthropic (San Francisco, CA | New York City, NY | Seattle, WA)
+     https://job-boards.greenhouse.io/anthropic/jobs/5438030008
+ 99. ML Ops Infrastructure Engineer — deepgram (USA - Remote) [$160K – $220K • Offers Equity • Offers Bonus]
+     https://jobs.ashbyhq.com/deepgram/7ced4c1f-4126-44fe-9cf1-da427a9e4e3e
+100. Backend Software Engineer - Engine Team (Voice Agent) — deepgram (USA - Remote) [$150K – $220K • Offers Equity • Offers Bonus • 10% Annual Bonus]
+     https://jobs.ashbyhq.com/deepgram/7c7064bb-2bf0-4f64-81cc-14afe79a15c1
 
 Board searches:
   LinkedIn — backend, India, last 2 days

@@ -1,4 +1,6 @@
-// Merge ATS + remote-board jobs, filter to backend roles Imran can actually apply to, rank, take 100.
+// Merge ATS + remote-board jobs, rigorously filtered for Imran's exact experience:
+// Backend Engineer with ~1.8 to 2 years production experience (Node.js/Express, Python/FastAPI).
+// STRICTLY EXCLUDES: Senior, Lead, Principal, Staff, Architect, Manager, and 4+ years asks.
 const fs = require('fs');
 
 const ats = [...JSON.parse(fs.readFileSync('ats_raw.json','utf8')), ...JSON.parse(fs.readFileSync('ats_raw2.json','utf8'))];
@@ -12,9 +14,14 @@ const TITLE_STRONG = /\b(back[\s-]?end|server[\s-]?side|api engineer|platform en
 const TITLE_GOOD = /\b(software (engineer|developer)|sde|full[\s-]?stack|member of technical staff|applications? engineer|systems engineer|cloud engineer|devops engineer|site reliability|sre|data engineer)\b/i;
 const STACK = /\b(python|fastapi|django|flask|node\.?js|nodejs|express|typescript|postgres(ql)?|redis|docker|kubernetes|aws|gcp|graphql|rest api|restful|microservice|celery|rabbitmq|kafka|sqlalchemy|prisma|mongodb|mysql|grpc|terraform)\b/i;
 
-const TITLE_BAD = /\b(intern|internship|apprentice|principal|staff|distinguished|fellow|director|head of|vp\b|vice president|chief|manager|architect|lead\b|tech lead|em\b|president|recruit|sales|marketing|account executive|customer success|support engineer|solutions? (consultant|architect)|designer|ux|ui designer|writer|content|legal|counsel|finance|accountant|hr\b|people partner|talent|office|executive assistant|security researcher|threat|soc analyst|frontend|front[\s-]end|ios\b|android\b|mobile|unity|game|qa\b|quality assurance|test engineer|sdet|data scientist|research scientist|machine learning scientist|applied scientist|product manager|program manager|project manager|technical program|business|strategy|operations|analyst)\b/i;
-const YEARS_BAD = /\b(?:8|9|10|11|12|15)\s*\+?\s*years\b/i;
-const YEARS_OK = /\b(?:0|1|2|3|4|5|6)\s*[-–to]+\s*(?:3|4|5|6|7)\s*years\b|\b(?:1|2|3)\s*\+?\s*years\b/i;
+// HARD EXCLUSIONS: senior, staff, lead, principal, architect, manager, or wrong domain
+const TITLE_BAD = /\b(sr\.?|senior|lead\b|tech lead|principal|staff|architect|director|head of|vp\b|vice president|chief|manager|tl\b|stl\b|iii\b|iv\b|v\b|level [3-9]|l[3-9]\b|expert|intern|internship|apprentice|distinguished|fellow|em\b|president|recruit|sales|marketing|account executive|customer success|support engineer|solutions? (consultant|architect)|designer|ux|ui designer|writer|content|legal|counsel|finance|accountant|hr\b|people partner|talent|office|executive assistant|security researcher|threat|soc analyst|frontend|front[\s-]end|ios\b|android\b|mobile|unity|game|qa\b|quality assurance|test engineer|sdet|data scientist|research scientist|machine learning scientist|applied scientist|product manager|program manager|project manager|technical program|business|strategy|operations|analyst)\b/i;
+
+// Experience filter: strictly disqualify 4+ years of experience
+const YEARS_EXCLUDE = /\b(?:[4-9]|1\d)\s*\+?\s*years?(?:\s+of)?\s+(?:experience|exp)\b|\b(?:minimum|at least|req(?:uiring)?)\s+(?:[4-9]|1\d)\s*\+?\s*years?\b|\b(?:[4-9]|1\d)\s*[-–to]+\s*\d+\s*years\b/i;
+
+// Experience sweet spot for Imran (~1.8 - 2 yrs): 1-3 years, 0-2 years, 2+ years, entry/associate/sde1/sde2
+const YEARS_SWEET_SPOT = /\b(?:0|1|2)\s*[-–to]+\s*(?:2|3|4)\s*years?\b|\b(?:1|2)\s*\+?\s*years?(?:\s+of)?\s+(?:experience|exp)\b|\b(?:entry|junior|associate|sde ?[12]|sde ?i{1,2}|mts ?[12]|level ?[12]|l[12]\b)\b/i;
 
 function lpaOf(txt) {
   const t = String(txt || '');
@@ -49,22 +56,30 @@ function normalise(j) {
 function score(j) {
   const t = j.title;
   const hay = `${t} ${j.tags.join(' ')} ${j.full || j.snippet}`;
+  
+  // Hard filters
   if (TITLE_BAD.test(t)) return 0;
+  if (YEARS_EXCLUDE.test(hay)) return 0;
+
   let s = 0;
   if (TITLE_STRONG.test(t)) s += 70;
   else if (TITLE_GOOD.test(t)) s += 42;
   else return 0;
-  if (/\b(python|fastapi|django|flask)\b/i.test(hay)) s += 14;
-  if (/\b(node\.?js|express|typescript)\b/i.test(hay)) s += 12;
-  if (/\b(postgres(ql)?|redis|kafka|rabbitmq|microservice|distributed)\b/i.test(hay)) s += 10;
+
+  // Stack match
+  if (/\b(python|fastapi|django|flask)\b/i.test(hay)) s += 16;
+  if (/\b(node\.?js|express|typescript)\b/i.test(hay)) s += 14;
+  if (/\b(postgres(ql)?|redis|kafka|rabbitmq|microservice|distributed)\b/i.test(hay)) s += 12;
   if (STACK.test(hay)) s += 6;
-  if (/\b(ii|2|l2|sde ?(1|2|i|ii))\b/i.test(t)) s += 10;
-  if (/\bsenior\b/i.test(t)) s -= 6;
-  if (YEARS_BAD.test(hay)) s -= 30;
-  if (YEARS_OK.test(hay)) s += 8;
+
+  // Experience level match
+  if (YEARS_SWEET_SPOT.test(hay) || YEARS_SWEET_SPOT.test(t)) s += 20;
+
+  // Region scoring
   if (j.inIndia) s += 45;
-  else if (j.globalRemote) s += 14;
-  else s -= 22;
+  else if (j.globalRemote) s += 15;
+  else s -= 20;
+
   if (j.lpa && j.lpa >= 8) s += 12;
   return s;
 }
@@ -76,7 +91,7 @@ for (const j of pool) {
   if (!j.title || !j.url || !j.company) continue;
   j.score = score(j);
   if (j.score < 45) continue;
-  if (j.lpa != null && j.lpa < 8) continue;           // explicit sub-8 LPA is excluded
+  if (j.lpa != null && j.lpa < 8) continue;
   const key = (j.title + '|' + j.company).toLowerCase().replace(/[^a-z0-9|]/g, '');
   if (seen.has(key)) continue;
   seen.add(key);
@@ -96,6 +111,10 @@ console.log('final:', final.length, '| india in final:', final.filter(j => j.inI
 const byCo = {};
 final.forEach(j => byCo[j.company] = (byCo[j.company] || 0) + 1);
 console.log('companies:', Object.keys(byCo).length);
-console.log('\n--- first 20 India roles:');
-india.slice(0, 20).forEach(j => console.log(` ${j.score} | ${j.title} @ ${j.company} | ${j.region} | ${j.salaryText || '-'}`));
-fs.writeFileSync('final.json', JSON.stringify({ generated: new Date().toISOString(), usdInr: USD_INR, counts: { pool: pool.length, passed: scored.length, india: india.length }, jobs: final }, null, 1));
+console.log('\n--- first 20 roles (strictly ~1-2 yrs exp):');
+final.slice(0, 20).forEach(j => console.log(` ${j.score} | ${j.title} @ ${j.company} | ${j.region} | ${j.salaryText || '-'}`));
+
+const finalData = JSON.stringify({ generated: new Date().toISOString(), usdInr: USD_INR, counts: { pool: pool.length, passed: scored.length, india: india.length }, jobs: final }, null, 1);
+const path = require('path');
+fs.writeFileSync(path.join('..', 'final.json'), finalData);
+fs.writeFileSync('final.json', finalData);
