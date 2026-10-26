@@ -44,14 +44,22 @@ async function verifySubmission(page, timeoutMs = 7000) {
         '.error, [class*="error"], [class*="helper-text--error"], [aria-invalid="true"], [role="alert"]'
       )).map(e => e.innerText?.trim()).filter(Boolean);
 
-      // 4. Check for ACTIVE, VISIBLE Captcha blocking submission
-      // Excludes hidden page badges (e.g. .grecaptcha-badge in LinkedIn/ATS footers)
+      // 4. Check for ACTIVE, VISIBLE Captcha challenge blocking submission
+      // Excludes passive legal badges (e.g. .grecaptcha-badge, reCAPTCHA v3 anchor)
       const captchaCandidates = Array.from(document.querySelectorAll(
         'iframe[src*="recaptcha"], iframe[src*="hcaptcha"], div[class*="captcha"], #cf-turnstile, [class*="turnstile"]'
       ));
       const activeCaptcha = captchaCandidates.find(el => {
         if (el.classList && el.classList.contains('grecaptcha-badge')) return false;
         if (el.id === 'grecaptcha-badge') return false;
+        if (el.closest && el.closest('.grecaptcha-badge')) return false;
+
+        // Exclude passive anchor iframe (reCAPTCHA v3 score-based badge)
+        const src = (el.getAttribute('src') || '').toLowerCase();
+        const title = (el.getAttribute('title') || '').toLowerCase();
+        if (src.includes('anchor') && !src.includes('challenge')) return false;
+        if (title === 'recaptcha' && !title.includes('challenge')) return false;
+
         try {
           const style = window.getComputedStyle(el);
           if (style.display === 'none' || style.visibility === 'hidden' || style.opacity === '0') return false;
@@ -97,7 +105,12 @@ async function verifySubmission(page, timeoutMs = 7000) {
   }
 
   // Timeout reached without confirmation
-  if (result.hasCaptcha) {
+  const errStr = result.errors.join(' ').toLowerCase();
+  const isAuthGateError = /please enter your (password|email)|no more (previous|next) content|sign in|log in/i.test(errStr);
+
+  if (isAuthGateError) {
+    result.reason = 'Requires platform login (Click "🔐 Open Browser" on dashboard)';
+  } else if (result.hasCaptcha) {
     result.reason = 'CAPTCHA challenge detected on form';
   } else if (result.errors.length > 0) {
     result.reason = `Form validation errors: ${result.errors.slice(0, 3).join('; ')}`;
