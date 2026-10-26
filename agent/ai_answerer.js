@@ -1,24 +1,41 @@
-// Claude AI Application Answer Generator with Fallback Engine
+// AI Application Answer Generator: Gemini 1.5/2.0 + Claude 5.5 + Fallback Engine
+const { GoogleGenerativeAI } = require('@google/generative-ai');
 const Anthropic = require('@anthropic-ai/sdk');
 const fs = require('fs');
 const path = require('path');
 const { PROFILE, generateCoverLetter } = require('./profile');
 
-// Load API Key from environment or .env file
-let API_KEY = process.env.ANTHROPIC_API_KEY || process.env.CLAUDE_API_KEY;
-if (!API_KEY) {
-  const envPath = path.resolve(__dirname, '..', '.env');
-  if (fs.existsSync(envPath)) {
-    const envText = fs.readFileSync(envPath, 'utf8');
-    const match = envText.match(/ANTHROPIC_API_KEY=(.*)/);
-    if (match) API_KEY = match[1].trim();
+// Load API Keys from environment or .env file
+let GEMINI_API_KEY = process.env.GEMINI_API_KEY || process.env.GOOGLE_API_KEY;
+let ANTHROPIC_API_KEY = process.env.ANTHROPIC_API_KEY || process.env.CLAUDE_API_KEY;
+
+const envPath = path.resolve(__dirname, '..', '.env');
+if (fs.existsSync(envPath)) {
+  const envText = fs.readFileSync(envPath, 'utf8');
+  if (!GEMINI_API_KEY) {
+    const match = envText.match(/(?:GEMINI_API_KEY|GOOGLE_API_KEY)=(.*)/);
+    if (match) GEMINI_API_KEY = match[1].trim();
+  }
+  if (!ANTHROPIC_API_KEY) {
+    const match = envText.match(/(?:ANTHROPIC_API_KEY|CLAUDE_API_KEY)=(.*)/);
+    if (match) ANTHROPIC_API_KEY = match[1].trim();
+  }
+}
+
+// Initialize Clients
+let genAI = null;
+if (GEMINI_API_KEY) {
+  try {
+    genAI = new GoogleGenerativeAI(GEMINI_API_KEY);
+  } catch (e) {
+    console.warn('Could not initialize GoogleGenerativeAI client:', e.message);
   }
 }
 
 let anthropic = null;
-if (API_KEY) {
+if (ANTHROPIC_API_KEY) {
   try {
-    anthropic = new Anthropic({ apiKey: API_KEY });
+    anthropic = new Anthropic({ apiKey: ANTHROPIC_API_KEY });
   } catch (e) {
     console.warn('Could not initialize Anthropic client:', e.message);
   }
@@ -47,16 +64,13 @@ const KNOWLEDGE_BASE = {
   location: () => `Based in India (Hyderabad / Mangalore / Bangalore). Open to relocation across India, Dubai/UAE, and Remote positions.`
 };
 
-async function answerQuestion(questionLabel, jobDetails = {}) {
+function buildPrompt(questionLabel, jobDetails) {
   const q = String(questionLabel || '').trim();
   const co = jobDetails.company || 'your company';
   const title = jobDetails.title || 'this role';
   const desc = (jobDetails.snippet || jobDetails.full || '').slice(0, 1000);
 
-  // If Claude API key is configured, use Claude 3.5 Sonnet / Haiku
-  if (anthropic) {
-    try {
-      const prompt = `You are writing a concise job application answer for Imran Pasha.
+  return `You are writing a concise job application answer for Imran Pasha.
 Candidate Profile:
 - Role: Backend Engineer at Sharkify (~1.8-2 yrs exp)
 - Languages/Frameworks: Python (FastAPI), Node.js (Express, TypeScript), SQL
@@ -76,32 +90,50 @@ Instructions:
 3. Keep it under 100 words unless the question asks for a full cover letter or deep project explanation.
 4. Do NOT hallucinate technologies Imran doesn't use (no PySpark, Go, or K8s in prod).
 5. Output ONLY the response text to paste directly into the form.`;
+}
 
-      const candidateModels = ['claude-sonnet-5-5', 'claude-sonnet-4-5-20250929', 'claude-3-5-sonnet-20241022'];
-      let msg = null;
-      for (const modelName of candidateModels) {
-        try {
-          msg = await anthropic.messages.create({
-            model: modelName,
-            max_tokens: 300,
-            temperature: 0.2,
-            messages: [{ role: 'user', content: prompt }]
-          });
-          if (msg && msg.content && msg.content[0]) break;
-        } catch (mErr) {
-          // Try next model
+async function answerQuestion(questionLabel, jobDetails = {}) {
+  const prompt = buildPrompt(questionLabel, jobDetails);
+
+  // 1. PRIORITY 1: Google Gemini (if GEMINI_API_KEY is configured)
+  if (genAI) {
+    const candidateGeminiModels = ['gemini-1.5-flash', 'gemini-1.5-pro', 'gemini-2.0-flash'];
+    for (const modelName of candidateGeminiModels) {
+      try {
+        const model = genAI.getGenerativeModel({ model: modelName });
+        const result = await model.generateContent(prompt);
+        const text = result.response.text();
+        if (text && text.trim()) {
+          return text.trim();
         }
+      } catch (geminiErr) {
+        // Try next gemini model
       }
-
-      if (msg.content && msg.content[0] && msg.content[0].text) {
-        return msg.content[0].text.trim();
-      }
-    } catch (err) {
-      // Fallback
     }
   }
 
-  // Smart Rule-Based Matching
+  // 2. PRIORITY 2: Anthropic Claude (if ANTHROPIC_API_KEY is configured)
+  if (anthropic) {
+    const candidateClaudeModels = ['claude-sonnet-5-5', 'claude-sonnet-4-5-20250929', 'claude-3-5-sonnet-20241022'];
+    for (const modelName of candidateClaudeModels) {
+      try {
+        const msg = await anthropic.messages.create({
+          model: modelName,
+          max_tokens: 300,
+          temperature: 0.2,
+          messages: [{ role: 'user', content: prompt }]
+        });
+        if (msg && msg.content && msg.content[0] && msg.content[0].text) {
+          return msg.content[0].text.trim();
+        }
+      } catch (claudeErr) {
+        // Try next model
+      }
+    }
+  }
+
+  // 3. PRIORITY 3: Smart Rule-Based Production Fallback
+  const q = String(questionLabel || '').trim();
   if (/why (do you want|are you interested|this company|join|us\b)|what excites you/i.test(q)) {
     return KNOWLEDGE_BASE.whyCompany(jobDetails);
   }
