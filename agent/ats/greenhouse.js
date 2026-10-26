@@ -106,7 +106,10 @@ async function handleGreenhouse(page, job) {
     try {
       if (!(await input.isVisible())) continue;
       const id = await input.getAttribute('id') || '';
+      const role = await input.getAttribute('role') || '';
+      const cls = await input.getAttribute('class') || '';
       if (['first_name', 'last_name', 'email', 'phone', 'country'].includes(id)) continue;
+      if (role === 'combobox' || cls.includes('select__input') || id.includes('iti-')) continue;
 
       const curVal = await input.inputValue();
       if (curVal && curVal.trim().length > 0) continue; // Already filled

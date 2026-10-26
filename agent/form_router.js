@@ -113,15 +113,26 @@ async function handleAutoLoginIfRequired(page, job) {
 }
 
 async function processJobPage(page, job) {
-  // Step 1: Automatically handle login prompts if portal requires authentication
-  await handleAutoLoginIfRequired(page, job);
-
   const url = page.url().toLowerCase();
 
-  // Detect ATS type from URL or DOM
-  if (url.includes('linkedin.com/jobs/view') || url.includes('linkedin.com/jobs/collections')) {
-    return await handleLinkedIn(page, job, processJobPage);
+  // Detect if redirected to LinkedIn login or home page
+  if (url.includes('linkedin.com')) {
+    if (url.includes('/jobs/view') || url.includes('/jobs/collections')) {
+      return await handleLinkedIn(page, job, processJobPage);
+    }
+    // Redirected to LinkedIn root, /login, /signup, etc. -> Sign-in barrier!
+    console.log(`ℹ️ [LinkedIn] Redirected to login wall (${url}). Requires active LinkedIn session.`);
+    return {
+      ats: 'LinkedIn',
+      status: 'REQUIRES_AUTH',
+      reason: 'Requires platform login',
+      submitElement: null,
+      questionsAnswered: 0
+    };
   }
+
+  // Step 1: Automatically handle login prompts if external portal requires authentication
+  await handleAutoLoginIfRequired(page, job);
 
   if (url.includes('greenhouse.io') || url.includes('gh_jid=')) {
     return await handleGreenhouse(page, job);

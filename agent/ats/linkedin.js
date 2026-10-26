@@ -28,6 +28,14 @@ async function handleLinkedIn(page, job, processPageCallback) {
     if (offsiteLink) {
       const targetUrl = await offsiteLink.getAttribute('href');
       if (targetUrl) {
+        // If the offsite link redirects to a LinkedIn signup or login wall, skip immediately!
+        if (targetUrl.includes('linkedin.com/signup') || targetUrl.includes('linkedin.com/login') || targetUrl.includes('linkedin.com/uas')) {
+          console.log(`ℹ️ [LinkedIn Handler] ${job.company} external link is a LinkedIn guest sign-in gate.`);
+          result.status = 'REQUIRES_AUTH';
+          result.reason = 'Requires platform login';
+          return result;
+        }
+
         console.log(`🔗 [LinkedIn Handler] Detected external application link for ${job.company}: ${targetUrl.slice(0, 80)}...`);
         await page.goto(targetUrl, { waitUntil: 'domcontentloaded', timeout: 35000 });
         await page.waitForTimeout(2000);
@@ -61,9 +69,27 @@ async function handleLinkedIn(page, job, processPageCallback) {
       await applyBtn.click().catch(() => {});
       await page.waitForTimeout(2000);
 
-      // Handle Easy Apply Modal if opened
+      // Check if clicking apply brought up a sign-in or guest registration prompt
+      const passwordField = await page.$('input[name*="password" i], input[type="password"]');
+      const signInPrompt = await page.$('.contextual-sign-in-modal, [data-modal*="sign-in"], form[action*="login"], form[action*="signin"]');
+      if (passwordField || signInPrompt) {
+        console.log(`ℹ️ [LinkedIn Handler] ${job.company} Easy Apply prompt redirected to sign-in modal.`);
+        result.status = 'REQUIRES_AUTH';
+        result.reason = 'Requires platform login';
+        return result;
+      }
+
+      // Handle Genuine Easy Apply Modal if opened
       const modal = await page.$('.jobs-easy-apply-modal, div[role="dialog"]');
       if (modal) {
+        // Double check modal isn't asking for password
+        const modalHasPassword = await modal.$('input[type="password"]');
+        if (modalHasPassword) {
+          result.status = 'REQUIRES_AUTH';
+          result.reason = 'Requires platform login';
+          return result;
+        }
+
         const phoneInput = await page.$('input[id*="phoneNumber"], input[name*="phoneNumber"], input[type="tel"]');
         if (phoneInput && !(await phoneInput.inputValue())) {
           await phoneInput.fill(PROFILE.phone);

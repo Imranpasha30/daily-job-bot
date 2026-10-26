@@ -184,6 +184,14 @@ class ParallelApplyPool {
 
         const formReport = await processJobPage(page, job);
 
+        if (formReport.status === 'REQUIRES_AUTH') {
+          this.onLog(`[Worker #${workerId}] ℹ️ SKIPPED: ${job.company} — Requires platform login (Click "🔐 Open Browser" on dashboard).`);
+          worker.state = 'IDLE';
+          worker.step = 'Requires platform login';
+          this.onWorkerUpdate(worker);
+          continue;
+        }
+
         if (formReport.questionsAnswered > 0) {
           this.stats.claudeAnswers += formReport.questionsAnswered;
           worker.step = `Gemini 2.5 answered ${formReport.questionsAnswered} questions`;
