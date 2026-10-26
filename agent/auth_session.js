@@ -184,7 +184,27 @@ function isAuthSessionActive() {
   return isBrowserOpen;
 }
 
-function syncFromActiveChrome() {
+async function syncFromActiveChrome() {
+  if (isBrowserOpen && authContext) {
+    try {
+      await authContext.storageState({ path: STORAGE_STATE_FILE });
+      let hasLi = false;
+      if (fs.existsSync(STORAGE_STATE_FILE)) {
+        const state = JSON.parse(fs.readFileSync(STORAGE_STATE_FILE, 'utf8'));
+        hasLi = (state.cookies || []).some(c => c.name === 'li_at');
+      }
+      console.log('🔄 Captured live session state from open browser window.');
+      return { 
+        success: true, 
+        message: hasLi 
+          ? 'Live session captured! LinkedIn login (li_at) is active!' 
+          : 'Live session captured from open browser window. Log into LinkedIn if not yet done.' 
+      };
+    } catch (e) {
+      return { success: false, message: e.message };
+    }
+  }
+
   try {
     const mergeScript = path.resolve(__dirname, '..', 'merge_all_cookies.py');
     console.log('🔄 Merging cookies across all Chrome profiles into .user_browser_profile...');
@@ -192,7 +212,7 @@ function syncFromActiveChrome() {
     console.log('✅ Active Google Chrome profile session synced into bot storage!');
     
     // Also export storageState
-    exportStorageStateFromProfile();
+    await exportStorageStateFromProfile();
     return { success: true, message: 'Active Google Chrome session synchronized successfully!' };
   } catch (err) {
     console.error('Session sync error:', err.message);

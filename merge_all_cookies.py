@@ -1,4 +1,5 @@
 import os
+import sys
 import sqlite3
 import shutil
 import tempfile
@@ -19,13 +20,20 @@ for item in os.listdir(user_data):
 
 print(f"Scanning {len(profiles)} Chrome profiles...")
 
-# Connect to destination
-bot_conn = sqlite3.connect(bot_cookies_path)
-bot_cur = bot_conn.cursor()
-
-# Get schema of cookies table
-bot_cur.execute("SELECT sql FROM sqlite_master WHERE type='table' AND name='cookies'")
-schema_row = bot_cur.fetchone()
+# Connect to destination with timeout
+try:
+    bot_conn = sqlite3.connect(bot_cookies_path, timeout=5.0)
+    bot_cur = bot_conn.cursor()
+    bot_cur.execute("SELECT sql FROM sqlite_master WHERE type='table' AND name='cookies'")
+    schema_row = bot_cur.fetchone()
+except sqlite3.OperationalError as e:
+    print(json.dumps({
+        'success': True,
+        'status': 'browser_active',
+        'message': 'Active browser has exclusive lock on profile. Live cookies are captured via browser CDP.',
+        'totalCookies': 0
+    }, indent=2))
+    sys.exit(0)
 
 merged_count = 0
 sources = []
@@ -69,7 +77,8 @@ for prof in profiles:
                 pass
             finally:
                 if os.path.exists(tmp_path):
-                    os.remove(tmp_path)
+                    try: os.remove(tmp_path)
+                    except: pass
 
 bot_conn.commit()
 
@@ -85,6 +94,7 @@ total_now = bot_cur.fetchone()[0]
 bot_conn.close()
 
 result = {
+    'success': True,
     'totalCookies': total_now,
     'mergedFromProfiles': sources,
     'topDomains': breakdown

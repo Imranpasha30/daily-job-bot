@@ -346,11 +346,11 @@ app.get('/api/auth-status', (req, res) => {
 });
 
 // 1b. Sync Session Directly From Active Chrome Profile
-app.post('/api/auth-session/sync', (req, res) => {
-  const result = syncFromActiveChrome();
+app.post('/api/auth-session/sync', async (req, res) => {
+  const result = await syncFromActiveChrome();
   if (result.success) {
-    addLog('🔄 [Session Synced] Active Google Chrome profile session (LinkedIn & Naukri cookies) imported into bot storage!');
-    broadcast('AUTH_UPDATE', { browserActive: false, status: 'synced', sessionReady: true });
+    addLog(`🔄 [Session Synced] ${result.message}`);
+    broadcast('AUTH_UPDATE', { browserActive: isAuthSessionActive(), status: 'synced', sessionReady: true });
   } else {
     addLog(`⚠️ Session sync note: ${result.message}`);
   }
