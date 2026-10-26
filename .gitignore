@@ -7,3 +7,5 @@ ats_cyber_raw.json
 Thumbs.db
 
 screenshots/
+.env
+.env.local

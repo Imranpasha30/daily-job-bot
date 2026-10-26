@@ -1,8 +1,20 @@
 // Claude AI Application Answer Generator with Fallback Engine
 const Anthropic = require('@anthropic-ai/sdk');
+const fs = require('fs');
+const path = require('path');
 const { PROFILE, generateCoverLetter } = require('./profile');
 
-const API_KEY = process.env.ANTHROPIC_API_KEY || process.env.CLAUDE_API_KEY;
+// Load API Key from environment or .env file
+let API_KEY = process.env.ANTHROPIC_API_KEY || process.env.CLAUDE_API_KEY;
+if (!API_KEY) {
+  const envPath = path.resolve(__dirname, '..', '.env');
+  if (fs.existsSync(envPath)) {
+    const envText = fs.readFileSync(envPath, 'utf8');
+    const match = envText.match(/ANTHROPIC_API_KEY=(.*)/);
+    if (match) API_KEY = match[1].trim();
+  }
+}
+
 let anthropic = null;
 if (API_KEY) {
   try {
@@ -65,12 +77,21 @@ Instructions:
 4. Do NOT hallucinate technologies Imran doesn't use (no PySpark, Go, or K8s in prod).
 5. Output ONLY the response text to paste directly into the form.`;
 
-      const msg = await anthropic.messages.create({
-        model: 'claude-3-5-sonnet-20241022',
-        max_tokens: 300,
-        temperature: 0.2,
-        messages: [{ role: 'user', content: prompt }]
-      });
+      const candidateModels = ['claude-sonnet-5-5', 'claude-sonnet-4-5-20250929', 'claude-3-5-sonnet-20241022'];
+      let msg = null;
+      for (const modelName of candidateModels) {
+        try {
+          msg = await anthropic.messages.create({
+            model: modelName,
+            max_tokens: 300,
+            temperature: 0.2,
+            messages: [{ role: 'user', content: prompt }]
+          });
+          if (msg && msg.content && msg.content[0]) break;
+        } catch (mErr) {
+          // Try next model
+        }
+      }
 
       if (msg.content && msg.content[0] && msg.content[0].text) {
         return msg.content[0].text.trim();

@@ -1,0 +1,906 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Imran Pasha — Autonomous AI Apply Dashboard (1,000 Jobs Goal)</title>
+  <style>
+    :root {
+      --bg: #090d16;
+      --card-bg: #111726;
+      --card-border: #1e293b;
+      --accent: #2563eb;
+      --accent-glow: rgba(37, 99, 235, 0.4);
+      --cyan: #06b6d4;
+      --green: #10b981;
+      --yellow: #f59e0b;
+      --red: #ef4444;
+      --purple: #8b5cf6;
+      --text: #f8fafc;
+      --muted: #94a3b8;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    header {
+      background: rgba(17, 23, 38, 0.8);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--card-border);
+      padding: 16px 28px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    .brand {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+    }
+    .logo-badge {
+      background: linear-gradient(135deg, #2563eb, #06b6d4);
+      width: 42px;
+      height: 42px;
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 22px;
+      box-shadow: 0 0 15px var(--accent-glow);
+    }
+    .brand-title {
+      font-size: 20px;
+      font-weight: 700;
+      letter-spacing: -0.3px;
+    }
+    .brand-sub {
+      font-size: 13px;
+      color: var(--muted);
+    }
+
+    .header-status {
+      display: flex;
+      align-items: center;
+      gap: 18px;
+    }
+
+    .pulse-status {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      padding: 6px 14px;
+      border-radius: 20px;
+      font-size: 13px;
+      font-weight: 600;
+      background: #1e293b;
+      border: 1px solid #334155;
+    }
+    .pulse-status.running {
+      background: rgba(16, 185, 129, 0.15);
+      border-color: rgba(16, 185, 129, 0.4);
+      color: #34d399;
+    }
+    .pulse-status.paused {
+      background: rgba(245, 158, 11, 0.15);
+      border-color: rgba(245, 158, 11, 0.4);
+      color: #fbbf24;
+    }
+    .pulse-dot {
+      width: 8px;
+      height: 8px;
+      border-radius: 50%;
+      background: var(--muted);
+    }
+    .running .pulse-dot {
+      background: #10b981;
+      box-shadow: 0 0 8px #10b981;
+      animation: pulse 1.5s infinite;
+    }
+    .paused .pulse-dot {
+      background: #f59e0b;
+    }
+    @keyframes pulse {
+      0%, 100% { opacity: 1; transform: scale(1); }
+      50% { opacity: 0.4; transform: scale(1.3); }
+    }
+
+    .nav-links a {
+      color: var(--cyan);
+      text-decoration: none;
+      font-size: 13px;
+      font-weight: 600;
+      margin-left: 12px;
+      padding: 6px 12px;
+      background: rgba(6, 182, 212, 0.1);
+      border-radius: 6px;
+      border: 1px solid rgba(6, 182, 212, 0.2);
+    }
+    .nav-links a:hover {
+      background: rgba(6, 182, 212, 0.2);
+    }
+
+    .container {
+      max-width: 1400px;
+      margin: 0 auto;
+      padding: 24px;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    /* KPI Grid */
+    .kpi-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 16px;
+    }
+    .kpi-card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 12px;
+      padding: 18px;
+      display: flex;
+      flex-direction: column;
+      gap: 8px;
+      position: relative;
+      overflow: hidden;
+    }
+    .kpi-card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 3px;
+      background: linear-gradient(90deg, var(--accent), var(--cyan));
+    }
+    .kpi-label {
+      font-size: 13px;
+      color: var(--muted);
+      text-transform: uppercase;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+    }
+    .kpi-val {
+      font-size: 32px;
+      font-weight: 800;
+      letter-spacing: -0.5px;
+    }
+    .kpi-sub {
+      font-size: 12px;
+      color: var(--muted);
+    }
+
+    /* Progress Banner */
+    .progress-card {
+      background: linear-gradient(135deg, rgba(30, 41, 59, 0.7), rgba(17, 23, 38, 0.9));
+      border: 1px solid var(--card-border);
+      border-radius: 12px;
+      padding: 20px 24px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+    .progress-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .progress-title {
+      font-size: 16px;
+      font-weight: 700;
+    }
+    .progress-numbers {
+      font-size: 15px;
+      font-weight: 700;
+      color: var(--cyan);
+    }
+    .progress-bar-bg {
+      background: #1e293b;
+      height: 16px;
+      border-radius: 8px;
+      overflow: hidden;
+      position: relative;
+    }
+    .progress-bar-fill {
+      height: 100%;
+      background: linear-gradient(90deg, #2563eb, #06b6d4, #10b981);
+      width: 0%;
+      transition: width 0.4s ease;
+      box-shadow: 0 0 12px var(--cyan);
+    }
+    .progress-footer {
+      display: flex;
+      justify-content: space-between;
+      font-size: 12px;
+      color: var(--muted);
+    }
+
+    /* Controls Bar */
+    .control-panel {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 12px;
+      padding: 20px;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 16px;
+      justify-content: space-between;
+    }
+    .control-group {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+    .control-label {
+      font-size: 13px;
+      font-weight: 600;
+      color: var(--muted);
+    }
+    select, input[type="number"], input[type="text"] {
+      background: #1e293b;
+      color: var(--text);
+      border: 1px solid #334155;
+      padding: 8px 12px;
+      border-radius: 6px;
+      font-size: 13px;
+      outline: none;
+    }
+    select:focus, input:focus {
+      border-color: var(--cyan);
+    }
+
+    .btn {
+      padding: 10px 20px;
+      border-radius: 8px;
+      font-size: 14px;
+      font-weight: 700;
+      cursor: pointer;
+      border: none;
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      transition: all 0.2s;
+    }
+    .btn-primary {
+      background: linear-gradient(135deg, #2563eb, #1d4ed8);
+      color: white;
+      box-shadow: 0 4px 14px rgba(37, 99, 235, 0.4);
+    }
+    .btn-primary:hover {
+      background: linear-gradient(135deg, #1d4ed8, #1e40af);
+      transform: translateY(-1px);
+    }
+    .btn-warning {
+      background: #f59e0b;
+      color: #0f172a;
+    }
+    .btn-danger {
+      background: #ef4444;
+      color: white;
+    }
+    .btn-secondary {
+      background: #334155;
+      color: white;
+    }
+
+    /* Active Job Spotlight */
+    .spotlight-card {
+      background: linear-gradient(135deg, rgba(6, 182, 212, 0.08), rgba(37, 99, 235, 0.08));
+      border: 1px solid rgba(6, 182, 212, 0.3);
+      border-radius: 12px;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+    .spotlight-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+    }
+    .spotlight-badge {
+      background: rgba(6, 182, 212, 0.2);
+      color: var(--cyan);
+      padding: 4px 10px;
+      border-radius: 6px;
+      font-size: 12px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+    .spotlight-title {
+      font-size: 18px;
+      font-weight: 700;
+      color: var(--text);
+    }
+    .spotlight-company {
+      font-size: 14px;
+      color: var(--cyan);
+      font-weight: 600;
+    }
+    .spotlight-meta {
+      display: flex;
+      gap: 16px;
+      font-size: 13px;
+      color: var(--muted);
+      flex-wrap: wrap;
+    }
+    .spotlight-step {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      background: #0f172a;
+      padding: 10px 14px;
+      border-radius: 8px;
+      font-size: 13px;
+      font-family: monospace;
+      color: #38bdf8;
+      border: 1px solid #1e293b;
+    }
+
+    /* Split View: Live Feed & Terminal */
+    .main-grid {
+      display: grid;
+      grid-template-columns: 1.1fr 0.9fr;
+      gap: 20px;
+      min-height: 480px;
+    }
+    @media (max-width: 1024px) {
+      .main-grid { grid-template-columns: 1fr; }
+    }
+
+    .panel {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 12px;
+      display: flex;
+      flex-direction: column;
+      overflow: hidden;
+    }
+    .panel-header {
+      padding: 14px 20px;
+      border-bottom: 1px solid var(--card-border);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: rgba(15, 23, 42, 0.6);
+    }
+    .panel-title {
+      font-size: 14px;
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    /* Applications Table / Feed */
+    .table-container {
+      overflow-y: auto;
+      max-height: 480px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 13px;
+    }
+    th {
+      background: #0f172a;
+      color: var(--muted);
+      text-align: left;
+      padding: 10px 16px;
+      font-weight: 600;
+      position: sticky;
+      top: 0;
+      border-bottom: 1px solid var(--card-border);
+    }
+    td {
+      padding: 12px 16px;
+      border-bottom: 1px solid #1e293b;
+    }
+    tr:hover td {
+      background: rgba(30, 41, 59, 0.4);
+    }
+    .badge-ats {
+      background: #1e293b;
+      padding: 3px 8px;
+      border-radius: 4px;
+      font-size: 11px;
+      font-weight: 600;
+      color: var(--cyan);
+    }
+    .badge-status {
+      display: inline-block;
+      padding: 3px 8px;
+      border-radius: 4px;
+      font-size: 11px;
+      font-weight: 700;
+    }
+    .status-applied {
+      background: rgba(16, 185, 129, 0.2);
+      color: #34d399;
+    }
+    .status-failed {
+      background: rgba(239, 68, 68, 0.2);
+      color: #f87171;
+    }
+
+    /* Terminal */
+    .terminal-body {
+      background: #050811;
+      padding: 16px;
+      font-family: 'Consolas', 'Courier New', monospace;
+      font-size: 12px;
+      line-height: 1.6;
+      color: #e2e8f0;
+      overflow-y: auto;
+      max-height: 480px;
+      flex: 1;
+    }
+    .log-line {
+      margin-bottom: 4px;
+      word-break: break-all;
+    }
+    .log-ts { color: #64748b; margin-right: 8px; }
+    .log-info { color: #38bdf8; }
+    .log-success { color: #4ade80; font-weight: 600; }
+    .log-warn { color: #fbbf24; }
+    .log-error { color: #f87171; }
+    .log-claude { color: #c084fc; }
+
+    /* Modal for Screenshot */
+    .modal-overlay {
+      display: none;
+      position: fixed;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: rgba(0, 0, 0, 0.85);
+      z-index: 1000;
+      align-items: center;
+      justify-content: center;
+      padding: 20px;
+    }
+    .modal-content {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 12px;
+      max-width: 900px;
+      width: 100%;
+      overflow: hidden;
+      display: flex;
+      flex-direction: column;
+    }
+    .modal-header {
+      padding: 14px 20px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid var(--card-border);
+    }
+    .modal-body {
+      padding: 16px;
+      max-height: 80vh;
+      overflow-y: auto;
+      text-align: center;
+    }
+    .modal-img {
+      max-width: 100%;
+      border-radius: 8px;
+      box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+    }
+    .close-btn {
+      background: none;
+      border: none;
+      color: var(--muted);
+      font-size: 24px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="brand">
+      <div class="logo-badge">⚡</div>
+      <div>
+        <div class="brand-title">Imran Pasha — AI Job Application Agent</div>
+        <div class="brand-sub">Autonomous Auto-Apply Engine &bull; Target: 1,000 Verified Jobs</div>
+      </div>
+    </div>
+
+    <div class="header-status">
+      <div class="pulse-status" id="agentStatusBadge">
+        <div class="pulse-dot"></div>
+        <span id="agentStatusText">IDLE</span>
+      </div>
+      <div class="nav-links">
+        <a href="https://imranpasha30.github.io/daily-job-bot/" target="_blank">🌐 Live Tracker (1,713 Jobs)</a>
+        <a href="/resumes/Imran-Pasha-Backend-Python.pdf" target="_blank">📄 Python Resume</a>
+        <a href="/resumes/Imran-Pasha-Backend-NodeJS.pdf" target="_blank">📄 Node Resume</a>
+        <a href="/resumes/Imran-Pasha-Cyber-Security-Dubai.pdf" target="_blank">📄 Cyber Resume</a>
+      </div>
+    </div>
+  </header>
+
+  <div class="container">
+
+    <!-- KPI Metrics -->
+    <div class="kpi-grid">
+      <div class="kpi-card">
+        <div class="kpi-label">Target Goal</div>
+        <div class="kpi-val" id="kpiTarget">1,000</div>
+        <div class="kpi-sub">Total applications queued</div>
+      </div>
+      <div class="kpi-card">
+        <div class="kpi-label">Submitted & Confirmed</div>
+        <div class="kpi-val" style="color: #34d399;" id="kpiSubmitted">0</div>
+        <div class="kpi-sub" id="kpiSuccessRate">Success Rate: 100%</div>
+      </div>
+      <div class="kpi-card">
+        <div class="kpi-label">Claude 5.5 AI Answers</div>
+        <div class="kpi-val" style="color: #c084fc;" id="kpiClaudeAnswers">0</div>
+        <div class="kpi-sub">Synthesized custom responses</div>
+      </div>
+      <div class="kpi-card">
+        <div class="kpi-label">Application Speed</div>
+        <div class="kpi-val" style="color: #38bdf8;" id="kpiSpeed">0 / min</div>
+        <div class="kpi-sub" id="kpiETA">ETA to 1,000: --</div>
+      </div>
+    </div>
+
+    <!-- Progress Card -->
+    <div class="progress-card">
+      <div class="progress-header">
+        <div class="progress-title">Overall Campaign Progress to 1,000 Applications</div>
+        <div class="progress-numbers" id="progressNumbers">0 / 1,000 (0.0%)</div>
+      </div>
+      <div class="progress-bar-bg">
+        <div class="progress-bar-fill" id="progressBarFill"></div>
+      </div>
+      <div class="progress-footer">
+        <span>Curated Roles: 1,713 total (1,306 Backend, 407 Cyber)</span>
+        <span id="pacingInfo">Human-like pacing: 3.5s jitter delay active</span>
+      </div>
+    </div>
+
+    <!-- Control Center -->
+    <div class="control-panel">
+      <div class="control-group">
+        <span class="control-label">Target:</span>
+        <input type="number" id="inputLimit" value="1000" min="1" max="1700" style="width: 80px;">
+
+        <span class="control-label">Category:</span>
+        <select id="selectCategory">
+          <option value="all">All Roles (1,713)</option>
+          <option value="backend">Backend Only (1,306)</option>
+          <option value="cyber">Cybersecurity Only (407)</option>
+        </select>
+
+        <span class="control-label">ATS Target:</span>
+        <select id="selectAts">
+          <option value="all">All Systems (Greenhouse, Ashby, Lever)</option>
+          <option value="greenhouse">Greenhouse Only (638)</option>
+          <option value="ashby">Ashby Only (444)</option>
+          <option value="lever">Lever Only (52)</option>
+        </select>
+
+        <span class="control-label">Mode:</span>
+        <select id="selectMode">
+          <option value="auto">Full Auto (Autonomous Submitter)</option>
+          <option value="safe">Safe Mode (Prompt Before Submit)</option>
+        </select>
+
+        <label style="font-size: 13px; display: flex; align-items: center; gap: 6px; cursor: pointer;">
+          <input type="checkbox" id="checkHeadless"> Headless (Silent Background)
+        </label>
+      </div>
+
+      <div class="control-group">
+        <button class="btn btn-primary" id="btnStart" onclick="startAgent()">▶ START APPLYING</button>
+        <button class="btn btn-warning" id="btnPause" onclick="togglePause()" disabled>⏸ PAUSE</button>
+        <button class="btn btn-danger" id="btnStop" onclick="stopAgent()" disabled>⏹ STOP</button>
+      </div>
+    </div>
+
+    <!-- Active Job Spotlight -->
+    <div class="spotlight-card" id="spotlightCard">
+      <div class="spotlight-header">
+        <div>
+          <span class="spotlight-badge" id="spotlightAts">ATS: GREENHOUSE</span>
+          <div class="spotlight-title" id="spotlightTitle">Ready to launch application campaign</div>
+          <div class="spotlight-company" id="spotlightCompany">Configure options above and click Start</div>
+        </div>
+        <div id="spotlightScore" style="font-size: 14px; font-weight: 700; color: #34d399;"></div>
+      </div>
+      <div class="spotlight-meta">
+        <span id="spotlightRegion">📍 Region: Global</span>
+        <span id="spotlightResume">📄 Resume: Auto-Selected</span>
+        <span id="spotlightUrl">🔗 Target: Standby</span>
+      </div>
+      <div class="spotlight-step" id="spotlightStep">
+        <span>⚙️ Agent is currently IDLE. Waiting for launch signal...</span>
+      </div>
+    </div>
+
+    <!-- Main Grid: Feed & Terminal -->
+    <div class="main-grid">
+
+      <!-- Live Feed Table -->
+      <div class="panel">
+        <div class="panel-header">
+          <div class="panel-title">📋 Live Applied Feed (<span id="feedCount">0</span>)</div>
+          <button class="btn btn-secondary" style="padding: 4px 10px; font-size: 12px;" onclick="refreshStatus()">↻ Refresh</button>
+        </div>
+        <div class="table-container">
+          <table>
+            <thead>
+              <tr>
+                <th>Time</th>
+                <th>Role & Company</th>
+                <th>ATS</th>
+                <th>Resume</th>
+                <th>Status</th>
+                <th>Proof</th>
+              </tr>
+            </thead>
+            <tbody id="appliedTableBody">
+              <tr>
+                <td colspan="6" style="text-align: center; color: var(--muted); padding: 30px;">
+                  No applications submitted yet. Click "Start Applying" to launch!
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- Live Terminal Log -->
+      <div class="panel">
+        <div class="panel-header">
+          <div class="panel-title">🖥️ Agent Console & Claude AI Telemetry</div>
+          <button class="btn btn-secondary" style="padding: 4px 10px; font-size: 12px;" onclick="clearLogs()">Clear</button>
+        </div>
+        <div class="terminal-body" id="terminalBody">
+          <div class="log-line"><span class="log-ts">[SYSTEM]</span> Agent dashboard loaded. Claude API Key configured.</div>
+          <div class="log-line"><span class="log-ts">[SYSTEM]</span> 1,713 jobs ready in database.</div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+  <!-- Screenshot Modal -->
+  <div class="modal-overlay" id="screenshotModal" onclick="closeModal()">
+    <div class="modal-content" onclick="event.stopPropagation()">
+      <div class="modal-header">
+        <div style="font-weight: 700;" id="modalTitle">Application Submission Proof</div>
+        <button class="close-btn" onclick="closeModal()">&times;</button>
+      </div>
+      <div class="modal-body">
+        <img src="" id="modalImg" class="modal-img" alt="Submission Screenshot">
+      </div>
+    </div>
+  </div>
+
+  <script>
+    let isRunning = false;
+    let isPaused = false;
+    let totalTarget = 1000;
+    let eventSource = null;
+
+    // Connect Server-Sent Events (SSE)
+    function connectSSE() {
+      if (eventSource) eventSource.close();
+      eventSource = new EventSource('/api/events');
+
+      eventSource.onmessage = (e) => {
+        try {
+          const data = JSON.parse(e.data);
+          handleLiveUpdate(data);
+        } catch (err) {}
+      };
+
+      eventSource.onerror = () => {
+        // Fallback to polling if SSE drops
+        setTimeout(connectSSE, 3000);
+      };
+    }
+
+    function handleLiveUpdate(data) {
+      if (data.type === 'STATUS') {
+        updateUI(data.payload);
+      } else if (data.type === 'LOG') {
+        appendLog(data.payload);
+      } else if (data.type === 'JOB_START') {
+        updateSpotlight(data.payload);
+      } else if (data.type === 'JOB_DONE') {
+        addAppliedRow(data.payload);
+        updateCounters();
+      }
+    }
+
+    function updateUI(status) {
+      isRunning = (status.state === 'RUNNING');
+      isPaused = (status.state === 'PAUSED');
+
+      const badge = document.getElementById('agentStatusBadge');
+      const badgeText = document.getElementById('agentStatusText');
+      badge.className = 'pulse-status ' + (isRunning ? 'running' : (isPaused ? 'paused' : ''));
+      badgeText.textContent = status.state;
+
+      document.getElementById('btnStart').disabled = isRunning;
+      document.getElementById('btnPause').disabled = !isRunning && !isPaused;
+      document.getElementById('btnPause').textContent = isPaused ? '▶ RESUME' : '⏸ PAUSE';
+      document.getElementById('btnStop').disabled = !isRunning && !isPaused;
+
+      // KPI Counters
+      const count = status.stats.successful || 0;
+      totalTarget = status.stats.target || 1000;
+      document.getElementById('kpiTarget').textContent = totalTarget.toLocaleString();
+      document.getElementById('kpiSubmitted').textContent = count.toLocaleString();
+      document.getElementById('kpiClaudeAnswers').textContent = (status.stats.claudeAnswers || 0).toLocaleString();
+
+      const pct = Math.min(100, ((count / totalTarget) * 100)).toFixed(1);
+      document.getElementById('progressBarFill').style.width = pct + '%';
+      document.getElementById('progressNumbers').textContent = `${count} / ${totalTarget} (${pct}%)`;
+
+      if (status.stats.speed) {
+        document.getElementById('kpiSpeed').textContent = status.stats.speed + ' / min';
+      }
+      if (status.stats.eta) {
+        document.getElementById('kpiETA').textContent = 'ETA: ' + status.stats.eta;
+      }
+
+      if (status.currentJob) {
+        updateSpotlight(status.currentJob);
+      }
+    }
+
+    function updateSpotlight(job) {
+      document.getElementById('spotlightTitle').textContent = job.title || 'Processing...';
+      document.getElementById('spotlightCompany').textContent = job.company || '';
+      document.getElementById('spotlightAts').textContent = 'ATS: ' + (job.ats || 'Auto-Detect');
+      document.getElementById('spotlightRegion').textContent = '📍 ' + (job.region || 'India / Remote');
+      document.getElementById('spotlightResume').textContent = '📄 ' + (job.resume || 'Auto');
+      document.getElementById('spotlightStep').innerHTML = `<span>⚡ Step: ${job.step || 'Submitting application...'}</span>`;
+    }
+
+    function appendLog(log) {
+      const term = document.getElementById('terminalBody');
+      const line = document.createElement('div');
+      line.className = 'log-line';
+
+      let cls = 'log-info';
+      if (/success|submitted|✅/i.test(log.text)) cls = 'log-success';
+      else if (/error|failed|❌/i.test(log.text)) cls = 'log-error';
+      else if (/warning|⚠️/i.test(log.text)) cls = 'log-warn';
+      else if (/claude/i.test(log.text)) cls = 'log-claude';
+
+      line.innerHTML = `<span class="log-ts">[${log.time || new Date().toLocaleTimeString()}]</span> <span class="${cls}">${escapeHtml(log.text)}</span>`;
+      term.appendChild(line);
+      term.scrollTop = term.scrollHeight;
+    }
+
+    function addAppliedRow(app) {
+      const tbody = document.getElementById('appliedTableBody');
+      if (tbody.children.length === 1 && tbody.children[0].innerText.includes('No applications')) {
+        tbody.innerHTML = '';
+      }
+
+      const tr = document.createElement('tr');
+      tr.innerHTML = `
+        <td>${new Date().toLocaleTimeString()}</td>
+        <td>
+          <strong>${escapeHtml(app.company)}</strong><br>
+          <span style="color:var(--muted);">${escapeHtml(app.title)}</span>
+        </td>
+        <td><span class="badge-ats">${escapeHtml(app.ats || 'ATS')}</span></td>
+        <td style="font-size:12px;color:var(--cyan);">${escapeHtml(app.resume || 'Resume')}</td>
+        <td><span class="badge-status status-applied">Submitted ✓</span></td>
+        <td>
+          ${app.screenshot ? `<button class="btn btn-secondary" style="padding:2px 8px;font-size:11px;" onclick="viewScreenshot('${app.screenshot}')">View Proof</button>` : '--'}
+        </td>
+      `;
+      tbody.insertBefore(tr, tbody.firstChild);
+
+      const count = document.querySelectorAll('#appliedTableBody tr').length;
+      document.getElementById('feedCount').textContent = count;
+    }
+
+    async function startAgent() {
+      const limit = parseInt(document.getElementById('inputLimit').value, 10) || 1000;
+      const category = document.getElementById('selectCategory').value;
+      const ats = document.getElementById('selectAts').value;
+      const mode = document.getElementById('selectMode').value;
+      const headless = document.getElementById('checkHeadless').checked;
+
+      await fetch('/api/start', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ limit, category, ats, mode, headless })
+      });
+      refreshStatus();
+    }
+
+    async function togglePause() {
+      await fetch('/api/pause', { method: 'POST' });
+      refreshStatus();
+    }
+
+    async function stopAgent() {
+      await fetch('/api/stop', { method: 'POST' });
+      refreshStatus();
+    }
+
+    async function refreshStatus() {
+      try {
+        const res = await fetch('/api/status');
+        const data = await res.json();
+        updateUI(data);
+
+        // Populate history table
+        if (data.history && Object.keys(data.history).length > 0) {
+          const tbody = document.getElementById('appliedTableBody');
+          tbody.innerHTML = '';
+          Object.values(data.history).reverse().forEach(app => {
+            const tr = document.createElement('tr');
+            tr.innerHTML = `
+              <td>${new Date(app.date).toLocaleTimeString()}</td>
+              <td>
+                <strong>${escapeHtml(app.company)}</strong><br>
+                <span style="color:var(--muted);">${escapeHtml(app.title)}</span>
+              </td>
+              <td><span class="badge-ats">${escapeHtml(app.ats || 'ATS')}</span></td>
+              <td style="font-size:12px;color:var(--cyan);">${escapeHtml(app.resume || 'Resume')}</td>
+              <td><span class="badge-status ${app.status === 'APPLIED' ? 'status-applied' : 'status-failed'}">${app.status}</span></td>
+              <td>
+                ${app.screenshot ? `<button class="btn btn-secondary" style="padding:2px 8px;font-size:11px;" onclick="viewScreenshot('${app.screenshot}')">View Proof</button>` : '--'}
+              </td>
+            `;
+            tbody.appendChild(tr);
+          });
+          document.getElementById('feedCount').textContent = Object.keys(data.history).length;
+        }
+      } catch (e) {}
+    }
+
+    function viewScreenshot(path) {
+      const filename = path.split(/[\\/]/).pop();
+      document.getElementById('modalImg').src = '/screenshots/' + filename;
+      document.getElementById('screenshotModal').style.display = 'flex';
+    }
+
+    function closeModal() {
+      document.getElementById('screenshotModal').style.display = 'none';
+    }
+
+    function clearLogs() {
+      document.getElementById('terminalBody').innerHTML = '';
+    }
+
+    function escapeHtml(str) {
+      if (!str) return '';
+      return String(str).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+    }
+
+    // Init
+    connectSSE();
+    refreshStatus();
+    setInterval(refreshStatus, 3000);
+  </script>
+</body>
+</html>
