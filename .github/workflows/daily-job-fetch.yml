@@ -1,4 +1,4 @@
-name: Daily Job Sweep & Email Alert
+name: Daily Job Sweep & Live Web Portal Update
 
 on:
   schedule:
@@ -8,9 +8,10 @@ on:
 
 permissions:
   contents: write
+  pages: write
 
 jobs:
-  sweep-and-email:
+  sweep-and-publish:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository
@@ -25,22 +26,14 @@ jobs:
         run: |
           npm install
 
-      - name: Run Full Job Refresh
+      - name: Run Full Job Refresh & Build Portal
         run: |
           npm run refresh
 
-      - name: Send Daily Email Digest
-        env:
-          EMAIL_USER: ${{ secrets.EMAIL_USER }}
-          EMAIL_PASS: ${{ secrets.EMAIL_PASS }}
-          TO_EMAIL: ${{ secrets.TO_EMAIL || 'imranpasha.ahmed@gmail.com' }}
-        run: |
-          npm run email
-
-      - name: Commit and Push Updated Trackers
+      - name: Commit and Push Updated Portal
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git add jobs.html cyber_jobs.html final.json cyber_final.json email_preview.html
-          git commit -m "Auto-refresh jobs and update tracker [skip ci]" || echo "No changes to commit"
+          git add jobs.html cyber_jobs.html final.json cyber_final.json index.html resumes/
+          git commit -m "Auto-refresh jobs and update live website [skip ci]" || echo "No changes to commit"
           git push

@@ -28,8 +28,12 @@ run('node ats_cyber.js', 'Probing ATS boards for cybersecurity jobs');
 run('node merge_cyber.js', 'Merging and ranking cybersecurity jobs');
 run('node build_cyber_html.js', 'Building cybersecurity cyber_jobs.html');
 
+// 3. Unified Web Portal
+run('node build_portal.js', 'Building unified web portal index.html');
+
 console.log('\n========================================');
 console.log('All jobs successfully refreshed!');
+console.log('Unified Web Portal:    Jobs/index.html');
 console.log('Backend tracker:       Jobs/jobs.html');
 console.log('Cybersecurity tracker: Jobs/cyber_jobs.html');
 console.log('========================================\n');
