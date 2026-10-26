@@ -20,10 +20,17 @@ let isBrowserOpen = false;
 
 function clearProfileLocks() {
   try {
-    const lockfile = path.join(PROFILE_DIR, 'lockfile');
-    if (fs.existsSync(lockfile)) {
-      fs.unlinkSync(lockfile);
-    }
+    const { execSync } = require('child_process');
+    try {
+      execSync('powershell -NoProfile -Command "Get-Process chrome -ErrorAction SilentlyContinue | Where-Object { $_.Id -in (Get-CimInstance Win32_Process | Where-Object { $_.CommandLine -like \'*user_browser_profile*\' }).ProcessId } | Stop-Process -Force -ErrorAction SilentlyContinue"', { timeout: 4000 });
+    } catch (e) {}
+
+    ['lockfile', 'SingletonLock', 'SingletonCookie', 'SingletonSocket'].forEach(f => {
+      const p = path.join(PROFILE_DIR, f);
+      if (fs.existsSync(p)) {
+        try { fs.unlinkSync(p); } catch (e) {}
+      }
+    });
   } catch (e) {}
 }
 

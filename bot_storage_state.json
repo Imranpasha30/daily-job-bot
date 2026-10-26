@@ -1,11 +1,21 @@
 {
   "cookies": [
     {
+      "name": "MYNAUKBMS[resolution]",
+      "value": "1920",
+      "domain": "www.naukri.com",
+      "path": "/nlogin",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
       "name": "bcookie",
       "value": "\"v=2&d738cd55-0e5b-4f63-8dd5-aa6a2ea639e1\"",
       "domain": ".linkedin.com",
       "path": "/",
-      "expires": 1824555276.399175,
+      "expires": 1824557345.980711,
       "httpOnly": false,
       "secure": true,
       "sameSite": "None"
@@ -15,7 +25,7 @@
       "value": "\"v=1&20261026124944e022f5ff-1710-4444-8d82-3bf8f4023c17AQHUqTV2wUWA88tgFtyEg5uDehRlI6Kj\"",
       "domain": ".www.linkedin.com",
       "path": "/",
-      "expires": 1824555276.399273,
+      "expires": 1824557345.980745,
       "httpOnly": true,
       "secure": true,
       "sameSite": "None"
@@ -27,16 +37,6 @@
       "path": "/",
       "expires": 1793105384.222187,
       "httpOnly": false,
-      "secure": true,
-      "sameSite": "None"
-    },
-    {
-      "name": "__cf_bm",
-      "value": "ky6SXAnvC5ANRBp3k3BJZkKMux8YTC2GC45CKKuEXjk-1793018983.978659-1.0.1.1-4t9mw_Hru4Z9N7lNBIjkM3hf5nOY7lFgu6012wCORIoBzN7ltGfynFWR_PGi3rkWA1qrScy7YNBya0g8QrSWQ.bzZgITOv_8iLmwzDopJRmqOc9XfrSMP.EnGMUSqWAS",
-      "domain": ".linkedin.com",
-      "path": "/",
-      "expires": 1793020784.222206,
-      "httpOnly": true,
       "secure": true,
       "sameSite": "None"
     },
@@ -197,7 +197,7 @@
       "value": "0",
       "domain": ".naukri.com",
       "path": "/",
-      "expires": 1824555495.831527,
+      "expires": 1824557345.761808,
       "httpOnly": true,
       "secure": true,
       "sameSite": "Lax"
@@ -247,7 +247,7 @@
       "value": "GA1.1.652142770.1793019404",
       "domain": ".naukri.com",
       "path": "/",
-      "expires": 1827579496.704991,
+      "expires": 1827581346.587234,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
@@ -293,16 +293,6 @@
       "sameSite": "None"
     },
     {
-      "name": "bm_sv",
-      "value": "F400D0315B5C1D0976148E420BD3050F~YAAQBYgsMTG34nahAQAAvkhKeAGMh6S5mJeGRT7C6KUohps0XnglXf3kL3kRkQq4qTCIE86PRc9E2CLrinu6SGtb8pWsz8QHj/5Ndpw2AQXGMICxacKUqQk88U+q3iwVi4JoAyElfFVYOTvVzMTb/go8cOkiy3+FMVR3W7nPbKYe/Q0dhmnBCyB3cM5/dvFy8ReTFVXzkxzgZBEIG+ItYKJUN5JlVNw1FaKkMSh1CNl6wT45QeT8V2UXYVU4ZNL/Lw==~1",
-      "domain": ".naukri.com",
-      "path": "/",
-      "expires": 1793026603.8316,
-      "httpOnly": false,
-      "secure": true,
-      "sameSite": "Lax"
-    },
-    {
       "name": "g_state",
       "value": "{\"i_l\":0,\"i_ll\":1793019496083,\"i_b\":\"5Ai8WUP10kO4fwNkAyUGXyDeGcuPspSRbI9xute8fng\",\"i_e\":{\"enable_itp_optimization\":24},\"i_et\":1793019496083}",
       "domain": "www.naukri.com",
@@ -313,18 +303,78 @@
       "sameSite": "Lax"
     },
     {
-      "name": "_ga_K2YBNZVRLL",
-      "value": "GS2.1.s1793019403$o1$g1$t1793019496$j34$l0$h1589664858",
+      "name": "sdui_ver",
+      "value": "sdui-flagship:0.2.2058.1+SduiFlagshipGuest",
+      "domain": ".linkedin.com",
+      "path": "/",
+      "expires": 1824557345.980652,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "JSESSIONID",
+      "value": "ajax:1478762502389827817",
+      "domain": ".www.linkedin.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "lang",
+      "value": "v=2&lang=en-us",
+      "domain": ".linkedin.com",
+      "path": "/",
+      "expires": -1,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "__cf_bm",
+      "value": "Y2x9CW.Ou0Xn3rj19ouGbL4mVUuchcqiKh0stBwSzEk-1793021128.4419255-1.0.1.1-eWgEbE0gOTzU2HlkVAUJZ2O10u8ntesmGTbNzRIhTPam.rV4UCkabHoKiWFIiAIR.VBxoE0_9OhS7c3.2qxpnYBxuWid5VYLZbvuohqQE37j06j_kJKl_cs6Kvlhc1VU",
+      "domain": ".linkedin.com",
+      "path": "/",
+      "expires": 1793022927.924265,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "timezone",
+      "value": "Asia/Calcutta",
+      "domain": ".www.linkedin.com",
+      "path": "/",
+      "expires": 1794230946,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "bm_sv",
+      "value": "F400D0315B5C1D0976148E420BD3050F~YAAQiZUjF6vb1XehAQAAHIRmeAHAz+sPldJXYGdgiXJCAviQ1wElFHpNl8wIlvYboSGAKqv2GhWFTrFylaxAQnQ0u6d23WCSf31vYjw4prldhABFYrIDE/EtMSac1QJGW7wUnIjNjKE/w+j9+L93xP/JfzzPCXyW0B87j+jCu8unqSTfDr09XXZIGlPlnImxOqE8vF0dCgYRT97vEnRsaKHmRWhFdOxRPucgMcD4RcE3eNvD62IqDl7rEfs0WjSOSQ==~1",
       "domain": ".naukri.com",
       "path": "/",
-      "expires": 1827579496.704656,
+      "expires": 1793026603.974126,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_ga_K2YBNZVRLL",
+      "value": "GS2.1.s1793019403$o1$g1$t1793021346$j60$l0$h1589664858",
+      "domain": ".naukri.com",
+      "path": "/",
+      "expires": 1827581346.590324,
       "httpOnly": false,
       "secure": false,
       "sameSite": "Lax"
     },
     {
       "name": "_gcl_au",
-      "value": "1.1.615698561.1793019404.1083819100.1793019404.1793019496.527826537.1793019404.1793019496",
+      "value": "1.1.615698561.1793019404.1083819100.1793019404.1793021346.527826537.1793019404.1793021346",
       "domain": ".naukri.com",
       "path": "/",
       "expires": 1800795404,
@@ -333,5 +383,214 @@
       "sameSite": "Lax"
     }
   ],
-  "origins": []
+  "origins": [
+    {
+      "origin": "https://www.linkedin.com",
+      "localStorage": [
+        {
+          "name": "_uetvid",
+          "value": "54b60bd0d13911f1aa3fa7f6505a96ab"
+        },
+        {
+          "name": "_gcl_ls",
+          "value": "{\"schema\":\"gcl\",\"version\":1,\"gsid_dc\":{\"value\":{\"joinId\":\"iDTT6xewHvVBDhqRQ4pEn4f4m7bpGPjyyA\",\"lastJoinedTimeMs\":1793019276838},\"expires\":1793019576838},\"gcl_ctr\":{\"value\":{\"value\":0,\"timeouts\":0,\"errors\":0,\"eopCount\":0,\"creationTimeMs\":1793018985231},\"expires\":1800794985231}}"
+        },
+        {
+          "name": "_uetvid_exp",
+          "value": "Sat, 20 Nov 2027 12:54:57 GMT"
+        },
+        {
+          "name": "_uetsid",
+          "value": "54b60d20d13911f1bc9117748c329f33"
+        },
+        {
+          "name": "_uetsid_exp",
+          "value": "Tue, 27 Oct 2026 12:54:57 GMT"
+        },
+        {
+          "name": "tealium_timing",
+          "value": "{\"domain\":\"www.linkedin.com\",\"pathname\":\"/jobs/search\",\"query_string\":\"keywords=Node.js%20Backend%20Engineer&location=India&f_TPR=r86400&sortBy=DD&position=1&pageNum=0\",\"timestamp\":1793019297621,\"dns\":0,\"connect\":0,\"response\":32,\"dom_loading_to_interactive\":8,\"dom_interactive_to_complete\":24,\"load\":3,\"time_to_first_byte\":844,\"front_end\":28,\"fetch_to_response\":844,\"fetch_to_complete\":904,\"fetch_to_interactive\":880}"
+        }
+      ]
+    },
+    {
+      "origin": "https://www.naukri.com",
+      "localStorage": [
+        {
+          "name": "eventName_ub",
+          "value": "\"loginView\""
+        },
+        {
+          "name": "widgets-[ni-desktop-homepage-v2]-c1",
+          "value": "{\"imd\":{\"mainSection\":{\"inventory-2\":{\"idx\":1},\"inventory-7\":{\"idx\":0},\"branding-premium\":{\"idx\":0},\"inventory-13\":{\"idx\":1},\"inventory-3\":{\"idx\":0},\"branding-standard\":{\"idx\":0},\"inventory-4\":{\"idx\":0},\"inventory-5\":{\"idx\":0},\"inventory-8\":{\"idx\":0}},\"bottom-left-section\":{\"inventory-1\":{\"idx\":0}}},\"ts\":{\"ih\":null,\"ttl\":19996,\"rts\":1793019403274},\"wmd\":{\"ni-desktop-collated-touchpoint-homepage_v0\":{\"fts\":1793019403274},\"ni-desktop-awareness-ladder_v0\":{\"fts\":1793019403274},\"ni-desktop-awareness-angle_v0\":{\"fts\":1793019403274},\"ni-desktop-awareness-grow_v0\":{\"fts\":1793019403274},\"ni-desktop-awareness-think_v0\":{\"fts\":1793019403274},\"ni-desktop-homepage-diwali-banner-wdgt_v0\":{\"fts\":1793019403274},\"ni-desktop-womens-day-banner-wdgt-wow26_v0\":{\"fts\":1793019403274},\"ni-desktop-womens-day-enrolment-logout-wow25_v0\":{\"fts\":1793019403274},\"ni-desktop-womens-day-enrolment-logedout-wow25_v0\":{\"fts\":1793019403274},\"ni-desktop-mock-interview-no-tag_v0\":{\"fts\":1793019403274},\"ni-desktop-mock-interview-w-tag_v0\":{\"fts\":1793019403274},\"ni-desktop-mock-interview-cta-free_v0\":{\"fts\":1793019403274},\"ni-desktop-mock-interview-cta-practice_v0\":{\"fts\":1793019403274},\"ni-desktop-expert-resume-help_v0\":{\"fts\":1793019403274},\"ni-desktop-expert-resume-marketing-wdgt_v0\":{\"fts\":1793019403274},\"popular-jobs-wdgt_v3\":{\"fts\":1793019403274},\"trending-naukri-wdgt_v0\":{\"fts\":1793019403274},\"trending-naukri-wdgt_v5\":{\"fts\":1793019403274},\"naukri-homepage-industry-wdgt_v5\":{\"fts\":1793019403274},\"naukri-homepage-industry-wdgt_v2\":{\"fts\":1793019403274},\"ni-desktop-homepage-v2_mainSection_branding-premium_v0\":{\"fts\":1793019403274},\"ni-desktop-homepage-v2_mainSection_diversityBranding_v0\":{\"fts\":1793019403274},\"nc-desktop-yt-promo-wdgt_v0\":{\"fts\":1793019403274},\"nc-desktop-promo-on-ni-wdgt_v0\":{\"fts\":1793019403274},\"nc-desktop-promotional-banners-wdgt_v1\":{\"fts\":1793019403274},\"nc-desktop-scholarship-banner-wdgt_v0\":{\"fts\":1793019403274},\"nc-desktop-scholarship-banner-wdgt_v1\":{\"fts\":1793019403274},\"nc-desktop-aincat-promo-wdgt_v0\":{\"fts\":1793019403274},\"role-collection-wdgt_v3\":{\"fts\":1793019403274},\"ni-desktop-homepage-v2_mainSection_branding-standard_v0\":{\"fts\":1793019403274},\"ni-desktop-homepage-v2_mainSection_homepageEventsWdgt_event_v0\":{\"fts\":1793019403274},\"naukri-ab-interview-wdgt_v1\":{\"fts\":1793019403274},\"ff-services-widget_v1\":{\"fts\":1793019403274},\"naukri-learning-career-wdgt_v0\":{\"fts\":1793019403274},\"download-app-link-json-wdgt_v4\":{\"fts\":1793019403274},\"download-app-link-json-wdgt_v5\":{\"fts\":1793019403274},\"ni-desktop-womens-day-promo-wdgt-wow26_v0\":{\"fts\":1793019403274},\"sticky-promotional-navbar-wdgt_v2\":{\"fts\":1793019403274},\"scan-qr-overlay-wdgt_v4\":{\"fts\":1793019403274},\"sticky-promotional-navbar-wdgt_v1\":{\"fts\":1793019403274}}}"
+        },
+        {
+          "name": "S_TO_J_Job_Tuple/variantTime",
+          "value": "1793105824891"
+        },
+        {
+          "name": "Desktop_srp_login_blocker/variant",
+          "value": "\"{\\\"alternative\\\":{\\\"name\\\":\\\"default\\\"},\\\"experiment\\\":{\\\"name\\\":\\\"desktop_srp_login_blocker\\\"},\\\"isWinner\\\":true,\\\"isArchived\\\":false}\""
+        },
+        {
+          "name": "deviceId_ub",
+          "value": "\"40e91f33-47cf-b32e-9744-8f7c598549a5\""
+        },
+        {
+          "name": "uniqueDid_ub",
+          "value": "\"40e91f33-47cf-b32e-9744-8f7c598549a5-1793017880733\""
+        },
+        {
+          "name": "_gcl_ls",
+          "value": "{\"schema\":\"gcl\",\"version\":1,\"gsid_dc\":{\"value\":{\"joinId\":\"DPRiD5KkeWH-QKp-n0cXLg5egFrCukKFng\",\"lastJoinedTimeMs\":1793021346569},\"expires\":1793021646569},\"gcl_ctr\":{\"value\":{\"value\":7,\"timeouts\":0,\"errors\":0,\"eopCount\":0,\"creationTimeMs\":1793021346594},\"expires\":1800797346594}}"
+        },
+        {
+          "name": "globalWidgetState",
+          "value": "{\"tagStateTTL\":1793039400000,\"ws\":{\"t520_click_submit\":0,\"t513_view\":0,\"t513\":{\"view\":1},\"t330\":{\"view\":1},\"t332\":{\"view\":1},\"t6785\":{\"view\":1},\"t1987\":{\"view\":1},\"t331\":{\"view\":1},\"t333\":{\"view\":1},\"t132\":{\"view\":1},\"t520\":{\"click_submit\":0,\"view\":2},\"t7987\":{\"view\":8},\"t7988\":{\"view\":8},\"t472\":{\"view\":2}}}"
+        },
+        {
+          "name": "Desktop_srp_login_blocker/variantTime",
+          "value": "1793105824891"
+        },
+        {
+          "name": "tdsLogEpoch1_0",
+          "value": "1793017880520"
+        },
+        {
+          "name": "version_ub",
+          "value": "4"
+        },
+        {
+          "name": "eventType_ub",
+          "value": "undefined"
+        },
+        {
+          "name": "cnid_ub",
+          "value": "\"\""
+        },
+        {
+          "name": "eventId_ub",
+          "value": "\"40e91f33-47cf-b32e-9744-8f7c598549a5-1793021345899\""
+        },
+        {
+          "name": "eventslen_ub",
+          "value": "undefined"
+        },
+        {
+          "name": "chatBotConversationDone",
+          "value": "[\"homepage_job_search\"]"
+        },
+        {
+          "name": "S_TO_J_Job_Tuple/variant",
+          "value": "\"{\\\"alternative\\\":{\\\"name\\\":\\\"Control\\\"},\\\"experiment\\\":{\\\"name\\\":\\\"S_TO_J_Job_Tuple\\\"},\\\"isWinner\\\":true,\\\"isArchived\\\":false}\""
+        },
+        {
+          "name": "widgets-[ni-desktop-srp-homepage-v2]-c1",
+          "value": "{\"imd\":{\"ffBottomContainer\":{\"inventory-1\":{\"idx\":0}},\"ff-ads-right-container\":{\"inventory-1\":{\"idx\":0}},\"reg-wdgt-section\":{\"inventory-1\":{\"idx\":0}},\"naukri-feedback-section\":{\"inventory-1\":{\"idx\":0}}},\"ts\":{\"ih\":null,\"ttl\":19974,\"rts\":1793019425142},\"wmd\":{\"ni-desktop-awareness-ladder_v0\":{\"fts\":1793019425143},\"ni-desktop-awareness-angle_v0\":{\"fts\":1793019425143},\"ni-desktop-awareness-grow_v0\":{\"fts\":1793019425143},\"ni-desktop-awareness-think_v0\":{\"fts\":1793019425143},\"ni-desktop-mock-interview-no-tag_v0\":{\"fts\":1793019425143},\"ni-desktop-mock-interview-w-tag_v0\":{\"fts\":1793019425143},\"ni-desktop-mock-interview-cta-free_v0\":{\"fts\":1793019425143},\"ni-desktop-mock-interview-cta-practice_v0\":{\"fts\":1793019425143},\"ni-desktop-expert-resume-help_v0\":{\"fts\":1793019425143},\"ni-desktop-expert-resume-marketing-wdgt_v0\":{\"fts\":1793019425143},\"naukri-srp-registration-wdgt_v6\":{\"fts\":1793019425143},\"naukri-feedback-wdgt_v4\":{\"fts\":1793019425143},\"naukri-srp-top-categories-wdgt_v2\":{\"fts\":1793019495376},\"ni-desktop-srp-homepage-v2_tuple-3-section_inventory-1_job_v0\":{\"fts\":1793019425143},\"ni-desktop-srp-homepage-v2_tuple-3-section_inventory-1_diversityJob_v0\":{\"fts\":1793019425143},\"job-promotion-vanilla-default-wdgt_v1\":{\"fts\":1793019425143},\"ni-desktop-srp-homepage-v2_tuple-7-section_inventory-1_job_v0\":{\"fts\":1793019425143},\"ni-desktop-srp-homepage-v2_tuple-7-section_inventory-1_diversityJob_v0\":{\"fts\":1793019425143},\"sticky-promotional-navbar-wdgt_v1\":{\"fts\":1793019425143},\"ni-desktop-womens-day-promo-wdgt-wow26_v0\":{\"fts\":1793019425143},\"ni-desktop-womens-day-srp-logout-wdgt-wow26_v0\":{\"fts\":1793019425143},\"naukri-360-right-wdgt_v0\":{\"fts\":1793019425143},\"naukri-360-bottom-wdgt_v0\":{\"fts\":1793019425143}}}"
+        }
+      ]
+    },
+    {
+      "origin": "https://accounts.google.com",
+      "localStorage": [
+        {
+          "name": "_grecaptcha",
+          "value": "09ANMylNDAd_yQ0enqCoxqJTanWU540WhP0AvzWuloUErTbMjQSe7wSILCfkIR6a1vED3xUsnitmN-EDPr01qiZO7SOHv2rmECM259oRUY5Cr9sjqFL9MMamOubLsMcnuV"
+        },
+        {
+          "name": "nextRotationAttemptTs",
+          "value": "1787384929211"
+        }
+      ]
+    },
+    {
+      "origin": "https://www.google.com",
+      "localStorage": [
+        {
+          "name": "udla::lshp",
+          "value": "1751710718325"
+        },
+        {
+          "name": "sb_wiz.pq_tm_hp",
+          "value": "1787380074868"
+        },
+        {
+          "name": "cdids",
+          "value": ""
+        },
+        {
+          "name": "sb_wiz.zpc.gws-wiz-modeless-shopping.sh",
+          "value": "{\"0\":[[\"kcr health.\",35,[564,39,362],{\"du\":\"/complete/deleteitems?client=gws-wiz-modeless-shopping&delq=kcr+health.&deltok=AMc44K6rw5JWG3lzAalufe1M8MqhoqBlRA\",\"zf\":27}]],\"1\":{\"q\":\"VkgXs_vFYEge2Icsis_aKmgwDU4\"}}"
+        },
+        {
+          "name": "sb_wiz.pq",
+          "value": "netspeed"
+        },
+        {
+          "name": "rc::h",
+          "value": "1793019428377"
+        },
+        {
+          "name": "tup",
+          "value": "!18b1!19b0!20b1!23s20250626.0!37e2"
+        },
+        {
+          "name": "sb_wiz.ueh",
+          "value": "508b8895a0edc3523ebd62ac1181e671b9379e97"
+        },
+        {
+          "name": "sb_wiz.qc",
+          "value": "420"
+        },
+        {
+          "name": "_c;;i",
+          "value": "p:*|l:9007199254740991_1"
+        },
+        {
+          "name": "sb_wiz.zpc.gws-wiz-serp.",
+          "value": "{\"0\":[[\"chatgpt\",35,[362,39],{\"du\":\"/complete/d?client=gws-wiz-serp&delq=chatgpt&deltok=AMc44K5PqiWeOZWHx-f2Sfe42r2O_TGkug\",\"zf\":27}],[\"yt studio\",35,[362,39],{\"du\":\"/complete/d?client=gws-wiz-serp&delq=yt+studio&deltok=AMc44K4XZALZCxnXFMNNLYMG-8GgTxtl6Q\",\"zf\":27}],[\"youtube\",46,[797,872,733,362,39],{\"zf\":27,\"du\":\"/complete/d?client=gws-wiz-serp&delq=youtube&delmid=/m/09jcvs&deltok=AMc44K7WfWtzLxWz4lu96762A5raDRaCoQ\",\"lm\":[],\"zp\":{\"gs_psrp\":\"ANZMHn85KmrnlDgvaDmQLB6P17eYPv2POsfY0eOiz6tBSIeV0uJZsEQksPwTy1r-cLRnsJaquqoY\",\"gs_ssp\":\"eJzj4tTP1TewzEouKzZg9GKvzC8tKU1KBQA_-AaN\"},\"zi\":\"New updates\",\"zan\":true,\"zh\":\"YouTube\",\"zar\":{\"fs\":[\"youtube\",46,[797,872,362,39,769],{\"zs\":\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAABwCAMAAABsH8+0AAAAq1BMVEXy8vL/ATLz8/Pm5uYAAAAhISH29vb////8/PwdHR20tLQyMjILCwvb29sQEBD5+flMTEynp6f/ACPOzs6Li4v/ACx6enqcnJwYGBj6maXy+vm9vb35KUiVlZX/ABzV1dVxcXE9PT2Dg4P2Z3j/ABD3YXH0ztBhYWFFRUXvxsz0q7T3h5H4b4D6UWb2QVX5NU/1foj0oKryusDw3+L/AABXV1fy09rzdof4Hz/AkpppAAAEiklEQVR4nO2cYXOiPBCAaUhCUCACUjitotZe29eztvVs+/9/2bsbrGihd9wo9uZmnw9KAzh5SLLZRKeW/Y9gsX8EiyAIgiAIgiAIgiAIgiAIgiAIgiAIgiCIlmBs8DnHfWd/1i/9B9b9f98WP26Wy4fV6qpg9bBc3lw/Lp6e11sVJqU0B/BeVzc8v6U8zSz8GcZ5YIPFfBwBSQ1Q/PPhZYCX+XEcm+vhPa+amPNb/N1p2eGc++dpk8H1+OKXJOM1NIVMoUq5tFgO76msfIy+5DtGek9EnElEPs9/7QEmN9AkzIYqhdKSYX3V9MxzXQG4Lk+/QmTwI/mdyMUc+rqlu25wqeHJB65Q1c/RfdHtogi8lg12TpFVA5HvKDIL3K5jKfCZ6ZoPklo7XdftOVqXHe+cItFhN6oTiZ6hb8kh1MmW2MOGsohReH8RX4vfVkkUUe8hF98KkTKS7W47Ocw6GCLJMolqRJ5wkFiooFHHYsoP0zRWDIaO7/twDl5tVojsF+lCpJN2jAneFuaqjRZi6/lhlZ3XeaVVogUGYNXLgpHTDzLoPRCiPI9PbaYnEKUsGcNrKAsRPcKQC03H+UyhSCy4x++gO+LFcNumjTmSvRwE3+ib46yXH1WSVxTRqZdtnF7mpU7KReZ5ItgoGPvCiAhvJ5J6woiIoI8i7pRzIXhHgqEIMri+XzfGjhW5r4g4zv3b4dSSXKOIzKE+OhM8V57IbqWpr2oiYsNrNlESSkZqAp9QE/WOFvleI+I4T9H+UDETCZjAc425K3RuRouNlXd+L8JjrWF6mTpwETyEluJYbYsAcpFUROBhBrMgmDimdhIf8KyJiM+cKUyWxcA30SI+feSS91GtiH6simAsxc6usKa5VNhfmolAnBBuUW5EhqcX+axrjWu6FmYpIGLrkWceM4jcNhS5zURmBpXtnFPkuXawQ9yausK9U0eIuNO7rtuOyMv8o8hn4RfzqQDijj5CRBTpcacFkcqE+FidEJNFIWISjqE8pmvFvm+SgNOLfExRLj5LUfZETE2Z+gMRGOxiWy6VUm2kW7pp0liKmCXJH4VfSJkhczYrGWltJpdt5MNN0vjxCzsQiXcTYmpEbF0RyfWeiGSBgAzNTIggmLUxj1iD14YLq1KEMajjpRNifRWMfx7am6wUwQYL+tbE24rAsSnRkD57Iwc1rRZapOlSd08E1lhQMQ4VvVO4ShEe7/bcnQjzoSjg7sYtRCBSYbjKpbkNck1v0kKu1WTzIVrLnQg3qyprA+k4VB+ij+7xwOPxxqTxLudThfsQQcDDWZHG8wxyfI/DKpmx4rZeGw1SbgfV7QYlUTT+uXoZvF9qD4dDDJ1Mx+loNMTFEpPhrJ+rPI5thjtF2P11p9+PlR/HMOShRNvhaIiZO1NwWxrrlpa+zGzQPRYbdFdXV29vuEGHO3TXr2aDrhyZbLdmlbBELw4ZHuEZZvbuzMVlkdnWg0ve2xSO2lnqbut3sEl68FftriJBEARBEARBEARBEARBEARBEARBEARBEH8lX/Q/VE+O9dX/3vZU/A/OzXmeI2cUUAAAAABJRU5ErkJggg==\",\"zi\":\"Video sharing company\",\"zp\":{\"gs_ssp\":\"eJzj4tTP1TewzEouKzZg9GKvzC8tKU1KBQA_-AaN\"},\"zh\":\"YouTube\",\"lm\":[],\"du\":\"/complete/d?client=gws-wiz-serp&delq=youtube&delmid=/m/09jcvs&deltok=AMc44K7WfWtzLxWz4lu96762A5raDRaCoQ\",\"zf\":27}],\"cet\":1787444878221},\"zs\":\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMgAAABwCAMAAABsH8+0AAAAq1BMVEXy8vL/ATLz8/Pm5uYAAAAhISH29vb////8/PwdHR20tLQyMjILCwvb29sQEBD5+flMTEynp6f/ACPOzs6Li4v/ACx6enqcnJwYGBj6maXy+vm9vb35KUiVlZX/ABzV1dVxcXE9PT2Dg4P2Z3j/ABD3YXH0ztBhYWFFRUXvxsz0q7T3h5H4b4D6UWb2QVX5NU/1foj0oKryusDw3+L/AABXV1fy09rzdof4Hz/AkpppAAAEiklEQVR4nO2cYXOiPBCAaUhCUCACUjitotZe29eztvVs+/9/2bsbrGihd9wo9uZmnw9KAzh5SLLZRKeW/Y9gsX8EiyAIgiAIgiAIgiAIgiAIgiAIgiAIgiCIlmBs8DnHfWd/1i/9B9b9f98WP26Wy4fV6qpg9bBc3lw/Lp6e11sVJqU0B/BeVzc8v6U8zSz8GcZ5YIPFfBwBSQ1Q/PPhZYCX+XEcm+vhPa+amPNb/N1p2eGc++dpk8H1+OKXJOM1NIVMoUq5tFgO76msfIy+5DtGek9EnElEPs9/7QEmN9AkzIYqhdKSYX3V9MxzXQG4Lk+/QmTwI/mdyMUc+rqlu25wqeHJB65Q1c/RfdHtogi8lg12TpFVA5HvKDIL3K5jKfCZ6ZoPklo7XdftOVqXHe+cItFhN6oTiZ6hb8kh1MmW2MOGsohReH8RX4vfVkkUUe8hF98KkTKS7W47Ocw6GCLJMolqRJ5wkFiooFHHYsoP0zRWDIaO7/twDl5tVojsF+lCpJN2jAneFuaqjRZi6/lhlZ3XeaVVogUGYNXLgpHTDzLoPRCiPI9PbaYnEKUsGcNrKAsRPcKQC03H+UyhSCy4x++gO+LFcNumjTmSvRwE3+ib46yXH1WSVxTRqZdtnF7mpU7KReZ5ItgoGPvCiAhvJ5J6woiIoI8i7pRzIXhHgqEIMri+XzfGjhW5r4g4zv3b4dSSXKOIzKE+OhM8V57IbqWpr2oiYsNrNlESSkZqAp9QE/WOFvleI+I4T9H+UDETCZjAc425K3RuRouNlXd+L8JjrWF6mTpwETyEluJYbYsAcpFUROBhBrMgmDimdhIf8KyJiM+cKUyWxcA30SI+feSS91GtiH6simAsxc6usKa5VNhfmolAnBBuUW5EhqcX+axrjWu6FmYpIGLrkWceM4jcNhS5zURmBpXtnFPkuXawQ9yausK9U0eIuNO7rtuOyMv8o8hn4RfzqQDijj5CRBTpcacFkcqE+FidEJNFIWISjqE8pmvFvm+SgNOLfExRLj5LUfZETE2Z+gMRGOxiWy6VUm2kW7pp0liKmCXJH4VfSJkhczYrGWltJpdt5MNN0vjxCzsQiXcTYmpEbF0RyfWeiGSBgAzNTIggmLUxj1iD14YLq1KEMajjpRNifRWMfx7am6wUwQYL+tbE24rAsSnRkD57Iwc1rRZapOlSd08E1lhQMQ4VvVO4ShEe7/bcnQjzoSjg7sYtRCBSYbjKpbkNck1v0kKu1WTzIVrLnQg3qyprA+k4VB+ij+7xwOPxxqTxLudThfsQQcDDWZHG8wxyfI/DKpmx4rZeGw1SbgfV7QYlUTT+uXoZvF9qD4dDDJ1Mx+loNMTFEpPhrJ+rPI5thjtF2P11p9+PlR/HMOShRNvhaIiZO1NwWxrrlpa+zGzQPRYbdFdXV29vuEGHO3TXr2aDrhyZbLdmlbBELw4ZHuEZZvbuzMVlkdnWg0ve2xSO2lnqbut3sEl68FftriJBEARBEARBEARBEARBEARBEARBEARBEH8lX/Q/VE+O9dX/3vZU/A/OzXmeI2cUUAAAAABJRU5ErkJggg==\"}],[\"unicode to non unicode\",35,[362,39],{\"du\":\"/complete/d?client=gws-wiz-serp&delq=unicode+to+non+unicode&deltok=AMc44K5yHMvQWCdWseMR9pRtLWH8R7XLNQ\",\"zf\":27}],[\"chtagpt\",35,[362,39],{\"du\":\"/complete/d?client=gws-wiz-serp&delq=chtagpt&deltok=AMc44K7gq8sZwxs93bLddRZbSpPcR2efyA\",\"zf\":27}],[\"twitter video download\",35,[362,39],{\"du\":\"/complete/d?client=gws-wiz-serp&delq=twitter+video+download&deltok=AMc44K7uBRq3EedclTRw3VkTKeJhaaSxGQ\",\"zf\":27}],[\"youtube video downloader\",35,[362,39],{\"du\":\"/complete/d?client=gws-wiz-serp&delq=youtube+video+downloader&deltok=AMc44K4-WuTpsI0WMQ7xvaAP2GgcRMeDYQ\",\"zf\":27}],[\"thumbnail download\",35,[362,39],{\"du\":\"/complete/d?client=gws-wiz-serp&delq=thumbnail+download&deltok=AMc44K7ksR9qSiA2JH3ZhBHrsTgFBx_yQg\",\"zf\":27}],[\"netspeed\",35,[362,39],{\"du\":\"/complete/d?client=gws-wiz-serp&delq=netspeed&deltok=AMc44K7UbJiWGi5Pgh5toVZXjfm_tgHc5g\",\"zf\":27}],[\"facebook video downloader\",35,[362,39],{\"du\":\"/complete/d?client=gws-wiz-serp&delq=facebook+video+downloader&deltok=AMc44K4FxeX96SwbcnfXDgCaV07oJ0k-jQ\",\"zf\":27}],[\"speed test\",0,[512,650,67,871,362,308],{\"zl\":90000}],[\"internet speed\",0,[512,650,67,871,362,308],{\"zl\":90000}],[\"net speed test\",0,[512,650,67,871,362,308],{\"zl\":90000}],[\"net speed\",0,[512,650,67,871,362,308],{\"zl\":90000}],[\"internet speed test\",0,[512,650,67,871,362,308],{\"zl\":90000}],[\"fast speed test\",0,[512,650,67,871,362,308],{\"zl\":90000}]],\"1\":{\"ag\":{\"a\":{\"90000\":[\"Related to recent searches\",\"\",1,1]}},\"av\":\"10059081619574526663\"}}"
+        },
+        {
+          "name": "sb_wiz.zpc.gws-wiz.",
+          "value": "{\"0\":[[\"yt\",46,[362,39],{\"zf\":27,\"lm\":[],\"zp\":{\"gs_ssp\":\"eJzj4tTP1TewzEouKzZg9GKqLAEAI0UEaA\"},\"zi\":\"YouTube — Video sharing company\",\"du\":\"/complete/d?client=gws-wiz&delq=yt&delmid=/m/09jcvs&deltok=AMc44K4CgiCG_1X8PACRacL-ZQRCp_wAgA\",\"zh\":\"yt\"}],[\"chatgpt\",35,[362,39],{\"zf\":27,\"du\":\"/complete/d?client=gws-wiz&delq=chatgpt&deltok=AMc44K5PqiWeOZWHx-f2Sfe42r2O_TGkug\"}],[\"unicode to non unicode\",35,[797,872,733,362,39],{\"du\":\"/complete/d?client=gws-wiz&delq=unicode+to+non+unicode&deltok=AMc44K5yHMvQWCdWseMR9pRtLWH8R7XLNQ\",\"zp\":{\"gs_psrp\":\"ANZMHn85KmrnlDgvaDmQLB6P17eYy81rxWAeocC2l8T2uRD_Udvvyu9zUpmWTAIIA0t7T7XQz08z\"},\"zi\":\"New updates\",\"zf\":27,\"zan\":true,\"zar\":{\"cet\":1782876571176,\"fs\":[\"unicode to non unicode\",35,[797,872,362,39,769],{\"zf\":27,\"du\":\"/complete/d?client=gws-wiz&delq=unicode+to+non+unicode&deltok=AMc44K5yHMvQWCdWseMR9pRtLWH8R7XLNQ\"}]}}],[\"revanth reddy\",35,[329,752,362,39],{\"du\":\"/complete/d?client=gws-wiz&delq=revanth+reddy&deltok=AMc44K6SXur9jj8IYynjH5lKPAOIcyVM8A\",\"zf\":27,\"zi\":\"Images\",\"zp\":{\"udm\":\"2\"}}],[\"instagram login\",35,[362,39],{\"du\":\"/complete/d?client=gws-wiz&delq=instagram+login&deltok=AMc44K7u1KrgKwrrJWbEbDYk7dyUHOpy6g\",\"zf\":27}],[\"google translate\",35,[362,39],{\"zf\":27,\"du\":\"/complete/d?client=gws-wiz&delq=google+translate&deltok=AMc44K5mdAOWK1OIg7Ez2ZKuL_4AZSUwOw\"}],[\"gemini ai\",35,[362,39],{\"du\":\"/complete/d?client=gws-wiz&delq=gemini+ai&deltok=AMc44K4rSKHdGNYZiBqzGDJgg_qFRq5Ylw\",\"zf\":27}],[\"gpt\",35,[362,39],{\"zf\":27,\"du\":\"/complete/d?client=gws-wiz&delq=gpt&deltok=AMc44K7W-hZDLft2WjKtLB17EPzKXvlCqQ\"}],[\"remove bg\",35,[362,39],{\"du\":\"/complete/d?client=gws-wiz&delq=remove+bg&deltok=AMc44K7X9LXVQbIRToyFUamJcHb0spVDBA\",\"zf\":27}],[\"pawan kalyan\",35,[329,752,362,39],{\"du\":\"/complete/d?client=gws-wiz&delq=pawan+kalyan&deltok=AMc44K7wOEkzF10EmQRTNAFLsTwRgbne-Q\",\"zf\":27,\"zi\":\"Images\",\"zp\":{\"udm\":\"2\"}}]],\"1\":{\"av\":\"2193552501597015126\"}}"
+        },
+        {
+          "name": "sb_wiz.zpc.gws-wiz-modeless-forums.",
+          "value": "{\"0\":[[\"couple in hyderabad was arrested for streaming sexual acts on social media and charging viewers ₹2000 for a live video. the 41-year-old man, a cab driver, and his 37-year-old wife, a homemaker, admitted to doing this as a way to make easy money.\",35,[39,362],{\"du\":\"/complete/deleteitems?client=gws-wiz-modeless-forums&delq=couple+in+hyderabad+was+arrested+for+streaming+sexual+acts+on+social+media+and+charging+viewers+%E2%82%B92000+for+a+live+video.+the+41-year-old+man,+a+cab+driver,+and+his+37-year-old+wife,+a+homemaker,+admitted+to+doing+this+as+a+way+to+make+easy+money.&deltok=AMc44K6YOofLI995ABLBz3GOcuyOHEWUuw\",\"zf\":27}],[\"hyderabad police\",0,[512,273,650,362]]],\"1\":{\"av\":\"5394780472964259791\",\"q\":\"nN9oU7ieLDqDqxKSYxCKpVFGlrQ\",\"t\":{\"bpc\":false,\"tlw\":false}}}"
+        },
+        {
+          "name": "ds;;frib",
+          "value": "p:m|l:0_true"
+        },
+        {
+          "name": "rc::f",
+          "value": "0aAJ3Gg0Zq7sdUp5TCEMEFhBc2NuHlJyJ-TtvvzPrxXoY-MEASXBEQapUjx-YlI90aHae0LQXRPy0WHgcVqbFQXuNqCQXz"
+        },
+        {
+          "name": "rc::a",
+          "value": "NmRwbWk3MWtsb2Y2bA=="
+        },
+        {
+          "name": "sb_wiz.zpc.img.i",
+          "value": "{\"0\":[[\"glod thif\",35,[39,329,362],{\"du\":\"/complete/deleteitems?client=img&delq=glod+thif&deltok=AMc44K7zoOR5NxtFuWScI4HC3WXIVTAyxQ&gs_ri=gws-wiz-img\",\"zf\":27}],[\"glod\",35,[39,329,362],{\"du\":\"/complete/deleteitems?client=img&delq=glod&deltok=AMc44K79m-49PPInq1S2_GCXQBPvlgjzZA&gs_ri=gws-wiz-img\",\"zf\":27}],[\"court\",35,[39,329,362],{\"du\":\"/complete/deleteitems?client=img&delq=court&deltok=AMc44K6HXBriGpSaRTbpChweazNeIPWUKA&gs_ri=gws-wiz-img\",\"zf\":27}],[\"chatham court\",35,[39,329,362],{\"du\":\"/complete/deleteitems?client=img&delq=chatham+court&deltok=AMc44K5GbLOx-jIWTTtnKuCo688736SWsA&gs_ri=gws-wiz-img\",\"zf\":27}],[\"chattam court\",35,[39,329,362],{\"du\":\"/complete/deleteitems?client=img&delq=chattam+court&deltok=AMc44K6h-oydrD6tj3o1UvhtVdVQPCGJEQ&gs_ri=gws-wiz-img\",\"zf\":27}],[\"chattam\",35,[39,329,362],{\"du\":\"/complete/deleteitems?client=img&delq=chattam&deltok=AMc44K57WsyxdqWeN0N8mYqQeuAS428pAQ&gs_ri=gws-wiz-img\",\"zf\":27}],[\"ఏపీ, తెలంగాణలో &#39;దొంగ బంగారం&#39; కేసులో నిజమైన నేరస్తుల కంటే ముందు పోలీసులు స్వర్ణకారుల వద్దకే వెళ్తున్నారని, ఇది అసహ్యకరమైన వ్యవహారమని ఆమె పేర్కొన్నారు.\",35,[39,329,362],{\"du\":\"/complete/deleteitems?client=img&delq=%E0%B0%8F%E0%B0%AA%E0%B1%80,+%E0%B0%A4%E0%B1%86%E0%B0%B2%E0%B0%82%E0%B0%97%E0%B0%BE%E0%B0%A3%E0%B0%B2%E0%B1%8B+'%E0%B0%A6%E0%B1%8A%E0%B0%82%E0%B0%97+%E0%B0%AC%E0%B0%82%E0%B0%97%E0%B0%BE%E0%B0%B0%E0%B0%82'+%E0%B0%95%E0%B1%87%E0%B0%B8%E0%B1%81%E0%B0%B2%E0%B1%8B+%E0%B0%A8%E0%B0%BF%E0%B0%9C%E0%B0%AE%E0%B1%88%E0%B0%A8+%E0%B0%A8%E0%B1%87%E0%B0%B0%E0%B0%B8%E0%B1%8D%E0%B0%A4%E0%B1%81%E0%B0%B2+%E0%B0%95%E0%B0%82%E0%B0%9F%E0%B1%87+%E0%B0%AE%E0%B1%81%E0%B0%82%E0%B0%A6%E0%B1%81+%E0%B0%AA%E0%B1%8B%E0%B0%B2%E0%B1%80%E0%B0%B8%E0%B1%81%E0%B0%B2%E0%B1%81+%E0%B0%B8%E0%B1%8D%E0%B0%B5%E0%B0%B0%E0%B1%8D%E0%B0%A3%E0%B0%95%E0%B0%BE%E0%B0%B0%E0%B1%81%E0%B0%B2+%E0%B0%B5%E0%B0%A6%E0%B1%8D%E0%B0%A6%E0%B0%95%E0%B1%87+%E0%B0%B5%E0%B1%86%E0%B0%B3%E0%B1%8D%E0%B0%A4%E0%B1%81%E0%B0%A8%E0%B1%8D%E0%B0%A8%E0%B0%BE%E0%B0%B0%E0%B0%A8%E0%B0%BF,+%E0%B0%87%E0%B0%A6%E0%B0%BF+%E0%B0%85%E0%B0%B8%E0%B0%B9%E0%B1%8D%E0%B0%AF%E0%B0%95%E0%B0%B0%E0%B0%AE%E0%B1%88%E0%B0%A8+%E0%B0%B5%E0%B1%8D%E0%B0%AF%E0%B0%B5%E0%B0%B9%E0%B0%BE%E0%B0%B0%E0%B0%AE%E0%B0%A8%E0%B0%BF+%E0%B0%86%E0%B0%AE%E0%B1%86+%E0%B0%AA%E0%B1%87%E0%B0%B0%E0%B1%8D%E0%B0%95%E0%B1%8A%E0%B0%A8%E0%B1%8D%E0%B0%A8%E0%B0%BE%E0%B0%B0%E0%B1%81.&deltok=AMc44K72hEZKzjFAtaJ4wh3c2-wJZ-nlpg&gs_ri=gws-wiz-img\",\"zf\":27}],[\"ఏపీ, తెలంగాణలో &#39;దొంగ బంగారం&#39; కేసుల్లో నిజమైన నేరస్థులకంటే ముందు పోలీసులు స్వర్ణకారుల వద్దకే వెళ్తున్నారని, ఇది అసహ్యకరమైన వ్యవహారమని ఆమె పేర్కొన్నారు.\",35,[39,329,362],{\"du\":\"/complete/deleteitems?client=img&delq=%E0%B0%8F%E0%B0%AA%E0%B1%80,+%E0%B0%A4%E0%B1%86%E0%B0%B2%E0%B0%82%E0%B0%97%E0%B0%BE%E0%B0%A3%E0%B0%B2%E0%B1%8B+'%E0%B0%A6%E0%B1%8A%E0%B0%82%E0%B0%97+%E0%B0%AC%E0%B0%82%E0%B0%97%E0%B0%BE%E0%B0%B0%E0%B0%82'+%E0%B0%95%E0%B1%87%E0%B0%B8%E0%B1%81%E0%B0%B2%E0%B1%8D%E0%B0%B2%E0%B1%8B+%E0%B0%A8%E0%B0%BF%E0%B0%9C%E0%B0%AE%E0%B1%88%E0%B0%A8+%E0%B0%A8%E0%B1%87%E0%B0%B0%E0%B0%B8%E0%B1%8D%E0%B0%A5%E0%B1%81%E0%B0%B2%E0%B0%95%E0%B0%82%E0%B0%9F%E0%B1%87+%E0%B0%AE%E0%B1%81%E0%B0%82%E0%B0%A6%E0%B1%81+%E0%B0%AA%E0%B1%8B%E0%B0%B2%E0%B1%80%E0%B0%B8%E0%B1%81%E0%B0%B2%E0%B1%81+%E0%B0%B8%E0%B1%8D%E0%B0%B5%E0%B0%B0%E0%B1%8D%E0%B0%A3%E0%B0%95%E0%B0%BE%E0%B0%B0%E0%B1%81%E0%B0%B2+%E0%B0%B5%E0%B0%A6%E0%B1%8D%E0%B0%A6%E0%B0%95%E0%B1%87+%E0%B0%B5%E0%B1%86%E0%B0%B3%E0%B1%8D%E0%B0%A4%E0%B1%81%E0%B0%A8%E0%B1%8D%E0%B0%A8%E0%B0%BE%E0%B0%B0%E0%B0%A8%E0%B0%BF,+%E0%B0%87%E0%B0%A6%E0%B0%BF+%E0%B0%85%E0%B0%B8%E0%B0%B9%E0%B1%8D%E0%B0%AF%E0%B0%95%E0%B0%B0%E0%B0%AE%E0%B1%88%E0%B0%A8+%E0%B0%B5%E0%B1%8D%E0%B0%AF%E0%B0%B5%E0%B0%B9%E0%B0%BE%E0%B0%B0%E0%B0%AE%E0%B0%A8%E0%B0%BF+%E0%B0%86%E0%B0%AE%E0%B1%86+%E0%B0%AA%E0%B1%87%E0%B0%B0%E0%B1%8D%E0%B0%95%E0%B1%8A%E0%B0%A8%E0%B1%8D%E0%B0%A8%E0%B0%BE%E0%B0%B0%E0%B1%81.&deltok=AMc44K7nFSHsgcOhvl1GabIp7XraDmNung&gs_ri=gws-wiz-img\",\"zf\":27}],[\"తెలుగు రాష్ట్రాల్లో స్వర్ణకారులపై పోలీసుల వేధింపులు ఆగలేదని, దీని ఫలితంగా ఆత్మహత్యలు జరుగుతున్నాయని mlc కల్వకుంట్ల కవిత ఆందోళన వ్యక్తం చేశారు\",35,[39,329,362],{\"du\":\"/complete/deleteitems?client=img&delq=%E0%B0%A4%E0%B1%86%E0%B0%B2%E0%B1%81%E0%B0%97%E0%B1%81+%E0%B0%B0%E0%B0%BE%E0%B0%B7%E0%B1%8D%E0%B0%9F%E0%B1%8D%E0%B0%B0%E0%B0%BE%E0%B0%B2%E0%B1%8D%E0%B0%B2%E0%B1%8B+%E0%B0%B8%E0%B1%8D%E0%B0%B5%E0%B0%B0%E0%B1%8D%E0%B0%A3%E0%B0%95%E0%B0%BE%E0%B0%B0%E0%B1%81%E0%B0%B2%E0%B0%AA%E0%B1%88+%E0%B0%AA%E0%B1%8B%E0%B0%B2%E0%B1%80%E0%B0%B8%E0%B1%81%E0%B0%B2+%E0%B0%B5%E0%B1%87%E0%B0%A7%E0%B0%BF%E0%B0%82%E0%B0%AA%E0%B1%81%E0%B0%B2%E0%B1%81+%E0%B0%86%E0%B0%97%E0%B0%B2%E0%B1%87%E0%B0%A6%E0%B0%A8%E0%B0%BF,+%E0%B0%A6%E0%B1%80%E0%B0%A8%E0%B0%BF+%E0%B0%AB%E0%B0%B2%E0%B0%BF%E0%B0%A4%E0%B0%82%E0%B0%97%E0%B0%BE+%E0%B0%86%E0%B0%A4%E0%B1%8D%E0%B0%AE%E0%B0%B9%E0%B0%A4%E0%B1%8D%E0%B0%AF%E0%B0%B2%E0%B1%81+%E0%B0%9C%E0%B0%B0%E0%B1%81%E0%B0%97%E0%B1%81%E0%B0%A4%E0%B1%81%E0%B0%A8%E0%B1%8D%E0%B0%A8%E0%B0%BE%E0%B0%AF%E0%B0%A8%E0%B0%BF+mlc+%E0%B0%95%E0%B0%B2%E0%B1%8D%E0%B0%B5%E0%B0%95%E0%B1%81%E0%B0%82%E0%B0%9F%E0%B1%8D%E0%B0%B2+%E0%B0%95%E0%B0%B5%E0%B0%BF%E0%B0%A4+%E0%B0%86%E0%B0%82%E0%B0%A6%E0%B1%8B%E0%B0%B3%E0%B0%A8+%E0%B0%B5%E0%B1%8D%E0%B0%AF%E0%B0%95%E0%B1%8D%E0%B0%A4%E0%B0%82+%E0%B0%9A%E0%B1%87%E0%B0%B6%E0%B0%BE%E0%B0%B0%E0%B1%81&deltok=AMc44K6nJAVSM5T-ija3VMnhmlcbLDB2Rg&gs_ri=gws-wiz-img\",\"zf\":27}],[\"స్వర్ణ కారులు నేరస్తులు కాదు!&quot; – 411 చట్ట సవరణపై mlc కవిత డిమాండ్ police\",35,[39,329,362],{\"du\":\"/complete/deleteitems?client=img&delq=%E0%B0%B8%E0%B1%8D%E0%B0%B5%E0%B0%B0%E0%B1%8D%E0%B0%A3+%E0%B0%95%E0%B0%BE%E0%B0%B0%E0%B1%81%E0%B0%B2%E0%B1%81+%E0%B0%A8%E0%B1%87%E0%B0%B0%E0%B0%B8%E0%B1%8D%E0%B0%A4%E0%B1%81%E0%B0%B2%E0%B1%81+%E0%B0%95%E0%B0%BE%E0%B0%A6%E0%B1%81!%22+%E2%80%93+411+%E0%B0%9A%E0%B0%9F%E0%B1%8D%E0%B0%9F+%E0%B0%B8%E0%B0%B5%E0%B0%B0%E0%B0%A3%E0%B0%AA%E0%B1%88+mlc+%E0%B0%95%E0%B0%B5%E0%B0%BF%E0%B0%A4+%E0%B0%A1%E0%B0%BF%E0%B0%AE%E0%B0%BE%E0%B0%82%E0%B0%A1%E0%B1%8D+police&deltok=AMc44K7zABjKf7AxWrahatsW_wZs65aSyA&gs_ri=gws-wiz-img\",\"zf\":27}]],\"1\":{\"q\":\"5L9OSchnqh_byjRdGfj0dgHwV10\"}}"
+        },
+        {
+          "name": "sb_wiz.zpc.gws-wiz-modeless-short-videos.",
+          "value": "{\"0\":[[\"salman khan stunned his fans with new pictures shared on instagram, showing off his toned muscles. the actor posed shirtless, flexing his muscles after an intense gym session. salman’s fans were quick to praise him for his fitness, with many saying he is still in top shape at 59.\",35,[39,362],{\"du\":\"/complete/deleteitems?client=gws-wiz-modeless-short-videos&delq=salman+khan+stunned+his+fans+with+new+pictures+shared+on+instagram,+showing+off+his+toned+muscles.+the+actor+posed+shirtless,+flexing+his+muscles+after+an+intense+gym+session.+salman%E2%80%99s+fans+were+quick+to+praise+him+for+his+fitness,+with+many+saying+he+is+still+in+top+shape+at+59.&deltok=AMc44K5Nx42C_kWRthPcEzJP3eEu9_xDFQ\",\"zf\":27}],[\"social media girl\",35,[39,362],{\"du\":\"/complete/deleteitems?client=gws-wiz-modeless-short-videos&delq=social+media+girl&deltok=AMc44K7jg0Nq6wis5TspVaZO18YWvQlbgQ\",\"zf\":27}],[\"couple in hyderabad was arrested for streaming sexual acts on social media and charging viewers ₹2000 for a live video. the 41-year-old man, a cab driver, and his 37-year-old wife, a homemaker, admitted to doing this as a way to make easy money.\",35,[39,362],{\"du\":\"/complete/deleteitems?client=gws-wiz-modeless-short-videos&delq=couple+in+hyderabad+was+arrested+for+streaming+sexual+acts+on+social+media+and+charging+viewers+%E2%82%B92000+for+a+live+video.+the+41-year-old+man,+a+cab+driver,+and+his+37-year-old+wife,+a+homemaker,+admitted+to+doing+this+as+a+way+to+make+easy+money.&deltok=AMc44K6YOofLI995ABLBz3GOcuyOHEWUuw\",\"zf\":27}],[\"instagram reels size\",35,[39,362],{\"du\":\"/complete/deleteitems?client=gws-wiz-modeless-short-videos&delq=instagram+reels+size&deltok=AMc44K4H8wrCDRtLZaDRApadoVRapn8K1Q\",\"zf\":27}],[\"salman khan latest news\",0,[512,273,650,362]],[\"salman khan marriage news\",0,[512,273,650,362]],[\"salman khan new movie 2023\",0,[512,273,650,362]],[\"salman khan new movie 2022\",0,[512,273,650,362]],[\"salman khan movies and tv shows\",0,[512,273,650,362]]],\"1\":{\"av\":\"-4278642669740110516\",\"q\":\"p3_SpxgUZjU2kmN_7wJq0NO6cpk\",\"t\":{\"bpc\":false,\"tlw\":false}}}"
+        },
+        {
+          "name": "sb_wiz.zpc.n",
+          "value": "{\"0\":[],\"1\":{\"q\":\"KmSXe_EiKGyAracDv4HMRQGLRk8\",\"t\":{\"bpc\":false,\"tlw\":false}}}"
+        },
+        {
+          "name": "sb_wiz.sc_pq",
+          "value": ""
+        },
+        {
+          "name": "sb_wiz.zpc.gws-wiz-modeless-video.v",
+          "value": "{\"0\":[[\"జనతా ఇంటర్ కాలేజీ గోడను ఢీకొట్టి కారు ముందు భాగం పూర్తిగా ధ్వంసమైంది.\",35,[39,362],{\"du\":\"/complete/deleteitems?client=gws-wiz-modeless-video&delq=%E0%B0%9C%E0%B0%A8%E0%B0%A4%E0%B0%BE+%E0%B0%87%E0%B0%82%E0%B0%9F%E0%B0%B0%E0%B1%8D+%E0%B0%95%E0%B0%BE%E0%B0%B2%E0%B1%87%E0%B0%9C%E0%B1%80+%E0%B0%97%E0%B1%8B%E0%B0%A1%E0%B0%A8%E0%B1%81+%E0%B0%A2%E0%B1%80%E0%B0%95%E0%B1%8A%E0%B0%9F%E0%B1%8D%E0%B0%9F%E0%B0%BF+%E0%B0%95%E0%B0%BE%E0%B0%B0%E0%B1%81+%E0%B0%AE%E0%B1%81%E0%B0%82%E0%B0%A6%E0%B1%81+%E0%B0%AD%E0%B0%BE%E0%B0%97%E0%B0%82+%E0%B0%AA%E0%B1%82%E0%B0%B0%E0%B1%8D%E0%B0%A4%E0%B0%BF%E0%B0%97%E0%B0%BE+%E0%B0%A7%E0%B1%8D%E0%B0%B5%E0%B0%82%E0%B0%B8%E0%B0%AE%E0%B1%88%E0%B0%82%E0%B0%A6%E0%B0%BF.&deltok=AMc44K7BI9JDsxEqLfuG11hoXIh3TU9FtQ\",\"zf\":27}],[\"youtube\",35,[39,362],{\"du\":\"/complete/deleteitems?client=gws-wiz-modeless-video&delq=youtube&deltok=AMc44K4-qsdGZ9M_M3zwfZ4lfZrZQNcthg\",\"zf\":27}],[\"social media girl\",35,[39,362],{\"du\":\"/complete/deleteitems?client=gws-wiz-modeless-video&delq=social+media+girl&deltok=AMc44K7jg0Nq6wis5TspVaZO18YWvQlbgQ\",\"zf\":27}],[\"kcr health.\",35,[564,39,362],{\"du\":\"/complete/deleteitems?client=gws-wiz-modeless-video&delq=kcr+health.&deltok=AMc44K6rw5JWG3lzAalufe1M8MqhoqBlRA\",\"zf\":27}],[\"couple in hyderabad was arrested for streaming sexual acts on social media and charging viewers ₹2000 for a live video. the 41-year-old man, a cab driver, and his 37-year-old wife, a homemaker, admitted to doing this as a way to make easy money.\",35,[39,362],{\"du\":\"/complete/deleteitems?client=gws-wiz-modeless-video&delq=couple+in+hyderabad+was+arrested+for+streaming+sexual+acts+on+social+media+and+charging+viewers+%E2%82%B92000+for+a+live+video.+the+41-year-old+man,+a+cab+driver,+and+his+37-year-old+wife,+a+homemaker,+admitted+to+doing+this+as+a+way+to+make+easy+money.&deltok=AMc44K6YOofLI995ABLBz3GOcuyOHEWUuw\",\"zf\":27}],[\"happy tears music telugu\",35,[39,362],{\"du\":\"/complete/deleteitems?client=gws-wiz-modeless-video&delq=happy+tears+music+telugu&deltok=AMc44K7IRpP6xffPn4SDwaX4KW2zYbYLxQ\",\"zf\":27}],[\"sattenapalli ycp meeting\",35,[39,362],{\"du\":\"/complete/deleteitems?client=gws-wiz-modeless-video&delq=sattenapalli+ycp+meeting&deltok=AMc44K5Z_oNGe0GrVFPWFjrbpvLS68ynHQ\",\"zf\":27}],[\"failed\",35,[39,362],{\"du\":\"/complete/deleteitems?client=gws-wiz-modeless-video&delq=failed&deltok=AMc44K7zjn7VvKXCLPvgKdlKT7tsHXSpFw\",\"zf\":27}],[\"గుడిమల్కాపూర్ లో యువకుడు ట్యాంక్ పై నుండి పడి..\",35,[39,362],{\"du\":\"/complete/deleteitems?client=gws-wiz-modeless-video&delq=%E0%B0%97%E0%B1%81%E0%B0%A1%E0%B0%BF%E0%B0%AE%E0%B0%B2%E0%B1%8D%E0%B0%95%E0%B0%BE%E0%B0%AA%E0%B1%82%E0%B0%B0%E0%B1%8D+%E0%B0%B2%E0%B1%8B+%E0%B0%AF%E0%B1%81%E0%B0%B5%E0%B0%95%E0%B1%81%E0%B0%A1%E0%B1%81+%E0%B0%9F%E0%B1%8D%E0%B0%AF%E0%B0%BE%E0%B0%82%E0%B0%95%E0%B1%8D+%E0%B0%AA%E0%B1%88+%E0%B0%A8%E0%B1%81%E0%B0%82%E0%B0%A1%E0%B0%BF+%E0%B0%AA%E0%B0%A1%E0%B0%BF..&deltok=AMc44K4Tb1XaCn7ISs-wtHeZn7_wizgZAw\",\"zf\":27}],[\"operation sindoor\",35,[39,362],{\"du\":\"/complete/deleteitems?client=gws-wiz-modeless-video&delq=operation+sindoor&deltok=AMc44K52Dp07X2qXUeC195ITsZaYqaVDOw\",\"zf\":27}]],\"1\":{\"q\":\"kwX-Q6GTqu2AoU4H5ODKQIj4TCw\",\"t\":{\"bpc\":false,\"tlw\":false}}}"
+        }
+      ]
+    }
+  ]
 }
