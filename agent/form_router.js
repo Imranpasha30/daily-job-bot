@@ -5,6 +5,7 @@
 const { handleGreenhouse } = require('./ats/greenhouse');
 const { handleAshby } = require('./ats/ashby');
 const { handleLever } = require('./ats/lever');
+const { handleLinkedIn } = require('./ats/linkedin');
 const { handleGeneric } = require('./ats/generic');
 const { PROFILE } = require('./profile');
 
@@ -118,6 +119,10 @@ async function processJobPage(page, job) {
   const url = page.url().toLowerCase();
 
   // Detect ATS type from URL or DOM
+  if (url.includes('linkedin.com/jobs/view') || url.includes('linkedin.com/jobs/collections')) {
+    return await handleLinkedIn(page, job, processJobPage);
+  }
+
   if (url.includes('greenhouse.io') || url.includes('gh_jid=')) {
     return await handleGreenhouse(page, job);
   }

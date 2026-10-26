@@ -1,4 +1,4 @@
 {
-  "noticePeriod": "30 days",
-  "noticeDays": 30
+  "noticePeriod": "15 Days",
+  "noticeDays": 15
 }

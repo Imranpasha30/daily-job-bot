@@ -44,10 +44,23 @@ async function verifySubmission(page, timeoutMs = 7000) {
         '.error, [class*="error"], [class*="helper-text--error"], [aria-invalid="true"], [role="alert"]'
       )).map(e => e.innerText?.trim()).filter(Boolean);
 
-      // 4. Check for Captcha blocking submission
-      const captchaEl = document.querySelector(
+      // 4. Check for ACTIVE, VISIBLE Captcha blocking submission
+      // Excludes hidden page badges (e.g. .grecaptcha-badge in LinkedIn/ATS footers)
+      const captchaCandidates = Array.from(document.querySelectorAll(
         'iframe[src*="recaptcha"], iframe[src*="hcaptcha"], div[class*="captcha"], #cf-turnstile, [class*="turnstile"]'
-      );
+      ));
+      const activeCaptcha = captchaCandidates.find(el => {
+        if (el.classList && el.classList.contains('grecaptcha-badge')) return false;
+        if (el.id === 'grecaptcha-badge') return false;
+        try {
+          const style = window.getComputedStyle(el);
+          if (style.display === 'none' || style.visibility === 'hidden' || style.opacity === '0') return false;
+          const rect = el.getBoundingClientRect();
+          return rect.width > 40 && rect.height > 40;
+        } catch (e) {
+          return false;
+        }
+      });
 
       // 5. Check if application form is gone
       const hasForm = !!document.querySelector('form#application_form, form.application-form, #apply_form');
@@ -56,7 +69,7 @@ async function verifySubmission(page, timeoutMs = 7000) {
         urlMatches,
         textMatches,
         errorElements,
-        hasCaptcha: !!captchaEl,
+        hasCaptcha: !!activeCaptcha,
         hasForm
       };
     }).catch(() => null);

@@ -216,7 +216,7 @@ class ParallelApplyPool {
           resume: resumeName,
           screenshot: ssFilename,
           workerId: workerId,
-          status: verification.isConfirmed ? 'CONFIRMED_APPLIED' : 'NOT_SUBMITTED',
+          status: verification.isConfirmed ? 'APPLIED' : 'NOT_SUBMITTED',
           confirmed: verification.isConfirmed,
           verificationReason: verification.reason || verification.confirmationText,
           date: new Date().toISOString()
@@ -230,11 +230,14 @@ class ParallelApplyPool {
           this.history.applied[jobId] = record;
           this.onJobComplete(record);
           this.onLog(`[Worker #${workerId}] ✅ 100% CONFIRMED: Application submitted to ${job.company}! (${verification.confirmationText})`);
+        } else if (formReport && formReport.status === 'REQUIRES_AUTH') {
+          this.stats.failed++;
+          worker.step = 'Requires Platform Sign-In';
+          this.onLog(`[Worker #${workerId}] ℹ️ SKIPPED: ${job.company} — Requires platform login (Click "🔐 Open Browser" on dashboard).`);
         } else {
           this.stats.failed++;
           worker.step = `Submission blocked: ${verification.reason.slice(0, 30)}...`;
           this.onLog(`[Worker #${workerId}] ❌ NOT SUBMITTED: ${job.company} — ${verification.reason}`);
-          this.history.applied[jobId] = record;
         }
 
         this.onWorkerUpdate(worker);
