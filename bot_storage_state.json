@@ -1,0 +1,337 @@
+{
+  "cookies": [
+    {
+      "name": "bcookie",
+      "value": "\"v=2&d738cd55-0e5b-4f63-8dd5-aa6a2ea639e1\"",
+      "domain": ".linkedin.com",
+      "path": "/",
+      "expires": 1824555276.399175,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "bscookie",
+      "value": "\"v=1&20261026124944e022f5ff-1710-4444-8d82-3bf8f4023c17AQHUqTV2wUWA88tgFtyEg5uDehRlI6Kj\"",
+      "domain": ".www.linkedin.com",
+      "path": "/",
+      "expires": 1824555276.399273,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "lidc",
+      "value": "\"b=OGST03:s=O:r=O:a=O:p=O:g=3857:u=1:x=1:i=1793018984:t=1793105384:v=2:sig=AQGyAgeRdMgdcl-CojqBF9_KDWBDlRbA\"",
+      "domain": ".linkedin.com",
+      "path": "/",
+      "expires": 1793105384.222187,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "__cf_bm",
+      "value": "ky6SXAnvC5ANRBp3k3BJZkKMux8YTC2GC45CKKuEXjk-1793018983.978659-1.0.1.1-4t9mw_Hru4Z9N7lNBIjkM3hf5nOY7lFgu6012wCORIoBzN7ltGfynFWR_PGi3rkWA1qrScy7YNBya0g8QrSWQ.bzZgITOv_8iLmwzDopJRmqOc9XfrSMP.EnGMUSqWAS",
+      "domain": ".linkedin.com",
+      "path": "/",
+      "expires": 1793020784.222206,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "demdex",
+      "value": "20713313546422194504469906310162571765",
+      "domain": ".demdex.net",
+      "path": "/",
+      "expires": 1808571297.698059,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "aam_uuid",
+      "value": "20713313546422194504469906310162571765",
+      "domain": ".linkedin.com",
+      "path": "/",
+      "expires": 1795611297,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "TAPID",
+      "value": "linkedin/jobs-guest-frontend>01a1784278d700130105faef104a0006f0085067007e8|",
+      "domain": ".tealiumiq.com",
+      "path": "/",
+      "expires": 1824555297.755354,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "MUID",
+      "value": "07773F789B576DAA0F3228869A846CDF",
+      "domain": ".bing.com",
+      "path": "/",
+      "expires": 1826714986.571933,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "MR",
+      "value": "0",
+      "domain": ".bat.bing.com",
+      "path": "/",
+      "expires": 1793623785.075274,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_gcl_au",
+      "value": "1.1.987095349.1793018985",
+      "domain": ".linkedin.com",
+      "path": "/",
+      "expires": 1800794985,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "dextp",
+      "value": "771-1-1793018985140|1957-1-1793018985259",
+      "domain": ".demdex.net",
+      "path": "/",
+      "expires": 1808570985,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "_pxvid",
+      "value": "b8ce1075-d13b-11f1-ac5f-866b34427f57",
+      "domain": ".protechts.net",
+      "path": "/",
+      "expires": 1824554985.299691,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None",
+      "partitionKey": "https://linkedin.com",
+      "_crHasCrossSiteAncestor": true
+    },
+    {
+      "name": "IDE",
+      "value": "AHWqTUn1DAqT-wBFp_8VTofHH8oXDtEcTXtYgyupUg699NGEHx6OSbW9nbv2q9jjWMc",
+      "domain": ".doubleclick.net",
+      "path": "/",
+      "expires": 1827578985.489381,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "dpm",
+      "value": "20713313546422194504469906310162571765",
+      "domain": ".dpm.demdex.net",
+      "path": "/",
+      "expires": 1808570985.633494,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "MR",
+      "value": "0",
+      "domain": ".c.bing.com",
+      "path": "/",
+      "expires": 1793623786.571991,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "fid",
+      "value": "AQGRBzOGqerYuAAAAaF4QtOFSDHiKjEI0ILwt7X21rL1aWHLYpq4Hta3ggJE956_a_9CevnU3uTTnA",
+      "domain": "www.linkedin.com",
+      "path": "/",
+      "expires": 1793623807.242457,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "NID",
+      "value": "CuUBCAESlwEBOxGDSMHpK2IZqzbaiQHPM6gR9qeejqAV1AscYeLccahZ1eu4touNJhZHJ-0V_kWzSODPZFQ9csdZXIauasaNhUXoXMsjLaGTgzijDFAL6oPY79kjOCyI5tk1o8DLkQ7kjCwnxLNNpVLwOKf1eUHSpf4o2Gxi9_ALhzjLC8vHT1VA0Lji59lOtKTgQ-CAz4efFtEcvUwMKAEyRQHSrAfPMSrqjlCROBCROpwazWEuY0BYmFVHX9sUsnU2TGJRNVHAXDkNZISWFS3GAFb0vZAM4hI984DW2bKwWIJ5OWYsDA",
+      "domain": ".google.com",
+      "path": "/",
+      "expires": 1808830195.249352,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "dfpfpt",
+      "value": "197e13416c544b9897b9a5b77dbbb453",
+      "domain": ".linkedin.com",
+      "path": "/",
+      "expires": 1824555009.617954,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_t_ds",
+      "value": "3879df1793019225-363879df-03879df",
+      "domain": ".naukri.com",
+      "path": "/",
+      "expires": 1824555224.286965,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "J",
+      "value": "0",
+      "domain": ".naukri.com",
+      "path": "/",
+      "expires": 1824555495.831527,
+      "httpOnly": true,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "AMCV_14215E3D5995C57C0A495C55%40AdobeOrg",
+      "value": "-637568504%7CMCIDTS%7C20753%7CMCMID%7C20496918134783309934523693374040347198%7CMCAAMLH-1793624077%7C12%7CMCAAMB-1793624077%7C6G1ynYcLPuiQxYZrsz_pkqfLG9yMXBpb2zX5dvJdYQJzPXImdj0y%7CMCOPTOUT-1793026477s%7CNONE%7CvVersion%7C5.1.1",
+      "domain": ".linkedin.com",
+      "path": "/",
+      "expires": 1808571277,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_uetsid",
+      "value": "54b60d20d13911f1bc9117748c329f33",
+      "domain": ".linkedin.com",
+      "path": "/",
+      "expires": 1793105697,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_uetvid",
+      "value": "54b60bd0d13911f1aa3fa7f6505a96ab",
+      "domain": ".linkedin.com",
+      "path": "/",
+      "expires": 1826715297,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_ga_T749QGK6MQ",
+      "value": "GS2.1.s1793019403$o1$g0$t1793019403$j60$l0$h0",
+      "domain": ".naukri.com",
+      "path": "/",
+      "expires": 1827579403.920221,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_ga",
+      "value": "GA1.1.652142770.1793019404",
+      "domain": ".naukri.com",
+      "path": "/",
+      "expires": 1827579496.704991,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "ak_bmsc",
+      "value": "B2F14288C1199E370B7FA06A6558108A~000000000000000000000000000000~YAAQVYgsMTTKR0mhAQAARglJeAFpX30YZFhniudV8z+NIZC0BEQ7Lvh4IL/SbFqNKgAO/zWtXxeKvgBt0r0K30r+y8S0cj54P8ZVP2sT0C5iB5v0aipwoW9NZzrwNS6L2ujUQrKUnNh3Hzm9i5jaqdB8WO+mcXPkfiIsWyi2iZXKOMxj7sbIAsDhcLTEiHpfI6fgBuUC7ywuI6j3yH2oHWySaLTsCPnqGiEV4ru/ENwyNW/He2ck7UmxTmvdkLJCcTGscfH5EBvClZzgJTzIhF5RJZsaN8RvT25nbyJUJOYaFIKFAoMGICKY3vUgUphT7nB2+2Ew8SzUrouNNf+pLSPj+uJfT4dB8XRd/2VR8Tvf/BdYThXWJZf/Q7Rc6cyYFuejCzB9lgRq8OZBz7670CHTF433zXVVNHKJVxLfnyTIdiRLMzYgzwf7zeYdyuDO7GtflVQNLVcOZZXkXW/qJYK69j0l2vtkuo4Z7LCxFTXPcMXPM7Hz0ziLty1zELXMVXud",
+      "domain": ".naukri.com",
+      "path": "/",
+      "expires": 1793026602.028727,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "__gads",
+      "value": "ID=5e73f54c418784f5:T=1793019427:RT=1793019427:S=ALNI_MbVSXmlrzRtjakk-huWYYW0NqRrUA",
+      "domain": ".naukri.com",
+      "path": "/",
+      "expires": 1826715427,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "__gpi",
+      "value": "UID=000015c416332492:T=1793019427:RT=1793019427:S=ALNI_MZhme37uNJHTah6MTpDPHQmRdg29w",
+      "domain": ".naukri.com",
+      "path": "/",
+      "expires": 1826715427,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "__eoi",
+      "value": "ID=6c87338a55ad846e:T=1793019427:RT=1793019427:S=AA-AfjY85UlJhTDbN0sO7LEMDmn6",
+      "domain": ".naukri.com",
+      "path": "/",
+      "expires": 1808571427,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "None"
+    },
+    {
+      "name": "bm_sv",
+      "value": "F400D0315B5C1D0976148E420BD3050F~YAAQBYgsMTG34nahAQAAvkhKeAGMh6S5mJeGRT7C6KUohps0XnglXf3kL3kRkQq4qTCIE86PRc9E2CLrinu6SGtb8pWsz8QHj/5Ndpw2AQXGMICxacKUqQk88U+q3iwVi4JoAyElfFVYOTvVzMTb/go8cOkiy3+FMVR3W7nPbKYe/Q0dhmnBCyB3cM5/dvFy8ReTFVXzkxzgZBEIG+ItYKJUN5JlVNw1FaKkMSh1CNl6wT45QeT8V2UXYVU4ZNL/Lw==~1",
+      "domain": ".naukri.com",
+      "path": "/",
+      "expires": 1793026603.8316,
+      "httpOnly": false,
+      "secure": true,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "g_state",
+      "value": "{\"i_l\":0,\"i_ll\":1793019496083,\"i_b\":\"5Ai8WUP10kO4fwNkAyUGXyDeGcuPspSRbI9xute8fng\",\"i_e\":{\"enable_itp_optimization\":24},\"i_et\":1793019496083}",
+      "domain": "www.naukri.com",
+      "path": "/",
+      "expires": 1808571496,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_ga_K2YBNZVRLL",
+      "value": "GS2.1.s1793019403$o1$g1$t1793019496$j34$l0$h1589664858",
+      "domain": ".naukri.com",
+      "path": "/",
+      "expires": 1827579496.704656,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "_gcl_au",
+      "value": "1.1.615698561.1793019404.1083819100.1793019404.1793019496.527826537.1793019404.1793019496",
+      "domain": ".naukri.com",
+      "path": "/",
+      "expires": 1800795404,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": []
+}

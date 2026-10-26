@@ -12,6 +12,8 @@ const { selectResume } = require('./profile');
 const { verifySubmission } = require('./submission_verifier');
 const { isJobApplied, filterUnappliedJobs } = require('./applied_tracker');
 
+const STORAGE_STATE_FILE = path.resolve(__dirname, '..', 'bot_storage_state.json');
+
 class ParallelApplyPool {
   constructor(options = {}) {
     this.concurrency = options.concurrency || 5;
@@ -113,11 +115,15 @@ class ParallelApplyPool {
     const workerId = workerIndex + 1;
     const worker = this.workers[workerIndex];
 
-    // Create isolated browser context per worker
-    const context = await this.browser.newContext({
+    // Create isolated browser context per worker, inheriting active bot session state if present
+    const contextOptions = {
       viewport: { width: 1280, height: 800 },
-      userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36'
-    });
+      userAgent: 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36'
+    };
+    if (fs.existsSync(STORAGE_STATE_FILE)) {
+      contextOptions.storageState = STORAGE_STATE_FILE;
+    }
+    const context = await this.browser.newContext(contextOptions);
     this.contexts.push(context);
     const page = await context.newPage();
 

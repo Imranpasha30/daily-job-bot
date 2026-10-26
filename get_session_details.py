@@ -41,18 +41,22 @@ if os.path.exists(cookie_path):
         # Check LinkedIn
         cur.execute("SELECT name FROM cookies WHERE host_key LIKE '%linkedin%'")
         li_names = [r[0] for r in cur.fetchall()]
+        has_li_session = 'li_at' in li_names
         details['platforms']['linkedin'] = {
             'count': len(li_names),
-            'status': 'Synced & Active' if len(li_names) > 0 else 'Not Found',
+            'hasAuthSession': has_li_session,
+            'status': '🟢 Fully Logged In (li_at Active)' if has_li_session else '🟡 Visitor Cookies Synced (Click "🔐 Open Browser" to Log In Once)',
             'sampleCookies': li_names[:6]
         }
         
         # Check Naukri
         cur.execute("SELECT name FROM cookies WHERE host_key LIKE '%naukri%'")
         nk_names = [r[0] for r in cur.fetchall()]
+        has_nk_session = any(k in nk_names for k in ['naukri_user', 'user_id', 'profile_id', 'nauk_auth'])
         details['platforms']['naukri'] = {
             'count': len(nk_names),
-            'status': 'Synced & Active' if len(nk_names) > 0 else 'Not Found',
+            'hasAuthSession': has_nk_session,
+            'status': '🟢 Fully Logged In' if has_nk_session else '🟡 Visitor Cookies Synced (Click "🔐 Open Browser" to Log In Once)',
             'sampleCookies': nk_names[:6]
         }
         

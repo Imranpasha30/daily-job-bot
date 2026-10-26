@@ -85,8 +85,32 @@ async function launchAuthSession() {
   return { status: 'opened', profileDir: PROFILE_DIR };
 }
 
+const STORAGE_STATE_FILE = path.resolve(__dirname, '..', 'bot_storage_state.json');
+
+async function exportStorageStateFromProfile() {
+  if (!fs.existsSync(PROFILE_DIR) || isBrowserOpen) return;
+  try {
+    const context = await chromium.launchPersistentContext(PROFILE_DIR, {
+      headless: true,
+      channel: 'chrome',
+      args: ['--disable-blink-features=AutomationControlled', '--no-sandbox']
+    });
+    await context.storageState({ path: STORAGE_STATE_FILE });
+    await context.close();
+    console.log('💾 Fresh bot_storage_state.json exported from persistent profile.');
+  } catch (e) {
+    console.warn('exportStorageStateFromProfile note:', e.message);
+  }
+}
+
 async function closeAuthSession() {
   if (authContext) {
+    try {
+      await authContext.storageState({ path: STORAGE_STATE_FILE });
+      console.log('💾 Exported live session state with decrypted cookies to bot_storage_state.json');
+    } catch (e) {
+      console.warn('StorageState export note:', e.message);
+    }
     try {
       await authContext.close();
     } catch (e) {}
@@ -174,5 +198,7 @@ module.exports = {
   isAuthSessionActive,
   checkAuthStatus,
   syncFromActiveChrome,
+  exportStorageStateFromProfile,
+  STORAGE_STATE_FILE,
   PROFILE_DIR
 };
