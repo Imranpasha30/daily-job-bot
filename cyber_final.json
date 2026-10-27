@@ -1,11 +1,11 @@
 {
- "generated": "2026-10-26T07:29:56.106Z",
+ "generated": "2026-10-27T09:16:01.461Z",
  "usdInr": 88,
  "counts": {
-  "pool": 3114,
-  "passed": 90,
+  "pool": 3119,
+  "passed": 91,
   "dubai": 0,
-  "india": 17
+  "india": 18
  },
  "jobs": [
   {
@@ -331,6 +331,27 @@
    "score": 105
   },
   {
+   "title": "cloud security engineer",
+   "company": "cred",
+   "url": "https://jobs.lever.co/cred/9a746e68-0858-4190-9144-54b19a2cbf2c",
+   "source": "Lever",
+   "board": "cred",
+   "region": "bengaluru",
+   "posted": "2026-01-29",
+   "tags": [
+    "cloud and data security",
+    "full time"
+   ],
+   "snippet": "What is CRED? CRED is an exclusive community for India’s most trustworthy and CREDitworthy individuals, where the members are rewarded for good financial behavior. CRED was born out of a need to bring back the focus on a long lost virtue, one of trust, the ide",
+   "full": "What is CRED? CRED is an exclusive community for India’s most trustworthy and CREDitworthy individuals, where the members are rewarded for good financial behavior. CRED was born out of a need to bring back the focus on a long lost virtue, one of trust, the idea being to create a community centered around this virtue. a community that constantly strives to become more virtuous in this regard till they finally scale their behavior to create a utopia where being trustworthy is the norm and not the exception. to build a community like this requires a community of its own; a community special in its own way, working towards making this vision come true here’s a thought experiment: what do you get when you put a group of incredibly passionate and driven people and entrust them with the complete freedom to chase down their goals in a completely uninhibited manner? answer: you get something close to what we have at CRED; CRED just has it better",
+   "salaryText": "",
+   "lpa": null,
+   "inIndia": true,
+   "inDubai": false,
+   "globalRemote": false,
+   "score": 105
+  },
+  {
    "title": "Security Engineer 2",
    "company": "fampay",
    "url": "https://jobs.lever.co/fampay/df8548ac-a0e4-4cd6-a97c-427231b4b3e9",
@@ -376,16 +397,34 @@
   {
    "title": "Security Engineer, Incident Response",
    "company": "Twilio",
-   "url": "https://job-boards.greenhouse.io/twilio/jobs/8055481",
+   "url": "https://job-boards.greenhouse.io/twilio/jobs/8023560",
    "source": "Greenhouse",
    "board": "twilio",
-   "region": "Remote - United Kingdom",
-   "posted": "2026-10-23",
+   "region": "Remote - Ireland",
+   "posted": "2026-10-26",
    "tags": [
     "NP2IT6582-1"
    ],
    "snippet": "div class= content-intro p strong Who we are nbsp; /strong /p p At Twilio, we’re shaping the future of communications, all from the comfort of our homes. We deliver innovative solutions to a class= c-link href= https://customers.twilio.com/ target= _blank data",
    "full": "div class= content-intro p strong Who we are nbsp; /strong /p p At Twilio, we’re shaping the future of communications, all from the comfort of our homes. We deliver innovative solutions to a class= c-link href= https://customers.twilio.com/ target= _blank data-stringify-link= https://customers.twilio.com/ data-sk= tooltip_parent nbsp;hundreds of thousands of businesses nbsp; /a and empower millions of developers worldwide to craft personalized customer experiences. /p p Our dedication to a class= c-link href= https://www.twilio.com/en-us/blog/open-work target= _blank data-stringify-link= https://www.twilio.com/en-us/blog/open-work data-sk= tooltip_parent remote-first work /a , and strong culture of connection and global inclusion means that no matter your location, you’re part of a vibrant team with diverse experiences making a global impact each day. As we continue to revolutionize how the world interacts, we’re acquiring new skills and experiences that make work feel truly rewarding. Your career at Twilio is in your hands. br span style= color: rgb(255, 255, 255); . /span /p p strong Hiring and how we work /strong /p p We use Artificial Intelligence (AI) to help make our hiring process efficient. That said, every hiring decision is made by real Twilions! nbsp; /p p Also, while we are a remote-first company, you may be asked to report in person on an ad-hoc basis for team gatherings, functional off-sites or customer meetings. nbsp; br span style= color: rgb(255, 255, 255); . /span /p /div p strong See yourself at Twilio /strong /p p Join the team as Twilio’s next strong Security Engineer, Incident Response /strong /p p strong About the job /strong /p p The Security Incident Response Team (SIRT) is looking for a Security Engineer who is passionate about solving Twilio’s mission of security and reliability by working across the organization to lead the technical response to security events and incidents across Twilio’s global infrastructure, services and applications by effectively conducting triage, containment, remediation and driving post-incident betterments. nbsp; You will work within a team that partners with R amp;D Engineering and R amp;D Business teams to develop scalable processes and technical solutions. nbsp; /p p You will be a valued member of a team of deeply technical Security Engineers to focus on creating bespoke and standard Security response processes, enhancing our capabilities for threat mitigation and incident response, and then automating as much as you possibly can (and more)! You will help us to grow our global, scaled team and program. /p p strong Responsibilities /strong /p p In this role, you’ll: /p ul li Lead and support the response to all security events and incidents across Twilio’s complex global infrastructure, services and applications. /li li Be responsible for documentation of incidents and projects you work on and craft best practices as runbooks and standard operating procedures to share knowledge across team",
+   "salaryText": "",
+   "lpa": null,
+   "inIndia": false,
+   "inDubai": false,
+   "globalRemote": true,
+   "score": 90
+  },
+  {
+   "title": "Security Analyst ",
+   "company": "Stripe",
+   "url": "https://stripe.com/jobs/search?gh_jid=8142302",
+   "source": "Greenhouse",
+   "board": "stripe",
+   "region": "US Remote",
+   "posted": "2026-10-26",
+   "tags": [],
+   "snippet": "h1 strong Who we are /strong /h1 h3 strong About Stripe /strong /h3 p Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world’s largest enterprises to the most ambitious startups—use Stripe to accept payments, grow th",
+   "full": "h1 strong Who we are /strong /h1 h3 strong About Stripe /strong /h3 p Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world’s largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone’s reach while doing the most important work of your career. /p h3 strong About the team /strong /h3 p The Security Incident Response team works to analyze, investigate, and respond to threats before they impact Stripe’s business or users. From external attacks to insider threats, our goal is to respond with speed and precision, remediate, and support the incident postmortem process. The team is distributed, working across North America, Europe, and Asia, and will regularly coordinate with stakeholders in different time zones. /p h2 strong What you’ll do /strong /h2 p You will be leveraging your security incident response experience to analyze and respond to security notifications, events, and inquiries. You will be performing initial triage of potential security incidents through log and data analysis to determine whether or not activity is a substantiated or valid threat, assessing severity and potential impact, taking pre-approved remediation measures to contain a threat, and escalating findings to investigators for further review and analysis. You will use your knowledge of cyber threats and the results of your analysis to coordinate with partner teams to improve threat detection through tuning and creation of new use cases, to improve capabilities through enriching existing data and creation of new data feeds, and to improve triage accuracy, consistency and timeliness through automation. This role plays a critical part in threat detection and response, ultimately reducing the likelihood of security breaches and protecting sensitive company information. /p h3 strong Responsibilities /strong /h3 ul li Analyze and investigate activity on company devices and cloud infrastructure that could represent a security threat /li li Work cross-functionally with the Security teams to develop solutions for analyzing security events at scale and protecting Stripe networks, systems, and data /li li Interpret disparate data sources to report on trends and support investigative requests /li li Collect requirements for enhancements to detection models and response systems /li li Leverage existing systems and data to perform analyses and promote process improvements nbsp; /li li Provide actionable insights to help identify, prevent, detect, and respond to anomalous or potentially malicious user activity /li li Collaborate effectively with teammates, lead projects, mentor others, and develop and champion quality operational standards across the team /li /ul h2 strong ",
    "salaryText": "",
    "lpa": null,
    "inIndia": false,
@@ -980,8 +1019,8 @@
    "region": "United States",
    "posted": "2026-09-22",
    "tags": [],
-   "snippet": "div class= content-intro h3 strong Why AssemblyAI /strong /h3 p AssemblyAI builds the best-in-class Voice AI models powering the next generation of voice applications. Our models serve 600M+ inference calls monthly, process 1M+ hours of audio daily, and power ",
-   "full": "div class= content-intro h3 strong Why AssemblyAI /strong /h3 p AssemblyAI builds the best-in-class Voice AI models powering the next generation of voice applications. Our models serve 600M+ inference calls monthly, process 1M+ hours of audio daily, and power 2 billion+ end-user experiences. The Voice AI space is at an inflection point; we’re looking for folks truly excited to join a small team and help define the future of the industry. /p p We are one of the most capital-efficient AI companies on the planet - with under 100 people generating roughly $600K ARR per employee, we sit among the top 5 most revenue-dense teams within the fastest-growing AI companies today. That s not an accident; it s a deliberate choice to stay lean, move fast, and give every person on the team outsized ownership and impact. With thousands of customers including Granola, Fireflies, Figure AI, and CallRail, the company has real scale - processing over 2 million hours of audio daily and handling more than 1 million API calls every day. This is a rare growth-stage opportunity where the business is proven and the trajectory is steep, but the team is still small enough that your fingerprints are on everything. /p p If you ve ever felt buried under layers of bureaucracy, starved of real ownership, or frustrated watching your work disappear into a slow-moving org, AssemblyAI is built differently. The company operates as a true meritocracy, with no heavy planning or approval processes and no gatekeeping on the tools or information you need. For anyone who genuinely cares about voice AI, not as a trend to chase, but as a technology to build, nbsp; this is the place where the most interesting problems at the most interesting scale are being solved by a team small enough that you ll actually know everyone s name. /p p We’re committed to creating a space where our employees can bring their full selves to work and have equal opportunity to succeed. No matter your race, gender identity or expression, sexual orientation, religion, origin, ability, age, veteran status, if joining this mission speaks to you, we encourage you to apply! /p /div h2 strong About the role: /strong /h2 p AssemblyAI runs a mature, multi-framework security and compliance program—including SOC 2 (all trust criteria), ISO 27001, and PCI 4.0—that protects the infrastructure and customer data behind our industry-leading Voice AI API. We re hiring a Security Operations Engineer to join our IT amp; Security team and take day-to-day ownership of the operational backbone of that program. /p p This role is centered on security operations and GRC: running compliance audit cycles end to end, gathering and organizing evidence, enforcing and verifying controls, executing access reviews, managing vulnerability triage and remediation follow-up, and responding to customer security questionnaires. It s the work that turns a security program on paper into one that demonstrably runs. You ll also have room to grow the technical",
+   "snippet": "div class= content-intro h3 strong Why AssemblyAI /strong /h3 p AssemblyAI builds the best-in-class Voice AI models powering the next generation of voice applications. We have a lab, and we also power our own models in our own proprietary inference environment",
+   "full": "div class= content-intro h3 strong Why AssemblyAI /strong /h3 p AssemblyAI builds the best-in-class Voice AI models powering the next generation of voice applications. We have a lab, and we also power our own models in our own proprietary inference environment. Our models serve 600M+ inference calls monthly, process 1M+ hours of audio daily, and power 2 billion+ end-user experiences. The Voice AI space is at an inflection point; we’re looking for the best talent we can find to join a rapidly scaling team that s defining the future of the industry. br br We are one of the most capital-efficient AI companies on the planet - and are rapidly approaching $1M ARR per employee. We sit among the top 5 most revenue-dense teams within the fastest-growing AI companies today. We have thousands of customers building with us including the top startups and world renown enterprises, and are serving at tremendous scale: we process over 2 million hours of audio daily and handle more than 1 million API calls every day. This is a rare growth-stage opportunity where the business is proven, the revenue is durable, and the growth trajectory is steep and getting steeper. We have a super flat culture and expect our employees to be deeply intimate with the details at all levels. br br If you’ve ever felt buried under layers of bureaucracy, starved of real ownership, or frustrated watching your work disappear into a slow-moving org, AssemblyAI is built differently. The company operates as a true meritocracy, with no heavy planning or approval processes and no gatekeeping on the tools or information you need. For anyone who genuinely cares about voice AI, not as a trend to chase, but as a technology to build, this is the place where the most interesting problems at the most interesting scale are being solved by a team small enough that you’ll actually know everyone’s name. /p /div h2 strong About the role: /strong /h2 p AssemblyAI runs a mature, multi-framework security and compliance program—including SOC 2 (all trust criteria), ISO 27001, and PCI 4.0—that protects the infrastructure and customer data behind our industry-leading Voice AI API. We re hiring a Security Operations Engineer to join our IT amp; Security team and take day-to-day ownership of the operational backbone of that program. /p p This role is centered on security operations and GRC: running compliance audit cycles end to end, gathering and organizing evidence, enforcing and verifying controls, executing access reviews, managing vulnerability triage and remediation follow-up, and responding to customer security questionnaires. It s the work that turns a security program on paper into one that demonstrably runs. You ll also have room to grow the technical side of the role. We automate wherever we can, and you ll be encouraged to build scripts, integrations, and tooling that reduce manual toil and improve the program. /p p This is a high-ownership role on a small team. You ll work closely with engineers acro",
    "salaryText": "",
    "lpa": null,
    "inIndia": false,
@@ -1159,6 +1198,46 @@
    "score": 65
   },
   {
+   "title": "Product Security Engineer",
+   "company": "Cloudflare",
+   "url": "https://boards.greenhouse.io/cloudflare/jobs/8102768?gh_jid=8102768",
+   "source": "Greenhouse",
+   "board": "cloudflare",
+   "region": "Hybrid",
+   "posted": "2026-10-26",
+   "tags": [
+    "4700 - Security"
+   ],
+   "snippet": "div class= content-intro h3 About Us /h3 p At Cloudflare, we are on a mission to help build a better Internet. Today the company runs one of the world’s largest networks that powers millions of websites and other Internet properties for customers ranging from ",
+   "full": "div class= content-intro h3 About Us /h3 p At Cloudflare, we are on a mission to help build a better Internet. Today the company runs one of the world’s largest networks that powers millions of websites and other Internet properties for customers ranging from individual bloggers to SMBs to Fortune 500 companies. Cloudflare protects and accelerates any Internet application online without adding hardware, installing software, or changing a line of code. Internet properties powered by Cloudflare all have web traffic routed through its intelligent global network, which gets smarter with every request. As a result, they see significant improvement in performance and a decrease in spam and other attacks. Cloudflare was named to Entrepreneur Magazine’s Top Company Cultures list and ranked among the World’s Most Innovative Companies by Fast Company. /p p At Cloudflare, we’re not looking for people who wait for a polished roadmap; we’re looking for the builders who see the cracks in the Internet that everyone else has simply learned to live with. We value candidates who have the instinct to spot a normalized problem and the AI-native curiosity to create a solution using the latest tools. Our culture is built on iteration, leveraging AI to ship faster today to make it better tomorrow, while ensuring that every improvement, no matter how small, is shared across the team to lift everyone up. If you’re the type of person who values curiosity over bureaucracy, and that AI is a partner in solving tough problems to keep the Internet moving forward, you’ll fit right in. /p /div p strong Available Locations: nbsp; /strong Austin (US), London (UK) /p h4 strong Role Summary /strong /h4 p As a Product Security Engineer, you will support security assessments and vulnerability operations for Cloudflare’s core software products. In this role, you will analyze system architecture, threat model new features, and ensure that product-related security findings are accurately triaged, routed to the correct engineering owners, and mitigated within our SLAs. /p p On any given day, you might conduct a deep-dive security review on a new feature design, triage a complex bug bounty submission, or work directly with engineering teams to resolve vulnerabilities from different sources like bug bounties, SAST, fuzzing and penetration tests. You will also work autonomously to identify areas where our manual processes slow down. You will write code and integrate AI/LLM solutions to automate initial triage and data enrichment, building tools that help the team handle security findings at scale. In short, your work will sit at the intersection of Product Security, Vulnerability Operations, and internal AI Tooling. Ideally, you nbsp;have experience in conducting academic/vulnerability research with a focus on systems security. /p p strong Responsibilities /strong /p ul li strong Implement AI Security Solutions: /strong Identify process bottlenecks and build AI-driven tools or scripts to hel",
+   "salaryText": "",
+   "lpa": null,
+   "inIndia": false,
+   "inDubai": false,
+   "globalRemote": false,
+   "score": 55
+  },
+  {
+   "title": "Intermediate Security Engineer, Security Incident Response Team (SIRT)",
+   "company": "GitLab",
+   "url": "https://jobicy.com/jobs/157093-intermediate-security-engineer-security-incident-response-team-sirt",
+   "source": "Jobicy",
+   "board": "",
+   "region": "Australia",
+   "posted": "2026-10-26",
+   "tags": [
+    "Cybersecurity"
+   ],
+   "snippet": "GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million re",
+   "full": "GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and more than 50% of the Fortune 100* trust G",
+   "salaryText": "",
+   "lpa": null,
+   "inIndia": false,
+   "inDubai": false,
+   "globalRemote": false,
+   "score": 55
+  },
+  {
    "title": "Threat Detection Analyst (Japanese & English speaking)",
    "company": "Fastly",
    "url": "https://www.fastly.com/about/jobs/apply?gh_jid=7912473",
@@ -1243,24 +1322,6 @@
    "score": 55
   },
   {
-   "title": "Security Engineer, New Grad",
-   "company": "Stripe",
-   "url": "https://stripe.com/jobs/search?gh_jid=8257892",
-   "source": "Greenhouse",
-   "board": "stripe",
-   "region": "Dublin",
-   "posted": "2026-10-22",
-   "tags": [],
-   "snippet": "div Who we are: br br About Stripe br Stripe is a financial infrastructure platform for businesses. Millions of companies - from the world’s largest enterprises to the most ambitious startups - use Stripe to accept payments, grow their revenue, and accelerate ",
-   "full": "div Who we are: br br About Stripe br Stripe is a financial infrastructure platform for businesses. Millions of companies - from the world’s largest enterprises to the most ambitious startups - use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone s reach while doing the most important work of your career. br br About the team br Stripe offers an interesting middle ground between joining a small startup and going to work for a multinational company. We have systems and processes optimized for early-career professionals. You will be in an environment that prizes rigor, discipline, and reliability—from our products, from our ways of working, and from our colleagues. You will learn how the best teams put together extremely reliable systems, and you will be responsible for operating these systems, with adequate backup when things get tough. br The Security organization is dedicated to building and maintaining a secure financial infrastructure platform. By joining this team, you will be on the front lines, engineering solutions that protect the sensitive data and systems underpinning a huge portion of the world s economy. You will contribute to core security functions like threat detection and rapid incident response, building and scaling the platforms that manage vulnerabilities, and proactively performing offensive security assessments to identify weaknesses before they can be exploited. This is a chance to apply software engineering principles and new technologies such as AI to solve complex, high-stakes security challenges, ultimately ensuring that Stripe s mission to increase the GDP of the internet is achieved securely. br br What you’ll do br As a Security Engineer New Grad you will have the opportunity to work across various security disciplines and own projects from start to finish. Your work will focus on securing Stripe s complex environment by applying software engineering principles to security challenges. /div ul li You will learn and apply the principles of secure-by-default design by working closely with product and infrastructure engineering teams. /li li You ll develop a foundational understanding of various security domains, such as threat detection, incident response, vulnerability management, or offensive security. /li li You ll learn to act as a security subject matter expert, tailoring answers to both engineers and non-engineers. /li li You ll contribute to the development of internal tools and automation to scale security efforts across Stripe. /li li You will participate in threat modeling discussions, learning to balance security requirements with product advancement and user experience. /li /ul div Responsibilities /div ul li Work on cross-functional projects, directly collaborating with other engin",
-   "salaryText": "",
-   "lpa": null,
-   "inIndia": false,
-   "inDubai": false,
-   "globalRemote": false,
-   "score": 55
-  },
-  {
    "title": "Security Engineer",
    "company": "Starburst",
    "url": "https://job-boards.greenhouse.io/starburst/jobs/5119301008",
@@ -1280,26 +1341,6 @@
   },
   {
    "title": "Product Security Engineer",
-   "company": "Cloudflare",
-   "url": "https://boards.greenhouse.io/cloudflare/jobs/8102768?gh_jid=8102768",
-   "source": "Greenhouse",
-   "board": "cloudflare",
-   "region": "Hybrid",
-   "posted": "2026-10-21",
-   "tags": [
-    "4700 - Security"
-   ],
-   "snippet": "div class= content-intro h3 About Us /h3 p At Cloudflare, we are on a mission to help build a better Internet. Today the company runs one of the world’s largest networks that powers millions of websites and other Internet properties for customers ranging from ",
-   "full": "div class= content-intro h3 About Us /h3 p At Cloudflare, we are on a mission to help build a better Internet. Today the company runs one of the world’s largest networks that powers millions of websites and other Internet properties for customers ranging from individual bloggers to SMBs to Fortune 500 companies. Cloudflare protects and accelerates any Internet application online without adding hardware, installing software, or changing a line of code. Internet properties powered by Cloudflare all have web traffic routed through its intelligent global network, which gets smarter with every request. As a result, they see significant improvement in performance and a decrease in spam and other attacks. Cloudflare was named to Entrepreneur Magazine’s Top Company Cultures list and ranked among the World’s Most Innovative Companies by Fast Company. /p p At Cloudflare, we’re not looking for people who wait for a polished roadmap; we’re looking for the builders who see the cracks in the Internet that everyone else has simply learned to live with. We value candidates who have the instinct to spot a normalized problem and the AI-native curiosity to create a solution using the latest tools. Our culture is built on iteration, leveraging AI to ship faster today to make it better tomorrow, while ensuring that every improvement, no matter how small, is shared across the team to lift everyone up. If you’re the type of person who values curiosity over bureaucracy, and that AI is a partner in solving tough problems to keep the Internet moving forward, you’ll fit right in. /p /div p strong Available Locations: nbsp; /strong Austin (US), London (UK) /p h4 strong Role Summary /strong /h4 p As a Product Security Engineer, you will support security assessments and vulnerability operations for Cloudflare’s core software products. In this role, you will analyze system architecture, threat model new features, and ensure that product-related security findings are accurately triaged, routed to the correct engineering owners, and mitigated within our SLAs. /p p On any given day, you might conduct a deep-dive security review on a new feature design, triage a complex bug bounty submission, or work directly with engineering teams to resolve vulnerabilities from different sources like bug bounties, SAST, fuzzing and penetration tests. You will also work autonomously to identify areas where our manual processes slow down. You will write code and integrate AI/LLM solutions to automate initial triage and data enrichment, building tools that help the team handle security findings at scale. In short, your work will sit at the intersection of Product Security, Vulnerability Operations, and internal AI Tooling. Ideally, you nbsp;have experience in conducting academic/vulnerability research with a focus on systems security. /p p strong Responsibilities /strong /p ul li strong Implement AI Security Solutions: /strong Identify process bottlenecks and build AI-driven tools or scripts to hel",
-   "salaryText": "",
-   "lpa": null,
-   "inIndia": false,
-   "inDubai": false,
-   "globalRemote": false,
-   "score": 55
-  },
-  {
-   "title": "Product Security Engineer",
    "company": "Careers at KKR",
    "url": "https://www.kkr.com/careers/career-opportunities/post?gh_jid=6109544004",
    "source": "Greenhouse",
@@ -1309,44 +1350,6 @@
    "tags": [],
    "snippet": "div class= content-intro p strong COMPANY OVERVIEW /strong /p p KKR is a leading global investment firm that offers alternative asset management as well as capital markets and insurance solutions. KKR aims to generate attractive investment returns by following",
    "full": "div class= content-intro p strong COMPANY OVERVIEW /strong /p p KKR is a leading global investment firm that offers alternative asset management as well as capital markets and insurance solutions. KKR aims to generate attractive investment returns by following a patient and disciplined investment approach, employing world-class people, and supporting growth in its portfolio companies and communities. KKR sponsors investment funds that invest in private equity, credit and real assets and has strategic partners that manage hedge funds. KKR’s insurance subsidiaries offer retirement, life and reinsurance products under the management of Global Atlantic Financial Group. References to KKR’s investments may include the activities of its sponsored funds and insurance subsidiaries. /p /div p nbsp; /p p strong POSITION SUMMARY /strong /p p KKR is seeking an experienced Product Security Professional. This role offers exciting opportunities for growth and impact as KKR scales its business and continues to innovate. As a Security Analyst, you will be responsible for designing, implementing, and maintaining security measures across our environment specific to our internally developed applications and external facing applications. You must be proficient in troubleshooting, vulnerability management, cloud security, application security, and have a deep understanding of a wide range of systems, and be capable of leading other teams in these efforts. You will work closely with IT and other business units to ensure our security posture remains strong, aligned with industry best practices, and compliant with regulatory requirements. You will also be looking over the horizon, identifying future needs and exploring leading edge solutions. This role will be based in either our Boston or New York office. For Boston, this role is in the office 4 days per week, with 1 day remote. For New York, this role is in the office 5 days per week. nbsp; /p p strong RESPONSIBILITIES: /strong /p ul li Conduct application security assessments and penetration tests to identify vulnerabilities and security issues. /li li Work closely with the software development team to ensure that secure coding practices are implemented throughout the application development lifecycle. /li li Design and implement security solutions to protect applications from potential threats. /li li Provide guidance and recommendations on application security best practices. /li li Maintain knowledge of the latest security trends, threats, and countermeasures. /li li Participate in incident response and handling activities related to application security incidents. /li li Conduct security awareness and training sessions for the development team to promote secure coding practices. /li li Develop and maintain application security standards, policies, and procedures. /li li Report and document security findings and remediation activities. /li li Integrate security tools and practices into the continuous integration/con",
-   "salaryText": "",
-   "lpa": null,
-   "inIndia": false,
-   "inDubai": false,
-   "globalRemote": false,
-   "score": 55
-  },
-  {
-   "title": "Intermediate Security Engineer, Security Incident Response Team (SIRT)",
-   "company": "GitLab",
-   "url": "https://job-boards.greenhouse.io/gitlab/jobs/8782306002",
-   "source": "Greenhouse",
-   "board": "gitlab",
-   "region": "Remote, Australia",
-   "posted": "2026-10-15",
-   "tags": [
-    "n/a"
-   ],
-   "snippet": "div class= content-intro p GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformati",
-   "full": "div class= content-intro p GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and more than 50% of the Fortune 100* trust GitLab to ship better, more secure software faster. /p p The same principles built into our products are reflected in how our team works: we embrace AI as a core productivity multiplier, with all team members expected to incorporate AI into their daily workflows to drive efficiency, innovation, and impact. GitLab is where careers accelerate, innovation flourishes, and every voice is valued. Our high-performance culture is driven by our values nbsp;and continuous knowledge exchange, enabling our team members to reach their full potential while collaborating with industry leaders to solve complex problems. a href= https://www.youtube.com/watch?v=OuZIb5zszQI Co-create the future with us /a as we build technology that transforms how the world develops software. /p p * em Fortune 500® is a registered trademark of Fortune Media IP Limited, used under license. Claim based on GitLab data. Fortune 100 refers to the top 20% ranked companies in the 2025 Fortune 500 list, published in June 2025. Fortune and Fortune Media IP Limited are not affiliated with, and do not endorse products or services of GitLab. /em /p /div p strong An overview of this role /strong /p p As an Intermediate Security Engineer on GitLab s Security Incident Response Team (SIRT), you will be on the frontline of protecting both GitLab.com and GitLab the company from security threats. This role operates on a compressed 4-day work schedule, with a full-time week s hours condensed into four longer working days. strong Shifts run Sunday through Wednesday to provide 24/7/365 security coverage. /strong /p p Your primary focus will be detecting and responding to security incidents during your scheduled shifts. You ll work extensively with our incident response automation tools to investigate, analyze, and resolve security events. You ll also have opportunities to contribute to our security tooling and automation, helping to improve our detection and response capabilities. /p p In this role, you ll develop expertise using our security infrastructure to monitor for threats, analyze potential incidents, and coordinate response efforts across teams. This position is ideal for someone who wants to grow their incident response skills while working within GitLab s established security framework. You ll learn to think both tactically and strategically about security, while getting hands-on experience handling real-world incidents. /p p Successful Security Engineers thrive in high-pressure environments, remaining calm while following prepared runbooks and thinking critically about security challenges. In this role, you will learn to think like both an attacker and",
-   "salaryText": "",
-   "lpa": null,
-   "inIndia": false,
-   "inDubai": false,
-   "globalRemote": false,
-   "score": 55
-  },
-  {
-   "title": "Threat Intelligence Response Analyst",
-   "company": "Recorded Future",
-   "url": "https://job-boards.greenhouse.io/recordedfuture/jobs/8859088002",
-   "source": "Greenhouse",
-   "board": "recordedfuture",
-   "region": "London, England, UK",
-   "posted": "2026-10-13",
-   "tags": [],
-   "snippet": "div class= content-intro p With 1,000+ intelligence professionals serving over 1,900 clients worldwide, Recorded Future is the world’s most advanced, and largest, intelligence company! /p /div p This is an exciting opportunity to join Recorded Future s Managed",
-   "full": "div class= content-intro p With 1,000+ intelligence professionals serving over 1,900 clients worldwide, Recorded Future is the world’s most advanced, and largest, intelligence company! /p /div p This is an exciting opportunity to join Recorded Future s Managed Services Group as a strong Threat Intelligence Response Analyst. /strong You will be an independent, skilled intelligence analyst who plays a central role in delivering high-quality security outcomes for our clients. Recorded Future supports information security teams at some of the most ambitious organisations on the planet. You will work alongside a talented team of analysts, bringing your threat intelligence expertise to bear on real-world adversary activity every day. /p h3 strong Who You ll Work With: /strong /h3 p As a Threat Intelligence Response Analyst, you will be joining a fast-paced, high-growth team delivering innovative security solutions that protect our clients. You will be part of the global Managed Services team with a rapidly growing client portfolio, ensuring our users get the most value out of our services. nbsp; /p h3 strong What You ll Do: /strong /h3 p As a Threat Intelligence Response Analyst, you will: nbsp; /p ul li Be responsible for triaging alerts for a portfolio of cross-industry corporate, commercial, and enterprise clients nbsp; /li li Support customer engagements by providing insight into the threats observed by your customers, enabling customers to take action to mitigate cyber threats nbsp; /li li Work closely with Services and Product teams to ensure the success of the Recorded Future offering within customer environments /li li Handle incoming ad-hoc research and investigation requests from Managed Services customers nbsp; /li /ul h3 strong What You ll Bring: /strong /h3 ul li A self-starter mindset. You’ll be comfortable working independently while remaining a collaborative and reliable team member /li li Practical experience in threat intelligence, incident response, or security monitoring /li li A solid understanding of open source intelligence techniques and their application to phishing, credential harvesting, domain monitoring, dark web monitoring, and threat actor profiling /li li Working knowledge of security and network fundamentals — DNS, HTTP, email infrastructure, web hosting, and malware delivery mechanisms /li li Ability to identify, analyse, and communicate actionable intelligence to both technical and non-technical stakeholders /li li Strong written and verbal communication skills, with experience handling customer-facing interactions /li li CompTIA Security+ certification completed or actively in progress (preferred) /li li Experience with Salesforce, Gainsight, Notion, and Zendesk is a plus /li /ul h3 strong Working Hours: /strong /h3 p This role covers a shift-based schedule to support global client coverage. UK-based shift hours are: 9:00am – 6:00pm GMT /p p br #LI-Hybrid /p div class= content-conclusion p strong Why should you join ",
    "salaryText": "",
    "lpa": null,
    "inIndia": false,
