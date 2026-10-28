@@ -1,11 +1,11 @@
 {
- "generated": "2026-10-27T09:16:01.461Z",
+ "generated": "2026-10-28T09:56:23.824Z",
  "usdInr": 88,
  "counts": {
-  "pool": 3119,
-  "passed": 91,
+  "pool": 3133,
+  "passed": 92,
   "dubai": 0,
-  "india": 18
+  "india": 19
  },
  "jobs": [
   {
@@ -148,6 +148,28 @@
    "inDubai": false,
    "globalRemote": false,
    "score": 130
+  },
+  {
+   "title": "Information Security Engineer (Thick Client Testing /  Harness / VAPT)",
+   "company": "Zscaler",
+   "url": "https://job-boards.greenhouse.io/zscaler/jobs/5261565007",
+   "source": "Greenhouse",
+   "board": "zscaler",
+   "region": "Bangalore, IND",
+   "posted": "2026-10-28",
+   "tags": [
+    "Fulltime Employee",
+    "SecOps",
+    "India"
+   ],
+   "snippet": "div class= content-intro p data-pm-slice= 1 1 [] Zscaler (NASDAQ: ZS) accelerates digital transformation so customers can be more agile, efficient, resilient, and secure. The Zscaler Zero Trust Exchange platform protects thousands of customers from cyberattack",
+   "full": "div class= content-intro p data-pm-slice= 1 1 [] Zscaler (NASDAQ: ZS) accelerates digital transformation so customers can be more agile, efficient, resilient, and secure. The Zscaler Zero Trust Exchange platform protects thousands of customers from cyberattacks and data loss by securely connecting users, devices, and applications in any location. Distributed across 200+ public data centers globally and thousands of private sites at the edge, the SASE-based Zero Trust Exchange is the world’s largest in-line cloud security platform. /p p We believe the future of work is Human + AI and are building an AI-native enterprise where human potential is amplified by machine intelligence to solve the world’s hardest security challenges. Driven by deep customer obsession, we are committed to the mission, outcome, and to each other. We bring these commitments to life through three core behaviors: ownership and collaboration, trust through outcomes and impact, and a challenge culture with ongoing feedback. Ready to make an impact at the company pioneering security transformation in the AI era? Join us at Zscaler. /p /div p Role /p p We are looking for an Information Security Engineer to join our Cyber and Data Security team. This is a Bangalore based role, reporting to the Director, Information Security Engineering. nbsp; /p p You will lead pentesting efforts across our applications and infrastructure while conducting deep security architecture reviews. By prioritizing vulnerabilities and driving security automation, you will serve as a critical partner to our engineering and operations teams in safeguarding our global ecosystem. You ll be responsible for /p p What you’ll do (Role Expectations) /p ul li Conduct advanced penetration testing on applications and infrastructure leveraging AI to identify and mitigate risks /li li Conduct security architecture reviews and provide strategic recommendations for complex systems /li li Partner with engineering and operations teams to prioritise vulnerabilities for remediation /li li Design and implement security automation to streamline repetitive tasks and improve efficiency /li li Diagnose problems you can t reproduce locally, using telemetry and good instrumentation /li /ul p Who You Are (Success Profile) /p ul li You thrive in ambiguity. You re comfortable building the path as you walk it. You thrive in a dynamic environment, seeing ambiguity not as a hindrance, but as the raw material to build something meaningful /li li You act like an owner. Your passion for the mission fuels your bias for action. You operate with integrity because you genuinely care about the outcome. True ownership involves leveraging dynamic range: the ability to navigate seamlessly between high-level strategy and hands-on execution /li li You are a problem-solver. You love running towards the challenges because you are laser-focused on finding the solution, knowing that solving the hard problems delivers the biggest impact /li li You are a hi",
+   "salaryText": "",
+   "lpa": null,
+   "inIndia": true,
+   "inDubai": false,
+   "globalRemote": false,
+   "score": 120
   },
   {
    "title": "Platform & Security Engineer",
@@ -401,12 +423,32 @@
    "source": "Greenhouse",
    "board": "twilio",
    "region": "Remote - Ireland",
-   "posted": "2026-10-26",
+   "posted": "2026-10-27",
    "tags": [
     "NP2IT6582-1"
    ],
    "snippet": "div class= content-intro p strong Who we are nbsp; /strong /p p At Twilio, we’re shaping the future of communications, all from the comfort of our homes. We deliver innovative solutions to a class= c-link href= https://customers.twilio.com/ target= _blank data",
    "full": "div class= content-intro p strong Who we are nbsp; /strong /p p At Twilio, we’re shaping the future of communications, all from the comfort of our homes. We deliver innovative solutions to a class= c-link href= https://customers.twilio.com/ target= _blank data-stringify-link= https://customers.twilio.com/ data-sk= tooltip_parent nbsp;hundreds of thousands of businesses nbsp; /a and empower millions of developers worldwide to craft personalized customer experiences. /p p Our dedication to a class= c-link href= https://www.twilio.com/en-us/blog/open-work target= _blank data-stringify-link= https://www.twilio.com/en-us/blog/open-work data-sk= tooltip_parent remote-first work /a , and strong culture of connection and global inclusion means that no matter your location, you’re part of a vibrant team with diverse experiences making a global impact each day. As we continue to revolutionize how the world interacts, we’re acquiring new skills and experiences that make work feel truly rewarding. Your career at Twilio is in your hands. br span style= color: rgb(255, 255, 255); . /span /p p strong Hiring and how we work /strong /p p We use Artificial Intelligence (AI) to help make our hiring process efficient. That said, every hiring decision is made by real Twilions! nbsp; /p p Also, while we are a remote-first company, you may be asked to report in person on an ad-hoc basis for team gatherings, functional off-sites or customer meetings. nbsp; br span style= color: rgb(255, 255, 255); . /span /p /div p strong See yourself at Twilio /strong /p p Join the team as Twilio’s next strong Security Engineer, Incident Response /strong /p p strong About the job /strong /p p The Security Incident Response Team (SIRT) is looking for a Security Engineer who is passionate about solving Twilio’s mission of security and reliability by working across the organization to lead the technical response to security events and incidents across Twilio’s global infrastructure, services and applications by effectively conducting triage, containment, remediation and driving post-incident betterments. nbsp; You will work within a team that partners with R amp;D Engineering and R amp;D Business teams to develop scalable processes and technical solutions. nbsp; /p p You will be a valued member of a team of deeply technical Security Engineers to focus on creating bespoke and standard Security response processes, enhancing our capabilities for threat mitigation and incident response, and then automating as much as you possibly can (and more)! You will help us to grow our global, scaled team and program. /p p strong Responsibilities /strong /p p In this role, you’ll: /p ul li Lead and support the response to all security events and incidents across Twilio’s complex global infrastructure, services and applications. /li li Be responsible for documentation of incidents and projects you work on and craft best practices as runbooks and standard operating procedures to share knowledge across team",
+   "salaryText": "",
+   "lpa": null,
+   "inIndia": false,
+   "inDubai": false,
+   "globalRemote": true,
+   "score": 90
+  },
+  {
+   "title": "Autonomous Systems Security Engineer",
+   "company": "Anthropic",
+   "url": "https://job-boards.greenhouse.io/anthropic/jobs/5462972008",
+   "source": "Greenhouse",
+   "board": "anthropic",
+   "region": "Remote-Friendly (Travel Required) | San Francisco, CA",
+   "posted": "2026-10-27",
+   "tags": [
+    "On-Site"
+   ],
+   "snippet": "div class= content-intro h2 strong About Anthropic /strong /h2 p Anthropic’s mission is to create reliable, interpretable, and steerable AI systems. We want AI to be safe and beneficial for our users and for society as a whole. Our team is a quickly growing gr",
+   "full": "div class= content-intro h2 strong About Anthropic /strong /h2 p Anthropic’s mission is to create reliable, interpretable, and steerable AI systems. We want AI to be safe and beneficial for our users and for society as a whole. Our team is a quickly growing group of committed researchers, engineers, policy experts, and business leaders working together to build beneficial AI systems. /p /div h2 strong About the role /strong /h2 p Claude is trained and served on hardware in data centers Anthropic operates and in sites partners build and run for us. DCSE secures that footprint: the sites, the hardware moving through them, and the people and vendors who touch it. You ll be the engineer who owns autonomous systems across that footprint as one security domain, from both sides: drones, ground robots and automated vehicles for patrol, inspection and moving hardware, including the security of that automation inside secure areas, and the detection systems that tell us what is flying over or operating near a site uninvited. /p p You set the approach, select and integrate the platforms and sensors, write the requirements vendors build to, and run what you ship, from the operating model where operators assign missions and machines carry them out to the playbook that turns a detection into an identified track and a well-evidenced handoff to whoever holds authority over the airspace. Interdiction is not part of this role. The goal is security that runs itself: coverage, fleet health and evidence verified continuously, with tools and AI agents doing the routine triage. We favor simple, standard controls and tools that can be verified over elaborate ones. We use Claude throughout our engineering workflow and expect you to as well. /p p You ll work with the rest of DCSE, including its physical security systems engineers and the engineers on its security monitoring platform, with Anthropic s data center operations and legal teams, and directly with site operators, equipment vendors and aviation and public safety authorities. The role is based in San Francisco, with remote applicants in the US considered, and involves regular travel to data center sites, which are critical infrastructure. /p h2 strong Key responsibilities /strong /h2 ul li p strong Autonomous security and inspection systems: /strong own the drones, ground robots and other autonomous platforms for perimeter patrol, incident response and infrastructure inspection: platform selection, operating model, operator qualification, maintenance, and the data path from machine to analyst /p /li li p strong Tools, automation and AI agents: /strong build the integrations that carry detections, tracks, telemetry and fleet health into the team s security monitoring platform, and the tools and agents that triage detections, check fleet health and assemble evidence. When a review keeps costing people time, you build the tool or agent that retires it /p /li li p strong Detection of uncrewed systems: /strong engineer ",
    "salaryText": "",
    "lpa": null,
    "inIndia": false,
@@ -616,6 +658,26 @@
    "score": 85
   },
   {
+   "title": "Global Security Operations Center Operator",
+   "company": "Twilio",
+   "url": "https://job-boards.greenhouse.io/twilio/jobs/7808464",
+   "source": "Greenhouse",
+   "board": "twilio",
+   "region": "Remote - US",
+   "posted": "2026-10-27",
+   "tags": [
+    "NS4AD9614-1"
+   ],
+   "snippet": "div class= content-intro p strong Who we are nbsp; /strong /p p At Twilio, we’re shaping the future of communications, all from the comfort of our homes. We deliver innovative solutions to a class= c-link href= https://customers.twilio.com/ target= _blank data",
+   "full": "div class= content-intro p strong Who we are nbsp; /strong /p p At Twilio, we’re shaping the future of communications, all from the comfort of our homes. We deliver innovative solutions to a class= c-link href= https://customers.twilio.com/ target= _blank data-stringify-link= https://customers.twilio.com/ data-sk= tooltip_parent nbsp;hundreds of thousands of businesses nbsp; /a and empower millions of developers worldwide to craft personalized customer experiences. /p p Our dedication to a class= c-link href= https://www.twilio.com/en-us/blog/open-work target= _blank data-stringify-link= https://www.twilio.com/en-us/blog/open-work data-sk= tooltip_parent remote-first work /a , and strong culture of connection and global inclusion means that no matter your location, you’re part of a vibrant team with diverse experiences making a global impact each day. As we continue to revolutionize how the world interacts, we’re acquiring new skills and experiences that make work feel truly rewarding. Your career at Twilio is in your hands. br span style= color: rgb(255, 255, 255); . /span /p p strong Hiring and how we work /strong /p p We use Artificial Intelligence (AI) to help make our hiring process efficient. That said, every hiring decision is made by real Twilions! nbsp; /p p Also, while we are a remote-first company, you may be asked to report in person on an ad-hoc basis for team gatherings, functional off-sites or customer meetings. nbsp; br span style= color: rgb(255, 255, 255); . /span /p /div p strong See yourself at Twilio /strong /p p Join the team as Twilio’s next Operator, Global Security Operations Center (GSOC). nbsp; /p p strong About the job /strong /p p This position is needed to maintain a broad situational awareness over internal and external physical events that could impact employee safety or pose a threat to business assets or operations across Twilio’s global footprint. GSOC Operators monitor a variety of data sources including internal access control systems, external incident aggregators, travel safety applications, and general open source reporting materials. GSOC Operators serve as the primary contact for employees with physical safety and security questions or concerns. When an incident occurs, the GSOC Operator may dispatch security resources, escalate to crisis management teams, send broad communications to Twilio employees, or execute a mass notification to account for employee safety. /p p strong Responsibilities: /strong /p p In this role, you’ll: /p p strong Monitoring and Surveillance /strong /p ul li Utilize various physical security asset monitoring and surveillance systems to detect potential unauthorized access, nbsp; suspicious activity, or other security incidents /li li Monitor open-source threat intelligence and other internal SaaS tools to maintain situational awareness of persistent or emergency global events with potential or direct impact to operations /li /ul p strong Security Operations Support /strong /p ul ",
+   "salaryText": "",
+   "lpa": null,
+   "inIndia": false,
+   "inDubai": false,
+   "globalRemote": true,
+   "score": 75
+  },
+  {
    "title": "Ubuntu Security Engineer",
    "company": "Canonical",
    "url": "https://jobicy.com/jobs/149565-ubuntu-security-engineer",
@@ -700,26 +762,6 @@
    "tags": [],
    "snippet": "div class= content-intro div span style= font-family: helvetica, arial, sans-serif; color: rgb(0, 0, 0); font-size: 12pt; strong About Glean: /strong /span /div div nbsp; /div div span style= font-size: 12pt; font-family: helvetica, arial, sans-serif; Glean is",
    "full": "div class= content-intro div span style= font-family: helvetica, arial, sans-serif; color: rgb(0, 0, 0); font-size: 12pt; strong About Glean: /strong /span /div div nbsp; /div div span style= font-size: 12pt; font-family: helvetica, arial, sans-serif; Glean is the Work AI platform that helps everyone work smarter with AI. What began as the industry’s most advanced enterprise search has evolved into a full-scale Work AI ecosystem, powering intelligent Search, an AI Assistant, and scalable AI agents on one secure, open platform. With over 100 enterprise SaaS connectors, flexible LLM choice, and robust APIs, Glean gives organizations the infrastructure to govern, scale, and customize AI across their entire business - without vendor lock-in or costly implementation cycles. /span /div div nbsp; /div div span style= font-size: 12pt; font-family: helvetica, arial, sans-serif; At its core, Glean is redefining how enterprises find, use, and act on knowledge. Its Enterprise Graph and Personal Knowledge Graph map the relationships between people, content, and activity, delivering deeply personalized, context-aware responses for every employee. This foundation powers Glean’s agentic capabilities - AI agents that automate real work across teams by accessing the industry’s broadest range of data: enterprise and world, structured and unstructured, historical and real-time. The result: measurable business impact through faster onboarding, hours of productivity gained each week, and smarter, safer decisions at every level. /span /div div nbsp; /div div span style= font-size: 12pt; font-family: helvetica, arial, sans-serif; Recognized by Fast Company as one of the World’s Most Innovative Companies (Top 10, 2025), by CNBC’s Disruptor 50, Bloomberg’s AI Startups to Watch (2026), Forbes AI 50, and Gartner’s Tech Innovators in Agentic AI, Glean continues to accelerate its global impact. With customers across 50+ industries and 1,000+ employees in more than 25 countries, we’re helping the world’s largest organizations make every employee AI-fluent, and turning the superintelligent enterprise from concept into reality. /span /div div nbsp; /div div span style= font-size: 12pt; font-family: helvetica, arial, sans-serif; If you’re excited to shape how the world works, you’ll help build systems used daily across Microsoft Teams, Zoom, ServiceNow, Zendesk, GitHub, and many more. You ll be deeply embedded where people get things done. You ll ship agentic capabilities on an open, extensible stack, with the craft and care required for enterprise trust, as we bring Work AI to every employee, in every company. /span /div /div div nbsp; /div div div span style= font-size: 12pt; strong About the Role: br /strong /span br span style= font-size: 12pt; Glean is seeking a talented security-focused software engineer to join our growing team. In this role, you will play a critical role in developing and maintaining the security foundation of our platform. You will be responsible for des",
-   "salaryText": "",
-   "lpa": null,
-   "inIndia": false,
-   "inDubai": false,
-   "globalRemote": true,
-   "score": 75
-  },
-  {
-   "title": "Global Security Operations Center Operator",
-   "company": "Twilio",
-   "url": "https://job-boards.greenhouse.io/twilio/jobs/7808464",
-   "source": "Greenhouse",
-   "board": "twilio",
-   "region": "Remote - US",
-   "posted": "2026-10-16",
-   "tags": [
-    "NS4AD9614-1"
-   ],
-   "snippet": "div class= content-intro p strong Who we are nbsp; /strong /p p At Twilio, we’re shaping the future of communications, all from the comfort of our homes. We deliver innovative solutions to a class= c-link href= https://customers.twilio.com/ target= _blank data",
-   "full": "div class= content-intro p strong Who we are nbsp; /strong /p p At Twilio, we’re shaping the future of communications, all from the comfort of our homes. We deliver innovative solutions to a class= c-link href= https://customers.twilio.com/ target= _blank data-stringify-link= https://customers.twilio.com/ data-sk= tooltip_parent nbsp;hundreds of thousands of businesses nbsp; /a and empower millions of developers worldwide to craft personalized customer experiences. /p p Our dedication to a class= c-link href= https://www.twilio.com/en-us/blog/open-work target= _blank data-stringify-link= https://www.twilio.com/en-us/blog/open-work data-sk= tooltip_parent remote-first work /a , and strong culture of connection and global inclusion means that no matter your location, you’re part of a vibrant team with diverse experiences making a global impact each day. As we continue to revolutionize how the world interacts, we’re acquiring new skills and experiences that make work feel truly rewarding. Your career at Twilio is in your hands. br span style= color: rgb(255, 255, 255); . /span /p p strong Hiring and how we work /strong /p p We use Artificial Intelligence (AI) to help make our hiring process efficient. That said, every hiring decision is made by real Twilions! nbsp; /p p Also, while we are a remote-first company, you may be asked to report in person on an ad-hoc basis for team gatherings, functional off-sites or customer meetings. nbsp; br span style= color: rgb(255, 255, 255); . /span /p /div p strong See yourself at Twilio /strong /p p Join the team as Twilio’s next Operator, Global Security Operations Center (GSOC). nbsp; /p p strong About the job /strong /p p This position is needed to maintain a broad situational awareness over internal and external physical events that could impact employee safety or pose a threat to business assets or operations across Twilio’s global footprint. GSOC Operators monitor a variety of data sources including internal access control systems, external incident aggregators, travel safety applications, and general open source reporting materials. GSOC Operators serve as the primary contact for employees with physical safety and security questions or concerns. When an incident occurs, the GSOC Operator may dispatch security resources, escalate to crisis management teams, send broad communications to Twilio employees, or execute a mass notification to account for employee safety. /p p strong Responsibilities: /strong /p p In this role, you’ll: /p p strong Monitoring and Surveillance /strong /p ul li Utilize various physical security asset monitoring and surveillance systems to detect potential unauthorized access, nbsp; suspicious activity, or other security incidents /li li Monitor open-source threat intelligence and other internal SaaS tools to maintain situational awareness of persistent or emergency global events with potential or direct impact to operations /li /ul p strong Security Operations Support /strong /p ul ",
    "salaryText": "",
    "lpa": null,
    "inIndia": false,
@@ -1020,27 +1062,7 @@
    "posted": "2026-09-22",
    "tags": [],
    "snippet": "div class= content-intro h3 strong Why AssemblyAI /strong /h3 p AssemblyAI builds the best-in-class Voice AI models powering the next generation of voice applications. We have a lab, and we also power our own models in our own proprietary inference environment",
-   "full": "div class= content-intro h3 strong Why AssemblyAI /strong /h3 p AssemblyAI builds the best-in-class Voice AI models powering the next generation of voice applications. We have a lab, and we also power our own models in our own proprietary inference environment. Our models serve 600M+ inference calls monthly, process 1M+ hours of audio daily, and power 2 billion+ end-user experiences. The Voice AI space is at an inflection point; we’re looking for the best talent we can find to join a rapidly scaling team that s defining the future of the industry. br br We are one of the most capital-efficient AI companies on the planet - and are rapidly approaching $1M ARR per employee. We sit among the top 5 most revenue-dense teams within the fastest-growing AI companies today. We have thousands of customers building with us including the top startups and world renown enterprises, and are serving at tremendous scale: we process over 2 million hours of audio daily and handle more than 1 million API calls every day. This is a rare growth-stage opportunity where the business is proven, the revenue is durable, and the growth trajectory is steep and getting steeper. We have a super flat culture and expect our employees to be deeply intimate with the details at all levels. br br If you’ve ever felt buried under layers of bureaucracy, starved of real ownership, or frustrated watching your work disappear into a slow-moving org, AssemblyAI is built differently. The company operates as a true meritocracy, with no heavy planning or approval processes and no gatekeeping on the tools or information you need. For anyone who genuinely cares about voice AI, not as a trend to chase, but as a technology to build, this is the place where the most interesting problems at the most interesting scale are being solved by a team small enough that you’ll actually know everyone’s name. /p /div h2 strong About the role: /strong /h2 p AssemblyAI runs a mature, multi-framework security and compliance program—including SOC 2 (all trust criteria), ISO 27001, and PCI 4.0—that protects the infrastructure and customer data behind our industry-leading Voice AI API. We re hiring a Security Operations Engineer to join our IT amp; Security team and take day-to-day ownership of the operational backbone of that program. /p p This role is centered on security operations and GRC: running compliance audit cycles end to end, gathering and organizing evidence, enforcing and verifying controls, executing access reviews, managing vulnerability triage and remediation follow-up, and responding to customer security questionnaires. It s the work that turns a security program on paper into one that demonstrably runs. You ll also have room to grow the technical side of the role. We automate wherever we can, and you ll be encouraged to build scripts, integrations, and tooling that reduce manual toil and improve the program. /p p This is a high-ownership role on a small team. You ll work closely with engineers acro",
-   "salaryText": "",
-   "lpa": null,
-   "inIndia": false,
-   "inDubai": false,
-   "globalRemote": false,
-   "score": 65
-  },
-  {
-   "title": "Supplier Security & Assurance, Security GRC",
-   "company": "Anthropic",
-   "url": "https://job-boards.greenhouse.io/anthropic/jobs/5427893008",
-   "source": "Greenhouse",
-   "board": "anthropic",
-   "region": "San Francisco, CA | Seattle, WA | New York City, NY | Washington, DC",
-   "posted": "2026-09-18",
-   "tags": [
-    "On-Site"
-   ],
-   "snippet": "div class= content-intro h2 strong About Anthropic /strong /h2 p Anthropic’s mission is to create reliable, interpretable, and steerable AI systems. We want AI to be safe and beneficial for our users and for society as a whole. Our team is a quickly growing gr",
-   "full": "div class= content-intro h2 strong About Anthropic /strong /h2 p Anthropic’s mission is to create reliable, interpretable, and steerable AI systems. We want AI to be safe and beneficial for our users and for society as a whole. Our team is a quickly growing group of committed researchers, engineers, policy experts, and business leaders working together to build beneficial AI systems. /p /div h2 strong About the role /strong /h2 p Anthropic s Supplier Security amp; Assurance (SSA) team sits within Security GRC and is responsible for assessing the security of our suppliers: evaluating whether vendors meet our security requirements, capturing the deviations, and giving the business a clear approval decision it can act on. We assess the vendor population a frontier AI lab actually depends on: SaaS and software, human data operations, compute and data center providers, hardware suppliers, and services firms. The program is designed agent-first so that people spend their time on judgment, remediation, and the vendors that matter most. /p p As a member of the Supplier Security amp; Assurance team you will run supplier security assessments end to end: reviewing evidence, verifying agent-drafted evaluations, determining inherent and residual risk, and driving findings to closure with vendors and business owners. You will also carry the work that extends assurance past the approval, from contractual security terms and secure configuration baselines to continuous monitoring and reassessment, and you will help shape the tooling and requirements the program runs on. /p h2 strong Key responsibilities /strong /h2 ul li p Run supplier security assessments: review agent-prefilled outputs, evaluate vendor controls and evidence, determine residual risk, route to domain reviewers where deeper assessment is warranted /p /li li p Operate supplier issue management and risk treatment: document each finding with a severity, an owner, and a due date, drive remediation with the vendor and the business owner, record risk acceptances, and roll open issues up to the risk register /p /li li p Run continuous monitoring after approval: reopen an assessment on defined triggers (data classification change, new SOC 2 report, new subprocessor, vendor incident), investigate SaaS configuration, data, and use case drift signals, and queue a reassessment where the vendor s scope has moved /p /li li p Improve the program as you run it: identify gaps in coverage, questionnaires, requirements, and tooling that surface during assessments, propose the fix, and carry roadmap items that mature supplier security overall /p /li li p Tune and maintain our Claude-powered assessment platform alongside the team: prompt development, questionnaire and assessment type design, calibration against assessor decisions, and output QA /p /li li p Contribute to KPI and KRI reporting on coverage, cycle time, residual risk, open issues, and reassessments due /p /li /ul h2 strong Minimum qualifications /strong /",
+   "full": "div class= content-intro h3 strong Why AssemblyAI /strong /h3 p AssemblyAI builds the best-in-class Voice AI models powering the next generation of voice applications. We have a lab, and we also power our own models in our own proprietary inference environment. Our models serve 500M+ inference calls monthly, and process nearly 2 million hours of audio daily. The Voice AI space is at an inflection point; we’re looking for the best talent we can find to join a rapidly scaling team that s defining the future of the industry. /p p We are one of the most capital-efficient AI companies on the planet - and are rapidly approaching $1M ARR per employee. We sit among the top 5 most revenue-dense teams within the fastest-growing AI companies today. We have thousands of customers building with us including the top startups and world-renowned enterprises, and are serving at tremendous scale: we process nearly 2 million hours of audio daily and handle more than 15 million API calls every day. This is a rare growth-stage opportunity where the business is proven, the revenue is durable, and the growth trajectory is steep and getting steeper. We have a super flat culture and expect our employees to be deeply intimate with the details at all levels. /p p If you ve ever felt buried under layers of bureaucracy, starved of real ownership, or frustrated watching your work disappear into a slow-moving org, AssemblyAI is built differently. The company operates as a true meritocracy, with no heavy planning or approval processes and no gatekeeping on the tools or information you need. For anyone who genuinely cares about voice AI, not as a trend to chase, but as a technology to build, this is the place where the most interesting problems at the most interesting scale are being solved by a team small enough that you ll actually know everyone s name. /p /div h2 strong About the role: /strong /h2 p AssemblyAI runs a mature, multi-framework security and compliance program—including SOC 2 (all trust criteria), ISO 27001, and PCI 4.0—that protects the infrastructure and customer data behind our industry-leading Voice AI API. We re hiring a Security Operations Engineer to join our IT amp; Security team and take day-to-day ownership of the operational backbone of that program. /p p This role is centered on security operations and GRC: running compliance audit cycles end to end, gathering and organizing evidence, enforcing and verifying controls, executing access reviews, managing vulnerability triage and remediation follow-up, and responding to customer security questionnaires. It s the work that turns a security program on paper into one that demonstrably runs. You ll also have room to grow the technical side of the role. We automate wherever we can, and you ll be encouraged to build scripts, integrations, and tooling that reduce manual toil and improve the program. /p p This is a high-ownership role on a small team. You ll work closely with engineers across the company, partner",
    "salaryText": "",
    "lpa": null,
    "inIndia": false,
@@ -1176,26 +1198,44 @@
    "score": 65
   },
   {
-   "title": "Security Engineer, Detection and Response",
+   "title": "Security Engineer, Application Security",
    "company": "openai",
-   "url": "https://jobs.ashbyhq.com/openai/f956b77c-3cc5-4fdd-9463-2a6e5047e57c",
+   "url": "https://jobs.ashbyhq.com/openai/0322d6d8-6588-4209-a304-83e768063a25",
    "source": "Ashby",
    "board": "openai",
    "region": "San Francisco",
-   "posted": "2026-01-28",
+   "posted": "2024-10-02",
    "tags": [
     "Security",
     "Security",
     "FullTime"
    ],
    "snippet": "About the Team Security is at the foundation of OpenAI’s mission to ensure that artificial general intelligence benefits all of humanity. The Security team protects OpenAI’s technology, people, and products. We are technical in what we build but are operationa",
-   "full": "About the Team Security is at the foundation of OpenAI’s mission to ensure that artificial general intelligence benefits all of humanity. The Security team protects OpenAI’s technology, people, and products. We are technical in what we build but are operational in how we do our work, and are committed to supporting all products and research at OpenAI. Our Security team tenets include: prioritizing for impact, enabling researchers, preparing for future transformative technologies, and engaging a robust security culture. About the Role As a Security Engineer on Detection & Response, you’ll help protect OpenAI’s most sensitive assets– including our intellectual property, customer data, and the infrastructure that supports them– by building and operating the systems we use to detect suspicious activity and respond effectively when it matters. You’ll work across endpoints, identity, cloud, hyperscale compute infrastructure, and datacenter-adjacent layers, partnering closely with security teams and infrastructure owners to define the telemetry and response requirements we need and building tooling and automation where it delivers the most leverage. In this role, you will: - Build and evolve Detection & Response capabilities across OpenAI’s infrastructure, products, and research environments, with an emphasis on high-signal detection and reliable operational response. - Engineer detection pipelines and tooling: develop rule lifecycle management, measurement/quality loops (coverage, precision, latency), tuning processes, and safe rollout patterns. - Automate response and investigations by building workflows that reduce toil (triage, enrichment, containment, evidence capture) and improve time-to-understand/time-to-contain. - Partner with other Security teams and system/infrastructure owners across the company to ensure new systems ship with the right telemetry, threat models, and response playbooks from day one. - Define D&R requirements and drive visibility across endpoints, identity, SaaS, cloud, Kubernetes: identify telemetry/control gaps, prioritize them, and advocate for fixes with partner teams (and implement directly when it’s the fastest/most effective path). - Evaluate and respond to emergent security concerns in a frontier AI lab environment, such as detection and response strategies for agents operating across infrastructure at scale. You might thrive in this role if you: - Have hands-on threat detection and/or incident response experience, including building detections, running investigations, and improving operational playbooks. - Understand modern adversary tradecraft (TTPs) and can translate it into practical detection strategies and response actions. - Bring a threat modeling mindset. You can evaluate new infrastructure or features, identify D&R implications (what could go wrong, what we’d need to see, how we’d respond), and turn that into concrete requirements for teams shipping the system. - Have experience working in Kubernetes/containe",
-   "salaryText": "$266K – $385K • Offers Equity",
-   "lpa": 338.8,
+   "full": "About the Team Security is at the foundation of OpenAI’s mission to ensure that artificial general intelligence benefits all of humanity. The Security team protects OpenAI’s technology, people, and products. We are technical in what we build but are operational in how we do our work, and are committed to supporting all products and research at OpenAI. Our Security team tenets include: prioritizing for impact, enabling researchers, preparing for future transformative technologies, and engaging a robust security culture. About the Role As a Security Engineer, Application Security you will be responsible for identifying and mitigating security vulnerabilities within software applications through building security tools, code reviews, penetration testing, and security assessments. We’re looking for people who will work closely with development teams to ensure secure coding practices are integrated throughout the software development lifecycle, preventing security risks before they emerge. You will also provide security guidance to developers and other stakeholders, fostering a culture of security awareness within the organization. The role is preferred to be based in San Francisco, Seattle or New York City but may consider remote work. We use a hybrid work model of 3 days in the office per week and offer relocation assistance to new employees. In this role, you will: - Perform Security Assessments: Conduct regular security assessments, code reviews, and penetration testing to identify vulnerabilities in applications and software. - Develop and Implement Security Tools: Design, develop, and implement security tools, frameworks, and methodologies to protect applications against security threats. - Collaborate with Development Teams: Work closely with development teams to ensure security best practices are integrated throughout the software development lifecycle (SDLC), including secure coding guidelines. - Threat Modeling and Risk Assessment: Conduct threat modeling and risk assessments to proactively identify potential risks and develop mitigation strategies. - Vulnerability Management: Track, analyze, and manage vulnerabilities in applications, providing guidance and support for remediation efforts. - Incident Response Support: Assist in investigating, analyzing, and responding to security incidents related to applications, ensuring timely resolution and documentation of incidents. - Stay Current on Security Trends: Continuously stay updated on the latest security threats, vulnerabilities, and technologies to enhance security measures in applications. You might thrive in this role if you: - Extensive experience in information security, cybersecurity, or a related field, with a significant portion of that experience in leadership or management roles. - Deep understanding of security technologies, tools, and best practices, including experience with secure coding practices, threat modeling, risk assessments, and incident response. - Experience in appli",
+   "salaryText": "$266K – $445K • Offers Equity",
+   "lpa": 391.6,
    "inIndia": false,
    "inDubai": false,
    "globalRemote": false,
    "score": 65
+  },
+  {
+   "title": "Security Engineer",
+   "company": "Figma",
+   "url": "https://boards.greenhouse.io/figma/jobs/5829751004?gh_jid=5829751004",
+   "source": "Greenhouse",
+   "board": "figma",
+   "region": "San Francisco, CA • New York, NY • United States",
+   "posted": "2026-10-27",
+   "tags": [],
+   "snippet": "div class= content-intro p Figma is growing our team of passionate creatives and builders on a mission to make design accessible to all. Figma’s platform helps teams bring ideas to life—whether you re brainstorming, creating a prototype, translating designs in",
+   "full": "div class= content-intro p Figma is growing our team of passionate creatives and builders on a mission to make design accessible to all. Figma’s platform helps teams bring ideas to life—whether you re brainstorming, creating a prototype, translating designs into code, or iterating with AI. From idea to product, Figma empowers teams to streamline workflows, move faster, and work together in real time from anywhere in the world. If you re excited to shape the future of design and collaboration, join us! /p /div p As a Security Engineer you will identify and drive impactful projects to improve the security of Figma’s product, platform, and IT systems. We are hiring for multiple teams within Security Engineering: AI Security, Platform Security, Product Security, and Anti-Abuse. This is a remote first role. nbsp; /p p You will partner closely with teams across the company and focus on systemic security improvements and risk reduction. You will also participate in operational security responsibilities like security reviews, consulting, vulnerability triage, and security incident response. /p p strong Examples of what you may work on across teams: /strong /p p strong AI Security /strong /p ul li Perform technical security assessments, code audits, and design reviews for new AI infrastructure, platforms, and products. /li li Design and develop technical solutions to secure AI models, tooling, debugging workflows, and data pipelines. /li li Advocate for secure practices across Figma’s AI infrastructure, platforms, and data systems. /li li Build the next generation of internal AI-powered access insights and security tooling. /li li Help run penetration testing and offensive security exercises against Figma’s AI infrastructure, platforms, and products. /li /ul p strong Platform Security /strong /p ul li Perform technical security assessments, code audits, and design reviews for changes to Figma’s cloud and corporate infrastructure. /li li Design and develop solutions to prevent or mitigate cloud and corporate security risks. /li li Advocate for secure practices within Figma’s cloud and corporate infrastructure. /li li Build platforms and tooling to detect and respond to infrastructure and corporate security threats. /li /ul p strong Product Security /strong /p ul li Perform technical security assessments, code audits, and design reviews for new product features. /li li Design and develop solutions to prevent or mitigate product security vulnerabilities. /li li Advocate for secure development practices across Figma’s products and services. /li li Help run penetration testing, offensive security exercises, and support our bug bounty program. /li li Help respond to product security incidents. /li /ul p strong Anti-Abuse /strong /p ul li Design and build technical systems to prevent spam, fraud, and abuse. /li li Partner closely with product teams to identify and address potential abuse vectors. /li li Develop new signals and improve the use of existing signals",
+   "salaryText": "",
+   "lpa": null,
+   "inIndia": false,
+   "inDubai": false,
+   "globalRemote": false,
+   "score": 55
   },
   {
    "title": "Product Security Engineer",
@@ -1210,26 +1250,6 @@
    ],
    "snippet": "div class= content-intro h3 About Us /h3 p At Cloudflare, we are on a mission to help build a better Internet. Today the company runs one of the world’s largest networks that powers millions of websites and other Internet properties for customers ranging from ",
    "full": "div class= content-intro h3 About Us /h3 p At Cloudflare, we are on a mission to help build a better Internet. Today the company runs one of the world’s largest networks that powers millions of websites and other Internet properties for customers ranging from individual bloggers to SMBs to Fortune 500 companies. Cloudflare protects and accelerates any Internet application online without adding hardware, installing software, or changing a line of code. Internet properties powered by Cloudflare all have web traffic routed through its intelligent global network, which gets smarter with every request. As a result, they see significant improvement in performance and a decrease in spam and other attacks. Cloudflare was named to Entrepreneur Magazine’s Top Company Cultures list and ranked among the World’s Most Innovative Companies by Fast Company. /p p At Cloudflare, we’re not looking for people who wait for a polished roadmap; we’re looking for the builders who see the cracks in the Internet that everyone else has simply learned to live with. We value candidates who have the instinct to spot a normalized problem and the AI-native curiosity to create a solution using the latest tools. Our culture is built on iteration, leveraging AI to ship faster today to make it better tomorrow, while ensuring that every improvement, no matter how small, is shared across the team to lift everyone up. If you’re the type of person who values curiosity over bureaucracy, and that AI is a partner in solving tough problems to keep the Internet moving forward, you’ll fit right in. /p /div p strong Available Locations: nbsp; /strong Austin (US), London (UK) /p h4 strong Role Summary /strong /h4 p As a Product Security Engineer, you will support security assessments and vulnerability operations for Cloudflare’s core software products. In this role, you will analyze system architecture, threat model new features, and ensure that product-related security findings are accurately triaged, routed to the correct engineering owners, and mitigated within our SLAs. /p p On any given day, you might conduct a deep-dive security review on a new feature design, triage a complex bug bounty submission, or work directly with engineering teams to resolve vulnerabilities from different sources like bug bounties, SAST, fuzzing and penetration tests. You will also work autonomously to identify areas where our manual processes slow down. You will write code and integrate AI/LLM solutions to automate initial triage and data enrichment, building tools that help the team handle security findings at scale. In short, your work will sit at the intersection of Product Security, Vulnerability Operations, and internal AI Tooling. Ideally, you nbsp;have experience in conducting academic/vulnerability research with a focus on systems security. /p p strong Responsibilities /strong /p ul li strong Implement AI Security Solutions: /strong Identify process bottlenecks and build AI-driven tools or scripts to hel",
-   "salaryText": "",
-   "lpa": null,
-   "inIndia": false,
-   "inDubai": false,
-   "globalRemote": false,
-   "score": 55
-  },
-  {
-   "title": "Intermediate Security Engineer, Security Incident Response Team (SIRT)",
-   "company": "GitLab",
-   "url": "https://jobicy.com/jobs/157093-intermediate-security-engineer-security-incident-response-team-sirt",
-   "source": "Jobicy",
-   "board": "",
-   "region": "Australia",
-   "posted": "2026-10-26",
-   "tags": [
-    "Cybersecurity"
-   ],
-   "snippet": "GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million re",
-   "full": "GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and more than 50% of the Fortune 100* trust G",
    "salaryText": "",
    "lpa": null,
    "inIndia": false,
@@ -1358,24 +1378,6 @@
    "score": 55
   },
   {
-   "title": "Security Engineer",
-   "company": "Figma",
-   "url": "https://boards.greenhouse.io/figma/jobs/5829751004?gh_jid=5829751004",
-   "source": "Greenhouse",
-   "board": "figma",
-   "region": "San Francisco, CA • New York, NY • United States",
-   "posted": "2026-07-22",
-   "tags": [],
-   "snippet": "div class= content-intro p Figma is growing our team of passionate creatives and builders on a mission to make design accessible to all. Figma’s platform helps teams bring ideas to life—whether you re brainstorming, creating a prototype, translating designs in",
-   "full": "div class= content-intro p Figma is growing our team of passionate creatives and builders on a mission to make design accessible to all. Figma’s platform helps teams bring ideas to life—whether you re brainstorming, creating a prototype, translating designs into code, or iterating with AI. From idea to product, Figma empowers teams to streamline workflows, move faster, and work together in real time from anywhere in the world. If you re excited to shape the future of design and collaboration, join us! /p /div p As a Security Engineer you will identify and drive impactful projects to improve the security of Figma’s product, platform, and IT systems. We are hiring for multiple teams within Security Engineering: AI Security, Platform Security, Product Security, and Anti-Abuse. This is a remote first role. nbsp; /p p You will partner closely with teams across the company and focus on systemic security improvements and risk reduction. You will also participate in operational security responsibilities like security reviews, consulting, vulnerability triage, and security incident response. /p p strong Examples of what you may work on across teams: /strong /p p strong AI Security /strong /p ul li Perform technical security assessments, code audits, and design reviews for new AI infrastructure, platforms, and products. /li li Design and develop technical solutions to secure AI models, tooling, debugging workflows, and data pipelines. /li li Advocate for secure practices across Figma’s AI infrastructure, platforms, and data systems. /li li Build the next generation of internal AI-powered access insights and security tooling. /li li Help run penetration testing and offensive security exercises against Figma’s AI infrastructure, platforms, and products. /li /ul p strong Platform Security /strong /p ul li Perform technical security assessments, code audits, and design reviews for changes to Figma’s cloud and corporate infrastructure. /li li Design and develop solutions to prevent or mitigate cloud and corporate security risks. /li li Advocate for secure practices within Figma’s cloud and corporate infrastructure. /li li Build platforms and tooling to detect and respond to infrastructure and corporate security threats. /li /ul p strong Product Security /strong /p ul li Perform technical security assessments, code audits, and design reviews for new product features. /li li Design and develop solutions to prevent or mitigate product security vulnerabilities. /li li Advocate for secure development practices across Figma’s products and services. /li li Help run penetration testing, offensive security exercises, and support our bug bounty program. /li li Help respond to product security incidents. /li /ul p strong Anti-Abuse /strong /p ul li Design and build technical systems to prevent spam, fraud, and abuse. /li li Partner closely with product teams to identify and address potential abuse vectors. /li li Develop new signals and improve the use of existing signals",
-   "salaryText": "",
-   "lpa": null,
-   "inIndia": false,
-   "inDubai": false,
-   "globalRemote": false,
-   "score": 55
-  },
-  {
    "title": "Cloud Security Engineer",
    "company": "clickhouse",
    "url": "https://jobs.ashbyhq.com/clickhouse/a1159cde-3628-4b5e-aa4b-7b9e73f1dafc",
@@ -1396,6 +1398,26 @@
    "inDubai": false,
    "globalRemote": false,
    "score": 55
+  },
+  {
+   "title": "Network Security Engineer ",
+   "company": "Cloudflare",
+   "url": "https://boards.greenhouse.io/cloudflare/jobs/8159206?gh_jid=8159206",
+   "source": "Greenhouse",
+   "board": "cloudflare",
+   "region": "Hybrid",
+   "posted": "2026-10-27",
+   "tags": [
+    "5700 - Customer Support"
+   ],
+   "snippet": "div class= content-intro h3 About Us /h3 p At Cloudflare, we are on a mission to help build a better Internet. Today the company runs one of the world’s largest networks that powers millions of websites and other Internet properties for customers ranging from ",
+   "full": "div class= content-intro h3 About Us /h3 p At Cloudflare, we are on a mission to help build a better Internet. Today the company runs one of the world’s largest networks that powers millions of websites and other Internet properties for customers ranging from individual bloggers to SMBs to Fortune 500 companies. Cloudflare protects and accelerates any Internet application online without adding hardware, installing software, or changing a line of code. Internet properties powered by Cloudflare all have web traffic routed through its intelligent global network, which gets smarter with every request. As a result, they see significant improvement in performance and a decrease in spam and other attacks. Cloudflare was named to Entrepreneur Magazine’s Top Company Cultures list and ranked among the World’s Most Innovative Companies by Fast Company. /p p At Cloudflare, we’re not looking for people who wait for a polished roadmap; we’re looking for the builders who see the cracks in the Internet that everyone else has simply learned to live with. We value candidates who have the instinct to spot a normalized problem and the AI-native curiosity to create a solution using the latest tools. Our culture is built on iteration, leveraging AI to ship faster today to make it better tomorrow, while ensuring that every improvement, no matter how small, is shared across the team to lift everyone up. If you’re the type of person who values curiosity over bureaucracy, and that AI is a partner in solving tough problems to keep the Internet moving forward, you’ll fit right in. /p /div p strong Available Locations: Lisbon, Portugal nbsp; /strong /p p strong About the role /strong /p p Do you love solving complex technical issues and interacting with people? Are you passionate about providing premium-level support to customers and are a standout colleague? Cloudflare is seeking an experienced Network Security Engineer to join our team and support our largest and most technically sophisticated customers in resolving technical problems, threats or attacks on their infrastructure at OSI Layers 3, 4, and 7. This will span the range of Cloudflare products from Magic Transit Infrastructure Protection, Argo Smart Routing, DDoS mitigation and Network Firewall, to using the Web Application firewall (WAF), Spectrum and Rate Limiting to help customers. /p h4 strong Responsibilities /strong /h4 ul li Communicate with customers via chat, email, and phone nbsp; /li li Compare traffic signatures and attributes including IP addresses, cookie variations, HTTP headers, and JavaScript footprints to determine what is good traffic and what is malicious /li li DDoS mitigation for OSI layers 3,4, amp; 7: advise customers on how to filter malicious traffic using Cloudflare tools like Magic Transit, Network Firewall, WAF, IP reputation lists, packet inspection, blocklisting, allowlisting, and rate limiting /li li Work with Engineering and Operations teams to mitigate attacks, suggest steps to mit",
+   "salaryText": "",
+   "lpa": null,
+   "inIndia": false,
+   "inDubai": false,
+   "globalRemote": false,
+   "score": 50
   },
   {
    "title": "Security Engineer, Product Security",
