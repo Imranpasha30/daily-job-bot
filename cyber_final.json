@@ -1,8 +1,8 @@
 {
- "generated": "2026-10-31T09:53:46.986Z",
+ "generated": "2026-11-01T10:43:23.933Z",
  "usdInr": 88,
  "counts": {
-  "pool": 3144,
+  "pool": 3154,
   "passed": 93,
   "dubai": 0,
   "india": 20
@@ -910,6 +910,26 @@
    "score": 75
   },
   {
+   "title": "Security Engineer",
+   "company": "Everpure",
+   "url": "https://job-boards.greenhouse.io/purestorage/jobs/8191920",
+   "source": "Greenhouse",
+   "board": "purestorage",
+   "region": "Prague, Czech Republic",
+   "posted": "2026-11-01",
+   "tags": [
+    "14200 Global Information Security Office"
+   ],
+   "snippet": "div class= content-intro p Everpure (NYSE: P) has evolved from storage pioneer to data platform, closing fiscal 2026 with $3.7 billion in revenue, its first billion-dollar quarter, and accelerating growth into FY27. Our strategic agenda spans the companies def",
+   "full": "div class= content-intro p Everpure (NYSE: P) has evolved from storage pioneer to data platform, closing fiscal 2026 with $3.7 billion in revenue, its first billion-dollar quarter, and accelerating growth into FY27. Our strategic agenda spans the companies defining the next era of technology - hyperscalers, AI labs, the AI hardware supply chain, data platform providers, and the broader AI ecosystem. /p p This type of work—work that changes the world—is what the tech industry was founded on. So, if you re ready to seize the endless opportunities and leave your mark, come join us. /p /div p strong THE ROLE /strong /p p As a Security Engineer for Application Security within the Global Information Security Office (GISO), your mission is to embed seamless, scalable security practices directly into the software development lifecycle at Everpure. In this highly collaborative role, you will partner closely with global development, platform, and security teams to design standardized controls that empower our engineers. By building intelligent automation and tooling integrations, you will ensure our engineering pipelines consistently operate with both uncompromising security and exceptional speed. /p p strong WHAT YOU LL DO /strong /p ul li Implement and integrate critical application security controls (such as SAST, DAST, SCA, and secrets scanning) within CI/CD pipelines and Git-based workflows to proactively secure Everpure s software supply chain. /li li Develop and maintain scalable automation scripts to streamline complex security checks, significantly improving tooling efficiency and driving consistent security adoption across engineering platforms. /li li Exercise independent judgment in analyzing moderately difficult security issues, guiding development teams to effectively identify, troubleshoot, and remediate vulnerabilities in modern application environments. /li li Drive the standardization of secure coding best practices and track key AppSec metrics to actively elevate the overall maturity of our global secure development operations. /li /ul p strong WHAT YOU BRING /strong /p ul li A strong foundation in application security concepts (including the OWASP Top 10), web applications, APIs, and modern secure development practices. /li li Proficiency in scripting or programming (such as Python) to build automation, coupled with hands-on expertise in navigating CI/CD pipelines and Git-based workflows. /li li Demonstrated problem-solving capabilities to tackle moderately complex technical challenges independently, alongside a drive to continuously learn and optimize DevSecOps tooling. /li li Exceptional communication and collaboration skills to effectively partner with diverse engineering teams, integrate feedback, and champion secure design principles in a fast-paced environment. /li li We are primarily an in-office environment and therefore, you will be expected to work from the Prague office in compliance with Everpure’s policies, unless you are o",
+   "salaryText": "",
+   "lpa": null,
+   "inIndia": false,
+   "inDubai": false,
+   "globalRemote": false,
+   "score": 65
+  },
+  {
    "title": "GRC Analyst",
    "company": "Vercel",
    "url": "https://job-boards.greenhouse.io/vercel/jobs/6102654004",
@@ -1060,26 +1080,6 @@
    ],
    "snippet": "div class= content-intro h2 strong About Anthropic /strong /h2 p Anthropic’s mission is to create reliable, interpretable, and steerable AI systems. We want AI to be safe and beneficial for our users and for society as a whole. Our team is a quickly growing gr",
    "full": "div class= content-intro h2 strong About Anthropic /strong /h2 p Anthropic’s mission is to create reliable, interpretable, and steerable AI systems. We want AI to be safe and beneficial for our users and for society as a whole. Our team is a quickly growing group of committed researchers, engineers, policy experts, and business leaders working together to build beneficial AI systems. /p /div h2 strong About the team /strong /h2 p Anthropic s Security Governance, Risk, and Compliance (GRC) team is the connective tissue that holds the company accountable to its security commitments. We translate regulatory, customer, and voluntary obligations into controls that teams act on, and give leadership a bird s-eye view of how well we re meeting them. We re building toward a fundamentally different kind of GRC: one that directs Claude, with the right humans in the loop, to challenge and evidence the performance of controls continuously rather than through periodic audits. /p p Within Security GRC, Compliance amp; Audit Programs runs the integrated audit across our frameworks and maintains the Common Control Framework, the single set of controls that the whole program is built on. This role sits in Audit amp; Assurance and owns the framework and the assurance view across every control domain. /p h2 strong About the role /strong /h2 p As part of the Security Audit amp; Controls team, nbsp; you will own the CCF across every control domain, from access and change management to logging, encryption, and people controls: which controls we have, what each one says, how each maps to the frameworks and commitments we hold, and whether each one is actually working. You ll work with control owners and GRC Partners to draft and validate control descriptions and activities that describe reality rather than policy intent, build the monitoring that shows operating effectiveness continuously instead of once a year, and drive what monitoring finds to closure with control owners. /p p Building with Claude is a normal part of the job: drafting and mapping controls, testing evidence, and monitoring control health, with you deciding where human judgment stays in the loop. /p p This is an individual contributor role for someone who works well independently, writes clearly, and gets satisfaction from a control set that is accurate, tested, and trusted by auditors and engineers alike. /p h2 strong Key responsibilities /strong /h2 ul li Own the Common Control Framework: the canonical control set, its mappings to SOC 2, ISO 27001/42001, HIPAA, FedRAMP, and customer commitments, and the change process for adding, retiring, or rewording controls /li li Draft and validate control descriptions and control activities with control owners, so each control states who does what, how often, in which system, and what evidence proves it /li li Design and run continuous monitoring of control efficacy: define the metrics and automated tests that show operating effectiveness, tune out false positi",
-   "salaryText": "",
-   "lpa": null,
-   "inIndia": false,
-   "inDubai": false,
-   "globalRemote": false,
-   "score": 65
-  },
-  {
-   "title": "Security Engineer",
-   "company": "Everpure",
-   "url": "https://job-boards.greenhouse.io/purestorage/jobs/8191920",
-   "source": "Greenhouse",
-   "board": "purestorage",
-   "region": "Prague, Czech Republic",
-   "posted": "2026-10-02",
-   "tags": [
-    "14200 Global Information Security Office"
-   ],
-   "snippet": "div class= content-intro p Everpure (NYSE: P) has evolved from storage pioneer to data platform, closing fiscal 2026 with $3.7 billion in revenue, its first billion-dollar quarter, and accelerating growth into FY27. Our strategic agenda spans the companies def",
-   "full": "div class= content-intro p Everpure (NYSE: P) has evolved from storage pioneer to data platform, closing fiscal 2026 with $3.7 billion in revenue, its first billion-dollar quarter, and accelerating growth into FY27. Our strategic agenda spans the companies defining the next era of technology - hyperscalers, AI labs, the AI hardware supply chain, data platform providers, and the broader AI ecosystem. /p p This type of work—work that changes the world—is what the tech industry was founded on. So, if you re ready to seize the endless opportunities and leave your mark, come join us. /p /div p strong THE ROLE /strong /p p As a Security Engineer for Application Security within the Global Information Security Office (GISO), your mission is to embed seamless, scalable security practices directly into the software development lifecycle at Everpure. In this highly collaborative role, you will partner closely with global development, platform, and security teams to design standardized controls that empower our engineers. By building intelligent automation and tooling integrations, you will ensure our engineering pipelines consistently operate with both uncompromising security and exceptional speed. /p p strong WHAT YOU LL DO /strong /p ul li Implement and integrate critical application security controls (such as SAST, DAST, SCA, and secrets scanning) within CI/CD pipelines and Git-based workflows to proactively secure Everpure s software supply chain. /li li Develop and maintain scalable automation scripts to streamline complex security checks, significantly improving tooling efficiency and driving consistent security adoption across engineering platforms. /li li Exercise independent judgment in analyzing moderately difficult security issues, guiding development teams to effectively identify, troubleshoot, and remediate vulnerabilities in modern application environments. /li li Drive the standardization of secure coding best practices and track key AppSec metrics to actively elevate the overall maturity of our global secure development operations. /li /ul p strong WHAT YOU BRING /strong /p ul li A strong foundation in application security concepts (including the OWASP Top 10), web applications, APIs, and modern secure development practices. /li li Proficiency in scripting or programming (such as Python) to build automation, coupled with hands-on expertise in navigating CI/CD pipelines and Git-based workflows. /li li Demonstrated problem-solving capabilities to tackle moderately complex technical challenges independently, alongside a drive to continuously learn and optimize DevSecOps tooling. /li li Exceptional communication and collaboration skills to effectively partner with diverse engineering teams, integrate feedback, and champion secure design principles in a fast-paced environment. /li li We are primarily an in-office environment and therefore, you will be expected to work from the Prague office in compliance with Everpure’s policies, unless you are o",
    "salaryText": "",
    "lpa": null,
    "inIndia": false,
