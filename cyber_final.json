@@ -1,11 +1,11 @@
 {
- "generated": "2026-11-02T11:33:16.201Z",
+ "generated": "2026-11-03T11:11:25.961Z",
  "usdInr": 88,
  "counts": {
-  "pool": 3141,
-  "passed": 92,
+  "pool": 3151,
+  "passed": 96,
   "dubai": 0,
-  "india": 20
+  "india": 21
  },
  "jobs": [
   {
@@ -148,6 +148,26 @@
    "inDubai": false,
    "globalRemote": false,
    "score": 130
+  },
+  {
+   "title": "Threat Research Engineer",
+   "company": "GitLab",
+   "url": "https://job-boards.greenhouse.io/gitlab/jobs/8867649002",
+   "source": "Greenhouse",
+   "board": "gitlab",
+   "region": "Bangalore, India",
+   "posted": "2026-11-03",
+   "tags": [
+    "n/a"
+   ],
+   "snippet": "div class= content-intro p GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformati",
+   "full": "div class= content-intro p GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and more than 50% of the Fortune 100* trust GitLab to ship better, more secure software faster. /p p The same principles built into our products are reflected in how our team works: we embrace AI as a core productivity multiplier, with all team members expected to incorporate AI into their daily workflows to drive efficiency, innovation, and impact. GitLab is where careers accelerate, innovation flourishes, and every voice is valued. Our high-performance culture is driven by our values nbsp;and continuous knowledge exchange, enabling our team members to reach their full potential while collaborating with industry leaders to solve complex problems. a href= https://www.youtube.com/watch?v=OuZIb5zszQI Co-create the future with us /a as we build technology that transforms how the world develops software. /p p * em Fortune 500® is a registered trademark of Fortune Media IP Limited, used under license. Claim based on GitLab data. Fortune 100 refers to the top 20% ranked companies in the 2025 Fortune 500 list, published in June 2025. Fortune and Fortune Media IP Limited are not affiliated with, and do not endorse products or services of GitLab. /em /p /div div id= message-list_1790846969.120739 div div div div div div div div div div div An overview of this role /div div br As an Threat Research Engineer at GitLab, you ll research emerging security threats and turn your findings into protection for GitLab customers. You ll investigate new attack surfaces, including AI coding agents, agent plugins, and package ecosystems, and build systems that help detect threats and improve vulnerability advisories. br This is a full-stack role: you ll take an idea from the first research question to a working proof of concept, deploy it, and analyze the results yourself. Artificial intelligence (AI) is central to how we work. You ll use AI tools daily and build agentic workflows for research, analysis, and detection. br br What you ll do /div ul li Research new attack surfaces and threat vectors, including AI coding agents, agent plugins, and package ecosystems. /li li Find and responsibly disclose vulnerabilities in open source projects and developer tools. /li li Analyze software supply chain incidents and events. /li li Build AI-powered workflows and agents that automate research, analysis, and detection. /li li Build and maintain the cloud-based systems behind our detection and advisory work. /li li Improve the quality and coverage of our vulnerability and malware advisories. /li li Write up your findings as blog posts and present them at conferences. /li /ul div What you ll bring /div ul li Hands-on security experience in research, malware analysis, penetration testi",
+   "salaryText": "",
+   "lpa": null,
+   "inIndia": true,
+   "inDubai": false,
+   "globalRemote": false,
+   "score": 120
   },
   {
    "title": "Information Security Engineer (Thick Client Testing /  Harness / VAPT)",
@@ -465,7 +485,7 @@
    "source": "Greenhouse",
    "board": "twilio",
    "region": "Remote - United Kingdom",
-   "posted": "2026-11-01",
+   "posted": "2026-11-02",
    "tags": [
     "NP2IT6582-1"
    ],
@@ -476,6 +496,28 @@
    "inIndia": false,
    "inDubai": false,
    "globalRemote": true,
+   "score": 90
+  },
+  {
+   "title": "Insider Risk Security Engineer",
+   "company": "Zscaler",
+   "url": "https://job-boards.greenhouse.io/zscaler/jobs/5208421007",
+   "source": "Greenhouse",
+   "board": "zscaler",
+   "region": "Remote - USA",
+   "posted": "2026-11-02",
+   "tags": [
+    "Fulltime Employee",
+    "Information Security",
+    "AMS"
+   ],
+   "snippet": "div class= content-intro p data-pm-slice= 1 1 [] Zscaler (NASDAQ: ZS) accelerates digital transformation so customers can be more agile, efficient, resilient, and secure. The Zscaler Zero Trust Exchange platform protects thousands of customers from cyberattack",
+   "full": "div class= content-intro p data-pm-slice= 1 1 [] Zscaler (NASDAQ: ZS) accelerates digital transformation so customers can be more agile, efficient, resilient, and secure. The Zscaler Zero Trust Exchange platform protects thousands of customers from cyberattacks and data loss by securely connecting users, devices, and applications in any location. Distributed across 200+ public data centers globally and thousands of private sites at the edge, the SASE-based Zero Trust Exchange is the world’s largest in-line cloud security platform. /p p We believe the future of work is Human + AI and are building an AI-native enterprise where human potential is amplified by machine intelligence to solve the world’s hardest security challenges. Driven by deep customer obsession, we are committed to the mission, outcome, and to each other. We bring these commitments to life through three core behaviors: ownership and collaboration, trust through outcomes and impact, and a challenge culture with ongoing feedback. Ready to make an impact at the company pioneering security transformation in the AI era? Join us at Zscaler. /p /div p strong Role /strong /p p We are looking for an Insider Risk Security Engineer to join our team. This is a Remote (United States) role, reporting to the Senior Architect in the Enterprise Security Dept department. Serving as a senior contributor on the Insider Risk program within Enterprise Security, you will take operational direction from the Insider Risk Team Lead while operating with high ownership to refine playbooks, lead detection engineering, mentor junior analysts, and represent the team with HR, Legal, and executive stakeholders. /p p strong What you’ll do (Role Expectations) /strong /p ul li Sharpen the Insider Risk Program’s detection capabilities by refining rules to reduce noise, close coverage gaps, and surface high-fidelity alerts in adequate time /li li Perform endpoint and user activity investigations using EDR/XDR, UEBA, and SIEM tools, managing cases end-to-end to create factual timelines /li li Drive the development and iteration of insider Risk investigation playbooks, translating case patterns and lessons learned into scalable, defensible processes /li li Serve as a key contact for HR, Legal, business leaders and other stakeholders on active investigations, preparing clear evidentiary case documentation /li /ul p strong Who You Are (Success Profile) /strong /p ul li You thrive in ambiguity and are comfortable building the path forward in dynamic environments, treating complexity as an opportunity to deliver meaningful solutions. /li li You act like an owner with a passion for the mission, navigating seamlessly between strategic thinking and hands-on execution while operating with uncompromised integrity. /li li You are a positive force who approaches complex challenges with constructive energy, inspiring teammates to stay focused on shared solutions. /li li You operate with urgency, balancing speed and quality to execut",
+   "salaryText": "",
+   "lpa": null,
+   "inIndia": false,
+   "inDubai": false,
+   "globalRemote": false,
    "score": 90
   },
   {
@@ -512,28 +554,6 @@
    "inIndia": false,
    "inDubai": false,
    "globalRemote": true,
-   "score": 90
-  },
-  {
-   "title": "Insider Risk Security Engineer",
-   "company": "Zscaler",
-   "url": "https://job-boards.greenhouse.io/zscaler/jobs/5208421007",
-   "source": "Greenhouse",
-   "board": "zscaler",
-   "region": "Remote - USA",
-   "posted": "2026-10-29",
-   "tags": [
-    "Fulltime Employee",
-    "Information Security",
-    "AMS"
-   ],
-   "snippet": "div class= content-intro p data-pm-slice= 1 1 [] Zscaler (NASDAQ: ZS) accelerates digital transformation so customers can be more agile, efficient, resilient, and secure. The Zscaler Zero Trust Exchange platform protects thousands of customers from cyberattack",
-   "full": "div class= content-intro p data-pm-slice= 1 1 [] Zscaler (NASDAQ: ZS) accelerates digital transformation so customers can be more agile, efficient, resilient, and secure. The Zscaler Zero Trust Exchange platform protects thousands of customers from cyberattacks and data loss by securely connecting users, devices, and applications in any location. Distributed across 200+ public data centers globally and thousands of private sites at the edge, the SASE-based Zero Trust Exchange is the world’s largest in-line cloud security platform. /p p We believe the future of work is Human + AI and are building an AI-native enterprise where human potential is amplified by machine intelligence to solve the world’s hardest security challenges. Driven by deep customer obsession, we are committed to the mission, outcome, and to each other. We bring these commitments to life through three core behaviors: ownership and collaboration, trust through outcomes and impact, and a challenge culture with ongoing feedback. Ready to make an impact at the company pioneering security transformation in the AI era? Join us at Zscaler. /p /div p strong Role /strong /p p We are looking for an Insider Risk Security Engineer to join our team. This is a Remote (United States) role, reporting to the Senior Architect in the Enterprise Security Dept department. Serving as a senior contributor on the Insider Risk program within Enterprise Security, you will take operational direction from the Insider Risk Team Lead while operating with high ownership to refine playbooks, lead detection engineering, mentor junior analysts, and represent the team with HR, Legal, and executive stakeholders. /p p strong What you’ll do (Role Expectations) /strong /p ul li Sharpen the Insider Risk Program’s detection capabilities by refining rules to reduce noise, close coverage gaps, and surface high-fidelity alerts in adequate time /li li Perform endpoint and user activity investigations using EDR/XDR, UEBA, and SIEM tools, managing cases end-to-end to create factual timelines /li li Drive the development and iteration of insider Risk investigation playbooks, translating case patterns and lessons learned into scalable, defensible processes /li li Serve as a key contact for HR, Legal, business leaders and other stakeholders on active investigations, preparing clear evidentiary case documentation /li /ul p strong Who You Are (Success Profile) /strong /p ul li You thrive in ambiguity and are comfortable building the path forward in dynamic environments, treating complexity as an opportunity to deliver meaningful solutions. /li li You act like an owner with a passion for the mission, navigating seamlessly between strategic thinking and hands-on execution while operating with uncompromised integrity. /li li You are a positive force who approaches complex challenges with constructive energy, inspiring teammates to stay focused on shared solutions. /li li You operate with urgency, balancing speed and quality to execut",
-   "salaryText": "",
-   "lpa": null,
-   "inIndia": false,
-   "inDubai": false,
-   "globalRemote": false,
    "score": 90
   },
   {
@@ -718,13 +738,92 @@
    "score": 80
   },
   {
+   "title": "Security Engineer - Platforms",
+   "company": "Exeon Analytics",
+   "url": "https://www.arbeitnow.ch/jobs/companies/exeon-analytics/remote-security-engineer-platforms-zurich-143558",
+   "source": "Arbeitnow",
+   "board": "",
+   "region": "Remote job",
+   "posted": "2026-11-03",
+   "tags": [
+    "Support & Engineering",
+    "Remote",
+    "Mid",
+    "fulltime permanent"
+   ],
+   "snippet": "80-100% | as soon as possible | Germany or Switzerland About Exeon Exeon is a Swiss cyber security company based in Zurich. Since 2016, we have been protecting critical infrastructures, financial institutions and enterprises whose operations fully rely on IT t",
+   "full": "80-100% | as soon as possible | Germany or Switzerland About Exeon Exeon is a Swiss cyber security company based in Zurich. Since 2016, we have been protecting critical infrastructures, financial institutions and enterprises whose operations fully rely on IT through AI-powered analysis of network communication. This ma",
+   "salaryText": "",
+   "lpa": null,
+   "inIndia": false,
+   "inDubai": false,
+   "globalRemote": true,
+   "score": 75
+  },
+  {
+   "title": "Intermediate Software Engineer, Security Factory: Vulnerability Management ",
+   "company": "GitLab",
+   "url": "https://job-boards.greenhouse.io/gitlab/jobs/8688078002",
+   "source": "Greenhouse",
+   "board": "gitlab",
+   "region": "Remote, Israel; Remote, United Kingdom",
+   "posted": "2026-11-02",
+   "tags": [
+    "n/a"
+   ],
+   "snippet": "div class= content-intro p GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformati",
+   "full": "div class= content-intro p GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and more than 50% of the Fortune 100* trust GitLab to ship better, more secure software faster. /p p The same principles built into our products are reflected in how our team works: we embrace AI as a core productivity multiplier, with all team members expected to incorporate AI into their daily workflows to drive efficiency, innovation, and impact. GitLab is where careers accelerate, innovation flourishes, and every voice is valued. Our high-performance culture is driven by our values nbsp;and continuous knowledge exchange, enabling our team members to reach their full potential while collaborating with industry leaders to solve complex problems. a href= https://www.youtube.com/watch?v=OuZIb5zszQI Co-create the future with us /a as we build technology that transforms how the world develops software. /p p * em Fortune 500® is a registered trademark of Fortune Media IP Limited, used under license. Claim based on GitLab data. Fortune 100 refers to the top 20% ranked companies in the 2025 Fortune 500 list, published in June 2025. Fortune and Fortune Media IP Limited are not affiliated with, and do not endorse products or services of GitLab. /em /p /div h3 strong An overview of this role /strong /h3 p As an Intermediate Software Engineer on GitLab’s Vulnerability Management team, you’ll help build the core security workflows that GitLab Ultimate customers use to triage, prioritize, and act on vulnerabilities. You’ll work primarily in Ruby on Rails on backend systems, including security dashboards, vulnerability reports, and ingestion pipelines. You’ll take ownership of well-defined projects, solve technical problems with support from experienced team members, and collaborate with other engineers. You’ll also have opportunities to contribute beyond the backend when the work requires it. /p p You will join a fullstack team, working together with product managers, designers, and a href= https://about.gitlab.com/job-families/engineering/development/frontend/ frontend engineers /a to solve problems across the Vulnerability Management domain. /p h3 strong What you’ll do /strong /h3 ul li p Develop and maintain backend features for GitLab’s vulnerability management workflows. /p /li li p Confidently ship features and improvements with minimal guidance and support from other team members; collaborate with the team on larger projects. /p /li li p Help improve the performance, reliability, and scalability of security data ingestion and reporting systems. /p /li li p Collaborate with frontend engineers and contribute across the stack when needed. /p /li li p Work with engineers across security teams as vulnerability data and workflows come together in Vulnerability",
+   "salaryText": "",
+   "lpa": null,
+   "inIndia": false,
+   "inDubai": false,
+   "globalRemote": true,
+   "score": 75
+  },
+  {
+   "title": "Hardware Security Engineer Intern (Summer 2027)",
+   "company": "Together AI",
+   "url": "https://job-boards.greenhouse.io/togetherai/jobs/5238469007",
+   "source": "Greenhouse",
+   "board": "togetherai",
+   "region": "San Francisco",
+   "posted": "2026-11-02",
+   "tags": [],
+   "snippet": "h3 strong About the Role /strong /h3 p As a Hardware Security Engineer Intern, you’ll contribute to building open, transparent, and secure AI systems. You’ll have the opportunity to work on projects that safeguard corporate assets by implementing and operating",
+   "full": "h3 strong About the Role /strong /h3 p As a Hardware Security Engineer Intern, you’ll contribute to building open, transparent, and secure AI systems. You’ll have the opportunity to work on projects that safeguard corporate assets by implementing and operating preventative and reactive security controls while collaborating with teams and stakeholders across the company. We’re looking for an intern that is interested in building AI-assisted security apps. nbsp; /p h3 strong Responsibilities /strong /h3 ul li Help design, prototype, and assess security solutions for AI infrastructure across hardware, firmware, operating systems, and cloud services, working with components like BMCs, TPMs, secure boot chains, and device and workload identity systems. /li li Support secure platform lifecycle work such as device onboarding, provisioning, inventory, and configuration validation. /li li Build automation and internal tools in Python, Bash, or similar languages to collect platform telemetry, detect configuration drift, or support incident investigations. /li li Prototype AI-assisted security tools for tasks like asset classification, anomaly detection, or detection-and-response workflows. /li li Research an emerging area such as confidential computing, remote attestation, or hardware roots of trust, and share your findings with the team. /li li Own a well-scoped project from start to finish with mentorship from experienced engineers, delivering clean, well-documented code and presenting your results at the end of the internship. /li /ul h3 strong Requirements /strong /h3 ul li Bachelor’s degree (or equivalent) in Electrical Engineering, Computer Science, Software Engineering, or a related field, earned or expected by Summer 2028 /li li Foundational understanding of computer architecture, operating systems, networking, embedded systems, digital logic, or electronics /li li Strong programming skills with a proficiency in Python or bash /li li Exposure to building AI-assisted applications /li /ul h3 strong Preferred Qualifications /strong /h3 ul li Prior security engineering experience through internships, hackathons, or projects /li li Coursework, projects, research, or internship experience in hardware security, embedded security, platform security, computer architecture, or secure systems design /li /ul h3 strong About Together AI /strong /h3 p Together AI, the AI Native Cloud, is purpose-built for AI engineers. AI application developers get high-performance inference that scales reliably, fine-tuning and reinforcement learning for creating frontier-level specialized models, and pre-training at massive scale for fully custom intelligence, all around a marketplace of leading open models that teams can run, adapt, and own. Trusted by Cursor, Decagon, ElevenLabs, Salesforce, and Zoom, Together serves 400+ trillion tokens a month. /p h3 strong Internship Program Details: nbsp; /strong /h3 p Our internship program spans over twelve weeks where you’ll have the ",
+   "salaryText": "",
+   "lpa": null,
+   "inIndia": false,
+   "inDubai": false,
+   "globalRemote": false,
+   "score": 75
+  },
+  {
+   "title": "Hardware Security Engineer, New Grad (2027)",
+   "company": "Together AI",
+   "url": "https://job-boards.greenhouse.io/togetherai/jobs/5238471007",
+   "source": "Greenhouse",
+   "board": "togetherai",
+   "region": "San Francisco",
+   "posted": "2026-11-02",
+   "tags": [],
+   "snippet": "h3 strong About the Role /strong /h3 p As a Hardware Security Engineer, you’ll contribute to building open, transparent, and secure AI systems. You’ll have the opportunity to work on projects that safeguard corporate assets by implementing and operating preven",
+   "full": "h3 strong About the Role /strong /h3 p As a Hardware Security Engineer, you’ll contribute to building open, transparent, and secure AI systems. You’ll have the opportunity to work on projects that safeguard corporate assets by implementing and operating preventative and reactive security controls while collaborating with teams and stakeholders across the company. We’re looking for an intern that is interested in building AI-assisted security apps. nbsp; /p h3 strong Responsibilities /strong /h3 ul li Design, prototype, and implement security solutions for AI infrastructure across hardware, firmware, operating systems, and cloud services, including BMCs, TPMs, secure boot chains, networking interfaces, and workload identity systems. /li li Assess and improve the security posture of server and accelerator platforms, including firmware update processes, device identity, trusted execution, and hardware-backed cryptography. /li li Support the secure platform lifecycle, from device onboarding, provisioning, and inventory through configuration validation and decommissioning. /li li Build automation and internal tools in Python, Bash, or similar languages to collect platform telemetry, detect configuration drift, and support incident investigation. /li li Build AI-assisted security applications for asset classification, anomaly detection, and detection-and-response workflows. /li li Partner with IT and infrastructure teams to implement and enforce identity, access-control, endpoint, and privileged-access security practices. /li li Research and evaluate emerging technologies such as confidential computing, remote attestation, hardware roots of trust, and secure device management. /li li Write clean, well-documented code, technical designs, test plans, and security findings. /li /ul h3 strong Requirements /strong /h3 ul li Actively pursuing a degree in Electrical Engineering, Computer Science, Software Engineering, or a related field expected by Summer 2027 /li li Foundational understanding of computer architecture, operating systems, networking, embedded systems, digital logic, or electronics /li li Strong programming skills with a proficiency in Python or bash /li li Exposure to building AI-assisted applications /li /ul h3 strong Preferred Qualifications /strong /h3 ul li Prior security engineering experience through internships, hackathons, or projects /li li Coursework, projects, research, or internship experience in hardware security, embedded security, platform security, computer architecture, or secure systems design /li li Experience with one or more of the following: Microcontrollers, FPGA development, board bring-up, JTAG/SWD debugging, serial interfaces, SPI, I2C, UART, PCIe, or Ethernet /li /ul h3 strong About Together AI /strong /h3 p Together AI, the AI Native Cloud, is purpose-built for AI engineers. AI application developers get high-performance inference that scales reliably, fine-tuning and reinforcement learning for creating frontier-lev",
+   "salaryText": "",
+   "lpa": null,
+   "inIndia": false,
+   "inDubai": false,
+   "globalRemote": false,
+   "score": 75
+  },
+  {
    "title": "Verafin - Analyst - Information Security",
    "company": "Nasdaq",
    "url": "https://job-boards.greenhouse.io/nasdaq/jobs/4472576009",
    "source": "Greenhouse",
    "board": "nasdaq",
    "region": "St. John's",
-   "posted": "2026-10-30",
+   "posted": "2026-11-02",
    "tags": [],
    "snippet": "div p strong Role Responsibilities /strong nbsp; /p /div div ul li p Analyzing security vulnerabilities identified within Verafin s Cloud infrastructure. nbsp; /p /li li p Querying and correlating security scan data with technical inventory. nbsp; /p /li li p ",
    "full": "div p strong Role Responsibilities /strong nbsp; /p /div div ul li p Analyzing security vulnerabilities identified within Verafin s Cloud infrastructure. nbsp; /p /li li p Querying and correlating security scan data with technical inventory. nbsp; /p /li li p Building reports and dashboards to present findings to code amp; infrastructure owners. nbsp; /p /li li p Coordinating vulnerability remediation with code amp; infrastructure owners. nbsp; /p /li li p Ensuring scanning coverage and assisting in remediation of gaps. nbsp; /p /li li p Assessing and improving security processes and tool usage. nbsp; nbsp; /p /li li p Working with security and operational teams to ensure security standards are met. nbsp; nbsp; /p /li /ul p nbsp; /p /div div p strong Essential Skills amp; Qualifications /strong nbsp; /p div div ul li p Diploma or Degree in a Security Management, Programming, Computer Science or equivalent. nbsp; /p /li li p 1+ years experience in security vulnerability analysis in a cloud environment would be an asset. nbsp; /p /li li p Experience working in a cloud-based environment (AWS preferred). nbsp; /p /li li p Experience working with the following technologies from a security perspective: Vulnerability Scanners/Management, Container Security Tools, Logging amp; Monitoring Tooling. nbsp; nbsp; /p /li li p Experience writing queries to analyze data. nbsp; /p /li li p Security certifications would be an asset (CISSP, OSCP, CEH, GSEC, Security+ etc.) nbsp; /p /li li p Strong technical analytical skills while providing accurate analysis of security-related problems in context of Verafin’s environment. nbsp; /p /li li p Committed to continuous learning, understanding new technologies and developing best practices. nbsp; /p /li li p Ability to communicate effectively with other teams. /p /li /ul /div /div div p ​ /p div p strong What does success look like in this role? /strong nbsp; /p /div div ul li p Contribute to the success the Verafin’s security program by offering insight and guidance on response and remediation of security vulnerabilities. nbsp; /p /li li p Review and improve Verafin’s security posture using new tools and processes. nbsp; /p /li li p Be an effective team player, communicator, and have an eagerness to learn and develop new skills. /p /li /ul div p nbsp; /p p strong What are the growth opportunities for this role? /strong nbsp; /p /div div ul li p Technical security career development nbsp; /p /li li p You could become the lead of a team, or the subject matter expert of your current team nbsp; /p /li /ul div p nbsp; /p p nbsp; /p p nbsp; /p /div /div /div /div /div div class= content-conclusion h4 Come as You Are /h4 p Nasdaq is an equal opportunity employer. We welcome applications from candidates of all backgrounds and identities. We are committed to fostering an inclusive workplace where diverse perspectives, experiences, and identities are valued and celebrated. We ensure that individuals with disabilities are provided",
@@ -805,42 +904,6 @@
    "inIndia": false,
    "inDubai": false,
    "globalRemote": true,
-   "score": 75
-  },
-  {
-   "title": "Hardware Security Engineer Intern (Summer 2027)",
-   "company": "Together AI",
-   "url": "https://job-boards.greenhouse.io/togetherai/jobs/5238469007",
-   "source": "Greenhouse",
-   "board": "togetherai",
-   "region": "San Francisco",
-   "posted": "2026-10-16",
-   "tags": [],
-   "snippet": "h3 strong About the Role /strong /h3 p As a Hardware Security Engineer Intern, you’ll contribute to building open, transparent, and secure AI systems. You’ll have the opportunity to work on projects that safeguard corporate assets by implementing and operating",
-   "full": "h3 strong About the Role /strong /h3 p As a Hardware Security Engineer Intern, you’ll contribute to building open, transparent, and secure AI systems. You’ll have the opportunity to work on projects that safeguard corporate assets by implementing and operating preventative and reactive security controls while collaborating with teams and stakeholders across the company. We’re looking for an intern that is interested in building AI-assisted security apps. nbsp; /p h3 strong Responsibilities /strong /h3 ul li Help design, prototype, and assess security solutions for AI infrastructure across hardware, firmware, operating systems, and cloud services, working with components like BMCs, TPMs, secure boot chains, and device and workload identity systems. /li li Support secure platform lifecycle work such as device onboarding, provisioning, inventory, and configuration validation. /li li Build automation and internal tools in Python, Bash, or similar languages to collect platform telemetry, detect configuration drift, or support incident investigations. /li li Prototype AI-assisted security tools for tasks like asset classification, anomaly detection, or detection-and-response workflows. /li li Research an emerging area such as confidential computing, remote attestation, or hardware roots of trust, and share your findings with the team. /li li Own a well-scoped project from start to finish with mentorship from experienced engineers, delivering clean, well-documented code and presenting your results at the end of the internship. /li /ul h3 strong Requirements /strong /h3 ul li Bachelor’s degree (or equivalent) in Electrical Engineering, Computer Science, Software Engineering, or a related field, earned or expected by Summer 2028 /li li Foundational understanding of computer architecture, operating systems, networking, embedded systems, digital logic, or electronics /li li Strong programming skills with a proficiency in Python or bash /li li Exposure to building AI-assisted applications /li /ul h3 strong Preferred Qualifications /strong /h3 ul li Prior security engineering experience through internships, hackathons, or projects /li li Coursework, projects, research, or internship experience in hardware security, embedded security, platform security, computer architecture, or secure systems design /li /ul h3 strong About Together AI /strong /h3 p Together AI, the AI Native Cloud, is purpose-built for AI engineers. AI application developers get high-performance inference that scales reliably, fine-tuning and reinforcement learning for creating frontier-level specialized models, and pre-training at massive scale for fully custom intelligence, all around a marketplace of leading open models that teams can run, adapt, and own. Trusted by Cursor, Decagon, ElevenLabs, Salesforce, and Zoom, Together serves 400+ trillion tokens a month. /p h3 strong Internship Program Details: nbsp; /strong /h3 p Our internship program spans over twelve weeks where you’ll have the ",
-   "salaryText": "",
-   "lpa": null,
-   "inIndia": false,
-   "inDubai": false,
-   "globalRemote": false,
-   "score": 75
-  },
-  {
-   "title": "Hardware Security Engineer, New Grad (2027)",
-   "company": "Together AI",
-   "url": "https://job-boards.greenhouse.io/togetherai/jobs/5238471007",
-   "source": "Greenhouse",
-   "board": "togetherai",
-   "region": "San Francisco",
-   "posted": "2026-10-16",
-   "tags": [],
-   "snippet": "h3 strong About the Role /strong /h3 p As a Hardware Security Engineer, you’ll contribute to building open, transparent, and secure AI systems. You’ll have the opportunity to work on projects that safeguard corporate assets by implementing and operating preven",
-   "full": "h3 strong About the Role /strong /h3 p As a Hardware Security Engineer, you’ll contribute to building open, transparent, and secure AI systems. You’ll have the opportunity to work on projects that safeguard corporate assets by implementing and operating preventative and reactive security controls while collaborating with teams and stakeholders across the company. We’re looking for an intern that is interested in building AI-assisted security apps. nbsp; /p h3 strong Responsibilities /strong /h3 ul li Design, prototype, and implement security solutions for AI infrastructure across hardware, firmware, operating systems, and cloud services, including BMCs, TPMs, secure boot chains, networking interfaces, and workload identity systems. /li li Assess and improve the security posture of server and accelerator platforms, including firmware update processes, device identity, trusted execution, and hardware-backed cryptography. /li li Support the secure platform lifecycle, from device onboarding, provisioning, and inventory through configuration validation and decommissioning. /li li Build automation and internal tools in Python, Bash, or similar languages to collect platform telemetry, detect configuration drift, and support incident investigation. /li li Build AI-assisted security applications for asset classification, anomaly detection, and detection-and-response workflows. /li li Partner with IT and infrastructure teams to implement and enforce identity, access-control, endpoint, and privileged-access security practices. /li li Research and evaluate emerging technologies such as confidential computing, remote attestation, hardware roots of trust, and secure device management. /li li Write clean, well-documented code, technical designs, test plans, and security findings. /li /ul h3 strong Requirements /strong /h3 ul li Actively pursuing a degree in Electrical Engineering, Computer Science, Software Engineering, or a related field expected by Summer 2027 /li li Foundational understanding of computer architecture, operating systems, networking, embedded systems, digital logic, or electronics /li li Strong programming skills with a proficiency in Python or bash /li li Exposure to building AI-assisted applications /li /ul h3 strong Preferred Qualifications /strong /h3 ul li Prior security engineering experience through internships, hackathons, or projects /li li Coursework, projects, research, or internship experience in hardware security, embedded security, platform security, computer architecture, or secure systems design /li li Experience with one or more of the following: Microcontrollers, FPGA development, board bring-up, JTAG/SWD debugging, serial interfaces, SPI, I2C, UART, PCIe, or Ethernet /li /ul h3 strong About Together AI /strong /h3 p Together AI, the AI Native Cloud, is purpose-built for AI engineers. AI application developers get high-performance inference that scales reliably, fine-tuning and reinforcement learning for creating frontier-lev",
-   "salaryText": "",
-   "lpa": null,
-   "inIndia": false,
-   "inDubai": false,
-   "globalRemote": false,
    "score": 75
   },
   {
@@ -1236,6 +1299,46 @@
    "score": 65
   },
   {
+   "title": "Information Systems Security Engineer ",
+   "company": "snowflake",
+   "url": "https://jobs.ashbyhq.com/snowflake/808d3b05-081d-4eb6-a5dc-74448c3429e9",
+   "source": "Ashby",
+   "board": "snowflake",
+   "region": "US-VA-McLean",
+   "posted": "2026-11-02",
+   "tags": [
+    "Engineering",
+    "Engineering",
+    "FullTime"
+   ],
+   "snippet": "At Snowflake, we are powering the era of the agentic enterprise. To usher in this new era, we seek AI-native thinkers across every function who are energized by the opportunity to reinvent how they work. You don’t just use tools; you possess an innate curiosit",
+   "full": "At Snowflake, we are powering the era of the agentic enterprise. To usher in this new era, we seek AI-native thinkers across every function who are energized by the opportunity to reinvent how they work. You don’t just use tools; you possess an innate curiosity, treating AI as a high-trust collaborator that is core to how you solve problems and accelerate your impact. We look for low-ego individuals who thrive in dynamic and fast-moving environments and move with an experimental mindset — who rapidly test emerging capabilities to discover simpler, more powerful ways to deliver results. At Snowflake, your role isn't just to execute a function, but to help redefine the future of how work gets done. INFORMATION SYSTEMS SECURITY ENGINEER (PRINCIPAL) ABOUT THE ROLE Snowflake's national security deployments are authorized to operate inside classified environments, and each authorization stands or falls on the security documentation behind it. This role owns that documentation. You assess the system against its security control baseline, assemble the evidence the authorizing official reviews, and you are accountable for the package getting to authorization on schedule. Arc Reactor, a classified deployment for a US government customer, is the immediate assignment. The same work will apply to the deployments that follow it. WHAT YOU WILL DO - Lead the security control assessment for an assigned deployment, from control selection and tailoring through the body of evidence to authorization. - Produce the assessment plan, the evidence collection schedule and the residual risk that goes to the authorizing official, and keep them current. - Direct the engineers and security staff producing control artifacts. Tell them which evidence to collect, review what they produce, and catch gaps in the requirements before they surface during assessment. - Be the person who can explain a Snowflake control implementation to a government security reviewer, and explain a reviewer's finding back to the engineering team in terms they can act on. - Track authorization status and blockers, and report them weekly to the engineering lead and the program. WHAT YOU BRING - You have taken at least one system through authorization to operate under a government security control framework (NIST 800-53 / RMF, FedRAMP, or the DoD RMF and its Impact Levels), and you can point to the package you were responsible for. - You can read an engineering implementation and decide which control it satisfies and what evidence it produces. - You have worked with government authorizing officials or security control assessors, and you know what they reject and why. - You write the plan down. Assessment scope, control status, evidence gaps and residual risk live in a document the team can run without you, not in your head. - You are eligible for TS/SCI with a full-scope polygraph, or already hold it. HOW THIS TEAM WORKS The ISSE does not work alone and does not do all the collection. Engineers and suppor",
+   "salaryText": "$208K – $299K",
+   "lpa": 263.1,
+   "inIndia": false,
+   "inDubai": false,
+   "globalRemote": false,
+   "score": 60
+  },
+  {
+   "title": "Threat Intelligence Response Analyst",
+   "company": "Recorded Future",
+   "url": "https://job-boards.greenhouse.io/recordedfuture/jobs/8859088002",
+   "source": "Greenhouse",
+   "board": "recordedfuture",
+   "region": "London, England, UK",
+   "posted": "2026-11-03",
+   "tags": [],
+   "snippet": "div class= content-intro p With 1,000+ intelligence professionals serving over 1,900 clients worldwide, Recorded Future is the world’s most advanced, and largest, intelligence company! /p /div p This is an exciting opportunity to join Recorded Future s Managed",
+   "full": "div class= content-intro p With 1,000+ intelligence professionals serving over 1,900 clients worldwide, Recorded Future is the world’s most advanced, and largest, intelligence company! /p /div p This is an exciting opportunity to join Recorded Future s Managed Services Group as a strong Threat Intelligence Response Analyst. /strong You will be an independent, skilled intelligence analyst who plays a central role in delivering high-quality security outcomes for our clients. Recorded Future supports information security teams at some of the most ambitious organisations on the planet. You will work alongside a talented team of analysts, bringing your threat intelligence expertise to bear on real-world adversary activity every day. /p h3 strong Who You ll Work With: /strong /h3 p As a Threat Intelligence Response Analyst, you will be joining a fast-paced, high-growth team delivering innovative security solutions that protect our clients. You will be part of the global Managed Services team with a rapidly growing client portfolio, ensuring our users get the most value out of our services. nbsp; /p h3 strong What You ll Do: /strong /h3 p As a Threat Intelligence Response Analyst, you will: nbsp; /p ul li Be responsible for triaging alerts for a portfolio of cross-industry corporate, commercial, and enterprise clients nbsp; /li li Support customer engagements by providing insight into the threats observed by your customers, enabling customers to take action to mitigate cyber threats nbsp; /li li Work closely with Services and Product teams to ensure the success of the Recorded Future offering within customer environments /li li Handle incoming ad-hoc research and investigation requests from Managed Services customers nbsp; /li /ul h3 strong What You ll Bring: /strong /h3 ul li A self-starter mindset. You’ll be comfortable working independently while remaining a collaborative and reliable team member /li li Practical experience in threat intelligence, incident response, or security monitoring /li li A solid understanding of open source intelligence techniques and their application to phishing, credential harvesting, domain monitoring, dark web monitoring, and threat actor profiling /li li Working knowledge of security and network fundamentals — DNS, HTTP, email infrastructure, web hosting, and malware delivery mechanisms /li li Ability to identify, analyse, and communicate actionable intelligence to both technical and non-technical stakeholders /li li Strong written and verbal communication skills, with experience handling customer-facing interactions /li li CompTIA Security+ certification completed or actively in progress (preferred) /li li Experience with Salesforce, Gainsight, Notion, and Zendesk is a plus /li /ul h3 strong Working Hours: /strong /h3 p This role covers a shift-based schedule to support global client coverage. UK-based shift hours are: 9:00am – 6:00pm GMT /p p br #LI-Hybrid /p div class= content-conclusion p strong Why should you join ",
+   "salaryText": "",
+   "lpa": null,
+   "inIndia": false,
+   "inDubai": false,
+   "globalRemote": false,
+   "score": 55
+  },
+  {
    "title": "Threat Detection Analyst (Japanese & English speaking)",
    "company": "Fastly",
    "url": "https://www.fastly.com/about/jobs/apply?gh_jid=7912475",
@@ -1294,24 +1397,6 @@
    ],
    "snippet": "div class= content-intro p Fastly helps people stay better connected with the things they love. Fastly’s edge cloud platform enables customers to create great digital experiences quickly, securely, and reliably by processing, serving, and securing our customer",
    "full": "div class= content-intro p Fastly helps people stay better connected with the things they love. Fastly’s edge cloud platform enables customers to create great digital experiences quickly, securely, and reliably by processing, serving, and securing our customers’ applications as close to their end-users as possible — at the edge of the Internet. The platform is designed to take advantage of the modern internet, to be programmable, and to support agile software development. Fastly’s customers include many of the world’s most prominent companies, including GitHub, Yelp, Paramount, and JetBlue. /p p We re building a more trustworthy Internet. Come join us. /p /div p span style= text-decoration: underline; font-size: 12pt; strong Threat Detection Analyst - (Japanese speaking desirable) /strong /span /p p span style= font-size: 12pt; Fastly is seeking a strong Threat Detection Analyst /strong to join our dedicated Customer Security Operations Centre. In this role, you will be a frontline defender for Fastly’s global enterprise customers. You will leverage our edge cloud platform and an array of security products in monitoring traffic, detect sophisticated anomalies, and deploy real-time mitigations against DDoS, Bot, and Web Application attacks. /span /p p span style= font-size: 12pt; This is a high-impact role where you act as a strategic partner for our Managed Security Service (MSS) clients, providing the expert visibility and rapid response necessary to address internet-scale threats. /span /p h2 id= what-youll-do span style= font-size: 12pt; What you’ll Do : /span /h2 ul li style= font-size: 12pt; span style= font-size: 12pt; strong Active Incident Response: /strong Lead the identification and mitigation of high-impact security events. You will analyze sophisticated traffic patterns and implement precise countermeasures, including rate limiting and custom WAF amp; Security rules to neutralize threats in real-time. /span /li li style= font-size: 12pt; span style= font-size: 12pt; strong Managed Security Delivery: /strong Serve as a primary security consultant for MSS Customers. This involves continuous tuning and refining of security policies to optimize detection accuracy and maintaining a hardened security posture tailored to each client s unique environment. /span /li li style= font-size: 12pt; span style= font-size: 12pt; strong Advanced Threat Hunting: /strong Conduct data-driven investigations using log analysis to uncover potential threats and hardenings opportunities /span /li li style= font-size: 12pt; span style= font-size: 12pt; strong Security Intelligence amp; Reporting: /strong Author comprehensive After Action Reports (AARs) and monthly security summaries. You will translate complex telemetry and attack data into high-level actionable insights for customer stakeholders. /span /li li style= font-size: 12pt; span style= font-size: 12pt; strong Strategic Communication: /strong Act as the Subject Matter Expert (SME) during active securit",
-   "salaryText": "",
-   "lpa": null,
-   "inIndia": false,
-   "inDubai": false,
-   "globalRemote": false,
-   "score": 55
-  },
-  {
-   "title": "Product Security Engineer",
-   "company": "Careers at KKR",
-   "url": "https://www.kkr.com/careers/career-opportunities/post?gh_jid=6109544004",
-   "source": "Greenhouse",
-   "board": "stage",
-   "region": "Boston; New York, New York, United States",
-   "posted": "2026-10-30",
-   "tags": [],
-   "snippet": "div class= content-intro p strong COMPANY OVERVIEW /strong /p p KKR is a leading global investment firm that offers alternative asset management as well as capital markets and insurance solutions. KKR aims to generate attractive investment returns by following",
-   "full": "div class= content-intro p strong COMPANY OVERVIEW /strong /p p KKR is a leading global investment firm that offers alternative asset management as well as capital markets and insurance solutions. KKR aims to generate attractive investment returns by following a patient and disciplined investment approach, employing world-class people, and supporting growth in its portfolio companies and communities. KKR sponsors investment funds that invest in private equity, credit and real assets and has strategic partners that manage hedge funds. KKR’s insurance subsidiaries offer retirement, life and reinsurance products under the management of Global Atlantic Financial Group. References to KKR’s investments may include the activities of its sponsored funds and insurance subsidiaries. /p /div p nbsp; /p p strong POSITION SUMMARY /strong /p p KKR is seeking an experienced Product Security Professional. This role offers exciting opportunities for growth and impact as KKR scales its business and continues to innovate. As a Security Analyst, you will be responsible for designing, implementing, and maintaining security measures across our environment specific to our internally developed applications and external facing applications. You must be proficient in troubleshooting, vulnerability management, cloud security, application security, and have a deep understanding of a wide range of systems, and be capable of leading other teams in these efforts. You will work closely with IT and other business units to ensure our security posture remains strong, aligned with industry best practices, and compliant with regulatory requirements. You will also be looking over the horizon, identifying future needs and exploring leading edge solutions. This role will be based in either our Boston or New York office. For Boston, this role is in the office 4 days per week, with 1 day remote. For New York, this role is in the office 5 days per week. nbsp; /p p strong RESPONSIBILITIES: /strong /p ul li Conduct application security assessments and penetration tests to identify vulnerabilities and security issues. /li li Work closely with the software development team to ensure that secure coding practices are implemented throughout the application development lifecycle. /li li Design and implement security solutions to protect applications from potential threats. /li li Provide guidance and recommendations on application security best practices. /li li Maintain knowledge of the latest security trends, threats, and countermeasures. /li li Participate in incident response and handling activities related to application security incidents. /li li Conduct security awareness and training sessions for the development team to promote secure coding practices. /li li Develop and maintain application security standards, policies, and procedures. /li li Report and document security findings and remediation activities. /li li Integrate security tools and practices into the continuous integration/con",
    "salaryText": "",
    "lpa": null,
    "inIndia": false,
@@ -1553,8 +1638,8 @@
    "region": "New York",
    "posted": "2026-04-21",
    "tags": [
-    "Engineering",
-    "Engineering",
+    "Engineering Department",
+    "Engineering Department",
     "FullTime"
    ],
    "snippet": "ABOUT US: AI NEEDS A NEW INFRASTRUCTURE LAYER. WE'RE BUILDING IT AT MODAL. Every era of computing brought new workloads that previous infrastructure couldn't support: mainframes, databases, and the cloud. Each time, the company that rebuilt the layer underneat",
