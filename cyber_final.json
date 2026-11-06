@@ -1,13 +1,34 @@
 {
- "generated": "2026-11-05T11:18:51.462Z",
+ "generated": "2026-11-06T11:16:47.126Z",
  "usdInr": 88,
  "counts": {
-  "pool": 3183,
-  "passed": 98,
+  "pool": 3204,
+  "passed": 95,
   "dubai": 0,
   "india": 21
  },
  "jobs": [
+  {
+   "title": "Threat Analyst 1",
+   "company": "sophos",
+   "url": "https://jobs.lever.co/sophos/71fc9a80-187a-421d-9299-6a181689f70c",
+   "source": "Lever",
+   "board": "sophos",
+   "region": "India",
+   "posted": "2026-11-05",
+   "tags": [
+    "MDR and Security Operations",
+    "Permanent"
+   ],
+   "snippet": "About Us Sophos is a cybersecurity leader defending 600,000 organizations globally with an AI-driven platform and expert-led services. Sophos meets organizations wherever they are in their security maturity and grows with them to defeat cyberattacks. Its solut",
+   "full": "About Us Sophos is a cybersecurity leader defending 600,000 organizations globally with an AI-driven platform and expert-led services. Sophos meets organizations wherever they are in their security maturity and grows with them to defeat cyberattacks. Its solutions combine machine learning, automation, and real-time threat intelligence with frontline human expertise from Sophos X-Ops to deliver advanced, 24/7 threat monitoring, detection, and response. Sophos offers industry-leading managed detection and response (MDR) alongside a comprehensive portfolio of cybersecurity technologies — including endpoint, network, email, and cloud security, extended detection and response (XDR), identity threat detection and response (ITDR), and next-gen SIEM. Together with expert advisory services, these capabilities help organizations proactively reduce risk and respond faster, with the visibility and scalability needed to stay ahead of evolving threats. Sophos goes to market with a global partner ecosystem, including Managed Service Providers (MSPs), Managed Security Service Providers (MSSPs), resellers and distributors, marketplace integrations, and cyber risk partners, giving organizations the flexibility to choose trusted relationships when securing their business. Sophos is headquartered in Oxford, U.K. More information is available at www.sophos.com.",
+   "salaryText": "",
+   "lpa": null,
+   "inIndia": true,
+   "inDubai": false,
+   "globalRemote": false,
+   "score": 155
+  },
   {
    "title": "Associate Security Operations Analyst - 11953",
    "company": "coupa",
@@ -30,21 +51,23 @@
    "score": 155
   },
   {
-   "title": "Application Security Engineer",
-   "company": "Bugcrowd",
-   "url": "https://boards.greenhouse.io/bugcrowd/jobs/8288959?gh_jid=8288959",
+   "title": "Cloud Security Engineer",
+   "company": "HighRadius",
+   "url": "https://www.highradius.com/about/careers-list/?gh_jid=7511618003",
    "source": "Greenhouse",
-   "board": "bugcrowd",
-   "region": "Remote - India",
-   "posted": "2026-10-22",
-   "tags": [],
-   "snippet": "div class= content-intro p Founded in 2012, Bugcrowd is the preemptive security platform that unifies exposure discovery and assessment, offensive testing, and intelligence shaped by AI and human insight to help organizations avoid, discover, and validate real",
-   "full": "div class= content-intro p Founded in 2012, Bugcrowd is the preemptive security platform that unifies exposure discovery and assessment, offensive testing, and intelligence shaped by AI and human insight to help organizations avoid, discover, and validate real-world risk. Bugcrowd helps security teams move faster by identifying the exposures that matter most so they can act first and stay ahead of attackers. By combining the power of humans and AI, teams can preempt attack paths and prevent breaches. Based in San Francisco and New Hampshire, Bugcrowd is supported by General Catalyst, Rally Ventures, Costanoa Ventures, and others. Visit span a href= http://www.bugcrowd.com target= _blank www.bugcrowd.com /a /span . /p /div p strong Job Summary /strong /p p At Bugcrowd, we handle application security assessment at an epic scale. As an Application Security Engineer (ASE) you will curate and manage the incoming security vulnerability submissions to some of the world’s biggest companies’ bug bounty programs. Here are just a few of the reasons why we are the best: /p ul li A tenure at Bugcrowd often means you have worked on not only one company’s security program but potentially on hundreds. /li li As an ASE at Bugcrowd you will be exposed to the Internet’s best security researchers and their cutting-edge security testing methodologies. Our ASEs quickly become technically fluent in obscure/complex XSS, SQLi, XXE, IDOR, SSTI, SSRF, and many other vulnerability types. There is no other organization that offers the learning opportunity that Bugcrowd does. /li li You will be exposed to things outside of your comfort zone. We routinely run security programs for cars, IoT devices, embedded systems, mobile applications, and more! /li li We have an awesome team and tons of perks. We’ve even been selected as one of “The 10 Coolest Security Startups Of 2016” by crn.com. /li /ul p strong Essential Duties amp; Responsibilities /strong /p p An ASE is responsible for the ongoing triage and validation services of Bugcrowd managed programs. Under the direction of the Director of Technical Operations, you will take incoming submission data and curate it for validity, accuracy, and severity as well as communicate directly with Bugcrowd’s clients or researchers when additional information is required. ASEs also handle Incident Response – escalating and communicating about the highest severity bugs to clients. ASEs need to have strong knowledge of OWASP Top Ten type vulnerabilities. They also usually require a strong skill set in one scripting/development language, often to assist with the design or development of tooling for improving the triage/validation process. nbsp; The ASE position is perfect for security professionals looking to take their skills to the next level. nbsp; /p p strong Education, Experience, Skills, amp; Abilities /strong /p ul li Bachelor’s degree or previous security consulting experience /li li Published and demonstrated passion for security asses",
+   "board": "highradius",
+   "region": "Hyderabad, Telangana, India",
+   "posted": "2026-11-06",
+   "tags": [
+    "Product Shared: Infra"
+   ],
+   "snippet": "h2 span style= font-size: 10pt; strong About Us /strong /span /h2 p span style= font-size: 10pt; We are seeking a skilled Cloud Security Engineer to support Identity and Access Management (IAM) operations, cloud key management, secrets management, and security",
+   "full": "h2 span style= font-size: 10pt; strong About Us /strong /span /h2 p span style= font-size: 10pt; We are seeking a skilled Cloud Security Engineer to support Identity and Access Management (IAM) operations, cloud key management, secrets management, and security automation across multi-cloud environments, including Azure, AWS, and GCP. This role will also be responsible for implementing cloud security controls, managing network security operations, and administering firewalls on Fortigate platforms. The Cloud Security Engineer will ensure secure identity governance, controlled access, network segmentation, and policy-driven guardrails that align with enterprise security standards. /span /p p strong Responsibilities /strong /p h3 span style= font-size: 10pt; Identity amp; Access Management (IAM) /span /h3 ul li style= font-size: 10pt; span style= font-size: 10pt; Execute IAM operations, including provisioning, access troubleshooting, RBAC/ABAC configurations, and access recertifications. /span /li li style= font-size: 10pt; span style= font-size: 10pt; Manage and implement AWS Service Control Policies (SCPs) to enforce governance and guardrails. /span /li li style= font-size: 10pt; span style= font-size: 10pt; Build and manage Azure Policies (definitions, initiatives, assignments) in accordance with compliance regulations. /span /li li style= font-size: 10pt; span style= font-size: 10pt; Support IAM architecture across Azure AD/Entra ID, AWS IAM, GCP IAM, and the enterprise Identity Center. /span /li li style= font-size: 10pt; span style= font-size: 10pt; Assist with IAM incident response and Level 2 escalations. /span /li /ul h3 span style= font-size: 10pt; Key Management amp; Secrets/Vault Operations /span /h3 ul li style= font-size: 10pt; span style= font-size: 10pt; Operate cloud KMS platforms, including Azure Key Vault and AWS KMS, focusing on key rotation, key policies, and certificates/PKI operations. /span /li li style= font-size: 10pt; span style= font-size: 10pt; Enforce cryptographic standards (RSA, AES, ECC), manage TLS certificate lifecycles, and ensure secure key access patterns. /span /li /ul h3 span style= font-size: 10pt; Cloud Security (Azure / AWS / GCP) /span /h3 ul li style= font-size: 10pt; span style= font-size: 10pt; Implement cloud security baselines, guardrails, and compliance controls in line with CIS, NIST, and ISO27001 standards. /span /li li style= font-size: 10pt; span style= font-size: 10pt; Support network and security posture configuration utilizing tools such as Wiz and Prisma. /span /li li style= font-size: 10pt; span style= font-size: 10pt; Configure and troubleshoot cloud-native firewalls, Network Security Groups (NSGs), routing, and segmentation. /span /li /ul h3 span style= font-size: 10pt; Network Security (Fortigate) /span /h3 ul li style= font-size: 10pt; span style= font-size: 10pt; Manage, monitor, and troubleshoot Fortigate firewalls, including security policies, NAT, VPN (IPsec/SSL), and routing. /span ",
    "salaryText": "",
    "lpa": null,
    "inIndia": true,
    "inDubai": false,
-   "globalRemote": true,
+   "globalRemote": false,
    "score": 130
   },
   {
@@ -87,7 +110,7 @@
    "score": 130
   },
   {
-   "title": "Threat Analyst",
+   "title": "Threat Analyst 3",
    "company": "sophos",
    "url": "https://jobs.lever.co/sophos/dbf278bc-c891-490a-9b58-a7daabb3525c",
    "source": "Lever",
@@ -142,26 +165,6 @@
    ],
    "snippet": "Mindtickle is hiring a Specialist, Information Security and Privacy to join our Information Security and Privacy team in Pune. This role sits at the intersection of compliance, technical security, third-party risk management, and customer trust. You will be re",
    "full": "Mindtickle is hiring a Specialist, Information Security and Privacy to join our Information Security and Privacy team in Pune. This role sits at the intersection of compliance, technical security, third-party risk management, and customer trust. You will be responsible for various functions related to the security, privacy, and protection of Mindtickle's growing cloud platform. Your role will involve handling enterprise customer and prospect security RFP requests, managing third-party risk, and owning the operational backbone of our compliance program across SOC 2 Type II, ISO (27001, 22301, 27701, 27017, 27018 & 42001), 21 CFR Part 11, HIPAA, and DR testing. You will coordinate with customers, vendors, and internal teams to ensure Mindtickle adheres to the highest data security standards. A proactive and pragmatic approach to data security and privacy is essential as you help build systems that make compliance self-evident. This role reports to the Senior Manager, Information Security and Privacy.",
-   "salaryText": "",
-   "lpa": null,
-   "inIndia": true,
-   "inDubai": false,
-   "globalRemote": false,
-   "score": 130
-  },
-  {
-   "title": "Cloud Security Engineer",
-   "company": "HighRadius",
-   "url": "https://www.highradius.com/about/careers-list/?gh_jid=7511618003",
-   "source": "Greenhouse",
-   "board": "highradius",
-   "region": "Hyderabad, Telangana, India",
-   "posted": "2026-06-27",
-   "tags": [
-    "Product Shared: Infra"
-   ],
-   "snippet": "h2 span style= font-size: 10pt; strong About Us /strong /span /h2 p span style= font-size: 10pt; We are seeking a skilled Cloud Security Engineer to support Identity and Access Management (IAM) operations, cloud key management, secrets management, and security",
-   "full": "h2 span style= font-size: 10pt; strong About Us /strong /span /h2 p span style= font-size: 10pt; We are seeking a skilled Cloud Security Engineer to support Identity and Access Management (IAM) operations, cloud key management, secrets management, and security automation across multi-cloud environments, including Azure, AWS, and GCP. This role will also be responsible for implementing cloud security controls, managing network security operations, and administering firewalls on Fortigate platforms. The Cloud Security Engineer will ensure secure identity governance, controlled access, network segmentation, and policy-driven guardrails that align with enterprise security standards. /span /p p strong Responsibilities /strong /p h3 span style= font-size: 10pt; Identity amp; Access Management (IAM) /span /h3 ul li style= font-size: 10pt; span style= font-size: 10pt; Execute IAM operations, including provisioning, access troubleshooting, RBAC/ABAC configurations, and access recertifications. /span /li li style= font-size: 10pt; span style= font-size: 10pt; Manage and implement AWS Service Control Policies (SCPs) to enforce governance and guardrails. /span /li li style= font-size: 10pt; span style= font-size: 10pt; Build and manage Azure Policies (definitions, initiatives, assignments) in accordance with compliance regulations. /span /li li style= font-size: 10pt; span style= font-size: 10pt; Support IAM architecture across Azure AD/Entra ID, AWS IAM, GCP IAM, and the enterprise Identity Center. /span /li li style= font-size: 10pt; span style= font-size: 10pt; Assist with IAM incident response and Level 2 escalations. /span /li /ul h3 span style= font-size: 10pt; Key Management amp; Secrets/Vault Operations /span /h3 ul li style= font-size: 10pt; span style= font-size: 10pt; Operate cloud KMS platforms, including Azure Key Vault and AWS KMS, focusing on key rotation, key policies, and certificates/PKI operations. /span /li li style= font-size: 10pt; span style= font-size: 10pt; Enforce cryptographic standards (RSA, AES, ECC), manage TLS certificate lifecycles, and ensure secure key access patterns. /span /li /ul h3 span style= font-size: 10pt; Cloud Security (Azure / AWS / GCP) /span /h3 ul li style= font-size: 10pt; span style= font-size: 10pt; Implement cloud security baselines, guardrails, and compliance controls in line with CIS, NIST, and ISO27001 standards. /span /li li style= font-size: 10pt; span style= font-size: 10pt; Support network and security posture configuration utilizing tools such as Wiz and Prisma. /span /li li style= font-size: 10pt; span style= font-size: 10pt; Configure and troubleshoot cloud-native firewalls, Network Security Groups (NSGs), routing, and segmentation. /span /li /ul h3 span style= font-size: 10pt; Network Security (Fortigate) /span /h3 ul li style= font-size: 10pt; span style= font-size: 10pt; Manage, monitor, and troubleshoot Fortigate firewalls, including security policies, NAT, VPN (IPsec/SSL), and routing. /span ",
    "salaryText": "",
    "lpa": null,
    "inIndia": true,
@@ -489,12 +492,12 @@
    "source": "Greenhouse",
    "board": "twilio",
    "region": "Remote - United Kingdom",
-   "posted": "2026-11-04",
+   "posted": "2026-11-06",
    "tags": [
     "NP2IT6582-1"
    ],
    "snippet": "div class= content-intro p strong Who we are nbsp; /strong /p p At Twilio, we’re shaping the future of communications, all from the comfort of our homes. We deliver innovative solutions to a class= c-link href= https://customers.twilio.com/ target= _blank data",
-   "full": "div class= content-intro p strong Who we are nbsp; /strong /p p At Twilio, we’re shaping the future of communications, all from the comfort of our homes. We deliver innovative solutions to a class= c-link href= https://customers.twilio.com/ target= _blank data-stringify-link= https://customers.twilio.com/ data-sk= tooltip_parent nbsp;hundreds of thousands of businesses nbsp; /a and empower millions of developers worldwide to craft personalized customer experiences. /p p Our dedication to a class= c-link href= https://www.twilio.com/en-us/blog/open-work target= _blank data-stringify-link= https://www.twilio.com/en-us/blog/open-work data-sk= tooltip_parent remote-first work /a , and strong culture of connection and global inclusion means that no matter your location, you’re part of a vibrant team with diverse experiences making a global impact each day. As we continue to revolutionize how the world interacts, we’re acquiring new skills and experiences that make work feel truly rewarding. Your career at Twilio is in your hands. br span style= color: rgb(255, 255, 255); . /span /p p strong Hiring and how we work /strong /p p We use Artificial Intelligence (AI) to help make our hiring process efficient. That said, every hiring decision is made by real Twilions! nbsp; /p p Also, while we are a remote-first company, you may be asked to report in person on an ad-hoc basis for team gatherings, functional off-sites or customer meetings. nbsp; br span style= color: rgb(255, 255, 255); . /span /p /div p strong See yourself at Twilio /strong /p p Join the team as Twilio’s next strong Security Engineer, Incident Response /strong /p p strong About the job /strong /p p The Security Incident Response Team (SIRT) is looking for a Security Engineer who is passionate about solving Twilio’s mission of security and reliability by working across the organization to lead the technical response to security events and incidents across Twilio’s global infrastructure, services and applications by effectively conducting triage, containment, remediation and driving post-incident betterments. nbsp; You will work within a team that partners with R amp;D Engineering and R amp;D Business teams to develop scalable processes and technical solutions. nbsp; /p p You will be a valued member of a team of deeply technical Security Engineers to focus on creating bespoke and standard Security response processes, enhancing our capabilities for threat mitigation and incident response, and then automating as much as you possibly can (and more)! You will help us to grow our global, scaled team and program. /p p strong Responsibilities /strong /p p In this role, you’ll: /p ul li Lead and support the response to all security events and incidents across Twilio’s complex global infrastructure, services and applications. /li li Be responsible for documentation of incidents and projects you work on and craft best practices as runbooks and standard operating procedures to share knowledge across team",
+   "full": "div class= content-intro p strong Who we are nbsp; /strong /p p At Twilio, we’re shaping the future of communications, all from the comfort of our homes. We deliver innovative solutions to a class= c-link href= https://customers.twilio.com/ target= _blank data-stringify-link= https://customers.twilio.com/ data-sk= tooltip_parent nbsp;hundreds of thousands of businesses nbsp; /a and empower millions of developers worldwide to craft personalized customer experiences. /p p Our dedication to a class= c-link href= https://www.twilio.com/en-us/blog/open-work target= _blank data-stringify-link= https://www.twilio.com/en-us/blog/open-work data-sk= tooltip_parent remote-first work /a , and strong culture of connection and global inclusion means that no matter your location, you’re part of a vibrant team with diverse experiences making a global impact each day. As we continue to revolutionize how the world interacts, we’re acquiring new skills and experiences that make work feel truly rewarding. Your career at Twilio is in your hands. br span style= color: rgb(255, 255, 255); . /span /p p strong Hiring and how we work /strong /p p We use Artificial Intelligence (AI) to help make our hiring process efficient. That said, every hiring decision is made by real Twilions! nbsp; /p p Also, while we are a remote-first company, you may be asked to report in person on an ad-hoc basis for team gatherings, functional off-sites or customer meetings. br span style= color: rgb(255, 255, 255); . /span /p /div p strong See yourself at Twilio /strong /p p Join the team as Twilio’s next strong Security Engineer, Incident Response /strong /p p strong About the job /strong /p p The Security Incident Response Team (SIRT) is looking for a Security Engineer who is passionate about solving Twilio’s mission of security and reliability by working across the organization to lead the technical response to security events and incidents across Twilio’s global infrastructure, services and applications by effectively conducting triage, containment, remediation and driving post-incident betterments. nbsp; You will work within a team that partners with R amp;D Engineering and R amp;D Business teams to develop scalable processes and technical solutions. nbsp; /p p You will be a valued member of a team of deeply technical Security Engineers to focus on creating bespoke and standard Security response processes, enhancing our capabilities for threat mitigation and incident response, and then automating as much as you possibly can (and more)! You will help us to grow our global, scaled team and program. /p p strong Responsibilities /strong /p p In this role, you’ll: /p ul li Lead and support the response to all security events and incidents across Twilio’s complex global infrastructure, services and applications. /li li Be responsible for documentation of incidents and projects you work on and craft best practices as runbooks and standard operating procedures to share knowledge across teams. /li",
    "salaryText": "",
    "lpa": null,
    "inIndia": false,
@@ -599,27 +602,6 @@
    "score": 90
   },
   {
-   "title": "Threat Analyst 1",
-   "company": "sophos",
-   "url": "https://jobs.lever.co/sophos/8c4a31c6-3ec4-4f15-acc4-2c1e39b70196",
-   "source": "Lever",
-   "board": "sophos",
-   "region": "Canada",
-   "posted": "2026-09-22",
-   "tags": [
-    "MDR and Security Operations",
-    "Permanent"
-   ],
-   "snippet": "About Us Sophos is a cybersecurity leader defending 600,000 organizations globally with an AI-driven platform and expert-led services. Sophos meets organizations wherever they are in their security maturity and grows with them to defeat cyberattacks. Its solut",
-   "full": "About Us Sophos is a cybersecurity leader defending 600,000 organizations globally with an AI-driven platform and expert-led services. Sophos meets organizations wherever they are in their security maturity and grows with them to defeat cyberattacks. Its solutions combine machine learning, automation, and real-time threat intelligence with frontline human expertise from Sophos X-Ops to deliver advanced, 24/7 threat monitoring, detection, and response. Sophos offers industry-leading managed detection and response (MDR) alongside a comprehensive portfolio of cybersecurity technologies — including endpoint, network, email, and cloud security, extended detection and response (XDR), identity threat detection and response (ITDR), and next-gen SIEM. Together with expert advisory services, these capabilities help organizations proactively reduce risk and respond faster, with the visibility and scalability needed to stay ahead of evolving threats. Sophos goes to market with a global partner ecosystem, including Managed Service Providers (MSPs), Managed Security Service Providers (MSSPs), resellers and distributors, marketplace integrations, and cyber risk partners, giving organizations the flexibility to choose trusted relationships when securing their business. Sophos is headquartered in Oxford, U.K. More information is available at www.sophos.com. Role Summary As a Threat Analyst 1 on our Managed Threat Response (MDR) team, you will provide best-in-class monitoring, detection, and response services to proactively defend customer environments before attacks prevail. You will work alongside and contribute to a team of cyber threat hunters, incident response analysts, engineers, and ethical hackers by using enterprise, log analysis and endpoint collection systems to facilitate investigations, identification, and neutralization of cyber threats. Shift:12-9pm ET",
-   "salaryText": "",
-   "lpa": null,
-   "inIndia": false,
-   "inDubai": false,
-   "globalRemote": false,
-   "score": 90
-  },
-  {
    "title": "Security Engineer - Threat Intel",
    "company": "Anthropic",
    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5195705008",
@@ -680,28 +662,6 @@
    "score": 85
   },
   {
-   "title": "Data Scientist, Cybersecurity ",
-   "company": "openai",
-   "url": "https://jobs.ashbyhq.com/openai/894ce80d-c587-4ef0-92d2-b16deb9a06b9",
-   "source": "Ashby",
-   "board": "openai",
-   "region": "US - Remote",
-   "posted": "2026-08-17",
-   "tags": [
-    "Data Science",
-    "Data Science",
-    "FullTime"
-   ],
-   "snippet": "ABOUT THE TEAM OpenAI’s Agentic Data Science team helps shape how AI agents are built, deployed, and improved across our products. We partner with product, engineering, research, and security teams to define meaningful measures of success, understand how our s",
-   "full": "ABOUT THE TEAM OpenAI’s Agentic Data Science team helps shape how AI agents are built, deployed, and improved across our products. We partner with product, engineering, research, and security teams to define meaningful measures of success, understand how our systems behave in the real world, and translate evidence into better decisions. As AI agents become more capable, they can write and execute code, access sensitive systems, and complete increasingly complex tasks with greater autonomy. These capabilities create powerful opportunities to improve cybersecurity, but they also introduce risks that traditional security tools and processes were not designed to address. Meeting this moment requires new ways to measure security, evaluate defenses, and distinguish genuine risk reduction from friction that slows users down. ABOUT THE ROLE We are looking for a senior data scientist to help define what effective cybersecurity looks like in the age of AI agents. You will work across OpenAI’s Security organization and cybersecurity product teams to measure emerging risks, improve internal security controls, and shape AI-powered security products. The problems are foundational: How do we know whether an agent’s security controls are effective? Which safeguards meaningfully reduce risk, and which create unnecessary friction? When an AI system identifies a potential vulnerability, how do we determine whether the finding is accurate, actionable, and ultimately resolved? How do we detect anomalous behavior or risky access when the systems themselves are changing rapidly? You will report into Data Science while partnering closely with Security, Cyber Product, Engineering, and Research. This is a high-ownership role for someone who can establish a new analytical discipline, operate across organizational boundaries, and turn ambiguous security challenges into measurable improvements. IN THIS ROLE YOU WILL - Define how we measure AI-agent security. Establish metrics and evaluation frameworks for security-control coverage, agent behavior, sensitive actions, access patterns, detection quality, and emerging risks. - Improve security controls without introducing unnecessary friction. Quantify the effectiveness and operational costs of safeguards, including false positives, blocked actions, escalations, approval delays, and recovery paths. Help teams make controls safer, more precise, and easier to use. - Build the data foundations for security decisions. Partner with engineering and data teams to improve instrumentation, connect fragmented telemetry, establish trusted datasets, and surface important coverage and data-quality gaps. - Strengthen detection and response. Identify meaningful signals of anomalous behavior, risky access, sensitive-data exposure, and other security-relevant activity. Evaluate whether interventions improve detection quality, response times, and real-world security outcomes. - Shape AI-powered cybersecurity products. Partner with product, engine",
-   "salaryText": "$263K – $515K • Offers Equity",
-   "lpa": 453.2,
-   "inIndia": false,
-   "inDubai": false,
-   "globalRemote": true,
-   "score": 85
-  },
-  {
    "title": "Security Engineer, Infrastructure Security",
    "company": "openai",
    "url": "https://jobs.ashbyhq.com/openai/f51f750f-a737-4441-8f96-30133a2a8049",
@@ -742,13 +702,51 @@
    "score": 80
   },
   {
+   "title": "[Cooperative Internship 2027] Security Analyst Intern, Security team",
+   "company": "Agoda",
+   "url": "https://job-boards.greenhouse.io/agoda/jobs/8305482",
+   "source": "Greenhouse",
+   "board": "agoda",
+   "region": "Bangkok",
+   "posted": "2026-11-06",
+   "tags": [
+    "Technology"
+   ],
+   "snippet": "div class= content-intro p /p p strong About Agoda /strong /p p At Agoda, we bridge the world through travel. Our story began in 2005, when two lifelong friends and entrepreneurs, driven by their passion for travel, launched Agoda to make it easier for everyon",
+   "full": "div class= content-intro p /p p strong About Agoda /strong /p p At Agoda, we bridge the world through travel. Our story began in 2005, when two lifelong friends and entrepreneurs, driven by their passion for travel, launched Agoda to make it easier for everyone to explore the world. nbsp; nbsp; /p p nbsp; /p p Today, we are part of Booking Holdings [NASDAQ: BKNG], with a diverse team of over 7,000 people from 90 countries, working together in offices around the globe. Every day, we connect people to destinations and experiences, with our great deals across our millions of hotels and holiday properties, flights, and experiences worldwide. /p p nbsp; /p p No two days are the same at Agoda. Data and technology are at the heart of our culture, fueling our curiosity and innovation. If you’re ready to begin your best journey and help build travel for the world, join us. /p /div h3 Cooperative internship period: January - May 2027 /h3 h3 Get to know our team: nbsp; /h3 p The Security Department oversees security, compliance, GRC, and security operations for all Agoda. We are vigilant in ensuring there is no breach or vulnerability threatening our company or endangering our employees in order to keep Agoda safe and protected. This would be a great challenge for those who want to work with the best technology in a dynamic and advanced environment. /p h3 The opportunity: nbsp; /h3 p Agoda’s IT-Security team is looking for fast learner and a highly motivated Security Analyst Intern looking to jumpstart their career in an exciting, highly rewarding IT-security domain. You will work for IT-security team at Agoda helping in keeping the company secure by keeping the bad guys out. You will get the opportunity to work, collaborate and learn from experienced IT-security defenders and help create a safer Agoda by protecting against internal and external attacks. You bring the basics and motivation, and we will take care of your training and education. If you like to learn new things every day, apply and work with us. /p h3 In this role, you ll get to: /h3 ul li Learn how to use security tools such as EDR, Email security, network security to track, analyse, contain, and flush out attackers from the network. /li li Assist with daily activities and functions of the security team to help update and maintain documents, policies, procedures /li li Learn to read and analyze log data to identify suspicious patterns and identify potential security threats /li li Provide first level security alert monitoring and contribute to triaging security investigations. /li li Analyze phishing emails and learn how attackers work and how to identify their traces in the company /li li Automate repetitive tasks that help speed up triaging security incidents /li li Assist in building security awareness training material and documenting security incidents /li li Participate in investigating large scale security incidents in a fast moving, agile environment /li /ul h3 What you ll need to suc",
+   "salaryText": "",
+   "lpa": null,
+   "inIndia": false,
+   "inDubai": false,
+   "globalRemote": false,
+   "score": 75
+  },
+  {
+   "title": "Verafin - Analyst - Information Security",
+   "company": "Nasdaq",
+   "url": "https://job-boards.greenhouse.io/nasdaq/jobs/4472576009",
+   "source": "Greenhouse",
+   "board": "nasdaq",
+   "region": "St. John's",
+   "posted": "2026-11-06",
+   "tags": [],
+   "snippet": "div p strong Role Responsibilities /strong nbsp; /p /div div ul li p Analyzing security vulnerabilities identified within Verafin s Cloud infrastructure. nbsp; /p /li li p Querying and correlating security scan data with technical inventory. nbsp; /p /li li p ",
+   "full": "div p strong Role Responsibilities /strong nbsp; /p /div div ul li p Analyzing security vulnerabilities identified within Verafin s Cloud infrastructure. nbsp; /p /li li p Querying and correlating security scan data with technical inventory. nbsp; /p /li li p Building reports and dashboards to present findings to code amp; infrastructure owners. nbsp; /p /li li p Coordinating vulnerability remediation with code amp; infrastructure owners. nbsp; /p /li li p Ensuring scanning coverage and assisting in remediation of gaps. nbsp; /p /li li p Assessing and improving security processes and tool usage. nbsp; nbsp; /p /li li p Working with security and operational teams to ensure security standards are met. nbsp; nbsp; /p /li /ul p nbsp; /p /div div p strong Essential Skills amp; Qualifications /strong nbsp; /p div div ul li p Diploma or Degree in a Security Management, Programming, Computer Science or equivalent. nbsp; /p /li li p 1+ years experience in security vulnerability analysis in a cloud environment would be an asset. nbsp; /p /li li p Experience working in a cloud-based environment (AWS preferred). nbsp; /p /li li p Experience working with the following technologies from a security perspective: Vulnerability Scanners/Management, Container Security Tools, Logging amp; Monitoring Tooling. nbsp; nbsp; /p /li li p Experience writing queries to analyze data. nbsp; /p /li li p Security certifications would be an asset (CISSP, OSCP, CEH, GSEC, Security+ etc.) nbsp; /p /li li p Strong technical analytical skills while providing accurate analysis of security-related problems in context of Verafin’s environment. nbsp; /p /li li p Committed to continuous learning, understanding new technologies and developing best practices. nbsp; /p /li li p Ability to communicate effectively with other teams. /p /li /ul /div /div div p ​ /p div p strong What does success look like in this role? /strong nbsp; /p /div div ul li p Contribute to the success the Verafin’s security program by offering insight and guidance on response and remediation of security vulnerabilities. nbsp; /p /li li p Review and improve Verafin’s security posture using new tools and processes. nbsp; /p /li li p Be an effective team player, communicator, and have an eagerness to learn and develop new skills. /p /li /ul div p nbsp; /p p strong What are the growth opportunities for this role? /strong nbsp; /p /div div ul li p Technical security career development nbsp; /p /li li p You could become the lead of a team, or the subject matter expert of your current team nbsp; /p /li /ul div p nbsp; /p p nbsp; /p p nbsp; /p /div /div /div /div /div div class= content-conclusion h4 Come as You Are /h4 p Nasdaq is an equal opportunity employer. We welcome applications from candidates of all backgrounds and identities. We are committed to fostering an inclusive workplace where diverse perspectives, experiences, and identities are valued and celebrated. We ensure that individuals with disabilities are provided",
+   "salaryText": "",
+   "lpa": null,
+   "inIndia": false,
+   "inDubai": false,
+   "globalRemote": false,
+   "score": 75
+  },
+  {
    "title": "Intermediate Software Engineer, Security Factory: Vulnerability Management ",
    "company": "GitLab",
    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8688078002",
    "source": "Greenhouse",
    "board": "gitlab",
    "region": "Remote, Israel; Remote, United Kingdom",
-   "posted": "2026-11-02",
+   "posted": "2026-11-05",
    "tags": [
     "n/a"
    ],
@@ -759,24 +757,6 @@
    "inIndia": false,
    "inDubai": false,
    "globalRemote": true,
-   "score": 75
-  },
-  {
-   "title": "Verafin - Analyst - Information Security",
-   "company": "Nasdaq",
-   "url": "https://job-boards.greenhouse.io/nasdaq/jobs/4472576009",
-   "source": "Greenhouse",
-   "board": "nasdaq",
-   "region": "St. John's",
-   "posted": "2026-11-02",
-   "tags": [],
-   "snippet": "div p strong Role Responsibilities /strong nbsp; /p /div div ul li p Analyzing security vulnerabilities identified within Verafin s Cloud infrastructure. nbsp; /p /li li p Querying and correlating security scan data with technical inventory. nbsp; /p /li li p ",
-   "full": "div p strong Role Responsibilities /strong nbsp; /p /div div ul li p Analyzing security vulnerabilities identified within Verafin s Cloud infrastructure. nbsp; /p /li li p Querying and correlating security scan data with technical inventory. nbsp; /p /li li p Building reports and dashboards to present findings to code amp; infrastructure owners. nbsp; /p /li li p Coordinating vulnerability remediation with code amp; infrastructure owners. nbsp; /p /li li p Ensuring scanning coverage and assisting in remediation of gaps. nbsp; /p /li li p Assessing and improving security processes and tool usage. nbsp; nbsp; /p /li li p Working with security and operational teams to ensure security standards are met. nbsp; nbsp; /p /li /ul p nbsp; /p /div div p strong Essential Skills amp; Qualifications /strong nbsp; /p div div ul li p Diploma or Degree in a Security Management, Programming, Computer Science or equivalent. nbsp; /p /li li p 1+ years experience in security vulnerability analysis in a cloud environment would be an asset. nbsp; /p /li li p Experience working in a cloud-based environment (AWS preferred). nbsp; /p /li li p Experience working with the following technologies from a security perspective: Vulnerability Scanners/Management, Container Security Tools, Logging amp; Monitoring Tooling. nbsp; nbsp; /p /li li p Experience writing queries to analyze data. nbsp; /p /li li p Security certifications would be an asset (CISSP, OSCP, CEH, GSEC, Security+ etc.) nbsp; /p /li li p Strong technical analytical skills while providing accurate analysis of security-related problems in context of Verafin’s environment. nbsp; /p /li li p Committed to continuous learning, understanding new technologies and developing best practices. nbsp; /p /li li p Ability to communicate effectively with other teams. /p /li /ul /div /div div p ​ /p div p strong What does success look like in this role? /strong nbsp; /p /div div ul li p Contribute to the success the Verafin’s security program by offering insight and guidance on response and remediation of security vulnerabilities. nbsp; /p /li li p Review and improve Verafin’s security posture using new tools and processes. nbsp; /p /li li p Be an effective team player, communicator, and have an eagerness to learn and develop new skills. /p /li /ul div p nbsp; /p p strong What are the growth opportunities for this role? /strong nbsp; /p /div div ul li p Technical security career development nbsp; /p /li li p You could become the lead of a team, or the subject matter expert of your current team nbsp; /p /li /ul div p nbsp; /p p nbsp; /p p nbsp; /p /div /div /div /div /div div class= content-conclusion h4 Come as You Are /h4 p Nasdaq is an equal opportunity employer. We welcome applications from candidates of all backgrounds and identities. We are committed to fostering an inclusive workplace where diverse perspectives, experiences, and identities are valued and celebrated. We ensure that individuals with disabilities are provided",
-   "salaryText": "",
-   "lpa": null,
-   "inIndia": false,
-   "inDubai": false,
-   "globalRemote": false,
    "score": 75
   },
   {
@@ -939,31 +919,6 @@
    "score": 65
   },
   {
-   "title": "SOC Analyst",
-   "company": "Peraton",
-   "url": "https://himalayas.app/companies/peraton/jobs/soc-analyst?utm_source=api",
-   "source": "Himalayas",
-   "board": "",
-   "region": "United States",
-   "posted": "2026-11-05",
-   "tags": [
-    "SOC-Analyst",
-    "Cybersecurity-Analyst",
-    "Security-Analyst",
-    "Information-Security-Analyst",
-    "Cyber-Analyst",
-    "SOC-Security-Analyst"
-   ],
-   "snippet": "Peraton OverviewPeraton is a next-generation national security company that drives missions of consequence spanning the globe and extending to the farthest reaches of the galaxy.",
-   "full": "Peraton OverviewPeraton is a next-generation national security company that drives missions of consequence spanning the globe and extending to the farthest reaches of the galaxy.",
-   "salaryText": "USD 80k–128k",
-   "lpa": 112.6,
-   "inIndia": false,
-   "inDubai": false,
-   "globalRemote": false,
-   "score": 65
-  },
-  {
    "title": "Counsel, AI Safety & Cyber Incident Response",
    "company": "openai",
    "url": "https://jobs.ashbyhq.com/openai/48bd347f-c799-48ac-aa5b-1b0dfbff90f7",
@@ -1064,14 +1019,14 @@
   {
    "title": "Threat Intelligence Engineer",
    "company": "Take-Two Interactive Software, Inc.",
-   "url": "https://job-boards.greenhouse.io/taketwo/jobs/8143779",
+   "url": "https://job-boards.greenhouse.io/taketwo/jobs/8079989",
    "source": "Greenhouse",
    "board": "taketwo",
-   "region": "Toronto, Ontario, Canada",
+   "region": "Austin, Texas, United States",
    "posted": "2026-10-22",
    "tags": [],
-   "snippet": "h2 strong WHO WE ARE nbsp; /strong /h2 p Take-Two Interactive Software, Inc. is a leading developer, publisher, and marketer of interactive entertainment for consumers around the globe. The Company develops and publishes products principally through Rockstar G",
-   "full": "h2 strong WHO WE ARE nbsp; /strong /h2 p Take-Two Interactive Software, Inc. is a leading developer, publisher, and marketer of interactive entertainment for consumers around the globe. The Company develops and publishes products principally through Rockstar Games, 2K, Private Division, and Zynga. Our products are currently designed for console gaming systems, PC, and Mobile, including smartphones and tablets, and are delivered through physical retail, digital download, online platforms, and cloud streaming services. The Company’s common stock is publicly traded on NASDAQ under the symbol TTWO. /p p While our offices (physical and virtual) are casual and inviting, we are deeply committed to our core tenets of creativity, innovation and efficiency, and individual and team development opportunities. Our industry and business are continually evolving and fast-paced, providing numerous opportunities to learn and hone your skills. We work hard, but we also like to have fun and believe that we provide a great place to come to work each day to pursue your passions. /p h2 strong THE CHALLENGE /strong /h2 p We are looking for a Threat Intelligence Engineer. In this role, you will be on the front lines of our defense, helping to operationalize intelligence and build engineering solutions to counter emerging security threats. You ll work closely with various security and technology teams to integrate threat data into our security infrastructure, strengthening our defenses and protecting our organization. Your hands-on expertise will directly contribute to safeguarding Take-Two and its labels systems, networks, and data. You will work with Take-Two s Information Security teams, reporting to the Director of Threat Intelligence. /p h2 strong WHAT YOU’LL TAKE ON /strong /h2 ul li strong Threat Intelligence Operations: /strong Support the day-to-day operations of the cyber threat intelligence (CTI) program by managing threat feeds, parsing indicators of compromise (IOCs), and ensuring data quality across our platforms. /li li strong Threat Analysis amp; Engineering: /strong Analyze emerging threats and adversary tactics, techniques, and procedures (TTPs) to help engineer robust detection and prevention mechanisms. /li li strong Enhance Our Security Posture: /strong Collaborate with our Global Security Operations Center (GSOC), Detection Engineering, and Incident Response teams to ingest and operationalize threat intelligence into our SIEM, EDR, and firewalls. /li li strong Automation amp; Integration: /strong Build and maintain API integrations, scripts, and playbooks to automate indicator ingestion, correlation, and dissemination across security platforms. /li li strong Security Infrastructure Support: /strong Assist in the deployment, configuration, maintenance, and tuning of our Threat Intelligence Platforms (TIP) and related security engineering tools. /li li strong Produce Actionable Reporting: /strong Assist in generating timely intelligence alerts, briefs",
+   "snippet": "p /p h2 strong WHO WE ARE nbsp; /strong /h2 p Headquartered in New York City, Take-Two Interactive Software, Inc. is a leading developer, publisher, and marketer of interactive entertainment for consumers around the globe. We develop and publish products princ",
+   "full": "p /p h2 strong WHO WE ARE nbsp; /strong /h2 p Headquartered in New York City, Take-Two Interactive Software, Inc. is a leading developer, publisher, and marketer of interactive entertainment for consumers around the globe. We develop and publish products principally through Rockstar Games, 2K, and Zynga. Our products are designed for console gaming systems, PC, and mobile, including smartphones and tablets. We deliver our products through physical retail, digital download, online platforms, and cloud streaming services. The Company’s common stock is publicly traded on NASDAQ under the symbol TTWO. For more corporate and product information please visit our website at a target= ~_blank~ u http://www.take2games.com /u /a . /p p While our offices (physical and virtual) are casual and inviting, we are deeply committed to our core tenets of creativity, innovation and efficiency, and individual and team development opportunities. Our industry and business are continually evolving and fast-paced, providing numerous opportunities to learn and hone your skills. We work hard, but we also like to have fun and believe that we provide a great place to come to work each day to pursue your passions. /p p strong /strong /p h2 strong THE CHALLENGE /strong /h2 p We are looking for a Threat Intelligence Engineer. In this role, you will be on the front lines of our defense, helping to operationalize intelligence and build engineering solutions to counter emerging security threats. You ll work closely with various security and technology teams to integrate threat data into our security infrastructure, strengthening our defenses and protecting our organization. Your hands-on expertise will directly contribute to safeguarding Take-Two and its labels systems, networks, and data. You will work with Take-Two s Information Security teams, reporting to the Director of Threat Intelligence. /p p /p h2 strong WHAT YOU’LL TAKE ON /strong /h2 ul li strong Threat Intelligence Operations: /strong Support the day-to-day operations of the cyber threat intelligence (CTI) program by managing threat feeds, parsing indicators of compromise (IOCs), and ensuring data quality across our platforms. /li li strong Threat Analysis amp; Engineering: /strong Analyze emerging threats and adversary tactics, techniques, and procedures (TTPs) to help engineer robust detection and prevention mechanisms. /li li strong Enhance Our Security Posture: /strong Collaborate with our Global Security Operations Center (GSOC), Detection Engineering, and Incident Response teams to ingest and operationalize threat intelligence into our SIEM, EDR, and firewalls. /li li strong Automation amp; Integration: /strong Build and maintain API integrations, scripts, and playbooks to automate indicator ingestion, correlation, and dissemination across security platforms. /li li strong Security Infrastructure Support: /strong Assist in the deployment, configuration, maintenance, and tuning of our Threat Intelligence Platforms",
    "salaryText": "",
    "lpa": null,
    "inIndia": false,
@@ -1287,6 +1242,49 @@
    "score": 65
   },
   {
+   "title": "Threat Analyst 2",
+   "company": "sophos",
+   "url": "https://jobs.lever.co/sophos/1458b534-9d35-435a-9ccb-16dcffd53d7a",
+   "source": "Lever",
+   "board": "sophos",
+   "region": "Canada",
+   "posted": "2026-07-21",
+   "tags": [
+    "MDR and Security Operations",
+    "Permanent"
+   ],
+   "snippet": "About Us Sophos is a cybersecurity leader defending 600,000 organizations globally with an AI-driven platform and expert-led services. Sophos meets organizations wherever they are in their security maturity and grows with them to defeat cyberattacks. Its solut",
+   "full": "About Us Sophos is a cybersecurity leader defending 600,000 organizations globally with an AI-driven platform and expert-led services. Sophos meets organizations wherever they are in their security maturity and grows with them to defeat cyberattacks. Its solutions combine machine learning, automation, and real-time threat intelligence with frontline human expertise from Sophos X-Ops to deliver advanced, 24/7 threat monitoring, detection, and response. Sophos offers industry-leading managed detection and response (MDR) alongside a comprehensive portfolio of cybersecurity technologies — including endpoint, network, email, and cloud security, extended detection and response (XDR), identity threat detection and response (ITDR), and next-gen SIEM. Together with expert advisory services, these capabilities help organizations proactively reduce risk and respond faster, with the visibility and scalability needed to stay ahead of evolving threats. Sophos goes to market with a global partner ecosystem, including Managed Service Providers (MSPs), Managed Security Service Providers (MSSPs), resellers and distributors, marketplace integrations, and cyber risk partners, giving organizations the flexibility to choose trusted relationships when securing their business. Sophos is headquartered in Oxford, U.K. More information is available at www.sophos.com. Role Summary As a Threat Analyst on our Managed Detection and Response (MDR) team, you will provide best-in-class monitoring, detection, and response services to proactively defend customer environments before attacks prevail. You will work alongside and contribute to a team of cyber threat hunters, incident response analysts, engineers, and ethical hackers by using enterprise, log analysis and endpoint collection systems to facilitate investigations, identification, and neutralization of cyber threats. Shift: 8AM - 5PM EST",
+   "salaryText": "",
+   "lpa": null,
+   "inIndia": false,
+   "inDubai": false,
+   "globalRemote": false,
+   "score": 65
+  },
+  {
+   "title": "Security Engineer, Application Security",
+   "company": "openai",
+   "url": "https://jobs.ashbyhq.com/openai/0322d6d8-6588-4209-a304-83e768063a25",
+   "source": "Ashby",
+   "board": "openai",
+   "region": "San Francisco",
+   "posted": "2024-10-02",
+   "tags": [
+    "Security",
+    "Security",
+    "FullTime"
+   ],
+   "snippet": "About the Team Security is at the foundation of OpenAI’s mission to ensure that artificial general intelligence benefits all of humanity. The Security team protects OpenAI’s technology, people, and products. We are technical in what we build but are operationa",
+   "full": "About the Team Security is at the foundation of OpenAI’s mission to ensure that artificial general intelligence benefits all of humanity. The Security team protects OpenAI’s technology, people, and products. We are technical in what we build but are operational in how we do our work, and are committed to supporting all products and research at OpenAI. Our Security team tenets include: prioritizing for impact, enabling researchers, preparing for future transformative technologies, and engaging a robust security culture. About the Role As a Security Engineer, Application Security you will be responsible for identifying and mitigating security vulnerabilities within software applications through building security tools, code reviews, penetration testing, and security assessments. We’re looking for people who will work closely with development teams to ensure secure coding practices are integrated throughout the software development lifecycle, preventing security risks before they emerge. You will also provide security guidance to developers and other stakeholders, fostering a culture of security awareness within the organization. The role is preferred to be based in San Francisco, Seattle or New York City but may consider remote work. We use a hybrid work model of 3 days in the office per week and offer relocation assistance to new employees. In this role, you will: - Perform Security Assessments: Conduct regular security assessments, code reviews, and penetration testing to identify vulnerabilities in applications and software. - Develop and Implement Security Tools: Design, develop, and implement security tools, frameworks, and methodologies to protect applications against security threats. - Collaborate with Development Teams: Work closely with development teams to ensure security best practices are integrated throughout the software development lifecycle (SDLC), including secure coding guidelines. - Threat Modeling and Risk Assessment: Conduct threat modeling and risk assessments to proactively identify potential risks and develop mitigation strategies. - Vulnerability Management: Track, analyze, and manage vulnerabilities in applications, providing guidance and support for remediation efforts. - Incident Response Support: Assist in investigating, analyzing, and responding to security incidents related to applications, ensuring timely resolution and documentation of incidents. - Stay Current on Security Trends: Continuously stay updated on the latest security threats, vulnerabilities, and technologies to enhance security measures in applications. You might thrive in this role if you: - Extensive experience in information security, cybersecurity, or a related field, with a significant portion of that experience in leadership or management roles. - Deep understanding of security technologies, tools, and best practices, including experience with secure coding practices, threat modeling, risk assessments, and incident response. - Experience in appli",
+   "salaryText": "$266K – $445K • Offers Equity",
+   "lpa": 391.6,
+   "inIndia": false,
+   "inDubai": false,
+   "globalRemote": false,
+   "score": 65
+  },
+  {
    "title": "Information Systems Security Engineer ",
    "company": "snowflake",
    "url": "https://jobs.ashbyhq.com/snowflake/808d3b05-081d-4eb6-a5dc-74448c3429e9",
@@ -1307,6 +1305,30 @@
    "inDubai": false,
    "globalRemote": false,
    "score": 60
+  },
+  {
+   "title": "SOC Analyst (20:00–05:00 UTC)",
+   "company": "Tether Operations Limited",
+   "url": "https://himalayas.app/companies/tether-operations-limited/jobs/soc-analyst-20-00-05-00-utc-3684157577?utm_source=api",
+   "source": "Himalayas",
+   "board": "",
+   "region": "Australia",
+   "posted": "2026-11-06",
+   "tags": [
+    "SOC-Analyst",
+    "Security-Operations-Analyst",
+    "Cybersecurity-Analyst",
+    "Threat-Detection-Analyst",
+    "Incident-Response-Analyst"
+   ],
+   "snippet": "Join Tether and Shape the Future of Digital Finance At Tether, we’re not just building products, we’re pioneering a global financial revolution.",
+   "full": "Join Tether and Shape the Future of Digital Finance At Tether, we’re not just building products, we’re pioneering a global financial revolution.",
+   "salaryText": "",
+   "lpa": null,
+   "inIndia": false,
+   "inDubai": false,
+   "globalRemote": false,
+   "score": 55
   },
   {
    "title": "Security Engineer, Privy",
@@ -1469,18 +1491,18 @@
    "score": 55
   },
   {
-   "title": "Network Security Support Engineer",
-   "company": "Cloudflare",
-   "url": "https://boards.greenhouse.io/cloudflare/jobs/8028403?gh_jid=8028403",
+   "title": "Security Engineer, Product Security",
+   "company": "Scale AI",
+   "url": "https://job-boards.greenhouse.io/scaleai/jobs/4643029005",
    "source": "Greenhouse",
-   "board": "cloudflare",
-   "region": "Hybrid",
-   "posted": "2026-11-04",
+   "board": "scaleai",
+   "region": "New York, NY; San Francisco, CA; Seattle, WA; Washington, DC",
+   "posted": "2026-11-05",
    "tags": [
-    "5700 - Customer Support"
+    "Engineering"
    ],
-   "snippet": "div class= content-intro h3 About Us /h3 p At Cloudflare, we are on a mission to help build a better Internet. Today the company runs one of the world’s largest networks that powers millions of websites and other Internet properties for customers ranging from ",
-   "full": "div class= content-intro h3 About Us /h3 p At Cloudflare, we are on a mission to help build a better Internet. Today the company runs one of the world’s largest networks that powers millions of websites and other Internet properties for customers ranging from individual bloggers to SMBs to Fortune 500 companies. Cloudflare protects and accelerates any Internet application online without adding hardware, installing software, or changing a line of code. Internet properties powered by Cloudflare all have web traffic routed through its intelligent global network, which gets smarter with every request. As a result, they see significant improvement in performance and a decrease in spam and other attacks. Cloudflare was named to Entrepreneur Magazine’s Top Company Cultures list and ranked among the World’s Most Innovative Companies by Fast Company. /p p At Cloudflare, we’re not looking for people who wait for a polished roadmap; we’re looking for the builders who see the cracks in the Internet that everyone else has simply learned to live with. We value candidates who have the instinct to spot a normalized problem and the AI-native curiosity to create a solution using the latest tools. Our culture is built on iteration, leveraging AI to ship faster today to make it better tomorrow, while ensuring that every improvement, no matter how small, is shared across the team to lift everyone up. If you’re the type of person who values curiosity over bureaucracy, and that AI is a partner in solving tough problems to keep the Internet moving forward, you’ll fit right in. /p /div p strong Available Locations: /strong Austin, TX /p h4 strong About the Department /strong /h4 p The Customer Support Team solves complicated problems and answers technical inquiries via phone, email, chat, and social media. Whether it is a Wordpress blogger using our services for free or a global Enterprise business with petabytes of web traffic, our team is always eager to assist. We are the eyes and ears of Cloudflare, acting as the real-time voice of the customer to help communicate their needs and real-world use cases back to the rest of the company - to help build a better service and future product development. /p h4 strong About the Role /strong /h4 p Do you love solving complex technical problems and interacting with people? Are you passionate about helping customers and are a standout colleague? Cloudflare is seeking an experienced Network Security Engineer to join our team and support our largest and most technically sophisticated customers in resolving technical problems, threats or attacks on their infrastructure at OSI Layers 3, 4, and 7. This will span the range of Cloudflare products from Magic Transit Infrastructure Protection, Argo Smart Routing, DDoS mitigation and Network Firewall, to using the Web Application firewall (WAF), Spectrum and Rate Limiting to help customers. /p h4 strong Responsibilities /strong /h4 ul li Communicate with customers via chat, email, and phon",
+   "snippet": "p We are seeking a highly technical Security Engineer to join our Product Security team. This role is integral to ensuring the security and integrity of our products and services. You will conduct in-depth code reviews, implement security best practices, and i",
+   "full": "p We are seeking a highly technical Security Engineer to join our Product Security team. This role is integral to ensuring the security and integrity of our products and services. You will conduct in-depth code reviews, implement security best practices, and influence the overall security strategy. Your expertise in TypeScript, Python, AWS, CI/CD, SAST, DAST, and terraform orchestration will be crucial in identifying and mitigating potential security vulnerabilities. You will also structure complex problems, diagnose root causes independently, and clearly explain the mechanics and significance of security vulnerabilities, including their exploitability and potential impact. /p p nbsp; /p p You will: /p ul li Leverage broad product security expertise to build and maintain software tooling that secures every layer of the modern AI/ML software ecosystem. /li li Conduct in-depth code reviews to identify and remediate security vulnerabilities. /li li Evaluate and enhance the security of our product offerings, through RFC and service review. /li li Implement and maintain CI/CD pipelines with a strong focus on security. /li li Perform Static Application Security Testing (SAST) and Dynamic Application Security Testing (DAST) to identify vulnerabilities in production code. /li li Utilize terraform orchestration to ensure secure and efficient infrastructure management. /li li Guide engineering teams to build robust long-term solutions that consider security and privacy. nbsp; /li li Clearly explain the mechanics and significance of security vulnerabilities, including their exploitability and potential impact. /li li Influence the security strategy and direction of the team, advocating for best practices and continuous improvement. /li /ul p nbsp; /p p Ideally, you’d have: /p ul li Demonstrated ability to drive multi-month security initiatives independently, from problem definition through execution, without requiring significant direction. /li li Proven experience as a Security Engineer with a focus on product security. /li li Proficiency in NodeJS, TypeScript, Python, and/or Kubernetes. /li li Strong understanding of modern Javascript application design. /li li Production experience operating and securing AWS infrastructure at scale. /li li Hands-on experience with SAST and DAST tools and methodologies. /li li Familiarity with terraform orchestration for infrastructure management. /li li You can structure complex problems and diagnose root causes independently, providing actionable insights without requiring manager input. /li li Excellent communication skills, with the ability to clearly present technical concepts and their implications to both technical and non-technical stakeholders. /li li Demonstrated ability to influence security strategies and drive improvements within a team. /li li Relevant security certifications (e.g., CISSP, CEH, OSCP) are a plus. /li /ul div class= content-pay-transparency div class= pay-input div class= description p em Comp",
    "salaryText": "",
    "lpa": null,
    "inIndia": false,
@@ -1525,26 +1547,6 @@
    ],
    "snippet": "div class= content-intro p Ready to do the most impactful work of your career? At nbsp; a href= https://www.coinbase.com/?utm_campaign=mt_o_m_w_m_m__coi_0_jd-onchain amp;utm_source=coinbase Coinbase /a , we are uncompromising on our mission to increase economi",
    "full": "div class= content-intro p Ready to do the most impactful work of your career? At nbsp; a href= https://www.coinbase.com/?utm_campaign=mt_o_m_w_m_m__coi_0_jd-onchain amp;utm_source=coinbase Coinbase /a , we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we like it that way. This isn t a place for complacency, it’s a place to be pushed past your perceived limits. If you re ready to build the future of finance alongside people who refuse to settle for good enough, you belong here. Coinbase is a remote-first, but not remote-only company. Expect to get together quarterly for intense in-person working sessions called “surges.” nbsp; a href= https://www.coinbase.com/careers learn more about working at Coinbase /a . /p /div p As a Threat Intelligence Platform Engineer on the Threat Intelligence team within Security Operations, you ll own Vertex Synapse in production - the platform that turns adversary intelligence into detections, blocks, and decisions across Coinbase. The TI team protects billions of dollars in digital assets by collecting, modeling, and operationalizing intelligence on the most sophisticated cyber threats targeting the crypto ecosystem. You ll keep the platform healthy, ingest and model new intelligence sources, and ship the automations that weave threat intelligence into the fabric of security operations at Coinbase. /p p strong What you ll do: /strong /p ul li Own the production Vertex Synapse instance, including platform health, backend operations, cron monitoring, and data hygiene /li li Build and maintain intelligence feed integrations, enrichments, and tagging so new sources land modeled and usable by stakeholders /li li Ship intelligence into downstream controls and data pipelines, including detections, blocklists, data warehouses, and agent workflows /li li Partner across Security and Product to translate intelligence requirements into production capabilities /li li Rapidly prototype and implement features, fixes, and tooling as required by the team s Intelligence Analysts and stakeholders /li /ul p strong Required Skills and Experience: /strong /p ul li 2+ years building and operating threat intelligence platforms or security data pipelines in production environments /li li Software development experience in Python, Go, and/or Storm, including deploying production-quality code with CI/CD ownership after ship /li li Experience ingesting, modeling, tagging, and lifecycle-managing indicators and related intelligence data at scale /li li Track record of troubleshooting and restoring production systems and data quality issues, then driving root-cause fixes to prevent recurrence /li li Experience translating cross-functional stakeholder needs into technical solutions within a security operations context /li li Utilizes generative AI responsibly, maintaining human oversight to deliver business-ready outputs and drive measurable improvements in workflow efficiency, cos",
-   "salaryText": "",
-   "lpa": null,
-   "inIndia": false,
-   "inDubai": false,
-   "globalRemote": false,
-   "score": 50
-  },
-  {
-   "title": "Security Engineer, Product Security",
-   "company": "Scale AI",
-   "url": "https://job-boards.greenhouse.io/scaleai/jobs/4643029005",
-   "source": "Greenhouse",
-   "board": "scaleai",
-   "region": "New York, NY; San Francisco, CA; Seattle, WA; Washington, DC",
-   "posted": "2026-10-22",
-   "tags": [
-    "Engineering"
-   ],
-   "snippet": "p We are seeking a highly technical Security Engineer to join our Product Security team. This role is integral to ensuring the security and integrity of our products and services. You will conduct in-depth code reviews, implement security best practices, and i",
-   "full": "p We are seeking a highly technical Security Engineer to join our Product Security team. This role is integral to ensuring the security and integrity of our products and services. You will conduct in-depth code reviews, implement security best practices, and influence the overall security strategy. Your expertise in TypeScript, Python, AWS, CI/CD, SAST, DAST, and terraform orchestration will be crucial in identifying and mitigating potential security vulnerabilities. You will also structure complex problems, diagnose root causes independently, and clearly explain the mechanics and significance of security vulnerabilities, including their exploitability and potential impact. /p p nbsp; /p p You will: /p ul li Leverage broad product security expertise to build and maintain software tooling that secures every layer of the modern AI/ML software ecosystem. /li li Conduct in-depth code reviews to identify and remediate security vulnerabilities. /li li Evaluate and enhance the security of our product offerings, through RFC and service review. /li li Implement and maintain CI/CD pipelines with a strong focus on security. /li li Perform Static Application Security Testing (SAST) and Dynamic Application Security Testing (DAST) to identify vulnerabilities in production code. /li li Utilize terraform orchestration to ensure secure and efficient infrastructure management. /li li Guide engineering teams to build robust long-term solutions that consider security and privacy. nbsp; /li li Clearly explain the mechanics and significance of security vulnerabilities, including their exploitability and potential impact. /li li Influence the security strategy and direction of the team, advocating for best practices and continuous improvement. /li /ul p nbsp; /p p Ideally, you’d have: /p ul li Demonstrated ability to drive multi-month security initiatives independently, from problem definition through execution, without requiring significant direction. /li li Proven experience as a Security Engineer with a focus on product security. /li li Proficiency in NodeJS, TypeScript, Python, and/or Kubernetes. /li li Strong understanding of modern Javascript application design. /li li Production experience operating and securing AWS infrastructure at scale. /li li Hands-on experience with SAST and DAST tools and methodologies. /li li Familiarity with terraform orchestration for infrastructure management. /li li You can structure complex problems and diagnose root causes independently, providing actionable insights without requiring manager input. /li li Excellent communication skills, with the ability to clearly present technical concepts and their implications to both technical and non-technical stakeholders. /li li Demonstrated ability to influence security strategies and drive improvements within a team. /li li Relevant security certifications (e.g., CISSP, CEH, OSCP) are a plus. /li /ul div class= content-pay-transparency div class= pay-input div class= description p em Comp",
    "salaryText": "",
    "lpa": null,
    "inIndia": false,
