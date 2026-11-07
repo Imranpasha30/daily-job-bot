@@ -1,34 +1,13 @@
 {
- "generated": "2026-11-06T11:16:47.126Z",
+ "generated": "2026-11-07T10:32:36.675Z",
  "usdInr": 88,
  "counts": {
-  "pool": 3204,
-  "passed": 95,
+  "pool": 3188,
+  "passed": 90,
   "dubai": 0,
-  "india": 21
+  "india": 19
  },
  "jobs": [
-  {
-   "title": "Threat Analyst 1",
-   "company": "sophos",
-   "url": "https://jobs.lever.co/sophos/71fc9a80-187a-421d-9299-6a181689f70c",
-   "source": "Lever",
-   "board": "sophos",
-   "region": "India",
-   "posted": "2026-11-05",
-   "tags": [
-    "MDR and Security Operations",
-    "Permanent"
-   ],
-   "snippet": "About Us Sophos is a cybersecurity leader defending 600,000 organizations globally with an AI-driven platform and expert-led services. Sophos meets organizations wherever they are in their security maturity and grows with them to defeat cyberattacks. Its solut",
-   "full": "About Us Sophos is a cybersecurity leader defending 600,000 organizations globally with an AI-driven platform and expert-led services. Sophos meets organizations wherever they are in their security maturity and grows with them to defeat cyberattacks. Its solutions combine machine learning, automation, and real-time threat intelligence with frontline human expertise from Sophos X-Ops to deliver advanced, 24/7 threat monitoring, detection, and response. Sophos offers industry-leading managed detection and response (MDR) alongside a comprehensive portfolio of cybersecurity technologies — including endpoint, network, email, and cloud security, extended detection and response (XDR), identity threat detection and response (ITDR), and next-gen SIEM. Together with expert advisory services, these capabilities help organizations proactively reduce risk and respond faster, with the visibility and scalability needed to stay ahead of evolving threats. Sophos goes to market with a global partner ecosystem, including Managed Service Providers (MSPs), Managed Security Service Providers (MSSPs), resellers and distributors, marketplace integrations, and cyber risk partners, giving organizations the flexibility to choose trusted relationships when securing their business. Sophos is headquartered in Oxford, U.K. More information is available at www.sophos.com.",
-   "salaryText": "",
-   "lpa": null,
-   "inIndia": true,
-   "inDubai": false,
-   "globalRemote": false,
-   "score": 155
-  },
   {
    "title": "Associate Security Operations Analyst - 11953",
    "company": "coupa",
@@ -102,27 +81,6 @@
    ],
    "snippet": "Coupa makes margins multiply through its community-generated AI and industry-leading total spend management platform for businesses large and small. Coupa AI is informed by trillions of dollars of direct and indirect spend data across a global network of 10M+ ",
    "full": "Coupa makes margins multiply through its community-generated AI and industry-leading total spend management platform for businesses large and small. Coupa AI is informed by trillions of dollars of direct and indirect spend data across a global network of 10M+ buyers and suppliers. We empower you with the ability to predict, prescribe, and automate smarter, more profitable business decisions to improve operating margins. Why join Coupa? Pioneering Technology: At Coupa, we're at the forefront of innovation, leveraging the latest technology to empower our customers with greater efficiency and visibility in their spend. Collaborative Culture: We value collaboration and teamwork, and our culture is driven by transparency, openness, and a shared commitment to excellence. Global Impact: Join a company where your work has a global, measurable impact on our clients, the business, and each other. Learn more on Life at Coupa blog and hear from our employees about their experiences working at Coupa. The Impact of an Associate Security Engineer at Coupa: Coupa's Security Engineers keep our enterprise, product, platform, and customer data safe. As an Associate Security Engineer, you'll build your foundation in cloud, application, and infrastructure security by contributing to real, well-scoped engineering work alongside experienced teammates. You'll partner with Engineering, IT, and Compliance, learn how we build durable, automated security tooling instead of one-off fixes, and grow your root-cause analysis skills with mentorship and regular feedback. This is a role for someone early in their security career who wants hands-on ownership of growing scope — with the support to get there.",
-   "salaryText": "",
-   "lpa": null,
-   "inIndia": true,
-   "inDubai": false,
-   "globalRemote": false,
-   "score": 130
-  },
-  {
-   "title": "Threat Analyst 3",
-   "company": "sophos",
-   "url": "https://jobs.lever.co/sophos/dbf278bc-c891-490a-9b58-a7daabb3525c",
-   "source": "Lever",
-   "board": "sophos",
-   "region": "India",
-   "posted": "2026-10-09",
-   "tags": [
-    "MDR and Security Operations",
-    "Permanent"
-   ],
-   "snippet": "About Us Sophos is a cybersecurity leader defending 600,000 organizations globally with an AI-driven platform and expert-led services. Sophos meets organizations wherever they are in their security maturity and grows with them to defeat cyberattacks. Its solut",
-   "full": "About Us Sophos is a cybersecurity leader defending 600,000 organizations globally with an AI-driven platform and expert-led services. Sophos meets organizations wherever they are in their security maturity and grows with them to defeat cyberattacks. Its solutions combine machine learning, automation, and real-time threat intelligence with frontline human expertise from Sophos X-Ops to deliver advanced, 24/7 threat monitoring, detection, and response. Sophos offers industry-leading managed detection and response (MDR) alongside a comprehensive portfolio of cybersecurity technologies — including endpoint, network, email, and cloud security, extended detection and response (XDR), identity threat detection and response (ITDR), and next-gen SIEM. Together with expert advisory services, these capabilities help organizations proactively reduce risk and respond faster, with the visibility and scalability needed to stay ahead of evolving threats. Sophos goes to market with a global partner ecosystem, including Managed Service Providers (MSPs), Managed Security Service Providers (MSSPs), resellers and distributors, marketplace integrations, and cyber risk partners, giving organizations the flexibility to choose trusted relationships when securing their business. Sophos is headquartered in Oxford, U.K. More information is available at www.sophos.com. Role Summary As an MDR Threat Analyst, you will work with enterprise systems, log analysis systems, and endpoint collection systems to facilitate the investigation, identification and neutralization of cyber threats. You will work alongside and contribute to a team of analysts with the objective of providing best in class monitoring, detection and response services.",
    "salaryText": "",
    "lpa": null,
    "inIndia": true,
@@ -486,6 +444,29 @@
    "score": 100
   },
   {
+   "title": "Security Analyst I (F-M, 7am-6pm CST)",
+   "company": "Ntiva",
+   "url": "https://himalayas.app/companies/ntiva/jobs/security-analyst-i-f-m-7am-6pm-cst?utm_source=api",
+   "source": "Himalayas",
+   "board": "",
+   "region": "United States",
+   "posted": "2026-11-07",
+   "tags": [
+    "Security-Analyst",
+    "Cybersecurity-Analyst",
+    "Information-Security-Analyst",
+    "SOC-Analyst"
+   ],
+   "snippet": "Are you looking for limitless career opportunities with a company that values growth, innovation, and teamwork?",
+   "full": "Are you looking for limitless career opportunities with a company that values growth, innovation, and teamwork?",
+   "salaryText": "USD 49k–70k",
+   "lpa": 61.6,
+   "inIndia": false,
+   "inDubai": false,
+   "globalRemote": false,
+   "score": 90
+  },
+  {
    "title": "Security Engineer, Incident Response",
    "company": "Twilio",
    "url": "https://job-boards.greenhouse.io/twilio/jobs/8055481",
@@ -503,6 +484,28 @@
    "inIndia": false,
    "inDubai": false,
    "globalRemote": true,
+   "score": 90
+  },
+  {
+   "title": "Threat Analyst 1",
+   "company": "sophos",
+   "url": "https://jobs.ashbyhq.com/sophos/3d881883-b7f3-4690-8f41-d4b016fa957c",
+   "source": "Ashby",
+   "board": "sophos",
+   "region": "Canada",
+   "posted": "2026-11-04",
+   "tags": [
+    "Threat Intelligence & Cybersecurity",
+    "MDR and Security Operations",
+    "FullTime"
+   ],
+   "snippet": "ROLE SUMMARY As a Threat Analyst 1 on our Managed Threat Response (MDR) team, you will provide best-in-class monitoring, detection, and response services to proactively defend customer environments before attacks prevail. You will work alongside and contribute",
+   "full": "ROLE SUMMARY As a Threat Analyst 1 on our Managed Threat Response (MDR) team, you will provide best-in-class monitoring, detection, and response services to proactively defend customer environments before attacks prevail. You will work alongside and contribute to a team of cyber threat hunters, incident response analysts, engineers, and ethical hackers by using enterprise, log analysis and endpoint collection systems to facilitate investigations, identification, and neutralization of cyber threats. What You Will Do - Investigate and analyze logs and security-related events via Sophos tooling - Identify and respond to cyber threats occurring within customer environments - Communicate and document findings to various customer audiences including technical and executive teams - Follow up with customers through to issue resolution and drive continuous improvement by providing detailed recommendations to minimize risk in customer environments - Acknowledge and satisfy inbound customer requests and interact with customers through various mediums - Collaborate and assist with core security and threat response teams - Actively research emerging Indicators of Compromise/Attack, exploits and vulnerabilities with the intent of operationalizing findings to better protect our customers What You Will Bring - Willingness to work outside of standard business hours, including weekends and holidays – our MDR service is 24x7x365 - Excellent troubleshooting and analytical skills, with proven ability to think outside the box - Customer service-oriented with strong written and verbal communication skills - Must thrive within a team environment as well as on an individual basis - Passion for all things related to information technology and cybersecurity - Natural curiosity and ability to learn new skills quickly - Innovative mindset and driven to contribute to a team providing a best-in-class cybersecurity service - Minimum 2+ years of experience working in a SOC environment or computer security team in an IT environment - Experience with threat hunting - Experience with endpoint and network security monitoring - Experience administering and supporting Windows OS (both workstations and server) and one of the following: Apple or Linux-based operating systems (e.g. XP, Windows 7, 2003, 2008, OS X) - Knowledge of common adversary tactics and techniques, e.g., obfuscation, persistence, defense evasion, etc. - Knowledge of Mitre ATT&CK framework - Knowledge of incident response procedures - Basic understanding of network traffic analysis including TCP/IP, routing, switching, protocols, etc. - Basic understanding of Windows event log analysis - A plus if you have: - Experience with SQL query construction - Experience with OSQuery - Experience with enterprise information security data management - SIEM experience - Programming and scripting skills - proficient knowledge of Powershell In the Canada, the base salary for this role ranges from $56,000 to $93,000. In addition to b",
+   "salaryText": "",
+   "lpa": null,
+   "inIndia": false,
+   "inDubai": false,
+   "globalRemote": false,
    "score": 90
   },
   {
@@ -584,6 +587,46 @@
    "score": 90
   },
   {
+   "title": "Penetration Tester",
+   "company": "Bishop Fox",
+   "url": "http://www.bishopfox.com/jobs?gh_jid=7871568",
+   "source": "Greenhouse",
+   "board": "bishopfox",
+   "region": "U.S. Remote",
+   "posted": "2026-10-20",
+   "tags": [],
+   "snippet": "p span data-contrast= auto At Bishop Fox, security nbsp;isn t nbsp;just a job—it s nbsp;our passion. As leaders in continuous offensive security and penetration testing, we deliver world-class customer experiences. Trusted by over a quarter of the Fortune 100,",
+   "full": "p span data-contrast= auto At Bishop Fox, security nbsp;isn t nbsp;just a job—it s nbsp;our passion. As leaders in continuous offensive security and penetration testing, we deliver world-class customer experiences. Trusted by over a quarter of the Fortune 100, half of the Fortune 10, and top global media companies, we help safeguard digital landscapes. Our Cosmos platform, honored as Best Emerging Technology by SC Media, exemplifies our commitment to innovation. /span span data-ccp-props= {} nbsp; /span /p p span data-contrast= auto Joining Bishop Fox means collaborating with a curious and dedicated team. nbsp;You ll nbsp;tackle complex challenges for some of the world s most recognized organizations, securing their networks against real-world threats. With nbsp;nearly 20 nbsp;years of industry nbsp;contributions—including 16 open-source tools and 50 security advisories published in the past five nbsp;years—we re nbsp;committed to making the digital world safer. /span span data-ccp-props= {} nbsp; /span /p p span data-contrast= auto We’re nbsp;looking for talented, experienced professional hackers to help us secure some of the world’s most complex software and sophisticated technologies. nbsp;You’ll nbsp;be working alongside our US and nbsp;internationally-based nbsp;teams supporting clients across multiple industries. /span span data-ccp-props= {} nbsp; /span /p p strong span data-contrast= auto Responsibilities /span /strong span data-ccp-props= {} nbsp; /span /p p span data-contrast= auto You’re nbsp;a penetration tester who knows their way around source code. nbsp;You’ve nbsp;plundered apps and pillaged networks (legally, of course). You have a passion for hacking and information security. You may also have written a few blog posts about your favorite hacks or have presented at a handful of conferences – with an eye to doing more. /span span data-ccp-props= {} nbsp; /span /p p span data-contrast= auto With Bishop Fox, your responsibilities would include testing web applications, hacking networks, and reversing software. As a consultant, nbsp;you’ll nbsp;work on a variety of projects which include short-term engagements and extended program work with well-established clients. nbsp;You ll nbsp;solve challenging technical problems and build creative solutions. As a trusted advisor, nbsp;you’ll nbsp;provide your expert opinion to help our clients navigate difficult business decisions. /span span data-ccp-props= {} nbsp; /span /p p strong span data-contrast= auto Requirements /span /strong span data-ccp-props= {} nbsp; /span /p ul li data-leveltext=  data-font= Symbol data-listid= 1 data-list-defn-props= { quot;335551671 quot;:0, quot;335552541 quot;:1, quot;335559685 quot;:720, quot;335559991 quot;:360, quot;469769226 quot;: quot;Symbol quot;, quot;469769242 quot;:[8226], quot;469777803 quot;: quot;left quot;, quot;469777804 quot;: quot; quot;, quot;469777815 quot;: quot;multilevel quot;} data-aria-posinset= 0 data-aria-level= 1 span data-contr",
+   "salaryText": "",
+   "lpa": null,
+   "inIndia": false,
+   "inDubai": false,
+   "globalRemote": true,
+   "score": 90
+  },
+  {
+   "title": "Incident Response Engineer 2",
+   "company": "sophos",
+   "url": "https://jobs.ashbyhq.com/sophos/7ddcc9dc-f415-4ef5-9bd7-ed28e42fd8e4",
+   "source": "Ashby",
+   "board": "sophos",
+   "region": "United Kingdom",
+   "posted": "2026-10-08",
+   "tags": [
+    "Threat Intelligence & Cybersecurity",
+    "MDR and Security Operations",
+    "FullTime"
+   ],
+   "snippet": "Role Summary Sophos is seeking an intermediate-level Incident Response Analyst to support its Managed Detection and Response (MDR) customers within the Critical Incident Response Team (CIRT). As an Incident Response Analyst 2, you will perform advanced investi",
+   "full": "Role Summary Sophos is seeking an intermediate-level Incident Response Analyst to support its Managed Detection and Response (MDR) customers within the Critical Incident Response Team (CIRT). As an Incident Response Analyst 2, you will perform advanced investigative, forensic, and containment activities during active cyber incidents. You will operate with moderate autonomy, serve primarily in an Incident Responder role, and begin supporting Incident Advisors with validated technical findings and customer-facing context. This role serves as the technical backbone of most engagements and includes mentoring junior analysts to ensure consistent execution and documentation quality. What You Will Do - Perform advanced investigative and forensic analysis across endpoints, network logs, and cloud telemetry - Execute containment and response actions to neutralize active threats as directed by Incident Advisors or Senior Analysts - Validate indicators of compromise (IOCs) and correlate alerts, artifacts, and telemetry to determine scope and root cause - Maintain clear and accurate engagement documentation, including trailheads, timelines, and playbooks - Provide guidance and mentorship to junior IR and SOC analysts to ensure adherence to CIRT investigative and documentation standards - Prepare technical findings and summaries for inclusion in customer updates and post-incident reports - Identify and communicate detection or response gaps observed during investigations - Participate in shift handovers, debriefs, and post-incident reviews to ensure engagement continuity - Maintain accurate time and activity tracking to support operational visibility and service improvement What You Will Bring - 2+ years of experience in incident response, MDR, SOC, or security operations roles - Solid technical understanding of endpoint forensics, log analysis, and common attack techniques - Experience investigating malware, credential theft, ransomware, or similar threats - Ability to correlate alerts and telemetry to determine incident scope and root cause - Strong written and verbal communication skills for documenting findings and contributing to customer updates - Experience mentoring or guiding junior analysts - Ability to work effectively in high-pressure, time-sensitive incident environments - Willingness to work some weekends and holidays as part of a rotation - Hands-on experience with EDR, SIEM, and forensic collection tools - Familiarity with OSQuery, SQL, or KQL - Knowledge of MITRE ATT&CK and incident response frameworks - Industry certifications such as GCIH, GCED, CompTIA Security+, or equivalent - Experience contributing to playbooks, detection tuning, or service improvement initiatives #li-remote #B1 What does remote mean at Sophos? Sophos is a remote-first company, which means work is not centered around an office. Our teams collaborate across locations and time zones, using technology to stay connected and deliver results. Candidates applying for remote r",
+   "salaryText": "",
+   "lpa": null,
+   "inIndia": false,
+   "inDubai": false,
+   "globalRemote": false,
+   "score": 90
+  },
+  {
    "title": "Penetration Tester - Contract",
    "company": "Bishop Fox",
    "url": "http://www.bishopfox.com/jobs?gh_jid=7902114",
@@ -614,24 +657,6 @@
    ],
    "snippet": "div class= content-intro h2 strong About Anthropic /strong /h2 p Anthropic’s mission is to create reliable, interpretable, and steerable AI systems. We want AI to be safe and beneficial for our users and for society as a whole. Our team is a quickly growing gr",
    "full": "div class= content-intro h2 strong About Anthropic /strong /h2 p Anthropic’s mission is to create reliable, interpretable, and steerable AI systems. We want AI to be safe and beneficial for our users and for society as a whole. Our team is a quickly growing group of committed researchers, engineers, policy experts, and business leaders working together to build beneficial AI systems. /p /div h2 strong About the Role: nbsp; /strong /h2 p Anthropic sits at the frontier of AI development, which makes us one of the most interesting targets in the world for nation-state and advanced criminal actors. The Threat Intelligence function within our Detection amp; Response team exists to make sure we see them coming. As a Threat Intelligence Engineer, you ll be a hands-on practitioner responsible for producing the actionable intelligence that drives our detections, hunts, and defensive priorities. You ll track the adversaries most likely to target a frontier AI lab, build the tooling and pipelines that turn raw indicators into operational defenses, and work shoulder-to-shoulder with detection engineers and incident responders to make sure intelligence actually changes outcomes. This is a builder s role on a small, high-leverage team — you ll have broad latitude to shape how threat intelligence is collected, analyzed, and operationalized at Anthropic. nbsp; /p h2 strong Responsibilities: /strong nbsp; /h2 ul li Research, track, and report on threat actors and campaigns targeting AI labs, cloud infrastructure, and the broader technology sector — producing timely, actionable intelligence for Security Engineering stakeholders /li li Build and maintain tooling and automated pipelines to collect, enrich, correlate, and operationalize indicators of compromise into our detection and alerting stack /li li Develop and execute intelligence-driven threat hunts across endpoint, cloud, identity, and SaaS telemetry, and turn findings into durable detections /li li Perform technical analysis of malware, phishing infrastructure, and attacker tooling to extract indicators, TTPs, and attribution signals /li li Partner with Detection Engineering and Incident Response to translate intelligence into detection rules, hunting hypotheses, and incident context in near-real-time /li li Curate and triage inbound intelligence from commercial feeds, open source, government, and trusted peer relationships — prioritizing what matters for Anthropic s threat model /li li Contribute to threat models and risk assessments that inform security architecture and defensive investment across the enterprise /li li Build and maintain external intelligence-sharing relationships with peer companies, ISACs, and government partners /li /ul h2 strong You may be a good fit if you: /strong /h2 ul li Have 5+ years of hands-on experience in cyber threat intelligence, threat hunting, or intrusion analysis at an organization facing sophisticated adversaries /li li Have deep, demonstrable knowledge of specific na",
-   "salaryText": "",
-   "lpa": null,
-   "inIndia": false,
-   "inDubai": false,
-   "globalRemote": true,
-   "score": 90
-  },
-  {
-   "title": "Penetration Tester",
-   "company": "Bishop Fox",
-   "url": "http://www.bishopfox.com/jobs?gh_jid=7905132",
-   "source": "Greenhouse",
-   "board": "bishopfox",
-   "region": "Mexico, Remote",
-   "posted": "2026-08-13",
-   "tags": [],
-   "snippet": "p span data-contrast= none At Bishop Fox, security nbsp;isn t nbsp;just a job - nbsp;it s nbsp;our passion. As leaders in continuous offensive security and penetration testing, we deliver world-class customer experiences. Trusted by over a quarter of the Fortu",
-   "full": "p span data-contrast= none At Bishop Fox, security nbsp;isn t nbsp;just a job - nbsp;it s nbsp;our passion. As leaders in continuous offensive security and penetration testing, we deliver world-class customer experiences. Trusted by over a quarter of the Fortune 100, half of the Fortune 10, and top global media companies, we help safeguard digital landscapes. Our Cosmos platform, honored as Best Emerging Technology by SC Media, exemplifies our commitment to innovation. /span span data-contrast= none nbsp; nbsp; /span span data-ccp-props= { quot;335557856 quot;:16777215, quot;335559738 quot;:240, quot;335559739 quot;:240} nbsp; /span /p p span data-contrast= none Joining Bishop Fox means collaborating with a curious and dedicated team. nbsp;You ll nbsp;tackle complex challenges for some of the world s most recognized organizations, securing their networks against real-world threats. With nbsp;nearly 20 nbsp;years of industry contributions - including 16 open-source tools and 50 security advisories published in the past five years - nbsp;we re nbsp;committed to making the digital world safer. /span span data-contrast= none nbsp; nbsp; nbsp; /span span data-ccp-props= { quot;335557856 quot;:16777215, quot;335559738 quot;:240, quot;335559739 quot;:240} nbsp; /span /p p span data-contrast= none Given our exceptional growth, we are expanding and hiring a Pen Tester to join us on this exciting journey. /span span data-contrast= none nbsp;We’re nbsp;looking for nbsp;a nbsp;talented, experienced professional hacker to help us secure some of the world’s most complex software and sophisticated technologies. nbsp;You’ll nbsp;be working alongside our US and nbsp;internationally-based nbsp;teams supporting clients across multiple industries. /span span data-ccp-props= { quot;335557856 quot;:16777215, quot;335559738 quot;:240, quot;335559739 quot;:240} nbsp; /span /p p span data-contrast= none nbsp; nbsp; /span span data-ccp-props= { quot;335557856 quot;:16777215, quot;335559738 quot;:240, quot;335559739 quot;:240} nbsp; /span /p p strong span data-contrast= none span data-ccp-parastyle= heading 3 Who Are You and What nbsp; /span span data-ccp-parastyle= heading 3 You’ll /span span data-ccp-parastyle= heading 3 nbsp;Do /span /span /strong span data-contrast= none span data-ccp-parastyle= heading 3 nbsp; /span /span span data-ccp-props= { quot;134245418 quot;:true, quot;134245529 quot;:true, quot;335557856 quot;:16777215, quot;335559738 quot;:240, quot;335559739 quot;:240} nbsp; /span /p p span data-contrast= auto span data-ccp-parastyle= p2 data-ccp-parastyle-defn= { quot;ObjectId quot;: quot;506f4605-f8bf-5663-9328-9a8ce0640195|1 quot;, quot;ClassId quot;:1073872969, quot;Properties quot;:[201342446, quot;1 quot;,201342447, quot;5 quot;,201342448, quot;3 quot;,201342449, quot;1 quot;,469777841, quot;Times New Roman quot;,469777842, quot;Times New Roman quot;,469777843, quot;Times New Roman quot;,469777844, quot;Times New Roman quot;,201341986, quot;1 quot;,469",
    "salaryText": "",
    "lpa": null,
    "inIndia": false,
@@ -702,33 +727,13 @@
    "score": 80
   },
   {
-   "title": "[Cooperative Internship 2027] Security Analyst Intern, Security team",
-   "company": "Agoda",
-   "url": "https://job-boards.greenhouse.io/agoda/jobs/8305482",
-   "source": "Greenhouse",
-   "board": "agoda",
-   "region": "Bangkok",
-   "posted": "2026-11-06",
-   "tags": [
-    "Technology"
-   ],
-   "snippet": "div class= content-intro p /p p strong About Agoda /strong /p p At Agoda, we bridge the world through travel. Our story began in 2005, when two lifelong friends and entrepreneurs, driven by their passion for travel, launched Agoda to make it easier for everyon",
-   "full": "div class= content-intro p /p p strong About Agoda /strong /p p At Agoda, we bridge the world through travel. Our story began in 2005, when two lifelong friends and entrepreneurs, driven by their passion for travel, launched Agoda to make it easier for everyone to explore the world. nbsp; nbsp; /p p nbsp; /p p Today, we are part of Booking Holdings [NASDAQ: BKNG], with a diverse team of over 7,000 people from 90 countries, working together in offices around the globe. Every day, we connect people to destinations and experiences, with our great deals across our millions of hotels and holiday properties, flights, and experiences worldwide. /p p nbsp; /p p No two days are the same at Agoda. Data and technology are at the heart of our culture, fueling our curiosity and innovation. If you’re ready to begin your best journey and help build travel for the world, join us. /p /div h3 Cooperative internship period: January - May 2027 /h3 h3 Get to know our team: nbsp; /h3 p The Security Department oversees security, compliance, GRC, and security operations for all Agoda. We are vigilant in ensuring there is no breach or vulnerability threatening our company or endangering our employees in order to keep Agoda safe and protected. This would be a great challenge for those who want to work with the best technology in a dynamic and advanced environment. /p h3 The opportunity: nbsp; /h3 p Agoda’s IT-Security team is looking for fast learner and a highly motivated Security Analyst Intern looking to jumpstart their career in an exciting, highly rewarding IT-security domain. You will work for IT-security team at Agoda helping in keeping the company secure by keeping the bad guys out. You will get the opportunity to work, collaborate and learn from experienced IT-security defenders and help create a safer Agoda by protecting against internal and external attacks. You bring the basics and motivation, and we will take care of your training and education. If you like to learn new things every day, apply and work with us. /p h3 In this role, you ll get to: /h3 ul li Learn how to use security tools such as EDR, Email security, network security to track, analyse, contain, and flush out attackers from the network. /li li Assist with daily activities and functions of the security team to help update and maintain documents, policies, procedures /li li Learn to read and analyze log data to identify suspicious patterns and identify potential security threats /li li Provide first level security alert monitoring and contribute to triaging security investigations. /li li Analyze phishing emails and learn how attackers work and how to identify their traces in the company /li li Automate repetitive tasks that help speed up triaging security incidents /li li Assist in building security awareness training material and documenting security incidents /li li Participate in investigating large scale security incidents in a fast moving, agile environment /li /ul h3 What you ll need to suc",
-   "salaryText": "",
-   "lpa": null,
-   "inIndia": false,
-   "inDubai": false,
-   "globalRemote": false,
-   "score": 75
-  },
-  {
    "title": "Verafin - Analyst - Information Security",
    "company": "Nasdaq",
    "url": "https://job-boards.greenhouse.io/nasdaq/jobs/4472576009",
    "source": "Greenhouse",
    "board": "nasdaq",
    "region": "St. John's",
-   "posted": "2026-11-06",
+   "posted": "2026-11-07",
    "tags": [],
    "snippet": "div p strong Role Responsibilities /strong nbsp; /p /div div ul li p Analyzing security vulnerabilities identified within Verafin s Cloud infrastructure. nbsp; /p /li li p Querying and correlating security scan data with technical inventory. nbsp; /p /li li p ",
    "full": "div p strong Role Responsibilities /strong nbsp; /p /div div ul li p Analyzing security vulnerabilities identified within Verafin s Cloud infrastructure. nbsp; /p /li li p Querying and correlating security scan data with technical inventory. nbsp; /p /li li p Building reports and dashboards to present findings to code amp; infrastructure owners. nbsp; /p /li li p Coordinating vulnerability remediation with code amp; infrastructure owners. nbsp; /p /li li p Ensuring scanning coverage and assisting in remediation of gaps. nbsp; /p /li li p Assessing and improving security processes and tool usage. nbsp; nbsp; /p /li li p Working with security and operational teams to ensure security standards are met. nbsp; nbsp; /p /li /ul p nbsp; /p /div div p strong Essential Skills amp; Qualifications /strong nbsp; /p div div ul li p Diploma or Degree in a Security Management, Programming, Computer Science or equivalent. nbsp; /p /li li p 1+ years experience in security vulnerability analysis in a cloud environment would be an asset. nbsp; /p /li li p Experience working in a cloud-based environment (AWS preferred). nbsp; /p /li li p Experience working with the following technologies from a security perspective: Vulnerability Scanners/Management, Container Security Tools, Logging amp; Monitoring Tooling. nbsp; nbsp; /p /li li p Experience writing queries to analyze data. nbsp; /p /li li p Security certifications would be an asset (CISSP, OSCP, CEH, GSEC, Security+ etc.) nbsp; /p /li li p Strong technical analytical skills while providing accurate analysis of security-related problems in context of Verafin’s environment. nbsp; /p /li li p Committed to continuous learning, understanding new technologies and developing best practices. nbsp; /p /li li p Ability to communicate effectively with other teams. /p /li /ul /div /div div p ​ /p div p strong What does success look like in this role? /strong nbsp; /p /div div ul li p Contribute to the success the Verafin’s security program by offering insight and guidance on response and remediation of security vulnerabilities. nbsp; /p /li li p Review and improve Verafin’s security posture using new tools and processes. nbsp; /p /li li p Be an effective team player, communicator, and have an eagerness to learn and develop new skills. /p /li /ul div p nbsp; /p p strong What are the growth opportunities for this role? /strong nbsp; /p /div div ul li p Technical security career development nbsp; /p /li li p You could become the lead of a team, or the subject matter expert of your current team nbsp; /p /li /ul div p nbsp; /p p nbsp; /p p nbsp; /p /div /div /div /div /div div class= content-conclusion h4 Come as You Are /h4 p Nasdaq is an equal opportunity employer. We welcome applications from candidates of all backgrounds and identities. We are committed to fostering an inclusive workplace where diverse perspectives, experiences, and identities are valued and celebrated. We ensure that individuals with disabilities are provided",
@@ -746,7 +751,7 @@
    "source": "Greenhouse",
    "board": "gitlab",
    "region": "Remote, Israel; Remote, United Kingdom",
-   "posted": "2026-11-05",
+   "posted": "2026-11-06",
    "tags": [
     "n/a"
    ],
@@ -757,6 +762,26 @@
    "inIndia": false,
    "inDubai": false,
    "globalRemote": true,
+   "score": 75
+  },
+  {
+   "title": "[Cooperative Internship 2027] Security Analyst Intern, Security team",
+   "company": "Agoda",
+   "url": "https://job-boards.greenhouse.io/agoda/jobs/8305482",
+   "source": "Greenhouse",
+   "board": "agoda",
+   "region": "Bangkok",
+   "posted": "2026-11-06",
+   "tags": [
+    "Technology"
+   ],
+   "snippet": "div class= content-intro p /p p strong About Agoda /strong /p p At Agoda, we bridge the world through travel. Our story began in 2005, when two lifelong friends and entrepreneurs, driven by their passion for travel, launched Agoda to make it easier for everyon",
+   "full": "div class= content-intro p /p p strong About Agoda /strong /p p At Agoda, we bridge the world through travel. Our story began in 2005, when two lifelong friends and entrepreneurs, driven by their passion for travel, launched Agoda to make it easier for everyone to explore the world. nbsp; nbsp; /p p nbsp; /p p Today, we are part of Booking Holdings [NASDAQ: BKNG], with a diverse team of over 7,000 people from 90 countries, working together in offices around the globe. Every day, we connect people to destinations and experiences, with our great deals across our millions of hotels and holiday properties, flights, and experiences worldwide. /p p nbsp; /p p No two days are the same at Agoda. Data and technology are at the heart of our culture, fueling our curiosity and innovation. If you’re ready to begin your best journey and help build travel for the world, join us. /p /div h3 Cooperative internship period: January - May 2027 /h3 h3 Get to know our team: nbsp; /h3 p The Security Department oversees security, compliance, GRC, and security operations for all Agoda. We are vigilant in ensuring there is no breach or vulnerability threatening our company or endangering our employees in order to keep Agoda safe and protected. This would be a great challenge for those who want to work with the best technology in a dynamic and advanced environment. /p h3 The opportunity: nbsp; /h3 p Agoda’s IT-Security team is looking for fast learner and a highly motivated Security Analyst Intern looking to jumpstart their career in an exciting, highly rewarding IT-security domain. You will work for IT-security team at Agoda helping in keeping the company secure by keeping the bad guys out. You will get the opportunity to work, collaborate and learn from experienced IT-security defenders and help create a safer Agoda by protecting against internal and external attacks. You bring the basics and motivation, and we will take care of your training and education. If you like to learn new things every day, apply and work with us. /p h3 In this role, you ll get to: /h3 ul li Learn how to use security tools such as EDR, Email security, network security to track, analyse, contain, and flush out attackers from the network. /li li Assist with daily activities and functions of the security team to help update and maintain documents, policies, procedures /li li Learn to read and analyze log data to identify suspicious patterns and identify potential security threats /li li Provide first level security alert monitoring and contribute to triaging security investigations. /li li Analyze phishing emails and learn how attackers work and how to identify their traces in the company /li li Automate repetitive tasks that help speed up triaging security incidents /li li Assist in building security awareness training material and documenting security incidents /li li Participate in investigating large scale security incidents in a fast moving, agile environment /li /ul h3 What you ll need to suc",
+   "salaryText": "",
+   "lpa": null,
+   "inIndia": false,
+   "inDubai": false,
+   "globalRemote": false,
    "score": 75
   },
   {
@@ -834,7 +859,7 @@
   {
    "title": "Security Engineer",
    "company": "deepgram",
-   "url": "https://jobs.ashbyhq.com/deepgram/89c0ef18-7433-4c0e-b136-4b03f326c86f",
+   "url": "https://jobs.ashbyhq.com/Deepgram/89c0ef18-7433-4c0e-b136-4b03f326c86f",
    "source": "Ashby",
    "board": "deepgram",
    "region": "USA - Remote",
@@ -896,27 +921,6 @@
    "inDubai": false,
    "globalRemote": false,
    "score": 75
-  },
-  {
-   "title": "Incident Response Engineer",
-   "company": "sophos",
-   "url": "https://jobs.lever.co/sophos/bf0407ad-f55d-4105-b3b1-e718eb8e69cd",
-   "source": "Lever",
-   "board": "sophos",
-   "region": "Japan",
-   "posted": "2026-11-05",
-   "tags": [
-    "Threat Research",
-    "Permanent"
-   ],
-   "snippet": "About Us Sophos is a cybersecurity leader defending 600,000 organizations globally with an AI-driven platform and expert-led services. Sophos meets organizations wherever they are in their security maturity and grows with them to defeat cyberattacks. Its solut",
-   "full": "About Us Sophos is a cybersecurity leader defending 600,000 organizations globally with an AI-driven platform and expert-led services. Sophos meets organizations wherever they are in their security maturity and grows with them to defeat cyberattacks. Its solutions combine machine learning, automation, and real-time threat intelligence with frontline human expertise from Sophos X-Ops to deliver advanced, 24/7 threat monitoring, detection, and response. Sophos offers industry-leading managed detection and response (MDR) alongside a comprehensive portfolio of cybersecurity technologies — including endpoint, network, email, and cloud security, extended detection and response (XDR), identity threat detection and response (ITDR), and next-gen SIEM. Together with expert advisory services, these capabilities help organizations proactively reduce risk and respond faster, with the visibility and scalability needed to stay ahead of evolving threats. Sophos goes to market with a global partner ecosystem, including Managed Service Providers (MSPs), Managed Security Service Providers (MSSPs), resellers and distributors, marketplace integrations, and cyber risk partners, giving organizations the flexibility to choose trusted relationships when securing their business. Sophos is headquartered in Oxford, U.K. More information is available at www.sophos.com. Role Summary Incident Response Consultants play a key role in supporting customers through cybersecurity incidents by coordinating the response between the customer, DFIR consultants, and other technical teams. This is a customer-facing role focused on incident coordination, communication, and ensuring that response activities progress effectively from initial engagement through to resolution. You will work closely with DFIR consultants who conduct the technical investigation, while helping customers understand what is happening, what information or actions are required, and what the next steps are. You do not need to be a digital forensics specialist. However, you will need a strong understanding of enterprise technology and cybersecurity concepts, combined with excellent communication, organisation, and stakeholder management skills. Previous experience supporting or coordinating cybersecurity incidents will be highly valued.",
-   "salaryText": "",
-   "lpa": null,
-   "inIndia": false,
-   "inDubai": false,
-   "globalRemote": false,
-   "score": 65
   },
   {
    "title": "Counsel, AI Safety & Cyber Incident Response",
@@ -1019,14 +1023,14 @@
   {
    "title": "Threat Intelligence Engineer",
    "company": "Take-Two Interactive Software, Inc.",
-   "url": "https://job-boards.greenhouse.io/taketwo/jobs/8079989",
+   "url": "https://job-boards.greenhouse.io/taketwo/jobs/8143779",
    "source": "Greenhouse",
    "board": "taketwo",
-   "region": "Austin, Texas, United States",
+   "region": "Toronto, Ontario, Canada",
    "posted": "2026-10-22",
    "tags": [],
-   "snippet": "p /p h2 strong WHO WE ARE nbsp; /strong /h2 p Headquartered in New York City, Take-Two Interactive Software, Inc. is a leading developer, publisher, and marketer of interactive entertainment for consumers around the globe. We develop and publish products princ",
-   "full": "p /p h2 strong WHO WE ARE nbsp; /strong /h2 p Headquartered in New York City, Take-Two Interactive Software, Inc. is a leading developer, publisher, and marketer of interactive entertainment for consumers around the globe. We develop and publish products principally through Rockstar Games, 2K, and Zynga. Our products are designed for console gaming systems, PC, and mobile, including smartphones and tablets. We deliver our products through physical retail, digital download, online platforms, and cloud streaming services. The Company’s common stock is publicly traded on NASDAQ under the symbol TTWO. For more corporate and product information please visit our website at a target= ~_blank~ u http://www.take2games.com /u /a . /p p While our offices (physical and virtual) are casual and inviting, we are deeply committed to our core tenets of creativity, innovation and efficiency, and individual and team development opportunities. Our industry and business are continually evolving and fast-paced, providing numerous opportunities to learn and hone your skills. We work hard, but we also like to have fun and believe that we provide a great place to come to work each day to pursue your passions. /p p strong /strong /p h2 strong THE CHALLENGE /strong /h2 p We are looking for a Threat Intelligence Engineer. In this role, you will be on the front lines of our defense, helping to operationalize intelligence and build engineering solutions to counter emerging security threats. You ll work closely with various security and technology teams to integrate threat data into our security infrastructure, strengthening our defenses and protecting our organization. Your hands-on expertise will directly contribute to safeguarding Take-Two and its labels systems, networks, and data. You will work with Take-Two s Information Security teams, reporting to the Director of Threat Intelligence. /p p /p h2 strong WHAT YOU’LL TAKE ON /strong /h2 ul li strong Threat Intelligence Operations: /strong Support the day-to-day operations of the cyber threat intelligence (CTI) program by managing threat feeds, parsing indicators of compromise (IOCs), and ensuring data quality across our platforms. /li li strong Threat Analysis amp; Engineering: /strong Analyze emerging threats and adversary tactics, techniques, and procedures (TTPs) to help engineer robust detection and prevention mechanisms. /li li strong Enhance Our Security Posture: /strong Collaborate with our Global Security Operations Center (GSOC), Detection Engineering, and Incident Response teams to ingest and operationalize threat intelligence into our SIEM, EDR, and firewalls. /li li strong Automation amp; Integration: /strong Build and maintain API integrations, scripts, and playbooks to automate indicator ingestion, correlation, and dissemination across security platforms. /li li strong Security Infrastructure Support: /strong Assist in the deployment, configuration, maintenance, and tuning of our Threat Intelligence Platforms",
+   "snippet": "h2 strong WHO WE ARE nbsp; /strong /h2 p Take-Two Interactive Software, Inc. is a leading developer, publisher, and marketer of interactive entertainment for consumers around the globe. The Company develops and publishes products principally through Rockstar G",
+   "full": "h2 strong WHO WE ARE nbsp; /strong /h2 p Take-Two Interactive Software, Inc. is a leading developer, publisher, and marketer of interactive entertainment for consumers around the globe. The Company develops and publishes products principally through Rockstar Games, 2K, Private Division, and Zynga. Our products are currently designed for console gaming systems, PC, and Mobile, including smartphones and tablets, and are delivered through physical retail, digital download, online platforms, and cloud streaming services. The Company’s common stock is publicly traded on NASDAQ under the symbol TTWO. /p p While our offices (physical and virtual) are casual and inviting, we are deeply committed to our core tenets of creativity, innovation and efficiency, and individual and team development opportunities. Our industry and business are continually evolving and fast-paced, providing numerous opportunities to learn and hone your skills. We work hard, but we also like to have fun and believe that we provide a great place to come to work each day to pursue your passions. /p h2 strong THE CHALLENGE /strong /h2 p We are looking for a Threat Intelligence Engineer. In this role, you will be on the front lines of our defense, helping to operationalize intelligence and build engineering solutions to counter emerging security threats. You ll work closely with various security and technology teams to integrate threat data into our security infrastructure, strengthening our defenses and protecting our organization. Your hands-on expertise will directly contribute to safeguarding Take-Two and its labels systems, networks, and data. You will work with Take-Two s Information Security teams, reporting to the Director of Threat Intelligence. /p h2 strong WHAT YOU’LL TAKE ON /strong /h2 ul li strong Threat Intelligence Operations: /strong Support the day-to-day operations of the cyber threat intelligence (CTI) program by managing threat feeds, parsing indicators of compromise (IOCs), and ensuring data quality across our platforms. /li li strong Threat Analysis amp; Engineering: /strong Analyze emerging threats and adversary tactics, techniques, and procedures (TTPs) to help engineer robust detection and prevention mechanisms. /li li strong Enhance Our Security Posture: /strong Collaborate with our Global Security Operations Center (GSOC), Detection Engineering, and Incident Response teams to ingest and operationalize threat intelligence into our SIEM, EDR, and firewalls. /li li strong Automation amp; Integration: /strong Build and maintain API integrations, scripts, and playbooks to automate indicator ingestion, correlation, and dissemination across security platforms. /li li strong Security Infrastructure Support: /strong Assist in the deployment, configuration, maintenance, and tuning of our Threat Intelligence Platforms (TIP) and related security engineering tools. /li li strong Produce Actionable Reporting: /strong Assist in generating timely intelligence alerts, briefs",
    "salaryText": "",
    "lpa": null,
    "inIndia": false,
@@ -1075,19 +1079,20 @@
    "score": 65
   },
   {
-   "title": "Incident Response Analyst",
+   "title": "Security Engineer (Threat Response), Sophos Security Team (IDR)",
    "company": "sophos",
-   "url": "https://jobs.lever.co/sophos/2e0ff77f-e1db-4cc0-aace-0607a82338c0",
-   "source": "Lever",
+   "url": "https://jobs.ashbyhq.com/sophos/1f3aa56a-1ccd-48a9-b557-c16d73ea9707",
+   "source": "Ashby",
    "board": "sophos",
-   "region": "Australia",
-   "posted": "2026-10-09",
+   "region": "Canada",
+   "posted": "2026-10-14",
    "tags": [
-    "MDR and Security Operations",
-    "Permanent"
+    "Threat Intelligence & Cybersecurity",
+    "Threat Research",
+    "FullTime"
    ],
-   "snippet": "About Us Sophos is a cybersecurity leader defending 600,000 organizations globally with an AI-driven platform and expert-led services. Sophos meets organizations wherever they are in their security maturity and grows with them to defeat cyberattacks. Its solut",
-   "full": "About Us Sophos is a cybersecurity leader defending 600,000 organizations globally with an AI-driven platform and expert-led services. Sophos meets organizations wherever they are in their security maturity and grows with them to defeat cyberattacks. Its solutions combine machine learning, automation, and real-time threat intelligence with frontline human expertise from Sophos X-Ops to deliver advanced, 24/7 threat monitoring, detection, and response. Sophos offers industry-leading managed detection and response (MDR) alongside a comprehensive portfolio of cybersecurity technologies — including endpoint, network, email, and cloud security, extended detection and response (XDR), identity threat detection and response (ITDR), and next-gen SIEM. Together with expert advisory services, these capabilities help organizations proactively reduce risk and respond faster, with the visibility and scalability needed to stay ahead of evolving threats. Sophos goes to market with a global partner ecosystem, including Managed Service Providers (MSPs), Managed Security Service Providers (MSSPs), resellers and distributors, marketplace integrations, and cyber risk partners, giving organizations the flexibility to choose trusted relationships when securing their business. Sophos is headquartered in Oxford, U.K. More information is available at www.sophos.com.",
+   "snippet": "ROLE SUMMARY Independently detect, investigate and respond to cyber threats across Sophos and its products, while engineering the detections, automations, reusable skills and agentic workflows that scale Internal Detection and Response. The role combines incid",
+   "full": "ROLE SUMMARY Independently detect, investigate and respond to cyber threats across Sophos and its products, while engineering the detections, automations, reusable skills and agentic workflows that scale Internal Detection and Response. The role combines incident response judgement with security engineering and the safe, measurable and observable use of AI. What You Will Do - Own complex investigations across the incident lifecycle, from triage and evidence collection through containment, recovery and lessons learned. - Act as a trusted front door for security issues, coordinating response across IDR, engineering, product and business teams. - Perform DFIR and endpoint forensics, including log, network and packet analysis, malware analysis and firewall investigation where applicable. - Write and improve detections, playbooks, orchestrations and preventions using evidence from incidents and threat hunting. - Build production-quality automation that removes repetitive work, improves consistency and enables analysts to operate at a higher layer. - Design model-agnostic, reusable skills and workflows that run across approved AI and agent platforms rather than depending on one model. - Use Claude, Codex, Copilot and future approved tooling to accelerate investigations, coding, testing, documentation and detection engineering. - Contribute through GitHub: create branches, raise and review pull requests, write tests, respond to feedback and support controlled deployment. - Instrument agentic workflows with logs, traces, metrics, evaluation results and failure signals so behaviour and outcomes are observable. - Apply safe harness design, least privilege, scoped tool access, approval gates, evidence validation, rollback and human review for consequential actions. - Communicate incidents, risks, decisions and technical outcomes clearly to engineering and leadership audiences. What You Will Bring - Strong enterprise incident response experience across endpoint, identity, cloud, network and product-focused investigations. - Practical capability in DFIR, endpoint and firewall forensics, threat hunting, detection engineering and analysis of unstructured telemetry. - Ability to write reliable automation in Python or a comparable language, work with APIs and query data using SQL. - Working knowledge of Git and GitHub engineering practices, including pull requests, code review, testing and CI/CD concepts. - Hands-on familiarity with Claude, Codex or comparable coding agents, including context design, task decomposition and validation of generated output. - Ability to design and write evals for agentic workflows and skills, covering task success, output quality, safety, regressions and common failure modes. - Understanding of agent architecture, tool use, skill-based design, model portability and AI or automation safety controls. - Ability to design observability for automated work and use telemetry to troubleshoot, measure quality and improve reliability. - Clear",
    "salaryText": "",
    "lpa": null,
    "inIndia": false,
@@ -1108,66 +1113,6 @@
    ],
    "snippet": "div class= content-intro h2 strong About Anthropic /strong /h2 p Anthropic’s mission is to create reliable, interpretable, and steerable AI systems. We want AI to be safe and beneficial for our users and for society as a whole. Our team is a quickly growing gr",
    "full": "div class= content-intro h2 strong About Anthropic /strong /h2 p Anthropic’s mission is to create reliable, interpretable, and steerable AI systems. We want AI to be safe and beneficial for our users and for society as a whole. Our team is a quickly growing group of committed researchers, engineers, policy experts, and business leaders working together to build beneficial AI systems. /p /div h2 strong About the team /strong /h2 p Anthropic s Security Governance, Risk, and Compliance (GRC) team is the connective tissue that holds the company accountable to its security commitments. We translate regulatory, customer, and voluntary obligations into controls that teams act on, and give leadership a bird s-eye view of how well we re meeting them. We re building toward a fundamentally different kind of GRC: one that directs Claude, with the right humans in the loop, to challenge and evidence the performance of controls continuously rather than through periodic audits. /p p Within Security GRC, Compliance amp; Audit Programs runs the integrated audit across our frameworks and maintains the Common Control Framework, the single set of controls that the whole program is built on. This role sits in Audit amp; Assurance and owns the framework and the assurance view across every control domain. /p h2 strong About the role /strong /h2 p As part of the Security Audit amp; Controls team, nbsp; you will own the CCF across every control domain, from access and change management to logging, encryption, and people controls: which controls we have, what each one says, how each maps to the frameworks and commitments we hold, and whether each one is actually working. You ll work with control owners and GRC Partners to draft and validate control descriptions and activities that describe reality rather than policy intent, build the monitoring that shows operating effectiveness continuously instead of once a year, and drive what monitoring finds to closure with control owners. /p p Building with Claude is a normal part of the job: drafting and mapping controls, testing evidence, and monitoring control health, with you deciding where human judgment stays in the loop. /p p This is an individual contributor role for someone who works well independently, writes clearly, and gets satisfaction from a control set that is accurate, tested, and trusted by auditors and engineers alike. /p h2 strong Key responsibilities /strong /h2 ul li Own the Common Control Framework: the canonical control set, its mappings to SOC 2, ISO 27001/42001, HIPAA, FedRAMP, and customer commitments, and the change process for adding, retiring, or rewording controls /li li Draft and validate control descriptions and control activities with control owners, so each control states who does what, how often, in which system, and what evidence proves it /li li Design and run continuous monitoring of control efficacy: define the metrics and automated tests that show operating effectiveness, tune out false positi",
-   "salaryText": "",
-   "lpa": null,
-   "inIndia": false,
-   "inDubai": false,
-   "globalRemote": false,
-   "score": 65
-  },
-  {
-   "title": "Incident Response Engineer 2",
-   "company": "sophos",
-   "url": "https://jobs.lever.co/sophos/bff5b360-c893-49f0-a138-7cb8708d1511",
-   "source": "Lever",
-   "board": "sophos",
-   "region": "United Kingdom",
-   "posted": "2026-09-25",
-   "tags": [
-    "MDR and Security Operations",
-    "Permanent"
-   ],
-   "snippet": "About Us Sophos is a cybersecurity leader defending 600,000 organizations globally with an AI-driven platform and expert-led services. Sophos meets organizations wherever they are in their security maturity and grows with them to defeat cyberattacks. Its solut",
-   "full": "About Us Sophos is a cybersecurity leader defending 600,000 organizations globally with an AI-driven platform and expert-led services. Sophos meets organizations wherever they are in their security maturity and grows with them to defeat cyberattacks. Its solutions combine machine learning, automation, and real-time threat intelligence with frontline human expertise from Sophos X-Ops to deliver advanced, 24/7 threat monitoring, detection, and response. Sophos offers industry-leading managed detection and response (MDR) alongside a comprehensive portfolio of cybersecurity technologies — including endpoint, network, email, and cloud security, extended detection and response (XDR), identity threat detection and response (ITDR), and next-gen SIEM. Together with expert advisory services, these capabilities help organizations proactively reduce risk and respond faster, with the visibility and scalability needed to stay ahead of evolving threats. Sophos goes to market with a global partner ecosystem, including Managed Service Providers (MSPs), Managed Security Service Providers (MSSPs), resellers and distributors, marketplace integrations, and cyber risk partners, giving organizations the flexibility to choose trusted relationships when securing their business. Sophos is headquartered in Oxford, U.K. More information is available at www.sophos.com.",
-   "salaryText": "",
-   "lpa": null,
-   "inIndia": false,
-   "inDubai": false,
-   "globalRemote": false,
-   "score": 65
-  },
-  {
-   "title": "Security Operations Engineer",
-   "company": "AssemblyAI",
-   "url": "https://job-boards.greenhouse.io/assemblyai/jobs/4732736005",
-   "source": "Greenhouse",
-   "board": "assemblyai",
-   "region": "United States",
-   "posted": "2026-09-22",
-   "tags": [],
-   "snippet": "div class= content-intro h3 strong Why AssemblyAI /strong /h3 p AssemblyAI builds the best-in-class Voice AI models powering the next generation of voice applications. We have a lab, and we also power our own models in our own proprietary inference environment",
-   "full": "div class= content-intro h3 strong Why AssemblyAI /strong /h3 p AssemblyAI builds the best-in-class Voice AI models powering the next generation of voice applications. We have a lab, and we also power our own models in our own proprietary inference environment. Our models serve 500M+ inference calls monthly, and process nearly 2 million hours of audio daily. The Voice AI space is at an inflection point; we’re looking for the best talent we can find to join a rapidly scaling team that s defining the future of the industry. /p p We are one of the most capital-efficient AI companies on the planet - and are rapidly approaching $1M ARR per employee. We sit among the top 5 most revenue-dense teams within the fastest-growing AI companies today. We have thousands of customers building with us including the top startups and world-renowned enterprises, and are serving at tremendous scale: we process nearly 2 million hours of audio daily and handle more than 15 million API calls every day. This is a rare growth-stage opportunity where the business is proven, the revenue is durable, and the growth trajectory is steep and getting steeper. We have a super flat culture and expect our employees to be deeply intimate with the details at all levels. /p p If you ve ever felt buried under layers of bureaucracy, starved of real ownership, or frustrated watching your work disappear into a slow-moving org, AssemblyAI is built differently. The company operates as a true meritocracy, with no heavy planning or approval processes and no gatekeeping on the tools or information you need. For anyone who genuinely cares about voice AI, not as a trend to chase, but as a technology to build, this is the place where the most interesting problems at the most interesting scale are being solved by a team small enough that you ll actually know everyone s name. /p /div h2 strong About the role: /strong /h2 p AssemblyAI runs a mature, multi-framework security and compliance program—including SOC 2 (all trust criteria), ISO 27001, and PCI 4.0—that protects the infrastructure and customer data behind our industry-leading Voice AI API. We re hiring a Security Operations Engineer to join our IT amp; Security team and take day-to-day ownership of the operational backbone of that program. /p p This role is centered on security operations and GRC: running compliance audit cycles end to end, gathering and organizing evidence, enforcing and verifying controls, executing access reviews, managing vulnerability triage and remediation follow-up, and responding to customer security questionnaires. It s the work that turns a security program on paper into one that demonstrably runs. You ll also have room to grow the technical side of the role. We automate wherever we can, and you ll be encouraged to build scripts, integrations, and tooling that reduce manual toil and improve the program. /p p This is a high-ownership role on a small team. You ll work closely with engineers across the company, partner",
-   "salaryText": "",
-   "lpa": null,
-   "inIndia": false,
-   "inDubai": false,
-   "globalRemote": false,
-   "score": 65
-  },
-  {
-   "title": "Security Engineer (Threat Response), Sophos Security Team (IDR)",
-   "company": "sophos",
-   "url": "https://jobs.lever.co/sophos/2e029cdb-ed2d-4d92-b383-c77c55f8d1cf",
-   "source": "Lever",
-   "board": "sophos",
-   "region": "Canada",
-   "posted": "2026-09-04",
-   "tags": [
-    "Threat Research",
-    "Permanent"
-   ],
-   "snippet": "About Us Sophos is a cybersecurity leader defending 600,000 organizations globally with an AI-driven platform and expert-led services. Sophos meets organizations wherever they are in their security maturity and grows with them to defeat cyberattacks. Its solut",
-   "full": "About Us Sophos is a cybersecurity leader defending 600,000 organizations globally with an AI-driven platform and expert-led services. Sophos meets organizations wherever they are in their security maturity and grows with them to defeat cyberattacks. Its solutions combine machine learning, automation, and real-time threat intelligence with frontline human expertise from Sophos X-Ops to deliver advanced, 24/7 threat monitoring, detection, and response. Sophos offers industry-leading managed detection and response (MDR) alongside a comprehensive portfolio of cybersecurity technologies — including endpoint, network, email, and cloud security, extended detection and response (XDR), identity threat detection and response (ITDR), and next-gen SIEM. Together with expert advisory services, these capabilities help organizations proactively reduce risk and respond faster, with the visibility and scalability needed to stay ahead of evolving threats. Sophos goes to market with a global partner ecosystem, including Managed Service Providers (MSPs), Managed Security Service Providers (MSSPs), resellers and distributors, marketplace integrations, and cyber risk partners, giving organizations the flexibility to choose trusted relationships when securing their business. Sophos is headquartered in Oxford, U.K. More information is available at www.sophos.com. Role Summary Independently detect, investigate and respond to cyber threats across Sophos and its products, while engineering the detections, automations, reusable skills and agentic workflows that scale Internal Detection and Response. The role combines incident response judgement with security engineering and the safe, measurable and observable use of AI.",
    "salaryText": "",
    "lpa": null,
    "inIndia": false,
@@ -1242,27 +1187,6 @@
    "score": 65
   },
   {
-   "title": "Threat Analyst 2",
-   "company": "sophos",
-   "url": "https://jobs.lever.co/sophos/1458b534-9d35-435a-9ccb-16dcffd53d7a",
-   "source": "Lever",
-   "board": "sophos",
-   "region": "Canada",
-   "posted": "2026-07-21",
-   "tags": [
-    "MDR and Security Operations",
-    "Permanent"
-   ],
-   "snippet": "About Us Sophos is a cybersecurity leader defending 600,000 organizations globally with an AI-driven platform and expert-led services. Sophos meets organizations wherever they are in their security maturity and grows with them to defeat cyberattacks. Its solut",
-   "full": "About Us Sophos is a cybersecurity leader defending 600,000 organizations globally with an AI-driven platform and expert-led services. Sophos meets organizations wherever they are in their security maturity and grows with them to defeat cyberattacks. Its solutions combine machine learning, automation, and real-time threat intelligence with frontline human expertise from Sophos X-Ops to deliver advanced, 24/7 threat monitoring, detection, and response. Sophos offers industry-leading managed detection and response (MDR) alongside a comprehensive portfolio of cybersecurity technologies — including endpoint, network, email, and cloud security, extended detection and response (XDR), identity threat detection and response (ITDR), and next-gen SIEM. Together with expert advisory services, these capabilities help organizations proactively reduce risk and respond faster, with the visibility and scalability needed to stay ahead of evolving threats. Sophos goes to market with a global partner ecosystem, including Managed Service Providers (MSPs), Managed Security Service Providers (MSSPs), resellers and distributors, marketplace integrations, and cyber risk partners, giving organizations the flexibility to choose trusted relationships when securing their business. Sophos is headquartered in Oxford, U.K. More information is available at www.sophos.com. Role Summary As a Threat Analyst on our Managed Detection and Response (MDR) team, you will provide best-in-class monitoring, detection, and response services to proactively defend customer environments before attacks prevail. You will work alongside and contribute to a team of cyber threat hunters, incident response analysts, engineers, and ethical hackers by using enterprise, log analysis and endpoint collection systems to facilitate investigations, identification, and neutralization of cyber threats. Shift: 8AM - 5PM EST",
-   "salaryText": "",
-   "lpa": null,
-   "inIndia": false,
-   "inDubai": false,
-   "globalRemote": false,
-   "score": 65
-  },
-  {
    "title": "Security Engineer, Application Security",
    "company": "openai",
    "url": "https://jobs.ashbyhq.com/openai/0322d6d8-6588-4209-a304-83e768063a25",
@@ -1305,30 +1229,6 @@
    "inDubai": false,
    "globalRemote": false,
    "score": 60
-  },
-  {
-   "title": "SOC Analyst (20:00–05:00 UTC)",
-   "company": "Tether Operations Limited",
-   "url": "https://himalayas.app/companies/tether-operations-limited/jobs/soc-analyst-20-00-05-00-utc-3684157577?utm_source=api",
-   "source": "Himalayas",
-   "board": "",
-   "region": "Australia",
-   "posted": "2026-11-06",
-   "tags": [
-    "SOC-Analyst",
-    "Security-Operations-Analyst",
-    "Cybersecurity-Analyst",
-    "Threat-Detection-Analyst",
-    "Incident-Response-Analyst"
-   ],
-   "snippet": "Join Tether and Shape the Future of Digital Finance At Tether, we’re not just building products, we’re pioneering a global financial revolution.",
-   "full": "Join Tether and Shape the Future of Digital Finance At Tether, we’re not just building products, we’re pioneering a global financial revolution.",
-   "salaryText": "",
-   "lpa": null,
-   "inIndia": false,
-   "inDubai": false,
-   "globalRemote": false,
-   "score": 55
   },
   {
    "title": "Security Engineer, Privy",
@@ -1491,6 +1391,31 @@
    "score": 55
   },
   {
+   "title": "Cybersecurity Engineer – DevSecOps",
+   "company": "Millennium Corporation",
+   "url": "https://himalayas.app/companies/millennium-corporation/jobs/cybersecurity-engineer-devsecops?utm_source=api",
+   "source": "Himalayas",
+   "board": "",
+   "region": "United States",
+   "posted": "2026-11-07",
+   "tags": [
+    "Cybersecurity-Engineer",
+    "DevSecOps-Engineer",
+    "Application-Security-Engineer",
+    "Security-Engineer",
+    "Cybersecurity-Analyst",
+    "DevOps-Security-Engineer"
+   ],
+   "snippet": "OverviewMillennium is proud to be part of the Markon enterprise, a network of specialized organizations united in support of critical national security missions.",
+   "full": "OverviewMillennium is proud to be part of the Markon enterprise, a network of specialized organizations united in support of critical national security missions.",
+   "salaryText": "USD 125k–135k",
+   "lpa": 118.8,
+   "inIndia": false,
+   "inDubai": false,
+   "globalRemote": false,
+   "score": 50
+  },
+  {
    "title": "Security Engineer, Product Security",
    "company": "Scale AI",
    "url": "https://job-boards.greenhouse.io/scaleai/jobs/4643029005",
@@ -1546,7 +1471,7 @@
     "0.0"
    ],
    "snippet": "div class= content-intro p Ready to do the most impactful work of your career? At nbsp; a href= https://www.coinbase.com/?utm_campaign=mt_o_m_w_m_m__coi_0_jd-onchain amp;utm_source=coinbase Coinbase /a , we are uncompromising on our mission to increase economi",
-   "full": "div class= content-intro p Ready to do the most impactful work of your career? At nbsp; a href= https://www.coinbase.com/?utm_campaign=mt_o_m_w_m_m__coi_0_jd-onchain amp;utm_source=coinbase Coinbase /a , we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we like it that way. This isn t a place for complacency, it’s a place to be pushed past your perceived limits. If you re ready to build the future of finance alongside people who refuse to settle for good enough, you belong here. Coinbase is a remote-first, but not remote-only company. Expect to get together quarterly for intense in-person working sessions called “surges.” nbsp; a href= https://www.coinbase.com/careers learn more about working at Coinbase /a . /p /div p As a Threat Intelligence Platform Engineer on the Threat Intelligence team within Security Operations, you ll own Vertex Synapse in production - the platform that turns adversary intelligence into detections, blocks, and decisions across Coinbase. The TI team protects billions of dollars in digital assets by collecting, modeling, and operationalizing intelligence on the most sophisticated cyber threats targeting the crypto ecosystem. You ll keep the platform healthy, ingest and model new intelligence sources, and ship the automations that weave threat intelligence into the fabric of security operations at Coinbase. /p p strong What you ll do: /strong /p ul li Own the production Vertex Synapse instance, including platform health, backend operations, cron monitoring, and data hygiene /li li Build and maintain intelligence feed integrations, enrichments, and tagging so new sources land modeled and usable by stakeholders /li li Ship intelligence into downstream controls and data pipelines, including detections, blocklists, data warehouses, and agent workflows /li li Partner across Security and Product to translate intelligence requirements into production capabilities /li li Rapidly prototype and implement features, fixes, and tooling as required by the team s Intelligence Analysts and stakeholders /li /ul p strong Required Skills and Experience: /strong /p ul li 2+ years building and operating threat intelligence platforms or security data pipelines in production environments /li li Software development experience in Python, Go, and/or Storm, including deploying production-quality code with CI/CD ownership after ship /li li Experience ingesting, modeling, tagging, and lifecycle-managing indicators and related intelligence data at scale /li li Track record of troubleshooting and restoring production systems and data quality issues, then driving root-cause fixes to prevent recurrence /li li Experience translating cross-functional stakeholder needs into technical solutions within a security operations context /li li Utilizes generative AI responsibly, maintaining human oversight to deliver business-ready outputs and drive measurable improvements in workflow efficiency, cos",
+   "full": "div class= content-intro p Ready to do the most impactful work of your career? At nbsp; a href= https://www.coinbase.com/?utm_campaign=mt_o_m_w_m_m__coi_0_jd-onchain amp;utm_source=coinbase Coinbase /a , we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we like it that way. This isn t a place for complacency, it’s a place to be pushed past your perceived limits. If you re ready to build the future of finance alongside people who refuse to settle for good enough, you belong here. Coinbase is a remote-first, but not remote-only company. Expect to get together quarterly for intense in-person working sessions called “surges.” nbsp; a href= https://www.coinbase.com/careers Learn more about working at Coinbase /a . /p div id= fortidlp-input-element-parent /div /div p As a Threat Intelligence Platform Engineer on the Threat Intelligence team within Security Operations, you ll own Vertex Synapse in production - the platform that turns adversary intelligence into detections, blocks, and decisions across Coinbase. The TI team protects billions of dollars in digital assets by collecting, modeling, and operationalizing intelligence on the most sophisticated cyber threats targeting the crypto ecosystem. You ll keep the platform healthy, ingest and model new intelligence sources, and ship the automations that weave threat intelligence into the fabric of security operations at Coinbase. /p p strong What you ll do: /strong /p ul li Own the production Vertex Synapse instance, including platform health, backend operations, cron monitoring, and data hygiene /li li Build and maintain intelligence feed integrations, enrichments, and tagging so new sources land modeled and usable by stakeholders /li li Ship intelligence into downstream controls and data pipelines, including detections, blocklists, data warehouses, and agent workflows /li li Partner across Security and Product to translate intelligence requirements into production capabilities /li li Rapidly prototype and implement features, fixes, and tooling as required by the team s Intelligence Analysts and stakeholders /li /ul p strong Required Skills and Experience: /strong /p ul li 2+ years building and operating threat intelligence platforms or security data pipelines in production environments /li li Software development experience in Python, Go, and/or Storm, including deploying production-quality code with CI/CD ownership after ship /li li Experience ingesting, modeling, tagging, and lifecycle-managing indicators and related intelligence data at scale /li li Track record of troubleshooting and restoring production systems and data quality issues, then driving root-cause fixes to prevent recurrence /li li Experience translating cross-functional stakeholder needs into technical solutions within a security operations context /li li Utilizes generative AI responsibly, maintaining human oversight to deliver business-ready outputs and drive measurab",
    "salaryText": "",
    "lpa": null,
    "inIndia": false,
@@ -1571,27 +1496,6 @@
    "full": "We believe that the way people interact with their finances will drastically improve in the next few years. We’re dedicated to empowering this transformation by building the tools and experiences that thousands of developers use to create their own products. Plaid powers the tools millions of people rely on to live a healthier financial life. We work with thousands of companies like Venmo, SoFi, several of the Fortune 500, and many of the largest banks to make it easy for people to connect their financial accounts to the apps and services they want to use. Plaid’s network covers 12,000 financial institutions across the US, Canada, UK and Europe. Founded in 2013, the company is headquartered in San Francisco with offices in New York, Seattle, Washington D.C., Raleigh, London, and Amsterdam. Team: The Security Governance, Risk, and Compliance (GRC) team is part of Plaid’s security organization, focused on enabling the business by proactively managing information security risks and maintaining effective controls. Our mission is to reduce the likelihood and impact of security risks while operating a robust assurance program that builds trust with our customers, consumers, and data partners.We partner closely across the company to ensure Plaid’s platform remains secure, resilient, and aligned with industry and regulatory expectations. Third-party ecosystem risk is a core part of how we keep Plaid safe—we vet the security of both the vendors we rely on and the customers and partners who connect to our platform, so trust runs in both directions. Role: - You will run security risk assessments for Plaid’s third parties end-to-end—from intake and questionnaire through risk rating, findings, and tracked exceptions. - You will assess the security posture of customers and partners onboarding to the platform with the same rigor we apply to vendors. - You will keep the third-party risk lifecycle moving—risk tiering, reassessment cadence, remediation follow-through, and a clean, current risk register. - You will help mature the program—questionnaires, tiering criteria, intake, and runbooks—so reviews get faster and more consistent as volume grows, drawing on how you’ve improved third-party risk programs before. - You will report on ecosystem risk to Security and cross-functional stakeholders, and operate as an AI power user to raise your own throughput. Responsibilities: - Run Vendor Security Risk Assessments: Triage inbound vendor requests, run security reviews scaled to risk tier, rate the risk, and document findings and exceptions. Your assessments keep Plaid from inheriting a vendor’s security gaps and give Procurement, Privacy, and Legal a clear risk signal before contracts are signed. - Vet Customer and Partner Security Posture: Review the security practices of customers and partners onboarding to the platform, applying the same standards you use for vendors. Your reviews make sure who connects to Plaid meets the bar before they touch data—protecting consu",
    "salaryText": "$118,680 – $175,800 • Offers Equity • Multiple Ranges",
    "lpa": 154.7,
-   "inIndia": false,
-   "inDubai": false,
-   "globalRemote": false,
-   "score": 50
-  },
-  {
-   "title": "Network Cloud Security Specialist",
-   "company": "neon",
-   "url": "https://jobs.lever.co/neon/50ae587d-3431-49b6-95f7-7c7ad7a18238",
-   "source": "Lever",
-   "board": "neon",
-   "region": "Remoto",
-   "posted": "2026-07-20",
-   "tags": [
-    "Security",
-    "CLT"
-   ],
-   "snippet": "Sobre a Neon Queremos ser, cada vez mais, um time excepcional - que constrói, apoia e reconhece equipes diversas que sobem a barra lá em cima! Somos uma fintech fundada por um brasileiro que, insatisfeito com os bancos tradicionais, começou a construir um serv",
-   "full": "Sobre a Neon Queremos ser, cada vez mais, um time excepcional - que constrói, apoia e reconhece equipes diversas que sobem a barra lá em cima! Somos uma fintech fundada por um brasileiro que, insatisfeito com os bancos tradicionais, começou a construir um serviço que ajudasse a vida financeira das pessoas de forma simples e sem burocracia. Nosso objetivo é simplificar o sistema bancário e trabalhamos com um grande propósito: criar caminhos por uma vida financeira melhor para todos os brasileiros. Temos a tecnologia como aliada para inovar e desenvolver as melhores soluções para quem está no corre! Na Neon, nossa missão é simplificar a vida financeira de milhões de brasileiros de forma segura, ágil e escalável. Para que possamos continuar crescendo e inovando sem limites, a nossa blindagem perimetral e arquitetura de redes em nuvem precisam ser impecáveis. Como Cloud Security Engineer Specialist, você será a liderança técnica responsável por desenhar, automatizar e sustentar a segurança de nossas redes e perímetros na nuvem (com foco massivo em AWS). O seu desafio será garantir a integridade de um ecossistema financeiro complexo utilizando o que há de mais moderno em soluções de borda (Palo Alto e Zscaler), atuando de forma estratégica e hands-on para guiar o nosso time em direção a um ambiente cada vez mais resiliente e seguro por design.",
-   "salaryText": "",
-   "lpa": null,
    "inIndia": false,
    "inDubai": false,
    "globalRemote": false,

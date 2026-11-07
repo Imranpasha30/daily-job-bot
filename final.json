@@ -1,9 +1,9 @@
 {
- "generated": "2026-11-06T11:13:20.829Z",
+ "generated": "2026-11-07T10:30:27.999Z",
  "usdInr": 88,
  "counts": {
-  "pool": 9594,
-  "passed": 244,
+  "pool": 9621,
+  "passed": 243,
   "india": 30
  },
  "jobs": [
@@ -144,7 +144,7 @@
    "source": "Greenhouse",
    "board": "gitlab",
    "region": "Bangalore, India",
-   "posted": "2026-11-05",
+   "posted": "2026-11-06",
    "tags": [
     "n/a"
    ],
@@ -201,7 +201,7 @@
    "source": "Greenhouse",
    "board": "gitlab",
    "region": "Bangalore, India",
-   "posted": "2026-11-05",
+   "posted": "2026-11-06",
    "tags": [
     "n/a"
    ],
@@ -220,7 +220,7 @@
    "source": "Greenhouse",
    "board": "gitlab",
    "region": "Bangalore, India",
-   "posted": "2026-11-05",
+   "posted": "2026-11-06",
    "tags": [
     "n/a"
    ],
@@ -289,37 +289,13 @@
    "score": 113
   },
   {
-   "title": "Software Engineer 3",
-   "company": "MongoDB",
-   "url": "https://www.mongodb.com/careers/job/?gh_jid=8083366",
-   "source": "Greenhouse",
-   "board": "mongodb",
-   "region": "Gurugram",
-   "posted": "2026-11-05",
-   "tags": [
-    "10006621",
-    "D43450-Website",
-    "T10272-Web Strategy & Technology",
-    "APAC",
-    "Professional - IC",
-    "Full-time"
-   ],
-   "snippet": "p We’re looking for a Software Engineer 3 to join our Marketing Technology Engineering team within Marketing Operations - Technology amp; Automation. This is a hands-on engineering role for someone who enjoys building reliable, scalable digital platforms and i",
-   "full": "p We’re looking for a Software Engineer 3 to join our Marketing Technology Engineering team within Marketing Operations - Technology amp; Automation. This is a hands-on engineering role for someone who enjoys building reliable, scalable digital platforms and internal systems that improve how teams ship, measure, and optimize web experiences. You’ll work across application development, integrations, experimentation, data-informed decision making, and AI-enabled workflows that help the team move faster and deliver better outcomes. /p p We are looking to speak to candidates who are based in Gurugram for our hybrid working model. /p h3 What you’ll do /h3 ul li Build and maintain production-quality software that powers martech experiences /li li Design and implement backend services, internal tools, automations, and integrations across the martech ecosystem /li li Improve system reliability, observability, maintainability, and developer experience across the team’s platforms /li li Contribute to experimentation, personalization, and data workflows that support better customer and developer experiences /li li Help evaluate and apply AI-enabled capabilities and tools where they can improve engineering velocity, quality, or user experience /li li Participate in code reviews, technical design discussions, and team planning /li li Take ownership of projects from implementation through rollout, monitoring, and iteration /li /ul h3 What we’re looking for /h3 ul li 3+ years of professional software engineering experience building and supporting production systems /li li Strong coding skills in one or more modern programming languages such as JavaScript or Python /li li Experience building web applications, backend services, APIs, data pipelines, or internal platforms /li li Solid understanding of software engineering fundamentals including testing, debugging, code quality, and maintainability /li li Experience working with cloud services, CI/CD workflows, and modern development practices /li li Ability to work across systems and collaborate effectively with cross-functional partners /li li Strong written and verbal communication skills /li li Experience partnering with marketing, sales, and revenue operations teams to translate business requirements into clear technical specifications /li li Curiosity, ownership, and a practical approach to solving ambiguous problems /li /ul h3 Nice to have /h3 ul li Experience working with go-to-market platforms (i.e. Marketo, Salesforce, Segment, Ad Platforms), analytics, or experimentation platforms /li li Ability to map lead flows and trace the path a lead takes from website through to opportunity. /li li Familiarity with data pipelines, event instrumentation, or web performance optimization /li li Experience integrating AI or machine learning powered capabilities into products, workflows, or developer tooling /li li Comfort using AI-assisted engineering tools thoughtfully to improve delivery speed and quality /li /ul h3 ",
-   "salaryText": "",
-   "lpa": null,
-   "inIndia": true,
-   "globalRemote": false,
-   "score": 109
-  },
-  {
    "title": "Intermediate Data Engineer",
    "company": "GitLab",
    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8924923002",
    "source": "Greenhouse",
    "board": "gitlab",
    "region": "Bangalore, India",
-   "posted": "2026-11-04",
+   "posted": "2026-11-06",
    "tags": [
     "n/a"
    ],
@@ -405,6 +381,30 @@
    "score": 107
   },
   {
+   "title": "Software Engineer 3",
+   "company": "MongoDB",
+   "url": "https://www.mongodb.com/careers/job/?gh_jid=8239047",
+   "source": "Greenhouse",
+   "board": "mongodb",
+   "region": "Gurugram",
+   "posted": "2026-11-05",
+   "tags": [
+    "n/a",
+    "D22001-App Modernization ENG",
+    "T10339-Modernization ENG",
+    "APAC",
+    "IC - Professional",
+    "Full-time"
+   ],
+   "snippet": "p The Application Modernization Platform (AMP) team is dedicated to solving one of the industry s biggest challenges: transforming rigid, legacy applications that suffer from poor scalability and high operating costs into modern, microservices-based architectu",
+   "full": "p The Application Modernization Platform (AMP) team is dedicated to solving one of the industry s biggest challenges: transforming rigid, legacy applications that suffer from poor scalability and high operating costs into modern, microservices-based architectures on MongoDB. To accelerate this transition, MongoDB is building a dedicated Platform and Infrastructure team to develop the Application Modernisation Platform and Infrastructure . As we help customers modernize their application and data ecosystems, we face the challenge of deploying complex tooling into highly restrictive client environments and architecting automated verification frameworks to ensure data equivalence. /p p This new team will architect the platform foundation and infrastructure that enables a build once, run anywhere model, ensuring our AI-powered modernisation suite operates seamlessly regardless of a client s security or network constraints. We are looking for engineers to join this high-visibility initiative, where you will solve unique distributed systems puzzles and help shape the future of how global enterprises leverage data and AI. /p p We are looking for an experienced Software Engineer who thrives on solving infrastructure constraints and building developer-centric modernisation platforms with a strong background in building software testkits/frameworks. The ideal candidate will be designing and building automated frameworks that validate functional equivalence, performance benchmarks, and data integrity. From leveraging LLMs for unit test generation to building contract testing frameworks, your work will be the safety net for the world’s largest enterprise migrations. /p p This role will be based in our India office in Gurgaon and offers a hybrid working model. /p h3 The ideal candidate for this role will have /h3 ul li 3-4 years of commercial software development experience with at least one JVM language such as Java, preferably using the Spring ecosystem /li li Expertise integrating Large Language Models (LLMs) into the developer workflow to automate unit test generation and edge-case discovery /li li Experience building developer tools, infrastructure, or complex testing frameworks /li li Solid experience in software architecture and development /li li Deep expertise in application/database modernization with proven ability to design and implement frameworks that ensure database state equivalence across different implementations /li li Must understand change data capture, event-driven database interception (MongoDB listeners, RDBMS triggers), and state comparison algorithms with pattern-based exclusions. Strong Spring Boot (or equivalent Java framework), MongoDB (or equivalent), and JDBC/JPA skills required /li li Extensive experience with relational and document data modeling and hands-on experience with at least one SQL database (Postgres, MySQL, etc) and at least one document database (e.g. MongoDB) /li li Good understanding of algorithms, data structure",
+   "salaryText": "",
+   "lpa": null,
+   "inIndia": true,
+   "globalRemote": false,
+   "score": 105
+  },
+  {
    "title": "Software Engineer, Core Technology",
    "company": "Stripe",
    "url": "https://stripe.com/jobs/search?gh_jid=7618977",
@@ -460,6 +460,44 @@
    "score": 93
   },
   {
+   "title": "People Systems Engineer",
+   "company": "GitLab",
+   "url": "https://job-boards.greenhouse.io/gitlab/jobs/8861748002",
+   "source": "Greenhouse",
+   "board": "gitlab",
+   "region": "Bangalore, India; Remote, Poland",
+   "posted": "2026-11-06",
+   "tags": [
+    "n/a"
+   ],
+   "snippet": "div class= content-intro p GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformati",
+   "full": "div class= content-intro p GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and more than 50% of the Fortune 100* trust GitLab to ship better, more secure software faster. /p p The same principles built into our products are reflected in how our team works: we embrace AI as a core productivity multiplier, with all team members expected to incorporate AI into their daily workflows to drive efficiency, innovation, and impact. GitLab is where careers accelerate, innovation flourishes, and every voice is valued. Our high-performance culture is driven by our values nbsp;and continuous knowledge exchange, enabling our team members to reach their full potential while collaborating with industry leaders to solve complex problems. a href= https://www.youtube.com/watch?v=OuZIb5zszQI Co-create the future with us /a as we build technology that transforms how the world develops software. /p p * em Fortune 500® is a registered trademark of Fortune Media IP Limited, used under license. Claim based on GitLab data. Fortune 100 refers to the top 20% ranked companies in the 2025 Fortune 500 list, published in June 2025. Fortune and Fortune Media IP Limited are not affiliated with, and do not endorse products or services of GitLab. /em /p /div h4 strong An overview of this role /strong /h4 p At GitLab, People technology never stands still, and as a People Systems Engineer, you’ll build what keeps it moving. Reporting to the Senior Director, People Technology, and working alongside our Lead People Systems Engineer, you’ll design, build and maintain the automations, integrations and AI-powered workflows that connect Workday, Greenhouse, Slack and the tools that power our global workforce. You’ll own features from request through tested code, deployment and ongoing reliability across Workato, Google Cloud and Claude. With an AI-forward mindset, you’ll rethink how People work gets done, eliminating manual effort and creating streamlined, delightful experiences for team members. If you think like a software engineer, love solving puzzles and want to grow your career at the intersection of people systems, AI and automation in an all-remote, async-first environment, this is your role. /p p strong What You’ll Do /strong nbsp; nbsp; /p ul li Build, test and maintain People system automations and integrations across Workato, Google Cloud Platform, Claude, Workday, Greenhouse and GitLab, owning your features from design through deployment. /li li Develop integrations between Workday, Greenhouse, Slack and internal tools using Workday Web Services (WWS) and Slack’s API and Bot SDK, and build Slack apps and bots that turn manual steps into simple, automated workflows for team members around the world. /li li Write clean, readable automation code in Ruby or ",
+   "salaryText": "",
+   "lpa": null,
+   "inIndia": true,
+   "globalRemote": true,
+   "score": 87
+  },
+  {
+   "title": "Software Engineer, Delivery : Release",
+   "company": "GitLab",
+   "url": "https://job-boards.greenhouse.io/gitlab/jobs/8916232002",
+   "source": "Greenhouse",
+   "board": "gitlab",
+   "region": "Bangalore, India",
+   "posted": "2026-11-06",
+   "tags": [
+    "n/a"
+   ],
+   "snippet": "div class= content-intro p GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformati",
+   "full": "div class= content-intro p GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and more than 50% of the Fortune 100* trust GitLab to ship better, more secure software faster. /p p The same principles built into our products are reflected in how our team works: we embrace AI as a core productivity multiplier, with all team members expected to incorporate AI into their daily workflows to drive efficiency, innovation, and impact. GitLab is where careers accelerate, innovation flourishes, and every voice is valued. Our high-performance culture is driven by our values nbsp;and continuous knowledge exchange, enabling our team members to reach their full potential while collaborating with industry leaders to solve complex problems. a href= https://www.youtube.com/watch?v=OuZIb5zszQI Co-create the future with us /a as we build technology that transforms how the world develops software. /p p * em Fortune 500® is a registered trademark of Fortune Media IP Limited, used under license. Claim based on GitLab data. Fortune 100 refers to the top 20% ranked companies in the 2025 Fortune 500 list, published in June 2025. Fortune and Fortune Media IP Limited are not affiliated with, and do not endorse products or services of GitLab. /em /p /div p The Software Delivery Section, part of the Infrastructure Platforms Department, is dedicated to enhancing the safety, reliability, and overall customer experience of GitLab’s complete software delivery process. We aim to provide seamless and efficient delivery of GitLab products across all platforms, including SaaS multi-tenant, self-managed, and SaaS single-tenant environments. Our primary goals are to accelerate delivery cycles, minimize incidents, and ensure high-quality releases that consistently meet and exceed customer expectations. By focusing on these objectives, we aim to improve GitLab’s end-to-end software delivery process, making it more reliable, efficient, and aligned with the needs of our users. /p p strong Responsibilities /strong /p p Backend Engineers with the Software Delivery:Release bring not only a strong background in backend development but also a solid understanding of, or keen interest in, infrastructure and operations. In this role, you will work alongside Site Reliability Engineers (SREs) to enhance release management tooling, infrastructure, and processes. While SREs approach these responsibilities from an operational standpoint, Backend Engineers provide a software development perspective, collaborating closely to deliver efficient and safe solutions for streamlined code delivery across various supported environments. This role is ideal for individuals with a strong coding background who are also comfortable working on infrastructure, automation and operations-related topic",
+   "salaryText": "",
+   "lpa": null,
+   "inIndia": true,
+   "globalRemote": false,
+   "score": 87
+  },
+  {
    "title": "Applications Engineer 2",
    "company": "Twilio",
    "url": "https://job-boards.greenhouse.io/twilio/jobs/7781659",
@@ -479,25 +517,6 @@
    "score": 87
   },
   {
-   "title": "Software Engineer, Delivery : Release",
-   "company": "GitLab",
-   "url": "https://job-boards.greenhouse.io/gitlab/jobs/8916232002",
-   "source": "Greenhouse",
-   "board": "gitlab",
-   "region": "Bangalore, India",
-   "posted": "2026-11-05",
-   "tags": [
-    "n/a"
-   ],
-   "snippet": "div class= content-intro p GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformati",
-   "full": "div class= content-intro p GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and more than 50% of the Fortune 100* trust GitLab to ship better, more secure software faster. /p p The same principles built into our products are reflected in how our team works: we embrace AI as a core productivity multiplier, with all team members expected to incorporate AI into their daily workflows to drive efficiency, innovation, and impact. GitLab is where careers accelerate, innovation flourishes, and every voice is valued. Our high-performance culture is driven by our values nbsp;and continuous knowledge exchange, enabling our team members to reach their full potential while collaborating with industry leaders to solve complex problems. a href= https://www.youtube.com/watch?v=OuZIb5zszQI Co-create the future with us /a as we build technology that transforms how the world develops software. /p p * em Fortune 500® is a registered trademark of Fortune Media IP Limited, used under license. Claim based on GitLab data. Fortune 100 refers to the top 20% ranked companies in the 2025 Fortune 500 list, published in June 2025. Fortune and Fortune Media IP Limited are not affiliated with, and do not endorse products or services of GitLab. /em /p /div p The Software Delivery Section, part of the Infrastructure Platforms Department, is dedicated to enhancing the safety, reliability, and overall customer experience of GitLab’s complete software delivery process. We aim to provide seamless and efficient delivery of GitLab products across all platforms, including SaaS multi-tenant, self-managed, and SaaS single-tenant environments. Our primary goals are to accelerate delivery cycles, minimize incidents, and ensure high-quality releases that consistently meet and exceed customer expectations. By focusing on these objectives, we aim to improve GitLab’s end-to-end software delivery process, making it more reliable, efficient, and aligned with the needs of our users. /p p strong Responsibilities /strong /p p Backend Engineers with the Software Delivery:Release bring not only a strong background in backend development but also a solid understanding of, or keen interest in, infrastructure and operations. In this role, you will work alongside Site Reliability Engineers (SREs) to enhance release management tooling, infrastructure, and processes. While SREs approach these responsibilities from an operational standpoint, Backend Engineers provide a software development perspective, collaborating closely to deliver efficient and safe solutions for streamlined code delivery across various supported environments. This role is ideal for individuals with a strong coding background who are also comfortable working on infrastructure, automation and operations-related topic",
-   "salaryText": "",
-   "lpa": null,
-   "inIndia": true,
-   "globalRemote": false,
-   "score": 87
-  },
-  {
    "title": "Software Engineer, Security Platform",
    "company": "Coinbase",
    "url": "https://www.coinbase.com/careers/positions/8165441?gh_jid=8165441",
@@ -511,7 +530,7 @@
     "Security & Privacy"
    ],
    "snippet": "div class= content-intro p Ready to do the most impactful work of your career? At nbsp; a href= https://www.coinbase.com/?utm_campaign=mt_o_m_w_m_m__coi_0_jd-onchain amp;utm_source=coinbase Coinbase /a , we are uncompromising on our mission to increase economi",
-   "full": "div class= content-intro p Ready to do the most impactful work of your career? At nbsp; a href= https://www.coinbase.com/?utm_campaign=mt_o_m_w_m_m__coi_0_jd-onchain amp;utm_source=coinbase Coinbase /a , we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we like it that way. This isn t a place for complacency, it’s a place to be pushed past your perceived limits. If you re ready to build the future of finance alongside people who refuse to settle for good enough, you belong here. Coinbase is a remote-first, but not remote-only company. Expect to get together quarterly for intense in-person working sessions called “surges.” nbsp; a href= https://www.coinbase.com/careers learn more about working at Coinbase /a . /p /div p Coinbase stores a large amount of digital currency making us a top tier target on the internet. Security is core to our mission and has been a key competitive differentiator for us as we scale. Security Platform Engineering ( SPE ) team is building platform capabilities for a variety of security use cases critical for security, compliance and privacy at Coinbase. Some of the key functional areas we are developing capabilities for are secrets and key management, identity access and management, onchain security, policy and risk management, vulnerabilities management enabling our product, compliance, security and services teams to protect Coinbase and our customers. /p p strong What you’ll do: nbsp; /strong /p ul li Architect and develop platform for security platform engineering org /li li Provide technical structure to teams and work closely with management and stakeholders to define strategic roadmaps /li li Build new services to meet critical product and business needs using Golang / Java /li li Design scalable systems to solve novel problems with modern cloud technology and industry best practices. /li li Manage individual projects priorities, deadlines and deliverables with your technical expertise /li li Mentor and train other team members on design techniques and coding standards /li li Articulate a long term vision for maintaining and scaling our backend systems and the teams running them. /li li Work with engineers, designers, product managers and senior leadership to turn our product and technical vision into a tangible roadmap every quarter. /li li Write high quality, well tested code to meet the needs of your customers. Debugging extremely difficult technical problems, and making systems and products both work better and are easier to deploy, own, operate and diagnose. /li li Review all feature designs within your product area and across the company for cross-cutting projects. Be an owner of the security, safety, scale, operational integrity, and architectural clarity of these designs. /li /ul p strong Required Skills and Experience: /strong /p ul li You have at least 3+ years of experience in software engineering /li li You’ve designed, built, scaled and m",
+   "full": "div class= content-intro p Ready to do the most impactful work of your career? At nbsp; a href= https://www.coinbase.com/?utm_campaign=mt_o_m_w_m_m__coi_0_jd-onchain amp;utm_source=coinbase Coinbase /a , we are uncompromising on our mission to increase economic freedom. The bar is high, the environment is intense, and we like it that way. This isn t a place for complacency, it’s a place to be pushed past your perceived limits. If you re ready to build the future of finance alongside people who refuse to settle for good enough, you belong here. Coinbase is a remote-first, but not remote-only company. Expect to get together quarterly for intense in-person working sessions called “surges.” nbsp; a href= https://www.coinbase.com/careers Learn more about working at Coinbase /a . /p div id= fortidlp-input-element-parent /div /div p Coinbase stores a large amount of digital currency making us a top tier target on the internet. Security is core to our mission and has been a key competitive differentiator for us as we scale. Security Platform Engineering ( SPE ) team is building platform capabilities for a variety of security use cases critical for security, compliance and privacy at Coinbase. Some of the key functional areas we are developing capabilities for are secrets and key management, identity access and management, onchain security, policy and risk management, vulnerabilities management enabling our product, compliance, security and services teams to protect Coinbase and our customers. /p p strong What you’ll do: nbsp; /strong /p ul li Architect and develop platform for security platform engineering org /li li Provide technical structure to teams and work closely with management and stakeholders to define strategic roadmaps /li li Build new services to meet critical product and business needs using Golang / Java /li li Design scalable systems to solve novel problems with modern cloud technology and industry best practices. /li li Manage individual projects priorities, deadlines and deliverables with your technical expertise /li li Mentor and train other team members on design techniques and coding standards /li li Articulate a long term vision for maintaining and scaling our backend systems and the teams running them. /li li Work with engineers, designers, product managers and senior leadership to turn our product and technical vision into a tangible roadmap every quarter. /li li Write high quality, well tested code to meet the needs of your customers. Debugging extremely difficult technical problems, and making systems and products both work better and are easier to deploy, own, operate and diagnose. /li li Review all feature designs within your product area and across the company for cross-cutting projects. Be an owner of the security, safety, scale, operational integrity, and architectural clarity of these designs. /li /ul p strong Required Skills and Experience: /strong /p ul li You have at least 3+ years of experience in software engineering ",
    "salaryText": "",
    "lpa": null,
    "inIndia": true,
@@ -533,25 +552,6 @@
    "lpa": null,
    "inIndia": true,
    "globalRemote": false,
-   "score": 87
-  },
-  {
-   "title": "People Systems Engineer",
-   "company": "GitLab",
-   "url": "https://job-boards.greenhouse.io/gitlab/jobs/8861748002",
-   "source": "Greenhouse",
-   "board": "gitlab",
-   "region": "Bangalore, India; Remote, Poland",
-   "posted": "2026-10-28",
-   "tags": [
-    "n/a"
-   ],
-   "snippet": "div class= content-intro p GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformati",
-   "full": "div class= content-intro p GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and more than 50% of the Fortune 100* trust GitLab to ship better, more secure software faster. /p p The same principles built into our products are reflected in how our team works: we embrace AI as a core productivity multiplier, with all team members expected to incorporate AI into their daily workflows to drive efficiency, innovation, and impact. GitLab is where careers accelerate, innovation flourishes, and every voice is valued. Our high-performance culture is driven by our values nbsp;and continuous knowledge exchange, enabling our team members to reach their full potential while collaborating with industry leaders to solve complex problems. a href= https://www.youtube.com/watch?v=OuZIb5zszQI Co-create the future with us /a as we build technology that transforms how the world develops software. /p p * em Fortune 500® is a registered trademark of Fortune Media IP Limited, used under license. Claim based on GitLab data. Fortune 100 refers to the top 20% ranked companies in the 2025 Fortune 500 list, published in June 2025. Fortune and Fortune Media IP Limited are not affiliated with, and do not endorse products or services of GitLab. /em /p /div h4 strong An overview of this role /strong /h4 p At GitLab, People technology never stands still, and as a People Systems Engineer, you’ll build what keeps it moving. Reporting to the Senior Director, People Technology, and working alongside our Lead People Systems Engineer, you’ll design, build and maintain the automations, integrations and AI-powered workflows that connect Workday, Greenhouse, Slack and the tools that power our global workforce. You’ll own features from request through tested code, deployment and ongoing reliability across Workato, Google Cloud and Claude. With an AI-forward mindset, you’ll rethink how People work gets done, eliminating manual effort and creating streamlined, delightful experiences for team members. If you think like a software engineer, love solving puzzles and want to grow your career at the intersection of people systems, AI and automation in an all-remote, async-first environment, this is your role. /p p strong What You’ll Do /strong nbsp; nbsp; /p ul li Build, test and maintain People system automations and integrations across Workato, Google Cloud Platform, Claude, Workday, Greenhouse and GitLab, owning your features from design through deployment. /li li Develop integrations between Workday, Greenhouse, Slack and internal tools using Workday Web Services (WWS) and Slack’s API and Bot SDK, and build Slack apps and bots that turn manual steps into simple, automated workflows for team members around the world. /li li Write clean, readable automation code in Ruby or ",
-   "salaryText": "",
-   "lpa": null,
-   "inIndia": true,
-   "globalRemote": true,
    "score": 87
   },
   {
@@ -597,25 +597,6 @@
    "score": 87
   },
   {
-   "title": "Software Engineer II, Backend (Card Integrations and Payments Experience)",
-   "company": "Affirm",
-   "url": "https://job-boards.greenhouse.io/affirm/jobs/8006331003",
-   "source": "Greenhouse",
-   "board": "affirm",
-   "region": "Remote Poland",
-   "posted": "2026-10-30",
-   "tags": [
-    "Engineering (Europe)"
-   ],
-   "snippet": "div class= content-intro p At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. /p /div div p The Card team is responsible for the Car",
-   "full": "div class= content-intro p At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. /p /div div p The Card team is responsible for the Card products at Affirm. Our central focus is developing high quality, seamless, scalable and flexible platforms that enable users to get transparent, honest financing for their purchases anywhere with Affirm’s card products. nbsp; /p As a Software Engineer on the Card Checkout team, you will play a critical role in the development and implementation of complex software systems that allow for a seamless checkout experience for our users. br We re looking for a highly motivated Software Engineer to join the Card engineering team within the Direct to Consumer organization. Our team focuses on the in-app experience of Affirm Card products. We are a full-stack team of backend and mobile engineers partnering closely with product, design, and analytics to build scalable systems and experiences that power our Card products. p strong What You ll Do nbsp; /strong /p ul li With the support of your team’s tech lead and manager, you will break down larger projects into individual tasks, deliver them in multiple phases, and collaborate with others to ensure timely delivery of your work. /li li You will support your peers and stakeholders in the product development lifecycle by collaborating with product management, design amp; analytics by participating in ideation, articulating technical constraints, and partnering on decisions that properly consider risks and trade-offs. /li li You will support the operations and availability of your team’s artifacts by creating and monitoring metrics, escalating when needed, and supporting “keep the lights on” amp; on-call efforts. /li li You will contribute to a sense of community on your team by engaging in growth and development activities such as participation in the interview process. /li /ul p strong What We Look For /strong strong nbsp; /strong /p ul li You have a total of 2+ years of experience as a software engineer. /li li You have experience designing, developing and launching backend systems and are proficient in one of Python or Kotlin. /li li You are familiar with the building blocks of distributed systems, and technologies like AWS, MySQL and Kubernetes. /li li You write high quality code that is easily understood and used by others. nbsp; /li li You are comfortable navigating a large code base, debugging others code, and providing feedback to other engineers through code reviews. /li li You have mastered taking a simple problem or business scenario into a solution that interacts with multiple software components, and executing on it by writing clear, easily understood, well tested and extensible code. /li li Your experience demonstrates that you take ownership of your growth, proactively seeking feedback from your team, your manager, and your stakeholders",
-   "salaryText": "",
-   "lpa": null,
-   "inIndia": false,
-   "globalRemote": true,
-   "score": 139
-  },
-  {
    "title": "Platform Engineer - Compute Capacity",
    "company": "supabase",
    "url": "https://jobs.ashbyhq.com/supabase/4eb14408-51e6-4c58-812a-3782d5c0b045",
@@ -643,7 +624,7 @@
    "source": "Greenhouse",
    "board": "gitlab",
    "region": "Remote, United Kingdom",
-   "posted": "2026-11-05",
+   "posted": "2026-11-06",
    "tags": [
     "n/a"
    ],
@@ -803,7 +784,7 @@
   {
    "title": "Infrastructure Engineer",
    "company": "railway",
-   "url": "https://jobs.ashbyhq.com/railway/b8072f95-043f-404d-a313-f0bdf8dd3c81",
+   "url": "https://jobs.ashbyhq.com/Railway/b8072f95-043f-404d-a313-f0bdf8dd3c81",
    "source": "Ashby",
    "board": "railway",
    "region": "Global",
@@ -820,6 +801,27 @@
    "inIndia": false,
    "globalRemote": true,
    "score": 103
+  },
+  {
+   "title": "Junior Backend Developer (Node.js)",
+   "company": "MasterBorn",
+   "url": "https://himalayas.app/companies/masterborn/jobs/junior-backend-developer-node-js?utm_source=api",
+   "source": "Himalayas",
+   "board": "",
+   "region": "Albania, Andorra, Austria, Belarus, Belgium, Bosnia and Herzegovina, Bulgaria, Croatia, Cyprus, Czechia, Denmark, Estonia, Faroe Islands, Finland, France, Germany, Gibraltar, Greece, Guernsey, Holy See (Vatican City State), Hungary, Iceland, Ireland, Isle of Man, Italy, Jersey, Kosovo, Latvia, Liechtenstein, Lithuania, Luxembourg, Malta, Moldova, Monaco, Montenegro, Netherlands, North Macedonia, Norway, Poland, Portugal, Romania, San Marino, Serbia, Slovakia, Slovenia, Spain, Svalbard and Jan Mayen, Sweden, Switzerland, Ukraine, United Kingdom, Åland Islands",
+   "posted": "2026-11-07",
+   "tags": [
+    "Backend-Engineer",
+    "NodeJS-Developer",
+    "Software-Engineer"
+   ],
+   "snippet": "We are looking for a skillful Backend Developer to join one of our teams working with US clients - referrals from the high-end American IT market.",
+   "full": "We are looking for a skillful Backend Developer to join one of our teams working with US clients - referrals from the high-end American IT market.",
+   "salaryText": "USD 6k–10k",
+   "lpa": 8.8,
+   "inIndia": false,
+   "globalRemote": false,
+   "score": 102
   },
   {
    "title": "Software Engineer - Distributed Systems",
@@ -919,32 +921,13 @@
    "score": 96
   },
   {
-   "title": "Software Engineer I, Fullstack (Search)",
-   "company": "Affirm",
-   "url": "https://job-boards.greenhouse.io/affirm/jobs/8017340003",
-   "source": "Greenhouse",
-   "board": "affirm",
-   "region": "Remote US",
-   "posted": "2026-10-30",
-   "tags": [
-    "Engineering"
-   ],
-   "snippet": "div class= content-intro p At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. /p /div p Search has become the default way consumers ",
-   "full": "div class= content-intro p At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. /p /div p Search has become the default way consumers discover where to shop, compare options, and decide what to buy across platforms like Google, TikTok, and even Klarna. As we build a new Ads business and evolve Marketplace into a best in class shopping experience, improving search is one of our highest leverage investments to create an experience users choose and merchants want to invest in. br br strong What You ll Do /strong /p ul li With the support of your team, you will work on tasks that contribute to the team s projects and goals. /li li You will work collaboratively and proactively with your team and stakeholders, bringing them along for your work and helping to create visibility and dialog regarding the risks and trade-offs related to your work. /li li You will strike the right balance of speed and quality in your work, ensuring that we hit our business goals while protecting our systems from downtime. /li li You will contribute to a sense of community on your team by engaging in growth and development activities. /li /ul p br strong What We Look For br /strong /p ul li You have previous work or internship experience working with Javascript/Typescript. /li li You have previous work or internship experience designing, developing and launching backend systems at scale and are experienced using Python or Kotlin. /li li You have mastered taking a simple problem or business scenario into a solution that interacts with multiple software components, and executing on it by writing clear, easily understood, well tested and extensible code. /li li You are comfortable navigating a large code base, debugging others code, and providing feedback to other engineers through code reviews. /li li Your experience demonstrates that you take ownership of your growth, proactively seeking feedback from your team, your manager, and your stakeholders. /li li You have strong verbal and written communication skills that support effective collaboration with our global engineering team. /li li This position requires either equivalent practical experience or a Bachelor’s degree in a related field. /li /ul div div div p nbsp; /p p strong Base Pay Grade /strong - J br strong Equity Grade /strong - 5 br br Employees new to Affirm typically come in at the start of the pay range. Affirm focuses on providing a simple and transparent pay structure which is based on a variety of factors, including location, experience and job-related skills. br Base pay is part of a total compensation package that may include equity rewards, monthly stipends for health, wellness and tech spending, and benefits (including 100% subsidized medical coverage, dental and vision for you and your dependents.) br br strong USA base pay range (CA, WA, NY, NJ, CT) per year: /strong $130,000 - $18",
-   "salaryText": "",
-   "lpa": null,
-   "inIndia": false,
-   "globalRemote": true,
-   "score": 93
-  },
-  {
    "title": "Backend Engineer, Source Code: Repository Services (Ruby)",
    "company": "GitLab",
    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8912709002",
    "source": "Greenhouse",
    "board": "gitlab",
    "region": "Remote, United Kingdom",
-   "posted": "2026-11-05",
+   "posted": "2026-11-06",
    "tags": [
     "n/a"
    ],
@@ -1042,7 +1025,7 @@
    "source": "Greenhouse",
    "board": "gitlab",
    "region": "Remote, Poland; Remote, United Kingdom",
-   "posted": "2026-11-05",
+   "posted": "2026-11-06",
    "tags": [
     "n/a"
    ],
@@ -1061,31 +1044,12 @@
    "source": "Greenhouse",
    "board": "gitlab",
    "region": "Remote, Poland",
-   "posted": "2026-11-05",
+   "posted": "2026-11-06",
    "tags": [
     "n/a"
    ],
    "snippet": "div class= content-intro p GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformati",
    "full": "div class= content-intro p GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and more than 50% of the Fortune 100* trust GitLab to ship better, more secure software faster. /p p The same principles built into our products are reflected in how our team works: we embrace AI as a core productivity multiplier, with all team members expected to incorporate AI into their daily workflows to drive efficiency, innovation, and impact. GitLab is where careers accelerate, innovation flourishes, and every voice is valued. Our high-performance culture is driven by our values nbsp;and continuous knowledge exchange, enabling our team members to reach their full potential while collaborating with industry leaders to solve complex problems. a href= https://www.youtube.com/watch?v=OuZIb5zszQI Co-create the future with us /a as we build technology that transforms how the world develops software. /p p * em Fortune 500® is a registered trademark of Fortune Media IP Limited, used under license. Claim based on GitLab data. Fortune 100 refers to the top 20% ranked companies in the 2025 Fortune 500 list, published in June 2025. Fortune and Fortune Media IP Limited are not affiliated with, and do not endorse products or services of GitLab. /em /p /div p strong An overview of this role /strong /p p The Pipeline Authoring group develops tools for creating and managing your pipelines. We balance maintaining core functionality of the product with developing newer areas. Our key areas of focus are a href= https://docs.gitlab.com/ci/components/ CI/CD components /a and the a href= https://about.gitlab.com/blog/faq-gitlab-ci-cd-catalog/ CI/CD Catalog /a , which allows users to discover, reuse, and contribute CI/CD components to make software development more efficient and productive. /p p As a Backend Engineer, you will work on maturing our Catalog and Component functionality and reliability, improve and maintain performance, scalability and security of Pipeline Creation, and always consider usability and user experience in these key areas of the product. Your contributions and collaboration with your fellow team members will ensure that GitLab CI/CD remains a best in class solution. /p p Some of the things we have recently been working on include: /p ul li a href= https://gitlab.com/groups/gitlab-org/-/epics/16321 Inputs for Pipelines /a /li li a href= https://gitlab.com/groups/gitlab-org/-/epics/17833 Inputs for Jobs /a /li li a href= https://gitlab.com/groups/gitlab-org/-/epics/10603 Inputs Enhancements /a /li li a href= https://gitlab.com/groups/gitlab-org/-/epics/15241 CI/CD Catalog - UX improvements /a /li li Learn more on the Pipeline Authoring direction pages: /li ul li a href= https://about.gitlab.com/direction/verify/pipeline_composition/ Pipeline Co",
-   "salaryText": "",
-   "lpa": null,
-   "inIndia": false,
-   "globalRemote": true,
-   "score": 85
-  },
-  {
-   "title": "Software Engineer II, Backend (Test Infra)",
-   "company": "Affirm",
-   "url": "https://job-boards.greenhouse.io/affirm/jobs/7727320003",
-   "source": "Greenhouse",
-   "board": "affirm",
-   "region": "Remote US",
-   "posted": "2026-10-30",
-   "tags": [
-    "Engineering"
-   ],
-   "snippet": "div class= content-intro p At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. /p /div p Affirm is reinventing credit to make it more",
-   "full": "div class= content-intro p At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. /p /div p Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. br We are seeking a highly motivated Software Engineer II with strong experience in test automation to contribute to Developer Productivity, with a focus on Test Platform Engineering. The Test Infra team empowers developers to efficiently write, run, analyze, and maintain automated tests. The team’s goals include expanding testing capabilities; building and maintaining testing frameworks; optimizing test orchestration; improving post-run reporting; ensuring the performance and reliability of CI pipelines; introducing AI-driven solutions to enhance developer productivity; and promoting best practices for test automation across the organization. /p p br As a Software Engineer II in Test Platform Engineering, you will play a key role in building and evolving the core testing infrastructure that supports engineering productivity across the organization. Your work will have a direct impact on how hundreds of engineers develop, validate, and deliver high-quality software. You will focus on designing and maintaining scalable, reliable, and developer-friendly frontend and backend test automation solutions, as well as CI pipelines, enabling teams to deliver changes with confidence and receive fast, actionable feedback. You will collaborate closely with the Engineering Manager and the team in Europe to continuously improve quality. br Affirm is growing fast and we want you to enable us to scale our products to 10x and beyond through building world-class systems that enable Affirm in its mission to provide honest financial products that improve lives. br br strong What You ll Do: /strong /p ul li p Own, improve, and maintain integration and E2E test automation frameworks, along with their associated CI pipelines. /p /li li p Design and implement technical solutions to optimize test execution time and enhance test stability. /p /li li p Write technical specifications and ADRs, contribute to technical solution design, and collaborate with engineers across the company. /p /li li p Support engineering teams by assisting with triage requests and sharing best practices for quality assurance and test automation. /p /li li p Contribute to the evolution of the company’s overall test strategy. /p /li li p With the support of your team’s tech lead and manager, you will break down larger projects into individual tasks, deliver them in multiple phases, and collaborate with others to ensure timely delivery of your work. /p /li li p This role includes participation in an on-call rotation /p /li /ul p br strong What We Look For: /strong /p ul li p An East Coast location to enable smoother co",
    "salaryText": "",
    "lpa": null,
    "inIndia": false,
@@ -1314,23 +1278,6 @@
    "score": 79
   },
   {
-   "title": "Software Engineer",
-   "company": "Stripe",
-   "url": "https://stripe.com/jobs/search?gh_jid=8267736",
-   "source": "Greenhouse",
-   "board": "stripe",
-   "region": "Seattle, WA",
-   "posted": "2026-10-29",
-   "tags": [],
-   "snippet": "h2 strong Who we are /strong /h2 h3 strong About Stripe nbsp; /strong /h3 p Stripe, LLC. is a financial infrastructure platform for businesses. Millions of companies - from the world’s largest enterprises to the most ambitious startups - use Stripe to accept p",
-   "full": "h2 strong Who we are /strong /h2 h3 strong About Stripe nbsp; /strong /h3 p Stripe, LLC. is a financial infrastructure platform for businesses. Millions of companies - from the world’s largest enterprises to the most ambitious startups - use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone s reach while doing the most important work of your career. /p h2 strong What you’ll do /strong /h2 h3 strong Responsibilities /strong /h3 ul li Conducting technical interviews; nbsp; /li li Creating software, tooling and distributed systems for automating and managing data center network hardware and compute stacks; /li li Creating and operating shared infrastructure for Stripe’s Cardholder data environment; /li li Deployment tooling; nbsp; /li li SOX compliance audit prep interviews, and remediations; nbsp; /li li PCI compliance audit prep, interviews, and remediations; nbsp; /li li Project management; /li li Mentoring junior engineers; nbsp; /li li On-call responsibilities. /li /ul h2 strong Who you are /strong /h2 h3 strong Minimum requirements /strong /h3 p Must have a Bachelor s degree or foreign equivalent in Computer Science, Software Engineering, or related field, plus two (2) years of Software Development experience. Position also requires the following: /p ul li 2 years of experience with AWS cloud infrastructure and Terraform infrastructure automation; /li li 2 years of experience with reliability, scalability, and distributed systems principles; /li li 1 year of experience in Go and Ansible programming languages; /li li 1 year of experience in Puppet host configuration; /li li 1 year of experience in Ruby programming language; /li li 1 year of experience in Python programming language; /li li 1 year of experience in mentorship and leadership of junior software engineers; /li li 1 year of experience performing 24/7 on call rotations to support high-availability software systems; /li li 1 year of experience with monitoring and logging tools; /li li 1 year of experience with computer network concepts; /li li 1 year of experience in the knowledge of Linux operating system and subsystems; /li li 1 year of experience with cloud and application security best practices; and /li li 1 year of experience with PCI compliance monitoring, audit processes, and evidence collection. /li /ul p Salary: $190,400.00 - $285,600.00/yr /p p This salary range represents the base salary range for the role and any sales commissions/sales bonuses targets, if applicable, would be in addition to the base salary. /p p 40 hrs/week /p p strong 50% remote work permitted /strong /p p Multiple Positions Available. nbsp; /p p Additional benefits for this role may include: equity, company bonus or sales commissions/bonuses; 401(k) plan; medical, dental, and v",
-   "salaryText": "",
-   "lpa": null,
-   "inIndia": false,
-   "globalRemote": false,
-   "score": 76
-  },
-  {
    "title": "SDE II - Data Engineer",
    "company": "InMobi ",
    "url": "https://job-boards.greenhouse.io/inmobi/jobs/7747785",
@@ -1388,7 +1335,7 @@
   {
    "title": "Backend Engineer- Inference Services",
    "company": "deepgram",
-   "url": "https://jobs.ashbyhq.com/deepgram/2084edc0-2df0-4bd4-b759-0f05c38d5ef5",
+   "url": "https://jobs.ashbyhq.com/Deepgram/2084edc0-2df0-4bd4-b759-0f05c38d5ef5",
    "source": "Ashby",
    "board": "deepgram",
    "region": "USA - Remote",
@@ -1413,7 +1360,7 @@
    "source": "Greenhouse",
    "board": "gitlab",
    "region": "Remote, Canada; Remote, Poland; Remote, United Kingdom",
-   "posted": "2026-11-05",
+   "posted": "2026-11-06",
    "tags": [
     "n/a"
    ],
@@ -1443,6 +1390,27 @@
    "inIndia": false,
    "globalRemote": false,
    "score": 72
+  },
+  {
+   "title": "Software Engineer, Size Analysis & Snapshots",
+   "company": "sentry",
+   "url": "https://jobs.ashbyhq.com/sentry/29de413e-afbb-437f-9e69-e18ae5c4dd26",
+   "source": "Ashby",
+   "board": "sentry",
+   "region": "Vienna, Austria",
+   "posted": "2026-11-06",
+   "tags": [
+    "Engineering ",
+    "Engineering ",
+    "FullTime"
+   ],
+   "snippet": "ABOUT SENTRY Software runs the world and the pace is faster than ever. Sentry helps developers fix errors and performance issues before users notice, so teams can spend less time firefighting and more time building. Trusted by 200,000+ organizations, Sentry is",
+   "full": "ABOUT SENTRY Software runs the world and the pace is faster than ever. Sentry helps developers fix errors and performance issues before users notice, so teams can spend less time firefighting and more time building. Trusted by 200,000+ organizations, Sentry is today’s application monitoring standard and our team is building its AI-native future. ABOUT THE ROLE You’ll join the team behind Sentry’s Size Analysis and Snapshots, two products that check every pull request before it ships. Size Analysis breaks down iOS and Android builds to explain why an app got bigger. Snapshots catches unintended visual changes by diffing screenshots against a baseline. Both run in our customers’ CI, report straight to Source Code Management providers, and handle some of the heaviest payloads at Sentry: multi-GB app binaries and builds with tens of thousands of images. IN THIS ROLE YOU WILL You’ll work full-stack with a backend lean, owning features from the moment a build arrives from CI, to the moment when UI engineers use that data to decide whether to merge. You’ll own the codebase behind our mobile binary analysis and large-scale image comparison. You’ll share the pipeline, the GitHub integration and on-call with the rest of the Sentry team. - Build and tune the backend services and task-based pipelines that ingest, analyze and compare builds, with large artifacts in object storage, fast and reliable on multi-GB binaries and changesets with tens of thousands of screenshots - Extend our product: own the functionality end-to-end, react on feedback and come up with proposals for further product development. - Own the GitHub integration end to end: PR status checks, comments, approvals and webhooks, including races, duplicates and missing-baseline edge cases - Ship frontend features such as treemaps, build comparisons and diff viewers that stay fast on huge datasets - Run what you build: deploys across regions, metrics, logging and on-call, and be the person who debugs the weird customer build YOU’LL LOVE THIS JOB IF YOU - Want your work to show up in the pull requests our customers open every day, not buried in a dashboard nobody checks - Like problems with real weight: a multi-GB IPA, tens of thousands of screenshots in a single build, a binary format with sparse documentation - Would rather own a feature from upload to UI than hand off half of it (end-to-end ownership) - Enjoy building for developers, who will tell you exactly what’s wrong and why - Want to help two products that started at a startup grow into core parts of Sentry QUALIFICATIONS - 3+ years building production web services, with strong Python (Django preferred) and a habit of typed, tested code - Working proficiency in React and TypeScript, enough to ship a full feature without handing off the frontend - Experience with async task systems and event pipelines (Kafka, task queues, worker pools), including idempotency, locking, retries and their failure modes - Experience with Postgres schema design",
+   "salaryText": "€81K – €220K • Offers Equity • Plus up to 20% bonus",
+   "lpa": null,
+   "inIndia": false,
+   "globalRemote": false,
+   "score": 70
   },
   {
    "title": "Infrastructure Software Engineer, Enterprise GenAI",
@@ -1616,6 +1584,27 @@
    "score": 69
   },
   {
+   "title": "Software Engineer, ML Workload Platform",
+   "company": "cohere",
+   "url": "https://jobs.ashbyhq.com/cohere/8f60b8e2-55b9-4258-a4cc-813273161f97",
+   "source": "Ashby",
+   "board": "cohere",
+   "region": "Canada",
+   "posted": "2026-11-06",
+   "tags": [
+    "Engineering & Infra",
+    "Engineering & Infra",
+    "FullTime"
+   ],
+   "snippet": "WHO ARE WE? Cohere is the leading security-first enterprise AI company. We build cutting-edge foundation AI models and end-to-end products that are designed to solve real-world business problems. We’re training and deploying frontier models for enterprises who",
+   "full": "WHO ARE WE? Cohere is the leading security-first enterprise AI company. We build cutting-edge foundation AI models and end-to-end products that are designed to solve real-world business problems. We’re training and deploying frontier models for enterprises who are building AI systems. We believe that our work is instrumental to the widespread adoption of AI and we are looking for folks that want to be part of that. We obsess over what we build. Each one of us is responsible for contributing to increasing the capabilities of our models and the value they drive for our customers. Cohere is a team of researchers, engineers, designers, and more, who are all passionate about their craft. We are a global technology company headquartered in Toronto with key offices in London, New York City, San Francisco, Montreal, Paris, Berlin and Seoul. Join us! WHY THIS TEAM? Internal Infrastructure builds the infrastructure and tools used to train, evaluate, and serve Cohere's foundation models. You will work with AI researchers and ML engineers on stability, scalability, and observability. The work accelerates the models behind Cohere's platform, North. You will build the platform that runs training, evaluation, and reinforcement-learning workloads: job lifecycle, scheduling, workload networking, and the storage those jobs depend on. The role includes a compensated 24x7 on-call rotation. WHAT YOU WILL DO - Own the platform that schedules and runs training, evaluation, and reinforcement-learning jobs on Kubernetes: who gets capacity, what happens when a job fails, and how a researcher finds out whether the platform caused it. - Build the networking and runtime isolation those workloads need, including agent and sandbox environments. - Work with the data infrastructure team on storage for checkpoints and other training artifacts. - Troubleshoot production failures and performance problems, and leave the system easier to operate than you found it. - Build automation, infrastructure-as-code, and observability so the platform stays maintainable. We hire at more than one level. We set level based on the scope you've owned and how independently you drive work. YOU MAY BE A GOOD FIT IF YOU HAVE - Run a job platform, batch system, or Kubernetes controllers in production. Scheduling, queues, and multi-tenant fairness are central to this work. - Shown distributed systems judgment: retries, partial failure, and knowing what not to automate. - Worked on ML training workflows, RL sandboxes, container networking (CNI), or checkpoint storage at scale. Direct GPU-cluster experience is a plus. - Written software in Python or Go. You would rather extend a solid open-source project than rebuild it. - Worked with researchers, ML engineers, or another team whose goals were not identical to yours. - Found a bottleneck, proposed a fix, and driven it in a fast-moving environment. If this does not line up exactly with your experience, we still encourage you to apply. FULL-TIME EMPLOYEES AT",
+   "salaryText": "$175K – $325K • Offers Equity • Multiple Ranges",
+   "lpa": 286,
+   "inIndia": false,
+   "globalRemote": false,
+   "score": 68
+  },
+  {
    "title": "Cloud - Bare Metal Infrastructure Engineer",
    "company": "render",
    "url": "https://jobs.ashbyhq.com/render/a22230e6-803d-4e2e-82f8-ff5f500cdc3d",
@@ -1712,7 +1701,7 @@
    ],
    "snippet": "WHO ARE WE? Cohere is the leading security-first enterprise AI company. We build cutting-edge foundation AI models and end-to-end products that are designed to solve real-world business problems. We’re training and deploying frontier models for enterprises who",
    "full": "WHO ARE WE? Cohere is the leading security-first enterprise AI company. We build cutting-edge foundation AI models and end-to-end products that are designed to solve real-world business problems. We’re training and deploying frontier models for enterprises who are building AI systems. We believe that our work is instrumental to the widespread adoption of AI and we are looking for folks that want to be part of that. We obsess over what we build. Each one of us is responsible for contributing to increasing the capabilities of our models and the value they drive for our customers. Cohere is a team of researchers, engineers, designers, and more, who are all passionate about their craft. We are a global technology company headquartered in Toronto with key offices in London, New York City, San Francisco, Montreal, Paris, Berlin and Seoul. Join us! Why this role? The Data Infrastructure team at Cohere is responsible for the storage and data movement layer underlying every model training run. We're building the unified storage layer that feeds our training workloads. It needs to serve petabytes of training data and model checkpoints fast enough to keep thousands of GPUs busy across several training clusters. In this role, you’d have an opportunity to build this system from the ground up. You’d be a key contributor, working on a problem few teams have had to solve at this scale. In this role, you will: - Design, build, and operate the distributed storage system that feeds model training and evaluation. - Run this system multiple on Kubernetes clusters at petabyte scale. - Work with researchers and training-infra teams on how jobs actually read and write data, and turn that into throughput, latency, and durability requirements - Work through the networking, I/O, and consistency problems of moving large datasets and checkpoints across regions and backends, with GPU idle time and time-to-insight as the measures of success You may be a good fit if you have: - Strong storage fundamentals, including replication, consistency, caching, and data lifecycle management. - Strong coding ability. We work in Python and Go; experience in either is enough, but you should be willing to pick up the other - Experience running stateful systems on Kubernetes, including Persistent Volumes, CSI drivers, and StatefulSets. - Hands-on experience with cloud object storage such as S3 as well as POSIX-style filesystems. It’s a bonus if you have: - Experience with parallel or HPC filesystems such as Weka, VAST, or Lustre. - Familiarity with the data-loading and checkpointing patterns used in large-scale model training. - An interest in how large models are trained and evaluated, including the trajectory and eval data those runs generate, and a desire to understand the workloads the platform is serving. FULL-TIME EMPLOYEES AT COHERE ENJOY THESE PERKS: - A weekly lunch stipend of $75/£75 or equivalent in your local currency for lunch. - Full health and dental benefits, including a separa",
-   "salaryText": "$160K – $325K • Offers Equity • Multiple Ranges",
+   "salaryText": "$175K – $325K • Offers Equity • Multiple Ranges",
    "lpa": 286,
    "inIndia": false,
    "globalRemote": false,
@@ -1813,6 +1802,23 @@
    "score": 62
   },
   {
+   "title": "Backend Engineer, Developer & End-user Experience Platform",
+   "company": "Stripe",
+   "url": "https://stripe.com/jobs/search?gh_jid=7476555",
+   "source": "Greenhouse",
+   "board": "stripe",
+   "region": "SEA, SF, NY, Toronto",
+   "posted": "2026-10-29",
+   "tags": [],
+   "snippet": "h2 Who we are /h2 h3 About Stripe /h3 p span style= font-weight: 400; Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world’s largest enterprises to the most ambitious startups—use Stripe to accept payments, grow th",
+   "full": "h2 Who we are /h2 h3 About Stripe /h3 p span style= font-weight: 400; Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world’s largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone’s reach while doing the most important work of your career. /span /p h3 About the strong team /strong /h3 p Stripe s Developer amp; End-user Experience Platform (DEEP) organization empowers all of Stripe s products with a shared product platform that helps with rapidly delivering high-quality, cross-product experiences across our UI and API surfaces. It focuses on providing a consistent and scalable developer experience that any developer (both internal and external) can leverage to accelerate a merchant s ability to create value using Stripe. /p p Team matching — exact team matching for one of the subteams will begin during final stages. Please note we may also consider you for different orgs based on your experience, location, etc. More information on our team matching process can be found a href= https://docs.google.com/document/d/1zvJkO2c7GzukHG-_oqc5wbOLajpuh5FjbmZPcZPU1o0/edit?usp=sharing here /a . /p h2 What you’ll do /h2 p We re looking for Backend Engineers who want to make an impact on managing money at a global scale with a passion for building ergonomic APIs. You ll play a key role in extending our balance management platform and in building out a new funds accessibility platform that enterprises and SMBs use. Our team collaborates with many cross-functional teams—from Infrastructure to Product—at Stripe to deliver innovative solutions that address evolving user needs. /p h3 Responsibilities /h3 ul li Scope, design, build, and maintain APIs, services, and large-scale systems that reliably and efficiently handle billions of money movement requests /li li Debug and solve critical production issues across services and multiple levels of the stack /li li Mentor engineers to help them grow /li li Collaborate with stakeholders across the company to build new features at large-scale, while improving internal engineering standards, tooling, and processes /li li Collaborate effectively in a distributed and hybrid team, maintaining open communication and strong connections with colleagues /li /ul h2 Who you are /h2 p We re looking for someone who meets the minimum requirements to be considered for the role. If you meet these requirements, you are encouraged to apply. The preferred qualifications are a bonus, not a requirement. /p h3 Minimum requirements /h3 ul li 2–12+ years of industry software engineering experience (does not include internships or co-ops) /li li Strong coding skills in any programming language (we understand new languages can be",
+   "salaryText": "",
+   "lpa": null,
+   "inIndia": false,
+   "globalRemote": false,
+   "score": 62
+  },
+  {
    "title": "Software Engineer, Distributed Systems ",
    "company": "Mixpanel",
    "url": "https://job-boards.greenhouse.io/mixpanel/jobs/8162414",
@@ -1851,7 +1857,7 @@
   {
    "title": "ML Ops Infrastructure Engineer",
    "company": "deepgram",
-   "url": "https://jobs.ashbyhq.com/deepgram/7ced4c1f-4126-44fe-9cf1-da427a9e4e3e",
+   "url": "https://jobs.ashbyhq.com/Deepgram/7ced4c1f-4126-44fe-9cf1-da427a9e4e3e",
    "source": "Ashby",
    "board": "deepgram",
    "region": "USA - Remote",
@@ -1872,7 +1878,7 @@
   {
    "title": "Backend Software Engineer - Engine Team (Voice Agent)",
    "company": "deepgram",
-   "url": "https://jobs.ashbyhq.com/deepgram/7c7064bb-2bf0-4f64-81cc-14afe79a15c1",
+   "url": "https://jobs.ashbyhq.com/Deepgram/7c7064bb-2bf0-4f64-81cc-14afe79a15c1",
    "source": "Ashby",
    "board": "deepgram",
    "region": "USA - Remote",
