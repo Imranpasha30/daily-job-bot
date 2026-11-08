@@ -1,9 +1,9 @@
 {
- "generated": "2026-11-07T10:32:36.675Z",
+ "generated": "2026-11-08T10:39:11.209Z",
  "usdInr": 88,
  "counts": {
-  "pool": 3188,
-  "passed": 90,
+  "pool": 3194,
+  "passed": 88,
   "dubai": 0,
   "india": 19
  },
@@ -444,29 +444,6 @@
    "score": 100
   },
   {
-   "title": "Security Analyst I (F-M, 7am-6pm CST)",
-   "company": "Ntiva",
-   "url": "https://himalayas.app/companies/ntiva/jobs/security-analyst-i-f-m-7am-6pm-cst?utm_source=api",
-   "source": "Himalayas",
-   "board": "",
-   "region": "United States",
-   "posted": "2026-11-07",
-   "tags": [
-    "Security-Analyst",
-    "Cybersecurity-Analyst",
-    "Information-Security-Analyst",
-    "SOC-Analyst"
-   ],
-   "snippet": "Are you looking for limitless career opportunities with a company that values growth, innovation, and teamwork?",
-   "full": "Are you looking for limitless career opportunities with a company that values growth, innovation, and teamwork?",
-   "salaryText": "USD 49k–70k",
-   "lpa": 61.6,
-   "inIndia": false,
-   "inDubai": false,
-   "globalRemote": false,
-   "score": 90
-  },
-  {
    "title": "Security Engineer, Incident Response",
    "company": "Twilio",
    "url": "https://job-boards.greenhouse.io/twilio/jobs/8055481",
@@ -618,7 +595,7 @@
     "FullTime"
    ],
    "snippet": "Role Summary Sophos is seeking an intermediate-level Incident Response Analyst to support its Managed Detection and Response (MDR) customers within the Critical Incident Response Team (CIRT). As an Incident Response Analyst 2, you will perform advanced investi",
-   "full": "Role Summary Sophos is seeking an intermediate-level Incident Response Analyst to support its Managed Detection and Response (MDR) customers within the Critical Incident Response Team (CIRT). As an Incident Response Analyst 2, you will perform advanced investigative, forensic, and containment activities during active cyber incidents. You will operate with moderate autonomy, serve primarily in an Incident Responder role, and begin supporting Incident Advisors with validated technical findings and customer-facing context. This role serves as the technical backbone of most engagements and includes mentoring junior analysts to ensure consistent execution and documentation quality. What You Will Do - Perform advanced investigative and forensic analysis across endpoints, network logs, and cloud telemetry - Execute containment and response actions to neutralize active threats as directed by Incident Advisors or Senior Analysts - Validate indicators of compromise (IOCs) and correlate alerts, artifacts, and telemetry to determine scope and root cause - Maintain clear and accurate engagement documentation, including trailheads, timelines, and playbooks - Provide guidance and mentorship to junior IR and SOC analysts to ensure adherence to CIRT investigative and documentation standards - Prepare technical findings and summaries for inclusion in customer updates and post-incident reports - Identify and communicate detection or response gaps observed during investigations - Participate in shift handovers, debriefs, and post-incident reviews to ensure engagement continuity - Maintain accurate time and activity tracking to support operational visibility and service improvement What You Will Bring - 2+ years of experience in incident response, MDR, SOC, or security operations roles - Solid technical understanding of endpoint forensics, log analysis, and common attack techniques - Experience investigating malware, credential theft, ransomware, or similar threats - Ability to correlate alerts and telemetry to determine incident scope and root cause - Strong written and verbal communication skills for documenting findings and contributing to customer updates - Experience mentoring or guiding junior analysts - Ability to work effectively in high-pressure, time-sensitive incident environments - Willingness to work some weekends and holidays as part of a rotation - Hands-on experience with EDR, SIEM, and forensic collection tools - Familiarity with OSQuery, SQL, or KQL - Knowledge of MITRE ATT&CK and incident response frameworks - Industry certifications such as GCIH, GCED, CompTIA Security+, or equivalent - Experience contributing to playbooks, detection tuning, or service improvement initiatives #li-remote #B1 What does remote mean at Sophos? Sophos is a remote-first company, which means work is not centered around an office. Our teams collaborate across locations and time zones, using technology to stay connected and deliver results. Candidates applying for remote r",
+   "full": "Role Summary Sophos is seeking an intermediate-level Incident Response Analyst to support its Managed Detection and Response (MDR) customers within the Critical Incident Response Team (CIRT). As an Incident Response Analyst 2, you will perform advanced investigative, forensic, and containment activities during active cyber incidents. You will operate with moderate autonomy, serve primarily in an Incident Responder role, and begin supporting Incident Advisors with validated technical findings and customer-facing context. This role serves as the technical backbone of most engagements and includes mentoring junior analysts to ensure consistent execution and documentation quality. What You Will Do - Perform advanced investigative and forensic analysis across endpoints, network logs, and cloud telemetry - Execute containment and response actions to neutralize active threats as directed by Incident Advisors or Senior Analysts - Validate indicators of compromise (IOCs) and correlate alerts, artifacts, and telemetry to determine scope and root cause - Maintain clear and accurate engagement documentation, including trailheads, timelines, and playbooks - Provide guidance and mentorship to junior IR and SOC analysts to ensure adherence to CIRT investigative and documentation standards - Prepare technical findings and summaries for inclusion in customer updates and post-incident reports - Identify and communicate detection or response gaps observed during investigations - Participate in shift handovers, debriefs, and post-incident reviews to ensure engagement continuity - Maintain accurate time and activity tracking to support operational visibility and service improvement What You Will Bring - 2+ years of experience in incident response, MDR, SOC, or security operations roles - Solid technical understanding of endpoint forensics, log analysis, and common attack techniques - Experience investigating malware, credential theft, ransomware, or similar threats - Ability to correlate alerts and telemetry to determine incident scope and root cause - Strong written and verbal communication skills for documenting findings and contributing to customer updates - Experience mentoring or guiding junior analysts - Ability to work effectively in high-pressure, time-sensitive incident environments - Willingness to work some weekends and holidays as part of a rotation - Hands-on experience with EDR, SIEM, and forensic collection tools - Familiarity with OSQuery, SQL, or KQL - Knowledge of MITRE ATT&CK and incident response frameworks - Industry certifications such as GCIH, GCED, CompTIA Security+, or equivalent - Experience contributing to playbooks, detection tuning, or service improvement initiatives #li-remote #B1 What does remote mean at Sophos? Sophos supports flexible ways of working, with many roles offered remotely and others working in a hybrid model. For remote roles, you may work remotely within the location specified in the job posting. Candidates must reside in",
    "salaryText": "",
    "lpa": null,
    "inIndia": false,
@@ -733,7 +710,7 @@
    "source": "Greenhouse",
    "board": "nasdaq",
    "region": "St. John's",
-   "posted": "2026-11-07",
+   "posted": "2026-11-08",
    "tags": [],
    "snippet": "div p strong Role Responsibilities /strong nbsp; /p /div div ul li p Analyzing security vulnerabilities identified within Verafin s Cloud infrastructure. nbsp; /p /li li p Querying and correlating security scan data with technical inventory. nbsp; /p /li li p ",
    "full": "div p strong Role Responsibilities /strong nbsp; /p /div div ul li p Analyzing security vulnerabilities identified within Verafin s Cloud infrastructure. nbsp; /p /li li p Querying and correlating security scan data with technical inventory. nbsp; /p /li li p Building reports and dashboards to present findings to code amp; infrastructure owners. nbsp; /p /li li p Coordinating vulnerability remediation with code amp; infrastructure owners. nbsp; /p /li li p Ensuring scanning coverage and assisting in remediation of gaps. nbsp; /p /li li p Assessing and improving security processes and tool usage. nbsp; nbsp; /p /li li p Working with security and operational teams to ensure security standards are met. nbsp; nbsp; /p /li /ul p nbsp; /p /div div p strong Essential Skills amp; Qualifications /strong nbsp; /p div div ul li p Diploma or Degree in a Security Management, Programming, Computer Science or equivalent. nbsp; /p /li li p 1+ years experience in security vulnerability analysis in a cloud environment would be an asset. nbsp; /p /li li p Experience working in a cloud-based environment (AWS preferred). nbsp; /p /li li p Experience working with the following technologies from a security perspective: Vulnerability Scanners/Management, Container Security Tools, Logging amp; Monitoring Tooling. nbsp; nbsp; /p /li li p Experience writing queries to analyze data. nbsp; /p /li li p Security certifications would be an asset (CISSP, OSCP, CEH, GSEC, Security+ etc.) nbsp; /p /li li p Strong technical analytical skills while providing accurate analysis of security-related problems in context of Verafin’s environment. nbsp; /p /li li p Committed to continuous learning, understanding new technologies and developing best practices. nbsp; /p /li li p Ability to communicate effectively with other teams. /p /li /ul /div /div div p ​ /p div p strong What does success look like in this role? /strong nbsp; /p /div div ul li p Contribute to the success the Verafin’s security program by offering insight and guidance on response and remediation of security vulnerabilities. nbsp; /p /li li p Review and improve Verafin’s security posture using new tools and processes. nbsp; /p /li li p Be an effective team player, communicator, and have an eagerness to learn and develop new skills. /p /li /ul div p nbsp; /p p strong What are the growth opportunities for this role? /strong nbsp; /p /div div ul li p Technical security career development nbsp; /p /li li p You could become the lead of a team, or the subject matter expert of your current team nbsp; /p /li /ul div p nbsp; /p p nbsp; /p p nbsp; /p /div /div /div /div /div div class= content-conclusion h4 Come as You Are /h4 p Nasdaq is an equal opportunity employer. We welcome applications from candidates of all backgrounds and identities. We are committed to fostering an inclusive workplace where diverse perspectives, experiences, and identities are valued and celebrated. We ensure that individuals with disabilities are provided",
@@ -1269,10 +1246,10 @@
   {
    "title": "Threat Detection Analyst (Japanese & English speaking)",
    "company": "Fastly",
-   "url": "https://www.fastly.com/about/jobs/apply?gh_jid=7912475",
+   "url": "https://www.fastly.com/about/jobs/apply?gh_jid=7912473",
    "source": "Greenhouse",
    "board": "fastly",
-   "region": "Singapore, Singapore",
+   "region": "Australia (Remote)",
    "posted": "2026-10-30",
    "tags": [
     "APAC",
@@ -1389,31 +1366,6 @@
    "inDubai": false,
    "globalRemote": false,
    "score": 55
-  },
-  {
-   "title": "Cybersecurity Engineer – DevSecOps",
-   "company": "Millennium Corporation",
-   "url": "https://himalayas.app/companies/millennium-corporation/jobs/cybersecurity-engineer-devsecops?utm_source=api",
-   "source": "Himalayas",
-   "board": "",
-   "region": "United States",
-   "posted": "2026-11-07",
-   "tags": [
-    "Cybersecurity-Engineer",
-    "DevSecOps-Engineer",
-    "Application-Security-Engineer",
-    "Security-Engineer",
-    "Cybersecurity-Analyst",
-    "DevOps-Security-Engineer"
-   ],
-   "snippet": "OverviewMillennium is proud to be part of the Markon enterprise, a network of specialized organizations united in support of critical national security missions.",
-   "full": "OverviewMillennium is proud to be part of the Markon enterprise, a network of specialized organizations united in support of critical national security missions.",
-   "salaryText": "USD 125k–135k",
-   "lpa": 118.8,
-   "inIndia": false,
-   "inDubai": false,
-   "globalRemote": false,
-   "score": 50
   },
   {
    "title": "Security Engineer, Product Security",
