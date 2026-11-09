@@ -1,9 +1,9 @@
 {
- "generated": "2026-11-08T10:39:11.209Z",
+ "generated": "2026-11-09T11:56:49.635Z",
  "usdInr": 88,
  "counts": {
-  "pool": 3194,
-  "passed": 88,
+  "pool": 3198,
+  "passed": 89,
   "dubai": 0,
   "india": 19
  },
@@ -704,13 +704,33 @@
    "score": 80
   },
   {
+   "title": "[Cooperative Internship 2027] Security Analyst Intern, Security team",
+   "company": "Agoda",
+   "url": "https://job-boards.greenhouse.io/agoda/jobs/8305482",
+   "source": "Greenhouse",
+   "board": "agoda",
+   "region": "Bangkok",
+   "posted": "2026-11-09",
+   "tags": [
+    "Technology"
+   ],
+   "snippet": "div class= content-intro p /p p strong About Agoda /strong /p p At Agoda, we bridge the world through travel. Our story began in 2005, when two lifelong friends and entrepreneurs, driven by their passion for travel, launched Agoda to make it easier for everyon",
+   "full": "div class= content-intro p /p p strong About Agoda /strong /p p At Agoda, we bridge the world through travel. Our story began in 2005, when two lifelong friends and entrepreneurs, driven by their passion for travel, launched Agoda to make it easier for everyone to explore the world. nbsp; nbsp; /p p nbsp; /p p Today, we are part of Booking Holdings [NASDAQ: BKNG], with a diverse team of over 7,000 people from 90 countries, working together in offices around the globe. Every day, we connect people to destinations and experiences, with our great deals across our millions of hotels and holiday properties, flights, and experiences worldwide. /p p nbsp; /p p No two days are the same at Agoda. Data and technology are at the heart of our culture, fueling our curiosity and innovation. If you’re ready to begin your best journey and help build travel for the world, join us. /p /div h3 Cooperative internship period: January - May 2027 /h3 h3 Get to know our team: nbsp; /h3 p The Security Department oversees security, compliance, GRC, and security operations for all Agoda. We are vigilant in ensuring there is no breach or vulnerability threatening our company or endangering our employees in order to keep Agoda safe and protected. This would be a great challenge for those who want to work with the best technology in a dynamic and advanced environment. /p h3 The opportunity: nbsp; /h3 p Agoda’s IT-Security team is looking for fast learner and a highly motivated Security Analyst Intern looking to jumpstart their career in an exciting, highly rewarding IT-security domain. You will work for IT-security team at Agoda helping in keeping the company secure by keeping the bad guys out. You will get the opportunity to work, collaborate and learn from experienced IT-security defenders and help create a safer Agoda by protecting against internal and external attacks. You bring the basics and motivation, and we will take care of your training and education. If you like to learn new things every day, apply and work with us. /p h3 In this role, you ll get to: /h3 ul li Learn how to use security tools such as EDR, Email security, network security to track, analyse, contain, and flush out attackers from the network. /li li Assist with daily activities and functions of the security team to help update and maintain documents, policies, procedures /li li Learn to read and analyze log data to identify suspicious patterns and identify potential security threats /li li Provide first level security alert monitoring and contribute to triaging security investigations. /li li Analyze phishing emails and learn how attackers work and how to identify their traces in the company /li li Automate repetitive tasks that help speed up triaging security incidents /li li Assist in building security awareness training material and documenting security incidents /li li Participate in investigating large scale security incidents in a fast moving, agile environment /li /ul h3 What you ll need to suc",
+   "salaryText": "",
+   "lpa": null,
+   "inIndia": false,
+   "inDubai": false,
+   "globalRemote": false,
+   "score": 75
+  },
+  {
    "title": "Verafin - Analyst - Information Security",
    "company": "Nasdaq",
    "url": "https://job-boards.greenhouse.io/nasdaq/jobs/4472576009",
    "source": "Greenhouse",
    "board": "nasdaq",
    "region": "St. John's",
-   "posted": "2026-11-08",
+   "posted": "2026-11-09",
    "tags": [],
    "snippet": "div p strong Role Responsibilities /strong nbsp; /p /div div ul li p Analyzing security vulnerabilities identified within Verafin s Cloud infrastructure. nbsp; /p /li li p Querying and correlating security scan data with technical inventory. nbsp; /p /li li p ",
    "full": "div p strong Role Responsibilities /strong nbsp; /p /div div ul li p Analyzing security vulnerabilities identified within Verafin s Cloud infrastructure. nbsp; /p /li li p Querying and correlating security scan data with technical inventory. nbsp; /p /li li p Building reports and dashboards to present findings to code amp; infrastructure owners. nbsp; /p /li li p Coordinating vulnerability remediation with code amp; infrastructure owners. nbsp; /p /li li p Ensuring scanning coverage and assisting in remediation of gaps. nbsp; /p /li li p Assessing and improving security processes and tool usage. nbsp; nbsp; /p /li li p Working with security and operational teams to ensure security standards are met. nbsp; nbsp; /p /li /ul p nbsp; /p /div div p strong Essential Skills amp; Qualifications /strong nbsp; /p div div ul li p Diploma or Degree in a Security Management, Programming, Computer Science or equivalent. nbsp; /p /li li p 1+ years experience in security vulnerability analysis in a cloud environment would be an asset. nbsp; /p /li li p Experience working in a cloud-based environment (AWS preferred). nbsp; /p /li li p Experience working with the following technologies from a security perspective: Vulnerability Scanners/Management, Container Security Tools, Logging amp; Monitoring Tooling. nbsp; nbsp; /p /li li p Experience writing queries to analyze data. nbsp; /p /li li p Security certifications would be an asset (CISSP, OSCP, CEH, GSEC, Security+ etc.) nbsp; /p /li li p Strong technical analytical skills while providing accurate analysis of security-related problems in context of Verafin’s environment. nbsp; /p /li li p Committed to continuous learning, understanding new technologies and developing best practices. nbsp; /p /li li p Ability to communicate effectively with other teams. /p /li /ul /div /div div p ​ /p div p strong What does success look like in this role? /strong nbsp; /p /div div ul li p Contribute to the success the Verafin’s security program by offering insight and guidance on response and remediation of security vulnerabilities. nbsp; /p /li li p Review and improve Verafin’s security posture using new tools and processes. nbsp; /p /li li p Be an effective team player, communicator, and have an eagerness to learn and develop new skills. /p /li /ul div p nbsp; /p p strong What are the growth opportunities for this role? /strong nbsp; /p /div div ul li p Technical security career development nbsp; /p /li li p You could become the lead of a team, or the subject matter expert of your current team nbsp; /p /li /ul div p nbsp; /p p nbsp; /p p nbsp; /p /div /div /div /div /div div class= content-conclusion h4 Come as You Are /h4 p Nasdaq is an equal opportunity employer. We welcome applications from candidates of all backgrounds and identities. We are committed to fostering an inclusive workplace where diverse perspectives, experiences, and identities are valued and celebrated. We ensure that individuals with disabilities are provided",
@@ -739,26 +759,6 @@
    "inIndia": false,
    "inDubai": false,
    "globalRemote": true,
-   "score": 75
-  },
-  {
-   "title": "[Cooperative Internship 2027] Security Analyst Intern, Security team",
-   "company": "Agoda",
-   "url": "https://job-boards.greenhouse.io/agoda/jobs/8305482",
-   "source": "Greenhouse",
-   "board": "agoda",
-   "region": "Bangkok",
-   "posted": "2026-11-06",
-   "tags": [
-    "Technology"
-   ],
-   "snippet": "div class= content-intro p /p p strong About Agoda /strong /p p At Agoda, we bridge the world through travel. Our story began in 2005, when two lifelong friends and entrepreneurs, driven by their passion for travel, launched Agoda to make it easier for everyon",
-   "full": "div class= content-intro p /p p strong About Agoda /strong /p p At Agoda, we bridge the world through travel. Our story began in 2005, when two lifelong friends and entrepreneurs, driven by their passion for travel, launched Agoda to make it easier for everyone to explore the world. nbsp; nbsp; /p p nbsp; /p p Today, we are part of Booking Holdings [NASDAQ: BKNG], with a diverse team of over 7,000 people from 90 countries, working together in offices around the globe. Every day, we connect people to destinations and experiences, with our great deals across our millions of hotels and holiday properties, flights, and experiences worldwide. /p p nbsp; /p p No two days are the same at Agoda. Data and technology are at the heart of our culture, fueling our curiosity and innovation. If you’re ready to begin your best journey and help build travel for the world, join us. /p /div h3 Cooperative internship period: January - May 2027 /h3 h3 Get to know our team: nbsp; /h3 p The Security Department oversees security, compliance, GRC, and security operations for all Agoda. We are vigilant in ensuring there is no breach or vulnerability threatening our company or endangering our employees in order to keep Agoda safe and protected. This would be a great challenge for those who want to work with the best technology in a dynamic and advanced environment. /p h3 The opportunity: nbsp; /h3 p Agoda’s IT-Security team is looking for fast learner and a highly motivated Security Analyst Intern looking to jumpstart their career in an exciting, highly rewarding IT-security domain. You will work for IT-security team at Agoda helping in keeping the company secure by keeping the bad guys out. You will get the opportunity to work, collaborate and learn from experienced IT-security defenders and help create a safer Agoda by protecting against internal and external attacks. You bring the basics and motivation, and we will take care of your training and education. If you like to learn new things every day, apply and work with us. /p h3 In this role, you ll get to: /h3 ul li Learn how to use security tools such as EDR, Email security, network security to track, analyse, contain, and flush out attackers from the network. /li li Assist with daily activities and functions of the security team to help update and maintain documents, policies, procedures /li li Learn to read and analyze log data to identify suspicious patterns and identify potential security threats /li li Provide first level security alert monitoring and contribute to triaging security investigations. /li li Analyze phishing emails and learn how attackers work and how to identify their traces in the company /li li Automate repetitive tasks that help speed up triaging security incidents /li li Assist in building security awareness training material and documenting security incidents /li li Participate in investigating large scale security incidents in a fast moving, agile environment /li /ul h3 What you ll need to suc",
-   "salaryText": "",
-   "lpa": null,
-   "inIndia": false,
-   "inDubai": false,
-   "globalRemote": false,
    "score": 75
   },
   {
@@ -1366,6 +1366,29 @@
    "inDubai": false,
    "globalRemote": false,
    "score": 55
+  },
+  {
+   "title": "Information Security Engineer 1",
+   "company": "Penn Mutual",
+   "url": "https://himalayas.app/companies/penn-mutual/jobs/information-security-engineer-1?utm_source=api",
+   "source": "Himalayas",
+   "board": "",
+   "region": "United States",
+   "posted": "2026-11-09",
+   "tags": [
+    "Information-Security-Engineer",
+    "Cybersecurity-Engineer",
+    "Security-Operations-Analyst",
+    "Security-Engineer"
+   ],
+   "snippet": "Job Description: Position OverviewThe Information Security Engineer I role participates on a team of information security employees that own technical analysis, guidance, consulting, and configuration of information security tooling, operations, and projects.",
+   "full": "Job Description: Position OverviewThe Information Security Engineer I role participates on a team of information security employees that own technical analysis, guidance, consulting, and configuration of information security tooling, operations, and projects.",
+   "salaryText": "USD 75k–85k",
+   "lpa": 74.8,
+   "inIndia": false,
+   "inDubai": false,
+   "globalRemote": false,
+   "score": 50
   },
   {
    "title": "Security Engineer, Product Security",
