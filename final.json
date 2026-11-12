@@ -1,10 +1,10 @@
 {
- "generated": "2026-11-11T11:16:11.710Z",
+ "generated": "2026-11-12T11:32:42.970Z",
  "usdInr": 88,
  "counts": {
-  "pool": 9676,
-  "passed": 249,
-  "india": 31
+  "pool": 9663,
+  "passed": 247,
+  "india": 29
  },
  "jobs": [
   {
@@ -381,30 +381,6 @@
    "score": 107
   },
   {
-   "title": "Software Engineer 3",
-   "company": "MongoDB",
-   "url": "https://www.mongodb.com/careers/job/?gh_jid=8239047",
-   "source": "Greenhouse",
-   "board": "mongodb",
-   "region": "Gurugram",
-   "posted": "2026-11-10",
-   "tags": [
-    "n/a",
-    "D22001-App Modernization ENG",
-    "T10339-Modernization ENG",
-    "APAC",
-    "IC - Professional",
-    "Full-time"
-   ],
-   "snippet": "p The Application Modernization Platform (AMP) team is dedicated to solving one of the industry s biggest challenges: transforming rigid, legacy applications that suffer from poor scalability and high operating costs into modern, microservices-based architectu",
-   "full": "p The Application Modernization Platform (AMP) team is dedicated to solving one of the industry s biggest challenges: transforming rigid, legacy applications that suffer from poor scalability and high operating costs into modern, microservices-based architectures on MongoDB. To accelerate this transition, MongoDB is building a dedicated Platform and Infrastructure team to develop the Application Modernisation Platform and Infrastructure . As we help customers modernize their application and data ecosystems, we face the challenge of deploying complex tooling into highly restrictive client environments and architecting automated verification frameworks to ensure data equivalence. /p p This new team will architect the platform foundation and infrastructure that enables a build once, run anywhere model, ensuring our AI-powered modernisation suite operates seamlessly regardless of a client s security or network constraints. We are looking for engineers to join this high-visibility initiative, where you will solve unique distributed systems puzzles and help shape the future of how global enterprises leverage data and AI. /p p We are looking for an experienced Software Engineer who thrives on solving infrastructure constraints and building developer-centric modernisation platforms with a strong background in building software testkits/frameworks. The ideal candidate will be designing and building automated frameworks that validate functional equivalence, performance benchmarks, and data integrity. From leveraging LLMs for unit test generation to building contract testing frameworks, your work will be the safety net for the world’s largest enterprise migrations. /p p This role will be based in our India office in Gurgaon and offers a hybrid working model. /p h3 The ideal candidate for this role will have /h3 ul li 3-4 years of commercial software development experience with at least one JVM language such as Java, preferably using the Spring ecosystem /li li Expertise integrating Large Language Models (LLMs) into the developer workflow to automate unit test generation and edge-case discovery /li li Experience building developer tools, infrastructure, or complex testing frameworks /li li Solid experience in software architecture and development /li li Deep expertise in application/database modernization with proven ability to design and implement frameworks that ensure database state equivalence across different implementations /li li Must understand change data capture, event-driven database interception (MongoDB listeners, RDBMS triggers), and state comparison algorithms with pattern-based exclusions. Strong Spring Boot (or equivalent Java framework), MongoDB (or equivalent), and JDBC/JPA skills required /li li Extensive experience with relational and document data modeling and hands-on experience with at least one SQL database (Postgres, MySQL, etc) and at least one document database (e.g. MongoDB) /li li Good understanding of algorithms, data structure",
-   "salaryText": "",
-   "lpa": null,
-   "inIndia": true,
-   "globalRemote": false,
-   "score": 105
-  },
-  {
    "title": "Site Reliability Engineer, Cells Infrastructure",
    "company": "GitLab",
    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8867756002",
@@ -479,37 +455,13 @@
    "score": 93
   },
   {
-   "title": "Software Developer",
-   "company": "OpenSpecimen (Krishagni)",
-   "url": "https://himalayas.app/companies/openspecimen-krishagni/jobs/software-developer?utm_source=api",
-   "source": "Himalayas",
-   "board": "",
-   "region": "India",
-   "posted": "2026-11-11",
-   "tags": [
-    "Software-Developer",
-    "Software-Engineer",
-    "Backend-Engineer",
-    "Java-Developer",
-    "Full-Stack-Developer",
-    "Software-Engineer-Developer"
-   ],
-   "snippet": "We are looking for you if you: * are a very good programmer * has very good grasp of data structures, databases, algorithms, etc.",
-   "full": "We are looking for you if you: * are a very good programmer * has very good grasp of data structures, databases, algorithms, etc.",
-   "salaryText": "",
-   "lpa": null,
-   "inIndia": true,
-   "globalRemote": false,
-   "score": 87
-  },
-  {
    "title": "Applications Engineer 2",
    "company": "Twilio",
    "url": "https://job-boards.greenhouse.io/twilio/jobs/7781659",
    "source": "Greenhouse",
    "board": "twilio",
    "region": "Remote - India",
-   "posted": "2026-11-10",
+   "posted": "2026-11-11",
    "tags": [
     "TP2EG5332-1"
    ],
@@ -644,10 +596,10 @@
   {
    "title": "Backend Engineer (Ruby), Plan: Spec-Driven Development",
    "company": "GitLab",
-   "url": "https://job-boards.greenhouse.io/gitlab/jobs/8749950002",
+   "url": "https://job-boards.greenhouse.io/gitlab/jobs/8682860002",
    "source": "Greenhouse",
    "board": "gitlab",
-   "region": "Remote, Poland",
+   "region": "Remote, United Kingdom",
    "posted": "2026-11-06",
    "tags": [
     "n/a"
@@ -924,25 +876,6 @@
    "score": 96
   },
   {
-   "title": "Software Engineer I, Fullstack (Search)",
-   "company": "Affirm",
-   "url": "https://job-boards.greenhouse.io/affirm/jobs/8017340003",
-   "source": "Greenhouse",
-   "board": "affirm",
-   "region": "Remote US",
-   "posted": "2026-10-30",
-   "tags": [
-    "Engineering"
-   ],
-   "snippet": "div class= content-intro p At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. /p /div p Search has become the default way consumers ",
-   "full": "div class= content-intro p At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. /p /div p Search has become the default way consumers discover where to shop, compare options, and decide what to buy across platforms like Google, TikTok, and even Klarna. As we build a new Ads business and evolve Marketplace into a best in class shopping experience, improving search is one of our highest leverage investments to create an experience users choose and merchants want to invest in. br br strong What You ll Do /strong /p ul li With the support of your team, you will work on tasks that contribute to the team s projects and goals. /li li You will work collaboratively and proactively with your team and stakeholders, bringing them along for your work and helping to create visibility and dialog regarding the risks and trade-offs related to your work. /li li You will strike the right balance of speed and quality in your work, ensuring that we hit our business goals while protecting our systems from downtime. /li li You will contribute to a sense of community on your team by engaging in growth and development activities. /li /ul p br strong What We Look For br /strong /p ul li You have previous work or internship experience working with Javascript/Typescript. /li li You have previous work or internship experience designing, developing and launching backend systems at scale and are experienced using Python or Kotlin. /li li You have mastered taking a simple problem or business scenario into a solution that interacts with multiple software components, and executing on it by writing clear, easily understood, well tested and extensible code. /li li You are comfortable navigating a large code base, debugging others code, and providing feedback to other engineers through code reviews. /li li Your experience demonstrates that you take ownership of your growth, proactively seeking feedback from your team, your manager, and your stakeholders. /li li You have strong verbal and written communication skills that support effective collaboration with our global engineering team. /li li This position requires either equivalent practical experience or a Bachelor’s degree in a related field. /li /ul div div div p nbsp; /p p strong Base Pay Grade /strong - J br strong Equity Grade /strong - 5 br br Employees new to Affirm typically come in at the start of the pay range. Affirm focuses on providing a simple and transparent pay structure which is based on a variety of factors, including location, experience and job-related skills. br Base pay is part of a total compensation package that may include equity rewards, monthly stipends for health, wellness and tech spending, and benefits (including 100% subsidized medical coverage, dental and vision for you and your dependents.) br br strong USA base pay range (CA, WA, NY, NJ, CT) per year: /strong $130,000 - $18",
-   "salaryText": "",
-   "lpa": null,
-   "inIndia": false,
-   "globalRemote": true,
-   "score": 93
-  },
-  {
    "title": "Backend Engineer, Source Code: Repository Services (Ruby)",
    "company": "GitLab",
    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8912709002",
@@ -1195,6 +1128,49 @@
    "score": 84
   },
   {
+   "title": "Software Engineer - Python - Container Images",
+   "company": "Canonical",
+   "url": "https://jobicy.com/jobs/150364-software-engineer-python-container-images",
+   "source": "Jobicy",
+   "board": "",
+   "region": "APAC, EMEA, LATAM, Canada, USA",
+   "posted": "2026-11-12",
+   "tags": [
+    "Software Engineering"
+   ],
+   "snippet": "Canonical is a leading provider of open source software and operating systems to the global enterprise and technology markets. Our platform, Ubuntu, is very widely used in breakthrough enterprise initiatives such as public cloud, data science, AI, engineering ",
+   "full": "Canonical is a leading provider of open source software and operating systems to the global enterprise and technology markets. Our platform, Ubuntu, is very widely used in breakthrough enterprise initiatives such as public cloud, data science, AI, engineering innovation, and IoT. Our customers include the world's leadi",
+   "salaryText": "",
+   "lpa": null,
+   "inIndia": false,
+   "globalRemote": true,
+   "score": 79
+  },
+  {
+   "title": "Data Engineer",
+   "company": "Addepto",
+   "url": "https://remoteOK.com/remote-jobs/remote-data-engineer-addepto-1137714",
+   "source": "RemoteOK",
+   "board": "",
+   "region": "Remote",
+   "posted": "2026-11-10",
+   "tags": [
+    "design",
+    "saas",
+    "salesforce",
+    "python",
+    "education",
+    "consulting"
+   ],
+   "snippet": "Addepto is a leading AI consulting ( https://addepto.com/ai-consulting/ ) and data engineering ( https://addepto.com/data-engineering-services/ ) company that builds scalable, ROI-focused AI solutions for some of the world's largest enterprises and pioneering ",
+   "full": "Addepto is a leading AI consulting ( https://addepto.com/ai-consulting/ ) and data engineering ( https://addepto.com/data-engineering-services/ ) company that builds scalable, ROI-focused AI solutions for some of the world's largest enterprises and pioneering startups, including Rolls Royce, Continental, Porsche, ABB, ",
+   "salaryText": "",
+   "lpa": null,
+   "inIndia": false,
+   "globalRemote": true,
+   "score": 79
+  },
+  {
    "title": "Analytics Engineer II, Full Stack (Revenue Analytics)",
    "company": "Affirm",
    "url": "https://job-boards.greenhouse.io/affirm/jobs/7813362003",
@@ -1298,27 +1274,6 @@
    "score": 76
   },
   {
-   "title": "Software Engineer, Streaming Platform",
-   "company": "sentry",
-   "url": "https://jobs.ashbyhq.com/sentry/1c34ea48-ab62-4b71-a7d7-d0ac9eb07bba",
-   "source": "Ashby",
-   "board": "sentry",
-   "region": "Toronto, Ontario, Canada",
-   "posted": "2026-10-09",
-   "tags": [
-    "Engineering ",
-    "Engineering ",
-    "FullTime"
-   ],
-   "snippet": "ABOUT SENTRY Software runs the world and the pace is faster than ever. Sentry helps developers fix errors and performance issues before users notice, so teams can spend less time firefighting and more time building. Trusted by 200,000+ organizations, Sentry is",
-   "full": "ABOUT SENTRY Software runs the world and the pace is faster than ever. Sentry helps developers fix errors and performance issues before users notice, so teams can spend less time firefighting and more time building. Trusted by 200,000+ organizations, Sentry is today’s application monitoring standard and our team is building its AI-native future. ABOUT THE ROLE The Streaming Platform team at Sentry is building the next generation of infrastructure that powers our ingestion pipelines and real-time data processing systems. Our platform ingests, processes, and distributes hundreds of thousands of events per second with low latency and high reliability. We are creating a system that makes it easy for Sentry engineers to deploy and run Streaming Applications at scale by simplifying the complexity of Kafka, scaling consumers automatically, and managing state so product teams can focus on building great experiences for developers. As part of this team, you will work on challenges at the intersection of distributed systems, real-time data processing, and developer experience. You will help us create a self-service streaming platform that improves stability, accelerates time to production, and reduces operational overhead. This role is based in Toronto, with three days per week in the office to work closely with engineering teams. IN THIS ROLE YOU WILL - Design, build, and operate components of our Streaming Platform, including Kafka, the streaming runtime, high-level APIs, and developer-facing abstractions. - Implement resilient, high-throughput stream processing systems that handle unbounded datasets with strong correctness guarantees (delivery, checkpointing, watermarking, and more). - Build scalable automation and control plane for Kafka fleet management and improve efficiency. - Partner with product engineers to ensure our abstractions enable fast, reliable, and consistent ingestion pipelines. - Improve observability, monitoring, and failover for mission-critical real-time systems. YOU’LL LOVE THIS JOB IF YOU - You enjoy working on distributed systems at scale and care about reliability and performance. - You like building abstractions that make complex infrastructure easier for others to use. - You are motivated by designing systems that balance flexibility for developers with best practices for stability. - You are excited to shape how Sentry handles near real-time ingestion and analytics at scale. - You value being part of a collaborative team where your contributions make a broad impact across the company. QUALIFICATIONS - At least 2-3 years of software engineering experience, with background in distributed systems, data infrastructure, or real-time streaming. - Proficiency in a programming language such as Python, Rust, Go, or Java (we primarily use Python and Rust, but experience in similar languages is valuable). - Experience building and operating systems in cloud environments such as Kubernetes, AWS, or GCP. - Nice to have: experience with st",
-   "salaryText": "CA$163K – CA$200K • Offers Equity",
-   "lpa": null,
-   "inIndia": false,
-   "globalRemote": false,
-   "score": 76
-  },
-  {
    "title": "Software Engineer - Internal Tools",
    "company": "PlanetScale",
    "url": "https://job-boards.greenhouse.io/planetscale/jobs/4389100009",
@@ -1374,6 +1329,27 @@
    "inIndia": false,
    "globalRemote": false,
    "score": 72
+  },
+  {
+   "title": "Junior Platform Engineer",
+   "company": "The Trainee Company",
+   "url": "https://www.arbeitnow.nl/jobs/companies/the-trainee-company/junior-platform-engineer-den-haag-25826",
+   "source": "Arbeitnow",
+   "board": "",
+   "region": "Den Haag, Zuid-Holland, Nederland",
+   "posted": "2026-11-11",
+   "tags": [
+    "Business & ICT",
+    "Student college",
+    "fulltime permanent"
+   ],
+   "snippet": "Functieomschrijving Ben jij analytisch, nieuwsgierig en vind je het leuk om technische vraagstukken uit te pluizen? Werk je graag met software en wil je begrijpen hoe systemen en platformen met elkaar samenwerken? Dan is deze functie iets voor jou. Je gaat je ",
+   "full": "Functieomschrijving Ben jij analytisch, nieuwsgierig en vind je het leuk om technische vraagstukken uit te pluizen? Werk je graag met software en wil je begrijpen hoe systemen en platformen met elkaar samenwerken? Dan is deze functie iets voor jou. Je gaat je bezighouden met Identity Access Management en werkt mee aan ",
+   "salaryText": "",
+   "lpa": null,
+   "inIndia": false,
+   "globalRemote": false,
+   "score": 70
   },
   {
    "title": "Software Engineer, Size Analysis & Snapshots",
@@ -1826,11 +1802,11 @@
   {
    "title": "Backend Engineer, Developer & End-user Experience Platform",
    "company": "Stripe",
-   "url": "https://stripe.com/jobs/search?gh_jid=7292520",
+   "url": "https://stripe.com/jobs/search?gh_jid=7476555",
    "source": "Greenhouse",
    "board": "stripe",
-   "region": "Toronto Canada, San Francisco, Remote in US, Remote in Canada",
-   "posted": "2026-11-03",
+   "region": "SEA, SF, NY, Toronto",
+   "posted": "2026-10-29",
    "tags": [],
    "snippet": "h2 Who we are /h2 h3 About Stripe /h3 p span style= font-weight: 400; Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world’s largest enterprises to the most ambitious startups—use Stripe to accept payments, grow th",
    "full": "h2 Who we are /h2 h3 About Stripe /h3 p span style= font-weight: 400; Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world’s largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone’s reach while doing the most important work of your career. /span /p h3 About the strong team /strong /h3 p Stripe s Developer amp; End-user Experience Platform (DEEP) organization empowers all of Stripe s products with a shared product platform that helps with rapidly delivering high-quality, cross-product experiences across our UI and API surfaces. It focuses on providing a consistent and scalable developer experience that any developer (both internal and external) can leverage to accelerate a merchant s ability to create value using Stripe. /p p Team matching — exact team matching for one of the subteams will begin during final stages. Please note we may also consider you for different orgs based on your experience, location, etc. More information on our team matching process can be found a href= https://docs.google.com/document/d/1zvJkO2c7GzukHG-_oqc5wbOLajpuh5FjbmZPcZPU1o0/edit?usp=sharing here /a . /p h2 What you’ll do /h2 p We re looking for Backend Engineers who want to make an impact on managing money at a global scale with a passion for building ergonomic APIs. You ll play a key role in extending our balance management platform and in building out a new funds accessibility platform that enterprises and SMBs use. Our team collaborates with many cross-functional teams—from Infrastructure to Product—at Stripe to deliver innovative solutions that address evolving user needs. /p h3 Responsibilities /h3 ul li Scope, design, build, and maintain APIs, services, and large-scale systems that reliably and efficiently handle billions of money movement requests /li li Debug and solve critical production issues across services and multiple levels of the stack /li li Mentor engineers to help them grow /li li Collaborate with stakeholders across the company to build new features at large-scale, while improving internal engineering standards, tooling, and processes /li li Collaborate effectively in a distributed and hybrid team, maintaining open communication and strong connections with colleagues /li /ul h2 Who you are /h2 p We re looking for someone who meets the minimum requirements to be considered for the role. If you meet these requirements, you are encouraged to apply. The preferred qualifications are a bonus, not a requirement. /p h3 Minimum requirements /h3 ul li 2–12+ years of industry software engineering experience (does not include internships or co-ops) /li li Strong coding skills in any programming language (we understand new languages can be",
@@ -1976,6 +1952,25 @@
    ],
    "snippet": "p At Scale, our mission is to develop reliable AI systems for the world s most important decisions. For 10 years, Scale has provided the high-quality data and full-stack technologies that power the world s leading models, and has helped enterprises and governm",
    "full": "p At Scale, our mission is to develop reliable AI systems for the world s most important decisions. For 10 years, Scale has provided the high-quality data and full-stack technologies that power the world s leading models, and has helped enterprises and governments build, deploy, and oversee AI applications that deliver real impact. We work closely with industry leaders like Meta, Ernst amp; Young, Mayo Clinic, Time Inc., the Government of Qatar, and U.S. government agencies including the Army and Air Force. /p p Every industry is moving AI to the center of operations, but there is still no clear blueprint for getting from pilot to profit. That is the problem our engineers work on. As a New Grad Software Engineer, you will own meaningful, customer-facing work from day one — shipping products, talking directly to the customers who use them, and iterating fast. /p h2 strong Example Projects /strong /h2 ul li Build reinforcement learning and post-training data pipelines that power frontier model development /li li Develop evaluation infrastructure that measures model reliability for enterprise and public sector customers /li li Ship agentic AI applications and the tooling that makes them observable, testable, and safe to deploy /li li Ship tools that accelerate the growth of new qualified contributors on Scale s platform /li li Build fraud-detection systems that remove bad actors and keep Scale s contributor base safe and trusted /li li Use models to estimate the quality of tasks and contributors, and guarantee quality on requests at large scale /li li Devise advanced matching algorithms that pair contributors to customers for optimal turnaround and accuracy /li li Create optimized and efficient UI/UX tooling, in combination with ML algorithms, for 100k+ contributors completing billions of complex tasks /li li Develop new AI infrastructure products to visualize, query, and explore Scale data /li li Build a customer service RAG application that handles thousands of questions a day /li li Integrate a cutting-edge ML model that predicts churn into a customer s retention system /li /ul h2 strong Requirements /strong /h2 ul li A graduation date in Fall 2026 or Spring 2027 with a Bachelor s degree (or equivalent) in a relevant field (Computer Science, EECS, Computer Engineering, Statistics) /li li Product engineering experience such as building web apps full-stack, integrating with relevant APIs and services, talking to customers, figuring out what to build and then iterating /li li Previous Product/Software Engineering internship experience /li li Track record of shipping high-quality products and features at scale /li li Experience building systems that process large volumes of data /li li Experience with Python, Typescript, React, and/or MongoDB /li /ul h2 strong Nice to Have /strong /h2 ul li Hands-on experience with LLMs, evaluations, or agentic systems — whether from internships, research, or personal projects /li li Open source contributions or a po",
+   "salaryText": "",
+   "lpa": null,
+   "inIndia": false,
+   "globalRemote": false,
+   "score": 58
+  },
+  {
+   "title": "Security Software Engineer, IAM",
+   "company": "Vercel",
+   "url": "https://job-boards.greenhouse.io/vercel/jobs/6093255004",
+   "source": "Greenhouse",
+   "board": "vercel",
+   "region": "Hybrid - San Francisco, New York City",
+   "posted": "2026-10-30",
+   "tags": [
+    "Security & IT"
+   ],
+   "snippet": "div class= content-intro h2 About Vercel: /h2 p span data-sheets-root= 1 Vercel is the agentic infrastructure company, freeing people and agents to ship what s next. For more than a decade we ve helped builders move from idea to production with speed, security",
+   "full": "div class= content-intro h2 About Vercel: /h2 p span data-sheets-root= 1 Vercel is the agentic infrastructure company, freeing people and agents to ship what s next. For more than a decade we ve helped builders move from idea to production with speed, security, and exceptional developer experience. /span /p p span data-sheets-root= 1 Now we re scaling our products for both agents and people to ship and run software, built in the open and trusted by OpenAI, PayPal, Ramp, Supreme, and millions of developers worldwide. /span /p /div h2 strong About the role /strong /h2 p We are looking for a Security Software Engineer, IAM, to build identity and access management (IAM) infrastructure as software, not administer identity products, and this role suits a software engineer who has gone deep on identity or an IAM engineer with a strong engineering background. You will own identity and IAM end to end, replacing the approval queue with access that is self-serve, time-bound, and provable, built so identity is defined as code, reviewed in pull requests, deployed through CI, and observable in production, and you will help decide how agents act on behalf of users and systems. This is a hybrid role based in San Francisco or New York City, with three days a week in the office. /p h2 strong What you’ll do /strong /h2 ul li Migrate Okta and related IAM configuration to Terraform so every identity change is reviewed, tested, and versioned, and help engineering teams adopt infrastructure as code /li li Build a self-serve access platform, including just-in-time (JIT) access, that lets team and system owners define, request, and time-bound their own access /li li Own provisioning, deprovisioning, and access review workflows that generate System and Organization Controls 2 (SOC 2) audit evidence automatically /li li Unify corporate IAM (employee identity, SaaS access, devices) and production IAM (service accounts, infrastructure permissions, on-call access) into one identity plane, and enforce least-privilege access across cloud, SaaS, and production infrastructure /li li Define and build how agents request and hold access, working with the Accounts team on product-facing identity /li /ul h2 strong What you need /strong /h2 ul li 7+ years building and owning identity, access management, or platform security systems, including IAM design across corporate (Okta or equivalent) and production (AWS or GCP) environments /li li Built and operated production services or self-service platforms in TypeScript/Node.js, Go, or Python, including REST APIs /li li Implemented OAuth2, OpenID Connect (OIDC), Security Assertion Markup Language (SAML), and System for Cross-domain Identity Management (SCIM) at the protocol level, including failure modes such as token replay and sync drift /li li Managed IAM infrastructure as code in Terraform /li /ul h2 strong Bonus if you /strong /h2 ul li Led a Terraform migration for IAM or identity infrastructure at scale /li li Designed or built a JIT",
    "salaryText": "",
    "lpa": null,
    "inIndia": false,
