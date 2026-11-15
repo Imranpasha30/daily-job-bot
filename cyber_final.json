@@ -1,8 +1,8 @@
 {
- "generated": "2026-11-14T10:46:09.570Z",
+ "generated": "2026-11-15T11:19:52.179Z",
  "usdInr": 88,
  "counts": {
-  "pool": 3275,
+  "pool": 3270,
   "passed": 92,
   "dubai": 0,
   "india": 20
@@ -707,7 +707,7 @@
    "source": "Greenhouse",
    "board": "nasdaq",
    "region": "St. John's",
-   "posted": "2026-11-13",
+   "posted": "2026-11-15",
    "tags": [],
    "snippet": "div p strong Role Responsibilities /strong nbsp; /p /div div ul li p Analyzing security vulnerabilities identified within Verafin s Cloud infrastructure. nbsp; /p /li li p Querying and correlating security scan data with technical inventory. nbsp; /p /li li p ",
    "full": "div p strong Role Responsibilities /strong nbsp; /p /div div ul li p Analyzing security vulnerabilities identified within Verafin s Cloud infrastructure. nbsp; /p /li li p Querying and correlating security scan data with technical inventory. nbsp; /p /li li p Building reports and dashboards to present findings to code amp; infrastructure owners. nbsp; /p /li li p Coordinating vulnerability remediation with code amp; infrastructure owners. nbsp; /p /li li p Ensuring scanning coverage and assisting in remediation of gaps. nbsp; /p /li li p Assessing and improving security processes and tool usage. nbsp; nbsp; /p /li li p Working with security and operational teams to ensure security standards are met. nbsp; nbsp; /p /li /ul p nbsp; /p /div div p strong Essential Skills amp; Qualifications /strong nbsp; /p div div ul li p Diploma or Degree in a Security Management, Programming, Computer Science or equivalent. nbsp; /p /li li p 1+ years experience in security vulnerability analysis in a cloud environment would be an asset. nbsp; /p /li li p Experience working in a cloud-based environment (AWS preferred). nbsp; /p /li li p Experience working with the following technologies from a security perspective: Vulnerability Scanners/Management, Container Security Tools, Logging amp; Monitoring Tooling. nbsp; nbsp; /p /li li p Experience writing queries to analyze data. nbsp; /p /li li p Security certifications would be an asset (CISSP, OSCP, CEH, GSEC, Security+ etc.) nbsp; /p /li li p Strong technical analytical skills while providing accurate analysis of security-related problems in context of Verafin’s environment. nbsp; /p /li li p Committed to continuous learning, understanding new technologies and developing best practices. nbsp; /p /li li p Ability to communicate effectively with other teams. /p /li /ul /div /div div p ​ /p div p strong What does success look like in this role? /strong nbsp; /p /div div ul li p Contribute to the success the Verafin’s security program by offering insight and guidance on response and remediation of security vulnerabilities. nbsp; /p /li li p Review and improve Verafin’s security posture using new tools and processes. nbsp; /p /li li p Be an effective team player, communicator, and have an eagerness to learn and develop new skills. /p /li /ul div p nbsp; /p p strong What are the growth opportunities for this role? /strong nbsp; /p /div div ul li p Technical security career development nbsp; /p /li li p You could become the lead of a team, or the subject matter expert of your current team nbsp; /p /li /ul div p nbsp; /p p nbsp; /p p nbsp; /p /div /div /div /div /div div class= content-conclusion h4 Come as You Are /h4 p Nasdaq is an equal opportunity employer. We welcome applications from candidates of all backgrounds and identities. We are committed to fostering an inclusive workplace where diverse perspectives, experiences, and identities are valued and celebrated. We ensure that individuals with disabilities are provided",
@@ -893,6 +893,28 @@
    "inDubai": false,
    "globalRemote": false,
    "score": 75
+  },
+  {
+   "title": "Junior Network & IT Security Engineer (a)",
+   "company": "cyberunity AG",
+   "url": "https://www.arbeitnow.ch/jobs/companies/cyberunity-ag/junior-network-it-security-engineer-a-frauenfeld-460887",
+   "source": "Arbeitnow",
+   "board": "",
+   "region": "Frauenfeld",
+   "posted": "2026-11-14",
+   "tags": [
+    "IT Security",
+    "Unbefristeter arbeitsvertrag",
+    "berufseinstieg"
+   ],
+   "snippet": "Dein künftiger Arbeitgeber ist ein internationales tätiges Schweizer Familienunternehmen der Industrietechnologie mit Sitz in der Ostschweiz. Seine Produkte stecken in Maschinen und Anlagen auf der ganzen Welt, entsprechend vernetzt ist die IT-Landschaft mit S",
+   "full": "Dein künftiger Arbeitgeber ist ein internationales tätiges Schweizer Familienunternehmen der Industrietechnologie mit Sitz in der Ostschweiz. Seine Produkte stecken in Maschinen und Anlagen auf der ganzen Welt, entsprechend vernetzt ist die IT-Landschaft mit Standorten auf mehreren Kontinenten. Das IT-Security-Team sch",
+   "salaryText": "",
+   "lpa": null,
+   "inIndia": false,
+   "inDubai": false,
+   "globalRemote": false,
+   "score": 65
   },
   {
    "title": "Threat Intelligence Engineer",
@@ -1225,30 +1247,6 @@
    "inDubai": false,
    "globalRemote": false,
    "score": 60
-  },
-  {
-   "title": "SOC Analyst (20:00–05:00 UTC)",
-   "company": "UBQ Group",
-   "url": "https://himalayas.app/companies/ubq-group/jobs/soc-analyst-20-00-05-00-utc-5512557597?utm_source=api",
-   "source": "Himalayas",
-   "board": "",
-   "region": "Japan",
-   "posted": "2026-11-14",
-   "tags": [
-    "SOC-Analyst",
-    "Security-Operations-Analyst",
-    "Cybersecurity-Analyst",
-    "Incident-Response-Analyst",
-    "Threat-Hunting-Analyst"
-   ],
-   "snippet": "About the jobThe SOC Analyst is responsible for the continuous monitoring, triage, and investigation of security events across the organization's environment, as part of a global follow-the-sun Security Operations Center.",
-   "full": "About the jobThe SOC Analyst is responsible for the continuous monitoring, triage, and investigation of security events across the organization's environment, as part of a global follow-the-sun Security Operations Center.",
-   "salaryText": "",
-   "lpa": null,
-   "inIndia": false,
-   "inDubai": false,
-   "globalRemote": false,
-   "score": 55
   },
   {
    "title": "Product Security Engineer",
