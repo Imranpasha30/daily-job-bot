@@ -1,29 +1,12 @@
 {
- "generated": "2026-11-15T11:18:02.936Z",
+ "generated": "2026-11-16T11:49:10.825Z",
  "usdInr": 88,
  "counts": {
-  "pool": 9613,
-  "passed": 246,
-  "india": 28
+  "pool": 9619,
+  "passed": 247,
+  "india": 29
  },
  "jobs": [
-  {
-   "title": "Backend Engineer (Java) ",
-   "company": "Adyen",
-   "url": "https://job-boards.greenhouse.io/adyen/jobs/8041307",
-   "source": "Greenhouse",
-   "board": "adyen",
-   "region": "Bengaluru",
-   "posted": "2026-11-13",
-   "tags": [],
-   "snippet": "p strong This is Adyen /strong /p p span style= font-weight: 400; Adyen provides payments, data, and financial products in a single solution for customers like Meta, Uber, H amp;M, and Microsoft - making us the financial technology platform of choice. At Adyen",
-   "full": "p strong This is Adyen /strong /p p span style= font-weight: 400; Adyen provides payments, data, and financial products in a single solution for customers like Meta, Uber, H amp;M, and Microsoft - making us the financial technology platform of choice. At Adyen, everything we do is engineered for ambition. nbsp; /span /p p span style= font-weight: 400; For our teams, we create an environment with opportunities for our people to succeed, backed by the culture and support to ensure they are enabled to truly own their careers. We are motivated individuals who tackle unique technical challenges at scale and solve them as a team. Together, we deliver innovative and ethical solutions that help businesses achieve their ambitions faster. /span /p p strong About the Team /strong /p p The Payment Gateways team (used to be known as strong IPP Payments Backend /strong ) is a critical pillar of Adyen’s strong Core Payments /strong solution. The Core Payments group handles the foundational business logic, diverse payment flows, and global features that empower Adyen’s merchants worldwide. /p p As part of the Payment Gateways team, you will design and build the infrastructure powering Adyen’s strong in-store payment experience /strong . This means engineering systems capable of handling massive, simultaneous global traffic while maintaining rock-solid reliability for thousands of physical terminals, mobile devices, and merchant hosts. /p p strong What You Will Do /strong /p p As a strong Backend Engineer (Java) /strong , you will orchestrate complex payment flows by integrating multiple Adyen systems and defining the unified architecture for our next-generation payment features. /p ul li strong Design amp; Deliver: /strong Build, test, and deploy high-volume, low-latency Java applications that form the backbone of our global payment systems. /li li strong Architect for Scale: /strong Collaborate across Data and Platform engineering teams to design highly resilient, scalable services with reliability at their core. /li li strong Own the Technical Lifecycle: /strong Drive engineering best practices, contribute to scalable architecture designs, and actively participate in product roadmap discussions. /li li strong Data-Driven Optimization: /strong Define, implement, and monitor performance KPIs to proactively identify and eliminate system bottlenecks. /li li strong Collaborate Globally: /strong Partner cross-functionally with global product managers and engineers, occasionally collaborating directly with merchants to understand how businesses consume your solutions. /li /ul p strong Who You Are /strong /p ul li strong Java Developer: /strong You have strong 3-9 nbsp;years of hands-on experience /strong delivering high-impact backend services using strong Core Java, web services, and SQL/PostgreSQL /strong , with a proven track record of technical leadership and mentoring junior engineers. /li li strong Scalability: /strong High availability, fault tolerance, and lo",
-   "salaryText": "",
-   "lpa": null,
-   "inIndia": true,
-   "globalRemote": false,
-   "score": 153
-  },
   {
    "title": "SDE I",
    "company": "hevodata",
@@ -155,25 +138,6 @@
    "score": 123
   },
   {
-   "title": "Intermediate Backend Engineer, Authorization",
-   "company": "GitLab",
-   "url": "https://job-boards.greenhouse.io/gitlab/jobs/8905402002",
-   "source": "Greenhouse",
-   "board": "gitlab",
-   "region": "Bangalore, India",
-   "posted": "2026-11-06",
-   "tags": [
-    "n/a"
-   ],
-   "snippet": "div class= content-intro p GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformati",
-   "full": "div class= content-intro p GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and more than 50% of the Fortune 100* trust GitLab to ship better, more secure software faster. /p p The same principles built into our products are reflected in how our team works: we embrace AI as a core productivity multiplier, with all team members expected to incorporate AI into their daily workflows to drive efficiency, innovation, and impact. GitLab is where careers accelerate, innovation flourishes, and every voice is valued. Our high-performance culture is driven by our values nbsp;and continuous knowledge exchange, enabling our team members to reach their full potential while collaborating with industry leaders to solve complex problems. a href= https://www.youtube.com/watch?v=OuZIb5zszQI Co-create the future with us /a as we build technology that transforms how the world develops software. /p p * em Fortune 500® is a registered trademark of Fortune Media IP Limited, used under license. Claim based on GitLab data. Fortune 100 refers to the top 20% ranked companies in the 2025 Fortune 500 list, published in June 2025. Fortune and Fortune Media IP Limited are not affiliated with, and do not endorse products or services of GitLab. /em /p /div h2 An overview of this role /h2 p As a Software Engineer on GitLab s Authorization team, you ll help build and maintain the system that decides what every user, token, and automated agent can access on GitLab.com, Self-Managed, and Dedicated. You ll work alongside experienced engineers who guide the larger design decisions, delivering well-scoped changes and growing into ownership of larger parts of the system. /p p Today, that work is Ruby on Rails. Roughly 400 policy classes and a catalog of about 1,900 permissions sit behind every application programming interface (API) request. You ll work on fine-grained token permissions, custom roles, and the GraphQL and representational state transfer (REST) APIs that enforce them. A single request can trigger hundreds of permission checks, so correctness and performance both matter. /p p You ll also contribute to moving the permission model to a new authorization stack that pairs the Rails monolith with a Rust policy engine. The engine represents access relationships and evaluates permission rules, and can run within the monolith s process or be reached through remote procedure calls using gRPC. You don t need prior Rust experience: several engineers on the team learned it for this work, and we ll support you doing the same. /p p Some examples of our projects: /p ul li value= 1 Refactoring GitLab s policy layer so the same permission definitions can be evaluated by the monolith and the new authorization service /li li value= 2 Extending fine-grained token permiss",
-   "salaryText": "",
-   "lpa": null,
-   "inIndia": true,
-   "globalRemote": false,
-   "score": 121
-  },
-  {
    "title": "DevOps Engineer II",
    "company": "HackerRank Careers",
    "url": "https://job-boards.greenhouse.io/hackerrank/jobs/7824249",
@@ -210,6 +174,25 @@
    "inIndia": true,
    "globalRemote": false,
    "score": 121
+  },
+  {
+   "title": "Software Engineer (L1)",
+   "company": "Twilio",
+   "url": "https://job-boards.greenhouse.io/twilio/jobs/8319442",
+   "source": "Greenhouse",
+   "board": "twilio",
+   "region": "Remote - India",
+   "posted": "2026-11-16",
+   "tags": [
+    "TP1EG5101-1"
+   ],
+   "snippet": "div class= content-intro p strong Who we are nbsp; /strong /p p At Twilio, we’re shaping the future of communications, all from the comfort of our homes. We deliver innovative solutions to a class= c-link href= https://customers.twilio.com/ target= _blank data",
+   "full": "div class= content-intro p strong Who we are nbsp; /strong /p p At Twilio, we’re shaping the future of communications, all from the comfort of our homes. We deliver innovative solutions to a class= c-link href= https://customers.twilio.com/ target= _blank data-stringify-link= https://customers.twilio.com/ data-sk= tooltip_parent nbsp;hundreds of thousands of businesses nbsp; /a and empower millions of developers worldwide to craft personalized customer experiences. /p p Our dedication to a class= c-link href= https://www.twilio.com/en-us/blog/open-work target= _blank data-stringify-link= https://www.twilio.com/en-us/blog/open-work data-sk= tooltip_parent remote-first work /a , and strong culture of connection and global inclusion means that no matter your location, you’re part of a vibrant team with diverse experiences making a global impact each day. As we continue to revolutionize how the world interacts, we’re acquiring new skills and experiences that make work feel truly rewarding. Your career at Twilio is in your hands. br span style= color: rgb(255, 255, 255); . /span /p p strong Hiring and how we work /strong /p p We use Artificial Intelligence (AI) to help make our hiring process efficient. That said, every hiring decision is made by real Twilions! nbsp; /p p Also, while we are a remote-first company, you may be asked to report in person on an ad-hoc basis for team gatherings, functional off-sites or customer meetings. br span style= color: rgb(255, 255, 255); . /span /p /div p strong See yourself at Twilio /strong /p p Join the team as our next Software engineer (L1) on Twilio’s Segment, Data platform /p p strong About the job /strong /p p This position is needed to build new features and capabilities in the Twilio Segment Data platform. /p p As a Software Engineer on this team, you’ll build and scale systems that process several hundred thousands of data points per second. Helping our customers unlock value of their data from external systems and activate it to various destinations via Segment capabilities. You will work on high-scale ingestion and data processing systems. nbsp; /p p We iterate quickly on these products and features and learn new things daily — all while writing quality code. We work closely with product and design and solve some of the toughest engineering problems to unlock new possibilities for our customers. If you get excited by building products with high customer impact — this is the place for you. /p p strong Responsibilities /strong /p p In this role, you’ll: /p ul li Design and deliver robust, high-scale routing experiences for Data Pipelines for Twilio Segment. /li li Operate always-available, complex distributed systems in cloud environments. /li li Collaborate cross-functionally with design, product, and other engineers to define solutions that balance usability, performance, and long-term architecture. /li li Communicate technical decisions clearly - articulating trade-offs, customer impact, and team align",
+   "salaryText": "",
+   "lpa": null,
+   "inIndia": true,
+   "globalRemote": true,
+   "score": 119
   },
   {
    "title": "Intermediate Backend Engineer, India",
@@ -381,6 +364,30 @@
    "score": 107
   },
   {
+   "title": "Software Engineer 3",
+   "company": "MongoDB",
+   "url": "https://www.mongodb.com/careers/job/?gh_jid=8239047",
+   "source": "Greenhouse",
+   "board": "mongodb",
+   "region": "Gurugram",
+   "posted": "2026-11-12",
+   "tags": [
+    "n/a",
+    "D22001-App Modernization ENG",
+    "T10339-Modernization ENG",
+    "APAC",
+    "IC - Professional",
+    "Full-time"
+   ],
+   "snippet": "p The Application Modernization Platform (AMP) team is dedicated to solving one of the industry s biggest challenges: transforming rigid, legacy applications that suffer from poor scalability and high operating costs into modern, microservices-based architectu",
+   "full": "p The Application Modernization Platform (AMP) team is dedicated to solving one of the industry s biggest challenges: transforming rigid, legacy applications that suffer from poor scalability and high operating costs into modern, microservices-based architectures on MongoDB. To accelerate this transition, MongoDB is building a dedicated Platform and Infrastructure team to develop the Application Modernisation Platform and Infrastructure . As we help customers modernize their application and data ecosystems, we face the challenge of deploying complex tooling into highly restrictive client environments and architecting automated verification frameworks to ensure data equivalence. /p p This new team will architect the platform foundation and infrastructure that enables a build once, run anywhere model, ensuring our AI-powered modernisation suite operates seamlessly regardless of a client s security or network constraints. We are looking for engineers to join this high-visibility initiative, where you will solve unique distributed systems puzzles and help shape the future of how global enterprises leverage data and AI. /p p We are looking for an experienced Software Engineer who thrives on solving infrastructure constraints and building developer-centric modernisation platforms with a strong background in building software testkits/frameworks. The ideal candidate will be designing and building automated frameworks that validate functional equivalence, performance benchmarks, and data integrity. From leveraging LLMs for unit test generation to building contract testing frameworks, your work will be the safety net for the world’s largest enterprise migrations. /p p This role will be based in our India office in Gurgaon and offers a hybrid working model. /p h3 The ideal candidate for this role will have /h3 ul li 3-4 years of commercial software development experience with at least one JVM language such as Java, preferably using the Spring ecosystem /li li Expertise integrating Large Language Models (LLMs) into the developer workflow to automate unit test generation and edge-case discovery /li li Experience building developer tools, infrastructure, or complex testing frameworks /li li Solid experience in software architecture and development /li li Deep expertise in application/database modernization with proven ability to design and implement frameworks that ensure database state equivalence across different implementations /li li Must understand change data capture, event-driven database interception (MongoDB listeners, RDBMS triggers), and state comparison algorithms with pattern-based exclusions. Strong Spring Boot (or equivalent Java framework), MongoDB (or equivalent), and JDBC/JPA skills required /li li Extensive experience with relational and document data modeling and hands-on experience with at least one SQL database (Postgres, MySQL, etc) and at least one document database (e.g. MongoDB) /li li Good understanding of algorithms, data structure",
+   "salaryText": "",
+   "lpa": null,
+   "inIndia": true,
+   "globalRemote": false,
+   "score": 105
+  },
+  {
    "title": "Site Reliability Engineer, Cells Infrastructure",
    "company": "GitLab",
    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8867756002",
@@ -493,6 +500,25 @@
    "score": 87
   },
   {
+   "title": "Software Engineer, Delivery : Release",
+   "company": "GitLab",
+   "url": "https://job-boards.greenhouse.io/gitlab/jobs/8916232002",
+   "source": "Greenhouse",
+   "board": "gitlab",
+   "region": "Bangalore, India",
+   "posted": "2026-11-06",
+   "tags": [
+    "n/a"
+   ],
+   "snippet": "div class= content-intro p GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformati",
+   "full": "div class= content-intro p GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and more than 50% of the Fortune 100* trust GitLab to ship better, more secure software faster. /p p The same principles built into our products are reflected in how our team works: we embrace AI as a core productivity multiplier, with all team members expected to incorporate AI into their daily workflows to drive efficiency, innovation, and impact. GitLab is where careers accelerate, innovation flourishes, and every voice is valued. Our high-performance culture is driven by our values nbsp;and continuous knowledge exchange, enabling our team members to reach their full potential while collaborating with industry leaders to solve complex problems. a href= https://www.youtube.com/watch?v=OuZIb5zszQI Co-create the future with us /a as we build technology that transforms how the world develops software. /p p * em Fortune 500® is a registered trademark of Fortune Media IP Limited, used under license. Claim based on GitLab data. Fortune 100 refers to the top 20% ranked companies in the 2025 Fortune 500 list, published in June 2025. Fortune and Fortune Media IP Limited are not affiliated with, and do not endorse products or services of GitLab. /em /p /div p The Software Delivery Section, part of the Infrastructure Platforms Department, is dedicated to enhancing the safety, reliability, and overall customer experience of GitLab’s complete software delivery process. We aim to provide seamless and efficient delivery of GitLab products across all platforms, including SaaS multi-tenant, self-managed, and SaaS single-tenant environments. Our primary goals are to accelerate delivery cycles, minimize incidents, and ensure high-quality releases that consistently meet and exceed customer expectations. By focusing on these objectives, we aim to improve GitLab’s end-to-end software delivery process, making it more reliable, efficient, and aligned with the needs of our users. /p p strong Responsibilities /strong /p p Backend Engineers with the Software Delivery:Release bring not only a strong background in backend development but also a solid understanding of, or keen interest in, infrastructure and operations. In this role, you will work alongside Site Reliability Engineers (SREs) to enhance release management tooling, infrastructure, and processes. While SREs approach these responsibilities from an operational standpoint, Backend Engineers provide a software development perspective, collaborating closely to deliver efficient and safe solutions for streamlined code delivery across various supported environments. This role is ideal for individuals with a strong coding background who are also comfortable working on infrastructure, automation and operations-related topic",
+   "salaryText": "",
+   "lpa": null,
+   "inIndia": true,
+   "globalRemote": false,
+   "score": 87
+  },
+  {
    "title": "Software Engineer, Security Platform",
    "company": "Coinbase",
    "url": "https://www.coinbase.com/careers/positions/8165441?gh_jid=8165441",
@@ -577,31 +603,12 @@
    "score": 133
   },
   {
-   "title": "Software Engineer I, Backend (Continuous Delivery)",
-   "company": "Affirm",
-   "url": "https://job-boards.greenhouse.io/affirm/jobs/8181183003",
-   "source": "Greenhouse",
-   "board": "affirm",
-   "region": "Remote US",
-   "posted": "2026-11-12",
-   "tags": [
-    "Engineering"
-   ],
-   "snippet": "div class= content-intro p At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. /p /div p Our team sits within Developer Productivity,",
-   "full": "div class= content-intro p At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. /p /div p Our team sits within Developer Productivity, whose mission is to make software development at Affirm simpler and faster across the company. The broader org owns much of the path between a developer’s laptop and production, including developer environments, CI/CD pipelines, test automation, dependency management, and release engineering, all in service of helping engineers ship code quickly, safely, and with confidence. /p p nbsp; /p p The Continuous Delivery team’s charter is centered on enabling engineering teams to release independently through strong automation, standard patterns, predictable rollouts, resilient recovery mechanisms, and less manual toil. This role is uniquely positioned to help solve one of Affirm’s most important engineering challenges: scaling developer productivity in an era where the software development lifecycle is increasingly AI-enhanced. The team builds and improves the platforms, workflows, and guardrails that help engineers move from idea to production faster, with better safety, consistency, and developer experience. /p p nbsp; /p p We value engineers who listen closely, invite feedback, and work well across organizational boundaries, while also holding a high bar for ownership, technical judgment, and follow-through. Strong candidates will care about building reliable shared systems, reducing friction for other engineers, and making durable improvements that raise the quality and speed of software delivery across Affirm. br br br strong What You ll Do /strong br br br · With the support of your team, you will work on tasks that contribute to the team s projects and goals. br · You will work collaboratively and proactively with your team and stakeholders, bringing them along for your work and helping to create visibility and dialog regarding the risks and trade-offs related to your work. br · You will strike the right balance of speed and quality in your work, ensuring that we hit our business goals while protecting our systems from downtime. br · You will contribute to a sense of community on your team by engaging in growth and development activities. br br br strong What We Look For /strong br br · You have previous work or internship experience designing, developing and launching backend systems at scale and are experienced using one of Python or Kotlin. br · You are familiar with the building blocks of distributed systems, and the technologies like AWS, MySQL and Kubernetes. br · You have mastered taking a simple problem or business scenario into a solution that interacts with multiple software components, and executing on it by writing clear, easily understood, well tested and extensible code. br · You are comfortable navigating a large code base, debugging others code, and providing feedback to ot",
-   "salaryText": "",
-   "lpa": null,
-   "inIndia": false,
-   "globalRemote": true,
-   "score": 119
-  },
-  {
    "title": "Backend Engineer (Ruby), Plan: Spec-Driven Development",
    "company": "GitLab",
-   "url": "https://job-boards.greenhouse.io/gitlab/jobs/8682860002",
+   "url": "https://job-boards.greenhouse.io/gitlab/jobs/8749950002",
    "source": "Greenhouse",
    "board": "gitlab",
-   "region": "Remote, United Kingdom",
+   "region": "Remote, Poland",
    "posted": "2026-11-06",
    "tags": [
     "n/a"
@@ -993,26 +1000,6 @@
    "score": 88
   },
   {
-   "title": "Platform Engineer",
-   "company": "Finmid.com",
-   "url": "https://www.arbeitnow.com/jobs/companies/finmidcom/remote-platform-engineer-34275",
-   "source": "Arbeitnow",
-   "board": "",
-   "region": "Berlin / Greece / Remote",
-   "posted": "2026-11-15",
-   "tags": [
-    "Engineering",
-    "Full Time"
-   ],
-   "snippet": "About finmid At finmid, we’re building infrastructure that integrates access to capital for SMEs directly into the platforms they use daily. We leverage technology, data, and strategic partnerships to deliver financing solutions that significantly outperform t",
-   "full": "About finmid At finmid, we’re building infrastructure that integrates access to capital for SMEs directly into the platforms they use daily. We leverage technology, data, and strategic partnerships to deliver financing solutions that significantly outperform traditional financial services - offering SMEs faster, simple",
-   "salaryText": "",
-   "lpa": null,
-   "inIndia": false,
-   "globalRemote": true,
-   "score": 85
-  },
-  {
    "title": "Backend Engineer, Trusted Agentic Development",
    "company": "GitLab",
    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8760233002",
@@ -1087,6 +1074,25 @@
    "inIndia": false,
    "globalRemote": true,
    "score": 85
+  },
+  {
+   "title": "Software Engineer I, Backend (Continuous Delivery)",
+   "company": "Affirm",
+   "url": "https://job-boards.greenhouse.io/affirm/jobs/8181185003",
+   "source": "Greenhouse",
+   "board": "affirm",
+   "region": "Remote Canada",
+   "posted": "2026-11-12",
+   "tags": [
+    "Engineering"
+   ],
+   "snippet": "div class= content-intro p At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. /p /div p Our team sits within Developer Productivity,",
+   "full": "div class= content-intro p At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. /p /div p Our team sits within Developer Productivity, whose mission is to make software development at Affirm simpler and faster across the company. The broader org owns much of the path between a developer’s laptop and production, including developer environments, CI/CD pipelines, test automation, dependency management, and release engineering, all in service of helping engineers ship code quickly, safely, and with confidence. /p p nbsp; /p p The Continuous Delivery team’s charter is centered on enabling engineering teams to release independently through strong automation, standard patterns, predictable rollouts, resilient recovery mechanisms, and less manual toil. This role is uniquely positioned to help solve one of Affirm’s most important engineering challenges: scaling developer productivity in an era where the software development lifecycle is increasingly AI-enhanced. The team builds and improves the platforms, workflows, and guardrails that help engineers move from idea to production faster, with better safety, consistency, and developer experience. /p p nbsp; /p p We value engineers who listen closely, invite feedback, and work well across organizational boundaries, while also holding a high bar for ownership, technical judgment, and follow-through. Strong candidates will care about building reliable shared systems, reducing friction for other engineers, and making durable improvements that raise the quality and speed of software delivery across Affirm. br br br strong What You ll Do /strong br br br · With the support of your team, you will work on tasks that contribute to the team s projects and goals. br · You will work collaboratively and proactively with your team and stakeholders, bringing them along for your work and helping to create visibility and dialog regarding the risks and trade-offs related to your work. br · You will strike the right balance of speed and quality in your work, ensuring that we hit our business goals while protecting our systems from downtime. br · You will contribute to a sense of community on your team by engaging in growth and development activities. br br br strong What We Look For /strong br br · You have previous work or internship experience designing, developing and launching backend systems at scale and are experienced using one of Python or Kotlin. br · You are familiar with the building blocks of distributed systems, and the technologies like AWS, MySQL and Kubernetes. br · You have mastered taking a simple problem or business scenario into a solution that interacts with multiple software components, and executing on it by writing clear, easily understood, well tested and extensible code. br · You are comfortable navigating a large code base, debugging others code, and providing feedback to ot",
+   "salaryText": "",
+   "lpa": null,
+   "inIndia": false,
+   "globalRemote": false,
+   "score": 84
   },
   {
    "title": "Software Engineer, Backend",
@@ -1368,23 +1374,22 @@
    "score": 72
   },
   {
-   "title": "Software Engineer 3",
-   "company": "MongoDB",
-   "url": "https://www.mongodb.com/careers/job/?gh_jid=8366703",
-   "source": "Greenhouse",
-   "board": "mongodb",
-   "region": "New York City",
-   "posted": "2026-11-12",
+   "title": "Junior Backend Engineer, Platform",
+   "company": "Bask Health",
+   "url": "https://himalayas.app/companies/bask-health/jobs/junior-backend-engineer-platform?utm_source=api",
+   "source": "Himalayas",
+   "board": "",
+   "region": "United States",
+   "posted": "2026-11-16",
    "tags": [
-    "10017300",
-    "D23140-Magenta",
-    "T10512-Magenta",
-    "North America",
-    "Professional - IC",
-    "Full-time"
+    "Backend-Engineer",
+    "Software-Engineer",
+    "Platform-Engineer",
+    "API-Engineer",
+    "Cloud-Engineer"
    ],
-   "snippet": "p Atlas Agent Engine is an agent development platform built on Atlas. It lets enterprises build, deploy, and govern AI agents in production on top of their real-time operational data. Many agents stall between demo and production because of gaps in memory, gov",
-   "full": "p Atlas Agent Engine is an agent development platform built on Atlas. It lets enterprises build, deploy, and govern AI agents in production on top of their real-time operational data. Many agents stall between demo and production because of gaps in memory, governance, and security. Agent Engine addresses these natively, as one foundation for execution, memory, and governance, instead of a stack of separate tools. /p p We are seeking a Software Engineer to join the Atlas Agent Engine team to build and scale the core of this platform. You will work on the developer CLI, SDKs, and distributed systems that run agents reliably at scale: the runtime, memory, retrieval, identity, and governance layers. You’ll take on challenging, high-visibility projects that improve the performance, scalability, and reliability of a new product. MongoDB engineering teams pride themselves on building high-quality software and living our cultural values every day. We value intellectual curiosity and honesty, and building together in an environment that prioritizes collaboration over competition. /p p We are looking to speak to candidates who are based in New York City for our hybrid working model. /p h3 strong Position Expectations /strong /h3 ul li Work closely with research, product management, product engineering, product design, peers as well as other teams within the company to implement the first version and future evolution of the service nbsp; /li li Design, build and deliver well-tested core pieces of the platform in collaboration with other vested parties /li li Contribute to shaping architecture, code reviews and development practices, developer experience as the teams and product grow nbsp; /li li Mentor fellow engineers and assume ownership and accountability of projects /li /ul h3 strong Qualifications /strong /h3 ul li Strong background in building core components for high scale compute and data distributed systems /li li 3+ years experience of building distributed systems, and/or foundational cloud services at scale and an interest in working with Go, Python, and Typescript /li li Proven success in designing, writing, testing, debugging, performance tuning, possessing a strong grip on the foundational materials of computer science and maintaining distributed and/or highly concurrent software systems in large, long-lived code bases /li li Track record of identifying problems, implementing solutions and delivering complex projects in distributed systems or databases /li li Good verbal and written technical communication skills, desire to collaborate with colleagues /li li Bonus: Experience with AI frameworks and tools, open standards such as MCP, A2A, multi-tenant security, enterprise authentication and identity management. /li li Eager to learn, with a strong technical background /li /ul h3 About MongoDB /h3 p MongoDB is built for change, empowering our customers and our people to innovate at the speed of the market. We have redefined the data platform for",
+   "snippet": "About Bask HealthBask Health is a software platform that enables entrepreneurs, doctors, and healthcare businesses to launch, manage, and grow direct-to-consumer telehealth businesses.",
+   "full": "About Bask HealthBask Health is a software platform that enables entrepreneurs, doctors, and healthcare businesses to launch, manage, and grow direct-to-consumer telehealth businesses.",
    "salaryText": "",
    "lpa": null,
    "inIndia": false,
@@ -1586,16 +1591,16 @@
   {
    "title": "Software Engineer - Backend",
    "company": "Databricks",
-   "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8029666002",
+   "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8012650002",
    "source": "Greenhouse",
    "board": "databricks",
-   "region": "Amsterdam, Netherlands",
+   "region": "Belgrade, Serbia",
    "posted": "2026-11-13",
    "tags": [
-    "Databricks, Inc."
+    "Databricks doo Beograd"
    ],
-   "snippet": "p P-1317 /p p At Databricks, we are passionate about enabling data teams to solve the world s toughest problems — from making the next mode of transportation a reality to accelerating the development of medical breakthroughs. We do this by building and running",
-   "full": "p P-1317 /p p At Databricks, we are passionate about enabling data teams to solve the world s toughest problems — from making the next mode of transportation a reality to accelerating the development of medical breakthroughs. We do this by building and running the world s best data and AI infrastructure platform so our customers can use deep data insights to improve their business. Founded by engineers — and customer obsessed — we leap at every opportunity to solve technical challenges, from designing next-gen UI/UX for interfacing with data to scaling our services and infrastructure across millions of virtual machines. And we re only getting started. /p p As a software engineer with a backend focus, you will work with your team to build infrastructure and products for the Databricks platform at scale. /p p strong The impact you ll have: /strong /p p Our backend teams span many domains across our essential service platforms. For instance, you might work on challenges such as: /p ul li Problems that span from product to infrastructure including: distributed systems, at-scale service architecture and monitoring, workflow orchestration, and developer experience. /li li Deliver reliable and high performance services and client libraries for storing and accessing humongous amount of data on cloud storage backends, e.g., AWS S3, Azure Blob Store. /li li Build reliable, scalable services, e.g. Scala, Kubernetes, and data pipelines, e.g. Spark, Databricks, to power the pricing infrastructure that serves millions of cluster-hours per day and develop product features that empower customers to easily view and control platform usage. /li /ul p strong What we look for: /strong /p ul li BS (or higher) in Computer Science, or a related field /li li 2+ years of production level experience in one of: Java, Scala, C++, or similar language. /li li Experience developing large-scale distributed systems. /li li Experience working on a SaaS platform or with Service-Oriented Architectures. /li li Good knowledge of SQL. /li /ul div class= content-conclusion p strong About Databricks /strong /p p span style= font-family: arial, sans-serif; Databricks is the Data and AI company. More than 20,000 organizations worldwide — including adidas, AT amp;T, Bayer, Block, Mastercard, Rivian, Unilever, and 70% of the Fortune 500 — rely on the Databricks Data + AI Platform to build and scale data and AI apps, analytics and agents. Headquartered in San Francisco with 30+ offices around the globe, Databricks offers a unified platform that includes Genie, Lakebase, Agent Bricks, Lakeflow, Lakehouse, and Unity Catalog. To learn more, follow Databricks on a href= https://www.linkedin.com/company/databricks LinkedIn /a , a href= https://x.com/databricks X /a , a href= https://www.youtube.com/@Databricks YouTube /a , and a href= https://www.instagram.com/databricksinc/?hl=en Instagram /a . br br strong Benefits br br /strong /span At Databricks, we strive to provide comprehensive benefits an",
+   "snippet": "p P-1414 /p p At Databricks, we are passionate about helping data teams solve the world s toughest problems — from making the next mode of transportation a reality to accelerating the development of medical breakthroughs. We do this by building and running the",
+   "full": "p P-1414 /p p At Databricks, we are passionate about helping data teams solve the world s toughest problems — from making the next mode of transportation a reality to accelerating the development of medical breakthroughs. We do this by building and running the world s best data and AI infrastructure platform so our customers can use deep data insights to improve their business. /p p Founded by engineers, Databricks has started a multi-year journey to build the best Data Intelligence Platform. For this we are building on top of a great foundation but our goal is to go further to build dramatically better products. We want to revisit every component to provide our customers with the fastest, easiest to use and most secure data platform for all their data workloads. /p p As a software engineer, you will join as a founding member of not only the Belgrade site, but really as a founding team for our multi-year journey to achieve our Lakehouse vision. You will be involved in the entire development cycle and exemplify all core Databricks values. /p p strong The impact you ll have: /strong /p p Our backend teams span many domains across our essential service platforms. For instance, you might work on challenges such as: /p ul li Problems that span from product to infrastructure including: distributed systems, at-scale service architecture and monitoring, workflow orchestration, and developer experience. /li li Build reliable, secure and high performance services and client libraries for storing and accessing humongous amount of data on cloud storage backends, e.g., AWS S3, GCS, Azure Blob Store. /li li Develop product features that empower our customers to easily store and access their data. /li /ul p strong What we look for: /strong /p ul li BS (or higher) in Computer Science, or a related field /li li 3+ years of production level experience in one of: Java, Scala, C++, or similar language /li li Experience developing large-scale distributed systems /li li Experience working on a SaaS platform or with Service-Oriented Architectures /li li Knowledge of SQL /li /ul div class= content-conclusion p strong About Databricks /strong /p p span style= font-family: arial, sans-serif; Databricks is the Data and AI company. More than 20,000 organizations worldwide — including adidas, AT amp;T, Bayer, Block, Mastercard, Rivian, Unilever, and 70% of the Fortune 500 — rely on the Databricks Data + AI Platform to build and scale data and AI apps, analytics and agents. Headquartered in San Francisco with 30+ offices around the globe, Databricks offers a unified platform that includes Genie, Lakebase, Agent Bricks, Lakeflow, Lakehouse, and Unity Catalog. To learn more, follow Databricks on a href= https://www.linkedin.com/company/databricks LinkedIn /a , a href= https://x.com/databricks X /a , a href= https://www.youtube.com/@Databricks YouTube /a , and a href= https://www.instagram.com/databricksinc/?hl=en Instagram /a . br br strong Benefits br br /strong /span At Datab",
    "salaryText": "",
    "lpa": null,
    "inIndia": false,
@@ -1701,8 +1706,8 @@
    ],
    "snippet": "WHO ARE WE? Cohere is the leading security-first enterprise AI company. We build cutting-edge foundation AI models and end-to-end products that are designed to solve real-world business problems. We’re training and deploying frontier models for enterprises who",
    "full": "WHO ARE WE? Cohere is the leading security-first enterprise AI company. We build cutting-edge foundation AI models and end-to-end products that are designed to solve real-world business problems. We’re training and deploying frontier models for enterprises who are building AI systems. We believe that our work is instrumental to the widespread adoption of AI and we are looking for folks that want to be part of that. We obsess over what we build. Each one of us is responsible for contributing to increasing the capabilities of our models and the value they drive for our customers. Cohere is a team of researchers, engineers, designers, and more, who are all passionate about their craft. We are a global technology company headquartered in Toronto with key offices in London, New York City, San Francisco, Montreal, Paris, Berlin and Seoul. Join us! Why this role? The Data Infrastructure team at Cohere is responsible for the storage and data movement layer underlying every model training run. We're building the unified storage layer that feeds our training workloads. It needs to serve petabytes of training data and model checkpoints fast enough to keep thousands of GPUs busy across several training clusters. In this role, you’d have an opportunity to build this system from the ground up. You’d be a key contributor, working on a problem few teams have had to solve at this scale. In this role, you will: - Design, build, and operate the distributed storage system that feeds model training and evaluation. - Run this system multiple on Kubernetes clusters at petabyte scale. - Work with researchers and training-infra teams on how jobs actually read and write data, and turn that into throughput, latency, and durability requirements - Work through the networking, I/O, and consistency problems of moving large datasets and checkpoints across regions and backends, with GPU idle time and time-to-insight as the measures of success You may be a good fit if you have: - Strong storage fundamentals, including replication, consistency, caching, and data lifecycle management. - Strong coding ability. We work in Python and Go; experience in either is enough, but you should be willing to pick up the other - Experience running stateful systems on Kubernetes, including Persistent Volumes, CSI drivers, and StatefulSets. - Hands-on experience with cloud object storage such as S3 as well as POSIX-style filesystems. It’s a bonus if you have: - Experience with parallel or HPC filesystems such as Weka, VAST, or Lustre. - Familiarity with the data-loading and checkpointing patterns used in large-scale model training. - An interest in how large models are trained and evaluated, including the trajectory and eval data those runs generate, and a desire to understand the workloads the platform is serving. FULL-TIME EMPLOYEES AT COHERE ENJOY THESE PERKS: - A weekly lunch stipend of $75/£75 or equivalent in your local currency for lunch. - Full health and dental benefits, including a separa",
-   "salaryText": "$175K – $325K • Offers Equity • Multiple Ranges",
-   "lpa": 286,
+   "salaryText": "$175K – $275K • Offers Equity • Multiple Ranges",
+   "lpa": 242,
    "inIndia": false,
    "globalRemote": false,
    "score": 68

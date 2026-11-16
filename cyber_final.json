@@ -1,9 +1,9 @@
 {
- "generated": "2026-11-15T11:19:52.179Z",
+ "generated": "2026-11-16T11:51:48.177Z",
  "usdInr": 88,
  "counts": {
-  "pool": 3270,
-  "passed": 92,
+  "pool": 3273,
+  "passed": 91,
   "dubai": 0,
   "india": 20
  },
@@ -223,10 +223,10 @@
    "source": "Greenhouse",
    "board": "rubrik",
    "region": "Bangalore, India",
-   "posted": "2026-11-03",
+   "posted": "2026-11-16",
    "tags": [
     "India",
-    "12-15-26 FY27 Q4"
+    "12-01-26 FY27 Q4"
    ],
    "snippet": "h2 strong About the team nbsp; /strong /h2 p span style= font-family: arial, helvetica, sans-serif; font-size: 12pt; The Information Security organization advances the overall state of security at Rubrik through purposeful initiatives and coordination of large",
    "full": "h2 strong About the team nbsp; /strong /h2 p span style= font-family: arial, helvetica, sans-serif; font-size: 12pt; The Information Security organization advances the overall state of security at Rubrik through purposeful initiatives and coordination of large security projects. Information Security builds technologies, tools, and processes to better enable teams at Rubrik to develop secure software and protect data and systems with appropriate security controls. Information Security also develops systems to monitor and respond to attacks against our systems, provides awareness education to teams on security best practices for data protection, and ensures data sharing relationships with third parties in order to securely protect Rubrik information.3 /span /p h2 strong About the role /strong /h2 p span style= font-size: 10pt; We are looking for an experienced and technically deep Identity and Access Management (IAM) Engineer to execute technical strategy across our entire Identity and Access Security management program. This domain spans a broad and increasingly complex set of disciplines, including Identity Governance amp; Administration (IGA), Access Management, Privileged Access Management (PAM), Non-Human Identity (NHI) security, and the emerging space of Agentic Identity security. nbsp; /span /p p span style= font-size: 10pt; This is fundamentally a hands-on role. You will be expected to personally design systems from the ground up and build automation that scales across a large and diverse application portfolio. At the same time, this role carries significant cross-functional weight: you will be partnering closely and continuously with Information Security, IT, Engineering and the many application-owning teams distributed across the company, driving the identity security initiatives in alignment with the overall business objectives. /span /p h2 strong What you ll do /strong /h2 ul li style= font-size: 10pt; span style= font-size: 10pt; strong Solution Design /strong strong br /strong Design and build IAM solutions — including configurations, integrations, and workflows — that align with evolving business requirements, security policies and regulatory requirements (eg., SOX, GDPR). /span /li li style= font-size: 10pt; span style= font-size: 10pt; strong Application Onboarding amp; Integration /strong strong br /strong Lead the onboarding of applications into IAM platforms, integrating across diverse systems including major cloud platforms, SaaS applications, and in-house systems. /span /li li style= font-size: 10pt; span style= font-size: 10pt; strong Build automation and policy-as-code frameworks /strong /span br span style= font-size: 10pt; Manage identity access policies as versioned, auditable code — using source control, CI/CD, and infrastructure-as-code to automate identity and access management changes instead of manual, ticket-driven processes. /span /li li style= font-size: 10pt; span style= font-size: 10pt; strong Deepen identity go",
@@ -582,28 +582,6 @@
    "score": 90
   },
   {
-   "title": "Incident Response Engineer 2",
-   "company": "sophos",
-   "url": "https://jobs.ashbyhq.com/sophos/7ddcc9dc-f415-4ef5-9bd7-ed28e42fd8e4",
-   "source": "Ashby",
-   "board": "sophos",
-   "region": "United Kingdom",
-   "posted": "2026-10-08",
-   "tags": [
-    "Threat Intelligence & Cybersecurity",
-    "MDR and Security Operations",
-    "FullTime"
-   ],
-   "snippet": "Role Summary Sophos is seeking an intermediate-level Incident Response Analyst to support its Managed Detection and Response (MDR) customers within the Critical Incident Response Team (CIRT). As an Incident Response Analyst 2, you will perform advanced investi",
-   "full": "Role Summary Sophos is seeking an intermediate-level Incident Response Analyst to support its Managed Detection and Response (MDR) customers within the Critical Incident Response Team (CIRT). As an Incident Response Analyst 2, you will perform advanced investigative, forensic, and containment activities during active cyber incidents. You will operate with moderate autonomy, serve primarily in an Incident Responder role, and begin supporting Incident Advisors with validated technical findings and customer-facing context. This role serves as the technical backbone of most engagements and includes mentoring junior analysts to ensure consistent execution and documentation quality. What You Will Do - Perform advanced investigative and forensic analysis across endpoints, network logs, and cloud telemetry - Execute containment and response actions to neutralize active threats as directed by Incident Advisors or Senior Analysts - Validate indicators of compromise (IOCs) and correlate alerts, artifacts, and telemetry to determine scope and root cause - Maintain clear and accurate engagement documentation, including trailheads, timelines, and playbooks - Provide guidance and mentorship to junior IR and SOC analysts to ensure adherence to CIRT investigative and documentation standards - Prepare technical findings and summaries for inclusion in customer updates and post-incident reports - Identify and communicate detection or response gaps observed during investigations - Participate in shift handovers, debriefs, and post-incident reviews to ensure engagement continuity - Maintain accurate time and activity tracking to support operational visibility and service improvement What You Will Bring - 2+ years of experience in incident response, MDR, SOC, or security operations roles - Solid technical understanding of endpoint forensics, log analysis, and common attack techniques - Experience investigating malware, credential theft, ransomware, or similar threats - Ability to correlate alerts and telemetry to determine incident scope and root cause - Strong written and verbal communication skills for documenting findings and contributing to customer updates - Experience mentoring or guiding junior analysts - Ability to work effectively in high-pressure, time-sensitive incident environments - Willingness to work some weekends and holidays as part of a rotation - Hands-on experience with EDR, SIEM, and forensic collection tools - Familiarity with OSQuery, SQL, or KQL - Knowledge of MITRE ATT&CK and incident response frameworks - Industry certifications such as GCIH, GCED, CompTIA Security+, or equivalent - Experience contributing to playbooks, detection tuning, or service improvement initiatives What does remote mean at Sophos? Sophos supports flexible ways of working, with many roles offered remotely and others working in a hybrid model. For remote roles, you may work remotely within the location specified in the job posting. Candidates must reside in and be authori",
-   "salaryText": "",
-   "lpa": null,
-   "inIndia": false,
-   "inDubai": false,
-   "globalRemote": false,
-   "score": 90
-  },
-  {
    "title": "Penetration Tester - Contract",
    "company": "Bishop Fox",
    "url": "http://www.bishopfox.com/jobs?gh_jid=7902114",
@@ -707,7 +685,7 @@
    "source": "Greenhouse",
    "board": "nasdaq",
    "region": "St. John's",
-   "posted": "2026-11-15",
+   "posted": "2026-11-16",
    "tags": [],
    "snippet": "div p strong Role Responsibilities /strong nbsp; /p /div div ul li p Analyzing security vulnerabilities identified within Verafin s Cloud infrastructure. nbsp; /p /li li p Querying and correlating security scan data with technical inventory. nbsp; /p /li li p ",
    "full": "div p strong Role Responsibilities /strong nbsp; /p /div div ul li p Analyzing security vulnerabilities identified within Verafin s Cloud infrastructure. nbsp; /p /li li p Querying and correlating security scan data with technical inventory. nbsp; /p /li li p Building reports and dashboards to present findings to code amp; infrastructure owners. nbsp; /p /li li p Coordinating vulnerability remediation with code amp; infrastructure owners. nbsp; /p /li li p Ensuring scanning coverage and assisting in remediation of gaps. nbsp; /p /li li p Assessing and improving security processes and tool usage. nbsp; nbsp; /p /li li p Working with security and operational teams to ensure security standards are met. nbsp; nbsp; /p /li /ul p nbsp; /p /div div p strong Essential Skills amp; Qualifications /strong nbsp; /p div div ul li p Diploma or Degree in a Security Management, Programming, Computer Science or equivalent. nbsp; /p /li li p 1+ years experience in security vulnerability analysis in a cloud environment would be an asset. nbsp; /p /li li p Experience working in a cloud-based environment (AWS preferred). nbsp; /p /li li p Experience working with the following technologies from a security perspective: Vulnerability Scanners/Management, Container Security Tools, Logging amp; Monitoring Tooling. nbsp; nbsp; /p /li li p Experience writing queries to analyze data. nbsp; /p /li li p Security certifications would be an asset (CISSP, OSCP, CEH, GSEC, Security+ etc.) nbsp; /p /li li p Strong technical analytical skills while providing accurate analysis of security-related problems in context of Verafin’s environment. nbsp; /p /li li p Committed to continuous learning, understanding new technologies and developing best practices. nbsp; /p /li li p Ability to communicate effectively with other teams. /p /li /ul /div /div div p ​ /p div p strong What does success look like in this role? /strong nbsp; /p /div div ul li p Contribute to the success the Verafin’s security program by offering insight and guidance on response and remediation of security vulnerabilities. nbsp; /p /li li p Review and improve Verafin’s security posture using new tools and processes. nbsp; /p /li li p Be an effective team player, communicator, and have an eagerness to learn and develop new skills. /p /li /ul div p nbsp; /p p strong What are the growth opportunities for this role? /strong nbsp; /p /div div ul li p Technical security career development nbsp; /p /li li p You could become the lead of a team, or the subject matter expert of your current team nbsp; /p /li /ul div p nbsp; /p p nbsp; /p p nbsp; /p /div /div /div /div /div div class= content-conclusion h4 Come as You Are /h4 p Nasdaq is an equal opportunity employer. We welcome applications from candidates of all backgrounds and identities. We are committed to fostering an inclusive workplace where diverse perspectives, experiences, and identities are valued and celebrated. We ensure that individuals with disabilities are provided",
@@ -1249,6 +1227,30 @@
    "score": 60
   },
   {
+   "title": "Security Operations Engineer",
+   "company": "Yellow Card",
+   "url": "https://himalayas.app/companies/yellow-card/jobs/security-operations-engineer-9490716855?utm_source=api",
+   "source": "Himalayas",
+   "board": "",
+   "region": "South Africa",
+   "posted": "2026-11-16",
+   "tags": [
+    "Detection-Engineer",
+    "Cybersecurity-Engineer",
+    "Security-Operations-Engineer",
+    "SOC-Engineer",
+    "Cloud-Security-Engineer"
+   ],
+   "snippet": "Who We AreYellow Card is the largest licensed Stablecoin-based infrastructure provider operating across over 60 countries.",
+   "full": "Who We AreYellow Card is the largest licensed Stablecoin-based infrastructure provider operating across over 60 countries.",
+   "salaryText": "",
+   "lpa": null,
+   "inIndia": false,
+   "inDubai": false,
+   "globalRemote": false,
+   "score": 55
+  },
+  {
    "title": "Product Security Engineer",
    "company": "Cloudflare",
    "url": "https://boards.greenhouse.io/cloudflare/jobs/8102768?gh_jid=8102768",
@@ -1325,24 +1327,6 @@
    "tags": [],
    "snippet": "h2 strong Who we are /strong /h2 h3 strong About Privy /strong /h3 p Our mission is to make privacy and user ownership the default online. To do so, we build simple, flexible APIs and tools for developers that make it easy to build new products on crypto rails",
    "full": "h2 strong Who we are /strong /h2 h3 strong About Privy /strong /h3 p Our mission is to make privacy and user ownership the default online. To do so, we build simple, flexible APIs and tools for developers that make it easy to build new products on crypto rails. /p p Privy owns the abstractions and infrastructure layer above wallets, integrating across chains, third-party providers, and Stripe products like Treasury and Link. We get to solve hard technical problems while leveraging Stripe s distribution to reach customers like Ramp, Klarna, Deel, Kraken, Hyperliquid, and Fomo — powering experiences for both mainstream users and crypto natives. /p p Learn more about Privy: nbsp; a class= Link href= https://privy.io/blog/announcing-our-acquisition-by-stripe data-js-controller= AnalyticsButton data-analytics-category= Links data-analytics-action= Clicked data-analytics-label= Related content Privy and Stripe: Bringing crypto to everyone /a /p h3 strong About the team /strong /h3 p Engineering at Privy is distinguished by: /p ul li High urgency: Shipping very small iterations, very fast, to learn very quickly. nbsp; /li li Product taste: Our customers em are /em developers, and to build effective products for them requires technical knowledge - you will often be the PM . /li li Security mindset: A great portion of our product is trust. While we have a dedicated security team, every engineer brings security to their designs from the start. /li /ul p In practice, we use nbsp; a href= https://mcfunley.com/choose-boring-technology boring technology /a like Node, React, and AWS so we can focus our engineering energy entirely on pushing the boundaries of Privy s core product, e.g. through hardware enclaves, multi-region low latency APIs, and blockchain abstractions that are accessible to mainstream developers. /p h2 strong What you’ll do /strong /h2 p As a Security Engineer at Privy, you will help keep a rapidly growing platform secure through hands-on investigation, operational ownership, and building real code to solve real problems. You’ll work across security operations, incident response, application and infrastructure security, and internal tooling. /p p This is not a role limited to reviewing logs and designs or simply escalating findings. You will carry real ownership for the day-to-day work that protects Privy: investigating anomalies, improving security workflows, and building the automation that makes the team faster and more effective over time. You’ll work closely with engineers across Privy and alongside specialists in cryptography, application security, offensive security, and infrastructure security to turn security expertise into practical, durable outcomes. /p h3 strong Responsibilities /strong /h3 ul li style= font-weight: 400; Own security engineering work end to end: investigate alerts, findings, anomalies, and security requests; identify root causes; drive remediation; and clearly document outcomes. /li li Participate in Privy’s securi",
-   "salaryText": "",
-   "lpa": null,
-   "inIndia": false,
-   "inDubai": false,
-   "globalRemote": false,
-   "score": 55
-  },
-  {
-   "title": "Threat Intelligence Response Analyst",
-   "company": "Recorded Future",
-   "url": "https://job-boards.greenhouse.io/recordedfuture/jobs/8859088002",
-   "source": "Greenhouse",
-   "board": "recordedfuture",
-   "region": "London, England, UK",
-   "posted": "2026-11-03",
-   "tags": [],
-   "snippet": "div class= content-intro p With 1,000+ intelligence professionals serving over 1,900 clients worldwide, Recorded Future is the world’s most advanced, and largest, intelligence company! /p /div p This is an exciting opportunity to join Recorded Future s Managed",
-   "full": "div class= content-intro p With 1,000+ intelligence professionals serving over 1,900 clients worldwide, Recorded Future is the world’s most advanced, and largest, intelligence company! /p /div p This is an exciting opportunity to join Recorded Future s Managed Services Group as a strong Threat Intelligence Response Analyst. /strong You will be an independent, skilled intelligence analyst who plays a central role in delivering high-quality security outcomes for our clients. Recorded Future supports information security teams at some of the most ambitious organisations on the planet. You will work alongside a talented team of analysts, bringing your threat intelligence expertise to bear on real-world adversary activity every day. /p h3 strong Who You ll Work With: /strong /h3 p As a Threat Intelligence Response Analyst, you will be joining a fast-paced, high-growth team delivering innovative security solutions that protect our clients. You will be part of the global Managed Services team with a rapidly growing client portfolio, ensuring our users get the most value out of our services. nbsp; /p h3 strong What You ll Do: /strong /h3 p As a Threat Intelligence Response Analyst, you will: nbsp; /p ul li Be responsible for triaging alerts for a portfolio of cross-industry corporate, commercial, and enterprise clients nbsp; /li li Support customer engagements by providing insight into the threats observed by your customers, enabling customers to take action to mitigate cyber threats nbsp; /li li Work closely with Services and Product teams to ensure the success of the Recorded Future offering within customer environments /li li Handle incoming ad-hoc research and investigation requests from Managed Services customers nbsp; /li /ul h3 strong What You ll Bring: /strong /h3 ul li A self-starter mindset. You’ll be comfortable working independently while remaining a collaborative and reliable team member /li li Practical experience in threat intelligence, incident response, or security monitoring /li li A solid understanding of open source intelligence techniques and their application to phishing, credential harvesting, domain monitoring, dark web monitoring, and threat actor profiling /li li Working knowledge of security and network fundamentals — DNS, HTTP, email infrastructure, web hosting, and malware delivery mechanisms /li li Ability to identify, analyse, and communicate actionable intelligence to both technical and non-technical stakeholders /li li Strong written and verbal communication skills, with experience handling customer-facing interactions /li li CompTIA Security+ certification completed or actively in progress (preferred) /li li Experience with Salesforce, Gainsight, Notion, and Zendesk is a plus /li /ul h3 strong Working Hours: /strong /h3 p This role covers a shift-based schedule to support global client coverage. UK-based shift hours are: 9:00am – 6:00pm GMT /p p br #LI-Hybrid /p div class= content-conclusion p strong Why should you join ",
    "salaryText": "",
    "lpa": null,
    "inIndia": false,
