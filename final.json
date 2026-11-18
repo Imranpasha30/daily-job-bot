@@ -1,10 +1,10 @@
 {
- "generated": "2026-11-17T12:09:37.888Z",
+ "generated": "2026-11-18T12:00:06.008Z",
  "usdInr": 88,
  "counts": {
-  "pool": 9537,
-  "passed": 238,
-  "india": 25
+  "pool": 9553,
+  "passed": 239,
+  "india": 26
  },
  "jobs": [
   {
@@ -44,6 +44,26 @@
    "inIndia": true,
    "globalRemote": false,
    "score": 153
+  },
+  {
+   "title": "Associate SDE",
+   "company": "hevodata",
+   "url": "https://jobs.lever.co/hevodata/4eccaf98-ba19-42ea-b040-e0976d4dadfe",
+   "source": "Lever",
+   "board": "hevodata",
+   "region": "Bangalore, India",
+   "posted": "2026-11-18",
+   "tags": [
+    "Backend",
+    "Full time"
+   ],
+   "snippet": "About Hevo: Hevo is a Series B data infrastructure company with $42M raised. More than 2,000 companies across 40 plus countries use Hevo to move data from more than 150 sources into platforms such as Snowflake and BigQuery. Our customers include DoorDash, Shop",
+   "full": "About Hevo: Hevo is a Series B data infrastructure company with $42M raised. More than 2,000 companies across 40 plus countries use Hevo to move data from more than 150 sources into platforms such as Snowflake and BigQuery. Our customers include DoorDash, Shopify, Pinterest, Postman and Icelandair. Our engineering team is built in India, and so are the decisions. We are not the remote engineering office of a US company. The people building the product are the people deciding what to build. What we are building: We are building an AI system that creates data connectors by itself and keeps them working by itself. No engineer should need to manually build every connector. No engineer should need to come back six months later because the source API changed. Work that traditionally takes weeks or months should take hours. But building a connector is not the hardest part. The real question is: Would you trust this system to run by itself, with nobody watching, for months? That is the job. What you’ll own as Associate SDE at Hevo: Implement SaaS connectors for assigned applications, learning application specific nuances like basic auth and data extraction. Assist in building simple REST API components, focusing on clean implementation and testing. Debug and optimize code for data pipeline efficiency under mentorship. Contribute to feature breakdown, coding, and documentation for smaller tasks. Apply logical thinking to solve integration issues and improve component quality. Build internal tools with AI for business teams to run their functions What you’ll bring to the table: Basic object-oriented programming skills and familiarity with design principles. Exposure to data pipelines or APIs; eagerness to learn concurrency and performance basics. Foundational knowledge of REST APIs (e.g., making calls, handling JSON) – no deep expertise needed. Proficiency in Java/TypeScript/Python, good problem-solving with data structures and algorithms. Strong analytical and logical thinking for real-world challenges. Candidate Persona: Freshers with experience in software development, ideally with internships in integrations or data tools. B Tech in Computer Science or equivalent from a reputed college. Why this role: Very few teams are building autonomous AI systems that operate production infrastructure where being wrong has real consequences. This is not a chatbot. It is infrastructure that has to remain correct, quietly, for months. If that kind of problem excites you, there are not many places working on it this early. You can talk to anyone in the company, including the CEO. What you are trusted with depends on what you can do, not your title.",
+   "salaryText": "",
+   "lpa": null,
+   "inIndia": true,
+   "globalRemote": false,
+   "score": 143
   },
   {
    "title": "SDE I",
@@ -287,6 +307,30 @@
    "score": 113
   },
   {
+   "title": "Software Engineer 3",
+   "company": "MongoDB",
+   "url": "https://www.mongodb.com/careers/job/?gh_jid=8083366",
+   "source": "Greenhouse",
+   "board": "mongodb",
+   "region": "Gurugram",
+   "posted": "2026-11-16",
+   "tags": [
+    "10006621",
+    "D43450-Website",
+    "T10272-Web Strategy & Technology",
+    "APAC",
+    "Professional - IC",
+    "Full-time"
+   ],
+   "snippet": "p We’re looking for a Software Engineer 3 to join our Marketing Technology Engineering team within Marketing Operations - Technology amp; Automation. This is a hands-on engineering role for someone who enjoys building reliable, scalable digital platforms and i",
+   "full": "p We’re looking for a Software Engineer 3 to join our Marketing Technology Engineering team within Marketing Operations - Technology amp; Automation. This is a hands-on engineering role for someone who enjoys building reliable, scalable digital platforms and internal systems that improve how teams ship, measure, and optimize web experiences. You’ll work across application development, integrations, experimentation, data-informed decision making, and AI-enabled workflows that help the team move faster and deliver better outcomes. /p p We are looking to speak to candidates who are based in Gurugram for our hybrid working model. /p h3 What you’ll do /h3 ul li Build and maintain production-quality software that powers martech experiences /li li Design and implement backend services, internal tools, automations, and integrations across the martech ecosystem /li li Improve system reliability, observability, maintainability, and developer experience across the team’s platforms /li li Contribute to experimentation, personalization, and data workflows that support better customer and developer experiences /li li Help evaluate and apply AI-enabled capabilities and tools where they can improve engineering velocity, quality, or user experience /li li Participate in code reviews, technical design discussions, and team planning /li li Take ownership of projects from implementation through rollout, monitoring, and iteration /li /ul h3 What we’re looking for /h3 ul li 3+ years of professional software engineering experience building and supporting production systems /li li Strong coding skills in one or more modern programming languages such as JavaScript or Python /li li Experience building web applications, backend services, APIs, data pipelines, or internal platforms /li li Solid understanding of software engineering fundamentals including testing, debugging, code quality, and maintainability /li li Experience working with cloud services, CI/CD workflows, and modern development practices /li li Ability to work across systems and collaborate effectively with cross-functional partners /li li Strong written and verbal communication skills /li li Experience partnering with marketing, sales, and revenue operations teams to translate business requirements into clear technical specifications /li li Curiosity, ownership, and a practical approach to solving ambiguous problems /li /ul h3 Nice to have /h3 ul li Experience working with go-to-market platforms (i.e. Marketo, Salesforce, Segment, Ad Platforms), analytics, or experimentation platforms /li li Ability to map lead flows and trace the path a lead takes from website through to opportunity. /li li Familiarity with data pipelines, event instrumentation, or web performance optimization /li li Experience integrating AI or machine learning powered capabilities into products, workflows, or developer tooling /li li Comfort using AI-assisted engineering tools thoughtfully to improve delivery speed and quality /li /ul h3 ",
+   "salaryText": "",
+   "lpa": null,
+   "inIndia": true,
+   "globalRemote": false,
+   "score": 109
+  },
+  {
    "title": "SDE II - AI",
    "company": "InMobi ",
    "url": "https://job-boards.greenhouse.io/inmobi/jobs/8073988",
@@ -322,25 +366,6 @@
    "inIndia": true,
    "globalRemote": false,
    "score": 107
-  },
-  {
-   "title": "Site Reliability Engineer, Cells Infrastructure",
-   "company": "GitLab",
-   "url": "https://job-boards.greenhouse.io/gitlab/jobs/8867756002",
-   "source": "Greenhouse",
-   "board": "gitlab",
-   "region": "Bangalore, India",
-   "posted": "2026-11-09",
-   "tags": [
-    "n/a"
-   ],
-   "snippet": "div class= content-intro p GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformati",
-   "full": "div class= content-intro p GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and more than 50% of the Fortune 100* trust GitLab to ship better, more secure software faster. /p p The same principles built into our products are reflected in how our team works: we embrace AI as a core productivity multiplier, with all team members expected to incorporate AI into their daily workflows to drive efficiency, innovation, and impact. GitLab is where careers accelerate, innovation flourishes, and every voice is valued. Our high-performance culture is driven by our values nbsp;and continuous knowledge exchange, enabling our team members to reach their full potential while collaborating with industry leaders to solve complex problems. a href= https://www.youtube.com/watch?v=OuZIb5zszQI Co-create the future with us /a as we build technology that transforms how the world develops software. /p p * em Fortune 500® is a registered trademark of Fortune Media IP Limited, used under license. Claim based on GitLab data. Fortune 100 refers to the top 20% ranked companies in the 2025 Fortune 500 list, published in June 2025. Fortune and Fortune Media IP Limited are not affiliated with, and do not endorse products or services of GitLab. /em /p /div h2 An overview of this role /h2 p We re looking for an Intermediate Site Reliability Engineer to join the Cells Infrastructure team in GitLab s Scale amp; Architecture organization. In this role, you ll help build and operate Cells, the architecture that lets GitLab.com scale horizontally. Cells splits GitLab.com into many independent units, each with its own application and data stack, behind a shared routing layer. /p p This is a build-it-and-run-it role. You ll provision cells, route traffic to them, deploy them safely, and keep them reliable in production. You ll also help move customer organizations onto Cells, one of GitLab s most important scaling initiatives. /p h2 What you ll do /h2 ul li value= 1 Operate Cells in production: join the on-call rotation, respond to incidents, lead post-incident reviews, and drive corrective actions to completion. /li li value= 2 Define and monitor service level objectives (SLOs) for routing and cell health, and build the dashboards, alerts, and runbooks behind them. /li li value= 3 Provision and operate cell infrastructure on Amazon Web Services (AWS) and Google Cloud Platform (GCP), including Kubernetes, networking, Identity and Access Management (IAM), PostgreSQL, Redis, and object storage. /li li value= 4 Develop infrastructure as code with Terraform, Helm, and GitOps tooling such as Argo CD. /li li value= 5 Operate and extend the global routing layer, built on Cloudflare Workers, Envoy, and a Go service backed by Cloud Spanner, and expand routing to more protoc",
-   "salaryText": "",
-   "lpa": null,
-   "inIndia": true,
-   "globalRemote": false,
-   "score": 105
   },
   {
    "title": "Software Engineer, Core Technology",
@@ -383,7 +408,7 @@
    "source": "Greenhouse",
    "board": "twilio",
    "region": "Remote - India",
-   "posted": "2026-11-16",
+   "posted": "2026-11-17",
    "tags": [
     "TP2EG5332-1"
    ],
@@ -520,10 +545,10 @@
   {
    "title": "Backend Engineer (Ruby), Plan: Spec-Driven Development",
    "company": "GitLab",
-   "url": "https://job-boards.greenhouse.io/gitlab/jobs/8749950002",
+   "url": "https://job-boards.greenhouse.io/gitlab/jobs/8682860002",
    "source": "Greenhouse",
    "board": "gitlab",
-   "region": "Remote, Poland",
+   "region": "Remote, United Kingdom",
    "posted": "2026-11-06",
    "tags": [
     "n/a"
@@ -556,6 +581,25 @@
    "inIndia": false,
    "globalRemote": true,
    "score": 117
+  },
+  {
+   "title": "Backend Engineer (Ruby), AI Engineering: AI Catalog ",
+   "company": "GitLab",
+   "url": "https://job-boards.greenhouse.io/gitlab/jobs/8940898002",
+   "source": "Greenhouse",
+   "board": "gitlab",
+   "region": "Remote, United Kingdom",
+   "posted": "2026-11-17",
+   "tags": [
+    "n/a"
+   ],
+   "snippet": "div class= content-intro p GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformati",
+   "full": "div class= content-intro p GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and more than 50% of the Fortune 100* trust GitLab to ship better, more secure software faster. /p p The same principles built into our products are reflected in how our team works: we embrace AI as a core productivity multiplier, with all team members expected to incorporate AI into their daily workflows to drive efficiency, innovation, and impact. GitLab is where careers accelerate, innovation flourishes, and every voice is valued. Our high-performance culture is driven by our values nbsp;and continuous knowledge exchange, enabling our team members to reach their full potential while collaborating with industry leaders to solve complex problems. a href= https://www.youtube.com/watch?v=OuZIb5zszQI Co-create the future with us /a as we build technology that transforms how the world develops software. /p p * em Fortune 500® is a registered trademark of Fortune Media IP Limited, used under license. Claim based on GitLab data. Fortune 100 refers to the top 20% ranked companies in the 2025 Fortune 500 list, published in June 2025. Fortune and Fortune Media IP Limited are not affiliated with, and do not endorse products or services of GitLab. /em /p /div h2 strong An overview of this role /strong /h2 p As an Intermediate Backend Engineer in GitLab s Agent Foundations stage, you ll go beyond using AI tools. You ll help build the foundations for GitLab s agentic AI experiences: the platform that lets AI agents work across the whole software delivery lifecycle, not just write code. That covers how agents are created, shared and connected to tools inside and outside GitLab, how they run, and how their work shows up and can be observed across GitLab. /p p In this role you ll work closely with engineers across the stage and other AI Engineering teams. This is a high-visibility area where GitLab s core platform meets its AI strategy. /p h2 strong What you ll do /strong /h2 ul li Develop, ship and maintain features for the Duo Agent Platform in the GitLab monolith (Ruby) and, where needed, the AI Gateway (Python). Keep them secure, well-tested and performant. /li li Work with Product Management, UX, frontend, backend and AI specialists to refine requirements and ship improvements in small iterations. /li li Design, implement and review GraphQL and REST APIs and the backend logic behind them, with reliable, scalable and clear contracts for clients. /li li Improve and extend automated testing (RSpec and other frameworks) to strengthen quality and give developers faster feedback. /li li Share standards, patterns and learnings with other engineers to raise the bar for responsible AI integration and evidence-driven engineering. /li li Join Tier 2 a href= https://handb",
+   "salaryText": "",
+   "lpa": null,
+   "inIndia": false,
+   "globalRemote": true,
+   "score": 107
   },
   {
    "title": "Software Engineer – Backend Engineer – Tax Engineering",
@@ -834,25 +878,6 @@
    "score": 91
   },
   {
-   "title": "Backend Engineer, Source Code: Repository Services (Ruby)",
-   "company": "GitLab",
-   "url": "https://job-boards.greenhouse.io/gitlab/jobs/8912709002",
-   "source": "Greenhouse",
-   "board": "gitlab",
-   "region": "Remote, United Kingdom",
-   "posted": "2026-11-06",
-   "tags": [
-    "n/a"
-   ],
-   "snippet": "div class= content-intro p GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformati",
-   "full": "div class= content-intro p GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and more than 50% of the Fortune 100* trust GitLab to ship better, more secure software faster. /p p The same principles built into our products are reflected in how our team works: we embrace AI as a core productivity multiplier, with all team members expected to incorporate AI into their daily workflows to drive efficiency, innovation, and impact. GitLab is where careers accelerate, innovation flourishes, and every voice is valued. Our high-performance culture is driven by our values nbsp;and continuous knowledge exchange, enabling our team members to reach their full potential while collaborating with industry leaders to solve complex problems. a href= https://www.youtube.com/watch?v=OuZIb5zszQI Co-create the future with us /a as we build technology that transforms how the world develops software. /p p * em Fortune 500® is a registered trademark of Fortune Media IP Limited, used under license. Claim based on GitLab data. Fortune 100 refers to the top 20% ranked companies in the 2025 Fortune 500 list, published in June 2025. Fortune and Fortune Media IP Limited are not affiliated with, and do not endorse products or services of GitLab. /em /p /div div strong About the role /strong br We re looking for a Backend Engineer to join our Repository Services team in GitLab s Create stage. The team owns the repository side of Source Code: how code gets into a repository, who may change it, and how those changes are verified. We build this as an access layer on the primitives the Gitaly team provides, for GitLab s own features and for the artificial intelligence agents now writing and pushing code alongside people. br You ll work in one of GitLab s oldest and most complex product areas, using Ruby and GraphQL across a href= http://GitLab.com target= _blank GitLab.com /a , self-managed instances, and GitLab Dedicated. Repository Services is a new team, and its first months are about reliability and support, so you ll spend real time on performance and structured query language tuning, caching, rate limiting, testing, observability, and resiliency, with experienced team members to lean on. You ll collaborate with product management, product design, testing, security, user experience research, technical writing, Gitaly, Code Review, and the other Source Code teams. br br strong What you ll do /strong /div ul li Develop secure, well-tested, performant features and improvements using Ruby and GraphQL. /li li Work through complex requirements and legacy constraints to deliver clear solutions while protecting the reliability of this critical system. /li li Design and maintain backend services, application programming interfaces, data models, and business logic tha",
-   "salaryText": "",
-   "lpa": null,
-   "inIndia": false,
-   "globalRemote": true,
-   "score": 91
-  },
-  {
    "title": "Full Stack Technical Developer",
    "company": "Elastic",
    "url": "https://jobs.elastic.co/jobs?gh_jid=8281841&gh_jid=8281841",
@@ -886,7 +911,7 @@
     "FullTime"
    ],
    "snippet": "ABOUT SUPABASE Supabase is the Postgres development platform, built by developers for developers. We provide a complete backend solution including Database, Auth, Storage, Edge Functions, Realtime, and Vector Search. All services are deeply integrated and desi",
-   "full": "ABOUT SUPABASE Supabase is the Postgres development platform, built by developers for developers. We provide a complete backend solution including Database, Auth, Storage, Edge Functions, Realtime, and Vector Search. All services are deeply integrated and designed for growth. ABOUT THE ROLE Supabase Storage https://supabase.com/docs/guides/storage is a scalable and high performance object storage service and is one of our fastest growing services. The current landscape of tools for uploading, storing, processing and delivering assets is complicated. Developers are forced to think about regions, caching, codecs and security before they can start uploading anything. We are looking for engineers to solve this problem once and for all! You will be working across the entire stack - client libraries, CLI, CDN, the storage server and the deployment infrastructure. One day, you might focus on improving upload resilience in iOS applications; the next, you could be optimizing the S3 protocol for efficient retries or finding ways to accelerate upload processing. You will be contributing to both our open source server https://github.com/supabase/storage and upstream dependencies we use, like the TUS server https://github.com/tus/tus-node-server/pulls?q=sort%3Aupdated-desc+is%3Apr+author%3Afenos+is%3Amerged. This role is ideal for someone who thrives in async, fast-paced environments and is excited about building developer tools that scale to millions. WHAT YOU’LL BE RESPONSIBLE FOR - Improving our analytics bucket offering and improving the storage of open file formats like iceberg and ducklake - Asset optimization to speed up delivery for websites and mobile applications - Building out our edge network to speed up uploads and build features like automatic cache invalidation - Improve the performance, observability, and reliability of our storage server - Work with the frontend team to build a fast, powerful storage explorer - Improve our APIs, client libraries and CLI to provide an exceptional end-to-end DX for our users - Resolve escalated support issues, while also identifying and resolving systemic issues across the platform YOU MIGHT BE A GOOD FIT IF YOU - Have 5+ years backend engineering experience of running Node.js in production - Have experience with highly scalable, distributed systems - Are comfortable with working across the stack - backend application development, some infrastructure work including deploying, monitoring and scaling the service - Posses familiarity with observability tools (OpenTelemetry, Prometheus, Grafana) and performance tuning - Have experience with production-grade PostgreSQL usage, including tuning and troubleshooting - Demonstrate an ownership mentality: driving projects end-to-end - Display empathy towards developer experience NICE-TO-HAVE - Prior experience working on developer tools - Solid knowledge of cloud infrastructure (AWS, GCP or Azure) and containerization (Docker, Kubernetes) - Direct experience designing and",
+   "full": "ABOUT SUPABASE Supabase is the Postgres development platform, built by developers for developers. We provide a complete backend solution including Database, Auth, Storage, Edge Functions, Realtime, and Vector Search. All services are deeply integrated and designed for growth. ABOUT THE ROLE Supabase Storage https://supabase.com/docs/guides/storage is a scalable and high performance object storage service and is one of our fastest growing services. The current landscape of tools for uploading, storing, processing and delivering assets is complicated. Developers are forced to think about regions, caching, codecs and security before they can start uploading anything. We are looking for engineers to solve this problem once and for all! You will be working across the entire stack - client libraries, CLI, CDN, the storage server and the deployment infrastructure. One day, you might focus on improving upload resilience in iOS applications; the next, you could be optimizing the S3 protocol for efficient retries or finding ways to accelerate upload processing. You will be contributing to both our open source server https://github.com/supabase/storage and upstream dependencies we use, like the TUS server https://github.com/tus/tus-node-server/pulls?q=sort%3Aupdated-desc+is%3Apr+author%3Afenos+is%3Amerged. This role is ideal for someone who thrives in async, fast-paced environments and is excited about building developer tools that scale to millions. WHAT YOU’LL BE RESPONSIBLE FOR - Improving our analytics bucket offering and improving the storage of open file formats like iceberg and ducklake - Asset optimization to speed up delivery for websites and mobile applications - Building out our edge network to speed up uploads and build features like automatic cache invalidation - Improve the performance, observability, and reliability of our storage server - Work with the frontend team to build a fast, powerful storage explorer - Improve our APIs, client libraries and CLI to provide an exceptional end-to-end DX for our users - Resolve escalated support issues, while also identifying and resolving systemic issues across the platform YOU MIGHT BE A GOOD FIT IF YOU - Have 5+ years backend engineering experience of running Rust and Tokio in production - Have experience with highly scalable, distributed systems - Are comfortable with working across the stack - backend application development, some infrastructure work including deploying, monitoring and scaling the service - Posses familiarity with observability tools (OpenTelemetry, Prometheus, Grafana) and performance tuning - Have experience with production-grade PostgreSQL usage, including tuning and troubleshooting - Demonstrate an ownership mentality: driving projects end-to-end - Display empathy towards developer experience NICE-TO-HAVE - Experience with TypeScript and Node.js - Prior experience working on developer tools - Solid knowledge of cloud infrastructure (AWS, GCP or Azure) and containerization (Docke",
    "salaryText": "",
    "lpa": null,
    "inIndia": false,
@@ -915,6 +940,46 @@
    "score": 88
   },
   {
+   "title": "Full-Stack Engineer (Backend Leaning) - Payments Engineering",
+   "company": "ElevenLabs",
+   "url": "https://www.arbeitnow.com/jobs/companies/elevenlabs/remote-full-stack-engineer-backend-leaning-payments-engineering-51351",
+   "source": "Arbeitnow",
+   "board": "",
+   "region": "Remote",
+   "posted": "2026-11-18",
+   "tags": [
+    "Engineering & Product",
+    "Full Time"
+   ],
+   "snippet": "About ElevenLabs ElevenLabs is an AI research and product company transforming how we interact with technology. We launched in January 2023 with the first human-like AI voice model. Today, we serve millions of users and thousands of businesses - from fast-grow",
+   "full": "About ElevenLabs ElevenLabs is an AI research and product company transforming how we interact with technology. We launched in January 2023 with the first human-like AI voice model. Today, we serve millions of users and thousands of businesses - from fast-growing startups to large enterprises like Deutsche Telekom and ",
+   "salaryText": "",
+   "lpa": null,
+   "inIndia": false,
+   "globalRemote": true,
+   "score": 85
+  },
+  {
+   "title": "Full-Stack Engineer (Backend Leaning) - Platform Engineering",
+   "company": "ElevenLabs",
+   "url": "https://www.arbeitnow.com/jobs/companies/elevenlabs/remote-full-stack-engineer-backend-leaning-platform-engineering-8063",
+   "source": "Arbeitnow",
+   "board": "",
+   "region": "Remote",
+   "posted": "2026-11-18",
+   "tags": [
+    "Engineering & Product",
+    "Full Time"
+   ],
+   "snippet": "About ElevenLabs ElevenLabs is an AI research and product company transforming how we interact with technology. We launched in January 2023 with the first human-like AI voice model. Today, we serve millions of users and thousands of businesses - from fast-grow",
+   "full": "About ElevenLabs ElevenLabs is an AI research and product company transforming how we interact with technology. We launched in January 2023 with the first human-like AI voice model. Today, we serve millions of users and thousands of businesses - from fast-growing startups to large enterprises like Deutsche Telekom and ",
+   "salaryText": "",
+   "lpa": null,
+   "inIndia": false,
+   "globalRemote": true,
+   "score": 85
+  },
+  {
    "title": "Backend Engineer, Trusted Agentic Development",
    "company": "GitLab",
    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8760233002",
@@ -927,6 +992,25 @@
    ],
    "snippet": "div class= content-intro p GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformati",
    "full": "div class= content-intro p GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and more than 50% of the Fortune 100* trust GitLab to ship better, more secure software faster. /p p The same principles built into our products are reflected in how our team works: we embrace AI as a core productivity multiplier, with all team members expected to incorporate AI into their daily workflows to drive efficiency, innovation, and impact. GitLab is where careers accelerate, innovation flourishes, and every voice is valued. Our high-performance culture is driven by our values nbsp;and continuous knowledge exchange, enabling our team members to reach their full potential while collaborating with industry leaders to solve complex problems. a href= https://www.youtube.com/watch?v=OuZIb5zszQI Co-create the future with us /a as we build technology that transforms how the world develops software. /p p * em Fortune 500® is a registered trademark of Fortune Media IP Limited, used under license. Claim based on GitLab data. Fortune 100 refers to the top 20% ranked companies in the 2025 Fortune 500 list, published in June 2025. Fortune and Fortune Media IP Limited are not affiliated with, and do not endorse products or services of GitLab. /em /p /div h2 strong An overview of this role /strong /h2 p As an Intermediate Backend Engineer, Trusted Agentic Development, based in Poland, you ll build backend systems that help GitLab engineers trust the software they create with artificial intelligence agents. Agents can generate code and tests in seconds, but passing tests don t always mean the software works as intended. You ll contribute to validation approaches and feedback mechanisms that help agents catch that gap and self-correct while they work. /p p This isn t a quality assurance or test automation role. We’re looking for someone who has built with agents, run into the gap between passing tests and working software, and wants to help close it. /p h2 strong What you’ll do /strong /h2 ul li Own backend features from design through production rollout, making the design calls within the architecture the team agrees on. /li li Build agentic code-review and validation workflows that check whether generated code does what was intended, not just whether its tests pass. /li li Prototype focused validation and feedback mechanisms with your teammates, and use what you learn to improve the platform. /li li Develop language-aware validation approaches, starting with Rust, Ruby, and Go, adapting techniques to each language while applying a shared definition of trusted software to assess whether agent-generated code delivers the intended behavior. /li li Implement feedback that helps agents identify problems and self-correct during development. /li li Collaborate wi",
+   "salaryText": "",
+   "lpa": null,
+   "inIndia": false,
+   "globalRemote": true,
+   "score": 85
+  },
+  {
+   "title": "Software Engineer II, Backend (Test Infra)",
+   "company": "Affirm",
+   "url": "https://job-boards.greenhouse.io/affirm/jobs/7727320003",
+   "source": "Greenhouse",
+   "board": "affirm",
+   "region": "Remote US",
+   "posted": "2026-11-12",
+   "tags": [
+    "Engineering"
+   ],
+   "snippet": "div class= content-intro p At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. /p /div p Affirm is reinventing credit to make it more",
+   "full": "div class= content-intro p At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. /p /div p Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. br We are seeking a highly motivated Software Engineer II with strong experience in test automation to contribute to Developer Productivity, with a focus on Test Platform Engineering. The Test Infra team empowers developers to efficiently write, run, analyze, and maintain automated tests. The team’s goals include expanding testing capabilities; building and maintaining testing frameworks; optimizing test orchestration; improving post-run reporting; ensuring the performance and reliability of CI pipelines; introducing AI-driven solutions to enhance developer productivity; and promoting best practices for test automation across the organization. /p p br As a Software Engineer II in Test Platform Engineering, you will play a key role in building and evolving the core testing infrastructure that supports engineering productivity across the organization. Your work will have a direct impact on how hundreds of engineers develop, validate, and deliver high-quality software. You will focus on designing and maintaining scalable, reliable, and developer-friendly frontend and backend test automation solutions, as well as CI pipelines, enabling teams to deliver changes with confidence and receive fast, actionable feedback. You will collaborate closely with the Engineering Manager and the team in Europe to continuously improve quality. br Affirm is growing fast and we want you to enable us to scale our products to 10x and beyond through building world-class systems that enable Affirm in its mission to provide honest financial products that improve lives. br br strong What You ll Do: /strong /p ul li p Own, improve, and maintain integration and E2E test automation frameworks, along with their associated CI pipelines. /p /li li p Design and implement technical solutions to optimize test execution time and enhance test stability. /p /li li p Write technical specifications and ADRs, contribute to technical solution design, and collaborate with engineers across the company. /p /li li p Support engineering teams by assisting with triage requests and sharing best practices for quality assurance and test automation. /p /li li p Contribute to the evolution of the company’s overall test strategy. /p /li li p With the support of your team’s tech lead and manager, you will break down larger projects into individual tasks, deliver them in multiple phases, and collaborate with others to ensure timely delivery of your work. /p /li li p This role includes participation in an on-call rotation /p /li /ul p br strong What We Look For: /strong /p ul li p An East Coast location to enable smoother co",
    "salaryText": "",
    "lpa": null,
    "inIndia": false,
@@ -1094,7 +1178,7 @@
    "source": "Greenhouse",
    "board": "twilio",
    "region": "Remote - US",
-   "posted": "2026-11-16",
+   "posted": "2026-11-17",
    "tags": [
     "TP2EG5102-1"
    ],
@@ -1150,30 +1234,6 @@
    "score": 79
   },
   {
-   "title": "Software Engineer, AI Coding Tasks",
-   "company": "Askable",
-   "url": "https://remotive.com/remote-jobs/software-development/software-engineer-ai-coding-tasks-2091158",
-   "source": "Remotive",
-   "board": "",
-   "region": "Worldwide",
-   "posted": "2026-10-17",
-   "tags": [
-    "C++",
-    "docker",
-    "git",
-    "go",
-    "java",
-    "python"
-   ],
-   "snippet": "We're looking for experienced software engineers to build AI coding tasks from a codebase they know well. US$1,000 per task, and you can do as many tasks as you want. You turn a real change from a repository you know into a task that today's best AI coding mod",
-   "full": "We're looking for experienced software engineers to build AI coding tasks from a codebase they know well. US$1,000 per task, and you can do as many tasks as you want. You turn a real change from a repository you know into a task that today's best AI coding models struggle with: hard for the models, but fair for a skill",
-   "salaryText": "$1000 per task",
-   "lpa": null,
-   "inIndia": false,
-   "globalRemote": true,
-   "score": 79
-  },
-  {
    "title": "DESARROLLADOR FULL STACK",
    "company": "Kruger NearShore LLC - Rekluti",
    "url": "https://remoteOK.com/remote-jobs/remote-desarrollador-full-stack-kruger-nearshore-llc-rekluti-1137062",
@@ -1204,7 +1264,7 @@
    "source": "Greenhouse",
    "board": "twilio",
    "region": "Remote - US",
-   "posted": "2026-11-16",
+   "posted": "2026-11-17",
    "tags": [
     "TP2EG5102-1"
    ],
@@ -1405,23 +1465,6 @@
    "score": 70
   },
   {
-   "title": "Backend Engineer, Developer SDKs",
-   "company": "Stripe",
-   "url": "https://stripe.com/jobs/search?gh_jid=7557899",
-   "source": "Greenhouse",
-   "board": "stripe",
-   "region": "Toronto, NY, SEA, SF",
-   "posted": "2026-10-29",
-   "tags": [],
-   "snippet": "h2 strong Who we are /strong /h2 h3 strong About Stripe /strong /h3 p Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world’s largest enterprises to the most ambitious startups—use Stripe to accept payments, grow th",
-   "full": "h2 strong Who we are /strong /h2 h3 strong About Stripe /strong /h3 p Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world’s largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone’s reach while doing the most important work of your career. /p h3 strong About the team /strong /h3 p Our team owns open-source SDKs that reflect the Stripe API in seven different programming languages. A vast majority of server-side Stripe integrations are built using our open-source SDKs. Our team also owns an in-house code generation framework, which we use to generate not just the SDKs, but the code snippets in our documentation and the commands in Stripe Shell, which is an in-browser version of the Stripe CLI. /p p We are dedicated to providing a world-class experience for developers using our SDKs. We influence how Stripe authors and releases APIs so that SDKs and documentation represent them in a user-friendly way. We want to collaborate with and help our friends in the Stripe community who build and maintain SDKs in programming languages that we don t support. /p h2 strong What you’ll do /strong /h2 p In this role, you ll have an opportunity to shape the experience of developers using Stripe SDKs that power over 80% of the payment volume at Stripe. /p ul li Be the Golang expert on the team, representing the needs of the Golang community and ensuring we build experiences that are idiomatic /li li Use your Node.js expertise to improve our code generation framework and work toward a future where we open source it to make it easier for third-party Stripe SDK owners to maintain their libraries /li li Collaborate with various Stripe teams to release their APIs in the SDKs and improve the efficiency of the release process /li li Help streamline the API authoring process at Stripe /li li Support our users reaching out to us on the open-source GitHub repositories for our SDKs /li li Add support for new language features in SDKs /li li Help lead the API design process at Stripe, providing guidance to product teams as they seek to produce powerful and intuitive abstractions that surface through our SDKs /li li Collaborate, mentor, and provide support to other team members /li /ul h2 strong Who you are /strong /h2 p We’re looking for someone who meets the minimum requirements to be considered for the role. If you meet these requirements, you are encouraged to apply. The preferred qualifications are a bonus, not a requirement. /p h3 strong Minimum requirements /strong /h3 ul li 6+ years in engineering across a wide range of products /li li 3+ years of experience as a Golang software engineer /li li An interest in working with multiple programming language",
-   "salaryText": "",
-   "lpa": null,
-   "inIndia": false,
-   "globalRemote": false,
-   "score": 70
-  },
-  {
    "title": "Software Engineer - Growth & Monetization",
    "company": "Figma",
    "url": "https://boards.greenhouse.io/figma/jobs/5552560004?gh_jid=5552560004",
@@ -1500,18 +1543,39 @@
    "score": 69
   },
   {
+   "title": "Cloud and Platform Engineer",
+   "company": "SwissPeak Partners GmbH",
+   "url": "https://www.arbeitnow.ch/jobs/companies/swisspeak-partners-gmbh/cloud-and-platform-engineer-zurich-27882",
+   "source": "Arbeitnow",
+   "board": "",
+   "region": "Zurich, Zürich, Switzerland",
+   "posted": "2026-11-18",
+   "tags": [
+    "Infrastructure & DevOps",
+    "Experienced",
+    "contract"
+   ],
+   "snippet": "For a renowned Swiss bank in Zurich, we are looking for an experienced cloud and platform engineer. You will provision and run platform services as code, depending on the team, with a focus on Entra ID automation, a data platform on Azure or a Kafka platform o",
+   "full": "For a renowned Swiss bank in Zurich, we are looking for an experienced cloud and platform engineer. You will provision and run platform services as code, depending on the team, with a focus on Entra ID automation, a data platform on Azure or a Kafka platform on Kubernetes. Your tasks Provision platform services with in",
+   "salaryText": "",
+   "lpa": null,
+   "inIndia": false,
+   "globalRemote": false,
+   "score": 68
+  },
+  {
    "title": "Software Engineer - Backend",
    "company": "Databricks",
-   "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8012650002",
+   "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8029666002",
    "source": "Greenhouse",
    "board": "databricks",
-   "region": "Belgrade, Serbia",
-   "posted": "2026-11-16",
+   "region": "Amsterdam, Netherlands",
+   "posted": "2026-11-17",
    "tags": [
-    "Databricks doo Beograd"
+    "Databricks, Inc."
    ],
-   "snippet": "p P-1414 /p p At Databricks, we are passionate about helping data teams solve the world s toughest problems — from making the next mode of transportation a reality to accelerating the development of medical breakthroughs. We do this by building and running the",
-   "full": "p P-1414 /p p At Databricks, we are passionate about helping data teams solve the world s toughest problems — from making the next mode of transportation a reality to accelerating the development of medical breakthroughs. We do this by building and running the world s best data and AI infrastructure platform so our customers can use deep data insights to improve their business. /p p Founded by engineers, Databricks has started a multi-year journey to build the best Data Intelligence Platform. For this we are building on top of a great foundation but our goal is to go further to build dramatically better products. We want to revisit every component to provide our customers with the fastest, easiest to use and most secure data platform for all their data workloads. /p p As a software engineer, you will join as a founding member of not only the Belgrade site, but really as a founding team for our multi-year journey to achieve our Lakehouse vision. You will be involved in the entire development cycle and exemplify all core Databricks values. /p p strong The impact you ll have: /strong /p p Our backend teams span many domains across our essential service platforms. For instance, you might work on challenges such as: /p ul li Problems that span from product to infrastructure including: distributed systems, at-scale service architecture and monitoring, workflow orchestration, and developer experience. /li li Build reliable, secure and high performance services and client libraries for storing and accessing humongous amount of data on cloud storage backends, e.g., AWS S3, GCS, Azure Blob Store. /li li Develop product features that empower our customers to easily store and access their data. /li /ul p strong What we look for: /strong /p ul li BS (or higher) in Computer Science, or a related field /li li 3+ years of production level experience in one of: Java, Scala, C++, or similar language /li li Experience developing large-scale distributed systems /li li Experience working on a SaaS platform or with Service-Oriented Architectures /li li Knowledge of SQL /li /ul div class= content-conclusion p strong About Databricks /strong /p p span style= font-family: arial, sans-serif; Databricks is the Data and AI company. More than 20,000 organizations worldwide — including adidas, AT amp;T, Bayer, Block, Mastercard, Rivian, Unilever, and 70% of the Fortune 500 — rely on the Databricks Data + AI Platform to build and scale data and AI apps, analytics and agents. Headquartered in San Francisco with 30+ offices around the globe, Databricks offers a unified platform that includes Genie, Lakebase, Agent Bricks, Lakeflow, Lakehouse, and Unity Catalog. To learn more, follow Databricks on a href= https://www.linkedin.com/company/databricks LinkedIn /a , a href= https://x.com/databricks X /a , a href= https://www.youtube.com/@Databricks YouTube /a , and a href= https://www.instagram.com/databricksinc/?hl=en Instagram /a . br br strong Benefits br br /strong /span At Datab",
+   "snippet": "p P-1317 /p p At Databricks, we are passionate about enabling data teams to solve the world s toughest problems — from making the next mode of transportation a reality to accelerating the development of medical breakthroughs. We do this by building and running",
+   "full": "p P-1317 /p p At Databricks, we are passionate about enabling data teams to solve the world s toughest problems — from making the next mode of transportation a reality to accelerating the development of medical breakthroughs. We do this by building and running the world s best data and AI infrastructure platform so our customers can use deep data insights to improve their business. Founded by engineers — and customer obsessed — we leap at every opportunity to solve technical challenges, from designing next-gen UI/UX for interfacing with data to scaling our services and infrastructure across millions of virtual machines. And we re only getting started. /p p As a software engineer with a backend focus, you will work with your team to build infrastructure and products for the Databricks platform at scale. /p p strong The impact you ll have: /strong /p p Our backend teams span many domains across our essential service platforms. For instance, you might work on challenges such as: /p ul li Problems that span from product to infrastructure including: distributed systems, at-scale service architecture and monitoring, workflow orchestration, and developer experience. /li li Deliver reliable and high performance services and client libraries for storing and accessing humongous amount of data on cloud storage backends, e.g., AWS S3, Azure Blob Store. /li li Build reliable, scalable services, e.g. Scala, Kubernetes, and data pipelines, e.g. Spark, Databricks, to power the pricing infrastructure that serves millions of cluster-hours per day and develop product features that empower customers to easily view and control platform usage. /li /ul p strong What we look for: /strong /p ul li BS (or higher) in Computer Science, or a related field /li li 2+ years of production level experience in one of: Java, Scala, C++, or similar language. /li li Experience developing large-scale distributed systems. /li li Experience working on a SaaS platform or with Service-Oriented Architectures. /li li Good knowledge of SQL. /li /ul div class= content-conclusion p strong About Databricks /strong /p p span style= font-family: arial, sans-serif; Databricks is the Data and AI company. More than 20,000 organizations worldwide — including adidas, AT amp;T, Bayer, Block, Mastercard, Rivian, Unilever, and 70% of the Fortune 500 — rely on the Databricks Data + AI Platform to build and scale data and AI apps, analytics and agents. Headquartered in San Francisco with 30+ offices around the globe, Databricks offers a unified platform that includes Genie, Lakebase, Agent Bricks, Lakeflow, Lakehouse, and Unity Catalog. To learn more, follow Databricks on a href= https://www.linkedin.com/company/databricks LinkedIn /a , a href= https://x.com/databricks X /a , a href= https://www.youtube.com/@Databricks YouTube /a , and a href= https://www.instagram.com/databricksinc/?hl=en Instagram /a . br br strong Benefits br br /strong /span At Databricks, we strive to provide comprehensive benefits an",
    "salaryText": "",
    "lpa": null,
    "inIndia": false,
@@ -1643,6 +1707,25 @@
    "score": 64
   },
   {
+   "title": "Fullstack Engineer, Source Code: Repository Services (Ruby)",
+   "company": "GitLab",
+   "url": "https://job-boards.greenhouse.io/gitlab/jobs/8912709002",
+   "source": "Greenhouse",
+   "board": "gitlab",
+   "region": "Remote, United Kingdom",
+   "posted": "2026-11-17",
+   "tags": [
+    "n/a"
+   ],
+   "snippet": "div class= content-intro p GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformati",
+   "full": "div class= content-intro p GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and more than 50% of the Fortune 100* trust GitLab to ship better, more secure software faster. /p p The same principles built into our products are reflected in how our team works: we embrace AI as a core productivity multiplier, with all team members expected to incorporate AI into their daily workflows to drive efficiency, innovation, and impact. GitLab is where careers accelerate, innovation flourishes, and every voice is valued. Our high-performance culture is driven by our values nbsp;and continuous knowledge exchange, enabling our team members to reach their full potential while collaborating with industry leaders to solve complex problems. a href= https://www.youtube.com/watch?v=OuZIb5zszQI Co-create the future with us /a as we build technology that transforms how the world develops software. /p p * em Fortune 500® is a registered trademark of Fortune Media IP Limited, used under license. Claim based on GitLab data. Fortune 100 refers to the top 20% ranked companies in the 2025 Fortune 500 list, published in June 2025. Fortune and Fortune Media IP Limited are not affiliated with, and do not endorse products or services of GitLab. /em /p /div div strong About the role /strong br We re looking for a Backend Engineer to join our Repository Services team in GitLab s Create stage. The team owns the repository side of Source Code: how code gets into a repository, who may change it, and how those changes are verified. We build this as an access layer on the primitives the Gitaly team provides, for GitLab s own features and for the artificial intelligence agents now writing and pushing code alongside people. br You ll work in one of GitLab s oldest and most complex product areas, using Ruby and GraphQL across a href= http://GitLab.com target= _blank GitLab.com /a , self-managed instances, and GitLab Dedicated. Repository Services is a new team, and its first months are about reliability and support, so you ll spend real time on performance and structured query language tuning, caching, rate limiting, testing, observability, and resiliency, with experienced team members to lean on. You ll collaborate with product management, product design, testing, security, user experience research, technical writing, Gitaly, Code Review, and the other Source Code teams. br br strong What you ll do /strong /div ul li Develop secure, well-tested, performant features and improvements using Ruby and GraphQL. /li li Work through complex requirements and legacy constraints to deliver clear solutions while protecting the reliability of this critical system. /li li Design and maintain backend services, application programming interfaces, data models, and business logic tha",
+   "salaryText": "",
+   "lpa": null,
+   "inIndia": false,
+   "globalRemote": true,
+   "score": 63
+  },
+  {
    "title": "Software Engineer",
    "company": "Mirantis",
    "url": "https://remoteOK.com/remote-jobs/remote-software-engineer-mirantis-1137387",
@@ -1665,18 +1748,18 @@
    "score": 63
   },
   {
-   "title": "Systems Engineer, Network Protocols & Distributed Systems",
+   "title": "Distributed Systems Engineer - Data Platform (Delivery, Database, Retrieval)",
    "company": "Cloudflare",
-   "url": "https://boards.greenhouse.io/cloudflare/jobs/8187404?gh_jid=8187404",
+   "url": "https://boards.greenhouse.io/cloudflare/jobs/7462801?gh_jid=7462801",
    "source": "Greenhouse",
    "board": "cloudflare",
    "region": "Hybrid",
-   "posted": "2026-11-09",
+   "posted": "2026-11-18",
    "tags": [
-    "4120 - Foundational Engineering"
+    "4310 - Platform Engineering"
    ],
    "snippet": "div class= content-intro h3 About Us /h3 p At Cloudflare, we are on a mission to help build a better Internet. Today the company runs one of the world’s largest networks that powers millions of websites and other Internet properties for customers ranging from ",
-   "full": "div class= content-intro h3 About Us /h3 p At Cloudflare, we are on a mission to help build a better Internet. Today the company runs one of the world’s largest networks that powers millions of websites and other Internet properties for customers ranging from individual bloggers to SMBs to Fortune 500 companies. Cloudflare protects and accelerates any Internet application online without adding hardware, installing software, or changing a line of code. Internet properties powered by Cloudflare all have web traffic routed through its intelligent global network, which gets smarter with every request. As a result, they see significant improvement in performance and a decrease in spam and other attacks. Cloudflare was named to Entrepreneur Magazine’s Top Company Cultures list and ranked among the World’s Most Innovative Companies by Fast Company. /p p At Cloudflare, we’re not looking for people who wait for a polished roadmap; we’re looking for the builders who see the cracks in the Internet that everyone else has simply learned to live with. We value candidates who have the instinct to spot a normalized problem and the AI-native curiosity to create a solution using the latest tools. Our culture is built on iteration, leveraging AI to ship faster today to make it better tomorrow, while ensuring that every improvement, no matter how small, is shared across the team to lift everyone up. If you’re the type of person who values curiosity over bureaucracy, and that AI is a partner in solving tough problems to keep the Internet moving forward, you’ll fit right in. /p /div p strong Location: /strong London, Lisbon, or Austin - (Hybrid) /p p Join the team helping shape the future of the Internet. We’re building high-performance systems that handle a em quarter of the Internet’s traffic /em . Our work influences open standards (like QUIC, MASQUE, and ECH), involves close collaboration with the IETF, and pushes the boundaries of what s possible in networking and security. /p p You don’t need to be an HTTP or cryptography expert to join — we’re looking for excellent engineers who love tough problems, want to learn deeply, and are excited to contribute to one of the most technically demanding areas of infrastructure. /p p strong What you’ll do /strong /p ul li Build and operate systems that terminate HTTP and TLS at Internet scale /li li Migrate core infrastructure from NGINX to a next-gen Rust-based proxy /li li Measure and improve protocol performance across real-world traffic /li li Contribute to open source and industry standards /li li Learn from and work alongside some of the leading engineers in this space br br /li /ul p strong You might be a good fit if you: /strong /p ul li Have solid systems programming experience (Rust, C, or similar) /li li Thrive in complex technical domains and enjoy learning new things /li li Care about building reliable, secure, and performant software /li li Are motivated by impact — technical, operational, and on the Internet i",
+   "full": "div class= content-intro h3 About Us /h3 p At Cloudflare, we are on a mission to help build a better Internet. Today the company runs one of the world’s largest networks that powers millions of websites and other Internet properties for customers ranging from individual bloggers to SMBs to Fortune 500 companies. Cloudflare protects and accelerates any Internet application online without adding hardware, installing software, or changing a line of code. Internet properties powered by Cloudflare all have web traffic routed through its intelligent global network, which gets smarter with every request. As a result, they see significant improvement in performance and a decrease in spam and other attacks. Cloudflare was named to Entrepreneur Magazine’s Top Company Cultures list and ranked among the World’s Most Innovative Companies by Fast Company. /p p At Cloudflare, we’re not looking for people who wait for a polished roadmap; we’re looking for the builders who see the cracks in the Internet that everyone else has simply learned to live with. We value candidates who have the instinct to spot a normalized problem and the AI-native curiosity to create a solution using the latest tools. Our culture is built on iteration, leveraging AI to ship faster today to make it better tomorrow, while ensuring that every improvement, no matter how small, is shared across the team to lift everyone up. If you’re the type of person who values curiosity over bureaucracy, and that AI is a partner in solving tough problems to keep the Internet moving forward, you’ll fit right in. /p /div h3 Available Locations /h3 ul li Atlanta, US /li li Austin, US /li li Denver, US /li li Lisbon, Portugal /li li Seattle, US /li li Washington DC, US /li /ul p strong Applications will be accepted until November 23, 2026. /strong /p h2 About the Role /h2 p Cloudflare’s Data Org builds the systems that ingest, process, store, and retrieve data generated across our global network. These systems power the logs, analytics, and alerts that give customers near real-time visibility into the security, reliability, and performance of their Internet properties. /p p strong nbsp; /strong /p p We are looking for systems-oriented backend engineers who enjoy solving distributed-systems problems at large scale. You will build primarily in Go, operate the systems you create, and work across the data lifecycle, from high-throughput ingestion and delivery to analytical storage and customer-facing retrieval. /p p strong nbsp; /strong /p p Engineers in this role typically develop depth in one of two areas: /p ol li Analytical database systems: Building and operating our ClickHouse-based analytical platform, improving database performance, reliability, and scalability. /li li Data delivery and retrieval: Building streaming pipelines, public APIs, log delivery integrations, and alerting systems that make customer data accessible and actionable. /li /ol p strong nbsp; /strong /p p We are looking for strong backen",
    "salaryText": "",
    "lpa": null,
    "inIndia": false,
@@ -1722,6 +1805,23 @@
    "score": 62
   },
   {
+   "title": "Backend/API Engineer, Money as a Service (Product) ",
+   "company": "Stripe",
+   "url": "https://stripe.com/jobs/search?gh_jid=7369543",
+   "source": "Greenhouse",
+   "board": "stripe",
+   "region": "United Kingdom",
+   "posted": "2026-11-03",
+   "tags": [],
+   "snippet": "h2 strong Who we are /strong /h2 h3 strong About Stripe /strong /h3 p Stripe is a financial infrastructure platform for businesses. Millions of companies - from the world’s largest enterprises to the most ambitious startups - use Stripe to accept payments, gro",
+   "full": "h2 strong Who we are /strong /h2 h3 strong About Stripe /strong /h3 p Stripe is a financial infrastructure platform for businesses. Millions of companies - from the world’s largest enterprises to the most ambitious startups - use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone s reach while doing the most important work of your career. /p h3 strong About the Organization nbsp; /strong /h3 p Money as a Service (MaaS) oversees a diverse portfolio of Stripe s core platforms and services. Our Stripe Treasury suite helps users manage and move their funds with ease, providing the robust financial infrastructure and tools they need to power their businesses on a global scale. /p p strong Team Matching: /strong exact team matching for one of the subteams within this org will begin during final stages. em Please note we may also consider you for different orgs based on your experience, location, etc. /em More information on our team matching process can be found a href= https://docs.google.com/document/d/1rbSO8Mr32ZuoSSk7t0YvW-hbq6yv2AclqiJZWz6u9sY/edit?tab=t.0#heading=h.v97y3cy5vlh3 here /a . nbsp; /p h2 strong What you’ll do /strong /h2 p We’re looking for Backend Engineers who want to make an impact on managing money at a global scale with a passion for building ergonomic APIs. You’ll play a key role in extending our foundational Money Management APIs and services powering our Treasury products globally. Our team collaborates with many cross-functional teams – from Infrastructure to Product Manager – at Stripe to deliver innovative solutions that address evolving user needs. /p h3 strong Responsibilities /strong /h3 ul li Scope, design, build, and maintain APIs, services, and large-scale systems that reliably and efficiently handle billions of money movement requests /li li Debug and solve critical production issues across services and multiple levels of the stack /li li Mentor engineers to help them grow /li li Collaborate with stakeholders across the company to build new features at large-scale, while improving internal engineering standards, tooling, and processes /li li Collaborate effectively in a distributed and hybrid team, maintaining open communication and strong connections with colleagues /li /ul h2 strong Who you are /strong /h2 p We re looking for someone who meets the minimum requirements to be considered for the role. If you meet these requirements, you are encouraged to apply. The preferred qualifications are a bonus, not a requirement. /p h3 strong Minimum requirements /strong /h3 ul li 2-12+ years of industry software engineering experience (does not include internships nor includes co-ops) /li li Strong coding skills in any programming language em (we understand new languages can be learned on the job so o",
+   "salaryText": "",
+   "lpa": null,
+   "inIndia": false,
+   "globalRemote": false,
+   "score": 62
+  },
+  {
    "title": "Research Engineer / Performance Engineer, RL Distributed Systems",
    "company": "Anthropic",
    "url": "https://job-boards.greenhouse.io/anthropic/jobs/5438030008",
@@ -1754,7 +1854,7 @@
     "FullTime"
    ],
    "snippet": "COMPANY OVERVIEW Deepgram is bringing the world’s most natural interface, voice, to the technology we use every day. Our speech models and real-time infrastructure power AI systems that keep up with the way people actually speak. More than 5,000 organizations ",
-   "full": "COMPANY OVERVIEW Deepgram is bringing the world’s most natural interface, voice, to the technology we use every day. Our speech models and real-time infrastructure power AI systems that keep up with the way people actually speak. More than 5,000 organizations run conversational voice AI on Deepgram in production, including Twilio, Cloudflare, Sierra, Decagon, Vapi, Cresta, Granola, and Jack in the Box. The Deepgram Voice Agent Platform brings together speech-to-text, text-to-speech and speech-to-speech, with voice-native foundation models available through cloud APIs or self-hosted and on-premises deployments. Built for accuracy, low latency and cost efficiency, Deepgram makes high-quality voice experiences practical to build and run at scale. More than 650,000 developers have used Deepgram to process more than 200,000 years of audio. Every day, more of the world’s conversations with AI run on our models. Operating Principles: Deepgram is a research company that productizes as fast as possible. Four Operating Principles shape how we think, decide, and work together: 1. Compress before you communicate. You think it through first, then lead with the bottom line. 2. Resist entropy. You question what already exists before adding more process or tools. 3. Solve the category. You fix recurring problems at the source, not one case at a time. 4. Work at the frontier. You go after problems no one has solved yet. We look for people who already work this way, and these principles shape how we grow and evaluate our team. AI-FIRST BY DEFAULT We build AI that millions of people talk to, and we run the company the same way. AI is how we centralize work here, and is core to how we operate. That means more than using the tools. We expect you to: - Build, not just use. Design your own workflows and agents, and use AI to remove whole categories of work instead of doing the same work faster. - Own the output. AI can speed up the work. It doesn’t make anyone less accountable for it. You understand, verify, and stand behind everything you share, including what an agent produces for you. - Spend the time you get back at the frontier. The capacity AI creates goes toward problems no one has solved yet. - Keep pace. Models and tools change every month, and so will your work. You adopt what’s new quickly and drop what no longer earns its place. We judge AI by what it helps you deliver and whether you stand behind the result, not by how often you use it. In interviews, expect to walk us through a workflow you built and where you drew the line between AI and your own judgment. THE OPPORTUNITY Getting a model from a research notebook to a production API serving millions of requests is one of the hardest problems in AI. As an ML Ops Infrastructure Engineer at Deepgram, you will own the critical bridge between research and production -- building the pipelines, deployment systems, and testing infrastructure that take models from experimental to battle-tested at scale. Your work ",
+   "full": "COMPANY OVERVIEW Deepgram is bringing the world’s most natural interface, voice, to the technology we use every day. Our speech models and real-time infrastructure power AI systems that keep up with the way people actually speak. More than 5,000 organizations run conversational voice AI on Deepgram in production, including Twilio, Cloudflare, Sierra, Decagon, Vapi, Cresta, Granola, and Jack in the Box. The Deepgram Voice Agent Platform brings together speech-to-text, text-to-speech and speech-to-speech, with voice-native foundation models available through cloud APIs or self-hosted and on-premises deployments. Built for accuracy, low latency and cost efficiency, Deepgram makes high-quality voice experiences practical to build and run at scale. More than 650,000 developers have used Deepgram to process more than 200,000 years of audio. Every day, more of the world’s conversations with AI run on our models. OPERATING PRINCIPLES Deepgram is a research company that productizes as fast as possible. Four Operating Principles shape how we think, decide, and work together: 1. Compress before you communicate. You think it through first, then lead with the bottom line. 2. Resist entropy. You question what already exists before adding more process or tools. 3. Solve the category. You fix recurring problems at the source, not one case at a time. 4. Work at the frontier. You go after problems no one has solved yet. We look for people who already work this way, and these principles shape how we grow and evaluate our team. AI-FIRST BY DEFAULT We build AI that millions of people talk to, and we run the company the same way. AI is how we centralize work here, and is core to how we operate. That means more than using the tools. We expect you to: - Build, not just use. Design your own workflows and agents, and use AI to remove whole categories of work instead of doing the same work faster. - Own the output. AI can speed up the work. It doesn’t make anyone less accountable for it. You understand, verify, and stand behind everything you share, including what an agent produces for you. - Spend the time you get back at the frontier. The capacity AI creates goes toward problems no one has solved yet. - Keep pace. Models and tools change every month, and so will your work. You adopt what’s new quickly and drop what no longer earns its place. We judge AI by what it helps you deliver and whether you stand behind the result, not by how often you use it. In interviews, expect to walk us through a workflow you built and where you drew the line between AI and your own judgment. THE OPPORTUNITY Getting a model from a research notebook to a production API serving millions of requests is one of the hardest problems in AI. As an ML Ops Infrastructure Engineer at Deepgram, you will own the critical bridge between research and production -- building the pipelines, deployment systems, and testing infrastructure that take models from experimental to battle-tested at scale. Your work e",
    "salaryText": "$160K – $220K • Offers Equity • Offers Bonus",
    "lpa": 193.6,
    "inIndia": false,
@@ -1879,99 +1979,6 @@
    "inIndia": false,
    "globalRemote": false,
    "score": 58
-  },
-  {
-   "title": "Software Engineer - AI Platforms",
-   "company": "Figma",
-   "url": "https://boards.greenhouse.io/figma/jobs/5691886004?gh_jid=5691886004",
-   "source": "Greenhouse",
-   "board": "figma",
-   "region": "San Francisco, CA • New York, NY • United States",
-   "posted": "2026-10-27",
-   "tags": [],
-   "snippet": "div class= content-intro p Figma is growing our team of passionate creatives and builders on a mission to make design accessible to all. Figma’s platform helps teams bring ideas to life—whether you re brainstorming, creating a prototype, translating designs in",
-   "full": "div class= content-intro p Figma is growing our team of passionate creatives and builders on a mission to make design accessible to all. Figma’s platform helps teams bring ideas to life—whether you re brainstorming, creating a prototype, translating designs into code, or iterating with AI. From idea to product, Figma empowers teams to streamline workflows, move faster, and work together in real time from anywhere in the world. If you re excited to shape the future of design and collaboration, join us! /p /div div class= section page-centered div class= section page-centered p AI Platform teams build the core frameworks, abstractions, and systems that support AI features across Figma. We create new capabilities that AI product teams can build on, while collaborating with teams from around the company to improve our performance, reliability, and technical quality. We’re looking for strong infrastructure and platform-minded engineers to contribute to our agent infrastructure, context retrieval amp; ranking platform, and core AI services, in order to accelerate our most critical company-wide AI initiatives. /p p Here are just a few areas our platform teams work on: /p ul li strong Evals for design /strong : Building evaluation frameworks for design generation quality that are used across every Figma AI feature. /li li strong Agentic search: /strong Providing relevant context from throughout the Figma ecosystem to agents via search tools, in order to improve agent quality. /li li strong Figma MCP /strong : Making our MCP server faster, more reliable, and easier for internal amp; external engineers alike to develop on. /li li strong Agent infrastructure /strong : Iterating on the sandboxes, harnesses, and tools leveraged by the agents that power Figma Make and the Figma Design Agent. /li li strong Preview amp; publishing platforms /strong : Creating the shared platforms for building, previewing, and publishing code written by agents via Figma Make. /li /ul p This is a full time role that can be held from one of our US hubs or remotely in the United States. /p p strong What you’ll do at Figma: /strong /p ul li Support end-to-end AI feature development by designing, building, and maintaining systems that are scalable, reliable, and performant. /li li Collaborate with product, research, and infrastructure engineers working across AI. /li li Help shape our platform strategy, roadmaps, and engineering best practices throughout the organization. /li li Debug and resolve complex production issues that span services and layers of the stack. /li li Mentor engineers and foster a culture of collaboration, inclusivity, and technical excellence. /li /ul p strong We d love to hear from you if you have: /strong /p ul li 5+ years of Software Engineering experience, especially in backend or infrastructure engineering. /li li 3+ years of experience in one or more of: AI, search infrastructure, or developer platforms. /li li Proficiency in TypeScript, Python, or Ruby. /l",
-   "salaryText": "",
-   "lpa": null,
-   "inIndia": false,
-   "globalRemote": false,
-   "score": 58
-  },
-  {
-   "title": "Software Engineer, New Grad (Dec 2026)",
-   "company": "notion",
-   "url": "https://jobs.ashbyhq.com/notion/e32799d2-8ef8-4803-8189-c72514afa816",
-   "source": "Ashby",
-   "board": "notion",
-   "region": "San Francisco, California",
-   "posted": "2026-08-14",
-   "tags": [
-    "Early Career",
-    "Early Career",
-    "FullTime"
-   ],
-   "snippet": "WHO WE ARE Notion is the collaborative AI workspace where teams and agents think together https://www.youtube.com/watch?v=vkpYpWfEK5s. We're building one place where your knowledge, projects, meetings, and AI tools live side by side, so work is faster, clearer",
-   "full": "WHO WE ARE Notion is the collaborative AI workspace where teams and agents think together https://www.youtube.com/watch?v=vkpYpWfEK5s. We're building one place where your knowledge, projects, meetings, and AI tools live side by side, so work is faster, clearer, and less fragmented. Millions of individuals, small teams, and large companies run their work on Notion. Notinos (our employees) are customer zero in bringing this future of work to life. We care about craft, building things that last, and the belief that great work is still fundamentally human. Our goal isn’t to ship the next feature. Each and every team of Notinos is working to set the standard for how humans work together in the AI era. From building a business’s system of record to making and managing AI agents to automating away the busy work, we care deeply about giving our customers more time for their life’s work. To be eligible for this role, you need to graduate in December 2026 and be able to start full time by January/February 2027. WHAT YOU'LL ACHIEVE: - You'll work with others to plan, shape, and build new product features from start to finish: through conception, research, implementation, and maintenance. For example, you might work on driving adoption, by instrumenting key onboarding moments and iterating on activation flows. - You'll help improve performance and reliability, or polish existing features. For example, you might update our spell checker to sync dictionaries across browsers or improve search to index file attachments. - You'll build internal tools to support simplicity and productivity for the whole team. This might include writing a script to import user feedback into Notion. QUALIFICATIONS: - Pursuing a bachelor's or master’s degree in computer science, engineering, or another related field. - To be eligible for this role, you need to graduate by Dec 2026 and be able to start FTE by January/February 2027. - Previous internship experience. - Working towards a proficiency of one or more programming languages such as TypeScript, Node.js, or Python. SKILLS YOU'LL NEED TO BRING: - Impact-driven approach to technology: You see technologies as tools to achieve user impact rather than ends in themselves. You care more about building successful systems that solve real problems than about using specific tech stacks or following trends. - You stay current with the latest tools like Codex, Claude Code, and other AI-assisted development environments. You're pragmatic about choosing the right tool for the job, focusing on what delivers the most value to users. - Thoughtful problem-solving: For you, problem-solving starts with a clear and accurate understanding of the context. You can decompose tricky problems and work towards a clean solution, by yourself or with teammates. You're comfortable asking for help when you get stuck. You think about the implications of what you're building and how it will impact real people's lives. - Team player: For you, work isn't a solo end",
-   "salaryText": "",
-   "lpa": null,
-   "inIndia": false,
-   "globalRemote": false,
-   "score": 58
-  },
-  {
-   "title": "DevOps Engineer (Observability)",
-   "company": "Twilio",
-   "url": "https://job-boards.greenhouse.io/twilio/jobs/8108771",
-   "source": "Greenhouse",
-   "board": "twilio",
-   "region": "Remote - Ireland",
-   "posted": "2026-11-16",
-   "tags": [
-    "TP3EG5103-1"
-   ],
-   "snippet": "div class= content-intro p strong Who we are nbsp; /strong /p p At Twilio, we’re shaping the future of communications, all from the comfort of our homes. We deliver innovative solutions to a class= c-link href= https://customers.twilio.com/ target= _blank data",
-   "full": "div class= content-intro p strong Who we are nbsp; /strong /p p At Twilio, we’re shaping the future of communications, all from the comfort of our homes. We deliver innovative solutions to a class= c-link href= https://customers.twilio.com/ target= _blank data-stringify-link= https://customers.twilio.com/ data-sk= tooltip_parent nbsp;hundreds of thousands of businesses nbsp; /a and empower millions of developers worldwide to craft personalized customer experiences. /p p Our dedication to a class= c-link href= https://www.twilio.com/en-us/blog/open-work target= _blank data-stringify-link= https://www.twilio.com/en-us/blog/open-work data-sk= tooltip_parent remote-first work /a , and strong culture of connection and global inclusion means that no matter your location, you’re part of a vibrant team with diverse experiences making a global impact each day. As we continue to revolutionize how the world interacts, we’re acquiring new skills and experiences that make work feel truly rewarding. Your career at Twilio is in your hands. br span style= color: rgb(255, 255, 255); . /span /p p strong Hiring and how we work /strong /p p We use Artificial Intelligence (AI) to help make our hiring process efficient. That said, every hiring decision is made by real Twilions! nbsp; /p p Also, while we are a remote-first company, you may be asked to report in person on an ad-hoc basis for team gatherings, functional off-sites or customer meetings. br span style= color: rgb(255, 255, 255); . /span /p /div p strong See yourself at Twilio nbsp; /strong /p p Join the team as our next Software Engineer on Twilio’s platform engineering observability team. /p p strong About the job /strong /p p This position is needed to help our platform engineering observability team. Twilio is undergoing a large-scale observability transformation—and you can help shape the foundation. Observability is a strategic pillar and a key enabler for faster incident response, deeper customer-centric insights, and more cost-effective platform operations. /p p As a Software Engineer on the Platform Observability team, you’ll play a critical role in re-architecting how telemetry flows and is utilized through Twilio—making it structured, accessible, affordable, and actionable. Over the next 3 years, Twilio is rebuilding nearly every component of our observability platform, from data collection to real-time analytics. You will drive core initiatives that shift Twilio from fragmented tooling and wasteful data sprawl to a unified, OpenTelemetry-first observability stack built for scale. /p p You’ll lead technically and strategically—designing platform components, influencing org-wide architectural decisions, mentoring engineers, and engaging directly with teams across Platform Engineering and R amp;D /p p strong Responsibilities /strong /p p In this role, you’ll: /p ul li Lead the end-to-end architecture and delivery of key observability platform components, with a focus on reliability, scalability, and",
-   "salaryText": "",
-   "lpa": null,
-   "inIndia": false,
-   "globalRemote": true,
-   "score": 57
-  },
-  {
-   "title": "Software Engineer",
-   "company": "Turing",
-   "url": "https://job-boards.greenhouse.io/turing/jobs/6241649004",
-   "source": "Greenhouse",
-   "board": "turing",
-   "region": "Global - Remote; United States",
-   "posted": "2026-11-06",
-   "tags": [],
-   "snippet": "div class= content-intro h1 span style= font-family: helvetica, arial, sans-serif; strong span style= font-size: 24pt; About Turing /span /strong /span /h1 p span id= m_-1033525666082252048m_-8288224233410703305gmail-docs-internal-guid-39386146-7fff-394b-7c89-",
-   "full": "div class= content-intro h1 span style= font-family: helvetica, arial, sans-serif; strong span style= font-size: 24pt; About Turing /span /strong /span /h1 p span id= m_-1033525666082252048m_-8288224233410703305gmail-docs-internal-guid-39386146-7fff-394b-7c89-9e58d80485b6 Turing’s mission is to accelerate superintelligence to drive real economic progress. Headquartered in San Francisco, Turing works with frontier AI labs to generate high-quality datasets, reinforcement learning environments, and frontier research benchmarks that improve model capabilities in software engineering, enterprise knowledge work, and advanced STEM reasoning. In software engineering, Turing is the largest and longest-running data provider in the category. Turing also works with Fortune 500 enterprises across financial services, life sciences, healthcare, retail, automotive, and CPG to build and deploy end-to-end agentic AI systems inside mission-critical workflows. By operating on both sides, Turing closes the loop between frontier research and enterprise deployment, turning real-world deployment signals into better data, evaluations, and more capable models. Learn more at a href= http://www.turing.com/ target= _blank data-saferedirecturl= https://www.google.com/url?q=http://www.turing.com amp;source=gmail amp;ust=1788032823652000 amp;usg=AOvVaw2LLfe9HeuAcQz5ewoGP-0C www.turing.com /a . nbsp; /span /p div nbsp; /div /div h1 Software Engineer /h1 p We build the infrastructure that frontier AI labs use to evaluate coding agents and language models: benchmark datasets, agent evaluation runs at scale, and automated task quality checks. You would own features across the stack, from the data model and background jobs to the screens our users work in every day. /p p This is a role for an experienced engineer who works independently, makes sound tradeoffs, and turns a loosely defined request into something shipped, tested, and safe to leave alone. /p h2 What you will do /h2 ul li Design and ship features end to end: data model, API, background workers, and the UI when the change needs it. /li li Build and improve how agents and models are evaluated: running trials in sandboxed environments, scoring results, and turning thousands of runs into results people can trust. /li li Improve how benchmark tasks are quality-checked: verifiers, rubric-based and LLM-as-a-judge grading, and deciding whether a task is clear, solvable, and fair to score. /li li Integrate new models, agents, and benchmarks in a way that generalizes, without a special case for each one. /li li Keep the system fast and reliable as usage grows: efficient queries, safe migrations, and concurrency that holds up under load. /li li Review teammates’ pull requests against our engineering guidelines and help keep the codebase consistent. /li /ul h2 What you bring /h2 ul li 5+ years building and operating production backend systems, with ownership of at least one service from design through on-call. /li li Bachelor’s degr",
-   "salaryText": "",
-   "lpa": null,
-   "inIndia": false,
-   "globalRemote": true,
-   "score": 57
-  },
-  {
-   "title": "Intermediate Fullstack Engineer (Ruby/Vue.js), Growth",
-   "company": "GitLab",
-   "url": "https://job-boards.greenhouse.io/gitlab/jobs/8891836002",
-   "source": "Greenhouse",
-   "board": "gitlab",
-   "region": "Remote, United Kingdom",
-   "posted": "2026-11-06",
-   "tags": [
-    "n/a"
-   ],
-   "snippet": "div class= content-intro p GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformati",
-   "full": "div class= content-intro p GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and more than 50% of the Fortune 100* trust GitLab to ship better, more secure software faster. /p p The same principles built into our products are reflected in how our team works: we embrace AI as a core productivity multiplier, with all team members expected to incorporate AI into their daily workflows to drive efficiency, innovation, and impact. GitLab is where careers accelerate, innovation flourishes, and every voice is valued. Our high-performance culture is driven by our values nbsp;and continuous knowledge exchange, enabling our team members to reach their full potential while collaborating with industry leaders to solve complex problems. a href= https://www.youtube.com/watch?v=OuZIb5zszQI Co-create the future with us /a as we build technology that transforms how the world develops software. /p p * em Fortune 500® is a registered trademark of Fortune Media IP Limited, used under license. Claim based on GitLab data. Fortune 100 refers to the top 20% ranked companies in the 2025 Fortune 500 list, published in June 2025. Fortune and Fortune Media IP Limited are not affiliated with, and do not endorse products or services of GitLab. /em /p /div h2 An overview of this role /h2 p As an Intermediate Fullstack Engineer (Ruby/Vue.js), Growth at GitLab, you ll help turn GitLab s self-serve funnel into a reliable source of new paying customers. You ll work on the in-product journey from a user s first visit through sign-up, trial, and first purchase, on both GitLab.com and self-managed GitLab. You ll collaborate closely with Product Managers, UX Designers, and Data Analysts, with a particular focus on backend development in Ruby on Rails and frontend work in Vue.js. This role gives you the opportunity to combine your fullstack engineering skills with product thinking and experimentation, shipping small changes quickly and measuring their impact on real customer outcomes. /p p a href= https://handbook.gitlab.com/handbook/engineering/development/growth/ Some examples of our projects: /a /p ul li value= 1 Making it easier for self-managed users to try and buy GitLab /li li value= 2 Building upgrade prompts where users run into paid features /li li value= 3 Improving the trial experience, including trials of GitLab Duo /li li value= 4 Improving the tooling the team uses to run and read out experiments /li /ul h2 What you ll do /h2 ul li value= 1 Design, build, and iterate on A/B tests and experiments that increase first purchases on GitLab.com and self-managed GitLab. /li li value= 2 Build and improve registration, trial, onboarding, and in-product upgrade and purchase experiences to increase completion of these steps. /li li value= 3 Implement backend fea",
-   "salaryText": "",
-   "lpa": null,
-   "inIndia": false,
-   "globalRemote": true,
-   "score": 57
   }
  ]
 }
