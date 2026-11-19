@@ -1,11 +1,11 @@
 {
- "generated": "2026-11-18T12:05:31.383Z",
+ "generated": "2026-11-19T11:58:41.721Z",
  "usdInr": 88,
  "counts": {
-  "pool": 3258,
-  "passed": 86,
+  "pool": 3260,
+  "passed": 87,
   "dubai": 0,
-  "india": 17
+  "india": 16
  },
  "jobs": [
   {
@@ -107,27 +107,6 @@
    "inIndia": true,
    "inDubai": false,
    "globalRemote": true,
-   "score": 130
-  },
-  {
-   "title": "Associate Security Engineer - 11925",
-   "company": "coupa",
-   "url": "https://jobs.lever.co/coupa/15c1666e-c0df-49b5-8296-8c664166413a",
-   "source": "Lever",
-   "board": "coupa",
-   "region": "Pune, India",
-   "posted": "2026-10-09",
-   "tags": [
-    "Engineering - GRC",
-    "Associate-Full Time"
-   ],
-   "snippet": "Coupa makes margins multiply through its community-generated AI and industry-leading total spend management platform for businesses large and small. Coupa AI is informed by trillions of dollars of direct and indirect spend data across a global network of 10M+ ",
-   "full": "Coupa makes margins multiply through its community-generated AI and industry-leading total spend management platform for businesses large and small. Coupa AI is informed by trillions of dollars of direct and indirect spend data across a global network of 10M+ buyers and suppliers. We empower you with the ability to predict, prescribe, and automate smarter, more profitable business decisions to improve operating margins. Why join Coupa? Pioneering Technology: At Coupa, we're at the forefront of innovation, leveraging the latest technology to empower our customers with greater efficiency and visibility in their spend. Collaborative Culture: We value collaboration and teamwork, and our culture is driven by transparency, openness, and a shared commitment to excellence. Global Impact: Join a company where your work has a global, measurable impact on our clients, the business, and each other. Learn more on Life at Coupa blog and hear from our employees about their experiences working at Coupa. The Impact of an Associate Security Engineer at Coupa: Coupa's Security Engineers keep our enterprise, product, platform, and customer data safe. As an Associate Security Engineer, you'll build your foundation in cloud, application, and infrastructure security by contributing to real, well-scoped engineering work alongside experienced teammates. You'll partner with Engineering, IT, and Compliance, learn how we build durable, automated security tooling instead of one-off fixes, and grow your root-cause analysis skills with mentorship and regular feedback. This is a role for someone early in their security career who wants hands-on ownership of growing scope — with the support to get there.",
-   "salaryText": "",
-   "lpa": null,
-   "inIndia": true,
-   "inDubai": false,
-   "globalRemote": false,
    "score": 130
   },
   {
@@ -424,12 +403,12 @@
    "source": "Greenhouse",
    "board": "twilio",
    "region": "Remote - United Kingdom",
-   "posted": "2026-11-17",
+   "posted": "2026-11-18",
    "tags": [
     "NP2IT6582-1"
    ],
    "snippet": "div class= content-intro p strong Who we are nbsp; /strong /p p At Twilio, we’re shaping the future of communications, all from the comfort of our homes. We deliver innovative solutions to a class= c-link href= https://customers.twilio.com/ target= _blank data",
-   "full": "div class= content-intro p strong Who we are nbsp; /strong /p p At Twilio, we’re shaping the future of communications, all from the comfort of our homes. We deliver innovative solutions to a class= c-link href= https://customers.twilio.com/ target= _blank data-stringify-link= https://customers.twilio.com/ data-sk= tooltip_parent nbsp;hundreds of thousands of businesses nbsp; /a and empower millions of developers worldwide to craft personalized customer experiences. /p p Our dedication to a class= c-link href= https://www.twilio.com/en-us/blog/open-work target= _blank data-stringify-link= https://www.twilio.com/en-us/blog/open-work data-sk= tooltip_parent remote-first work /a , and strong culture of connection and global inclusion means that no matter your location, you’re part of a vibrant team with diverse experiences making a global impact each day. As we continue to revolutionize how the world interacts, we’re acquiring new skills and experiences that make work feel truly rewarding. Your career at Twilio is in your hands. br span style= color: rgb(255, 255, 255); . /span /p p strong Hiring and how we work /strong /p p We use Artificial Intelligence (AI) to help make our hiring process efficient. That said, every hiring decision is made by real Twilions! nbsp; /p p Also, while we are a remote-first company, you may be asked to report in person on an ad-hoc basis for team gatherings, functional off-sites or customer meetings. br span style= color: rgb(255, 255, 255); . /span /p /div p strong See yourself at Twilio /strong /p p Join the team as Twilio’s next strong Security Engineer, Incident Response /strong /p p strong About the job /strong /p p The Security Incident Response Team (SIRT) is looking for a Security Engineer who is passionate about solving Twilio’s mission of security and reliability by working across the organization to lead the technical response to security events and incidents across Twilio’s global infrastructure, services and applications by effectively conducting triage, containment, remediation and driving post-incident betterments. nbsp; You will work within a team that partners with R amp;D Engineering and R amp;D Business teams to develop scalable processes and technical solutions. nbsp; /p p You will be a valued member of a team of deeply technical Security Engineers to focus on creating bespoke and standard Security response processes, enhancing our capabilities for threat mitigation and incident response, and then automating as much as you possibly can (and more)! You will help us to grow our global, scaled team and program. /p p strong Responsibilities /strong /p p In this role, you’ll: /p ul li Lead and support the response to all security events and incidents across Twilio’s complex global infrastructure, services and applications. /li li Be responsible for documentation of incidents and projects you work on and craft best practices as runbooks and standard operating procedures to share knowledge across teams. /li",
+   "full": "div class= content-intro p strong Who we are nbsp; /strong /p p At Twilio, we’re shaping the future of communications, all from the comfort of our homes. We deliver innovative solutions to a class= c-link href= https://customers.twilio.com/ target= _blank data-stringify-link= https://customers.twilio.com/ data-sk= tooltip_parent nbsp;hundreds of thousands of businesses nbsp; /a and empower millions of developers worldwide to craft personalized customer experiences. /p p Our dedication to a class= c-link href= https://www.twilio.com/en-us/blog/open-work target= _blank data-stringify-link= https://www.twilio.com/en-us/blog/open-work data-sk= tooltip_parent remote-first work /a , and strong culture of connection and global inclusion means that no matter your location, you’re part of a vibrant team with diverse experiences making a global impact each day. As we continue to revolutionize how the world interacts, we’re acquiring new skills and experiences that make work feel truly rewarding. Your career at Twilio is in your hands. br span style= color: rgb(255, 255, 255); . /span /p p strong Hiring and how we work /strong /p p We use Artificial Intelligence (AI) to help make our hiring process efficient. That said, every hiring decision is made by real Twilions! nbsp; /p p Also, while we are a remote-first company, you may be asked to report in person on an ad-hoc basis for team gatherings, functional off-sites or customer meetings. br span style= color: rgb(255, 255, 255); . /span strong /strong /p /div p strong See yourself at Twilio /strong /p p Join the team as Twilio’s next strong Security Engineer, Incident Response /strong /p p strong About the job /strong /p p The Security Incident Response Team (SIRT) is looking for a Security Engineer who is passionate about solving Twilio’s mission of security and reliability by working across the organization to lead the technical response to security events and incidents across Twilio’s global infrastructure, services and applications by effectively conducting triage, containment, remediation and driving post-incident betterments. nbsp; You will work within a team that partners with R amp;D Engineering and R amp;D Business teams to develop scalable processes and technical solutions. nbsp; /p p You will be a valued member of a team of deeply technical Security Engineers to focus on creating bespoke and standard Security response processes, enhancing our capabilities for threat mitigation and incident response, and then automating as much as you possibly can (and more)! You will help us to grow our global, scaled team and program. /p p strong Responsibilities /strong /p p In this role, you’ll: /p ul li Lead and support the response to all security events and incidents across Twilio’s complex global infrastructure, services and applications. /li li Be responsible for documentation of incidents and projects you work on and craft best practices as runbooks and standard operating procedures to share knowledge ac",
    "salaryText": "",
    "lpa": null,
    "inIndia": false,
@@ -576,6 +555,26 @@
    "score": 85
   },
   {
+   "title": "SOC Analyst",
+   "company": "RFA",
+   "url": "https://jobicy.com/jobs/163155-soc-analyst",
+   "source": "Jobicy",
+   "board": "",
+   "region": "Philippines",
+   "posted": "2026-11-18",
+   "tags": [
+    "Cybersecurity"
+   ],
+   "snippet": "Certification requirements = Microsoft Certified: Security Operations Analyst Associate SC200 Working shift - 9:30AM - 6:30PM PHT - Mon-Fri As a member of the RFA Security Operations Center, a SOC Analyst monitors and analyzes the output from various security ",
+   "full": "Certification requirements = Microsoft Certified: Security Operations Analyst Associate SC200 Working shift - 9:30AM - 6:30PM PHT - Mon-Fri As a member of the RFA Security Operations Center, a SOC Analyst monitors and analyzes the output from various security monitoring and scanning tools to detect malicious or anomalo",
+   "salaryText": "",
+   "lpa": null,
+   "inIndia": false,
+   "inDubai": false,
+   "globalRemote": false,
+   "score": 80
+  },
+  {
    "title": "PhD Intern, Security Engineer (2027)",
    "company": "Figma",
    "url": "https://boards.greenhouse.io/figma/jobs/6238015004?gh_jid=6238015004",
@@ -600,7 +599,7 @@
    "source": "Greenhouse",
    "board": "nasdaq",
    "region": "St. John's",
-   "posted": "2026-11-18",
+   "posted": "2026-11-19",
    "tags": [],
    "snippet": "div p strong Role Responsibilities /strong nbsp; /p /div div ul li p Analyzing security vulnerabilities identified within Verafin s Cloud infrastructure. nbsp; /p /li li p Querying and correlating security scan data with technical inventory. nbsp; /p /li li p ",
    "full": "div p strong Role Responsibilities /strong nbsp; /p /div div ul li p Analyzing security vulnerabilities identified within Verafin s Cloud infrastructure. nbsp; /p /li li p Querying and correlating security scan data with technical inventory. nbsp; /p /li li p Building reports and dashboards to present findings to code amp; infrastructure owners. nbsp; /p /li li p Coordinating vulnerability remediation with code amp; infrastructure owners. nbsp; /p /li li p Ensuring scanning coverage and assisting in remediation of gaps. nbsp; /p /li li p Assessing and improving security processes and tool usage. nbsp; nbsp; /p /li li p Working with security and operational teams to ensure security standards are met. nbsp; nbsp; /p /li /ul p nbsp; /p /div div p strong Essential Skills amp; Qualifications /strong nbsp; /p div div ul li p Diploma or Degree in a Security Management, Programming, Computer Science or equivalent. nbsp; /p /li li p 1+ years experience in security vulnerability analysis in a cloud environment would be an asset. nbsp; /p /li li p Experience working in a cloud-based environment (AWS preferred). nbsp; /p /li li p Experience working with the following technologies from a security perspective: Vulnerability Scanners/Management, Container Security Tools, Logging amp; Monitoring Tooling. nbsp; nbsp; /p /li li p Experience writing queries to analyze data. nbsp; /p /li li p Security certifications would be an asset (CISSP, OSCP, CEH, GSEC, Security+ etc.) nbsp; /p /li li p Strong technical analytical skills while providing accurate analysis of security-related problems in context of Verafin’s environment. nbsp; /p /li li p Committed to continuous learning, understanding new technologies and developing best practices. nbsp; /p /li li p Ability to communicate effectively with other teams. /p /li /ul /div /div div p ​ /p div p strong What does success look like in this role? /strong nbsp; /p /div div ul li p Contribute to the success the Verafin’s security program by offering insight and guidance on response and remediation of security vulnerabilities. nbsp; /p /li li p Review and improve Verafin’s security posture using new tools and processes. nbsp; /p /li li p Be an effective team player, communicator, and have an eagerness to learn and develop new skills. /p /li /ul div p nbsp; /p p strong What are the growth opportunities for this role? /strong nbsp; /p /div div ul li p Technical security career development nbsp; /p /li li p You could become the lead of a team, or the subject matter expert of your current team nbsp; /p /li /ul div p nbsp; /p p nbsp; /p p nbsp; /p /div /div /div /div /div div class= content-conclusion h4 Come as You Are /h4 p Nasdaq is an equal opportunity employer. We welcome applications from candidates of all backgrounds and identities. We are committed to fostering an inclusive workplace where diverse perspectives, experiences, and identities are valued and celebrated. We ensure that individuals with disabilities are provided",
@@ -772,14 +771,36 @@
   {
    "title": "Threat Intelligence Engineer",
    "company": "Take-Two Interactive Software, Inc.",
-   "url": "https://job-boards.greenhouse.io/taketwo/jobs/8379815",
+   "url": "https://job-boards.greenhouse.io/taketwo/jobs/8143779",
    "source": "Greenhouse",
    "board": "taketwo",
-   "region": "Las Vegas, Nevada, United States",
+   "region": "Toronto, Ontario, Canada",
    "posted": "2026-11-13",
    "tags": [],
-   "snippet": "p nbsp; /p h2 strong WHO WE ARE nbsp; /strong /h2 p Headquartered in New York City, Take-Two Interactive Software, Inc. is a leading developer, publisher, and marketer of interactive entertainment for consumers around the globe. We develop and publish products",
-   "full": "p nbsp; /p h2 strong WHO WE ARE nbsp; /strong /h2 p Headquartered in New York City, Take-Two Interactive Software, Inc. is a leading developer, publisher, and marketer of interactive entertainment for consumers around the globe. We develop and publish products principally through Rockstar Games, 2K, and Zynga. Our products are designed for console gaming systems, PC, and mobile, including smartphones and tablets. We deliver our products through physical retail, digital download, online platforms, and cloud streaming services. The Company’s common stock is publicly traded on NASDAQ under the symbol TTWO. For more corporate and product information please visit our website at a target= ~_blank~ u http://www.take2games.com /u /a . /p p While our offices (physical and virtual) are casual and inviting, we are deeply committed to our core tenets of creativity, innovation and efficiency, and individual and team development opportunities. Our industry and business are continually evolving and fast-paced, providing numerous opportunities to learn and hone your skills. We work hard, but we also like to have fun and believe that we provide a great place to come to work each day to pursue your passions. /p p nbsp; /p h2 strong THE CHALLENGE /strong /h2 p We are looking for a Threat Intelligence Engineer. In this role, you will be on the front lines of our defense, helping to operationalize intelligence and build engineering solutions to counter emerging security threats. You ll work closely with various security and technology teams to integrate threat data into our security infrastructure, strengthening our defenses and protecting our organization. Your hands-on expertise will directly contribute to safeguarding Take-Two and its labels systems, networks, and data. You will work with Take-Two s Information Security teams, reporting to the Director of Threat Intelligence. /p p nbsp; /p h2 strong WHAT YOU’LL TAKE ON /strong /h2 ul li strong Threat Intelligence Operations: /strong Support the day-to-day operations of the cyber threat intelligence (CTI) program by managing threat feeds, parsing indicators of compromise (IOCs), and ensuring data quality across our platforms. /li li strong Threat Analysis amp; Engineering: /strong Analyze emerging threats and adversary tactics, techniques, and procedures (TTPs) to help engineer robust detection and prevention mechanisms. /li li strong Enhance Our Security Posture: /strong Collaborate with our Global Security Operations Center (GSOC), Detection Engineering, and Incident Response teams to ingest and operationalize threat intelligence into our SIEM, EDR, and firewalls. /li li strong Automation amp; Integration: /strong Build and maintain API integrations, scripts, and playbooks to automate indicator ingestion, correlation, and dissemination across security platforms. /li li strong Security Infrastructure Support: /strong Assist in the deployment, configuration, maintenance, and tuning of our Threat Intelligence Platfo",
+   "snippet": "h2 strong WHO WE ARE nbsp; /strong /h2 p Take-Two Interactive Software, Inc. is a leading developer, publisher, and marketer of interactive entertainment for consumers around the globe. The Company develops and publishes products principally through Rockstar G",
+   "full": "h2 strong WHO WE ARE nbsp; /strong /h2 p Take-Two Interactive Software, Inc. is a leading developer, publisher, and marketer of interactive entertainment for consumers around the globe. The Company develops and publishes products principally through Rockstar Games, 2K, Private Division, and Zynga. Our products are currently designed for console gaming systems, PC, and Mobile, including smartphones and tablets, and are delivered through physical retail, digital download, online platforms, and cloud streaming services. The Company’s common stock is publicly traded on NASDAQ under the symbol TTWO. /p p While our offices (physical and virtual) are casual and inviting, we are deeply committed to our core tenets of creativity, innovation and efficiency, and individual and team development opportunities. Our industry and business are continually evolving and fast-paced, providing numerous opportunities to learn and hone your skills. We work hard, but we also like to have fun and believe that we provide a great place to come to work each day to pursue your passions. /p h2 strong THE CHALLENGE /strong /h2 p We are looking for a Threat Intelligence Engineer. In this role, you will be on the front lines of our defense, helping to operationalize intelligence and build engineering solutions to counter emerging security threats. You ll work closely with various security and technology teams to integrate threat data into our security infrastructure, strengthening our defenses and protecting our organization. Your hands-on expertise will directly contribute to safeguarding Take-Two and its labels systems, networks, and data. You will work with Take-Two s Information Security teams, reporting to the Director of Threat Intelligence. /p h2 strong WHAT YOU’LL TAKE ON /strong /h2 ul li strong Threat Intelligence Operations: /strong Support the day-to-day operations of the cyber threat intelligence (CTI) program by managing threat feeds, parsing indicators of compromise (IOCs), and ensuring data quality across our platforms. /li li strong Threat Analysis amp; Engineering: /strong Analyze emerging threats and adversary tactics, techniques, and procedures (TTPs) to help engineer robust detection and prevention mechanisms. /li li strong Enhance Our Security Posture: /strong Collaborate with our Global Security Operations Center (GSOC), Detection Engineering, and Incident Response teams to ingest and operationalize threat intelligence into our SIEM, EDR, and firewalls. /li li strong Automation amp; Integration: /strong Build and maintain API integrations, scripts, and playbooks to automate indicator ingestion, correlation, and dissemination across security platforms. /li li strong Security Infrastructure Support: /strong Assist in the deployment, configuration, maintenance, and tuning of our Threat Intelligence Platforms (TIP) and related security engineering tools. /li li strong Produce Actionable Reporting: /strong Assist in generating timely intelligence alerts, briefs",
+   "salaryText": "",
+   "lpa": null,
+   "inIndia": false,
+   "inDubai": false,
+   "globalRemote": false,
+   "score": 65
+  },
+  {
+   "title": "Application Security Engineer",
+   "company": "langchain",
+   "url": "https://jobs.ashbyhq.com/langchain/5095871a-9af2-4521-8c63-ff0d852f7354",
+   "source": "Ashby",
+   "board": "langchain",
+   "region": "San Francisco, CA",
+   "posted": "2026-11-12",
+   "tags": [
+    "Engineering",
+    "Engineering",
+    "FullTime"
+   ],
+   "snippet": "ABOUT US At LangChain, our mission is to enable every company to own its intelligence. We believe agents will transform how companies operate, and we're building the foundation to make that future possible. Our open-source harnesses and LangSmith platform give",
+   "full": "ABOUT US At LangChain, our mission is to enable every company to own its intelligence. We believe agents will transform how companies operate, and we're building the foundation to make that future possible. Our open-source harnesses and LangSmith platform give developers and enterprises the infrastructure to run, improve, and govern agents at scale. We've raised $460M to date, with our most recent funding round valuing the company at $3B, backed by leading investors including Sequoia, Benchmark, IVP, and CapitalG. As we continue to expand our platform and tackle some of the hardest challenges in agent engineering, every team member has the opportunity to make a meaningful impact and help shape both our technology and the future of the industry. More than 7,000 organizations rely on LangSmith, from fast-growing startups to Fortune 500 enterprises, including NVIDIA, Bridgewater, LinkedIn, Workday, and Rippling. We're just getting started on making high-performing agents easier to build and manage at scale. ABOUT THE TEAM The Security team ensures that while AI moves at breakneck speed, everyone driving the racecar is wearing a seatbelt. We secure LangChain's core platform and protect AI agents from emerging threats. We work across the stack so developers can confidently ship from prototype to production without compromising on safety or privacy. ABOUT THE ROLE You'll be a hands-on security engineer working with product teams to secure agentic workloads across our SDKs, LangSmith and LangGraph services, and customer integrations. You'll ship secure designs and code, improve authentication and tenant isolation, and help teams address vulnerabilities and infrastructure risks. You’ll work on security problems that don’t have an established playbook. The scope depends on what you bring. You might: • Own a high-risk surface like authentication or tenant isolation and fix it end to end. • Set direction for a larger security initiative across our SDKs, LangSmith, and LangGraph. • Define how we design and secure agentic products across the company. WHAT YOU'LL BRING - 5+ years in security engineering with strong software skills (Python or Go; TypeScript a plus). - Depth in cloud/Kubernetes security (e.g., GCP/AWS IAM, workload identity, admission controls, network policies). - Hands‑on AppSec: code review, threat modeling, secure design, secrets & key management, authn/z patterns, multi‑tenant isolation. - Experience building detection & response and running incident management. - Familiarity with supply‑chain security (SBOM, sigstore/cosign, SLSA‑style controls) and dependency risk management. - Clear, pragmatic communication with engineers and customers. NICE TO HAVE - Security for SaaS + self‑hosted offerings, including air‑gapped deployments. - Exposure to SOC 2 / ISO 27001 programs and evidence automation. - Experience with Go services and Infra as Code (Terraform/Helm), plus policy‑as‑code (OPA/Gatekeeper/Kyverno). - Knowledge of privacy patterns (dat",
    "salaryText": "",
    "lpa": null,
    "inIndia": false,
@@ -1036,6 +1057,28 @@
    "score": 65
   },
   {
+   "title": "Security Engineer - Detection & Response",
+   "company": "langchain",
+   "url": "https://jobs.ashbyhq.com/langchain/7b1e5ff7-4531-4d4a-8379-52a21b6d386d",
+   "source": "Ashby",
+   "board": "langchain",
+   "region": "San Francisco, CA",
+   "posted": "2026-08-17",
+   "tags": [
+    "Engineering",
+    "Engineering",
+    "FullTime"
+   ],
+   "snippet": "ABOUT US At LangChain, our mission is to enable every company to own its intelligence. We believe agents will transform how companies operate, and we're building the foundation to make that future possible. Our open-source harnesses and LangSmith platform give",
+   "full": "ABOUT US At LangChain, our mission is to enable every company to own its intelligence. We believe agents will transform how companies operate, and we're building the foundation to make that future possible. Our open-source harnesses and LangSmith platform give developers and enterprises the infrastructure to run, improve, and govern agents at scale. We've raised $460M to date, with our most recent funding round valuing the company at $3B, backed by leading investors including Sequoia, Benchmark, IVP, and CapitalG. As we continue to expand our platform and tackle some of the hardest challenges in agent engineering, every team member has the opportunity to make a meaningful impact and help shape both our technology and the future of the industry. More than 7,000 organizations rely on LangSmith, from fast-growing startups to Fortune 500 enterprises, including NVIDIA, Bridgewater, LinkedIn, Workday, and Rippling. We're just getting started on making high-performing agents easier to build and manage at scale. ABOUT THE TEAM The Security team ensures that while AI moves at breakneck speed, everyone driving the racecar is wearing a seatbelt. We secure LangChain's core platform and protect AI agents from emerging threats. We work across the stack so developers can confidently ship from prototype to production without compromising on safety or privacy. ABOUT THE ROLE You'll build the telemetry, detections, investigation tools, and response systems that help us see, stop, and learn from threats across our production platform and cloud infrastructure. This is an engineering-focused role that partners closely with Product Security, builds reliable automation and internal agents, and participates in the incident on-call rotation. You’ll ship working detection and response capabilities where no playbook exists. The scope depends on what you bring. You might: • Build a detection pipeline and the investigation tooling around it. • Drive coverage and response improvements across our production platform and cloud infrastructure. • Redefine how the company detects and responds to threats as we scale. WHAT YOU'LL BRING - 5+ years in security engineering, with meaningful experience in detection engineering, security operations, or incident response — and the software skills to build your way out of repetitive work. - Strong software engineering in Python or Go (TypeScript a plus). You design maintainable systems and write production code, not just one-off scripts. - Cloud and Kubernetes detection depth: Experience with GCP or AWS logging, Kubernetes audit and runtime telemetry, workload identity, and turning raw signals into actionable detections. - Detection and adversary expertise: The ability to model realistic attacker behavior, hunt across complex systems, test detection coverage, and distinguish meaningful signal from noise. - Hands-on incident response: You've participated in on-call, led incidents, and written postmortems that changed how a team operates. - E",
+   "salaryText": "",
+   "lpa": null,
+   "inIndia": false,
+   "inDubai": false,
+   "globalRemote": false,
+   "score": 65
+  },
+  {
    "title": "Security Engineer, Application Security",
    "company": "openai",
    "url": "https://jobs.ashbyhq.com/openai/0322d6d8-6588-4209-a304-83e768063a25",
@@ -1078,6 +1121,30 @@
    "inDubai": false,
    "globalRemote": false,
    "score": 60
+  },
+  {
+   "title": "AI Operations Monitor – Digital Operations & Incident Response",
+   "company": "Lightly AG",
+   "url": "https://www.arbeitnow.ch/jobs/companies/lightly-ag/ai-operations-monitor-digital-operations-incident-response-zurich-253036",
+   "source": "Arbeitnow",
+   "board": "",
+   "region": "Zürich",
+   "posted": "2026-11-18",
+   "tags": [
+    "Remote",
+    "Applications Administration",
+    "Freelancer / indepedent contractor",
+    "freelance",
+    "professional / experienced"
+   ],
+   "snippet": "Lightly AG is a Zurich-based AI company and ETH/HSG spin-off, backed by Y Combinator and top-tier investors. Our machine learning and computer vision technology is trusted by global leaders in autonomous driving, medical imaging, and visual inspection. We’re l",
+   "full": "Lightly AG is a Zurich-based AI company and ETH/HSG spin-off, backed by Y Combinator and top-tier investors. Our machine learning and computer vision technology is trusted by global leaders in autonomous driving, medical imaging, and visual inspection. We’re looking for reliable, technically minded freelancers to suppo",
+   "salaryText": "",
+   "lpa": null,
+   "inIndia": false,
+   "inDubai": false,
+   "globalRemote": false,
+   "score": 55
   },
   {
    "title": "Security Engineer",
@@ -1206,10 +1273,10 @@
   {
    "title": "Threat Detection Analyst (Japanese Speaking desirable)",
    "company": "Fastly",
-   "url": "https://www.fastly.com/about/jobs/apply?gh_jid=8284505",
+   "url": "https://www.fastly.com/about/jobs/apply?gh_jid=8284458",
    "source": "Greenhouse",
    "board": "fastly",
-   "region": "Singapore, Singapore",
+   "region": "Australia (Remote)",
    "posted": "2026-10-30",
    "tags": [
     "APAC",
@@ -1302,6 +1369,26 @@
    "score": 55
   },
   {
+   "title": "Security Engineer, Product Security",
+   "company": "Scale AI",
+   "url": "https://job-boards.greenhouse.io/scaleai/jobs/4643029005",
+   "source": "Greenhouse",
+   "board": "scaleai",
+   "region": "New York, NY; San Francisco, CA; Seattle, WA; Washington, DC",
+   "posted": "2026-11-18",
+   "tags": [
+    "Engineering"
+   ],
+   "snippet": "p We are seeking a highly technical Security Engineer to join our Product Security team. This role is integral to ensuring the security and integrity of our products and services. You will conduct in-depth code reviews, implement security best practices, and i",
+   "full": "p We are seeking a highly technical Security Engineer to join our Product Security team. This role is integral to ensuring the security and integrity of our products and services. You will conduct in-depth code reviews, implement security best practices, and influence the overall security strategy. Your expertise in TypeScript, Python, AWS, CI/CD, SAST, DAST, and terraform orchestration will be crucial in identifying and mitigating potential security vulnerabilities. You will also structure complex problems, diagnose root causes independently, and clearly explain the mechanics and significance of security vulnerabilities, including their exploitability and potential impact. /p p nbsp; /p p You will: /p ul li Leverage broad product security expertise to build and maintain software tooling that secures every layer of the modern AI/ML software ecosystem. /li li Conduct in-depth code reviews to identify and remediate security vulnerabilities. /li li Evaluate and enhance the security of our product offerings, through RFC and service review. /li li Implement and maintain CI/CD pipelines with a strong focus on security. /li li Perform Static Application Security Testing (SAST) and Dynamic Application Security Testing (DAST) to identify vulnerabilities in production code. /li li Utilize terraform orchestration to ensure secure and efficient infrastructure management. /li li Guide engineering teams to build robust long-term solutions that consider security and privacy. nbsp; /li li Clearly explain the mechanics and significance of security vulnerabilities, including their exploitability and potential impact. /li li Influence the security strategy and direction of the team, advocating for best practices and continuous improvement. /li /ul p nbsp; /p p Ideally, you’d have: /p ul li Demonstrated ability to drive multi-month security initiatives independently, from problem definition through execution, without requiring significant direction. /li li Proven experience as a Security Engineer with a focus on product security. /li li Proficiency in NodeJS, TypeScript, Python, and/or Kubernetes. /li li Strong understanding of modern Javascript application design. /li li Production experience operating and securing AWS infrastructure at scale. /li li Hands-on experience with SAST and DAST tools and methodologies. /li li Familiarity with terraform orchestration for infrastructure management. /li li You can structure complex problems and diagnose root causes independently, providing actionable insights without requiring manager input. /li li Excellent communication skills, with the ability to clearly present technical concepts and their implications to both technical and non-technical stakeholders. /li li Demonstrated ability to influence security strategies and drive improvements within a team. /li li Relevant security certifications (e.g., CISSP, CEH, OSCP) are a plus. /li /ul div class= content-pay-transparency div class= pay-input div class= description p em Comp",
+   "salaryText": "",
+   "lpa": null,
+   "inIndia": false,
+   "inDubai": false,
+   "globalRemote": false,
+   "score": 50
+  },
+  {
    "title": "Network Security Support Engineer",
    "company": "Cloudflare",
    "url": "https://boards.greenhouse.io/cloudflare/jobs/8028403?gh_jid=8028403",
@@ -1314,28 +1401,6 @@
    ],
    "snippet": "div class= content-intro h3 About Us /h3 p At Cloudflare, we are on a mission to help build a better Internet. Today the company runs one of the world’s largest networks that powers millions of websites and other Internet properties for customers ranging from ",
    "full": "div class= content-intro h3 About Us /h3 p At Cloudflare, we are on a mission to help build a better Internet. Today the company runs one of the world’s largest networks that powers millions of websites and other Internet properties for customers ranging from individual bloggers to SMBs to Fortune 500 companies. Cloudflare protects and accelerates any Internet application online without adding hardware, installing software, or changing a line of code. Internet properties powered by Cloudflare all have web traffic routed through its intelligent global network, which gets smarter with every request. As a result, they see significant improvement in performance and a decrease in spam and other attacks. Cloudflare was named to Entrepreneur Magazine’s Top Company Cultures list and ranked among the World’s Most Innovative Companies by Fast Company. /p p At Cloudflare, we’re not looking for people who wait for a polished roadmap; we’re looking for the builders who see the cracks in the Internet that everyone else has simply learned to live with. We value candidates who have the instinct to spot a normalized problem and the AI-native curiosity to create a solution using the latest tools. Our culture is built on iteration, leveraging AI to ship faster today to make it better tomorrow, while ensuring that every improvement, no matter how small, is shared across the team to lift everyone up. If you’re the type of person who values curiosity over bureaucracy, and that AI is a partner in solving tough problems to keep the Internet moving forward, you’ll fit right in. /p /div p strong Available Locations: /strong Austin, TX /p h4 strong About the Department /strong /h4 p The Customer Support Team solves complicated problems and answers technical inquiries via phone, email, chat, and social media. Whether it is a Wordpress blogger using our services for free or a global Enterprise business with petabytes of web traffic, our team is always eager to assist. We are the eyes and ears of Cloudflare, acting as the real-time voice of the customer to help communicate their needs and real-world use cases back to the rest of the company - to help build a better service and future product development. /p h4 strong About the Role /strong /h4 p Do you love solving complex technical problems and interacting with people? Are you passionate about helping customers and are a standout colleague? Cloudflare is seeking an experienced Network Security Engineer to join our team and support our largest and most technically sophisticated customers in resolving technical problems, threats or attacks on their infrastructure at OSI Layers 3, 4, and 7. This will span the range of Cloudflare products from Magic Transit Infrastructure Protection, Argo Smart Routing, DDoS mitigation and Network Firewall, to using the Web Application firewall (WAF), Spectrum and Rate Limiting to help customers. /p h4 strong Responsibilities /strong /h4 ul li Communicate with customers via chat, email, and phon",
-   "salaryText": "",
-   "lpa": null,
-   "inIndia": false,
-   "inDubai": false,
-   "globalRemote": false,
-   "score": 50
-  },
-  {
-   "title": "Application Security Engineer",
-   "company": "langchain",
-   "url": "https://jobs.ashbyhq.com/langchain/5095871a-9af2-4521-8c63-ff0d852f7354",
-   "source": "Ashby",
-   "board": "langchain",
-   "region": "San Francisco, CA",
-   "posted": "2026-11-12",
-   "tags": [
-    "Engineering",
-    "Engineering",
-    "FullTime"
-   ],
-   "snippet": "ABOUT US At LangChain, our mission is to enable every company to own its intelligence. We believe agents will transform how companies operate, and we're building the foundation to make that future possible. Our open-source harnesses and LangSmith platform give",
-   "full": "ABOUT US At LangChain, our mission is to enable every company to own its intelligence. We believe agents will transform how companies operate, and we're building the foundation to make that future possible. Our open-source harnesses and LangSmith platform give developers and enterprises the infrastructure to run, improve, and govern agents at scale. We've raised $460M to date, with our most recent funding round valuing the company at $3B, backed by leading investors including Sequoia, Benchmark, IVP, and CapitalG. As we continue to expand our platform and tackle some of the hardest challenges in agent engineering, every team member has the opportunity to make a meaningful impact and help shape both our technology and the future of the industry. More than 7,000 organizations rely on LangSmith, from fast-growing startups to Fortune 500 enterprises, including NVIDIA, Bridgewater, LinkedIn, Workday, and Rippling. We're just getting started on making high-performing agents easier to build and manage at scale. About LangChain At LangChain, our mission is to make intelligent agents ubiquitous. We provide the agent engineering platform and open source frameworks developers need to ship reliable agents fast. Our open source frameworks, LangChain and LangGraph, see over 90+ million downloads per month and help developers build agents with speed and granular control. LangSmith offers observability, evaluation, and deployment for rapid iteration, enabling teams to transform LLM systems into dependable production experiences. LangChain is trusted by millions of developers worldwide and powers AI teams at companies like Replit, Clay, Cloudflare, Harvey, Rippling, Vanta, Workday, and more. About the role You’ll be the hands‑on security lead embedded with core product teams to secure agentic workloads end‑to‑end, from SDK through LangSmith/Graph services and customer integrations. You’ll define our security roadmap, land immediate hardening wins, and raise the bar on how AI infra is protected in production. - Own product & platform security: Design and drive application/infrastructure security controls across LangSmith, LangGraph, and the LangChain SDK ecosystem (Python/TS/Go). - Secure-by-default authN/Z: Evolve SSO/SAML/OIDC/SCIM, token lifecycles, service‑to‑service auth, and tenant isolation for cloud and self‑hosted customers. - Ship code & reviews: Land secure designs, write PRs, and introduce lightweight checks (linters, dependency/supply‑chain scanning, SBOM/SLSA provenance). - Hardening & operations: Network segmentation/Zero Trust, Kubernetes posture, secrets management, key rotation, least‑privilege IAM, egress controls. - Incident readiness: Develop IR runbooks, detection rules, and tabletop exercises; lead post‑incident forensics and blameless RCAs. - Vuln management: Own scanning/triage/patch SLAs; coordinate with engineering to remediate quickly without slowing delivery. How to be successful in this role - 5+ years in security engineering with str",
    "salaryText": "",
    "lpa": null,
    "inIndia": false,
@@ -1384,26 +1449,6 @@
    "score": 50
   },
   {
-   "title": "Security Engineer, Product Security",
-   "company": "Scale AI",
-   "url": "https://job-boards.greenhouse.io/scaleai/jobs/4643029005",
-   "source": "Greenhouse",
-   "board": "scaleai",
-   "region": "New York, NY; San Francisco, CA; Seattle, WA; Washington, DC",
-   "posted": "2026-11-05",
-   "tags": [
-    "Engineering"
-   ],
-   "snippet": "p We are seeking a highly technical Security Engineer to join our Product Security team. This role is integral to ensuring the security and integrity of our products and services. You will conduct in-depth code reviews, implement security best practices, and i",
-   "full": "p We are seeking a highly technical Security Engineer to join our Product Security team. This role is integral to ensuring the security and integrity of our products and services. You will conduct in-depth code reviews, implement security best practices, and influence the overall security strategy. Your expertise in TypeScript, Python, AWS, CI/CD, SAST, DAST, and terraform orchestration will be crucial in identifying and mitigating potential security vulnerabilities. You will also structure complex problems, diagnose root causes independently, and clearly explain the mechanics and significance of security vulnerabilities, including their exploitability and potential impact. /p p nbsp; /p p You will: /p ul li Leverage broad product security expertise to build and maintain software tooling that secures every layer of the modern AI/ML software ecosystem. /li li Conduct in-depth code reviews to identify and remediate security vulnerabilities. /li li Evaluate and enhance the security of our product offerings, through RFC and service review. /li li Implement and maintain CI/CD pipelines with a strong focus on security. /li li Perform Static Application Security Testing (SAST) and Dynamic Application Security Testing (DAST) to identify vulnerabilities in production code. /li li Utilize terraform orchestration to ensure secure and efficient infrastructure management. /li li Guide engineering teams to build robust long-term solutions that consider security and privacy. nbsp; /li li Clearly explain the mechanics and significance of security vulnerabilities, including their exploitability and potential impact. /li li Influence the security strategy and direction of the team, advocating for best practices and continuous improvement. /li /ul p nbsp; /p p Ideally, you’d have: /p ul li Demonstrated ability to drive multi-month security initiatives independently, from problem definition through execution, without requiring significant direction. /li li Proven experience as a Security Engineer with a focus on product security. /li li Proficiency in NodeJS, TypeScript, Python, and/or Kubernetes. /li li Strong understanding of modern Javascript application design. /li li Production experience operating and securing AWS infrastructure at scale. /li li Hands-on experience with SAST and DAST tools and methodologies. /li li Familiarity with terraform orchestration for infrastructure management. /li li You can structure complex problems and diagnose root causes independently, providing actionable insights without requiring manager input. /li li Excellent communication skills, with the ability to clearly present technical concepts and their implications to both technical and non-technical stakeholders. /li li Demonstrated ability to influence security strategies and drive improvements within a team. /li li Relevant security certifications (e.g., CISSP, CEH, OSCP) are a plus. /li /ul div class= content-pay-transparency div class= pay-input div class= description p em Comp",
-   "salaryText": "",
-   "lpa": null,
-   "inIndia": false,
-   "inDubai": false,
-   "globalRemote": false,
-   "score": 50
-  },
-  {
    "title": "Threat Intelligence Platform Engineer",
    "company": "Coinbase",
    "url": "https://www.coinbase.com/careers/positions/8177619?gh_jid=8177619",
@@ -1444,28 +1489,6 @@
    "full": "We believe that the way people interact with their finances will drastically improve in the next few years. We’re dedicated to empowering this transformation by building the tools and experiences that thousands of developers use to create their own products. Plaid powers the tools millions of people rely on to live a healthier financial life. We work with thousands of companies like Venmo, SoFi, several of the Fortune 500, and many of the largest banks to make it easy for people to connect their financial accounts to the apps and services they want to use. Plaid’s network covers 12,000 financial institutions across the US, Canada, UK and Europe. Founded in 2013, the company is headquartered in San Francisco with offices in New York, Seattle, Washington D.C., Raleigh, London, and Amsterdam. Team: The Security Governance, Risk, and Compliance (GRC) team is part of Plaid’s security organization, focused on enabling the business by proactively managing information security risks and maintaining effective controls. Our mission is to reduce the likelihood and impact of security risks while operating a robust assurance program that builds trust with our customers, consumers, and data partners.We partner closely across the company to ensure Plaid’s platform remains secure, resilient, and aligned with industry and regulatory expectations. Third-party ecosystem risk is a core part of how we keep Plaid safe—we vet the security of both the vendors we rely on and the customers and partners who connect to our platform, so trust runs in both directions. Role: - You will run security risk assessments for Plaid’s third parties end-to-end—from intake and questionnaire through risk rating, findings, and tracked exceptions. - You will assess the security posture of customers and partners onboarding to the platform with the same rigor we apply to vendors. - You will keep the third-party risk lifecycle moving—risk tiering, reassessment cadence, remediation follow-through, and a clean, current risk register. - You will help mature the program—questionnaires, tiering criteria, intake, and runbooks—so reviews get faster and more consistent as volume grows, drawing on how you’ve improved third-party risk programs before. - You will report on ecosystem risk to Security and cross-functional stakeholders, and operate as an AI power user to raise your own throughput. Responsibilities: - Run Vendor Security Risk Assessments: Triage inbound vendor requests, run security reviews scaled to risk tier, rate the risk, and document findings and exceptions. Your assessments keep Plaid from inheriting a vendor’s security gaps and give Procurement, Privacy, and Legal a clear risk signal before contracts are signed. - Vet Customer and Partner Security Posture: Review the security practices of customers and partners onboarding to the platform, applying the same standards you use for vendors. Your reviews make sure who connects to Plaid meets the bar before they touch data—protecting consu",
    "salaryText": "$118,680 – $175,800 • Offers Equity • Multiple Ranges",
    "lpa": 154.7,
-   "inIndia": false,
-   "inDubai": false,
-   "globalRemote": false,
-   "score": 50
-  },
-  {
-   "title": "Security Engineer, GRC",
-   "company": "plaid",
-   "url": "https://jobs.ashbyhq.com/plaid/587e83dd-1d1b-4f31-812a-74fc67d67fbe",
-   "source": "Ashby",
-   "board": "plaid",
-   "region": "Remote United States",
-   "posted": "2026-07-16",
-   "tags": [
-    "All Departments",
-    "Security",
-    "FullTime"
-   ],
-   "snippet": "We believe that the way people interact with their finances will drastically improve in the next few years. We’re dedicated to empowering this transformation by building the tools and experiences that thousands of developers use to create their own products. P",
-   "full": "We believe that the way people interact with their finances will drastically improve in the next few years. We’re dedicated to empowering this transformation by building the tools and experiences that thousands of developers use to create their own products. Plaid powers the tools millions of people rely on to live a healthier financial life. We work with thousands of companies like Venmo, SoFi, several of the Fortune 500, and many of the largest banks to make it easy for people to connect their financial accounts to the apps and services they want to use. Plaid’s network covers 12,000 financial institutions across the US, Canada, UK and Europe. Founded in 2013, the company is headquartered in San Francisco with offices in New York, Seattle, Washington D.C., Raleigh, London, and Amsterdam. The Security Governance, Risk, and Compliance (GRC) team is part of Plaid’s security organization, focused on enabling the business by proactively managing information security risks and maintaining effective controls. Our mission is to reduce the likelihood and impact of security risks while operating a robust assurance program that builds trust with our customers, consumers, and data partners. We own Plaid’s security compliance frameworks, run our audits and risk programs, and partner across the company to keep Plaid’s platform secure, resilient, and aligned with industry and regulatory expectations. GRC Engineering is how we make all of that scale — turning compliance into code, evidence into telemetry, and audits into a continuous, automated capability. The Role: - You will own GRC Engineering at Plaid — a foundational, high-ownership role defining an emerging discipline from the ground up. Today most of our compliance work is manual and point-in-time; you will turn it into an engineered system that is continuous, data-driven, and scalable, and set the technical direction for the field. - You will: - Define the discipline and the architecture — how GRC Engineering works at Plaid, not just execute within it. - Build the foundation the function runs on — a codified source of truth for controls, policies, and evidence, fed by live pipelines and continuous controls monitoring. - Be the engineering backbone for Security Assurance & Trust Enablement, Third-Party Ecosystem Risk, and Risk Management - Make risk visible and data-driven — turning control and risk data into real-time signals for the team and leadership. - Pioneer where compliance is heading — compliance-agents-as-code in the SDLC, AI- and agent-driven workflows, and machine-readable continuous compliance (FedRAMP 20x). - This role is perfect for you if: - You think in systems: you'd rather design the thing that eliminates a whole class of manual work than automate one task at a time. - You love building and shipping internal tools and solutions that people actually use. - You're relentlessly curious — you poke, you investigate, and you dig into how controls can silently fail, drift, or get bypassed so",
-   "salaryText": "$156K – $213.6K",
-   "lpa": 188,
    "inIndia": false,
    "inDubai": false,
    "globalRemote": false,
