@@ -1,10 +1,10 @@
 {
- "generated": "2026-11-21T11:29:33.568Z",
+ "generated": "2026-11-22T11:44:47.151Z",
  "usdInr": 88,
  "counts": {
-  "pool": 9532,
-  "passed": 240,
-  "india": 28
+  "pool": 9499,
+  "passed": 234,
+  "india": 24
  },
  "jobs": [
   {
@@ -27,46 +27,6 @@
    "inIndia": true,
    "globalRemote": false,
    "score": 155
-  },
-  {
-   "title": "Associate SDE",
-   "company": "hevodata",
-   "url": "https://jobs.lever.co/hevodata/4eccaf98-ba19-42ea-b040-e0976d4dadfe",
-   "source": "Lever",
-   "board": "hevodata",
-   "region": "Bangalore, India",
-   "posted": "2026-11-18",
-   "tags": [
-    "Backend",
-    "Full time"
-   ],
-   "snippet": "About Hevo: Hevo is a Series B data infrastructure company with $42M raised. More than 2,000 companies across 40 plus countries use Hevo to move data from more than 150 sources into platforms such as Snowflake and BigQuery. Our customers include DoorDash, Shop",
-   "full": "About Hevo: Hevo is a Series B data infrastructure company with $42M raised. More than 2,000 companies across 40 plus countries use Hevo to move data from more than 150 sources into platforms such as Snowflake and BigQuery. Our customers include DoorDash, Shopify, Pinterest, Postman and Icelandair. Our engineering team is built in India, and so are the decisions. We are not the remote engineering office of a US company. The people building the product are the people deciding what to build. What we are building: We are building an AI system that creates data connectors by itself and keeps them working by itself. No engineer should need to manually build every connector. No engineer should need to come back six months later because the source API changed. Work that traditionally takes weeks or months should take hours. But building a connector is not the hardest part. The real question is: Would you trust this system to run by itself, with nobody watching, for months? That is the job. What you’ll own as Associate SDE at Hevo: Implement SaaS connectors for assigned applications, learning application specific nuances like basic auth and data extraction. Assist in building simple REST API components, focusing on clean implementation and testing. Debug and optimize code for data pipeline efficiency under mentorship. Contribute to feature breakdown, coding, and documentation for smaller tasks. Apply logical thinking to solve integration issues and improve component quality. Build internal tools with AI for business teams to run their functions What you’ll bring to the table: Basic object-oriented programming skills and familiarity with design principles. Exposure to data pipelines or APIs; eagerness to learn concurrency and performance basics. Foundational knowledge of REST APIs (e.g., making calls, handling JSON) – no deep expertise needed. Proficiency in Java/TypeScript/Python, good problem-solving with data structures and algorithms. Strong analytical and logical thinking for real-world challenges. Candidate Persona: Freshers with experience in software development, ideally with internships in integrations or data tools. B Tech in Computer Science or equivalent from a reputed college. Why this role: Very few teams are building autonomous AI systems that operate production infrastructure where being wrong has real consequences. This is not a chatbot. It is infrastructure that has to remain correct, quietly, for months. If that kind of problem excites you, there are not many places working on it this early. You can talk to anyone in the company, including the CEO. What you are trusted with depends on what you can do, not your title.",
-   "salaryText": "",
-   "lpa": null,
-   "inIndia": true,
-   "globalRemote": false,
-   "score": 143
-  },
-  {
-   "title": "SDE I",
-   "company": "hevodata",
-   "url": "https://jobs.lever.co/hevodata/6cbbe304-e065-4711-bf3e-756795d2bc2a",
-   "source": "Lever",
-   "board": "hevodata",
-   "region": "Bangalore, India",
-   "posted": "2026-07-27",
-   "tags": [
-    "Backend",
-    "Full time"
-   ],
-   "snippet": "What you’ll own as SDE I at Hevo: . Implement SaaS connectors for assigned applications, learning application specific nuances like basic auth and data extraction. . Assist in building simple REST API components, focusing on clean implementation and testing. .",
-   "full": "What you’ll own as SDE I at Hevo: . Implement SaaS connectors for assigned applications, learning application specific nuances like basic auth and data extraction. . Assist in building simple REST API components, focusing on clean implementation and testing. . Debug and optimize code for data pipeline efficiency under mentorship. . Contribute to feature breakdown, coding, and documentation for smaller tasks. . Apply logical thinking to solve integration issues and improve component quality. What you’ll bring to the table: . Basic object-oriented programming skills and familiarity with design principles. . Exposure to data pipelines or APIs; eagerness to learn concurrency and performance basics. . Foundational knowledge of REST APIs (e.g., making calls, handling JSON) – no deep expertise needed. . Proficiency in Java/TypeScript/Python, good problem-solving with data structures and algorithms. . Strong analytical and logical thinking for real-world challenges. Candidate Persona: . 0-1 years in software development, ideally with internships in integrations or data tools. . B Tech in Computer Science or equivalent from a reputed college.",
-   "salaryText": "",
-   "lpa": null,
-   "inIndia": true,
-   "globalRemote": false,
-   "score": 143
   },
   {
    "title": "Data Engineer (SDE 2)",
@@ -309,30 +269,6 @@
    "score": 109
   },
   {
-   "title": "Software Engineer 3",
-   "company": "MongoDB",
-   "url": "https://www.mongodb.com/careers/job/?gh_jid=8083366",
-   "source": "Greenhouse",
-   "board": "mongodb",
-   "region": "Gurugram",
-   "posted": "2026-11-16",
-   "tags": [
-    "10006621",
-    "D43450-Website",
-    "T10272-Web Strategy & Technology",
-    "APAC",
-    "Professional - IC",
-    "Full-time"
-   ],
-   "snippet": "p We’re looking for a Software Engineer 3 to join our Marketing Technology Engineering team within Marketing Operations - Technology amp; Automation. This is a hands-on engineering role for someone who enjoys building reliable, scalable digital platforms and i",
-   "full": "p We’re looking for a Software Engineer 3 to join our Marketing Technology Engineering team within Marketing Operations - Technology amp; Automation. This is a hands-on engineering role for someone who enjoys building reliable, scalable digital platforms and internal systems that improve how teams ship, measure, and optimize web experiences. You’ll work across application development, integrations, experimentation, data-informed decision making, and AI-enabled workflows that help the team move faster and deliver better outcomes. /p p We are looking to speak to candidates who are based in Gurugram for our hybrid working model. /p h3 What you’ll do /h3 ul li Build and maintain production-quality software that powers martech experiences /li li Design and implement backend services, internal tools, automations, and integrations across the martech ecosystem /li li Improve system reliability, observability, maintainability, and developer experience across the team’s platforms /li li Contribute to experimentation, personalization, and data workflows that support better customer and developer experiences /li li Help evaluate and apply AI-enabled capabilities and tools where they can improve engineering velocity, quality, or user experience /li li Participate in code reviews, technical design discussions, and team planning /li li Take ownership of projects from implementation through rollout, monitoring, and iteration /li /ul h3 What we’re looking for /h3 ul li 3+ years of professional software engineering experience building and supporting production systems /li li Strong coding skills in one or more modern programming languages such as JavaScript or Python /li li Experience building web applications, backend services, APIs, data pipelines, or internal platforms /li li Solid understanding of software engineering fundamentals including testing, debugging, code quality, and maintainability /li li Experience working with cloud services, CI/CD workflows, and modern development practices /li li Ability to work across systems and collaborate effectively with cross-functional partners /li li Strong written and verbal communication skills /li li Experience partnering with marketing, sales, and revenue operations teams to translate business requirements into clear technical specifications /li li Curiosity, ownership, and a practical approach to solving ambiguous problems /li /ul h3 Nice to have /h3 ul li Experience working with go-to-market platforms (i.e. Marketo, Salesforce, Segment, Ad Platforms), analytics, or experimentation platforms /li li Ability to map lead flows and trace the path a lead takes from website through to opportunity. /li li Familiarity with data pipelines, event instrumentation, or web performance optimization /li li Experience integrating AI or machine learning powered capabilities into products, workflows, or developer tooling /li li Comfort using AI-assisted engineering tools thoughtfully to improve delivery speed and quality /li /ul h3 ",
-   "salaryText": "",
-   "lpa": null,
-   "inIndia": true,
-   "globalRemote": false,
-   "score": 109
-  },
-  {
    "title": "SDE II - AI",
    "company": "InMobi ",
    "url": "https://job-boards.greenhouse.io/inmobi/jobs/8073988",
@@ -343,26 +279,6 @@
    "tags": [],
    "snippet": "div class= content-intro p strong InMobi (Corporate) /strong /p p InMobi Group is a global technology company shaping the future of agentic commerce and advertising. Through its ecosystem of businesses — including InMobi Advertising and flagship consumer platf",
    "full": "div class= content-intro p strong InMobi (Corporate) /strong /p p InMobi Group is a global technology company shaping the future of agentic commerce and advertising. Through its ecosystem of businesses — including InMobi Advertising and flagship consumer platform Glance — InMobi leverages data, machine learning, and generative AI to help brands reach audiences more precisely and consumers discover products more intuitively. Glance, which is pioneering new models of agentic commerce, is owned and operated by Glance InMobi Pte. Ltd., a non-consolidated subsidiary of InMobi Pte. Ltd. /p p strong InMobi Advertising /strong /p p InMobi Advertising, part of global technology company InMobi, is an agentic advertising platform helping brands and merchants achieve their business outcomes. Through its proprietary intelligence, AI-led solutions, and vast consumer reach — including flagship consumer platform Glance — InMobi Advertising delivers the omnichannel performance defining what s next in advertising and commerce. Glance is owned and operated by Glance InMobi Pte. Ltd., a non-consolidated subsidiary of InMobi Pte. Ltd. To learn more, visit advertising.inmobi.com. /p p strong Glance /strong /p p Glance is an intelligent shopping agent, redefining the commerce experience. Powered by proprietary agentic intelligence and generative AI, Glance delivers a hyper-personalized consumer experience across mobile and TV — shaping the new era of shopping. Glance is operated by Glance InMobi Pte. Ltd., a non-consolidated subsidiary of global technology leader InMobi, and is backed by Mithril Capital, Google and Jio Platforms. To learn more, visit glance.com. /p /div p strong Who are we and What do we do? /strong /p p InMobi is a global provider of enterprise platform for marketers. Our platforms help Marketers reach 1.56 billion unique users through mobile to help them engage, acquire, re-engage, re-market and retain valuable users. InMobi is also India’s first unicorn and one of the only profitable global tech-product companies to emerge out of India. /p p nbsp;At 20+ offices across the globe, InMobi employs over 1000 personnel constituting 25 nationalities. Acclaimed for its culture, InMobi has consecutively featured on the Great Places to Work (GPTW) list, with a consistent hold in the Top 50 position for the past two years. Moreover, these accolades are not just restricted to India, InMobi has also secured a ranking on the GPTW’s 2017 China List, a notable feat for an Indian startup. /p p InMobi has also regularly featured on world disruptor lists strong – /strong MIT Technology Review’s 2013 50 Disruptive Companies; Fast Company’s Most Innovative Companies for 2016, 2018; CNBC’s Disruptor 50 list of 2018, here InMobi was selected amongst a pool of more than 980 forward-thinking and ambitiou private companies across the globe, we now share this space with the likes of SpaceX, Airbnb, Uber and so on. /p p strong What is the InMobi family like? /strong nbsp; /p p",
-   "salaryText": "",
-   "lpa": null,
-   "inIndia": true,
-   "globalRemote": false,
-   "score": 107
-  },
-  {
-   "title": "SDE II",
-   "company": "hevodata",
-   "url": "https://jobs.lever.co/hevodata/53987105-3d28-42b1-9132-3672abcef2aa",
-   "source": "Lever",
-   "board": "hevodata",
-   "region": "Bangalore, India",
-   "posted": "2026-02-18",
-   "tags": [
-    "Backend",
-    "Full time"
-   ],
-   "snippet": "About Hevo (HevoData.com) Hevo is a simple, intuitive, and powerful No-code Data Pipeline platform that enables companies to consolidate data from multiple software for faster analytics. Hevo powers data analytics for 2000+ data-driven companies across multipl",
-   "full": "About Hevo (HevoData.com) Hevo is a simple, intuitive, and powerful No-code Data Pipeline platform that enables companies to consolidate data from multiple software for faster analytics. Hevo powers data analytics for 2000+ data-driven companies across multiple industry verticals including Deliverr, Neo4J, Groww, Marqeta, and Betway. By automating complex data integration tasks, Hevo allows data teams to focus on deriving groundbreaking insights and driving their businesses forward. Hevo’s mission is simple, but bold: Build technology from India, for the world that is simple to adopt and easy to access so that everyone can unlock the potential of data. Based in San Francisco and Bangalore, Hevo has seen exponential growth since its inception. The team has grown by 3X and the customer base has expanded by a staggering 20X in just the last two years. With a total funding of $42 Mil from Sequoia India, Qualgro, and Chiratae Ventures, Hevo is now entering a new phase of hyper-growth. Hevoites are a bunch of thoughtful, helpful problem solvers, who are obsessed with making a difference in the lives of their customers, colleagues and their own individual trajectory. If you are someone who is passionate about redefining the future of technology, then Hevo is the place for you.",
    "salaryText": "",
    "lpa": null,
    "inIndia": true,
@@ -601,6 +517,44 @@
    "score": 119
   },
   {
+   "title": "Software Engineer I, Backend (Streaming Infra)",
+   "company": "Affirm",
+   "url": "https://job-boards.greenhouse.io/affirm/jobs/8201469003",
+   "source": "Greenhouse",
+   "board": "affirm",
+   "region": "Remote US",
+   "posted": "2026-11-20",
+   "tags": [
+    "Engineering"
+   ],
+   "snippet": "div class= content-intro p At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. /p /div p Affirm is reinventing credit to make it more",
+   "full": "div class= content-intro p At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. /p /div p Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. br br span style= color: #000000; The Streaming team at Affirm is responsible for all things data and drives the strategy for event driven architecture, stream processing, data exploration, discovery and validation. We leverage existing open source technologies like Kafka, Flink, Spark and also build our own as needed. As a member of our team you would spend time identifying and executing on new use cases of data infrastructure, designing and scaling our existing infrastructure and working closely with other teams to promote the optimal use of data at the company. /span br br br strong What You ll Do /strong /p ul li With the support of your team, you will work on tasks that contribute to the team s projects and goals. /li li You will work collaboratively and proactively with your team and stakeholders, bringing them along for your work and helping to create visibility and dialog regarding the risks and trade-offs related to your work. /li li You will strike the right balance of speed and quality in your work, ensuring that we hit our business goals while protecting our systems from downtime. /li li You will contribute to a sense of community on your team by engaging in growth and development activities. /li /ul p strong What We Look For /strong /p ul li You have previous work or internship experience designing, developing and launching backend systems at scale and are experienced using one of Python or Kotlin. /li li You are familiar with the building blocks of distributed systems, and the technologies like AWS, MySQL and Kubernetes. /li li You have mastered taking a simple problem or business scenario into a solution that interacts with multiple software components, and executing on it by writing clear, easily understood, well tested and extensible code. /li li You are comfortable navigating a large code base, debugging others code, and providing feedback to other engineers through code reviews. /li li Your experience demonstrates that you take ownership of your growth, proactively seeking feedback from your team, your manager, and your stakeholders. /li li You have strong verbal and written communication skills that support effective collaboration with our global engineering team. /li li span style= color: #000000; Experience building and owning large-scale stream processing systems, such as Kafka, SNS is a plus. /span /li li This position requires either equivalent practical experience or a Bachelor’s degree in a related field. /li /ul p br Base Pay Grade - J br Equity Grade - 5 br Employees new to Affirm typically come in at the start of the pay range. Affirm ",
+   "salaryText": "",
+   "lpa": null,
+   "inIndia": false,
+   "globalRemote": true,
+   "score": 119
+  },
+  {
+   "title": "Software Engineer I, Backend (Continuous Delivery)",
+   "company": "Affirm",
+   "url": "https://job-boards.greenhouse.io/affirm/jobs/8181183003",
+   "source": "Greenhouse",
+   "board": "affirm",
+   "region": "Remote US",
+   "posted": "2026-11-12",
+   "tags": [
+    "Engineering"
+   ],
+   "snippet": "div class= content-intro p At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. /p /div p Our team sits within Developer Productivity,",
+   "full": "div class= content-intro p At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. /p /div p Our team sits within Developer Productivity, whose mission is to make software development at Affirm simpler and faster across the company. The broader org owns much of the path between a developer’s laptop and production, including developer environments, CI/CD pipelines, test automation, dependency management, and release engineering, all in service of helping engineers ship code quickly, safely, and with confidence. /p p nbsp; /p p The Continuous Delivery team’s charter is centered on enabling engineering teams to release independently through strong automation, standard patterns, predictable rollouts, resilient recovery mechanisms, and less manual toil. This role is uniquely positioned to help solve one of Affirm’s most important engineering challenges: scaling developer productivity in an era where the software development lifecycle is increasingly AI-enhanced. The team builds and improves the platforms, workflows, and guardrails that help engineers move from idea to production faster, with better safety, consistency, and developer experience. /p p nbsp; /p p We value engineers who listen closely, invite feedback, and work well across organizational boundaries, while also holding a high bar for ownership, technical judgment, and follow-through. Strong candidates will care about building reliable shared systems, reducing friction for other engineers, and making durable improvements that raise the quality and speed of software delivery across Affirm. br br br strong What You ll Do /strong br br br · With the support of your team, you will work on tasks that contribute to the team s projects and goals. br · You will work collaboratively and proactively with your team and stakeholders, bringing them along for your work and helping to create visibility and dialog regarding the risks and trade-offs related to your work. br · You will strike the right balance of speed and quality in your work, ensuring that we hit our business goals while protecting our systems from downtime. br · You will contribute to a sense of community on your team by engaging in growth and development activities. br br br strong What We Look For /strong br br · You have previous work or internship experience designing, developing and launching backend systems at scale and are experienced using one of Python or Kotlin. br · You are familiar with the building blocks of distributed systems, and the technologies like AWS, MySQL and Kubernetes. br · You have mastered taking a simple problem or business scenario into a solution that interacts with multiple software components, and executing on it by writing clear, easily understood, well tested and extensible code. br · You are comfortable navigating a large code base, debugging others code, and providing feedback to ot",
+   "salaryText": "",
+   "lpa": null,
+   "inIndia": false,
+   "globalRemote": true,
+   "score": 119
+  },
+  {
    "title": "Backend Engineer (Ruby), Plan: Spec-Driven Development",
    "company": "GitLab",
    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8682860002",
@@ -658,30 +612,6 @@
    "inIndia": false,
    "globalRemote": true,
    "score": 107
-  },
-  {
-   "title": "Software Engineer AI Coding Tasks",
-   "company": "Askable",
-   "url": "https://remoteOK.com/remote-jobs/remote-software-engineer-ai-coding-tasks-askable-1137808",
-   "source": "RemoteOK",
-   "board": "",
-   "region": "Remote",
-   "posted": "2026-11-19",
-   "tags": [
-    "dev",
-    "golang",
-    "python",
-    "javascript",
-    "typescript",
-    "java"
-   ],
-   "snippet": "We're looking for experienced software engineers to build AI coding tasks from a codebase they know well. US$400-US$1,000 per task, and you can do as many tasks as you want. You turn a real change from a repository you know into a task that today's best AI cod",
-   "full": "We're looking for experienced software engineers to build AI coding tasks from a codebase they know well. US$400-US$1,000 per task, and you can do as many tasks as you want. You turn a real change from a repository you know into a task that today's best AI coding models struggle with: hard for the models, but fair for ",
-   "salaryText": "USD 10k",
-   "lpa": 8.8,
-   "inIndia": false,
-   "globalRemote": true,
-   "score": 105
   },
   {
    "title": "Software Engineer - Auth",
@@ -947,6 +877,25 @@
    "score": 96
   },
   {
+   "title": "Software Engineer I, Fullstack (Search)",
+   "company": "Affirm",
+   "url": "https://job-boards.greenhouse.io/affirm/jobs/8017340003",
+   "source": "Greenhouse",
+   "board": "affirm",
+   "region": "Remote US",
+   "posted": "2026-10-30",
+   "tags": [
+    "Engineering"
+   ],
+   "snippet": "div class= content-intro p At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. /p /div p Search has become the default way consumers ",
+   "full": "div class= content-intro p At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. /p /div p Search has become the default way consumers discover where to shop, compare options, and decide what to buy across platforms like Google, TikTok, and even Klarna. As we build a new Ads business and evolve Marketplace into a best in class shopping experience, improving search is one of our highest leverage investments to create an experience users choose and merchants want to invest in. br br strong What You ll Do /strong /p ul li With the support of your team, you will work on tasks that contribute to the team s projects and goals. /li li You will work collaboratively and proactively with your team and stakeholders, bringing them along for your work and helping to create visibility and dialog regarding the risks and trade-offs related to your work. /li li You will strike the right balance of speed and quality in your work, ensuring that we hit our business goals while protecting our systems from downtime. /li li You will contribute to a sense of community on your team by engaging in growth and development activities. /li /ul p br strong What We Look For br /strong /p ul li You have previous work or internship experience working with Javascript/Typescript. /li li You have previous work or internship experience designing, developing and launching backend systems at scale and are experienced using Python or Kotlin. /li li You have mastered taking a simple problem or business scenario into a solution that interacts with multiple software components, and executing on it by writing clear, easily understood, well tested and extensible code. /li li You are comfortable navigating a large code base, debugging others code, and providing feedback to other engineers through code reviews. /li li Your experience demonstrates that you take ownership of your growth, proactively seeking feedback from your team, your manager, and your stakeholders. /li li You have strong verbal and written communication skills that support effective collaboration with our global engineering team. /li li This position requires either equivalent practical experience or a Bachelor’s degree in a related field. /li /ul div div div p nbsp; /p p strong Base Pay Grade /strong - J br strong Equity Grade /strong - 5 br br Employees new to Affirm typically come in at the start of the pay range. Affirm focuses on providing a simple and transparent pay structure which is based on a variety of factors, including location, experience and job-related skills. br Base pay is part of a total compensation package that may include equity rewards, monthly stipends for health, wellness and tech spending, and benefits (including 100% subsidized medical coverage, dental and vision for you and your dependents.) br br strong USA base pay range (CA, WA, NY, NJ, CT) per year: /strong $130,000 - $18",
+   "salaryText": "",
+   "lpa": null,
+   "inIndia": false,
+   "globalRemote": true,
+   "score": 93
+  },
+  {
    "title": "Software Engineer - PlanetScale Postgres",
    "company": "PlanetScale",
    "url": "https://job-boards.greenhouse.io/planetscale/jobs/4251150009",
@@ -1043,25 +992,6 @@
    "score": 85
   },
   {
-   "title": "Full-Stack Engineer (Backend Leaning) - Creative Agents",
-   "company": "Elevenlabs",
-   "url": "https://jobicy.com/jobs/155939-full-stack-engineer-backend-leaning-creative-agents",
-   "source": "Jobicy",
-   "board": "",
-   "region": "Anywhere",
-   "posted": "2026-11-19",
-   "tags": [
-    "Software Engineering"
-   ],
-   "snippet": "About ElevenLabs ElevenLabs is an AI research and product company transforming how we interact with technology. We launched in January 2023 with the first human-like AI voice model. Today, we serve millions of users and thousands of businesses - from fast-grow",
-   "full": "About ElevenLabs ElevenLabs is an AI research and product company transforming how we interact with technology. We launched in January 2023 with the first human-like AI voice model. Today, we serve millions of users and thousands of businesses - from fast-growing startups to large enterprises like Deutsche Telekom and ",
-   "salaryText": "",
-   "lpa": null,
-   "inIndia": false,
-   "globalRemote": true,
-   "score": 85
-  },
-  {
    "title": "Software Engineer II, Backend (Test Infra)",
    "company": "Affirm",
    "url": "https://job-boards.greenhouse.io/affirm/jobs/7727320003",
@@ -1117,44 +1047,6 @@
    "inIndia": false,
    "globalRemote": true,
    "score": 85
-  },
-  {
-   "title": "Software Engineer I, Backend (Streaming Infra)",
-   "company": "Affirm",
-   "url": "https://job-boards.greenhouse.io/affirm/jobs/8201471003",
-   "source": "Greenhouse",
-   "board": "affirm",
-   "region": "Remote Canada",
-   "posted": "2026-11-20",
-   "tags": [
-    "Engineering"
-   ],
-   "snippet": "div class= content-intro p At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. /p /div p Affirm is reinventing credit to make it more",
-   "full": "div class= content-intro p At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. /p /div p Affirm is reinventing credit to make it more honest and friendly, giving consumers the flexibility to buy now and pay later without any hidden fees or compounding interest. br br span style= color: #000000; The Streaming team at Affirm is responsible for all things data and drives the strategy for event driven architecture, stream processing, data exploration, discovery and validation. We leverage existing open source technologies like Kafka, Flink, Spark and also build our own as needed. As a member of our team you would spend time identifying and executing on new use cases of data infrastructure, designing and scaling our existing infrastructure and working closely with other teams to promote the optimal use of data at the company. /span br br strong What You ll Do /strong /p ul li With the support of your team, you will work on tasks that contribute to the team s projects and goals. /li li You will work collaboratively and proactively with your team and stakeholders, bringing them along for your work and helping to create visibility and dialog regarding the risks and trade-offs related to your work. /li li You will strike the right balance of speed and quality in your work, ensuring that we hit our business goals while protecting our systems from downtime. /li li You will contribute to a sense of community on your team by engaging in growth and development activities. /li /ul p strong What We Look For /strong /p ul li You have previous work or internship experience designing, developing and launching backend systems at scale and are experienced using one of Python or Kotlin. /li li You are familiar with the building blocks of distributed systems, and the technologies like AWS, MySQL and Kubernetes. /li li You have mastered taking a simple problem or business scenario into a solution that interacts with multiple software components, and executing on it by writing clear, easily understood, well tested and extensible code. /li li You are comfortable navigating a large code base, debugging others code, and providing feedback to other engineers through code reviews. /li li Your experience demonstrates that you take ownership of your growth, proactively seeking feedback from your team, your manager, and your stakeholders. /li li You have strong verbal and written communication skills that support effective collaboration with our global engineering team. /li li span style= color: #000000; Experience building and owning large-scale stream processing systems, such as Kafka, SNS is a plus. /span br br /li /ul p Base Pay Grade - J br Equity Grade - 4 br br Employees new to Affirm typically come in at the start of the pay range. Affirm focuses on providing a simple and transparent pay structure which is based on a variety of factors, including",
-   "salaryText": "",
-   "lpa": null,
-   "inIndia": false,
-   "globalRemote": false,
-   "score": 84
-  },
-  {
-   "title": "Software Engineer I, Backend (Continuous Delivery)",
-   "company": "Affirm",
-   "url": "https://job-boards.greenhouse.io/affirm/jobs/8181185003",
-   "source": "Greenhouse",
-   "board": "affirm",
-   "region": "Remote Canada",
-   "posted": "2026-11-12",
-   "tags": [
-    "Engineering"
-   ],
-   "snippet": "div class= content-intro p At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. /p /div p Our team sits within Developer Productivity,",
-   "full": "div class= content-intro p At Affirm, we exist for the moments that matter—giving people a clear, predictable way to pay over time, with no hidden fees, no surprises, and no tradeoffs on what matters most. /p /div p Our team sits within Developer Productivity, whose mission is to make software development at Affirm simpler and faster across the company. The broader org owns much of the path between a developer’s laptop and production, including developer environments, CI/CD pipelines, test automation, dependency management, and release engineering, all in service of helping engineers ship code quickly, safely, and with confidence. /p p nbsp; /p p The Continuous Delivery team’s charter is centered on enabling engineering teams to release independently through strong automation, standard patterns, predictable rollouts, resilient recovery mechanisms, and less manual toil. This role is uniquely positioned to help solve one of Affirm’s most important engineering challenges: scaling developer productivity in an era where the software development lifecycle is increasingly AI-enhanced. The team builds and improves the platforms, workflows, and guardrails that help engineers move from idea to production faster, with better safety, consistency, and developer experience. /p p nbsp; /p p We value engineers who listen closely, invite feedback, and work well across organizational boundaries, while also holding a high bar for ownership, technical judgment, and follow-through. Strong candidates will care about building reliable shared systems, reducing friction for other engineers, and making durable improvements that raise the quality and speed of software delivery across Affirm. br br br strong What You ll Do /strong br br br · With the support of your team, you will work on tasks that contribute to the team s projects and goals. br · You will work collaboratively and proactively with your team and stakeholders, bringing them along for your work and helping to create visibility and dialog regarding the risks and trade-offs related to your work. br · You will strike the right balance of speed and quality in your work, ensuring that we hit our business goals while protecting our systems from downtime. br · You will contribute to a sense of community on your team by engaging in growth and development activities. br br br strong What We Look For /strong br br · You have previous work or internship experience designing, developing and launching backend systems at scale and are experienced using one of Python or Kotlin. br · You are familiar with the building blocks of distributed systems, and the technologies like AWS, MySQL and Kubernetes. br · You have mastered taking a simple problem or business scenario into a solution that interacts with multiple software components, and executing on it by writing clear, easily understood, well tested and extensible code. br · You are comfortable navigating a large code base, debugging others code, and providing feedback to ot",
-   "salaryText": "",
-   "lpa": null,
-   "inIndia": false,
-   "globalRemote": false,
-   "score": 84
   },
   {
    "title": "Pre-training Data Infrastructure Engineer",
@@ -1313,30 +1205,6 @@
    "score": 76
   },
   {
-   "title": "SEO Full Stack Engineer",
-   "company": "Treatwell",
-   "url": "https://remoteOK.com/remote-jobs/remote-seo-full-stack-engineer-treatwell-1137805",
-   "source": "RemoteOK",
-   "board": "",
-   "region": "Remote",
-   "posted": "2026-11-18",
-   "tags": [
-    "full stack",
-    "react",
-    "rabbitmq",
-    "front end",
-    "technical",
-    "customer support"
-   ],
-   "snippet": "We're looking for a full-stack engineer to join our Product Engineering team, reporting to one of the Engineering Managers of the Marketplace area, with a dotted line to the Marketing SEO Manager, focused on supporting the Growth and Marketing area. This role ",
-   "full": "We're looking for a full-stack engineer to join our Product Engineering team, reporting to one of the Engineering Managers of the Marketplace area, with a dotted line to the Marketing SEO Manager, focused on supporting the Growth and Marketing area. This role will have a 60% focus on Front End, and 40% focus on Back En",
-   "salaryText": "",
-   "lpa": null,
-   "inIndia": false,
-   "globalRemote": true,
-   "score": 75
-  },
-  {
    "title": "Software Engineer - Internal Tools",
    "company": "PlanetScale",
    "url": "https://job-boards.greenhouse.io/planetscale/jobs/4389100009",
@@ -1371,26 +1239,6 @@
    "inIndia": false,
    "globalRemote": false,
    "score": 72
-  },
-  {
-   "title": "Junior Go Backend Developer (f/m/d)",
-   "company": "adjoe",
-   "url": "https://www.arbeitnow.com/jobs/companies/adjoe/junior-go-backend-developer-hamburg-421725",
-   "source": "Arbeitnow",
-   "board": "",
-   "region": "Hamburg",
-   "posted": "2026-11-21",
-   "tags": [
-    "adjoe",
-    "Full Time"
-   ],
-   "snippet": "adjoe builds the technologies behind mobile apps growth and monetization. adjoe Ads is our programmatic in-app advertising platform that seamlessly connects advertisers and publishers through direct integration of our Android and iOS SDKs. Every ad decision ha",
-   "full": "adjoe builds the technologies behind mobile apps growth and monetization. adjoe Ads is our programmatic in-app advertising platform that seamlessly connects advertisers and publishers through direct integration of our Android and iOS SDKs. Every ad decision happens in under 200ms across 10 million daily users, powered ",
-   "salaryText": "",
-   "lpa": null,
-   "inIndia": false,
-   "globalRemote": false,
-   "score": 70
   },
   {
    "title": "Software Engineer, Trust & Safety",
@@ -1570,6 +1418,25 @@
    "score": 69
   },
   {
+   "title": "Software Engineer - Backend",
+   "company": "Databricks",
+   "url": "https://databricks.com/company/careers/open-positions/job?gh_jid=8012650002",
+   "source": "Greenhouse",
+   "board": "databricks",
+   "region": "Belgrade, Serbia",
+   "posted": "2026-11-19",
+   "tags": [
+    "Databricks doo Beograd"
+   ],
+   "snippet": "p P-1414 /p p At Databricks, we are passionate about helping data teams solve the world s toughest problems — from making the next mode of transportation a reality to accelerating the development of medical breakthroughs. We do this by building and running the",
+   "full": "p P-1414 /p p At Databricks, we are passionate about helping data teams solve the world s toughest problems — from making the next mode of transportation a reality to accelerating the development of medical breakthroughs. We do this by building and running the world s best data and AI infrastructure platform so our customers can use deep data insights to improve their business. /p p Founded by engineers, Databricks has started a multi-year journey to build the best Data Intelligence Platform. For this we are building on top of a great foundation but our goal is to go further to build dramatically better products. We want to revisit every component to provide our customers with the fastest, easiest to use and most secure data platform for all their data workloads. /p p As a software engineer, you will join as a founding member of not only the Belgrade site, but really as a founding team for our multi-year journey to achieve our Lakehouse vision. You will be involved in the entire development cycle and exemplify all core Databricks values. /p p strong The impact you ll have: /strong /p p Our backend teams span many domains across our essential service platforms. For instance, you might work on challenges such as: /p ul li Problems that span from product to infrastructure including: distributed systems, at-scale service architecture and monitoring, workflow orchestration, and developer experience. /li li Build reliable, secure and high performance services and client libraries for storing and accessing humongous amount of data on cloud storage backends, e.g., AWS S3, GCS, Azure Blob Store. /li li Develop product features that empower our customers to easily store and access their data. /li /ul p strong What we look for: /strong /p ul li BS (or higher) in Computer Science, or a related field /li li 3+ years of production level experience in one of: Java, Scala, C++, or similar language /li li Experience developing large-scale distributed systems /li li Experience working on a SaaS platform or with Service-Oriented Architectures /li li Knowledge of SQL /li /ul div class= content-conclusion p strong About Databricks /strong /p p span style= font-family: arial, sans-serif; Databricks is the Data and AI company. More than 20,000 organizations worldwide — including adidas, AT amp;T, Bayer, Block, Mastercard, Rivian, Unilever, and 70% of the Fortune 500 — rely on the Databricks Data + AI Platform to build and scale data and AI apps, analytics and agents. Headquartered in San Francisco with 30+ offices around the globe, Databricks offers a unified platform that includes Genie, Lakebase, Agent Bricks, Lakeflow, Lakehouse, and Unity Catalog. To learn more, follow Databricks on a href= https://www.linkedin.com/company/databricks LinkedIn /a , a href= https://x.com/databricks X /a , a href= https://www.youtube.com/@Databricks YouTube /a , and a href= https://www.instagram.com/databricksinc/?hl=en Instagram /a . br br strong Benefits br br /strong /span At Datab",
+   "salaryText": "",
+   "lpa": null,
+   "inIndia": false,
+   "globalRemote": false,
+   "score": 68
+  },
+  {
    "title": "Software Engineer, ML Workload Platform",
    "company": "cohere",
    "url": "https://jobs.ashbyhq.com/cohere/8f60b8e2-55b9-4258-a4cc-813273161f97",
@@ -1711,6 +1578,27 @@
    "inIndia": false,
    "globalRemote": true,
    "score": 63
+  },
+  {
+   "title": "Software Developer (Junior): TypeScript & Groovy (m/w/d)",
+   "company": "MESKRU GmbH",
+   "url": "https://www.arbeitnow.com/jobs/companies/meskru-gmbh/software-developer-junior-typescript-groovy-essen-121371",
+   "source": "Arbeitnow",
+   "board": "",
+   "region": "Essen",
+   "posted": "2026-11-22",
+   "tags": [
+    "Software Development",
+    "Unbefristeter arbeitsvertrag",
+    "berufseinstieg"
+   ],
+   "snippet": "Die MESKRU GmbH ist eine Atlassian Beratung mit Fokus auf Jira, Confluence und Jira Service Management. Wir bauen skalierbare Plattformen, automatisieren Prozesse und entwickeln Erweiterungen dort, wo Standardfunktionen nicht ausreichen. Aufgaben Das erwartet ",
+   "full": "Die MESKRU GmbH ist eine Atlassian Beratung mit Fokus auf Jira, Confluence und Jira Service Management. Wir bauen skalierbare Plattformen, automatisieren Prozesse und entwickeln Erweiterungen dort, wo Standardfunktionen nicht ausreichen. Aufgaben Das erwartet dich bei uns Weiterentwicklung, Wartung und Support unserer ",
+   "salaryText": "",
+   "lpa": null,
+   "inIndia": false,
+   "globalRemote": false,
+   "score": 62
   },
   {
    "title": "Distributed Systems Engineer - Network Services",
@@ -1973,6 +1861,106 @@
    "inIndia": false,
    "globalRemote": false,
    "score": 58
+  },
+  {
+   "title": "Software Engineer 2",
+   "company": "MongoDB",
+   "url": "https://www.mongodb.com/careers/job/?gh_jid=7613695",
+   "source": "Greenhouse",
+   "board": "mongodb",
+   "region": "Dublin",
+   "posted": "2026-11-16",
+   "tags": [
+    "N/A",
+    "D20000-Office of the CTO",
+    "T10084-Office of the CTO",
+    "EMEA",
+    "Professional - IC",
+    "Full-time"
+   ],
+   "snippet": "p We are seeking passionate and driven individuals with a strong foundation in computer science to join our team. In this role, you ll have the opportunity to design, build, and test software that enhances MongoDB products while solving complex technical chall",
+   "full": "p We are seeking passionate and driven individuals with a strong foundation in computer science to join our team. In this role, you ll have the opportunity to design, build, and test software that enhances MongoDB products while solving complex technical challenges. You’ll collaborate with cross-functional teams, balance innovation with delivery, and contribute to features that empower our global community of users. Join us in a supportive and inclusive environment that values your unique perspective and fuels your growth. /p p We are looking to speak to candidates who are based in Dublin for our hybrid working model. /p h3 strong What we are looking for in you /strong /h3 ul li In the process of receiving or having received a Bachelor’s or Master’s degree in Computer Science, Computer Engineering, or a related field /li li Recent graduates (including Summer 2026) or professionals with up to 18 months of experience. /li li Have a foundation in computer science theory, with competencies in data structures, algorithms, and software design /li li Proficient in one of our commonly used languages which include C++, Go, Ruby, Python, Java, Javascript, Node.js, or comparable high level programming languages /li li Experience writing and testing software whether as part of an internship, in a personal project, in a coding competition, or for research /li /ul h3 strong What you ll find at MongoDB /strong /h3 ul li Writing and testing software in commonly used high level programming languages, such as C++, Go, Ruby, Python, Java, Javascript, Node.js /li li Identifying, designing, testing, and supporting new features in MongoDB products, particularly utilizing competencies in data structures, algorithms, and software design /li li Leading software projects that help users maintain and understand their MongoDB deployments /li li Solving problems with context in mind, balancing the needs of the team with the desire to get to the bottom of issues /li li Maintaining a balance between delivering software and performing research and development /li li Working closely with cross functional teams to create end user features that deliver quality software to our clients /li li A fun community of fellow New Grads to attend social events, hangouts, and games nights /li li Membership within our Employee Resource Groups where you can gain mentorship and learning opportunities from employees with a shared background or common identity /li li A workplace culture where you are encouraged to bring your whole self to work - we believe that Embracing the Power of Differences is the best way to broaden our own perspectives and foster innovation /li /ul h3 strong About Us /strong /h3 p MongoDB is built for change, empowering our customers and our people to innovate at the speed of the market. We have redefined the data platform for the AI era, enabling builders to create, transform, and disrupt industries with software. MongoDB’s unified data platform, the most widely available,",
+   "salaryText": "",
+   "lpa": null,
+   "inIndia": false,
+   "globalRemote": false,
+   "score": 58
+  },
+  {
+   "title": "Software Engineer - AI Platforms",
+   "company": "Figma",
+   "url": "https://boards.greenhouse.io/figma/jobs/5691886004?gh_jid=5691886004",
+   "source": "Greenhouse",
+   "board": "figma",
+   "region": "San Francisco, CA • New York, NY • United States",
+   "posted": "2026-10-27",
+   "tags": [],
+   "snippet": "div class= content-intro p Figma is growing our team of passionate creatives and builders on a mission to make design accessible to all. Figma’s platform helps teams bring ideas to life—whether you re brainstorming, creating a prototype, translating designs in",
+   "full": "div class= content-intro p Figma is growing our team of passionate creatives and builders on a mission to make design accessible to all. Figma’s platform helps teams bring ideas to life—whether you re brainstorming, creating a prototype, translating designs into code, or iterating with AI. From idea to product, Figma empowers teams to streamline workflows, move faster, and work together in real time from anywhere in the world. If you re excited to shape the future of design and collaboration, join us! /p /div div class= section page-centered div class= section page-centered p AI Platform teams build the core frameworks, abstractions, and systems that support AI features across Figma. We create new capabilities that AI product teams can build on, while collaborating with teams from around the company to improve our performance, reliability, and technical quality. We’re looking for strong infrastructure and platform-minded engineers to contribute to our agent infrastructure, context retrieval amp; ranking platform, and core AI services, in order to accelerate our most critical company-wide AI initiatives. /p p Here are just a few areas our platform teams work on: /p ul li strong Evals for design /strong : Building evaluation frameworks for design generation quality that are used across every Figma AI feature. /li li strong Agentic search: /strong Providing relevant context from throughout the Figma ecosystem to agents via search tools, in order to improve agent quality. /li li strong Figma MCP /strong : Making our MCP server faster, more reliable, and easier for internal amp; external engineers alike to develop on. /li li strong Agent infrastructure /strong : Iterating on the sandboxes, harnesses, and tools leveraged by the agents that power Figma Make and the Figma Design Agent. /li li strong Preview amp; publishing platforms /strong : Creating the shared platforms for building, previewing, and publishing code written by agents via Figma Make. /li /ul p This is a full time role that can be held from one of our US hubs or remotely in the United States. /p p strong What you’ll do at Figma: /strong /p ul li Support end-to-end AI feature development by designing, building, and maintaining systems that are scalable, reliable, and performant. /li li Collaborate with product, research, and infrastructure engineers working across AI. /li li Help shape our platform strategy, roadmaps, and engineering best practices throughout the organization. /li li Debug and resolve complex production issues that span services and layers of the stack. /li li Mentor engineers and foster a culture of collaboration, inclusivity, and technical excellence. /li /ul p strong We d love to hear from you if you have: /strong /p ul li 5+ years of Software Engineering experience, especially in backend or infrastructure engineering. /li li 3+ years of experience in one or more of: AI, search infrastructure, or developer platforms. /li li Proficiency in TypeScript, Python, or Ruby. /l",
+   "salaryText": "",
+   "lpa": null,
+   "inIndia": false,
+   "globalRemote": false,
+   "score": 58
+  },
+  {
+   "title": "Software Engineer, New Grad (Dec 2026)",
+   "company": "notion",
+   "url": "https://jobs.ashbyhq.com/notion/e32799d2-8ef8-4803-8189-c72514afa816",
+   "source": "Ashby",
+   "board": "notion",
+   "region": "San Francisco, California",
+   "posted": "2026-08-14",
+   "tags": [
+    "Early Career",
+    "Early Career",
+    "FullTime"
+   ],
+   "snippet": "WHO WE ARE Notion is the collaborative AI workspace where teams and agents think together https://www.youtube.com/watch?v=vkpYpWfEK5s. We're building one place where your knowledge, projects, meetings, and AI tools live side by side, so work is faster, clearer",
+   "full": "WHO WE ARE Notion is the collaborative AI workspace where teams and agents think together https://www.youtube.com/watch?v=vkpYpWfEK5s. We're building one place where your knowledge, projects, meetings, and AI tools live side by side, so work is faster, clearer, and less fragmented. Millions of individuals, small teams, and large companies run their work on Notion. Notinos (our employees) are customer zero in bringing this future of work to life. We care about craft, building things that last, and the belief that great work is still fundamentally human. Our goal isn’t to ship the next feature. Each and every team of Notinos is working to set the standard for how humans work together in the AI era. From building a business’s system of record to making and managing AI agents to automating away the busy work, we care deeply about giving our customers more time for their life’s work. To be eligible for this role, you need to graduate in December 2026 and be able to start full time by January/February 2027. WHAT YOU'LL ACHIEVE: - You'll work with others to plan, shape, and build new product features from start to finish: through conception, research, implementation, and maintenance. For example, you might work on driving adoption, by instrumenting key onboarding moments and iterating on activation flows. - You'll help improve performance and reliability, or polish existing features. For example, you might update our spell checker to sync dictionaries across browsers or improve search to index file attachments. - You'll build internal tools to support simplicity and productivity for the whole team. This might include writing a script to import user feedback into Notion. QUALIFICATIONS: - Pursuing a bachelor's or master’s degree in computer science, engineering, or another related field. - To be eligible for this role, you need to graduate by Dec 2026 and be able to start FTE by January/February 2027. - Previous internship experience. - Working towards a proficiency of one or more programming languages such as TypeScript, Node.js, or Python. SKILLS YOU'LL NEED TO BRING: - Impact-driven approach to technology: You see technologies as tools to achieve user impact rather than ends in themselves. You care more about building successful systems that solve real problems than about using specific tech stacks or following trends. - You stay current with the latest tools like Codex, Claude Code, and other AI-assisted development environments. You're pragmatic about choosing the right tool for the job, focusing on what delivers the most value to users. - Thoughtful problem-solving: For you, problem-solving starts with a clear and accurate understanding of the context. You can decompose tricky problems and work towards a clean solution, by yourself or with teammates. You're comfortable asking for help when you get stuck. You think about the implications of what you're building and how it will impact real people's lives. - Team player: For you, work isn't a solo end",
+   "salaryText": "",
+   "lpa": null,
+   "inIndia": false,
+   "globalRemote": false,
+   "score": 58
+  },
+  {
+   "title": "DevOps Engineer (Observability)",
+   "company": "Twilio",
+   "url": "https://job-boards.greenhouse.io/twilio/jobs/8108771",
+   "source": "Greenhouse",
+   "board": "twilio",
+   "region": "Remote - Ireland",
+   "posted": "2026-11-20",
+   "tags": [
+    "TP3EG5103-1"
+   ],
+   "snippet": "div class= content-intro p strong Who we are nbsp; /strong /p p At Twilio, we’re shaping the future of communications, all from the comfort of our homes. We deliver innovative solutions to a class= c-link href= https://customers.twilio.com/ target= _blank data",
+   "full": "div class= content-intro p strong Who we are nbsp; /strong /p p At Twilio, we’re shaping the future of communications, all from the comfort of our homes. We deliver innovative solutions to a class= c-link href= https://customers.twilio.com/ target= _blank data-stringify-link= https://customers.twilio.com/ data-sk= tooltip_parent nbsp;hundreds of thousands of businesses nbsp; /a and empower millions of developers worldwide to craft personalized customer experiences. /p p Our dedication to a class= c-link href= https://www.twilio.com/en-us/blog/open-work target= _blank data-stringify-link= https://www.twilio.com/en-us/blog/open-work data-sk= tooltip_parent remote-first work /a , and strong culture of connection and global inclusion means that no matter your location, you’re part of a vibrant team with diverse experiences making a global impact each day. As we continue to revolutionize how the world interacts, we’re acquiring new skills and experiences that make work feel truly rewarding. Your career at Twilio is in your hands. br span style= color: rgb(255, 255, 255); . /span /p p strong Hiring and how we work /strong /p p We use Artificial Intelligence (AI) to help make our hiring process efficient. That said, every hiring decision is made by real Twilions! nbsp; /p p Also, while we are a remote-first company, you may be asked to report in person on an ad-hoc basis for team gatherings, functional off-sites or customer meetings. br span style= color: rgb(255, 255, 255); . /span strong /strong /p /div p strong See yourself at Twilio nbsp; /strong /p p Join the team as our next Software Engineer on Twilio’s platform engineering observability team. /p p strong About the job /strong /p p This position is needed to help our platform engineering observability team. Twilio is undergoing a large-scale observability transformation—and you can help shape the foundation. Observability is a strategic pillar and a key enabler for faster incident response, deeper customer-centric insights, and more cost-effective platform operations. /p p As a Software Engineer on the Platform Observability team, you’ll play a critical role in re-architecting how telemetry flows and is utilized through Twilio—making it structured, accessible, affordable, and actionable. Over the next 3 years, Twilio is rebuilding nearly every component of our observability platform, from data collection to real-time analytics. You will drive core initiatives that shift Twilio from fragmented tooling and wasteful data sprawl to a unified, OpenTelemetry-first observability stack built for scale. /p p You’ll lead technically and strategically—designing platform components, influencing org-wide architectural decisions, mentoring engineers, and engaging directly with teams across Platform Engineering and R amp;D /p p strong Responsibilities /strong /p p In this role, you’ll: /p ul li Lead the end-to-end architecture and delivery of key observability platform components, with a focus on reliability, s",
+   "salaryText": "",
+   "lpa": null,
+   "inIndia": false,
+   "globalRemote": true,
+   "score": 57
+  },
+  {
+   "title": "Software Engineer, (P2)",
+   "company": "Twilio",
+   "url": "https://job-boards.greenhouse.io/twilio/jobs/8131089",
+   "source": "Greenhouse",
+   "board": "twilio",
+   "region": "Remote - US",
+   "posted": "2026-11-20",
+   "tags": [
+    "TP2EG5102-1"
+   ],
+   "snippet": "div class= content-intro p strong Who we are nbsp; /strong /p p At Twilio, we’re shaping the future of communications, all from the comfort of our homes. We deliver innovative solutions to a class= c-link href= https://customers.twilio.com/ target= _blank data",
+   "full": "div class= content-intro p strong Who we are nbsp; /strong /p p At Twilio, we’re shaping the future of communications, all from the comfort of our homes. We deliver innovative solutions to a class= c-link href= https://customers.twilio.com/ target= _blank data-stringify-link= https://customers.twilio.com/ data-sk= tooltip_parent nbsp;hundreds of thousands of businesses nbsp; /a and empower millions of developers worldwide to craft personalized customer experiences. /p p Our dedication to a class= c-link href= https://www.twilio.com/en-us/blog/open-work target= _blank data-stringify-link= https://www.twilio.com/en-us/blog/open-work data-sk= tooltip_parent remote-first work /a , and strong culture of connection and global inclusion means that no matter your location, you’re part of a vibrant team with diverse experiences making a global impact each day. As we continue to revolutionize how the world interacts, we’re acquiring new skills and experiences that make work feel truly rewarding. Your career at Twilio is in your hands. br span style= color: rgb(255, 255, 255); . /span /p p strong Hiring and how we work /strong /p p We use Artificial Intelligence (AI) to help make our hiring process efficient. That said, every hiring decision is made by real Twilions! nbsp; /p p Also, while we are a remote-first company, you may be asked to report in person on an ad-hoc basis for team gatherings, functional off-sites or customer meetings. br span style= color: rgb(255, 255, 255); . /span strong /strong /p /div p strong See yourself at Twilio /strong /p p Join the team as Twilio s next Software Engineer for Stytch, where you ll shape the next generation of identity products. /p p strong About the job /strong /p p This position is needed to help build and scale Stytch’s core product as we bring Stytch capabilities to Twilio’s full customer base, delivering secure, developer-first identity experiences. /p p Join the Stytch team at Twilio to shape the next generation of identity products. You’ll build backend systems that power authentication, authorization, and emerging agentic and non-human identity use cases. You’ll partner closely with product and engineering leadershp to design and deliver high-impact, customer-facing features, and evolve our platform for Twilio scale. This is a rare chance to operate like a startup within Twilio: you’ll work in a high-ownership environment with startup speed, backed by Twilio’s reach and scale. /p p strong Responsibilities /strong /p p In this role, you’ll: /p ul li Build backend product capabilities for Stytch’s identity platform on Twilio—shipping new API surfaces and core authentication flows, including agentic and non-human identity use cases. /li li Partner with Product and Engineering leadership to set direction, translate customer needs into product capabilities, and deliver high-impact roadmap features. /li li Collaborate across Twilio and Stytch teams to align on architecture, integrate platform capabilities, and ",
+   "salaryText": "",
+   "lpa": null,
+   "inIndia": false,
+   "globalRemote": true,
+   "score": 57
   }
  ]
 }
