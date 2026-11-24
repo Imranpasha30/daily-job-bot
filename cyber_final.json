@@ -1,11 +1,11 @@
 {
- "generated": "2026-11-23T13:24:08.547Z",
+ "generated": "2026-11-24T14:06:46.584Z",
  "usdInr": 88,
  "counts": {
-  "pool": 3270,
+  "pool": 3262,
   "passed": 84,
   "dubai": 0,
-  "india": 12
+  "india": 13
  },
  "jobs": [
   {
@@ -37,7 +37,7 @@
    "source": "Greenhouse",
    "board": "tide",
    "region": "India, Hyderabad",
-   "posted": "2026-11-18",
+   "posted": "2026-11-23",
    "tags": [
     "GL"
    ],
@@ -113,6 +113,24 @@
    "inDubai": false,
    "globalRemote": false,
    "score": 120
+  },
+  {
+   "title": "Threat Researcher - 1",
+   "company": "CloudSEK",
+   "url": "https://job-boards.greenhouse.io/cloudsek/jobs/6264006004",
+   "source": "Greenhouse",
+   "board": "cloudsek",
+   "region": "Bengaluru, Karnataka, India",
+   "posted": "2026-11-24",
+   "tags": [],
+   "snippet": "div class= content-intro p span style= font-family: arial, helvetica, sans-serif; font-size: 12pt; strong WHO ARE WE? /strong /span /p p span style= font-weight: 400; font-family: arial, helvetica, sans-serif; font-size: 12pt; We are a bunch of super enthusias",
+   "full": "div class= content-intro p span style= font-family: arial, helvetica, sans-serif; font-size: 12pt; strong WHO ARE WE? /strong /span /p p span style= font-weight: 400; font-family: arial, helvetica, sans-serif; font-size: 12pt; We are a bunch of super enthusiastic, passionate, and highly driven people, working to achieve a common goal! We believe that work and the workplace should be joyful and always buzzing with energy! /span /p p span style= font-family: arial, helvetica, sans-serif; font-size: 12pt; a href= https://cloudsek.com/ strong CloudSEK /strong strong , /strong /a span style= font-weight: 400; one of India’s most trusted Cyber security product companies, is on a mission to build the world’s fastest and most reliable AI technology that identifies and resolves digital threats in real-time. /span span style= font-weight: 400; The central proposition is leveraging Artificial Intelligence and Machine Learning to create a quick and reliable analysis and alert system that provides rapid detection across multiple internet sources, precise threat analysis, and prompt resolution with minimal human intervention. /span /span /p p span style= font-weight: 400; font-family: arial, helvetica, sans-serif; font-size: 12pt; Founded in 2015, headquartered at Singapore, we are proud to say that we’ve grown at a frenetic pace and have been able to achieve some accolades along the way, including: /span /p p span style= font-family: arial, helvetica, sans-serif; font-size: 12pt; strong CloudSEK’s Product Suite: /strong /span /p ul li style= font-family: arial, helvetica, sans-serif; font-size: 12pt; span style= font-family: arial, helvetica, sans-serif; font-size: 12pt; span style= font-weight: 400; CloudSEK /span strong XVigil /strong span style= font-weight: 400; constantly maps a customer’s digital assets, identifies threats and enriches them with cyber intelligence, and then provides workflows to manage and remediate all identified threats including takedown support. /span /span /li li style= font-family: arial, helvetica, sans-serif; font-size: 12pt; span style= font-family: arial, helvetica, sans-serif; font-size: 12pt; span style= font-weight: 400; A powerful Attack Surface Monitoring /span strong style= font-weight: 400; /strong span style= font-weight: 400; tool that gives visibility and intelligence on customers’ attack surfaces. CloudSEK s /span span style= font-weight: 400; strong BeVigil /strong /span span style= font-weight: 400; uses a combination of Mobile, Web, Network and Encryption Scanners to map and protect known and unknown assets. /span /span /li li style= font-family: arial, helvetica, sans-serif; font-size: 12pt; span style= font-family: arial, helvetica, sans-serif; font-size: 12pt; CloudSEK’s Contextual AI strong SVigil /strong identifies software supply chain risks by monitoring Software, Cloud Services, and third-party dependencies. /span /li li style= font-family: arial, helvetica, sans-serif; font-size: 12pt; span style= font-f",
+   "salaryText": "",
+   "lpa": null,
+   "inIndia": true,
+   "inDubai": false,
+   "globalRemote": false,
+   "score": 105
   },
   {
    "title": "Customer Threat Advisor (Offensive)",
@@ -324,7 +342,7 @@
    "source": "Greenhouse",
    "board": "twilio",
    "region": "Remote - United Kingdom",
-   "posted": "2026-11-20",
+   "posted": "2026-11-23",
    "tags": [
     "NP2IT6582-1"
    ],
@@ -520,7 +538,7 @@
    "source": "Greenhouse",
    "board": "nasdaq",
    "region": "St. John's",
-   "posted": "2026-11-23",
+   "posted": "2026-11-24",
    "tags": [],
    "snippet": "div p strong Role Responsibilities /strong nbsp; /p /div div ul li p Analyzing security vulnerabilities identified within Verafin s Cloud infrastructure. nbsp; /p /li li p Querying and correlating security scan data with technical inventory. nbsp; /p /li li p ",
    "full": "div p strong Role Responsibilities /strong nbsp; /p /div div ul li p Analyzing security vulnerabilities identified within Verafin s Cloud infrastructure. nbsp; /p /li li p Querying and correlating security scan data with technical inventory. nbsp; /p /li li p Building reports and dashboards to present findings to code amp; infrastructure owners. nbsp; /p /li li p Coordinating vulnerability remediation with code amp; infrastructure owners. nbsp; /p /li li p Ensuring scanning coverage and assisting in remediation of gaps. nbsp; /p /li li p Assessing and improving security processes and tool usage. nbsp; nbsp; /p /li li p Working with security and operational teams to ensure security standards are met. nbsp; nbsp; /p /li /ul p nbsp; /p /div div p strong Essential Skills amp; Qualifications /strong nbsp; /p div div ul li p Diploma or Degree in a Security Management, Programming, Computer Science or equivalent. nbsp; /p /li li p 1+ years experience in security vulnerability analysis in a cloud environment would be an asset. nbsp; /p /li li p Experience working in a cloud-based environment (AWS preferred). nbsp; /p /li li p Experience working with the following technologies from a security perspective: Vulnerability Scanners/Management, Container Security Tools, Logging amp; Monitoring Tooling. nbsp; nbsp; /p /li li p Experience writing queries to analyze data. nbsp; /p /li li p Security certifications would be an asset (CISSP, OSCP, CEH, GSEC, Security+ etc.) nbsp; /p /li li p Strong technical analytical skills while providing accurate analysis of security-related problems in context of Verafin’s environment. nbsp; /p /li li p Committed to continuous learning, understanding new technologies and developing best practices. nbsp; /p /li li p Ability to communicate effectively with other teams. /p /li /ul /div /div div p ​ /p div p strong What does success look like in this role? /strong nbsp; /p /div div ul li p Contribute to the success the Verafin’s security program by offering insight and guidance on response and remediation of security vulnerabilities. nbsp; /p /li li p Review and improve Verafin’s security posture using new tools and processes. nbsp; /p /li li p Be an effective team player, communicator, and have an eagerness to learn and develop new skills. /p /li /ul div p nbsp; /p p strong What are the growth opportunities for this role? /strong nbsp; /p /div div ul li p Technical security career development nbsp; /p /li li p You could become the lead of a team, or the subject matter expert of your current team nbsp; /p /li /ul div p nbsp; /p p nbsp; /p p nbsp; /p /div /div /div /div /div div class= content-conclusion h4 Come as You Are /h4 p Nasdaq is an equal opportunity employer. We welcome applications from candidates of all backgrounds and identities. We are committed to fostering an inclusive workplace where diverse perspectives, experiences, and identities are valued and celebrated. We ensure that individuals with disabilities are provided",
@@ -732,6 +750,24 @@
    "score": 75
   },
   {
+   "title": "Threat Intelligence Engineer",
+   "company": "Take-Two Interactive Software, Inc.",
+   "url": "https://job-boards.greenhouse.io/taketwo/jobs/8379815",
+   "source": "Greenhouse",
+   "board": "taketwo",
+   "region": "Las Vegas, Nevada, United States",
+   "posted": "2026-11-24",
+   "tags": [],
+   "snippet": "p nbsp; /p h2 strong WHO WE ARE nbsp; /strong /h2 p Headquartered in New York City, Take-Two Interactive Software, Inc. is a leading developer, publisher, and marketer of interactive entertainment for consumers around the globe. We develop and publish products",
+   "full": "p nbsp; /p h2 strong WHO WE ARE nbsp; /strong /h2 p Headquartered in New York City, Take-Two Interactive Software, Inc. is a leading developer, publisher, and marketer of interactive entertainment for consumers around the globe. We develop and publish products principally through Rockstar Games, 2K, and Zynga. Our products are designed for console gaming systems, PC, and mobile, including smartphones and tablets. We deliver our products through physical retail, digital download, online platforms, and cloud streaming services. The Company’s common stock is publicly traded on NASDAQ under the symbol TTWO. For more corporate and product information please visit our website at a target= ~_blank~ u http://www.take2games.com /u /a . /p p While our offices (physical and virtual) are casual and inviting, we are deeply committed to our core tenets of creativity, innovation and efficiency, and individual and team development opportunities. Our industry and business are continually evolving and fast-paced, providing numerous opportunities to learn and hone your skills. We work hard, but we also like to have fun and believe that we provide a great place to come to work each day to pursue your passions. /p p nbsp; /p h2 strong THE CHALLENGE /strong /h2 p We are looking for a Threat Intelligence Engineer. In this role, you will be on the front lines of our defense, helping to operationalize intelligence and build engineering solutions to counter emerging security threats. You ll work closely with various security and technology teams to integrate threat data into our security infrastructure, strengthening our defenses and protecting our organization. Your hands-on expertise will directly contribute to safeguarding Take-Two and its labels systems, networks, and data. You will work with Take-Two s Information Security teams, reporting to the Director of Threat Intelligence. /p p nbsp; /p h2 strong WHAT YOU’LL TAKE ON /strong /h2 ul li strong Threat Intelligence Operations: /strong Support the day-to-day operations of the cyber threat intelligence (CTI) program by managing threat feeds, parsing indicators of compromise (IOCs), and ensuring data quality across our platforms. /li li strong Threat Analysis amp; Engineering: /strong Analyze emerging threats and adversary tactics, techniques, and procedures (TTPs) to help engineer robust detection and prevention mechanisms. /li li strong Enhance Our Security Posture: /strong Collaborate with our Global Security Operations Center (GSOC), Detection Engineering, and Incident Response teams to ingest and operationalize threat intelligence into our SIEM, EDR, and firewalls. /li li strong Automation amp; Integration: /strong Build and maintain API integrations, scripts, and playbooks to automate indicator ingestion, correlation, and dissemination across security platforms. /li li strong Security Infrastructure Support: /strong Assist in the deployment, configuration, maintenance, and tuning of our Threat Intelligence Platfo",
+   "salaryText": "",
+   "lpa": null,
+   "inIndia": false,
+   "inDubai": false,
+   "globalRemote": false,
+   "score": 65
+  },
+  {
    "title": "Federal SOC Leader",
    "company": "Zscaler",
    "url": "https://job-boards.greenhouse.io/zscaler/jobs/5202105007",
@@ -764,24 +800,6 @@
    "tags": [],
    "snippet": "div class= content-intro p Tenstorrent is leading the industry on cutting-edge AI technology, revolutionizing performance expectations, ease of use, and cost efficiency. With AI redefining the computing paradigm, solutions must evolve to unify innovations in s",
    "full": "div class= content-intro p Tenstorrent is leading the industry on cutting-edge AI technology, revolutionizing performance expectations, ease of use, and cost efficiency. With AI redefining the computing paradigm, solutions must evolve to unify innovations in software models, compilers, platforms, networking, and semiconductors. Our diverse team of technologists have developed a high performance RISC-V CPU from scratch, and share a passion for AI and a deep desire to build the best AI platform possible. We value collaboration, curiosity, and a commitment to solving hard problems. We are growing our team and looking for contributors of all seniorities. /p /div p Tenstorrent is hiring an IT Governance, Risk, and Compliance (GRC) Analyst to run the day-to-day engine of our continuous compliance, third-party risk, security policy, and risk assessment programs. Reporting to the Head of Information Security, you will keep Tenstorrent audit-ready year-round as we scale our commercial AI cloud (TT-Console), federal compliance (CMMC), and global silicon operations. We run compliance as an automated, AI-enabled discipline built on Vanta, Git-managed questionnaires, and AI agents, not spreadsheets and screenshots. /p p This role is remote, based out of the United States or Canada. /p p We welcome candidates at various experience levels for this role. During the interview process, candidates will be assessed for the appropriate level, and offers will align with that level, which may differ from the one in this posting. /p p nbsp; /p p strong Who You Are /strong /p ul li A tech-savvy GRC operator who uses AI tools (Claude, Cursor, Glean) daily to analyze SOC 2 reports and DPAs, draft risk memos, and maintain policies in Markdown/YAML. /li li Relentless about continuous compliance: controls stay green, access reviews land on time, and risk registers stay current. /li li A clear translator between Legal, Procurement, and Engineering on privacy and compliance requirements (GDPR, CCPA, PIPEDA). /li li Technically grounded in cloud infrastructure, SSO/MFA, EDR, encryption, and AI providers, enough to spot red flags in vendor and product reviews. /li li A concise, direct communicator with a bachelor s degree in a related field or equivalent practical experience. /li /ul p nbsp; /p p strong What We Need /strong /p ul li Hands-on experience running SOC 2 Type 1 and Type 2 programs on a GRC automation platform such as Vanta or Drata, including control tests, evidence collection, and auditor coordination. /li li Third-party risk management experience: tiering vendors, running security questionnaires, reviewing SOC 2 and ISO 27001 reports, and partnering with Legal on DPAs and AI data-use terms. /li li Experience maintaining risk registers and running security intake reviews for new products, internal tools, and data centers. /li li Comfort using AI tools to analyze documents, build reports, and automate workflows in a Git-backed Markdown/YAML workflow. /li li Familiarit",
-   "salaryText": "",
-   "lpa": null,
-   "inIndia": false,
-   "inDubai": false,
-   "globalRemote": false,
-   "score": 65
-  },
-  {
-   "title": "Threat Intelligence Engineer",
-   "company": "Take-Two Interactive Software, Inc.",
-   "url": "https://job-boards.greenhouse.io/taketwo/jobs/8379815",
-   "source": "Greenhouse",
-   "board": "taketwo",
-   "region": "Las Vegas, Nevada, United States",
-   "posted": "2026-11-13",
-   "tags": [],
-   "snippet": "p nbsp; /p h2 strong WHO WE ARE nbsp; /strong /h2 p Headquartered in New York City, Take-Two Interactive Software, Inc. is a leading developer, publisher, and marketer of interactive entertainment for consumers around the globe. We develop and publish products",
-   "full": "p nbsp; /p h2 strong WHO WE ARE nbsp; /strong /h2 p Headquartered in New York City, Take-Two Interactive Software, Inc. is a leading developer, publisher, and marketer of interactive entertainment for consumers around the globe. We develop and publish products principally through Rockstar Games, 2K, and Zynga. Our products are designed for console gaming systems, PC, and mobile, including smartphones and tablets. We deliver our products through physical retail, digital download, online platforms, and cloud streaming services. The Company’s common stock is publicly traded on NASDAQ under the symbol TTWO. For more corporate and product information please visit our website at a target= ~_blank~ u http://www.take2games.com /u /a . /p p While our offices (physical and virtual) are casual and inviting, we are deeply committed to our core tenets of creativity, innovation and efficiency, and individual and team development opportunities. Our industry and business are continually evolving and fast-paced, providing numerous opportunities to learn and hone your skills. We work hard, but we also like to have fun and believe that we provide a great place to come to work each day to pursue your passions. /p p nbsp; /p h2 strong THE CHALLENGE /strong /h2 p We are looking for a Threat Intelligence Engineer. In this role, you will be on the front lines of our defense, helping to operationalize intelligence and build engineering solutions to counter emerging security threats. You ll work closely with various security and technology teams to integrate threat data into our security infrastructure, strengthening our defenses and protecting our organization. Your hands-on expertise will directly contribute to safeguarding Take-Two and its labels systems, networks, and data. You will work with Take-Two s Information Security teams, reporting to the Director of Threat Intelligence. /p p nbsp; /p h2 strong WHAT YOU’LL TAKE ON /strong /h2 ul li strong Threat Intelligence Operations: /strong Support the day-to-day operations of the cyber threat intelligence (CTI) program by managing threat feeds, parsing indicators of compromise (IOCs), and ensuring data quality across our platforms. /li li strong Threat Analysis amp; Engineering: /strong Analyze emerging threats and adversary tactics, techniques, and procedures (TTPs) to help engineer robust detection and prevention mechanisms. /li li strong Enhance Our Security Posture: /strong Collaborate with our Global Security Operations Center (GSOC), Detection Engineering, and Incident Response teams to ingest and operationalize threat intelligence into our SIEM, EDR, and firewalls. /li li strong Automation amp; Integration: /strong Build and maintain API integrations, scripts, and playbooks to automate indicator ingestion, correlation, and dissemination across security platforms. /li li strong Security Infrastructure Support: /strong Assist in the deployment, configuration, maintenance, and tuning of our Threat Intelligence Platfo",
    "salaryText": "",
    "lpa": null,
    "inIndia": false,
@@ -1082,6 +1100,26 @@
    "score": 60
   },
   {
+   "title": "Intermediate Security Engineer, Security Incident Response Team (SIRT)",
+   "company": "GitLab",
+   "url": "https://job-boards.greenhouse.io/gitlab/jobs/8950027002",
+   "source": "Greenhouse",
+   "board": "gitlab",
+   "region": "Remote, United States",
+   "posted": "2026-11-23",
+   "tags": [
+    "n/a"
+   ],
+   "snippet": "div class= content-intro p GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformati",
+   "full": "div class= content-intro p GitLab is the intelligent orchestration platform for DevSecOps. GitLab enables organizations to increase developer productivity, improve operational efficiency, reduce security and compliance risk, and accelerate digital transformation. More than 50 million registered users and more than 50% of the Fortune 100* trust GitLab to ship better, more secure software faster. /p p The same principles built into our products are reflected in how our team works: we embrace AI as a core productivity multiplier, with all team members expected to incorporate AI into their daily workflows to drive efficiency, innovation, and impact. GitLab is where careers accelerate, innovation flourishes, and every voice is valued. Our high-performance culture is driven by our values nbsp;and continuous knowledge exchange, enabling our team members to reach their full potential while collaborating with industry leaders to solve complex problems. a href= https://www.youtube.com/watch?v=OuZIb5zszQI Co-create the future with us /a as we build technology that transforms how the world develops software. /p p * em Fortune 500® is a registered trademark of Fortune Media IP Limited, used under license. Claim based on GitLab data. Fortune 100 refers to the top 20% ranked companies in the 2025 Fortune 500 list, published in June 2025. Fortune and Fortune Media IP Limited are not affiliated with, and do not endorse products or services of GitLab. /em /p /div p strong An overview of this role /strong /p p As an Intermediate Security Engineer on GitLab s Security Incident Response Team (SIRT), you will be on the frontline of protecting both GitLab.com and GitLab the company from security threats. This role operates on a compressed 4-day work schedule, with a full-time week s hours condensed into four longer working days. Shifts run either Sunday through Wednesday or Wednesday through Saturday to provide 24/7/365 security coverage. This role also supports our FedRAMP environment and requires U.S. citizenship and residency within the United States. /p p Your primary focus will be detecting and responding to security incidents during your scheduled shifts. You ll work extensively with our incident response automation tools to investigate, analyze, and resolve security events. You ll also use AI to build security tooling and automation, helping to improve our detection and response capabilities. /p p In this role, you ll develop expertise using our security infrastructure to monitor for threats, analyze potential incidents, and coordinate response efforts across teams. This position is ideal for someone who wants to grow their incident response skills while working within GitLab s established security framework. You ll learn to think both tactically and strategically about security, while getting hands-on experience handling real-world incidents. /p p Successful Security Engineers thrive in high-pressure environments, remaining calm while following prepared runbook",
+   "salaryText": "",
+   "lpa": null,
+   "inIndia": false,
+   "inDubai": false,
+   "globalRemote": false,
+   "score": 55
+  },
+  {
    "title": "Group Product Management, Cloud Security and Shared Capabilities",
    "company": "Datadog",
    "url": "https://careers.datadoghq.com/detail/8405975/?gh_jid=8405975",
@@ -1098,30 +1136,6 @@
    ],
    "snippet": "p data-renderer-start-pos= 1 data-local-id= e0abab5c230f strong data-renderer-mark= true About Datadog: /strong /p p data-renderer-start-pos= 19 data-local-id= 7c3d37770a6b We re on a mission to build the best platform in the world to defend the enterprise fro",
    "full": "p data-renderer-start-pos= 1 data-local-id= e0abab5c230f strong data-renderer-mark= true About Datadog: /strong /p p data-renderer-start-pos= 19 data-local-id= 7c3d37770a6b We re on a mission to build the best platform in the world to defend the enterprise from code-to-SOC. Used by thousands of companies globally, Datadog security products uniquely leverage Datadog’s unified security and observability platform so Security, DevOps and SRE can collaborate rapidly and seamlessly to deliver better detection, prioritization and remediation. Our product and engineering culture values pragmatism, honesty, and simplicity to solve hard problems the right way. /p p data-renderer-start-pos= 506 data-local-id= 0461a445f015 nbsp; /p p data-renderer-start-pos= 508 data-local-id= 149b43ca0cab strong data-renderer-mark= true The Opportunity: /strong /p p data-renderer-start-pos= 528 data-local-id= 61e3982b351b In this competitive market, the Group Product Manager (GPM) for Shared Security Platform Capabilities will play a mission-critical role in providing product, strategy and team leadership to grow Datadog’s security market share through differentiation, innovation and compelling customer value enabled through platform capabilities supporting critical security use cases and workflows across the entire Datadog Security product portfolio. /p p data-renderer-start-pos= 967 data-local-id= e38eed30bffe nbsp; /p p data-renderer-start-pos= 969 data-local-id= 4e8dc4085920 strong data-renderer-mark= true You Will: nbsp; /strong /p ul class= ak-ul data-local-id= 1cb3310b1e38 data-indent-level= 1 li p data-renderer-start-pos= 983 data-local-id= 76648ba41a7e Lead and own product strategy and roadmap for shared security platform capabilities supporting the complete Datadog security portfolio, including the autonomous loop foundations, security graph, common data models, span class= acronym-highlight MCP /span , workflows and unified platform UX. /p /li li p data-renderer-start-pos= 1241 data-local-id= f834be46baec Ensure predictable roadmap execution across direct and partner teams to achieve product roadmap and business goals. /p /li li p data-renderer-start-pos= 1360 data-local-id= 583b1bd58310 Manage and grow individual contributor (IC) Product Managers, ensuring they are motivated, delivering high quality work and finding high fulfillment. /p /li li p data-renderer-start-pos= 1513 data-local-id= 08af2174bbc1 Model and contribute to a culture of learning and collaboration across product management and the broader organization /p /li li p data-renderer-start-pos= 1635 data-local-id= b89ac1c2d41e Raise the bar of PM leadership through leadership in strategy development, roadmap planning and execution, span class= acronym-highlight GTM /span and overall product-leader responsibilities. /p /li /ul p data-renderer-start-pos= 1794 data-local-id= 6ef0a99e7222 nbsp; /p p data-renderer-start-pos= 1796 data-local-id= 5ebd835815a4 strong data-renderer-mark= true You Are: /strong ",
-   "salaryText": "",
-   "lpa": null,
-   "inIndia": false,
-   "inDubai": false,
-   "globalRemote": false,
-   "score": 55
-  },
-  {
-   "title": "Security Operations Engineer",
-   "company": "Samsara",
-   "url": "https://himalayas.app/companies/samsara/jobs/security-operations-engineer?utm_source=api",
-   "source": "Himalayas",
-   "board": "",
-   "region": "United Kingdom",
-   "posted": "2026-11-23",
-   "tags": [
-    "Security-Operations-Engineer",
-    "SOC-Analyst",
-    "Security-Operations-Analyst",
-    "Incident-Response-Engineer",
-    "Cybersecurity-Engineer"
-   ],
-   "snippet": "Who we are Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operat",
-   "full": "Who we are Samsara (NYSE: IOT) is the pioneer of the Connected Operations™ Cloud, which is a platform that enables organizations that depend on physical operations to harness Internet of Things (IoT) data to develop actionable insights and improve their operations.",
    "salaryText": "",
    "lpa": null,
    "inIndia": false,
@@ -1150,24 +1164,6 @@
    "score": 55
   },
   {
-   "title": "Forward Deployed Security Engineer",
-   "company": "Stripe",
-   "url": "https://stripe.com/jobs/search?gh_jid=8181003",
-   "source": "Greenhouse",
-   "board": "stripe",
-   "region": "Dublin",
-   "posted": "2026-11-19",
-   "tags": [],
-   "snippet": "h2 strong Who we are /strong /h2 h3 strong About Stripe /strong /h3 h3 span style= font-weight: 400; Stripe is a financial infrastructure platform for businesses. Millions of companies - from the world’s largest enterprises to the most ambitious startups - use",
-   "full": "h2 strong Who we are /strong /h2 h3 strong About Stripe /strong /h3 h3 span style= font-weight: 400; Stripe is a financial infrastructure platform for businesses. Millions of companies - from the world’s largest enterprises to the most ambitious startups - use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone s reach while doing the most important work of your career. /span /h3 h3 strong About the team /strong /h3 p Abuse Operations is the front-line incident response and remediation function handling active product abuse and fraud impacting Stripe and its merchants. This multi-disciplinary group, spanning Incident Managers, Investigators, Forward Deployed Security Engineers, and Data Scientists, neutralizes active attacks, gathers requirements for operational tooling, and leads incidents. The team works directly with impacted merchants to resolve incidents and policy abuse rapidly. Operating primarily across Eastern, Pacific and Western European time zones, these team members regularly coordinate with global stakeholders across the world. /p h2 strong What you’ll do /strong /h2 p In this role, you will play a critical part in safeguarding our financial ecosystem through two main pillars: actively responding to live fraud and abuse incidents as a hands-on security engineer, and serving as a key bridge between incidents and merchants to help them remediate threats, improve security posture, and protect their accounts. Leveraging your technical depth in fraud, abuse, and security engineering, you will investigate high-risk accounts, perform post-incident analyses, gather operational requirements, and drive agentic response capabilities ensuring we neutralize threats with speed and precision while elevating Stripe s product integrity function. /p h3 strong Responsibilities /strong /h3 ul li Respond to live fraud and abuse incidents as a Forward Deployed Security Engineer, investigating high-risk activity, neutralizing active attacks, and mitigating security risks across the ecosystem. /li li Investigate, mitigate, and remediate urgent fraud incidents (e.g., ATO, card testing), utilizing FT3-mapped nbsp; (Fraud Taxonomy 3.0) detection and signals enrichment to reduce uncertainty and accelerate response. /li li As part of incidents, analyze high-risk accounts to identify fraudulent merchants, card testing, account takeovers, and other fraud vectors, classifying them using FT3 to standardize threat intelligence. /li li Develop, document, and execute incident response strategies, runbooks, and capabilities to continuously improve fraud and abuse detection and prevention. /li li Act as a dedicated technical bridge during and after incidents to work directly with impacted merchants and customers, helping them investigate root cau",
-   "salaryText": "",
-   "lpa": null,
-   "inIndia": false,
-   "inDubai": false,
-   "globalRemote": false,
-   "score": 55
-  },
-  {
    "title": "Security Engineer, New Grad",
    "company": "Stripe",
    "url": "https://stripe.com/jobs/search?gh_jid=8257892",
@@ -1178,6 +1174,24 @@
    "tags": [],
    "snippet": "div Who we are: br br About Stripe br Stripe is a financial infrastructure platform for businesses. Millions of companies - from the world’s largest enterprises to the most ambitious startups - use Stripe to accept payments, grow their revenue, and accelerate ",
    "full": "div Who we are: br br About Stripe br Stripe is a financial infrastructure platform for businesses. Millions of companies - from the world’s largest enterprises to the most ambitious startups - use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone s reach while doing the most important work of your career. br br About the team br Stripe offers an interesting middle ground between joining a small startup and going to work for a multinational company. We have systems and processes optimized for early-career professionals. You will be in an environment that prizes rigor, discipline, and reliability—from our products, from our ways of working, and from our colleagues. You will learn how the best teams put together extremely reliable systems, and you will be responsible for operating these systems, with adequate backup when things get tough. br The Security organization is dedicated to building and maintaining a secure financial infrastructure platform. By joining this team, you will be on the front lines, engineering solutions that protect the sensitive data and systems underpinning a huge portion of the world s economy. You will contribute to core security functions like threat detection and rapid incident response, building and scaling the platforms that manage vulnerabilities, and proactively performing offensive security assessments to identify weaknesses before they can be exploited. This is a chance to apply software engineering principles and new technologies such as AI to solve complex, high-stakes security challenges, ultimately ensuring that Stripe s mission to increase the GDP of the internet is achieved securely. br br What you’ll do br As a Security Engineer New Grad you will have the opportunity to work across various security disciplines and own projects from start to finish. Your work will focus on securing Stripe s complex environment by applying software engineering principles to security challenges. /div ul li You will learn and apply the principles of secure-by-default design by working closely with product and infrastructure engineering teams. /li li You ll develop a foundational understanding of various security domains, such as threat detection, incident response, vulnerability management, or offensive security. /li li You ll learn to act as a security subject matter expert, tailoring answers to both engineers and non-engineers. /li li You ll contribute to the development of internal tools and automation to scale security efforts across Stripe. /li li You will participate in threat modeling discussions, learning to balance security requirements with product advancement and user experience. /li /ul div Responsibilities /div ul li Work on cross-functional projects, directly collaborating with other engin",
+   "salaryText": "",
+   "lpa": null,
+   "inIndia": false,
+   "inDubai": false,
+   "globalRemote": false,
+   "score": 55
+  },
+  {
+   "title": "Security Engineer, Privy",
+   "company": "Stripe",
+   "url": "https://stripe.com/jobs/search?gh_jid=8306475",
+   "source": "Greenhouse",
+   "board": "stripe",
+   "region": "NYC-Privy",
+   "posted": "2026-11-19",
+   "tags": [],
+   "snippet": "h2 strong Who we are /strong /h2 h3 strong About Privy /strong /h3 p Our mission is to make privacy and user ownership the default online. To do so, we build simple, flexible APIs and tools for developers that make it easy to build new products on crypto rails",
+   "full": "h2 strong Who we are /strong /h2 h3 strong About Privy /strong /h3 p Our mission is to make privacy and user ownership the default online. To do so, we build simple, flexible APIs and tools for developers that make it easy to build new products on crypto rails. /p p Privy owns the abstractions and infrastructure layer above wallets, integrating across chains, third-party providers, and Stripe products like Treasury and Link. We get to solve hard technical problems while leveraging Stripe s distribution to reach customers like Ramp, Klarna, Deel, Kraken, Hyperliquid, and Fomo — powering experiences for both mainstream users and crypto natives. /p p Learn more about Privy: nbsp; a class= Link href= https://privy.io/blog/announcing-our-acquisition-by-stripe data-js-controller= AnalyticsButton data-analytics-category= Links data-analytics-action= Clicked data-analytics-label= Related content Privy and Stripe: Bringing crypto to everyone /a /p h3 strong About the team /strong /h3 p Engineering at Privy is distinguished by: /p ul li High urgency: Shipping very small iterations, very fast, to learn very quickly. nbsp; /li li Product taste: Our customers em are /em developers, and to build effective products for them requires technical knowledge - you will often be the PM . /li li Security mindset: A great portion of our product is trust. While we have a dedicated security team, every engineer brings security to their designs from the start. /li /ul p In practice, we use nbsp; a href= https://mcfunley.com/choose-boring-technology boring technology /a like Node, React, and AWS so we can focus our engineering energy entirely on pushing the boundaries of Privy s core product, e.g. through hardware enclaves, multi-region low latency APIs, and blockchain abstractions that are accessible to mainstream developers. /p h2 strong What you’ll do /strong /h2 p As a Security Engineer at Privy, you will help keep a rapidly growing platform secure through hands-on investigation, operational ownership, and building real code to solve real problems. You’ll work across security operations, incident response, application and infrastructure security, and internal tooling. /p p This is not a role limited to reviewing logs and designs or simply escalating findings. You will carry real ownership for the day-to-day work that protects Privy: investigating anomalies, improving security workflows, and building the automation that makes the team faster and more effective over time. You’ll work closely with engineers across Privy and alongside specialists in cryptography, application security, offensive security, and infrastructure security to turn security expertise into practical, durable outcomes. /p h3 strong Responsibilities /strong /h3 ul li style= font-weight: 400; Own security engineering work end to end: investigate alerts, findings, anomalies, and security requests; identify root causes; drive remediation; and clearly document outcomes. /li li Participate in Privy’s securi",
    "salaryText": "",
    "lpa": null,
    "inIndia": false,
