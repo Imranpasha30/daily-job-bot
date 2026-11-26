@@ -1,11 +1,11 @@
 {
- "generated": "2026-11-25T13:18:49.179Z",
+ "generated": "2026-11-26T12:58:26.714Z",
  "usdInr": 88,
  "counts": {
-  "pool": 3307,
-  "passed": 89,
+  "pool": 3295,
+  "passed": 91,
   "dubai": 0,
-  "india": 13
+  "india": 16
  },
  "jobs": [
   {
@@ -29,6 +29,50 @@
    "inDubai": false,
    "globalRemote": false,
    "score": 155
+  },
+  {
+   "title": "Threat Analyst 3",
+   "company": "sophos",
+   "url": "https://jobs.ashbyhq.com/sophos/323d16ed-8cec-44bc-9862-dc8a6a16688d",
+   "source": "Ashby",
+   "board": "sophos",
+   "region": "India",
+   "posted": "2026-11-25",
+   "tags": [
+    "Threat Intelligence & Cybersecurity",
+    "MDR and Security Operations",
+    "FullTime"
+   ],
+   "snippet": "THE OPPORTUNITY As a Threat Analyst 3, you'll serve as a senior investigator within our Managed Detection and Response (MDR) team, helping organizations defend against sophisticated threats and emerging attack techniques. You'll lead complex investigations, he",
+   "full": "THE OPPORTUNITY As a Threat Analyst 3, you'll serve as a senior investigator within our Managed Detection and Response (MDR) team, helping organizations defend against sophisticated threats and emerging attack techniques. You'll lead complex investigations, help guide response efforts, and work closely with threat hunters, incident responders, engineers, and security researchers to continuously strengthen customer defenses. This role is ideal for an experienced cybersecurity professional who enjoys solving difficult problems, mentoring others, and improving security operations at scale. WHAT YOU'LL DO - Lead complex investigations across endpoint, network, cloud, and identity environments - Analyze attacker behavior and identify tactics, techniques, and procedures used by threat actors - Drive response efforts and provide guidance on containment and remediation activities - Document findings, recommendations, and investigative outcomes - Communicate technical findings clearly to customers and internal stakeholders - Provide technical guidance and support to other analysts - Contribute to the development of detection logic, investigation methodologies, and operational improvements - Stay current on emerging threats, attacker techniques, and cybersecurity trends - Collaborate with threat hunters, incident responders, security researchers, and engineering teams to improve customer outcomes WHAT YOU'LL BRING Required: - Significant experience investigating cybersecurity incidents and threats - Strong analytical, investigative, and problem-solving skills - Ability to independently lead complex investigations from identification through resolution - Strong knowledge of threat detection and incident response practices - Excellent written and verbal communication skills - A passion for technology, cybersecurity, and continuous learning Preferred: - Experience working in a Security Operations Center (SOC), MDR, threat hunting, or incident response environment - Advanced experience with SIEM, EDR, XDR, IDS/IPS, or cloud security platforms - Familiarity with frameworks such as MITRE ATT&CK - Experience mentoring or supporting the development of other analysts - Relevant advanced cybersecurity certifications What does remote mean at Sophos? Sophos supports flexible ways of working, with many roles offered remotely and others working in a hybrid model. For remote roles, you may work remotely within the location specified in the job posting. Candidates must reside in and be authorized to work in that location. Our teams collaborate across locations and time zones, using technology to stay connected and deliver results. Our Commitment To You Sophos welcomes applicants with diverse experiences, perspectives, and backgrounds. We believe great ideas come from different ways of thinking, and we are committed to building a workplace where people can contribute, grow, and succeed. We evaluate all candidates based on job-related skills, qualifications, and experience,",
+   "salaryText": "",
+   "lpa": null,
+   "inIndia": true,
+   "inDubai": false,
+   "globalRemote": false,
+   "score": 130
+  },
+  {
+   "title": "Threat Analyst 2",
+   "company": "sophos",
+   "url": "https://jobs.ashbyhq.com/sophos/f12d7f88-1773-4b47-951e-4b5cf50ffd53",
+   "source": "Ashby",
+   "board": "sophos",
+   "region": "India",
+   "posted": "2026-11-25",
+   "tags": [
+    "Threat Intelligence & Cybersecurity",
+    "MDR and Security Operations",
+    "FullTime"
+   ],
+   "snippet": "THE OPPORTUNITY As a Threat Analyst 2, you'll help organizations defend against a constantly evolving cyber threat landscape. Working within our Managed Detection and Response (MDR) team, you'll investigate security alerts, identify malicious activity, and dri",
+   "full": "THE OPPORTUNITY As a Threat Analyst 2, you'll help organizations defend against a constantly evolving cyber threat landscape. Working within our Managed Detection and Response (MDR) team, you'll investigate security alerts, identify malicious activity, and drive response efforts across customer environments. WHAT YOU'LL DO - Monitor and investigate security alerts across endpoint, network, cloud, and identity environments - Analyze security events and determine appropriate response actions - Conduct investigations into suspicious or malicious activity through to resolution - Conduct threat-hunting activities across customer environments to identify suspicious behaviour that may not have been detected by existing alerts. - Document findings, recommendations, and investigative outcomes - Communicate clearly and professionally with customers and internal teams - Contribute to the continuous improvement of detection, investigation, and response processes - Stay current on emerging threats, attacker techniques, and cybersecurity trends - Perform incident response to contain threats and reduce customer risk, escalating complex or critical cases to senior responders. - Work rotational shifts, including weekends and public holidays, to support our 24/7/365 service. WHAT YOU'LL BRING Required: - Experience investigating cybersecurity alerts, incidents, or threats - Strong analytical and problem-solving skills - Proficiency with EDR, IDS/IPS, malware protection and SIEM, or comparable enterprise security tools. - Strong understanding of attacker techniques mapped to MITRE ATT&CK (e.g. persistence, defence evasion, obfuscation), with demonstrated experience decoding and deobfuscating PowerShell during investigations. - Ability to independently assess security events and determine appropriate actions - Strong written and verbal communication skills - Knowledge of cybersecurity principles, threat detection, and incident response concepts - A passion for technology, cybersecurity, and continuous learning Preferred: - Scripting in PowerShell or Python to automate investigation tasks. - Proactive threat-hunting experience. - Familiarity with SIEM, EDR, XDR, IDS/IPS, or cloud security platforms - Knowledge of common attacker tactics and techniques - Familiarity with frameworks such as MITRE ATT&CK - Relevant cybersecurity certifications or advanced cybersecurity training What does remote mean at Sophos? Sophos supports flexible ways of working, with many roles offered remotely and others working in a hybrid model. For remote roles, you may work remotely within the location specified in the job posting. Candidates must reside in and be authorized to work in that location. Our teams collaborate across locations and time zones, using technology to stay connected and deliver results. Our Commitment To You Sophos welcomes applicants with diverse experiences, perspectives, and backgrounds. We believe great ideas come from different ways of thinking, and we are committe",
+   "salaryText": "",
+   "lpa": null,
+   "inIndia": true,
+   "inDubai": false,
+   "globalRemote": false,
+   "score": 130
   },
   {
    "title": "Security Engineer Intern",
@@ -93,6 +137,28 @@
    "inDubai": false,
    "globalRemote": false,
    "score": 120
+  },
+  {
+   "title": "Engineer, Product Security - 3",
+   "company": "Careers at Tide",
+   "url": "https://job-boards.greenhouse.io/tide/jobs/8216874003",
+   "source": "Greenhouse",
+   "board": "tide",
+   "region": "India, Delhi NCR",
+   "posted": "2026-11-26",
+   "tags": [
+    "Global (GL)",
+    "Tide Platform Technology & Servicing Private Limited",
+    "Permanent"
+   ],
+   "snippet": "div class= content-intro h3 strong A /strong strong BOUT TIDE /strong /h3 p At Tide, we help SMEs save time and money in the running of their businesses by not only offering business accounts and related banking services, but also a comprehensive set of highly",
+   "full": "div class= content-intro h3 strong A /strong strong BOUT TIDE /strong /h3 p At Tide, we help SMEs save time and money in the running of their businesses by not only offering business accounts and related banking services, but also a comprehensive set of highly usable and connected administrative solutions, from invoicing to accounting. /p p Tide is transforming the small business banking market and now supports over 2 million members globally across the UK, Germany and France. /p p Using advanced technology, all solutions are designed with SMEs in mind. With quick onboarding, low fees and innovative features, we thrive on making data driven decisions to serve our mission: to help SMEs save time and money so they can get back to doing what they love. /p p strong Tide facts: /strong /p ul li Tide is available for UK, German and French SMEs /li li Over 2 million members globally and rapidly growing /li li Over $300 million raised in funding /li li 3,000 Tideans globally /li li We have offices in Central London, with a member support and technology centre in Sofia, Bulgaria, technology centres in Serbia, Romania, Lithuania and Hyderabad and offices in Gurugram, New Delhi, Berlin, Paris and Luxembourg /li /ul /div h2 strong About Tide /strong /h2 p At Tide, we are building a finance amp; admin platform designed to save small businesses time and money. We provide our members with business accounts and related banking services, but also a comprehensive set of connected administrative solutions from invoicing to accounting. /p p nbsp; /p p Launched in 2017, Tide is now the leading business financial platform in the UK with 900,000 SME members (15% market share) . Headquartered in London, Tide has over 3000 Tideans across the UK, Bulgaria, India, Serbia, Romania, Ukraine and Germany. nbsp; /p p Tide is rapidly growing, expanding into new markets and always looking for passionate and driven people. Join us in our mission to empower small businesses and help them save time and money. nbsp; nbsp; nbsp; /p h2 strong About the role /strong /h2 p The Tide Security Engineering team is made up of three core areas: Product Security, Threat Detection amp; Response, and Identity. /p p strong Product Security /strong (this role!) consists of application and cloud security experts. Their mission is to protect the products we build, covering everything from secure design reviews, secure code reviews to threat modelling and AI secure design review, ensuring security is embedded from the ground up. /p p strong Threat Detection amp; Response /strong focuses on protecting the company by building a robust detection and automation platform. We’re proactive in our defence, constantly hacking ourselves to improve our security posture and staying ahead of emerging threats. Our goal is to make Tide resilient against the ever-evolving threat landscape. /p p strong Identity /strong is responsible for managing Tide s staff identity platform, ensuring that access to systems and infr",
+   "salaryText": "",
+   "lpa": null,
+   "inIndia": true,
+   "inDubai": false,
+   "globalRemote": false,
+   "score": 105
   },
   {
    "title": "Threat Researcher - 1",
@@ -336,20 +402,18 @@
    "score": 100
   },
   {
-   "title": "Product Security Engineer",
-   "company": "supabase",
-   "url": "https://jobs.ashbyhq.com/supabase/62ad3b86-3a18-435a-ab29-dc62b77154e5",
-   "source": "Ashby",
-   "board": "supabase",
-   "region": "Remote, Global",
+   "title": "Security Engineer, Incident Response",
+   "company": "Twilio",
+   "url": "https://job-boards.greenhouse.io/twilio/jobs/8055481",
+   "source": "Greenhouse",
+   "board": "twilio",
+   "region": "Remote - United Kingdom",
    "posted": "2026-11-25",
    "tags": [
-    "Product",
-    "Product",
-    "FullTime"
+    "NP2IT6582-1"
    ],
-   "snippet": "ABOUT SUPABASE Supabase is the Postgres development platform, built by developers for developers. We provide a complete backend solution including Database, Auth, Storage, Edge Functions, Realtime, and Vector Search. All services are deeply integrated and desi",
-   "full": "ABOUT SUPABASE Supabase is the Postgres development platform, built by developers for developers. We provide a complete backend solution including Database, Auth, Storage, Edge Functions, Realtime, and Vector Search. All services are deeply integrated and designed for growth. ABOUT THE ROLE We’re looking for a Product Security Engineer to join our team and help strengthen how security is built into Supabase’s products, platform, and engineering workflows as we continue to scale. You’ll work closely with software engineers, infrastructure teams, and technical leadership, helping us proactively reduce risk earlier in the development lifecycle and ship securely by default. This role is ideal for someone who thrives in async, fast-paced environments and is excited about building developer tools that scale to millions. Success in this role means improving the security posture of the product without becoming a blocker to speed, autonomy, or builder velocity. WHAT YOU’LL OWN In this role, you’ll: - Identify and close gaps across application security, secure design review, and vulnerability management. - Conduct threat modeling, secure design reviews, and code reviews to identify practical remediation paths. - Partner closely with engineering teams to provide product-focused security expertise and shape a modern security program. - Mature how we think about security in a developer-first environment, balancing pragmatism with strong technical judgment. - Distinguish between theoretical risk and material business risk to prioritize security efforts effectively. - Improve security posture through scalable mechanisms like tooling, automation, secure defaults, and developer-friendly guardrails. - Support security incident response by helping triage, investigate, and coordinate remediation for product and platform security issues. - Participate in security on-call rotations, helping respond to urgent security events with clear judgment and calm execution. - Help manage and mature our bug bounty and vulnerability disclosure processes, including triage, validation, prioritization, and coordination with engineering teams. YOU MIGHT BE A GOOD FIT IF YOU - Have strong experience in product security, application security, or security engineering. - Are comfortable working with cloud-native, developer tools, SaaS, platform, or infrastructure products. - Communicate clearly across both technical and non-technical audiences, especially in a written, asynchronous environment. - Are energized by solving real-world problems for developers and navigating ambiguity while moving quickly. - Possess a deep understanding of application security fundamentals, including auth, session management, APIs, and secrets handling. - Have experience with vulnerability triage, bug bounty programs, responsible disclosure, or security incident response. - Are comfortable participating in potential security on-call rotation and can balance urgency, risk, and practical remediation. - Have expe",
+   "snippet": "div class= content-intro p strong Who we are nbsp; /strong /p p At Twilio, we’re shaping the future of communications, all from the comfort of our homes. We deliver innovative solutions to a class= c-link href= https://customers.twilio.com/ target= _blank data",
+   "full": "div class= content-intro p strong Who we are nbsp; /strong /p p At Twilio, we’re shaping the future of communications, all from the comfort of our homes. We deliver innovative solutions to a class= c-link href= https://customers.twilio.com/ target= _blank data-stringify-link= https://customers.twilio.com/ data-sk= tooltip_parent nbsp;hundreds of thousands of businesses nbsp; /a and empower millions of developers worldwide to craft personalized customer experiences. /p p Our dedication to a class= c-link href= https://www.twilio.com/en-us/blog/open-work target= _blank data-stringify-link= https://www.twilio.com/en-us/blog/open-work data-sk= tooltip_parent remote-first work /a , and strong culture of connection and global inclusion means that no matter your location, you’re part of a vibrant team with diverse experiences making a global impact each day. As we continue to revolutionize how the world interacts, we’re acquiring new skills and experiences that make work feel truly rewarding. Your career at Twilio is in your hands. br span style= color: rgb(255, 255, 255); . /span /p p strong Hiring and how we work /strong /p p We use Artificial Intelligence (AI) to help make our hiring process efficient. That said, every hiring decision is made by real Twilions! nbsp; /p p Also, while we are a remote-first company, you may be asked to report in person on an ad-hoc basis for team gatherings, functional off-sites or customer meetings. br span style= color: rgb(255, 255, 255); . /span strong /strong /p /div p strong See yourself at Twilio /strong /p p Join the team as Twilio’s next strong Security Engineer, Incident Response /strong /p p strong About the job /strong /p p The Security Incident Response Team (SIRT) is looking for a Security Engineer who is passionate about solving Twilio’s mission of security and reliability by working across the organization to lead the technical response to security events and incidents across Twilio’s global infrastructure, services and applications by effectively conducting triage, containment, remediation and driving post-incident betterments. nbsp; You will work within a team that partners with R amp;D Engineering and R amp;D Business teams to develop scalable processes and technical solutions. nbsp; /p p You will be a valued member of a team of deeply technical Security Engineers to focus on creating bespoke and standard Security response processes, enhancing our capabilities for threat mitigation and incident response, and then automating as much as you possibly can (and more)! You will help us to grow our global, scaled team and program. /p p strong Responsibilities /strong /p p In this role, you’ll: /p ul li Lead and support the response to all security events and incidents across Twilio’s complex global infrastructure, services and applications. /li li Be responsible for documentation of incidents and projects you work on and craft best practices as runbooks and standard operating procedures to share knowledge ac",
    "salaryText": "",
    "lpa": null,
    "inIndia": false,
@@ -358,18 +422,84 @@
    "score": 90
   },
   {
-   "title": "Security Engineer, Incident Response",
-   "company": "Twilio",
-   "url": "https://job-boards.greenhouse.io/twilio/jobs/8055481",
+   "title": "Security Analyst ",
+   "company": "Stripe",
+   "url": "https://stripe.com/jobs/search?gh_jid=8142302",
    "source": "Greenhouse",
-   "board": "twilio",
-   "region": "Remote - United Kingdom",
-   "posted": "2026-11-24",
+   "board": "stripe",
+   "region": "US Remote",
+   "posted": "2026-11-25",
+   "tags": [],
+   "snippet": "h1 strong Who we are /strong /h1 h3 strong About Stripe /strong /h3 p Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world’s largest enterprises to the most ambitious startups—use Stripe to accept payments, grow th",
+   "full": "h1 strong Who we are /strong /h1 h3 strong About Stripe /strong /h3 p Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world’s largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone’s reach while doing the most important work of your career. /p h3 strong About the team /strong /h3 p The Security Incident Response team works to analyze, investigate, and respond to threats before they impact Stripe’s business or users. From external attacks to insider threats, our goal is to respond with speed and precision, remediate, and support the incident postmortem process. The team is distributed, working across North America, Europe, and Asia, and will regularly coordinate with stakeholders in different time zones. /p h2 strong What you’ll do /strong /h2 p You will be leveraging your security incident response experience to analyze and respond to security notifications, events, and inquiries. You will be performing initial triage of potential security incidents through log and data analysis to determine whether or not activity is a substantiated or valid threat, assessing severity and potential impact, taking pre-approved remediation measures to contain a threat, and escalating findings to investigators for further review and analysis. You will use your knowledge of cyber threats and the results of your analysis to coordinate with partner teams to improve threat detection through tuning and creation of new use cases, to improve capabilities through enriching existing data and creation of new data feeds, and to improve triage accuracy, consistency and timeliness through automation. This role plays a critical part in threat detection and response, ultimately reducing the likelihood of security breaches and protecting sensitive company information. /p h3 strong Responsibilities /strong /h3 ul li Analyze and investigate activity on company devices and cloud infrastructure that could represent a security threat /li li Work cross-functionally with the Security teams to develop solutions for analyzing security events at scale and protecting Stripe networks, systems, and data /li li Interpret disparate data sources to report on trends and support investigative requests /li li Collect requirements for enhancements to detection models and response systems /li li Leverage existing systems and data to perform analyses and promote process improvements nbsp; /li li Provide actionable insights to help identify, prevent, detect, and respond to anomalous or potentially malicious user activity /li li Collaborate effectively with teammates, lead projects, mentor others, and develop and champion quality operational standards across the team /li /ul h2 strong ",
+   "salaryText": "",
+   "lpa": null,
+   "inIndia": false,
+   "inDubai": false,
+   "globalRemote": true,
+   "score": 90
+  },
+  {
+   "title": "Security Engineer Intern",
+   "company": "Coinbase",
+   "url": "https://www.coinbase.com/careers/positions/8415869?gh_jid=8415869",
+   "source": "Greenhouse",
+   "board": "coinbase",
+   "region": "Hybrid - New York, NY",
+   "posted": "2026-11-25",
    "tags": [
-    "NP2IT6582-1"
+    "Security",
+    "207121",
+    "Internships & Emerging Talent Positions",
+    "0.0",
+    "0.0"
    ],
-   "snippet": "div class= content-intro p strong Who we are nbsp; /strong /p p At Twilio, we’re shaping the future of communications, all from the comfort of our homes. We deliver innovative solutions to a class= c-link href= https://customers.twilio.com/ target= _blank data",
-   "full": "div class= content-intro p strong Who we are nbsp; /strong /p p At Twilio, we’re shaping the future of communications, all from the comfort of our homes. We deliver innovative solutions to a class= c-link href= https://customers.twilio.com/ target= _blank data-stringify-link= https://customers.twilio.com/ data-sk= tooltip_parent nbsp;hundreds of thousands of businesses nbsp; /a and empower millions of developers worldwide to craft personalized customer experiences. /p p Our dedication to a class= c-link href= https://www.twilio.com/en-us/blog/open-work target= _blank data-stringify-link= https://www.twilio.com/en-us/blog/open-work data-sk= tooltip_parent remote-first work /a , and strong culture of connection and global inclusion means that no matter your location, you’re part of a vibrant team with diverse experiences making a global impact each day. As we continue to revolutionize how the world interacts, we’re acquiring new skills and experiences that make work feel truly rewarding. Your career at Twilio is in your hands. br span style= color: rgb(255, 255, 255); . /span /p p strong Hiring and how we work /strong /p p We use Artificial Intelligence (AI) to help make our hiring process efficient. That said, every hiring decision is made by real Twilions! nbsp; /p p Also, while we are a remote-first company, you may be asked to report in person on an ad-hoc basis for team gatherings, functional off-sites or customer meetings. br span style= color: rgb(255, 255, 255); . /span strong /strong /p /div p strong See yourself at Twilio /strong /p p Join the team as Twilio’s next strong Security Engineer, Incident Response /strong /p p strong About the job /strong /p p The Security Incident Response Team (SIRT) is looking for a Security Engineer who is passionate about solving Twilio’s mission of security and reliability by working across the organization to lead the technical response to security events and incidents across Twilio’s global infrastructure, services and applications by effectively conducting triage, containment, remediation and driving post-incident betterments. nbsp; You will work within a team that partners with R amp;D Engineering and R amp;D Business teams to develop scalable processes and technical solutions. nbsp; /p p You will be a valued member of a team of deeply technical Security Engineers to focus on creating bespoke and standard Security response processes, enhancing our capabilities for threat mitigation and incident response, and then automating as much as you possibly can (and more)! You will help us to grow our global, scaled team and program. /p p strong Responsibilities /strong /p p In this role, you’ll: /p ul li Lead and support the response to all security events and incidents across Twilio’s complex global infrastructure, services and applications. /li li Be responsible for documentation of incidents and projects you work on and craft best practices as runbooks and standard operating procedures to share knowledge ac",
+   "snippet": "div class= content-intro p Ready to do the most impactful work of your career? span a href= https://www.coinbase.com/?utm_campaign=mt_o_m_w_m_m__coi_0_jd-onchain amp;utm_source=coinbase target= _blank Coinbase /a /span is building the future of finance for peo",
+   "full": "div class= content-intro p Ready to do the most impactful work of your career? span a href= https://www.coinbase.com/?utm_campaign=mt_o_m_w_m_m__coi_0_jd-onchain amp;utm_source=coinbase target= _blank Coinbase /a /span is building the future of finance for people, institutions and their agents, with one place to trade crypto, equities, derivatives and prediction markets, use stablecoins, and connect AI agents with clear controls. The bar is high and the pace is intense, and we like it that way. This isn’t a place for complacency. It’s a place to be pushed past your perceived limits and do the best work of your career. If you’re ready to build the future of finance with a championship team who refuse to settle for “good enough,” you belong here. Coinbase is a remote-first, but not remote-only company. Expect to get together quarterly for in-person working sessions /p /div p strong This is a 12-week internship during summer 2027. nbsp; /strong /p p Coinbase’s Application Security team is rethinking how offensive security works. We use frontier AI models to find vulnerabilities at scale, red team our own AI systems, and automate the parts of security work that don t need a human. As an intern, you ll join that effort on a scoped project and see your work used in real security decisions. /p p strong What you ll do: /strong /p ul li Build and test tooling that uses frontier AI models to surface vulnerabilities across Coinbase’s products, working alongside senior engineers on design and review. /li li Help red team internal AI systems - probing for prompt injection, jailbreak attempts, and tool misuse, then documenting what you find and how to fix it. /li li Automate pieces of the vulnerability triage, validation and remediation workflows so the bug bounty, vulnerability response pipelines move faster and become AI native. /li li Reproduce and verify reported vulnerabilities across common classes (OWASP Top 10, SANS Top 25), and write findings that engineering partners can act on. /li li Practice responsible AI use: keep a human in the loop, measure whether your tooling actually improves speed or quality, and be honest when it doesn’t. /li /ul p strong Required Skills and Experience: /strong /p ul li Currently pursuing a degree or certificate in Computer Science, Software Engineering, Mathematics or a related area discipline. /li li Proficiency in Python or Go and strong software development skills shown through coursework, personal projects and internships. /li li Curiosity about LLMs and a willingness to experiment: you’ve at least tried building with a model API and thought about how it could be manipulated. /li li Experience with security tooling such as Burp Suite, Semgrep, fuzzing frameworks, or Metasploit. /li li Hands-on exploration of prompt injection or jailbreak techniques. /li li Clear communication, especially in writing - you can explain a technical finding to someone who has to fix it. /li li Experience with GitHub and AWS. /li /ul p PID",
+   "salaryText": "",
+   "lpa": null,
+   "inIndia": false,
+   "inDubai": false,
+   "globalRemote": false,
+   "score": 90
+  },
+  {
+   "title": "Insider Risk Security Engineer",
+   "company": "Zscaler",
+   "url": "https://job-boards.greenhouse.io/zscaler/jobs/5208421007",
+   "source": "Greenhouse",
+   "board": "zscaler",
+   "region": "Remote - USA",
+   "posted": "2026-11-25",
+   "tags": [
+    "Fulltime Employee",
+    "Information Security",
+    "AMS"
+   ],
+   "snippet": "div class= content-intro p data-pm-slice= 1 1 [] Zscaler (NASDAQ: ZS) accelerates digital transformation so customers can be more agile, efficient, resilient, and secure. The Zscaler Zero Trust Exchange platform protects thousands of customers from cyberattack",
+   "full": "div class= content-intro p data-pm-slice= 1 1 [] Zscaler (NASDAQ: ZS) accelerates digital transformation so customers can be more agile, efficient, resilient, and secure. The Zscaler Zero Trust Exchange platform protects thousands of customers from cyberattacks and data loss by securely connecting users, devices, and applications in any location. Distributed across 200+ public data centers globally and thousands of private sites at the edge, the SASE-based Zero Trust Exchange is the world’s largest in-line cloud security platform. /p p We believe the future of work is Human + AI and are building an AI-native enterprise where human potential is amplified by machine intelligence to solve the world’s hardest security challenges. Driven by deep customer obsession, we are committed to the mission, outcome, and to each other. We bring these commitments to life through three core behaviors: ownership and collaboration, trust through outcomes and impact, and a challenge culture with ongoing feedback. Ready to make an impact at the company pioneering security transformation in the AI era? Join us at Zscaler. /p /div p strong Role /strong /p p We are looking for an Insider Risk Security Engineer to join our team. This is a Remote (United States) role, reporting to the Senior Architect in the Enterprise Security Dept department. Serving as a senior contributor on the Insider Risk program within Enterprise Security, you will take operational direction from the Insider Risk Team Lead while operating with high ownership to refine playbooks, lead detection engineering, mentor junior analysts, and represent the team with HR, Legal, and executive stakeholders. /p p strong What you’ll do (Role Expectations) /strong /p ul li Sharpen the Insider Risk Program’s detection capabilities by refining rules to reduce noise, close coverage gaps, and surface high-fidelity alerts in adequate time /li li Perform endpoint and user activity investigations using EDR/XDR, UEBA, and SIEM tools, managing cases end-to-end to create factual timelines /li li Drive the development and iteration of insider Risk investigation playbooks, translating case patterns and lessons learned into scalable, defensible processes /li li Serve as a key contact for HR, Legal, business leaders and other stakeholders on active investigations, preparing clear evidentiary case documentation /li /ul p strong Who You Are (Success Profile) /strong /p ul li You thrive in ambiguity and are comfortable building the path forward in dynamic environments, treating complexity as an opportunity to deliver meaningful solutions. /li li You act like an owner with a passion for the mission, navigating seamlessly between strategic thinking and hands-on execution while operating with uncompromised integrity. /li li You are a positive force who approaches complex challenges with constructive energy, inspiring teammates to stay focused on shared solutions. /li li You operate with urgency, balancing speed and quality to execut",
+   "salaryText": "",
+   "lpa": null,
+   "inIndia": false,
+   "inDubai": false,
+   "globalRemote": false,
+   "score": 90
+  },
+  {
+   "title": "Product Security Engineer",
+   "company": "supabase",
+   "url": "https://jobs.ashbyhq.com/supabase/62ad3b86-3a18-435a-ab29-dc62b77154e5",
+   "source": "Ashby",
+   "board": "supabase",
+   "region": "Remote, Global",
+   "posted": "2026-11-25",
+   "tags": [
+    "Engineering",
+    "Security",
+    "FullTime"
+   ],
+   "snippet": "ABOUT SUPABASE Supabase is the Postgres development platform, built by developers for developers. We provide a complete backend solution including Database, Auth, Storage, Edge Functions, Realtime, and Vector Search. All services are deeply integrated and desi",
+   "full": "ABOUT SUPABASE Supabase is the Postgres development platform, built by developers for developers. We provide a complete backend solution including Database, Auth, Storage, Edge Functions, Realtime, and Vector Search. All services are deeply integrated and designed for growth. ABOUT THE ROLE We’re looking for a Product Security Engineer to join our team and help strengthen how security is built into Supabase’s products, platform, and engineering workflows as we continue to scale. You’ll work closely with software engineers, infrastructure teams, and technical leadership, helping us proactively reduce risk earlier in the development lifecycle and ship securely by default. This role is ideal for someone who thrives in async, fast-paced environments and is excited about building developer tools that scale to millions. Success in this role means improving the security posture of the product without becoming a blocker to speed, autonomy, or builder velocity. WHAT YOU’LL OWN In this role, you’ll: - Identify and close gaps across application security, secure design review, and vulnerability management. - Conduct threat modeling, secure design reviews, and code reviews to identify practical remediation paths. - Partner closely with engineering teams to provide product-focused security expertise and shape a modern security program. - Mature how we think about security in a developer-first environment, balancing pragmatism with strong technical judgment. - Distinguish between theoretical risk and material business risk to prioritize security efforts effectively. - Improve security posture through scalable mechanisms like tooling, automation, secure defaults, and developer-friendly guardrails. - Support security incident response by helping triage, investigate, and coordinate remediation for product and platform security issues. - Participate in security on-call rotations, helping respond to urgent security events with clear judgment and calm execution. - Help manage and mature our bug bounty and vulnerability disclosure processes, including triage, validation, prioritization, and coordination with engineering teams. YOU MIGHT BE A GOOD FIT IF YOU - Have strong experience in product security, application security, or security engineering. - Are comfortable working with cloud-native, developer tools, SaaS, platform, or infrastructure products. - Communicate clearly across both technical and non-technical audiences, especially in a written, asynchronous environment. - Are energized by solving real-world problems for developers and navigating ambiguity while moving quickly. - Possess a deep understanding of application security fundamentals, including auth, session management, APIs, and secrets handling. - Have experience with vulnerability triage, bug bounty programs, responsible disclosure, or security incident response. - Are comfortable participating in potential security on-call rotation and can balance urgency, risk, and practical remediation. - Have expe",
    "salaryText": "",
    "lpa": null,
    "inIndia": false,
@@ -413,28 +543,6 @@
    "inIndia": false,
    "inDubai": false,
    "globalRemote": true,
-   "score": 90
-  },
-  {
-   "title": "Insider Risk Security Engineer",
-   "company": "Zscaler",
-   "url": "https://job-boards.greenhouse.io/zscaler/jobs/5208421007",
-   "source": "Greenhouse",
-   "board": "zscaler",
-   "region": "Remote - USA",
-   "posted": "2026-11-02",
-   "tags": [
-    "Fulltime Employee",
-    "Information Security",
-    "AMS"
-   ],
-   "snippet": "div class= content-intro p data-pm-slice= 1 1 [] Zscaler (NASDAQ: ZS) accelerates digital transformation so customers can be more agile, efficient, resilient, and secure. The Zscaler Zero Trust Exchange platform protects thousands of customers from cyberattack",
-   "full": "div class= content-intro p data-pm-slice= 1 1 [] Zscaler (NASDAQ: ZS) accelerates digital transformation so customers can be more agile, efficient, resilient, and secure. The Zscaler Zero Trust Exchange platform protects thousands of customers from cyberattacks and data loss by securely connecting users, devices, and applications in any location. Distributed across 200+ public data centers globally and thousands of private sites at the edge, the SASE-based Zero Trust Exchange is the world’s largest in-line cloud security platform. /p p We believe the future of work is Human + AI and are building an AI-native enterprise where human potential is amplified by machine intelligence to solve the world’s hardest security challenges. Driven by deep customer obsession, we are committed to the mission, outcome, and to each other. We bring these commitments to life through three core behaviors: ownership and collaboration, trust through outcomes and impact, and a challenge culture with ongoing feedback. Ready to make an impact at the company pioneering security transformation in the AI era? Join us at Zscaler. /p /div p strong Role /strong /p p We are looking for an Insider Risk Security Engineer to join our team. This is a Remote (United States) role, reporting to the Senior Architect in the Enterprise Security Dept department. Serving as a senior contributor on the Insider Risk program within Enterprise Security, you will take operational direction from the Insider Risk Team Lead while operating with high ownership to refine playbooks, lead detection engineering, mentor junior analysts, and represent the team with HR, Legal, and executive stakeholders. /p p strong What you’ll do (Role Expectations) /strong /p ul li Sharpen the Insider Risk Program’s detection capabilities by refining rules to reduce noise, close coverage gaps, and surface high-fidelity alerts in adequate time /li li Perform endpoint and user activity investigations using EDR/XDR, UEBA, and SIEM tools, managing cases end-to-end to create factual timelines /li li Drive the development and iteration of insider Risk investigation playbooks, translating case patterns and lessons learned into scalable, defensible processes /li li Serve as a key contact for HR, Legal, business leaders and other stakeholders on active investigations, preparing clear evidentiary case documentation /li /ul p strong Who You Are (Success Profile) /strong /p ul li You thrive in ambiguity and are comfortable building the path forward in dynamic environments, treating complexity as an opportunity to deliver meaningful solutions. /li li You act like an owner with a passion for the mission, navigating seamlessly between strategic thinking and hands-on execution while operating with uncompromised integrity. /li li You are a positive force who approaches complex challenges with constructive energy, inspiring teammates to stay focused on shared solutions. /li li You operate with urgency, balancing speed and quality to execut",
-   "salaryText": "",
-   "lpa": null,
-   "inIndia": false,
-   "inDubai": false,
-   "globalRemote": false,
    "score": 90
   },
   {
@@ -516,26 +624,6 @@
    "score": 85
   },
   {
-   "title": "SOC Analyst",
-   "company": "RFA",
-   "url": "https://jobicy.com/jobs/163155-soc-analyst",
-   "source": "Jobicy",
-   "board": "",
-   "region": "Philippines",
-   "posted": "2026-11-18",
-   "tags": [
-    "Cybersecurity"
-   ],
-   "snippet": "Certification requirements = Microsoft Certified: Security Operations Analyst Associate SC200 Working shift - 9:30AM - 6:30PM PHT - Mon-Fri As a member of the RFA Security Operations Center, a SOC Analyst monitors and analyzes the output from various security ",
-   "full": "Certification requirements = Microsoft Certified: Security Operations Analyst Associate SC200 Working shift - 9:30AM - 6:30PM PHT - Mon-Fri As a member of the RFA Security Operations Center, a SOC Analyst monitors and analyzes the output from various security monitoring and scanning tools to detect malicious or anomalo",
-   "salaryText": "",
-   "lpa": null,
-   "inIndia": false,
-   "inDubai": false,
-   "globalRemote": false,
-   "score": 80
-  },
-  {
    "title": "PhD Intern, Security Engineer (2027)",
    "company": "Figma",
    "url": "https://boards.greenhouse.io/figma/jobs/6238015004?gh_jid=6238015004",
@@ -560,7 +648,7 @@
    "source": "Greenhouse",
    "board": "nasdaq",
    "region": "St. John's",
-   "posted": "2026-11-25",
+   "posted": "2026-11-26",
    "tags": [],
    "snippet": "div p strong Role Responsibilities /strong nbsp; /p /div div ul li p Analyzing security vulnerabilities identified within Verafin s Cloud infrastructure. nbsp; /p /li li p Querying and correlating security scan data with technical inventory. nbsp; /p /li li p ",
    "full": "div p strong Role Responsibilities /strong nbsp; /p /div div ul li p Analyzing security vulnerabilities identified within Verafin s Cloud infrastructure. nbsp; /p /li li p Querying and correlating security scan data with technical inventory. nbsp; /p /li li p Building reports and dashboards to present findings to code amp; infrastructure owners. nbsp; /p /li li p Coordinating vulnerability remediation with code amp; infrastructure owners. nbsp; /p /li li p Ensuring scanning coverage and assisting in remediation of gaps. nbsp; /p /li li p Assessing and improving security processes and tool usage. nbsp; nbsp; /p /li li p Working with security and operational teams to ensure security standards are met. nbsp; nbsp; /p /li /ul p nbsp; /p /div div p strong Essential Skills amp; Qualifications /strong nbsp; /p div div ul li p Diploma or Degree in a Security Management, Programming, Computer Science or equivalent. nbsp; /p /li li p 1+ years experience in security vulnerability analysis in a cloud environment would be an asset. nbsp; /p /li li p Experience working in a cloud-based environment (AWS preferred). nbsp; /p /li li p Experience working with the following technologies from a security perspective: Vulnerability Scanners/Management, Container Security Tools, Logging amp; Monitoring Tooling. nbsp; nbsp; /p /li li p Experience writing queries to analyze data. nbsp; /p /li li p Security certifications would be an asset (CISSP, OSCP, CEH, GSEC, Security+ etc.) nbsp; /p /li li p Strong technical analytical skills while providing accurate analysis of security-related problems in context of Verafin’s environment. nbsp; /p /li li p Committed to continuous learning, understanding new technologies and developing best practices. nbsp; /p /li li p Ability to communicate effectively with other teams. /p /li /ul /div /div div p ​ /p div p strong What does success look like in this role? /strong nbsp; /p /div div ul li p Contribute to the success the Verafin’s security program by offering insight and guidance on response and remediation of security vulnerabilities. nbsp; /p /li li p Review and improve Verafin’s security posture using new tools and processes. nbsp; /p /li li p Be an effective team player, communicator, and have an eagerness to learn and develop new skills. /p /li /ul div p nbsp; /p p strong What are the growth opportunities for this role? /strong nbsp; /p /div div ul li p Technical security career development nbsp; /p /li li p You could become the lead of a team, or the subject matter expert of your current team nbsp; /p /li /ul div p nbsp; /p p nbsp; /p p nbsp; /p /div /div /div /div /div div class= content-conclusion h4 Come as You Are /h4 p Nasdaq is an equal opportunity employer. We welcome applications from candidates of all backgrounds and identities. We are committed to fostering an inclusive workplace where diverse perspectives, experiences, and identities are valued and celebrated. We ensure that individuals with disabilities are provided",
@@ -569,6 +657,24 @@
    "inIndia": false,
    "inDubai": false,
    "globalRemote": false,
+   "score": 75
+  },
+  {
+   "title": "Security Engineer ",
+   "company": "Stripe",
+   "url": "https://stripe.com/jobs/search?gh_jid=8174965",
+   "source": "Greenhouse",
+   "board": "stripe",
+   "region": "US Remote",
+   "posted": "2026-11-25",
+   "tags": [],
+   "snippet": "h1 strong Who we are /strong /h1 h3 strong About Stripe /strong /h3 p Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world’s largest enterprises to the most ambitious startups—use Stripe to accept payments, grow th",
+   "full": "h1 strong Who we are /strong /h1 h3 strong About Stripe /strong /h3 p Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world’s largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone’s reach while doing the most important work of your career. /p h3 strong About the team /strong /h3 p Abuse Control Engineering (ACE) is Stripe’s rapid-response technical defense and control incubator. When urgent abuse vectors emerge, ACE bridges the gap using real attacker telemetry to prototype, test, and deploy software safeguards before vulnerabilities can be exploited at scale. We partner closely with Fraud, Risk and Product Engineering to run rigorous experiments, balancing aggressive risk mitigation against legitimate user conversion. Operating as both a strike team and an incubator, ACE builds automated regression suites in partnership with Abuse Research to permanently block threat recurrence and seamlessly transfers mature controls to long-term product owners across Stripe. /p h2 strong What you’ll do /strong /h2 p As an Abuse Control Engineer on the Abuse Control Engineering (ACE) team, you will design, prototype, and incubate technical defenses that safeguard Stripe’s financial ecosystem against complex, cross-cutting abuse vectors. /p p nbsp; /p p Where emerging threat patterns identify Stripe product weaknesses, ACE steps in to rapidly build and experiment with technical safeguards. Driven by empirical evidence and Stripe’s FT3 (Fraud Taxonomy 3.0) framework, you will translate threat intelligence into hard technical control requirements (e.g., API rate-limiting, step-up challenges, parameter validation, pre-debit holds). nbsp; You will carefully balance security and product velocity, running experiments to evaluate risk reduction against user conversion impact. Managing controls through a strict incubation lifecycle, you will build automated regression suites to prevent recurrence and partner with native product teams to hand off mature, long-term defenses. nbsp; nbsp; /p h3 strong Responsibilities /strong /h3 ul li strong Rapid Control Prototyping: /strong Design, prototype, and deploy technical controls across API, protocol, and product boundaries to immediately close high-impact abuse vectors. strong nbsp;Evidence-Based Technical Requirements: /strong Translate empirical attacker evidence and FT3 threat research Abuse Research, Fraud and Security into precise technical abuse requirements and control specifications. nbsp; /li li strong Control Co-Design: /strong Collaborate closely with teams across Stripe to co-design resilient, secure controls across payment, onboarding, identity, and Connect surfaces. strong nbsp; nbsp; /strong /",
+   "salaryText": "",
+   "lpa": null,
+   "inIndia": false,
+   "inDubai": false,
+   "globalRemote": true,
    "score": 75
   },
   {
@@ -609,42 +715,6 @@
    "inIndia": false,
    "inDubai": false,
    "globalRemote": false,
-   "score": 75
-  },
-  {
-   "title": "Security Engineer ",
-   "company": "Stripe",
-   "url": "https://stripe.com/jobs/search?gh_jid=8174965",
-   "source": "Greenhouse",
-   "board": "stripe",
-   "region": "US Remote",
-   "posted": "2026-11-19",
-   "tags": [],
-   "snippet": "h1 strong Who we are /strong /h1 h3 strong About Stripe /strong /h3 p Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world’s largest enterprises to the most ambitious startups—use Stripe to accept payments, grow th",
-   "full": "h1 strong Who we are /strong /h1 h3 strong About Stripe /strong /h3 p Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world’s largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone’s reach while doing the most important work of your career. /p h3 strong About the team /strong /h3 p Abuse Control Engineering (ACE) is Stripe’s rapid-response technical defense and control incubator. When urgent abuse vectors emerge, ACE bridges the gap using real attacker telemetry to prototype, test, and deploy software safeguards before vulnerabilities can be exploited at scale. We partner closely with Fraud, Risk and Product Engineering to run rigorous experiments, balancing aggressive risk mitigation against legitimate user conversion. Operating as both a strike team and an incubator, ACE builds automated regression suites in partnership with Abuse Research to permanently block threat recurrence and seamlessly transfers mature controls to long-term product owners across Stripe. /p h2 strong What you’ll do /strong /h2 p As an Abuse Control Engineer on the Abuse Control Engineering (ACE) team, you will design, prototype, and incubate technical defenses that safeguard Stripe’s financial ecosystem against complex, cross-cutting abuse vectors. /p p nbsp; /p p Where emerging threat patterns identify Stripe product weaknesses, ACE steps in to rapidly build and experiment with technical safeguards. Driven by empirical evidence and Stripe’s FT3 (Fraud Taxonomy 3.0) framework, you will translate threat intelligence into hard technical control requirements (e.g., API rate-limiting, step-up challenges, parameter validation, pre-debit holds). nbsp; You will carefully balance security and product velocity, running experiments to evaluate risk reduction against user conversion impact. Managing controls through a strict incubation lifecycle, you will build automated regression suites to prevent recurrence and partner with native product teams to hand off mature, long-term defenses. nbsp; nbsp; /p h3 strong Responsibilities /strong /h3 ul li strong Rapid Control Prototyping: /strong Design, prototype, and deploy technical controls across API, protocol, and product boundaries to immediately close high-impact abuse vectors. strong nbsp;Evidence-Based Technical Requirements: /strong Translate empirical attacker evidence and FT3 threat research Abuse Research, Fraud and Security into precise technical abuse requirements and control specifications. nbsp; /li li strong Control Co-Design: /strong Collaborate closely with teams across Stripe to co-design resilient, secure controls across payment, onboarding, identity, and Connect surfaces. strong nbsp; nbsp; /strong /",
-   "salaryText": "",
-   "lpa": null,
-   "inIndia": false,
-   "inDubai": false,
-   "globalRemote": true,
-   "score": 75
-  },
-  {
-   "title": "Software Engineer, Vulnerability Management",
-   "company": "Stripe",
-   "url": "https://stripe.com/jobs/search?gh_jid=8089353",
-   "source": "Greenhouse",
-   "board": "stripe",
-   "region": "US - Remote",
-   "posted": "2026-11-19",
-   "tags": [],
-   "snippet": "h2 Who we are /h2 h3 About Stripe /h3 p Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world’s largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate ne",
-   "full": "h2 Who we are /h2 h3 About Stripe /h3 p Stripe is a financial infrastructure platform for businesses. Millions of companies—from the world’s largest enterprises to the most ambitious startups—use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone’s reach while doing the most important work of your career. /p h3 About the team /h3 p In this role, you would join Stripe s Vulnerability Management team, whose mission is to Surface vulnerabilities at scale across Stripe. Our vision is to create a culture of continuous excellence in managing vulnerabilities. We want to enhance customer trust by giving users context about threats and vulnerabilities affecting Stripe s systems. We aim to be a key partner in Stripe s risk management by providing visibility into vulnerabilities across Stripe s products and services. /p h2 What you’ll do /h2 p As a Software Engineer focused on Vulnerability Management at Stripe, you will use your software engineering expertise to find and prioritize vulnerabilities in our systems. Working closely with engineers across the company, you will drive the timely remediation of discovered vulnerabilities, playing a key role in Stripe s overall security and risk strategy. /p p In addition, you will continuously improve Stripe s security defenses by enhancing our vulnerability management processes and selecting effective scanning tools to uncover weaknesses. /p p Your core responsibilities as a Vulnerability Management Software Engineer will involve building data- and agent-backed systems to surface vulnerabilities across Stripe. In addition, you will coordinate fixes to prevent exploits that could impact Stripe or our users and serve as an advisor on security risks. All of this requires collaborating cross-functionally to advocate for practices that strengthen the safety of Stripe s systems and data. /p h3 Who you are /h3 p We’re looking for someone who meets the minimum requirements to be considered for the role. If you meet these requirements, you are encouraged to apply. The preferred qualifications are a bonus, not a requirement. /p h3 Responsibilities /h3 ul li Identify vulnerabilities using automated tools and triage them appropriately /li li Collaborate with other teams to drive remediation of vulnerabilities /li li Contribute to our overall security and risk management strategy /li li Continuously improve our security posture, processes, and tools /li /ul h3 Minimum requirements /h3 ul li 2+ years of industry software engineering experience (does not include internships or co-ops) /li li Software engineering experience within the security domain /li li Empathy, strong communication skills and a deep respect for the power of collaboration /li li Excellent problem-solving skills and attention to detai",
-   "salaryText": "",
-   "lpa": null,
-   "inIndia": false,
-   "inDubai": false,
-   "globalRemote": true,
    "score": 75
   },
   {
@@ -792,6 +862,28 @@
    "score": 75
   },
   {
+   "title": "Federal SOC Leader",
+   "company": "Zscaler",
+   "url": "https://job-boards.greenhouse.io/zscaler/jobs/5202105007",
+   "source": "Greenhouse",
+   "board": "zscaler",
+   "region": "Crystal City, Virginia, USA",
+   "posted": "2026-11-25",
+   "tags": [
+    "Fulltime Employee",
+    "Information Security",
+    "AMS"
+   ],
+   "snippet": "div class= content-intro p data-pm-slice= 1 1 [] Zscaler (NASDAQ: ZS) accelerates digital transformation so customers can be more agile, efficient, resilient, and secure. The Zscaler Zero Trust Exchange platform protects thousands of customers from cyberattack",
+   "full": "div class= content-intro p data-pm-slice= 1 1 [] Zscaler (NASDAQ: ZS) accelerates digital transformation so customers can be more agile, efficient, resilient, and secure. The Zscaler Zero Trust Exchange platform protects thousands of customers from cyberattacks and data loss by securely connecting users, devices, and applications in any location. Distributed across 200+ public data centers globally and thousands of private sites at the edge, the SASE-based Zero Trust Exchange is the world’s largest in-line cloud security platform. /p p We believe the future of work is Human + AI and are building an AI-native enterprise where human potential is amplified by machine intelligence to solve the world’s hardest security challenges. Driven by deep customer obsession, we are committed to the mission, outcome, and to each other. We bring these commitments to life through three core behaviors: ownership and collaboration, trust through outcomes and impact, and a challenge culture with ongoing feedback. Ready to make an impact at the company pioneering security transformation in the AI era? Join us at Zscaler. /p /div p strong Role /strong br We are looking for a Federal SOC Leader to join our team. This is an On-site role (Crystal City, VA), reporting to the VP in the Federal Security Operations department. This role will build and lead the Security Operations Center (SOC) for Zscaler’s new, dedicated DoD IL6 environment, along with operating the SOC functions for the existing FedRAMP Moderate, High, and DoD IL5 environments. Working from a SCIF, you will manage the SOC’s analysts and incident response, own its playbooks and runbooks, and partner with detection engineering to implement SIEM monitoring. /p p strong What you’ll do (Role Expectations) /strong /p ul li Stand up a SCIF-based SOC for a new, dedicated DoD IL6 environment, defining its operating model, staffing and shift coverage, tooling, and performance metrics; deliver and mature all SOC functions for DoD IL5, DoD IL6, FedRAMP Moderate, and FedRAMP High environments, achieving and/or maintaining the associated DoD and FedRAMP compliance requirements /li li Lead and develop a team of SOC analysts and incident responders, directing continuous monitoring, alert triage, investigations, and proactive threat hunting /li li Lead incident response end to end, from triage and containment through eradication, recovery, and lessons learned, serving as incident commander for high-severity events (including classified spillage) and coordinating required reporting with stakeholders and partners /li li Own all SOC playbooks, runbooks, and SOPs, keeping them aligned with DoD CC SRG, RMF, FedRAMP, and classified handling requirements and validated through tabletop exercises and post-incident reviews /li li Partner with detection engineering to develop and tune detections in SIEMs, setting requirements, prioritizing coverage gaps, and feeding back analyst and hunt findings to keep alerts high-fidelity and action",
+   "salaryText": "",
+   "lpa": null,
+   "inIndia": false,
+   "inDubai": false,
+   "globalRemote": false,
+   "score": 65
+  },
+  {
    "title": "Security Engineer",
    "company": "Everpure",
    "url": "https://job-boards.greenhouse.io/purestorage/jobs/8191920",
@@ -804,24 +896,6 @@
    ],
    "snippet": "div class= content-intro p Everpure (NYSE: P) has evolved from storage pioneer to data platform, closing fiscal 2026 with $3.7 billion in revenue, its first billion-dollar quarter, and accelerating growth into FY27. Our strategic agenda spans the companies def",
    "full": "div class= content-intro p Everpure (NYSE: P) has evolved from storage pioneer to data platform, closing fiscal 2026 with $3.7 billion in revenue, its first billion-dollar quarter, and accelerating growth into FY27. Our strategic agenda spans the companies defining the next era of technology - hyperscalers, AI labs, the AI hardware supply chain, data platform providers, and the broader AI ecosystem. /p p This type of work—work that changes the world—is what the tech industry was founded on. So, if you re ready to seize the endless opportunities and leave your mark, come join us. /p /div p strong THE ROLE /strong /p p As a Security Engineer for Application Security within the Global Information Security Office (GISO), your mission is to embed seamless, scalable security practices directly into the software development lifecycle at Everpure. In this highly collaborative role, you will partner closely with global development, platform, and security teams to design standardized controls that empower our engineers. By building intelligent automation and tooling integrations, you will ensure our engineering pipelines consistently operate with both uncompromising security and exceptional speed. /p p strong WHAT YOU LL DO /strong /p ul li Implement and integrate critical application security controls (such as SAST, DAST, SCA, and secrets scanning) within CI/CD pipelines and Git-based workflows to proactively secure Everpure s software supply chain. /li li Develop and maintain scalable automation scripts to streamline complex security checks, significantly improving tooling efficiency and driving consistent security adoption across engineering platforms. /li li Exercise independent judgment in analyzing moderately difficult security issues, guiding development teams to effectively identify, troubleshoot, and remediate vulnerabilities in modern application environments. /li li Drive the standardization of secure coding best practices and track key AppSec metrics to actively elevate the overall maturity of our global secure development operations. /li /ul p strong WHAT YOU BRING /strong /p ul li A strong foundation in application security concepts (including the OWASP Top 10), web applications, APIs, and modern secure development practices. /li li Proficiency in scripting or programming (such as Python) to build automation, coupled with hands-on expertise in navigating CI/CD pipelines and Git-based workflows. /li li Demonstrated problem-solving capabilities to tackle moderately complex technical challenges independently, alongside a drive to continuously learn and optimize DevSecOps tooling. /li li Exceptional communication and collaboration skills to effectively partner with diverse engineering teams, integrate feedback, and champion secure design principles in a fast-paced environment. /li li We are primarily an in-office environment and therefore, you will be expected to work from the Prague office in compliance with Everpure’s policies, unless you are o",
-   "salaryText": "",
-   "lpa": null,
-   "inIndia": false,
-   "inDubai": false,
-   "globalRemote": false,
-   "score": 65
-  },
-  {
-   "title": "Threat Intelligence Engineer",
-   "company": "Take-Two Interactive Software, Inc.",
-   "url": "https://job-boards.greenhouse.io/taketwo/jobs/8379815",
-   "source": "Greenhouse",
-   "board": "taketwo",
-   "region": "Las Vegas, Nevada, United States",
-   "posted": "2026-11-24",
-   "tags": [],
-   "snippet": "p nbsp; /p h2 strong WHO WE ARE nbsp; /strong /h2 p Headquartered in New York City, Take-Two Interactive Software, Inc. is a leading developer, publisher, and marketer of interactive entertainment for consumers around the globe. We develop and publish products",
-   "full": "p nbsp; /p h2 strong WHO WE ARE nbsp; /strong /h2 p Headquartered in New York City, Take-Two Interactive Software, Inc. is a leading developer, publisher, and marketer of interactive entertainment for consumers around the globe. We develop and publish products principally through Rockstar Games, 2K, and Zynga. Our products are designed for console gaming systems, PC, and mobile, including smartphones and tablets. We deliver our products through physical retail, digital download, online platforms, and cloud streaming services. The Company’s common stock is publicly traded on NASDAQ under the symbol TTWO. For more corporate and product information please visit our website at a target= ~_blank~ u http://www.take2games.com /u /a . /p p While our offices (physical and virtual) are casual and inviting, we are deeply committed to our core tenets of creativity, innovation and efficiency, and individual and team development opportunities. Our industry and business are continually evolving and fast-paced, providing numerous opportunities to learn and hone your skills. We work hard, but we also like to have fun and believe that we provide a great place to come to work each day to pursue your passions. /p p nbsp; /p h2 strong THE CHALLENGE /strong /h2 p We are looking for a Threat Intelligence Engineer. In this role, you will be on the front lines of our defense, helping to operationalize intelligence and build engineering solutions to counter emerging security threats. You ll work closely with various security and technology teams to integrate threat data into our security infrastructure, strengthening our defenses and protecting our organization. Your hands-on expertise will directly contribute to safeguarding Take-Two and its labels systems, networks, and data. You will work with Take-Two s Information Security teams, reporting to the Director of Threat Intelligence. /p p nbsp; /p h2 strong WHAT YOU’LL TAKE ON /strong /h2 ul li strong Threat Intelligence Operations: /strong Support the day-to-day operations of the cyber threat intelligence (CTI) program by managing threat feeds, parsing indicators of compromise (IOCs), and ensuring data quality across our platforms. /li li strong Threat Analysis amp; Engineering: /strong Analyze emerging threats and adversary tactics, techniques, and procedures (TTPs) to help engineer robust detection and prevention mechanisms. /li li strong Enhance Our Security Posture: /strong Collaborate with our Global Security Operations Center (GSOC), Detection Engineering, and Incident Response teams to ingest and operationalize threat intelligence into our SIEM, EDR, and firewalls. /li li strong Automation amp; Integration: /strong Build and maintain API integrations, scripts, and playbooks to automate indicator ingestion, correlation, and dissemination across security platforms. /li li strong Security Infrastructure Support: /strong Assist in the deployment, configuration, maintenance, and tuning of our Threat Intelligence Platfo",
    "salaryText": "",
    "lpa": null,
    "inIndia": false,
@@ -904,28 +978,6 @@
    ],
    "snippet": "div class= content-intro h3 strong A /strong strong BOUT TIDE /strong /h3 p At Tide, we help SMEs save time and money in the running of their businesses by not only offering business accounts and related banking services, but also a comprehensive set of highly",
    "full": "div class= content-intro h3 strong A /strong strong BOUT TIDE /strong /h3 p At Tide, we help SMEs save time and money in the running of their businesses by not only offering business accounts and related banking services, but also a comprehensive set of highly usable and connected administrative solutions, from invoicing to accounting. /p p Tide is transforming the small business banking market and now supports over 2 million members globally across the UK, Germany and France. /p p Using advanced technology, all solutions are designed with SMEs in mind. With quick onboarding, low fees and innovative features, we thrive on making data driven decisions to serve our mission: to help SMEs save time and money so they can get back to doing what they love. /p p strong Tide facts: /strong /p ul li Tide is available for UK, German and French SMEs /li li Over 2 million members globally and rapidly growing /li li Over $300 million raised in funding /li li 3,000 Tideans globally /li li We have offices in Central London, with a member support and technology centre in Sofia, Bulgaria, technology centres in Serbia, Romania, Lithuania and Hyderabad and offices in Gurugram, New Delhi, Berlin, Paris and Luxembourg /li /ul /div h3 ABOUT THE ROLE /h3 p The Tide Security Engineering team is made up of three core areas: Product Security, Identity, Threat Detection amp; Response /p p strong Product Security /strong consists of application and cloud security experts. Their mission is to protect the products we build, covering everything from secure design reviews to threat modelling and penetration testing, ensuring security is embedded from the ground up. /p p strong Threat Detection amp; Response /strong (this role!) focuses on protecting the company by building a robust detection and automation platform. We’re proactive in our defence, constantly hacking ourselves to improve our security posture and staying ahead of emerging threats. Our goal is to make Tide resilient against the ever-evolving threat landscape. /p p strong Identity /strong is responsible for managing Tide s staff identity platform, ensuring that access to systems and infrastructure is secure, seamless, and aligned with modern security practices. The team uses strategies like zero trust, multi-factor authentication, and granular role-based access controls to safeguard our internal operations. /p p While each area has its own focus, collaboration is key - it s why we share the same Slack channel and hold our standups together as one cohesive team, ensuring alignment and seamless communication across all security functions. /p p As a Security Operations Responder, you’ll help defend Tide day to day by investigating threats through our security data lake and SOAR platform. You’ll work alongside experienced responders and our Detection Engineering team, learning how to investigate effectively, when to escalate, and how to turn repetitive work into automation. Over time, you’ll help us reduce manual invest",
-   "salaryText": "",
-   "lpa": null,
-   "inIndia": false,
-   "inDubai": false,
-   "globalRemote": false,
-   "score": 65
-  },
-  {
-   "title": "Federal SOC Leader",
-   "company": "Zscaler",
-   "url": "https://job-boards.greenhouse.io/zscaler/jobs/5202105007",
-   "source": "Greenhouse",
-   "board": "zscaler",
-   "region": "Crystal City, Virginia, USA",
-   "posted": "2026-11-20",
-   "tags": [
-    "Fulltime Employee",
-    "Information Security",
-    "AMS"
-   ],
-   "snippet": "div class= content-intro p data-pm-slice= 1 1 [] Zscaler (NASDAQ: ZS) accelerates digital transformation so customers can be more agile, efficient, resilient, and secure. The Zscaler Zero Trust Exchange platform protects thousands of customers from cyberattack",
-   "full": "div class= content-intro p data-pm-slice= 1 1 [] Zscaler (NASDAQ: ZS) accelerates digital transformation so customers can be more agile, efficient, resilient, and secure. The Zscaler Zero Trust Exchange platform protects thousands of customers from cyberattacks and data loss by securely connecting users, devices, and applications in any location. Distributed across 200+ public data centers globally and thousands of private sites at the edge, the SASE-based Zero Trust Exchange is the world’s largest in-line cloud security platform. /p p We believe the future of work is Human + AI and are building an AI-native enterprise where human potential is amplified by machine intelligence to solve the world’s hardest security challenges. Driven by deep customer obsession, we are committed to the mission, outcome, and to each other. We bring these commitments to life through three core behaviors: ownership and collaboration, trust through outcomes and impact, and a challenge culture with ongoing feedback. Ready to make an impact at the company pioneering security transformation in the AI era? Join us at Zscaler. /p /div p strong Role /strong br We are looking for a Federal SOC Leader to join our team. This is an On-site role (Crystal City, VA), reporting to the VP in the Federal Security Operations department. This role will build and lead the Security Operations Center (SOC) for Zscaler’s new, dedicated DoD IL6 environment, along with operating the SOC functions for the existing FedRAMP Moderate, High, and DoD IL5 environments. Working from a SCIF, you will manage the SOC’s analysts and incident response, own its playbooks and runbooks, and partner with detection engineering to implement SIEM monitoring. /p p strong What you’ll do (Role Expectations) /strong /p ul li Stand up a SCIF-based SOC for a new, dedicated DoD IL6 environment, defining its operating model, staffing and shift coverage, tooling, and performance metrics; deliver and mature all SOC functions for DoD IL5, DoD IL6, FedRAMP Moderate, and FedRAMP High environments, achieving and/or maintaining the associated DoD and FedRAMP compliance requirements /li li Lead and develop a team of SOC analysts and incident responders, directing continuous monitoring, alert triage, investigations, and proactive threat hunting /li li Lead incident response end to end, from triage and containment through eradication, recovery, and lessons learned, serving as incident commander for high-severity events (including classified spillage) and coordinating required reporting with stakeholders and partners /li li Own all SOC playbooks, runbooks, and SOPs, keeping them aligned with DoD CC SRG, RMF, FedRAMP, and classified handling requirements and validated through tabletop exercises and post-incident reviews /li li Partner with detection engineering to develop and tune detections in SIEMs, setting requirements, prioritizing coverage gaps, and feeding back analyst and hunt findings to keep alerts high-fidelity and action",
    "salaryText": "",
    "lpa": null,
    "inIndia": false,
@@ -1502,26 +1554,6 @@
    ],
    "snippet": "div class= content-intro h3 About Us /h3 p At Cloudflare, we are on a mission to help build a better Internet. Today the company runs one of the world’s largest networks that powers millions of websites and other Internet properties for customers ranging from ",
    "full": "div class= content-intro h3 About Us /h3 p At Cloudflare, we are on a mission to help build a better Internet. Today the company runs one of the world’s largest networks that powers millions of websites and other Internet properties for customers ranging from individual bloggers to SMBs to Fortune 500 companies. Cloudflare protects and accelerates any Internet application online without adding hardware, installing software, or changing a line of code. Internet properties powered by Cloudflare all have web traffic routed through its intelligent global network, which gets smarter with every request. As a result, they see significant improvement in performance and a decrease in spam and other attacks. Cloudflare was named to Entrepreneur Magazine’s Top Company Cultures list and ranked among the World’s Most Innovative Companies by Fast Company. /p p At Cloudflare, we’re not looking for people who wait for a polished roadmap; we’re looking for the builders who see the cracks in the Internet that everyone else has simply learned to live with. We value candidates who have the instinct to spot a normalized problem and the AI-native curiosity to create a solution using the latest tools. Our culture is built on iteration, leveraging AI to ship faster today to make it better tomorrow, while ensuring that every improvement, no matter how small, is shared across the team to lift everyone up. If you’re the type of person who values curiosity over bureaucracy, and that AI is a partner in solving tough problems to keep the Internet moving forward, you’ll fit right in. /p /div p strong span style= font-size: 12pt; Available Locations: nbsp; /span /strong span style= font-size: 12pt; London (UK) /span /p h2 span style= font-size: 12pt; strong About the Role /strong /span /h2 p Reporting to the Vulnerability Manager, the VM nbsp;Engineer will be responsible for identifying, analysing, and supporting the remediation of vulnerabilities across Cloudflare s Infrastructure and cloud environments.You will work closely with Engineering, Infrastructure, cloud and compliance teams to identify, triage, and drive timely and effective remediation of security vulnerabilities in line with defined SLAs. A key focus of the role will be supporting DOD IL4 and Fedramp preparation, ensuring vulnerability processes, evidence, and tooling align with regulatory and assurance requirements. You will also apply AI-driven tools and methodologies to enhance scanning efficiency, triage accuracy, and automated remediation pathways. We are looking for a proactive, detail oriented individual with the ability to manage multiple remediation activities in parallel. /p h2 span style= font-size: 12pt; strong Responsibilities /strong /span /h2 ul li Conduct vulnerability scanning, and perform in-depth analysis of nbsp; findings from scanning tools (e.g., Qualys, Nessus, Rapid7), to verify accuracy, identify systemic patterns, and filter out false positives. /li li Triage, validate and prioritise vuln",
-   "salaryText": "",
-   "lpa": null,
-   "inIndia": false,
-   "inDubai": false,
-   "globalRemote": false,
-   "score": 50
-  },
-  {
-   "title": "Network Security Engineer ",
-   "company": "Cloudflare",
-   "url": "https://boards.greenhouse.io/cloudflare/jobs/8159206?gh_jid=8159206",
-   "source": "Greenhouse",
-   "board": "cloudflare",
-   "region": "Hybrid",
-   "posted": "2026-11-09",
-   "tags": [
-    "5700 - Customer Support"
-   ],
-   "snippet": "div class= content-intro h3 About Us /h3 p At Cloudflare, we are on a mission to help build a better Internet. Today the company runs one of the world’s largest networks that powers millions of websites and other Internet properties for customers ranging from ",
-   "full": "div class= content-intro h3 About Us /h3 p At Cloudflare, we are on a mission to help build a better Internet. Today the company runs one of the world’s largest networks that powers millions of websites and other Internet properties for customers ranging from individual bloggers to SMBs to Fortune 500 companies. Cloudflare protects and accelerates any Internet application online without adding hardware, installing software, or changing a line of code. Internet properties powered by Cloudflare all have web traffic routed through its intelligent global network, which gets smarter with every request. As a result, they see significant improvement in performance and a decrease in spam and other attacks. Cloudflare was named to Entrepreneur Magazine’s Top Company Cultures list and ranked among the World’s Most Innovative Companies by Fast Company. /p p At Cloudflare, we’re not looking for people who wait for a polished roadmap; we’re looking for the builders who see the cracks in the Internet that everyone else has simply learned to live with. We value candidates who have the instinct to spot a normalized problem and the AI-native curiosity to create a solution using the latest tools. Our culture is built on iteration, leveraging AI to ship faster today to make it better tomorrow, while ensuring that every improvement, no matter how small, is shared across the team to lift everyone up. If you’re the type of person who values curiosity over bureaucracy, and that AI is a partner in solving tough problems to keep the Internet moving forward, you’ll fit right in. /p /div p strong Available Locations: Lisbon, Portugal nbsp; /strong /p p strong About the role /strong /p p Do you love solving complex technical issues and interacting with people? Are you passionate about providing premium-level support to customers and are a standout colleague? Cloudflare is seeking an experienced Network Security Engineer to join our team and support our largest and most technically sophisticated customers in resolving technical problems, threats or attacks on their infrastructure at OSI Layers 3, 4, and 7. This will span the range of Cloudflare products from Magic Transit Infrastructure Protection, Argo Smart Routing, DDoS mitigation and Network Firewall, to using the Web Application firewall (WAF), Spectrum and Rate Limiting to help customers. /p h4 strong Responsibilities /strong /h4 ul li Communicate with customers via chat, email, and phone nbsp; /li li Compare traffic signatures and attributes including IP addresses, cookie variations, HTTP headers, and JavaScript footprints to determine what is good traffic and what is malicious /li li DDoS mitigation for OSI layers 3,4, amp; 7: advise customers on how to filter malicious traffic using Cloudflare tools like Magic Transit, Network Firewall, WAF, IP reputation lists, packet inspection, blocklisting, allowlisting, and rate limiting /li li Work with Engineering and Operations teams to mitigate attacks, suggest steps to mit",
    "salaryText": "",
    "lpa": null,
    "inIndia": false,
