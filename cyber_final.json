@@ -1,34 +1,30 @@
 {
- "generated": "2026-11-26T12:58:26.714Z",
+ "generated": "2026-11-27T12:53:58.561Z",
  "usdInr": 88,
  "counts": {
-  "pool": 3295,
-  "passed": 91,
+  "pool": 3294,
+  "passed": 93,
   "dubai": 0,
   "india": 16
  },
  "jobs": [
   {
-   "title": "Threat Analyst 1",
-   "company": "sophos",
-   "url": "https://jobs.ashbyhq.com/sophos/25097a65-f733-4e3c-8cb5-0f15a23f5510",
-   "source": "Ashby",
-   "board": "sophos",
-   "region": "India",
-   "posted": "2026-11-05",
-   "tags": [
-    "Threat Intelligence & Cybersecurity",
-    "MDR and Security Operations",
-    "FullTime"
-   ],
-   "snippet": "ROLE SUMMARY As a Threat Analyst 1 on our Managed Threat Response (MDR) team, you will provide best-in-class monitoring, detection, and response services to proactively defend customer environments before attacks prevail. You will work alongside and contribute",
-   "full": "ROLE SUMMARY As a Threat Analyst 1 on our Managed Threat Response (MDR) team, you will provide best-in-class monitoring, detection, and response services to proactively defend customer environments before attacks prevail. You will work alongside and contribute to a team of cyber threat hunters, incident response analysts, engineers, and ethical hackers by using enterprise, log analysis and endpoint collection systems to facilitate investigations, identification, and neutralization of cyber threats. What You Will Do - Investigate and analyze logs and security-related events via Sophos tooling - Identify and respond to cyber threats occurring within customer environments - Communicate and document findings to various customer audiences including technical and executive teams - Follow up with customers through to issue resolution and drive continuous improvement by providing detailed recommendations to minimize risk in customer environments - Acknowledge and satisfy inbound customer requests and interact with customers through various mediums - Collaborate and assist with core security and threat response teams - Actively research emerging Indicators of Compromise/Attack, exploits and vulnerabilities with the intent of operationalizing findings to better protect our customers What You Will Bring - Willingness to work outside of standard business hours, including weekends and holidays – our MDR service is 24x7x365 - Excellent troubleshooting and analytical skills, with proven ability to think outside the box - Customer service-oriented with strong written and verbal communication skills - Must thrive within a team environment as well as on an individual basis - Passion for all things related to information technology and cybersecurity - Natural curiosity and ability to learn new skills quickly - Innovative mindset and driven to contribute to a team providing a best-in-class cybersecurity service - Minimum 2+ years of experience working in a SOC environment or computer security team in an IT environment - Experience with threat hunting - Experience with endpoint and network security monitoring - Experience administering and supporting Windows OS (both workstations and server) and one of the following: Apple or Linux-based operating systems (e.g. XP, Windows 7, 2003, 2008, OS X) - Knowledge of common adversary tactics and techniques, e.g., obfuscation, persistence, defense evasion, etc. - Knowledge of Mitre ATT&CK framework - Knowledge of incident response procedures - Basic understanding of network traffic analysis including TCP/IP, routing, switching, protocols, etc. - Basic understanding of Windows event log analysis - A plus if you have: - Experience with SQL query construction - Experience with OSQuery - Experience with enterprise information security data management - SIEM experience - Programming and scripting skills - proficient knowledge of Powershell #B1 #LI-Remote What does remote mean at Sophos? Sophos supports flexible ways of working, wit",
+   "title": "Customer Threat Advisor - Intern (Offensive)",
+   "company": "CloudSEK",
+   "url": "https://job-boards.greenhouse.io/cloudsek/jobs/6272366004",
+   "source": "Greenhouse",
+   "board": "cloudsek",
+   "region": "Bengaluru, Karnataka, India",
+   "posted": "2026-11-27",
+   "tags": [],
+   "snippet": "div class= content-intro p span style= font-family: arial, helvetica, sans-serif; font-size: 12pt; strong WHO ARE WE? /strong /span /p p span style= font-weight: 400; font-family: arial, helvetica, sans-serif; font-size: 12pt; We are a bunch of super enthusias",
+   "full": "div class= content-intro p span style= font-family: arial, helvetica, sans-serif; font-size: 12pt; strong WHO ARE WE? /strong /span /p p span style= font-weight: 400; font-family: arial, helvetica, sans-serif; font-size: 12pt; We are a bunch of super enthusiastic, passionate, and highly driven people, working to achieve a common goal! We believe that work and the workplace should be joyful and always buzzing with energy! /span /p p span style= font-family: arial, helvetica, sans-serif; font-size: 12pt; a href= https://cloudsek.com/ strong CloudSEK /strong strong , /strong /a span style= font-weight: 400; one of India’s most trusted Cyber security product companies, is on a mission to build the world’s fastest and most reliable AI technology that identifies and resolves digital threats in real-time. /span span style= font-weight: 400; The central proposition is leveraging Artificial Intelligence and Machine Learning to create a quick and reliable analysis and alert system that provides rapid detection across multiple internet sources, precise threat analysis, and prompt resolution with minimal human intervention. /span /span /p p span style= font-weight: 400; font-family: arial, helvetica, sans-serif; font-size: 12pt; Founded in 2015, headquartered at Singapore, we are proud to say that we’ve grown at a frenetic pace and have been able to achieve some accolades along the way, including: /span /p p span style= font-family: arial, helvetica, sans-serif; font-size: 12pt; strong CloudSEK’s Product Suite: /strong /span /p ul li style= font-family: arial, helvetica, sans-serif; font-size: 12pt; span style= font-family: arial, helvetica, sans-serif; font-size: 12pt; span style= font-weight: 400; CloudSEK /span strong XVigil /strong span style= font-weight: 400; constantly maps a customer’s digital assets, identifies threats and enriches them with cyber intelligence, and then provides workflows to manage and remediate all identified threats including takedown support. /span /span /li li style= font-family: arial, helvetica, sans-serif; font-size: 12pt; span style= font-family: arial, helvetica, sans-serif; font-size: 12pt; span style= font-weight: 400; A powerful Attack Surface Monitoring /span strong style= font-weight: 400; /strong span style= font-weight: 400; tool that gives visibility and intelligence on customers’ attack surfaces. CloudSEK s /span span style= font-weight: 400; strong BeVigil /strong /span span style= font-weight: 400; uses a combination of Mobile, Web, Network and Encryption Scanners to map and protect known and unknown assets. /span /span /li li style= font-family: arial, helvetica, sans-serif; font-size: 12pt; span style= font-family: arial, helvetica, sans-serif; font-size: 12pt; CloudSEK’s Contextual AI strong SVigil /strong identifies software supply chain risks by monitoring Software, Cloud Services, and third-party dependencies. /span /li li style= font-family: arial, helvetica, sans-serif; font-size: 12pt; span style= font-f",
    "salaryText": "",
    "lpa": null,
    "inIndia": true,
    "inDubai": false,
    "globalRemote": false,
-   "score": 155
+   "score": 130
   },
   {
    "title": "Threat Analyst 3",
@@ -408,7 +404,7 @@
    "source": "Greenhouse",
    "board": "twilio",
    "region": "Remote - United Kingdom",
-   "posted": "2026-11-25",
+   "posted": "2026-11-26",
    "tags": [
     "NP2IT6582-1"
    ],
@@ -648,7 +644,7 @@
    "source": "Greenhouse",
    "board": "nasdaq",
    "region": "St. John's",
-   "posted": "2026-11-26",
+   "posted": "2026-11-27",
    "tags": [],
    "snippet": "div p strong Role Responsibilities /strong nbsp; /p /div div ul li p Analyzing security vulnerabilities identified within Verafin s Cloud infrastructure. nbsp; /p /li li p Querying and correlating security scan data with technical inventory. nbsp; /p /li li p ",
    "full": "div p strong Role Responsibilities /strong nbsp; /p /div div ul li p Analyzing security vulnerabilities identified within Verafin s Cloud infrastructure. nbsp; /p /li li p Querying and correlating security scan data with technical inventory. nbsp; /p /li li p Building reports and dashboards to present findings to code amp; infrastructure owners. nbsp; /p /li li p Coordinating vulnerability remediation with code amp; infrastructure owners. nbsp; /p /li li p Ensuring scanning coverage and assisting in remediation of gaps. nbsp; /p /li li p Assessing and improving security processes and tool usage. nbsp; nbsp; /p /li li p Working with security and operational teams to ensure security standards are met. nbsp; nbsp; /p /li /ul p nbsp; /p /div div p strong Essential Skills amp; Qualifications /strong nbsp; /p div div ul li p Diploma or Degree in a Security Management, Programming, Computer Science or equivalent. nbsp; /p /li li p 1+ years experience in security vulnerability analysis in a cloud environment would be an asset. nbsp; /p /li li p Experience working in a cloud-based environment (AWS preferred). nbsp; /p /li li p Experience working with the following technologies from a security perspective: Vulnerability Scanners/Management, Container Security Tools, Logging amp; Monitoring Tooling. nbsp; nbsp; /p /li li p Experience writing queries to analyze data. nbsp; /p /li li p Security certifications would be an asset (CISSP, OSCP, CEH, GSEC, Security+ etc.) nbsp; /p /li li p Strong technical analytical skills while providing accurate analysis of security-related problems in context of Verafin’s environment. nbsp; /p /li li p Committed to continuous learning, understanding new technologies and developing best practices. nbsp; /p /li li p Ability to communicate effectively with other teams. /p /li /ul /div /div div p ​ /p div p strong What does success look like in this role? /strong nbsp; /p /div div ul li p Contribute to the success the Verafin’s security program by offering insight and guidance on response and remediation of security vulnerabilities. nbsp; /p /li li p Review and improve Verafin’s security posture using new tools and processes. nbsp; /p /li li p Be an effective team player, communicator, and have an eagerness to learn and develop new skills. /p /li /ul div p nbsp; /p p strong What are the growth opportunities for this role? /strong nbsp; /p /div div ul li p Technical security career development nbsp; /p /li li p You could become the lead of a team, or the subject matter expert of your current team nbsp; /p /li /ul div p nbsp; /p p nbsp; /p p nbsp; /p /div /div /div /div /div div class= content-conclusion h4 Come as You Are /h4 p Nasdaq is an equal opportunity employer. We welcome applications from candidates of all backgrounds and identities. We are committed to fostering an inclusive workplace where diverse perspectives, experiences, and identities are valued and celebrated. We ensure that individuals with disabilities are provided",
@@ -1258,6 +1254,51 @@
    "score": 60
   },
   {
+   "title": "AppSec Engineer",
+   "company": "Fever",
+   "url": "https://jobicy.com/jobs/164496-appsec-engineer-2",
+   "source": "Jobicy",
+   "board": "",
+   "region": "Spain",
+   "posted": "2026-11-27",
+   "tags": [
+    "Cybersecurity"
+   ],
+   "snippet": "Hey there! We’re Fever, the world’s leading tech platform for culture and live entertainment. Our mission? To democratize access to culture and entertainment. With our proprietary cutting-edge technology and data-driven approach, we’re revolutionizing the way ",
+   "full": "Hey there! We’re Fever, the world’s leading tech platform for culture and live entertainment. Our mission? To democratize access to culture and entertainment. With our proprietary cutting-edge technology and data-driven approach, we’re revolutionizing the way people engage with live entertainment. Every month, our plat",
+   "salaryText": "",
+   "lpa": null,
+   "inIndia": false,
+   "inDubai": false,
+   "globalRemote": false,
+   "score": 55
+  },
+  {
+   "title": "Security Incident Response Engineer",
+   "company": "Stripe",
+   "url": "https://himalayas.app/companies/stripe/jobs/security-incident-response-engineer-2362892921?utm_source=api",
+   "source": "Himalayas",
+   "board": "",
+   "region": "United States",
+   "posted": "2026-11-27",
+   "tags": [
+    "Security-Incident-Response",
+    "Security-Analytics",
+    "Threat-Detection",
+    "Detection-Engineering",
+    "Cybersecurity",
+    "Incident-Response-Engineer"
+   ],
+   "snippet": "About Stripe Stripe is a financial infrastructure platform for businesses.",
+   "full": "About Stripe Stripe is a financial infrastructure platform for businesses.",
+   "salaryText": "",
+   "lpa": null,
+   "inIndia": false,
+   "inDubai": false,
+   "globalRemote": false,
+   "score": 55
+  },
+  {
    "title": "Intermediate Security Engineer, Security Incident Response Team (SIRT)",
    "company": "GitLab",
    "url": "https://job-boards.greenhouse.io/gitlab/jobs/8950027002",
@@ -1332,24 +1373,6 @@
    "tags": [],
    "snippet": "div Who we are: br br About Stripe br Stripe is a financial infrastructure platform for businesses. Millions of companies - from the world’s largest enterprises to the most ambitious startups - use Stripe to accept payments, grow their revenue, and accelerate ",
    "full": "div Who we are: br br About Stripe br Stripe is a financial infrastructure platform for businesses. Millions of companies - from the world’s largest enterprises to the most ambitious startups - use Stripe to accept payments, grow their revenue, and accelerate new business opportunities. Our mission is to increase the GDP of the internet, and we have a staggering amount of work ahead. That means you have an unprecedented opportunity to put the global economy within everyone s reach while doing the most important work of your career. br br About the team br Stripe offers an interesting middle ground between joining a small startup and going to work for a multinational company. We have systems and processes optimized for early-career professionals. You will be in an environment that prizes rigor, discipline, and reliability—from our products, from our ways of working, and from our colleagues. You will learn how the best teams put together extremely reliable systems, and you will be responsible for operating these systems, with adequate backup when things get tough. br The Security organization is dedicated to building and maintaining a secure financial infrastructure platform. By joining this team, you will be on the front lines, engineering solutions that protect the sensitive data and systems underpinning a huge portion of the world s economy. You will contribute to core security functions like threat detection and rapid incident response, building and scaling the platforms that manage vulnerabilities, and proactively performing offensive security assessments to identify weaknesses before they can be exploited. This is a chance to apply software engineering principles and new technologies such as AI to solve complex, high-stakes security challenges, ultimately ensuring that Stripe s mission to increase the GDP of the internet is achieved securely. br br What you’ll do br As a Security Engineer New Grad you will have the opportunity to work across various security disciplines and own projects from start to finish. Your work will focus on securing Stripe s complex environment by applying software engineering principles to security challenges. /div ul li You will learn and apply the principles of secure-by-default design by working closely with product and infrastructure engineering teams. /li li You ll develop a foundational understanding of various security domains, such as threat detection, incident response, vulnerability management, or offensive security. /li li You ll learn to act as a security subject matter expert, tailoring answers to both engineers and non-engineers. /li li You ll contribute to the development of internal tools and automation to scale security efforts across Stripe. /li li You will participate in threat modeling discussions, learning to balance security requirements with product advancement and user experience. /li /ul div Responsibilities /div ul li Work on cross-functional projects, directly collaborating with other engin",
-   "salaryText": "",
-   "lpa": null,
-   "inIndia": false,
-   "inDubai": false,
-   "globalRemote": false,
-   "score": 55
-  },
-  {
-   "title": "Security Engineer, Privy",
-   "company": "Stripe",
-   "url": "https://stripe.com/jobs/search?gh_jid=8306475",
-   "source": "Greenhouse",
-   "board": "stripe",
-   "region": "NYC-Privy",
-   "posted": "2026-11-19",
-   "tags": [],
-   "snippet": "h2 strong Who we are /strong /h2 h3 strong About Privy /strong /h3 p Our mission is to make privacy and user ownership the default online. To do so, we build simple, flexible APIs and tools for developers that make it easy to build new products on crypto rails",
-   "full": "h2 strong Who we are /strong /h2 h3 strong About Privy /strong /h3 p Our mission is to make privacy and user ownership the default online. To do so, we build simple, flexible APIs and tools for developers that make it easy to build new products on crypto rails. /p p Privy owns the abstractions and infrastructure layer above wallets, integrating across chains, third-party providers, and Stripe products like Treasury and Link. We get to solve hard technical problems while leveraging Stripe s distribution to reach customers like Ramp, Klarna, Deel, Kraken, Hyperliquid, and Fomo — powering experiences for both mainstream users and crypto natives. /p p Learn more about Privy: nbsp; a class= Link href= https://privy.io/blog/announcing-our-acquisition-by-stripe data-js-controller= AnalyticsButton data-analytics-category= Links data-analytics-action= Clicked data-analytics-label= Related content Privy and Stripe: Bringing crypto to everyone /a /p h3 strong About the team /strong /h3 p Engineering at Privy is distinguished by: /p ul li High urgency: Shipping very small iterations, very fast, to learn very quickly. nbsp; /li li Product taste: Our customers em are /em developers, and to build effective products for them requires technical knowledge - you will often be the PM . /li li Security mindset: A great portion of our product is trust. While we have a dedicated security team, every engineer brings security to their designs from the start. /li /ul p In practice, we use nbsp; a href= https://mcfunley.com/choose-boring-technology boring technology /a like Node, React, and AWS so we can focus our engineering energy entirely on pushing the boundaries of Privy s core product, e.g. through hardware enclaves, multi-region low latency APIs, and blockchain abstractions that are accessible to mainstream developers. /p h2 strong What you’ll do /strong /h2 p As a Security Engineer at Privy, you will help keep a rapidly growing platform secure through hands-on investigation, operational ownership, and building real code to solve real problems. You’ll work across security operations, incident response, application and infrastructure security, and internal tooling. /p p This is not a role limited to reviewing logs and designs or simply escalating findings. You will carry real ownership for the day-to-day work that protects Privy: investigating anomalies, improving security workflows, and building the automation that makes the team faster and more effective over time. You’ll work closely with engineers across Privy and alongside specialists in cryptography, application security, offensive security, and infrastructure security to turn security expertise into practical, durable outcomes. /p h3 strong Responsibilities /strong /h3 ul li style= font-weight: 400; Own security engineering work end to end: investigate alerts, findings, anomalies, and security requests; identify root causes; drive remediation; and clearly document outcomes. /li li Participate in Privy’s securi",
    "salaryText": "",
    "lpa": null,
    "inIndia": false,
